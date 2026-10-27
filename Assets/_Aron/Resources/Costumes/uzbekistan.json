@@ -1,0 +1,104 @@
+{
+  "country": "uzbekistan",
+  "costumes": [
+    {
+      "id": "uzbekistan_traditional",
+      "country": "uzbekistan",
+      "hero": "aron",
+      "nameAr": "الشابان المقلّم",
+      "nameEn": "Striped chapan",
+      "isDefault": true,
+      "price": 0,
+      "materials": [
+        {
+          "material": "Clothes",
+          "color": "#1E5A8A"
+        },
+        {
+          "material": "Trim",
+          "color": "#C9A86A"
+        }
+      ],
+      "meshes": [
+        {
+          "slot": "feet",
+          "mesh": "shoes_closed"
+        }
+      ],
+      "accessories": [
+        {
+          "kind": "long_coat",
+          "color": "#1E5A8A",
+          "pattern": "#E8C14A"
+        },
+        {
+          "kind": "kufi",
+          "color": "#1E1E1E",
+          "pattern": "#FFFFFF"
+        },
+        {
+          "kind": "sash",
+          "color": "#C2343E"
+        }
+      ],
+      "footwear": "leather_shoes",
+      "footwearColor": "#5A3A22",
+      "agalMount": "wrist",
+      "boredIdle": {
+        "id": "uzbekistan_bread_stamp",
+        "trigger": 27,
+        "noteEn": "Stamps a pattern on a round loaf",
+        "lineAr": "خبز النون لازم ينقش!",
+        "seconds": 3.5
+      }
+    },
+    {
+      "id": "uzbekistan_noura",
+      "country": "uzbekistan",
+      "hero": "noura",
+      "nameAr": "عباية السوزاني",
+      "nameEn": "Suzani abaya",
+      "isDefault": true,
+      "price": 0,
+      "materials": [
+        {
+          "material": "Clothes",
+          "color": "#1E5A8A"
+        }
+      ],
+      "meshes": [
+        {
+          "slot": "body",
+          "mesh": "abaya_long"
+        },
+        {
+          "slot": "feet",
+          "mesh": "shoes_closed"
+        }
+      ],
+      "accessories": [
+        {
+          "kind": "abaya",
+          "color": "#1E5A8A",
+          "pattern": "#C9A86A"
+        },
+        {
+          "kind": "hijab",
+          "color": "#F4F0E8"
+        },
+        {
+          "kind": "embroidery",
+          "color": "#C2343E"
+        },
+        {
+          "kind": "shawl",
+          "color": "#E8C14A",
+          "pattern": "#1EB53A"
+        }
+      ],
+      "footwear": "closed_flats",
+      "footwearColor": "#2A2020",
+      "agalMount": "none"
+    }
+  ]
+}

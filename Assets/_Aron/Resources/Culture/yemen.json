@@ -1,0 +1,262 @@
+{
+  "country": "yemen",
+  "dialect": "yemeni",
+  "uiLanguage": "ar",
+  "greeting": {
+    "words": "أهلاً وسهلاً",
+    "wordsEn": "Welcome",
+    "wordsAr": "أهلاً وسهلاً",
+    "gesture": "handshake"
+  },
+  "hospitality": {
+    "ar": "في اليمن يُستقبل الضيف بفنجان قهوة.",
+    "en": "In Yemen, guests are welcomed with a cup of coffee.",
+    "tr": "Yemen misafirleri bir fincan kahveyle karşılar.",
+    "de": "Im Jemen empfängt man Gäste mit einer Tasse Kaffee.",
+    "ur": "یمن میں مہمان کا استقبال کافی کے کپ سے ہوتا ہے۔",
+    "hi": "यमन में मेहमान का स्वागत एक कप कॉफ़ी से होता है।",
+    "es": "En Yemen se recibe a los invitados con una taza de café.",
+    "pt": "No Iémen recebem-se os convidados com um cafezinho.",
+    "id": "Di Yaman, tamu disambut dengan secangkir kopi.",
+    "ms": "Di Yaman, tetamu disambut dengan secawan kopi.",
+    "ja": "イエメンではお客さんをコーヒーでもてなします。",
+    "fr": "Yémen : on accueille les invités avec une tasse de café."
+  },
+  "customs": [
+    {
+      "act": "pour_coffee",
+      "en": "Qishr coffee from the husk with ginger.",
+      "ar": "قهوة القشر بالزنجبيل."
+    },
+    {
+      "act": "share_bread",
+      "en": "Bint al-sahn is shared hot with honey.",
+      "ar": "بنت الصحن تنقسم حارة بالعسل."
+    }
+  ],
+  "architecture": "Tall painted tower houses, mountain terraces, mud skyscrapers.",
+  "palette": [
+    "#CE1126",
+    "#FFFFFF",
+    "#000000",
+    "#C8A060"
+  ],
+  "music": {
+    "style": "Sanaani song",
+    "instruments": [
+      "oud",
+      "mirwas",
+      "qanbus"
+    ]
+  },
+  "street": {
+    "vendors": [
+      "honey seller",
+      "bread oven"
+    ],
+    "cafe": "mafraj with a view",
+    "kidsGames": [
+      "kairam",
+      "stone game"
+    ],
+    "crowd": "crowded markets, mountain air"
+  },
+  "foods": [
+    {
+      "id": "yemen_saltah",
+      "local": "Saltah",
+      "name": {
+        "ar": "سلتة",
+        "en": "Bubbling stew with fenugreek",
+        "tr": "Saltah",
+        "de": "Saltah",
+        "ur": "سلتہ",
+        "hi": "सल्तह",
+        "es": "Saltah",
+        "pt": "Saltah",
+        "id": "Saltah",
+        "ms": "Saltah",
+        "ja": "サルタ",
+        "fr": "Saltah"
+      },
+      "fact": {
+        "ar": "تُعرف غالباً بأنها الأكلة الوطنية في اليمن.",
+        "en": "Often called the national dish of Yemen.",
+        "tr": "Genellikle Yemen ulusal yemeği sayılır.",
+        "de": "Gilt oft als Nationalgericht vom Jemen.",
+        "ur": "اسے اکثر یمن کا قومی کھانا کہا جاتا ہے۔",
+        "hi": "इसे अक्सर यमन का राष्ट्रीय व्यंजन कहा जाता है।",
+        "es": "Se le suele llamar el plato nacional de Yemen.",
+        "pt": "É muitas vezes chamado o prato nacional do Iémen.",
+        "id": "Sering disebut hidangan nasional Yaman.",
+        "ms": "Sering disebut hidangan kebangsaan Yaman.",
+        "ja": "イエメンの国民食とよく言われます。",
+        "fr": "Yémen : souvent appelé le plat national."
+      },
+      "shape": "bowl",
+      "color": "#8A4A1E",
+      "color2": "#6A8F3A",
+      "buff": "strength",
+      "price": 60
+    },
+    {
+      "id": "yemen_bint_sahn",
+      "local": "Bint al-sahn",
+      "name": {
+        "ar": "بنت الصحن",
+        "en": "Honey layered bread",
+        "tr": "Bint al-sahn",
+        "de": "Bint al-sahn",
+        "ur": "شہد والی روٹی",
+        "hi": "शहद वाली रोटी",
+        "es": "Bint al-sahn",
+        "pt": "Bint al-sahn",
+        "id": "Bint al-sahn",
+        "ms": "Bint al-sahn",
+        "ja": "ビント・アッサフン",
+        "fr": "Bint al-sahn"
+      },
+      "fact": {
+        "ar": "حلا محبوب في اليمن، أحلى مع الشاي أو القهوة.",
+        "en": "A sweet treat in Yemen, best with tea or coffee.",
+        "tr": "Yemen için tatlı bir ikram, çay ya da kahveyle en güzeli.",
+        "de": "Eine süße Leckerei im Jemen, am besten mit Tee oder Kaffee.",
+        "ur": "یمن کی میٹھی سوغات، چائے یا کافی کے ساتھ مزیدار۔",
+        "hi": "यमन की मीठी सौगात, चाय या कॉफ़ी के साथ सबसे अच्छी।",
+        "es": "Un dulce de Yemen, mejor con té o café.",
+        "pt": "Um doce do Iémen, melhor com chá ou café.",
+        "id": "Camilan manis di Yaman, paling enak dengan teh atau kopi.",
+        "ms": "Manisan di Yaman, paling sedap dengan teh atau kopi.",
+        "ja": "イエメンの甘いおやつ。お茶やコーヒーと一緒にどうぞ。",
+        "fr": "Yémen : une douceur, parfaite avec un thé ou un café."
+      },
+      "shape": "cake",
+      "color": "#E8C14A",
+      "color2": "#8A5A2A",
+      "buff": "energy",
+      "price": 45
+    },
+    {
+      "id": "yemen_mandi",
+      "local": "Mandi",
+      "name": {
+        "ar": "مندي",
+        "en": "Pit-cooked rice and chicken",
+        "tr": "Mandi",
+        "de": "Mandi",
+        "ur": "مندی",
+        "hi": "मंडी",
+        "es": "Mandi",
+        "pt": "Mandi",
+        "id": "Mandi",
+        "ms": "Mandi",
+        "ja": "マンディ",
+        "fr": "Mandi"
+      },
+      "fact": {
+        "ar": "تُطبخ في الأعراس والأعياد ولمّات العائلة في اليمن.",
+        "en": "Cooked for weddings, Eid and big family days in Yemen.",
+        "tr": "Yemen düğünlerinde, bayramlarda ve aile günlerinde pişirilir.",
+        "de": "Im Jemen gekocht für Hochzeiten, Eid und große Familientage.",
+        "ur": "یمن میں شادیوں، عید اور خاندانی دنوں پر پکایا جاتا ہے۔",
+        "hi": "यमन में शादियों, ईद और परिवार के ख़ास दिनों पर बनता है।",
+        "es": "Se cocina para bodas, Eid y grandes días en familia en Yemen.",
+        "pt": "Cozinhado para casamentos, Eid e grandes dias de família no Iémen.",
+        "id": "Dimasak untuk pernikahan, Idul Fitri, dan kumpul keluarga di Yaman.",
+        "ms": "Dimasak untuk majlis kahwin, Hari Raya dan hari keluarga di Yaman.",
+        "ja": "イエメンでは結婚式やイード、家族の集まりで作られます。",
+        "fr": "Yémen : préparé pour les mariages, l'Aïd et les grands jours en famille."
+      },
+      "shape": "plate",
+      "color": "#E8A03A",
+      "color2": "#8A4A2A",
+      "buff": "strength",
+      "price": 80
+    },
+    {
+      "id": "yemen_fahsa",
+      "local": "Fahsa",
+      "name": {
+        "ar": "فحسة",
+        "en": "Shredded meat stew",
+        "tr": "Fahsa",
+        "de": "Fahsa",
+        "ur": "فحسہ",
+        "hi": "फ़हसा",
+        "es": "Fahsa",
+        "pt": "Fahsa",
+        "id": "Fahsa",
+        "ms": "Fahsa",
+        "ja": "ファフサ",
+        "fr": "Fahsa"
+      },
+      "fact": {
+        "ar": "يتشاركونه من صحن كبير مع الأهل والضيوف في اليمن.",
+        "en": "Shared from one big plate with family and guests in Yemen.",
+        "tr": "Yemen için aile ve misafirlerle büyük bir tabaktan paylaşılır.",
+        "de": "Im Jemen von einer großen Platte mit Familie und Gästen geteilt.",
+        "ur": "یمن میں گھر والوں اور مہمانوں کے ساتھ ایک بڑی پلیٹ سے کھایا جاتا ہے۔",
+        "hi": "यमन में परिवार और मेहमानों के साथ एक बड़ी थाली से खाया जाता है।",
+        "es": "Se comparte de una gran fuente con familia e invitados en Yemen.",
+        "pt": "Partilha-se de uma grande travessa com família e convidados no Iémen.",
+        "id": "Disantap bersama dari satu piring besar dengan keluarga dan tamu di Yaman.",
+        "ms": "Dikongsi dari satu pinggan besar bersama keluarga dan tetamu di Yaman.",
+        "ja": "イエメンでは大皿から家族やお客さんと分け合います。",
+        "fr": "Yémen : partagé dans un grand plat avec la famille et les invités."
+      },
+      "shape": "bowl",
+      "color": "#6B3A1E",
+      "color2": "#E0C08A",
+      "buff": "strength",
+      "price": 60
+    },
+    {
+      "id": "yemen_qishr",
+      "local": "Qishr",
+      "name": {
+        "ar": "قشر",
+        "en": "Coffee-husk ginger drink",
+        "tr": "Qishr",
+        "de": "Qishr",
+        "ur": "قشر",
+        "hi": "क़िश्र",
+        "es": "Qishr",
+        "pt": "Qishr",
+        "id": "Qishr",
+        "ms": "Qishr",
+        "ja": "ギシュル",
+        "fr": "Qishr"
+      },
+      "fact": {
+        "ar": "مشروب يُقدَّم للضيف في اليمن.",
+        "en": "A drink offered to guests in Yemen.",
+        "tr": "Yemen için misafire ikram edilen bir içecek.",
+        "de": "Ein Getränk, das man im Jemen Gästen anbietet.",
+        "ur": "یمن میں مہمان کو پیش کیا جانے والا مشروب۔",
+        "hi": "यमन में मेहमान को दिया जाने वाला पेय।",
+        "es": "Una bebida que se ofrece a los invitados en Yemen.",
+        "pt": "Uma bebida oferecida aos convidados no Iémen.",
+        "id": "Minuman yang disuguhkan untuk tamu di Yaman.",
+        "ms": "Minuman yang dihidangkan kepada tetamu di Yaman.",
+        "ja": "イエメンでお客さんに出される飲み物です。",
+        "fr": "Yémen : une boisson offerte aux invités."
+      },
+      "shape": "cup",
+      "color": "#C8A060",
+      "color2": "#8A5A2A",
+      "buff": "speed",
+      "price": 20
+    }
+  ],
+  "animals": [
+    "yemen_ibex",
+    "yemen_camel",
+    "yemen_falcon"
+  ],
+  "attackTrailVfx": "coffee_steam",
+  "eatIdle": {
+    "dishId": "yemen_saltah",
+    "propModel": "food_saltah",
+    "reaction": "hot"
+  }
+}

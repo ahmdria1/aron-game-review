@@ -1,0 +1,101 @@
+{
+  "country": "germany",
+  "costumes": [
+    {
+      "id": "germany_traditional",
+      "country": "germany",
+      "hero": "aron",
+      "nameAr": "البنطال الجلدي",
+      "nameEn": "Lederhosen",
+      "isDefault": true,
+      "price": 0,
+      "materials": [
+        {
+          "material": "Clothes",
+          "color": "#F4F0E8"
+        },
+        {
+          "material": "Trim",
+          "color": "#C9A86A"
+        }
+      ],
+      "meshes": [
+        {
+          "slot": "feet",
+          "mesh": "shoes_closed"
+        }
+      ],
+      "accessories": [
+        {
+          "kind": "shirt",
+          "color": "#FFFFFF",
+          "pattern": "#3A6EA5"
+        },
+        {
+          "kind": "lederhosen",
+          "color": "#6B4A2A",
+          "pattern": "#4F7A3A"
+        },
+        {
+          "kind": "bavarian_hat",
+          "color": "#3A5A3A",
+          "pattern": "#8A5A2A"
+        }
+      ],
+      "footwear": "leather_shoes",
+      "footwearColor": "#5A3A22",
+      "agalMount": "wrist",
+      "boredIdle": {
+        "id": "germany_pretzel_twist",
+        "trigger": 25,
+        "noteEn": "Twists his arms into a pretzel shape",
+        "lineAr": "مثل البريتزل بالضبط!",
+        "seconds": 3.5
+      }
+    },
+    {
+      "id": "germany_noura",
+      "country": "germany",
+      "hero": "noura",
+      "nameAr": "العباية والمريلة",
+      "nameEn": "Abaya and apron",
+      "isDefault": true,
+      "price": 0,
+      "materials": [
+        {
+          "material": "Clothes",
+          "color": "#2E4A2A"
+        }
+      ],
+      "meshes": [
+        {
+          "slot": "body",
+          "mesh": "abaya_long"
+        },
+        {
+          "slot": "feet",
+          "mesh": "shoes_closed"
+        }
+      ],
+      "accessories": [
+        {
+          "kind": "abaya",
+          "color": "#2E4A2A",
+          "pattern": "#C9A86A"
+        },
+        {
+          "kind": "hijab",
+          "color": "#F4F0E8"
+        },
+        {
+          "kind": "apron",
+          "color": "#F4F0E8",
+          "pattern": "#DD0000"
+        }
+      ],
+      "footwear": "closed_flats",
+      "footwearColor": "#2A2020",
+      "agalMount": "none"
+    }
+  ]
+}

@@ -1,0 +1,178 @@
+{
+  "country": "jordan",
+  "costumes": [
+    {
+      "id": "jordan_shemagh",
+      "country": "jordan",
+      "hero": "aron",
+      "nameAr": "الثوب والشماغ الأحمر",
+      "nameEn": "Thobe and red shemagh",
+      "isDefault": true,
+      "price": 0,
+      "materials": [
+        {
+          "material": "Clothes",
+          "color": "#F3F0E7"
+        }
+      ],
+      "meshes": [
+        {
+          "slot": "body",
+          "mesh": "thobe_long"
+        },
+        {
+          "slot": "feet",
+          "mesh": "shoes_closed"
+        }
+      ],
+      "accessories": [
+        {
+          "kind": "shemagh",
+          "color": "#C8141E",
+          "pattern": "#F4F1EA"
+        },
+        {
+          "kind": "agal",
+          "color": "#111111"
+        }
+      ],
+      "footwear": "leather_shoes",
+      "footwearColor": "#5A3A22",
+      "agalMount": "head"
+    },
+    {
+      "id": "jordan_bisht",
+      "country": "jordan",
+      "hero": "aron",
+      "nameAr": "الشماغ الأحمر والبشت",
+      "nameEn": "Red shemagh and bisht",
+      "isDefault": false,
+      "price": 0,
+      "materials": [
+        {
+          "material": "Clothes",
+          "color": "#F3F0E7"
+        }
+      ],
+      "meshes": [
+        {
+          "slot": "body",
+          "mesh": "thobe_long"
+        },
+        {
+          "slot": "feet",
+          "mesh": "shoes_closed"
+        }
+      ],
+      "accessories": [
+        {
+          "kind": "shemagh",
+          "color": "#C8141E",
+          "pattern": "#F4F1EA"
+        },
+        {
+          "kind": "agal",
+          "color": "#111111"
+        },
+        {
+          "kind": "bisht",
+          "color": "#2B2520",
+          "pattern": "#C8A24A"
+        }
+      ],
+      "footwear": "leather_shoes",
+      "footwearColor": "#5A3A22",
+      "agalMount": "head"
+    },
+    {
+      "id": "jordan_noura",
+      "country": "jordan",
+      "hero": "noura",
+      "nameAr": "الثوب الأردني المطرز",
+      "nameEn": "Embroidered Jordanian thobe",
+      "isDefault": true,
+      "price": 0,
+      "materials": [
+        {
+          "material": "Clothes",
+          "color": "#15151A"
+        }
+      ],
+      "meshes": [
+        {
+          "slot": "body",
+          "mesh": "abaya_long"
+        },
+        {
+          "slot": "feet",
+          "mesh": "shoes_closed"
+        }
+      ],
+      "accessories": [
+        {
+          "kind": "abaya",
+          "color": "#15151A",
+          "pattern": "#8E1B2C"
+        },
+        {
+          "kind": "hijab",
+          "color": "#15151A"
+        },
+        {
+          "kind": "embroidery",
+          "color": "#8E1B2C"
+        }
+      ],
+      "footwear": "closed_flats",
+      "footwearColor": "#2A2020",
+      "agalMount": "none"
+    },
+    {
+      "id": "jordan_noura_bisht",
+      "country": "jordan",
+      "hero": "noura",
+      "nameAr": "العباية المطرزة",
+      "nameEn": "Embroidered abaya",
+      "isDefault": false,
+      "price": 0,
+      "materials": [
+        {
+          "material": "Clothes",
+          "color": "#15151A"
+        },
+        {
+          "material": "Trim",
+          "color": "#8E1B2C"
+        }
+      ],
+      "meshes": [
+        {
+          "slot": "body",
+          "mesh": "abaya_embroidered"
+        },
+        {
+          "slot": "feet",
+          "mesh": "shoes_closed"
+        }
+      ],
+      "accessories": [
+        {
+          "kind": "abaya",
+          "color": "#15151A",
+          "pattern": "#8E1B2C"
+        },
+        {
+          "kind": "hijab",
+          "color": "#15151A"
+        },
+        {
+          "kind": "embroidery",
+          "color": "#8E1B2C"
+        }
+      ],
+      "footwear": "closed_flats",
+      "footwearColor": "#2A2020",
+      "agalMount": "none"
+    }
+  ]
+}

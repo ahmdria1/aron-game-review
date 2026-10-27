@@ -1,0 +1,100 @@
+{
+  "country": "japan",
+  "costumes": [
+    {
+      "id": "japan_traditional",
+      "country": "japan",
+      "hero": "aron",
+      "nameAr": "سترة المهرجان",
+      "nameEn": "Festival happi coat",
+      "isDefault": true,
+      "price": 0,
+      "materials": [
+        {
+          "material": "Clothes",
+          "color": "#1E3A6E"
+        },
+        {
+          "material": "Trim",
+          "color": "#C9A86A"
+        }
+      ],
+      "meshes": [
+        {
+          "slot": "feet",
+          "mesh": "shoes_closed"
+        }
+      ],
+      "accessories": [
+        {
+          "kind": "shirt",
+          "color": "#FFFFFF"
+        },
+        {
+          "kind": "long_coat",
+          "color": "#1E3A6E",
+          "pattern": "#FFFFFF"
+        },
+        {
+          "kind": "headband",
+          "color": "#FFFFFF",
+          "pattern": "#BC002D"
+        }
+      ],
+      "footwear": "leather_shoes",
+      "footwearColor": "#5A3A22",
+      "agalMount": "wrist",
+      "boredIdle": {
+        "id": "japan_polite_bow",
+        "trigger": 32,
+        "noteEn": "Bows politely to nobody in particular",
+        "lineAr": "أهلاً... أقصد كونيتشيوا!",
+        "seconds": 3
+      }
+    },
+    {
+      "id": "japan_noura",
+      "country": "japan",
+      "hero": "noura",
+      "nameAr": "العباية والحزام",
+      "nameEn": "Abaya and obi sash",
+      "isDefault": true,
+      "price": 0,
+      "materials": [
+        {
+          "material": "Clothes",
+          "color": "#1E3A6E"
+        }
+      ],
+      "meshes": [
+        {
+          "slot": "body",
+          "mesh": "abaya_long"
+        },
+        {
+          "slot": "feet",
+          "mesh": "shoes_closed"
+        }
+      ],
+      "accessories": [
+        {
+          "kind": "abaya",
+          "color": "#1E3A6E",
+          "pattern": "#C9A86A"
+        },
+        {
+          "kind": "hijab",
+          "color": "#F2A6C0"
+        },
+        {
+          "kind": "sash",
+          "color": "#BC002D",
+          "pattern": "#F2A6C0"
+        }
+      ],
+      "footwear": "closed_flats",
+      "footwearColor": "#2A2020",
+      "agalMount": "none"
+    }
+  ]
+}

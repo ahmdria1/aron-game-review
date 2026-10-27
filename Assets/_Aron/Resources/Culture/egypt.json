@@ -1,0 +1,263 @@
+{
+  "country": "egypt",
+  "dialect": "egyptian",
+  "uiLanguage": "ar",
+  "greeting": {
+    "words": "أهلاً وسهلاً، نورتونا",
+    "wordsEn": "Welcome, you light up our home",
+    "wordsAr": "أهلاً وسهلاً، نورتونا",
+    "gesture": "handshake"
+  },
+  "hospitality": {
+    "ar": "في مصر أول شي يُقدَّم للضيف كاسة شاي.",
+    "en": "In Egypt, the first thing a guest gets is a glass of tea.",
+    "tr": "Mısır misafire ilk olarak bir bardak çay ikram eder.",
+    "de": "In Ägypten bekommt ein Gast zuerst ein Glas Tee.",
+    "ur": "مصر میں مہمان کو سب سے پہلے چائے پیش کی جاتی ہے۔",
+    "hi": "मिस्र में मेहमान को सबसे पहले चाय दी जाती है।",
+    "es": "En Egipto, lo primero que recibe un invitado es un vaso de té.",
+    "pt": "No Egito, a primeira coisa que um convidado recebe é um copo de chá.",
+    "id": "Di Mesir, tamu pertama-tama disuguhi segelas teh.",
+    "ms": "Di Mesir, tetamu mula-mula dihidangkan segelas teh.",
+    "ja": "エジプトではお客さんにまずお茶を一杯出します。",
+    "fr": "Égypte : la première chose qu'on offre à un invité, c'est un verre de thé."
+  },
+  "customs": [
+    {
+      "act": "pour_tea",
+      "en": "Tea with mint, on the street or at home.",
+      "ar": "شاي بالنعناع في الشارع أو في البيت."
+    },
+    {
+      "act": "bargain",
+      "en": "Bargaining in the bazaar is half the fun.",
+      "ar": "الفصال في السوق نص المتعة."
+    }
+  ],
+  "architecture": "Pyramids and ancient stone ruins, Islamic Cairo's lanes, Nile feluccas.",
+  "palette": [
+    "#CE1126",
+    "#FFFFFF",
+    "#000000",
+    "#C8A060"
+  ],
+  "music": {
+    "style": "Saidi and tarab",
+    "instruments": [
+      "mizmar",
+      "tabla",
+      "oud"
+    ]
+  },
+  "street": {
+    "vendors": [
+      "koshari cart",
+      "sugarcane juice"
+    ],
+    "cafe": "ahwa street café",
+    "kidsGames": [
+      "football",
+      "hopscotch"
+    ],
+    "crowd": "loud, funny, crowded"
+  },
+  "foods": [
+    {
+      "id": "egypt_koshari",
+      "local": "Koshari",
+      "name": {
+        "ar": "كشري",
+        "en": "Rice, lentils and pasta",
+        "tr": "Koshari",
+        "de": "Koshari",
+        "ur": "کشری",
+        "hi": "कुशरी",
+        "es": "Koshari",
+        "pt": "Koshari",
+        "id": "Koshari",
+        "ms": "Koshari",
+        "ja": "コシャリ",
+        "fr": "Koshari"
+      },
+      "fact": {
+        "ar": "تُعرف غالباً بأنها الأكلة الوطنية في مصر.",
+        "en": "Often called the national dish of Egypt.",
+        "tr": "Genellikle Mısır ulusal yemeği sayılır.",
+        "de": "Gilt oft als Nationalgericht von Ägypten.",
+        "ur": "اسے اکثر مصر کا قومی کھانا کہا جاتا ہے۔",
+        "hi": "इसे अक्सर मिस्र का राष्ट्रीय व्यंजन कहा जाता है।",
+        "es": "Se le suele llamar el plato nacional de Egipto.",
+        "pt": "É muitas vezes chamado o prato nacional do Egito.",
+        "id": "Sering disebut hidangan nasional Mesir.",
+        "ms": "Sering disebut hidangan kebangsaan Mesir.",
+        "ja": "エジプトの国民食とよく言われます。",
+        "fr": "Égypte : souvent appelé le plat national."
+      },
+      "shape": "bowl",
+      "color": "#C8803A",
+      "color2": "#C8553D",
+      "buff": "strength",
+      "price": 35
+    },
+    {
+      "id": "egypt_ful",
+      "local": "Ful medames",
+      "name": {
+        "ar": "فول مدمس",
+        "en": "Stewed fava beans",
+        "tr": "Ful medames",
+        "de": "Ful medames",
+        "ur": "فول مدمس",
+        "hi": "फ़ूल मुदम्मस",
+        "es": "Ful medames",
+        "pt": "Ful medames",
+        "id": "Ful medames",
+        "ms": "Ful medames",
+        "ja": "フール・メダンメス",
+        "fr": "Ful medames"
+      },
+      "fact": {
+        "ar": "فطور محبوب في مصر.",
+        "en": "A favourite breakfast in Egypt.",
+        "tr": "Mısır için sevilen bir kahvaltı.",
+        "de": "Ein beliebtes Frühstück in Ägypten.",
+        "ur": "مصر کا پسندیدہ ناشتہ۔",
+        "hi": "मिस्र का पसंदीदा नाश्ता।",
+        "es": "Un desayuno favorito en Egipto.",
+        "pt": "Um pequeno-almoço favorito no Egito.",
+        "id": "Sarapan favorit di Mesir.",
+        "ms": "Sarapan kegemaran di Mesir.",
+        "ja": "エジプトで人気の朝ごはんです。",
+        "fr": "Égypte : un petit-déjeuner très apprécié."
+      },
+      "shape": "bowl",
+      "color": "#8A5A2A",
+      "color2": "#6A8F3A",
+      "buff": "strength",
+      "price": 25
+    },
+    {
+      "id": "egypt_taameya",
+      "local": "Ta'ameya",
+      "name": {
+        "ar": "طعمية",
+        "en": "Fava bean falafel",
+        "tr": "Ta'ameya",
+        "de": "Ta'ameya",
+        "ur": "طعمیہ",
+        "hi": "तामेया",
+        "es": "Ta'ameya",
+        "pt": "Ta'ameya",
+        "id": "Ta'ameya",
+        "ms": "Ta'ameya",
+        "ja": "ターメイヤ",
+        "fr": "Ta'ameya"
+      },
+      "fact": {
+        "ar": "يُباع حاراً في بسطات الشوارع في كل مصر.",
+        "en": "Sold hot at street stalls all over Egypt.",
+        "tr": "Mısır genelinde sokak tezgâhlarında sıcak satılır.",
+        "de": "Überall in Ägypten heiß an Straßenständen verkauft.",
+        "ur": "پورے مصر میں ٹھیلوں پر گرم گرم بکتا ہے۔",
+        "hi": "पूरे मिस्र में ठेलों पर गरमा-गरम बिकता है।",
+        "es": "Se vende caliente en puestos callejeros por todo el territorio de Egipto.",
+        "pt": "Vende-se quente em bancas de rua em todo o Egito.",
+        "id": "Dijual hangat di kaki lima di seluruh Mesir.",
+        "ms": "Dijual panas di gerai tepi jalan di seluruh Mesir.",
+        "ja": "エジプトのあちこちの屋台で熱々で売られています。",
+        "fr": "Égypte : vendu tout chaud dans les stands de rue."
+      },
+      "shape": "ball",
+      "color": "#6A8F3A",
+      "color2": "#8A5A2A",
+      "buff": "speed",
+      "price": 20
+    },
+    {
+      "id": "egypt_molokhia",
+      "local": "Molokhia",
+      "name": {
+        "ar": "ملوخية",
+        "en": "Jute leaf stew",
+        "tr": "Molokhia",
+        "de": "Molokhia",
+        "ur": "ملوخیہ",
+        "hi": "मुलूख़िया",
+        "es": "Molokhia",
+        "pt": "Molokhia",
+        "id": "Molokhia",
+        "ms": "Molokhia",
+        "ja": "モロヘイヤスープ",
+        "fr": "Molokhia"
+      },
+      "fact": {
+        "ar": "يتشاركونه من صحن كبير مع الأهل والضيوف في مصر.",
+        "en": "Shared from one big plate with family and guests in Egypt.",
+        "tr": "Mısır için aile ve misafirlerle büyük bir tabaktan paylaşılır.",
+        "de": "In Ägypten von einer großen Platte mit Familie und Gästen geteilt.",
+        "ur": "مصر میں گھر والوں اور مہمانوں کے ساتھ ایک بڑی پلیٹ سے کھایا جاتا ہے۔",
+        "hi": "मिस्र में परिवार और मेहमानों के साथ एक बड़ी थाली से खाया जाता है।",
+        "es": "Se comparte de una gran fuente con familia e invitados en Egipto.",
+        "pt": "Partilha-se de uma grande travessa com família e convidados no Egito.",
+        "id": "Disantap bersama dari satu piring besar dengan keluarga dan tamu di Mesir.",
+        "ms": "Dikongsi dari satu pinggan besar bersama keluarga dan tetamu di Mesir.",
+        "ja": "エジプトでは大皿から家族やお客さんと分け合います。",
+        "fr": "Égypte : partagé dans un grand plat avec la famille et les invités."
+      },
+      "shape": "bowl",
+      "color": "#2E6A2A",
+      "color2": "#F5EEDC",
+      "buff": "energy",
+      "price": 40
+    },
+    {
+      "id": "egypt_basbousa",
+      "local": "Basbousa",
+      "name": {
+        "ar": "بسبوسة",
+        "en": "Semolina syrup cake",
+        "tr": "Basbousa",
+        "de": "Basbousa",
+        "ur": "بسبوسہ",
+        "hi": "बस्बूसा",
+        "es": "Basbousa",
+        "pt": "Basbousa",
+        "id": "Basbousa",
+        "ms": "Basbousa",
+        "ja": "バスブーサ",
+        "fr": "Basbousa"
+      },
+      "fact": {
+        "ar": "حلا محبوب في مصر، أحلى مع الشاي أو القهوة.",
+        "en": "A sweet treat in Egypt, best with tea or coffee.",
+        "tr": "Mısır için tatlı bir ikram, çay ya da kahveyle en güzeli.",
+        "de": "Eine süße Leckerei in Ägypten, am besten mit Tee oder Kaffee.",
+        "ur": "مصر کی میٹھی سوغات، چائے یا کافی کے ساتھ مزیدار۔",
+        "hi": "मिस्र की मीठी सौगात, चाय या कॉफ़ी के साथ सबसे अच्छी।",
+        "es": "Un dulce de Egipto, mejor con té o café.",
+        "pt": "Um doce do Egito, melhor com chá ou café.",
+        "id": "Camilan manis di Mesir, paling enak dengan teh atau kopi.",
+        "ms": "Manisan di Mesir, paling sedap dengan teh atau kopi.",
+        "ja": "エジプトの甘いおやつ。お茶やコーヒーと一緒にどうぞ。",
+        "fr": "Égypte : une douceur, parfaite avec un thé ou un café."
+      },
+      "shape": "cake",
+      "color": "#E8B33A",
+      "color2": "#F5EEDC",
+      "buff": "energy",
+      "price": 30
+    }
+  ],
+  "animals": [
+    "egypt_camel",
+    "egypt_ibis",
+    "egypt_crocodile",
+    "egypt_egyptian_cobra"
+  ],
+  "attackTrailVfx": "lotus_petals",
+  "eatIdle": {
+    "dishId": "egypt_koshari",
+    "propModel": "food_koshari",
+    "reaction": "yum"
+  }
+}

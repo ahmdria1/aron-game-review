@@ -1,0 +1,237 @@
+{
+  "order": 300,
+  "id": "yemen",
+  "nameAr": "اليمن",
+  "nameEn": "Yemen",
+  "group": "arab",
+  "music": "music_country_yemen",
+  "ground": "#C9A57A",
+  "accent": "#CE1126",
+  "sky": "#A6C8E2",
+  "country": "yemen",
+  "costume": "",
+  "stages": [
+    {
+      "id": "yemen_1",
+      "nameAr": "باب اليمن",
+      "nameEn": "Bab al-Yemen",
+      "terrain": "street",
+      "landmarks": [
+        "gate",
+        "tower_houses"
+      ],
+      "mount": "",
+      "difficulty": 3,
+      "boss": false,
+      "lineAr": "باب اليمن، وصنعاء القديمة وراه.",
+      "extra": "",
+      "time": "day",
+      "weather": "clear",
+      "type": "normal",
+      "costume": ""
+    },
+    {
+      "id": "yemen_2",
+      "nameAr": "سوق الملح",
+      "nameEn": "Souq al-Milh",
+      "terrain": "souq",
+      "landmarks": [
+        "souq",
+        "tower_houses"
+      ],
+      "mount": "",
+      "difficulty": 4,
+      "boss": false,
+      "lineAr": "سوق الملح، البن والزبيب والحلاوة.",
+      "extra": "",
+      "time": "day",
+      "weather": "clear",
+      "type": "normal",
+      "costume": ""
+    },
+    {
+      "id": "yemen_3",
+      "nameAr": "دار الحجر",
+      "nameEn": "Dar al-Hajar",
+      "terrain": "mountain",
+      "landmarks": [
+        "tower_houses",
+        "mountains"
+      ],
+      "mount": "",
+      "difficulty": 4,
+      "boss": false,
+      "lineAr": "قصر على صخرة! لازم أطلع.",
+      "extra": "",
+      "time": "sunset",
+      "weather": "clear",
+      "type": "normal",
+      "costume": ""
+    },
+    {
+      "id": "yemen_4",
+      "nameAr": "شبام حضرموت",
+      "nameEn": "Shibam, Hadramawt",
+      "terrain": "desert",
+      "landmarks": [
+        "tower_houses",
+        "dunes"
+      ],
+      "mount": "camel",
+      "difficulty": 5,
+      "boss": false,
+      "lineAr": "مانهاتن الصحراء! والعجاج طالع.",
+      "extra": "",
+      "time": "day",
+      "weather": "sandstorm",
+      "type": "chase",
+      "costume": ""
+    },
+    {
+      "id": "yemen_5",
+      "nameAr": "جبال حراز",
+      "nameEn": "Haraz Mountains",
+      "terrain": "mountain",
+      "landmarks": [
+        "terraces",
+        "mountains"
+      ],
+      "mount": "horse",
+      "difficulty": 5,
+      "boss": false,
+      "lineAr": "المطر نازل على مدرجات حراز!",
+      "extra": "",
+      "time": "day",
+      "weather": "rain",
+      "type": "normal",
+      "costume": ""
+    },
+    {
+      "id": "yemen_6",
+      "nameAr": "سقطرى",
+      "nameEn": "Socotra",
+      "terrain": "coast",
+      "landmarks": [
+        "dragon_trees",
+        "palms"
+      ],
+      "mount": "",
+      "difficulty": 6,
+      "boss": false,
+      "lineAr": "شجر دم الأخوين، كأني في كوكب ثاني.",
+      "extra": "",
+      "time": "sunset",
+      "weather": "clear",
+      "type": "normal",
+      "costume": ""
+    },
+    {
+      "id": "yemen_7",
+      "nameAr": "أزقة صنعاء بالليل",
+      "nameEn": "Sana'a Alleys at Night",
+      "terrain": "street",
+      "landmarks": [
+        "tower_houses",
+        "souq"
+      ],
+      "mount": "",
+      "difficulty": 6,
+      "boss": false,
+      "lineAr": "الشبابيك القمرية تنور، وهم لاحقيني!",
+      "extra": "",
+      "time": "night",
+      "weather": "clear",
+      "type": "chase",
+      "costume": ""
+    },
+    {
+      "id": "yemen_race",
+      "nameAr": "سباق الهجن في تهامة",
+      "nameEn": "Tihama Camel Race",
+      "terrain": "desert",
+      "landmarks": [
+        "dunes",
+        "palms"
+      ],
+      "mount": "",
+      "difficulty": 6,
+      "boss": false,
+      "lineAr": "سباق! سباق الهجن في تهامة، يلا نشوف مين الأول!",
+      "extra": "",
+      "time": "sunset",
+      "weather": "clear",
+      "type": "race",
+      "costume": "",
+      "race": "yemen_camel"
+    },
+    {
+      "id": "yemen_8",
+      "nameAr": "عدن - كريتر",
+      "nameEn": "Aden - Crater",
+      "terrain": "mountain",
+      "landmarks": [
+        "volcano",
+        "fort"
+      ],
+      "mount": "",
+      "difficulty": 7,
+      "boss": true,
+      "lineAr": "عفريت كريتر ساكن في فوهة البركان...",
+      "extra": "",
+      "time": "night",
+      "weather": "clear",
+      "type": "boss",
+      "costume": ""
+    }
+  ],
+  "boss": {
+    "nameAr": "عفريت كريتر",
+    "nameEn": "The Crater Ifrit",
+    "model": "marid",
+    "headgear": "horns",
+    "body": "#3B2A4F",
+    "trim": "#E07A2E",
+    "projectile": "#FF5A1F",
+    "scale": 1.3,
+    "health": 13,
+    "introAr": "هذا البركان بيتي، وعدن ما تفتح لك!",
+    "stunAr": "النار خمدت في راسي...",
+    "defeatAr": "رجعت للفوهة... اليمن لك.",
+    "phases": [
+      {
+        "threshold": 1.0,
+        "move": 3,
+        "charge": 12,
+        "interval": 3.0,
+        "attacks": [
+          "volley",
+          "summon"
+        ],
+        "tauntAr": "جمر من البركان!"
+      },
+      {
+        "threshold": 0.66,
+        "move": 4,
+        "charge": 14,
+        "interval": 2.5,
+        "attacks": [
+          "dash",
+          "wave"
+        ],
+        "tauntAr": "دخان ونار!"
+      },
+      {
+        "threshold": 0.33,
+        "move": 5,
+        "charge": 16,
+        "interval": 2.0,
+        "attacks": [
+          "leap",
+          "dash",
+          "volley"
+        ],
+        "tauntAr": "الفوهة بتنفجر!"
+      }
+    ]
+  }
+}

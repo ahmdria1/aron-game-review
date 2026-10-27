@@ -1,0 +1,422 @@
+{
+ "patterns": [
+  {
+   "id": "box_break",
+   "timings": [
+    0,
+    25,
+    30,
+    40
+   ],
+   "amplitudes": [
+    0,
+    200,
+    0,
+    120
+   ],
+   "ios": "medium",
+   "maxPerSecond": 8
+  },
+  {
+   "id": "coin",
+   "timings": [
+    0,
+    12
+   ],
+   "amplitudes": [
+    0,
+    90
+   ],
+   "ios": "light",
+   "maxPerSecond": 15
+  },
+  {
+   "id": "land",
+   "timings": [
+    0,
+    35
+   ],
+   "amplitudes": [
+    0,
+    150
+   ],
+   "ios": "medium",
+   "maxPerSecond": 6
+  },
+  {
+   "id": "stomp",
+   "timings": [
+    0,
+    30,
+    25,
+    30
+   ],
+   "amplitudes": [
+    0,
+    230,
+    0,
+    160
+   ],
+   "ios": "heavy",
+   "maxPerSecond": 6
+  },
+  {
+   "id": "hit",
+   "timings": [
+    0,
+    40
+   ],
+   "amplitudes": [
+    0,
+    200
+   ],
+   "ios": "medium",
+   "maxPerSecond": 8
+  },
+  {
+   "id": "bisht_lost",
+   "timings": [
+    0,
+    60,
+    50,
+    90
+   ],
+   "amplitudes": [
+    0,
+    220,
+    0,
+    120
+   ],
+   "ios": "warning",
+   "maxPerSecond": 3
+  },
+  {
+   "id": "death",
+   "timings": [
+    0,
+    80,
+    60,
+    160
+   ],
+   "amplitudes": [
+    0,
+    255,
+    0,
+    140
+   ],
+   "ios": "error",
+   "maxPerSecond": 2
+  },
+  {
+   "id": "explosion",
+   "timings": [
+    0,
+    40,
+    30,
+    70,
+    40,
+    110
+   ],
+   "amplitudes": [
+    0,
+    255,
+    0,
+    200,
+    0,
+    120
+   ],
+   "ios": "heavy",
+   "maxPerSecond": 3
+  },
+  {
+   "id": "boss_hit",
+   "timings": [
+    0,
+    45,
+    25,
+    45
+   ],
+   "amplitudes": [
+    0,
+    240,
+    0,
+    200
+   ],
+   "ios": "heavy",
+   "maxPerSecond": 5
+  },
+  {
+   "id": "boss_defeat",
+   "timings": [
+    0,
+    60,
+    40,
+    60,
+    40,
+    200
+   ],
+   "amplitudes": [
+    0,
+    255,
+    0,
+    220,
+    0,
+    255
+   ],
+   "ios": "success",
+   "maxPerSecond": 1
+  },
+  {
+   "id": "race_boost",
+   "timings": [
+    0,
+    45,
+    35,
+    45
+   ],
+   "amplitudes": [
+    0,
+    150,
+    0,
+    110
+   ],
+   "ios": "medium",
+   "maxPerSecond": 2,
+   "loop": true
+  },
+  {
+   "id": "drift",
+   "timings": [
+    0,
+    30,
+    30
+   ],
+   "amplitudes": [
+    0,
+    70,
+    0
+   ],
+   "ios": "light",
+   "maxPerSecond": 4,
+   "loop": true
+  },
+  {
+   "id": "collision",
+   "timings": [
+    0,
+    70
+   ],
+   "amplitudes": [
+    0,
+    255
+   ],
+   "ios": "heavy",
+   "maxPerSecond": 4
+  },
+  {
+   "id": "gift_break",
+   "timings": [
+    0,
+    30,
+    25,
+    30,
+    25,
+    60
+   ],
+   "amplitudes": [
+    0,
+    160,
+    0,
+    140,
+    0,
+    220
+   ],
+   "ios": "success",
+   "maxPerSecond": 2
+  },
+  {
+   "id": "gallop",
+   "timings": [
+    0,
+    20,
+    90,
+    20
+   ],
+   "amplitudes": [
+    0,
+    100,
+    0,
+    70
+   ],
+   "ios": "light",
+   "maxPerSecond": 3,
+   "loop": true
+  },
+  {
+   "id": "sleeve_tick",
+   "timings": [
+    0,
+    10,
+    40,
+    10
+   ],
+   "amplitudes": [
+    0,
+    70,
+    0,
+    50
+   ],
+   "ios": "light",
+   "maxPerSecond": 4
+  },
+  {
+   "id": "passport_stamp",
+   "timings": [
+    0,
+    70
+   ],
+   "amplitudes": [
+    0,
+    255
+   ],
+   "ios": "heavy",
+   "maxPerSecond": 2
+  },
+  {
+   "id": "passport_visa",
+   "timings": [
+    0,
+    40,
+    40,
+    40
+   ],
+   "amplitudes": [
+    0,
+    170,
+    0,
+    130
+   ],
+   "ios": "medium",
+   "maxPerSecond": 2
+  },
+  {
+   "id": "checkpoint",
+   "timings": [
+    0,
+    30,
+    40,
+    60
+   ],
+   "amplitudes": [
+    0,
+    120,
+    0,
+    200
+   ],
+   "ios": "success",
+   "maxPerSecond": 2
+  },
+  {
+   "id": "collect_item",
+   "timings": [
+    0,
+    40,
+    40,
+    40,
+    40,
+    100
+   ],
+   "amplitudes": [
+    0,
+    150,
+    0,
+    170,
+    0,
+    230
+   ],
+   "ios": "success",
+   "maxPerSecond": 2
+  },
+  {
+   "id": "companion_dash",
+   "timings": [
+    0,
+    35,
+    25,
+    35
+   ],
+   "amplitudes": [
+    0,
+    170,
+    0,
+    130
+   ],
+   "ios": "medium",
+   "maxPerSecond": 3
+  },
+  {
+   "id": "hit_stop",
+   "timings": [
+    0,
+    60
+   ],
+   "amplitudes": [
+    0,
+    230
+   ],
+   "ios": "heavy",
+   "maxPerSecond": 4
+  },
+  {
+   "id": "race_win",
+   "timings": [
+    0,
+    60,
+    40,
+    60,
+    40,
+    200
+   ],
+   "amplitudes": [
+    0,
+    200,
+    0,
+    230,
+    0,
+    255
+   ],
+   "ios": "success",
+   "maxPerSecond": 1
+  },
+  {
+   "id": "star",
+   "timings": [
+    0,
+    25,
+    35,
+    25
+   ],
+   "amplitudes": [
+    0,
+    140,
+    0,
+    170
+   ],
+   "ios": "success",
+   "maxPerSecond": 4
+  },
+  {
+   "id": "ui_confirm",
+   "timings": [
+    0,
+    15
+   ],
+   "amplitudes": [
+    0,
+    100
+   ],
+   "ios": "light",
+   "maxPerSecond": 6
+  }
+ ]
+}

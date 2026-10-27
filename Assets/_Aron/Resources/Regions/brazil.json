@@ -1,0 +1,231 @@
+{
+  "order": 456,
+  "id": "brazil",
+  "nameAr": "البرازيل",
+  "nameEn": "Brazil",
+  "group": "world",
+  "music": "music_country_brazil",
+  "ground": "#5E9A4A",
+  "accent": "#009C3B",
+  "sky": "#9CD0F2",
+  "country": "brazil",
+  "costume": "",
+  "stages": [
+    {
+      "id": "brazil_1",
+      "nameAr": "الأحياء الملونة",
+      "nameEn": "Colourful Hillside",
+      "terrain": "street",
+      "landmarks": [
+        "colour_plaza",
+        "tile_houses"
+      ],
+      "mount": "",
+      "difficulty": 3,
+      "boss": false,
+      "lineAr": "بيوت ملونة على الجبل!",
+      "extra": "",
+      "time": "day",
+      "weather": "clear",
+      "type": "normal",
+      "costume": ""
+    },
+    {
+      "id": "brazil_2",
+      "nameAr": "شاطئ المدينة",
+      "nameEn": "City Beach",
+      "terrain": "coast",
+      "landmarks": [
+        "palms",
+        "flat_mountain"
+      ],
+      "mount": "",
+      "difficulty": 4,
+      "boss": false,
+      "lineAr": "رمل وكورة وموسيقى سامبا.",
+      "extra": "",
+      "time": "sunset",
+      "weather": "clear",
+      "type": "chase",
+      "costume": ""
+    },
+    {
+      "id": "brazil_3",
+      "nameAr": "نهر الأمازون",
+      "nameEn": "Amazon River",
+      "terrain": "river",
+      "landmarks": [
+        "rainforest",
+        "houseboat"
+      ],
+      "mount": "",
+      "difficulty": 5,
+      "boss": false,
+      "lineAr": "أكبر نهر في الدنيا!",
+      "extra": "",
+      "time": "day",
+      "weather": "rain",
+      "type": "action",
+      "costume": ""
+    },
+    {
+      "id": "brazil_4",
+      "nameAr": "الشلالات العظيمة",
+      "nameEn": "The Great Waterfalls",
+      "terrain": "forest",
+      "landmarks": [
+        "rainforest",
+        "lake"
+      ],
+      "mount": "",
+      "difficulty": 6,
+      "boss": false,
+      "lineAr": "شلالات ترش رذاذ في كل مكان.",
+      "extra": "",
+      "time": "day",
+      "weather": "rain",
+      "type": "normal",
+      "costume": ""
+    },
+    {
+      "id": "brazil_5",
+      "nameAr": "المدينة القديمة",
+      "nameEn": "Colonial Old Town",
+      "terrain": "street",
+      "landmarks": [
+        "tile_houses",
+        "fountain"
+      ],
+      "mount": "",
+      "difficulty": 7,
+      "boss": false,
+      "lineAr": "شوارع حجرية وبيوت ملونة.",
+      "extra": "",
+      "time": "sunset",
+      "weather": "clear",
+      "type": "normal",
+      "costume": ""
+    },
+    {
+      "id": "brazil_6",
+      "nameAr": "الموكب الليلي",
+      "nameEn": "Night Parade",
+      "terrain": "street",
+      "landmarks": [
+        "colour_plaza",
+        "row_houses"
+      ],
+      "mount": "",
+      "difficulty": 8,
+      "boss": false,
+      "lineAr": "طبول وريش وألوان!",
+      "extra": "",
+      "time": "night",
+      "weather": "clear",
+      "type": "action",
+      "costume": ""
+    },
+    {
+      "id": "brazil_race",
+      "nameAr": "سباق ركوب الأمواج",
+      "nameEn": "Beach Surf Race",
+      "terrain": "coast",
+      "landmarks": [
+        "palms",
+        "flat_mountain"
+      ],
+      "mount": "",
+      "difficulty": 8,
+      "boss": false,
+      "lineAr": "سباق! سباق ركوب الأمواج، يلا نشوف مين الأول!",
+      "extra": "",
+      "time": "day",
+      "weather": "clear",
+      "type": "race",
+      "costume": "",
+      "race": "brazil_surf"
+    },
+    {
+      "id": "brazil_7",
+      "nameAr": "قلب الأمازون",
+      "nameEn": "Heart of the Amazon",
+      "terrain": "forest",
+      "landmarks": [
+        "rainforest",
+        "waterwheel"
+      ],
+      "mount": "",
+      "difficulty": 10,
+      "boss": true,
+      "lineAr": "جاكوار الغابة صحى!",
+      "extra": "",
+      "time": "night",
+      "weather": "rain",
+      "type": "boss",
+      "costume": ""
+    }
+  ],
+  "skyline": [],
+  "boss": {
+    "nameAr": "جاكوار الغابة",
+    "nameEn": "The Jungle Jaguar",
+    "model": "wolf",
+    "headgear": "crown",
+    "body": "#C8803A",
+    "trim": "#009C3B",
+    "projectile": "#FFDF00",
+    "scale": 1.3,
+    "health": 19,
+    "introAr": "الغابة غابتي!",
+    "stunAr": "ذيلي انعقد!",
+    "defeatAr": "زين... البرازيل لك.",
+    "phases": [
+      {
+        "threshold": 1.0,
+        "move": 4.0,
+        "charge": 14.0,
+        "interval": 2.8,
+        "attacks": [
+          "charge",
+          "summon"
+        ],
+        "tauntAr": "قفزة الجاكوار!"
+      },
+      {
+        "threshold": 0.75,
+        "move": 4.6,
+        "charge": 15.5,
+        "interval": 2.4,
+        "attacks": [
+          "charge",
+          "wave"
+        ],
+        "tauntAr": "مخالب جاهزة!"
+      },
+      {
+        "threshold": 0.5,
+        "move": 5.2,
+        "charge": 17.0,
+        "interval": 2.0,
+        "attacks": [
+          "charge",
+          "volley",
+          "leap"
+        ],
+        "tauntAr": "ما تشوفني بين الأشجار!"
+      },
+      {
+        "threshold": 0.25,
+        "move": 5.8,
+        "charge": 18.5,
+        "interval": 1.6,
+        "attacks": [
+          "charge",
+          "leap",
+          "dash"
+        ],
+        "tauntAr": "كل الغابة!"
+      }
+    ]
+  }
+}

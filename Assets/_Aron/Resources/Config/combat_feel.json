@@ -1,0 +1,9 @@
+{
+  "aim": {
+    "meleeRange": 2.6, "meleeConeDeg": 70, "meleeMaxSnapDeg": 35,
+    "slingRadiusDp": 48, "slingMaxRange": 14,
+    "easyScale": 1.4, "normalScale": 1.0, "hardScale": 0.6,
+    "bossBonus": 0.2, "enemyBonus": 0.1
+  },
+  "hitStop": { "finalHitMs": 80, "phaseBreakMs": 70, "cooldownSeconds": 0.35, "timeScale": 0.02 }
+}

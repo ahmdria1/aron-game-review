@@ -1,0 +1,20 @@
+{
+  "region": "algeria",
+  "shops": [
+    {
+      "stage": "algeria_1",
+      "nameAr": "حلويات عمي رابح",
+      "kind": "sweets"
+    },
+    {
+      "stage": "algeria_5",
+      "nameAr": "زرابي غرداية عند الحاج بكير",
+      "kind": "carpets"
+    },
+    {
+      "stage": "algeria_2",
+      "nameAr": "قهوة الشهداء",
+      "kind": "cafe"
+    }
+  ]
+}

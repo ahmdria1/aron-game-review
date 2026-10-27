@@ -1,0 +1,162 @@
+{
+  "_note": "Age of digital consent for linking an email. Under it a parent approves first. Values are a cautious reading of each law (GDPR Art. 8 per member state, COPPA, India DPDP 2023, Indonesia PDP, Turkey KVKK, South Africa POPIA, Saudi PDPL); legal review pending, see docs/compliance_review.md.",
+  "defaultAge": 13,
+  "countries": [
+    {
+      "iso": "AT",
+      "age": 14
+    },
+    {
+      "iso": "BE",
+      "age": 13
+    },
+    {
+      "iso": "BG",
+      "age": 14
+    },
+    {
+      "iso": "BR",
+      "age": 13
+    },
+    {
+      "iso": "CY",
+      "age": 14
+    },
+    {
+      "iso": "CZ",
+      "age": 15
+    },
+    {
+      "iso": "DE",
+      "age": 16
+    },
+    {
+      "iso": "DK",
+      "age": 13
+    },
+    {
+      "iso": "EE",
+      "age": 13
+    },
+    {
+      "iso": "ES",
+      "age": 14
+    },
+    {
+      "iso": "FI",
+      "age": 13
+    },
+    {
+      "iso": "FR",
+      "age": 15
+    },
+    {
+      "iso": "GB",
+      "age": 13
+    },
+    {
+      "iso": "GR",
+      "age": 15
+    },
+    {
+      "iso": "HR",
+      "age": 16
+    },
+    {
+      "iso": "HU",
+      "age": 16
+    },
+    {
+      "iso": "ID",
+      "age": 18
+    },
+    {
+      "iso": "IE",
+      "age": 16
+    },
+    {
+      "iso": "IN",
+      "age": 18
+    },
+    {
+      "iso": "IT",
+      "age": 14
+    },
+    {
+      "iso": "JP",
+      "age": 15
+    },
+    {
+      "iso": "KR",
+      "age": 14
+    },
+    {
+      "iso": "LT",
+      "age": 14
+    },
+    {
+      "iso": "LU",
+      "age": 16
+    },
+    {
+      "iso": "LV",
+      "age": 13
+    },
+    {
+      "iso": "MT",
+      "age": 13
+    },
+    {
+      "iso": "MX",
+      "age": 13
+    },
+    {
+      "iso": "MY",
+      "age": 13
+    },
+    {
+      "iso": "NL",
+      "age": 16
+    },
+    {
+      "iso": "PL",
+      "age": 16
+    },
+    {
+      "iso": "PT",
+      "age": 13
+    },
+    {
+      "iso": "RO",
+      "age": 16
+    },
+    {
+      "iso": "SA",
+      "age": 18
+    },
+    {
+      "iso": "SE",
+      "age": 13
+    },
+    {
+      "iso": "SI",
+      "age": 15
+    },
+    {
+      "iso": "SK",
+      "age": 16
+    },
+    {
+      "iso": "TR",
+      "age": 18
+    },
+    {
+      "iso": "US",
+      "age": 13
+    },
+    {
+      "iso": "ZA",
+      "age": 18
+    }
+  ]
+}

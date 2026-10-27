@@ -1,0 +1,99 @@
+{
+  "country": "pakistan",
+  "costumes": [
+    {
+      "id": "pakistan_traditional",
+      "country": "pakistan",
+      "hero": "aron",
+      "nameAr": "الشلوار قميص",
+      "nameEn": "Shalwar kameez",
+      "isDefault": true,
+      "price": 0,
+      "materials": [
+        {
+          "material": "Clothes",
+          "color": "#F4F0E8"
+        },
+        {
+          "material": "Trim",
+          "color": "#C9A86A"
+        }
+      ],
+      "meshes": [
+        {
+          "slot": "feet",
+          "mesh": "shoes_closed"
+        }
+      ],
+      "accessories": [
+        {
+          "kind": "kurta",
+          "color": "#F4F0E8",
+          "pattern": "#01411C"
+        },
+        {
+          "kind": "shalwar",
+          "color": "#F4F0E8"
+        },
+        {
+          "kind": "jinnah_cap",
+          "color": "#3A3A3A"
+        }
+      ],
+      "footwear": "leather_shoes",
+      "footwearColor": "#5A3A22",
+      "agalMount": "wrist",
+      "boredIdle": {
+        "id": "pakistan_cricket_swing",
+        "trigger": 28,
+        "noteEn": "Practises a cricket shot",
+        "lineAr": "سكس! برّا الملعب!",
+        "seconds": 3
+      }
+    },
+    {
+      "id": "pakistan_noura",
+      "country": "pakistan",
+      "hero": "noura",
+      "nameAr": "العباية والدوبتا",
+      "nameEn": "Abaya and dupatta",
+      "isDefault": true,
+      "price": 0,
+      "materials": [
+        {
+          "material": "Clothes",
+          "color": "#01411C"
+        }
+      ],
+      "meshes": [
+        {
+          "slot": "body",
+          "mesh": "abaya_long"
+        },
+        {
+          "slot": "feet",
+          "mesh": "shoes_closed"
+        }
+      ],
+      "accessories": [
+        {
+          "kind": "abaya",
+          "color": "#01411C",
+          "pattern": "#C9A86A"
+        },
+        {
+          "kind": "hijab",
+          "color": "#F4F0E8"
+        },
+        {
+          "kind": "dupatta",
+          "color": "#E8C14A",
+          "pattern": "#C8102E"
+        }
+      ],
+      "footwear": "closed_flats",
+      "footwearColor": "#2A2020",
+      "agalMount": "none"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+    "name": "Aron.RemoteConfig.Ugs",
+    "rootNamespace": "Aron.RemoteConfig",
+    "references": [
+        "Aron.Runtime",
+        "Aron.Logic",
+        "Unity.Services.Core",
+        "Unity.Services.Authentication",
+        "Unity.Services.RemoteConfig"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "autoReferenced": true,
+    "defineConstraints": [
+        "ARON_UGS_REMOTE",
+        "ARON_UGS_AUTH"
+    ],
+    "versionDefines": [
+        { "name": "com.unity.remote-config", "expression": "4.0.0", "define": "ARON_UGS_REMOTE" },
+        { "name": "com.unity.services.authentication", "expression": "3.0.0", "define": "ARON_UGS_AUTH" }
+    ],
+    "noEngineReferences": false
+}

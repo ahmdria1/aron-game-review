@@ -1,0 +1,232 @@
+{
+  "order": 448,
+  "id": "usa",
+  "nameAr": "أمريكا",
+  "nameEn": "United States",
+  "group": "world",
+  "music": "music_country_usa",
+  "ground": "#C89A6A",
+  "accent": "#3C3B6E",
+  "sky": "#9ECBF0",
+  "country": "usa",
+  "costume": "",
+  "stages": [
+    {
+      "id": "usa_1",
+      "nameAr": "شوارع ناطحات السحاب",
+      "nameEn": "Skyscraper Avenue",
+      "terrain": "street",
+      "landmarks": [
+        "skyscraper",
+        "row_houses"
+      ],
+      "mount": "",
+      "difficulty": 3,
+      "boss": false,
+      "lineAr": "الأبراج عالية والتاكسي الأصفر في كل مكان!",
+      "extra": "",
+      "time": "day",
+      "weather": "clear",
+      "type": "normal",
+      "costume": ""
+    },
+    {
+      "id": "usa_2",
+      "nameAr": "تمثال الشعلة",
+      "nameEn": "Torch Statue Harbour",
+      "terrain": "coast",
+      "landmarks": [
+        "torch_statue",
+        "sea_tower"
+      ],
+      "mount": "",
+      "difficulty": 4,
+      "boss": false,
+      "lineAr": "تمثال الشعلة في وسط الميناء.",
+      "extra": "",
+      "time": "sunset",
+      "weather": "clear",
+      "type": "chase",
+      "costume": ""
+    },
+    {
+      "id": "usa_3",
+      "nameAr": "الوادي العظيم",
+      "nameEn": "The Great Canyon",
+      "terrain": "desert",
+      "landmarks": [
+        "canyon",
+        "rock_arch"
+      ],
+      "mount": "horse",
+      "difficulty": 5,
+      "boss": false,
+      "lineAr": "صخور حمراء وواد عميق!",
+      "extra": "",
+      "time": "day",
+      "weather": "clear",
+      "type": "action",
+      "costume": ""
+    },
+    {
+      "id": "usa_4",
+      "nameAr": "مزرعة الكاوبوي",
+      "nameEn": "Cowboy Ranch",
+      "terrain": "desert",
+      "landmarks": [
+        "lone_tree",
+        "water_tower"
+      ],
+      "mount": "horse",
+      "difficulty": 6,
+      "boss": false,
+      "lineAr": "خيل وبقر وغبار!",
+      "extra": "",
+      "time": "sunset",
+      "weather": "sandstorm",
+      "type": "normal",
+      "costume": ""
+    },
+    {
+      "id": "usa_5",
+      "nameAr": "غابات الأشجار العملاقة",
+      "nameEn": "Giant Tree Forest",
+      "terrain": "forest",
+      "landmarks": [
+        "cedars",
+        "lake"
+      ],
+      "mount": "",
+      "difficulty": 7,
+      "boss": false,
+      "lineAr": "أطول أشجار في الدنيا.",
+      "extra": "",
+      "time": "day",
+      "weather": "rain",
+      "type": "normal",
+      "costume": ""
+    },
+    {
+      "id": "usa_6",
+      "nameAr": "الجسر الأحمر",
+      "nameEn": "The Red Bridge",
+      "terrain": "coast",
+      "landmarks": [
+        "big_arch",
+        "sea_cliffs"
+      ],
+      "mount": "",
+      "difficulty": 8,
+      "boss": false,
+      "lineAr": "جسر أحمر فوق الضباب.",
+      "extra": "",
+      "time": "night",
+      "weather": "rain",
+      "type": "chase",
+      "costume": ""
+    },
+    {
+      "id": "usa_race",
+      "nameAr": "سباق الطريق الطويل",
+      "nameEn": "Desert Highway Race",
+      "terrain": "street",
+      "landmarks": [
+        "canyon",
+        "water_tower"
+      ],
+      "mount": "",
+      "difficulty": 8,
+      "boss": false,
+      "lineAr": "سباق! سباق الطريق الطويل، يلا نشوف مين الأول!",
+      "extra": "",
+      "time": "sunset",
+      "weather": "clear",
+      "type": "race",
+      "costume": "",
+      "race": "usa_car"
+    },
+    {
+      "id": "usa_7",
+      "nameAr": "حافة الوادي",
+      "nameEn": "Canyon Rim",
+      "terrain": "desert",
+      "landmarks": [
+        "canyon",
+        "rock_arch"
+      ],
+      "mount": "",
+      "difficulty": 10,
+      "boss": true,
+      "lineAr": "عملاق الوادي طلع من الصخر!",
+      "extra": "",
+      "time": "night",
+      "weather": "clear",
+      "type": "boss",
+      "costume": ""
+    }
+  ],
+  "skyline": [],
+  "boss": {
+    "nameAr": "عملاق الوادي",
+    "nameEn": "The Canyon Giant",
+    "model": "golem",
+    "headgear": "none",
+    "body": "#A0522D",
+    "trim": "#3C3B6E",
+    "projectile": "#FFB347",
+    "scale": 1.26,
+    "health": 18,
+    "introAr": "الوادي كله صخري!",
+    "stunAr": "انشقّت صخرتي!",
+    "defeatAr": "تمام... أمريكا لك.",
+    "phases": [
+      {
+        "threshold": 1.0,
+        "move": 4.0,
+        "charge": 14.0,
+        "interval": 2.8,
+        "attacks": [
+          "wave",
+          "summon",
+          "leap"
+        ],
+        "tauntAr": "صخور تتدحرج!"
+      },
+      {
+        "threshold": 0.75,
+        "move": 4.6,
+        "charge": 15.5,
+        "interval": 2.4,
+        "attacks": [
+          "wave",
+          "summon",
+          "dash"
+        ],
+        "tauntAr": "غبار الوادي!"
+      },
+      {
+        "threshold": 0.5,
+        "move": 5.2,
+        "charge": 17.0,
+        "interval": 2.0,
+        "attacks": [
+          "summon",
+          "volley",
+          "dash"
+        ],
+        "tauntAr": "ما فيه طريق!"
+      },
+      {
+        "threshold": 0.25,
+        "move": 5.8,
+        "charge": 18.5,
+        "interval": 1.6,
+        "attacks": [
+          "wave",
+          "volley"
+        ],
+        "tauntAr": "كل الوادي!"
+      }
+    ]
+  }
+}

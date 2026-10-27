@@ -1,0 +1,103 @@
+{
+ "version": 1,
+ "voicesLow": 3,
+ "voicesMedium": 5,
+ "voicesHigh": 8,
+ "oneShotPool": 6,
+ "bikes": [
+  {
+   "id": "scooter",
+   "character": "tiny high buzz",
+   "nameEn": "Scooter",
+   "low": "engine_scooter_low",
+   "mid": "engine_scooter_mid",
+   "high": "engine_scooter_high",
+   "pitchIdle": 0.9,
+   "pitchTop": 1.6,
+   "whine": 0.25,
+   "volume": 0.6,
+   "gears": 2,
+   "rpmRise": 7,
+   "rpmFall": 4
+  },
+  {
+   "id": "dirt_bike",
+   "character": "rattly",
+   "nameEn": "Dirt bike",
+   "low": "engine_dirt_low",
+   "mid": "engine_dirt_mid",
+   "high": "engine_dirt_high",
+   "pitchIdle": 0.8,
+   "pitchTop": 1.5,
+   "whine": 0.1,
+   "volume": 0.75,
+   "gears": 3,
+   "rpmRise": 6,
+   "rpmFall": 3.5
+  },
+  {
+   "id": "cruiser",
+   "character": "goofy deep blub-blub",
+   "nameEn": "Cruiser",
+   "low": "engine_cruiser_low",
+   "mid": "engine_cruiser_mid",
+   "high": "engine_cruiser_high",
+   "pitchIdle": 0.75,
+   "pitchTop": 1.3,
+   "whine": 0.0,
+   "volume": 0.8,
+   "gears": 4,
+   "rpmRise": 3.5,
+   "rpmFall": 2.5
+  },
+  {
+   "id": "sport_bike",
+   "character": "whiny zoom",
+   "nameEn": "Sport bike",
+   "low": "engine_sport_low",
+   "mid": "engine_sport_mid",
+   "high": "engine_sport_high",
+   "pitchIdle": 0.85,
+   "pitchTop": 1.9,
+   "whine": 0.7,
+   "volume": 0.7,
+   "gears": 5,
+   "rpmRise": 8,
+   "rpmFall": 4
+  }
+ ],
+ "oneShots": [
+  {
+   "id": "engine_sputter",
+   "trigger": "start",
+   "takes": 1,
+   "volume": 0.9,
+   "cooldown": 2.0,
+   "maxVoices": 1
+  },
+  {
+   "id": "engine_backfire",
+   "trigger": "boost",
+   "takes": 2,
+   "volume": 1.0,
+   "cooldown": 0.8,
+   "maxVoices": 2
+  },
+  {
+   "id": "engine_squeak",
+   "trigger": "brake",
+   "takes": 1,
+   "volume": 0.7,
+   "cooldown": 0.7,
+   "maxVoices": 1
+  },
+  {
+   "id": "engine_boing",
+   "trigger": "land",
+   "takes": 2,
+   "volume": 0.9,
+   "cooldown": 0.35,
+   "maxVoices": 2
+  }
+ ]
+}

@@ -1,0 +1,195 @@
+{
+  "order": 135,
+  "id": "hail",
+  "nameAr": "منطقة حائل",
+  "nameEn": "Hail Region",
+  "group": "saudi",
+  "country": "saudi",
+  "costume": "",
+  "music": "music_saudi_north",
+  "ground": "#C7966A",
+  "accent": "#7A2E1C",
+  "sky": "#A7C6E2",
+  "stages": [
+    {
+      "id": "hail_1",
+      "nameAr": "قلعة أعيرف",
+      "nameEn": "A'arif Fort",
+      "terrain": "ruins",
+      "landmarks": [
+        "fort",
+        "mountains"
+      ],
+      "mount": "",
+      "difficulty": 2,
+      "boss": false,
+      "type": "normal",
+      "time": "sunset",
+      "weather": "clear",
+      "costume": "",
+      "lineAr": "أعيرف فوق الجبل!",
+      "extra": ""
+    },
+    {
+      "id": "hail_2",
+      "nameAr": "قصر القشلة",
+      "nameEn": "Al Qishlah Palace",
+      "terrain": "ruins",
+      "landmarks": [
+        "fort",
+        "mud_town"
+      ],
+      "mount": "",
+      "difficulty": 3,
+      "boss": false,
+      "type": "action",
+      "time": "night",
+      "weather": "clear",
+      "costume": "",
+      "lineAr": "القشلة، قصر طين كبير.",
+      "extra": ""
+    },
+    {
+      "id": "hail_3",
+      "nameAr": "جبل أجا",
+      "nameEn": "Jabal Aja",
+      "terrain": "mountain",
+      "landmarks": [
+        "mountains"
+      ],
+      "mount": "",
+      "difficulty": 3,
+      "boss": false,
+      "type": "normal",
+      "time": "day",
+      "weather": "rain",
+      "costume": "",
+      "lineAr": "جبال أجا حمرا.",
+      "extra": ""
+    },
+    {
+      "id": "hail_4",
+      "nameAr": "رسوم جبة",
+      "nameEn": "Jubbah Rock Art",
+      "terrain": "desert",
+      "landmarks": [
+        "rock_arch",
+        "stone_pillars"
+      ],
+      "mount": "camel",
+      "difficulty": 4,
+      "boss": false,
+      "type": "normal",
+      "time": "day",
+      "weather": "clear",
+      "costume": "",
+      "lineAr": "رسوم جبة، جمال محفورة بالصخر!",
+      "extra": ""
+    },
+    {
+      "id": "hail_5",
+      "nameAr": "نفود حائل",
+      "nameEn": "Hail Dunes",
+      "terrain": "desert",
+      "landmarks": [
+        "dunes",
+        "tents"
+      ],
+      "mount": "camel",
+      "difficulty": 4,
+      "boss": false,
+      "type": "normal",
+      "time": "sunset",
+      "weather": "sandstorm",
+      "costume": "",
+      "lineAr": "النفود الكبير.",
+      "extra": ""
+    },
+    {
+      "id": "hail_6",
+      "nameAr": "مضمار الخيل",
+      "nameEn": "Hail Horse Track",
+      "terrain": "desert",
+      "landmarks": [
+        "tents"
+      ],
+      "mount": "horse",
+      "difficulty": 5,
+      "boss": false,
+      "type": "chase",
+      "time": "day",
+      "weather": "clear",
+      "costume": "",
+      "lineAr": "خيل حائل أصايل.",
+      "extra": ""
+    },
+    {
+      "id": "hail_7",
+      "nameAr": "ساحة مارد أجا",
+      "nameEn": "Giant of Aja",
+      "terrain": "mountain",
+      "landmarks": [
+        "mountains"
+      ],
+      "mount": "",
+      "difficulty": 5,
+      "boss": true,
+      "type": "boss",
+      "time": "night",
+      "weather": "clear",
+      "costume": "saudi_bisht",
+      "lineAr": "مارد أجا... كبير مرة.",
+      "extra": ""
+    }
+  ],
+  "boss": {
+    "nameAr": "مارد أجا",
+    "nameEn": "Giant of Aja",
+    "model": "marid",
+    "headgear": "horns",
+    "body": "#8A3A22",
+    "trim": "#2A1A10",
+    "projectile": "#7A4A2A",
+    "scale": 1.5,
+    "health": 14,
+    "introAr": "أنا أطول من الجبل!",
+    "stunAr": "آخ! راسي...",
+    "defeatAr": "طحت... والجبل باقي.",
+    "phases": [
+      {
+        "threshold": 1.0,
+        "move": 2.5,
+        "charge": 10,
+        "interval": 3.2,
+        "attacks": [
+          "charge",
+          "leap"
+        ],
+        "tauntAr": "خطوة وحدة وأوصلك!"
+      },
+      {
+        "threshold": 0.6,
+        "move": 3,
+        "charge": 12,
+        "interval": 2.8,
+        "attacks": [
+          "leap",
+          "wave"
+        ],
+        "tauntAr": "زلزال!"
+      },
+      {
+        "threshold": 0.3,
+        "move": 3.5,
+        "charge": 13,
+        "interval": 2.3,
+        "attacks": [
+          "leap",
+          "wave",
+          "volley"
+        ],
+        "tauntAr": "صخور أجا!"
+      }
+    ]
+  }
+}

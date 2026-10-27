@@ -1,0 +1,125 @@
+{
+  "lang": "ur",
+  "profanity": {
+    "terms": [
+      "حرامزاده",
+      "حرامزادہ",
+      "مادرچود",
+      "بہن چود",
+      "بھوسڑی",
+      "گانڈو",
+      "چوتیا",
+      "کمینہ",
+      "بیوقوف",
+      "kutta",
+      "kutti",
+      "haramzada",
+      "chutiya",
+      "bhosdi",
+      "madarchod",
+      "behenchod",
+      "gandu",
+      "bewakoof",
+      "kamina",
+      "chudai"
+    ],
+    "words": [
+      "کتا",
+      "کتی",
+      "حرامی",
+      "لنڈ",
+      "لنڈ",
+      "kutta",
+      "harami",
+      "lund",
+      "randi",
+      "kamina",
+      "gadha"
+    ],
+    "exact": [
+      "کتا",
+      "گدھا"
+    ]
+  },
+  "insult": {
+    "terms": [
+      "بیوقوف",
+      "کمینہ",
+      "احمق",
+      "bewakoof",
+      "kameena",
+      "nalayak",
+      "ullu"
+    ],
+    "words": [
+      "گدھا",
+      "الو",
+      "gadha",
+      "ullu"
+    ],
+    "exact": [
+      "الو"
+    ]
+  },
+  "hate": {
+    "terms": [
+      "مرزائی",
+      "شیعہ کافر",
+      "رافضی",
+      "قادیانی",
+      "chuhra",
+      "kafir"
+    ],
+    "words": [
+      "کافر",
+      "مرزائی",
+      "chamar",
+      "chuhra",
+      "katwa"
+    ],
+    "exact": [
+      "چوہڑا"
+    ]
+  },
+  "sexual": {
+    "terms": [
+      "سیکس",
+      "چدائی",
+      "ننگا",
+      "چدائی",
+      "chudai",
+      "nangi",
+      "balatkar",
+      "lauda",
+      "randi"
+    ],
+    "words": [
+      "رنڈی",
+      "سیکس",
+      "ننگا",
+      "randi",
+      "hijra"
+    ],
+    "exact": [
+      "سیکس"
+    ]
+  },
+  "figures": {
+    "terms": [
+      "نوازشریف",
+      "عمران خان",
+      "آصف زرداری",
+      "بلاول",
+      "nawazsharif",
+      "imrankhan",
+      "zardari"
+    ],
+    "words": [
+      "bhagwan"
+    ],
+    "exact": [
+      "اللہ",
+      "نبی"
+    ]
+  }
+}

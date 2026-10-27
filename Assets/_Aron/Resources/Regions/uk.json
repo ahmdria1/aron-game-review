@@ -1,0 +1,219 @@
+{
+  "order": 412,
+  "id": "uk",
+  "nameAr": "بريطانيا",
+  "nameEn": "United Kingdom",
+  "group": "world",
+  "music": "music_country_uk",
+  "ground": "#7FA86A",
+  "accent": "#C8102E",
+  "sky": "#B8C6D4",
+  "country": "uk",
+  "costume": "",
+  "stages": [
+    {
+      "id": "uk_1",
+      "nameAr": "شارع الباصات الحمراء",
+      "nameEn": "Red Bus Street",
+      "terrain": "street",
+      "landmarks": [
+        "red_bus",
+        "row_houses"
+      ],
+      "mount": "",
+      "difficulty": 3,
+      "boss": false,
+      "lineAr": "الباص الأحمر جا، اركب!",
+      "extra": "",
+      "time": "day",
+      "weather": "rain",
+      "type": "normal",
+      "costume": ""
+    },
+    {
+      "id": "uk_2",
+      "nameAr": "برج الساعة",
+      "nameEn": "The Clock Tower",
+      "terrain": "river",
+      "landmarks": [
+        "clock_tower",
+        "big_arch"
+      ],
+      "mount": "",
+      "difficulty": 4,
+      "boss": false,
+      "lineAr": "الساعة تدق، لا تتأخر!",
+      "extra": "",
+      "time": "sunset",
+      "weather": "clear",
+      "type": "chase",
+      "costume": ""
+    },
+    {
+      "id": "uk_3",
+      "nameAr": "المرتفعات",
+      "nameEn": "The Highlands",
+      "terrain": "mountain",
+      "landmarks": [
+        "mountains",
+        "lake"
+      ],
+      "mount": "horse",
+      "difficulty": 5,
+      "boss": false,
+      "lineAr": "بحيرات وجبال وضباب.",
+      "extra": "",
+      "time": "day",
+      "weather": "rain",
+      "type": "normal",
+      "costume": ""
+    },
+    {
+      "id": "uk_4",
+      "nameAr": "قلعة الحجر",
+      "nameEn": "The Stone Castle",
+      "terrain": "ruins",
+      "landmarks": [
+        "fort",
+        "stone_pillars"
+      ],
+      "mount": "",
+      "difficulty": 6,
+      "boss": false,
+      "lineAr": "قلعة قديمة فوق التلة.",
+      "extra": "",
+      "time": "night",
+      "weather": "clear",
+      "type": "action",
+      "costume": ""
+    },
+    {
+      "id": "uk_5",
+      "nameAr": "الريف الأخضر",
+      "nameEn": "Green Countryside",
+      "terrain": "forest",
+      "landmarks": [
+        "row_houses",
+        "lone_tree"
+      ],
+      "mount": "horse",
+      "difficulty": 7,
+      "boss": false,
+      "lineAr": "خرفان وحقول خضراء.",
+      "extra": "",
+      "time": "day",
+      "weather": "clear",
+      "type": "normal",
+      "costume": ""
+    },
+    {
+      "id": "uk_6",
+      "nameAr": "رصيف البحر",
+      "nameEn": "The Seaside Pier",
+      "terrain": "coast",
+      "landmarks": [
+        "sea_tower",
+        "sea_cliffs"
+      ],
+      "mount": "",
+      "difficulty": 8,
+      "boss": false,
+      "lineAr": "الموج والنوارس على الرصيف.",
+      "extra": "",
+      "time": "sunset",
+      "weather": "rain",
+      "type": "chase",
+      "costume": ""
+    },
+    {
+      "id": "uk_race",
+      "nameAr": "سباق التجديف",
+      "nameEn": "River Rowing Race",
+      "terrain": "coast",
+      "landmarks": [
+        "clock_tower",
+        "big_arch"
+      ],
+      "mount": "",
+      "difficulty": 8,
+      "boss": false,
+      "lineAr": "سباق! سباق التجديف، يلا نشوف مين الأول!",
+      "extra": "",
+      "time": "day",
+      "weather": "clear",
+      "type": "race",
+      "costume": "",
+      "race": "uk_boat"
+    },
+    {
+      "id": "uk_7",
+      "nameAr": "ساحة القلعة",
+      "nameEn": "Castle Courtyard",
+      "terrain": "ruins",
+      "landmarks": [
+        "fort",
+        "clock_tower"
+      ],
+      "mount": "",
+      "difficulty": 10,
+      "boss": true,
+      "lineAr": "فارس الضباب ينتظر في ساحة القلعة!",
+      "extra": "",
+      "time": "night",
+      "weather": "rain",
+      "type": "boss",
+      "costume": ""
+    }
+  ],
+  "skyline": [],
+  "boss": {
+    "nameAr": "فارس الضباب",
+    "nameEn": "The Fog Knight",
+    "model": "soldier",
+    "headgear": "crown",
+    "body": "#5A6470",
+    "trim": "#C8102E",
+    "projectile": "#D8E2EA",
+    "scale": 1.28,
+    "health": 15,
+    "introAr": "الضباب يخبيني!",
+    "stunAr": "وين راح الضباب؟",
+    "defeatAr": "حسناً... بريطانيا لك.",
+    "phases": [
+      {
+        "threshold": 1.0,
+        "move": 4.0,
+        "charge": 14.0,
+        "interval": 2.8,
+        "attacks": [
+          "charge",
+          "wave"
+        ],
+        "tauntAr": "ضباب كثيف!"
+      },
+      {
+        "threshold": 0.66,
+        "move": 4.6,
+        "charge": 15.5,
+        "interval": 2.4,
+        "attacks": [
+          "wave",
+          "dash"
+        ],
+        "tauntAr": "سيفي ودرعي!"
+      },
+      {
+        "threshold": 0.33,
+        "move": 5.2,
+        "charge": 17.0,
+        "interval": 2.0,
+        "attacks": [
+          "charge",
+          "wave",
+          "leap"
+        ],
+        "tauntAr": "مطر ورا مطر!"
+      }
+    ]
+  }
+}

@@ -1,0 +1,1037 @@
+﻿id,speaker,voice,lang,text,chars,source
+vo_aron_help,aron,aron,ar,الحقوني! الحقوني!,17,Audio/VoiceLines.json
+vo_aron_near_miss,aron,aron,ar,أوووه! على الطاير!,18,Audio/VoiceLines.json
+vo_aron_falling,aron,aron,ar,يا ويلييي!,10,Audio/VoiceLines.json
+vo_aron_bisht_cheer,aron,aron,ar,البشت الذهبي! يا سلااام!,24,Audio/VoiceLines.json
+vo_aron_checkpoint,aron,aron,ar,تمام، حفظناها!,14,Audio/VoiceLines.json
+vo_aron_stomp,aron,aron,ar,خذ هذي!,7,Audio/VoiceLines.json
+vo_noura_uff,noura,noura,ar,أفّ!,4,Audio/VoiceLines.json
+vo_noura_call_oryx,noura,noura,ar,يا مها! تعال هنا!,17,Audio/VoiceLines.json
+vo_noura_puzzle_solved,noura,noura,ar,انحلّت! سهلة!,13,Audio/VoiceLines.json
+vo_noura_bag_throw,noura,noura,ar,خذ الشنطة!,10,Audio/VoiceLines.json
+vo_bisht,any,any,ar,بشت ذهبي!,9,Audio/VoiceLines.json
+vo_bisht_full,any,any,ar,ثلاثة بشوت! ما أحد يوقفني!,26,Audio/VoiceLines.json
+vo_mercy,any,any,ar,هذا البشت هدية، لا تستسلم!,26,Audio/VoiceLines.json
+vo_puzzle_solved,any,any,ar,انفتح الطريق!,13,Audio/VoiceLines.json
+vo_puzzle_wrong,any,any,ar,لا، مو كذا...,13,Audio/VoiceLines.json
+vo_lock_hint,any,any,ar,هذا القفل يبي نورة.,19,Audio/VoiceLines.json
+vo_chase,any,any,ar,اركض!,5,Audio/VoiceLines.json
+vo_extra_life,any,any,ar,حياة زيادة!,11,Audio/VoiceLines.json
+vo_checkpoint,any,any,ar,هنا نكمّل.,10,Audio/VoiceLines.json
+vo_boss_scientist_taunt,boss_scientist,boss_scientist,ar,روبوتاتي بتوقّفك!,17,Audio/VoiceLines.json
+vo_boss_scientist_hurt,boss_scientist,boss_scientist,ar,آخ! تجربتي!,11,Audio/VoiceLines.json
+vo_boss_scientist_defeat,boss_scientist,boss_scientist,ar,خلاص! الرياض لك يا بطل!,23,Audio/VoiceLines.json
+vo_boss_captain_taunt,boss_captain,boss_captain,ar,البحر بحري، ارجع!,17,Audio/VoiceLines.json
+vo_boss_captain_hurt,boss_captain,boss_captain,ar,آخ يا الموج!,12,Audio/VoiceLines.json
+vo_boss_captain_defeat,boss_captain,boss_captain,ar,سلّمت... البحر لك!,18,Audio/VoiceLines.json
+vo_boss_ninja_taunt,boss_ninja,boss_ninja,ar,ما تشوفني، بس أشوفك!,20,Audio/VoiceLines.json
+vo_boss_ninja_hurt,boss_ninja,boss_ninja,ar,آخ!,3,Audio/VoiceLines.json
+vo_boss_ninja_defeat,boss_ninja,boss_ninja,ar,انكشفت...,9,Audio/VoiceLines.json
+vo_boss_robe_taunt,boss_robe,boss_robe,ar,ما راح تعدّي من هنا!,20,Audio/VoiceLines.json
+vo_boss_robe_hurt,boss_robe,boss_robe,ar,آخ يا ظهري!,11,Audio/VoiceLines.json
+vo_boss_robe_defeat,boss_robe,boss_robe,ar,خلاص... غلبتني!,15,Audio/VoiceLines.json
+vo_boss_soldier_taunt,boss_soldier,boss_soldier,ar,الأسوار مسكّرة!,15,Audio/VoiceLines.json
+vo_boss_soldier_hurt,boss_soldier,boss_soldier,ar,آخ!,3,Audio/VoiceLines.json
+vo_boss_soldier_defeat,boss_soldier,boss_soldier,ar,افتحوا البوابة...,17,Audio/VoiceLines.json
+vo_boss_marid_taunt,boss_marid,boss_marid,ar,أنا المارد! ارجع!,17,Audio/VoiceLines.json
+vo_boss_marid_hurt,boss_marid,boss_marid,ar,آخ! يا ويلي!,12,Audio/VoiceLines.json
+vo_boss_marid_defeat,boss_marid,boss_marid,ar,رجعت للقمقم...,14,Audio/VoiceLines.json
+vo_boss_ghoul_taunt,boss_ghoul,boss_ghoul,ar,هههه! تعال قرّب!,16,Audio/VoiceLines.json
+vo_boss_ghoul_hurt,boss_ghoul,boss_ghoul,ar,آآخ!,4,Audio/VoiceLines.json
+vo_boss_ghoul_defeat,boss_ghoul,boss_ghoul,ar,راح الغول...,12,Audio/VoiceLines.json
+vo_boss_mummy_taunt,boss_mummy,boss_mummy,ar,ممممم... ارجع!,14,Audio/VoiceLines.json
+vo_boss_mummy_hurt,boss_mummy,boss_mummy,ar,ممم! آخ!,8,Audio/VoiceLines.json
+vo_boss_mummy_defeat,boss_mummy,boss_mummy,ar,رجعت أنام...,12,Audio/VoiceLines.json
+vo_boss_tree_taunt,boss_tree,boss_tree,ar,جذوري أقوى منك!,15,Audio/VoiceLines.json
+vo_boss_tree_hurt,boss_tree,boss_tree,ar,آخ يا أغصاني!,13,Audio/VoiceLines.json
+vo_boss_tree_defeat,boss_tree,boss_tree,ar,طحت... مثل ورقة.,16,Audio/VoiceLines.json
+vo_boss_shark_taunt,boss_shark,boss_shark,ar,(خبطة زعنفة),12,Audio/VoiceLines.json
+vo_boss_shark_hurt,boss_shark,boss_shark,ar,(رشّة ماء),10,Audio/VoiceLines.json
+vo_boss_shark_defeat,boss_shark,boss_shark,ar,(غطس للأعماق),13,Audio/VoiceLines.json
+vo_boss_golem_taunt,boss_golem,boss_golem,ar,(هدير صخر),10,Audio/VoiceLines.json
+vo_boss_golem_hurt,boss_golem,boss_golem,ar,(تكسّر حجر),11,Audio/VoiceLines.json
+vo_boss_golem_defeat,boss_golem,boss_golem,ar,(انهيار صخور),13,Audio/VoiceLines.json
+vo_boss_wolf_taunt,boss_wolf,boss_wolf,ar,عووووو!,7,Audio/VoiceLines.json
+vo_boss_wolf_hurt,boss_wolf,boss_wolf,ar,عيييك!,6,Audio/VoiceLines.json
+vo_boss_wolf_defeat,boss_wolf,boss_wolf,ar,(أنين ذيب),10,Audio/VoiceLines.json
+vo_boss_eagle_taunt,boss_eagle,boss_eagle,ar,(صيحة نسر),10,Audio/VoiceLines.json
+vo_boss_eagle_hurt,boss_eagle,boss_eagle,ar,(ريش يطير),10,Audio/VoiceLines.json
+vo_boss_eagle_defeat,boss_eagle,boss_eagle,ar,(صيحة بعيدة),12,Audio/VoiceLines.json
+vo_boss_clam_taunt,boss_clam,boss_clam,ar,(طقطقة صدفة),12,Audio/VoiceLines.json
+vo_boss_clam_hurt,boss_clam,boss_clam,ar,(صدفة تنغلق),12,Audio/VoiceLines.json
+vo_boss_clam_defeat,boss_clam,boss_clam,ar,(صدفة تنفتح),12,Audio/VoiceLines.json
+vo_boss_barrel_taunt,boss_barrel,boss_barrel,ar,(قرقعة برميل),13,Audio/VoiceLines.json
+vo_boss_barrel_hurt,boss_barrel,boss_barrel,ar,(دنق!),6,Audio/VoiceLines.json
+vo_boss_barrel_defeat,boss_barrel,boss_barrel,ar,(برميل يتدحرج),14,Audio/VoiceLines.json
+vo_boss_croc_taunt,boss_croc,boss_croc,ar,(زمجرة),7,Audio/VoiceLines.json
+vo_boss_croc_hurt,boss_croc,boss_croc,ar,(طقّة فكّ),10,Audio/VoiceLines.json
+vo_boss_croc_defeat,boss_croc,boss_croc,ar,(غطس بالنهر),12,Audio/VoiceLines.json
+vo_boss_crab_taunt,boss_crab,boss_crab,ar,(طقطقة مقصّات),14,Audio/VoiceLines.json
+vo_boss_crab_hurt,boss_crab,boss_crab,ar,(طق!),5,Audio/VoiceLines.json
+vo_boss_crab_defeat,boss_crab,boss_crab,ar,(سلطعون يهرب),13,Audio/VoiceLines.json
+vo_stage_riyadh_1,hero,aron,ar,المصمك! هنا بدأت الحكاية.,25,Regions/riyadh.json
+vo_stage_riyadh_2,hero,aron,ar,سوق الزل، ريحة العود والبشوت.,29,Regions/riyadh.json
+vo_stage_riyadh_3,hero,aron,ar,سوق طيبة بالليل، والحرس جايين موجات!,36,Regions/riyadh.json
+vo_stage_riyadh_4,hero,aron,ar,مطر على الطريف! الطين يزلق.,27,Regions/riyadh.json
+vo_stage_riyadh_5,hero,aron,ar,شارع الثميري، ومحلات أحمد هنا! وش هذا اللي يلحقنا؟!,51,Regions/riyadh.json
+vo_stage_riyadh_6,hero,aron,ar,عجاج بالثمامة! الذلول تعرف الطريق.,34,Regions/riyadh.json
+vo_stage_riyadh_7,hero,aron,ar,هذا هو د. دحيم...,17,Regions/riyadh.json
+vo_boss_riyadh_intro,Dr. Duhaim,boss_riyadh,ar,وقف عندك! ما أحد يعدي الرياض وأنا هنا.,38,Regions/riyadh.json
+vo_boss_riyadh_stun,Dr. Duhaim,boss_riyadh,ar,آخ! راسي...,11,Regions/riyadh.json
+vo_boss_riyadh_defeat,Dr. Duhaim,boss_riyadh,ar,خلاص! الرياض لك يا بطل!,23,Regions/riyadh.json
+vo_boss_riyadh_taunt1,Dr. Duhaim,boss_riyadh,ar,ما راح تعدي الرياض يا أرون!,27,Regions/riyadh.json
+vo_boss_riyadh_taunt2,Dr. Duhaim,boss_riyadh,ar,الحين بتشوف قوتي!,17,Regions/riyadh.json
+vo_boss_riyadh_taunt3,Dr. Duhaim,boss_riyadh,ar,يا روبوتاتي! ساعدوني!,21,Regions/riyadh.json
+vo_stage_makkah_1,hero,aron,ar,رواشين البلد! خشب ونقوش.,24,Regions/makkah.json
+vo_stage_makkah_2,hero,aron,ar,سوق باب مكة، المطبق والبليلة!,29,Regions/makkah.json
+vo_stage_makkah_3,hero,aron,ar,نافورة الملك فهد! أطول نافورة.,30,Regions/makkah.json
+vo_stage_makkah_4,hero,aron,ar,الهدا... ورد الطائف وهوا بارد.,30,Regions/makkah.json
+vo_stage_makkah_5,hero,aron,ar,عقبة الشفا، انتبه للحواف.,25,Regions/makkah.json
+vo_stage_makkah_6,hero,aron,ar,سوق عكاظ، سوق الشعر القديم.,27,Regions/makkah.json
+vo_stage_makkah_7,hero,aron,ar,قرش البحر الأحمر ينتظرني.,25,Regions/makkah.json
+vo_boss_makkah_intro,Red Sea Shark,boss_makkah,ar,البحر الأحمر حقي، وأسناني أكبر منك يا بطل!,42,Regions/makkah.json
+vo_boss_makkah_stun,Red Sea Shark,boss_makkah,ar,آخ! راسي...,11,Regions/makkah.json
+vo_boss_makkah_defeat,Red Sea Shark,boss_makkah,ar,رجعت للأعماق... البحر لك!,25,Regions/makkah.json
+vo_boss_makkah_taunt1,Red Sea Shark,boss_makkah,ar,خذ لك سمك!,10,Regions/makkah.json
+vo_boss_makkah_taunt2,Red Sea Shark,boss_makkah,ar,الموجة جاية!,12,Regions/makkah.json
+vo_boss_makkah_taunt3,Red Sea Shark,boss_makkah,ar,يا قروش البحر! هجوم!,20,Regions/makkah.json
+vo_stage_madinah_1,hero,aron,ar,نخيل المدينة! عجوة وبرني.,25,Regions/madinah.json
+vo_stage_madinah_2,hero,aron,ar,البلدة القديمة بالعلا، بيوت طين وحجر.,37,Regions/madinah.json
+vo_stage_madinah_3,hero,aron,ar,القطار القديم واقف من مية سنة.,30,Regions/madinah.json
+vo_stage_madinah_4,hero,aron,ar,وادي العقيق، الماي والنخل.,26,Regions/madinah.json
+vo_stage_madinah_5,hero,aron,ar,مقابر الحِجر منحوتة بالصخر!,27,Regions/madinah.json
+vo_stage_madinah_6,hero,aron,ar,صخرة الفيل! شكلها فيل صدق.,26,Regions/madinah.json
+vo_stage_madinah_7,hero,aron,ar,الحارس الحجري صحى.,18,Regions/madinah.json
+vo_boss_madinah_intro,Guardian of Hegra,boss_madinah,ar,أنا حارس الصخر من ألفين سنة!,28,Regions/madinah.json
+vo_boss_madinah_stun,Guardian of Hegra,boss_madinah,ar,الصخر... دايخ...,16,Regions/madinah.json
+vo_boss_madinah_defeat,Guardian of Hegra,boss_madinah,ar,رجعت حجر... مع السلامة.,23,Regions/madinah.json
+vo_boss_madinah_taunt1,Guardian of Hegra,boss_madinah,ar,الأرض بتهتز!,12,Regions/madinah.json
+vo_boss_madinah_taunt2,Guardian of Hegra,boss_madinah,ar,الصخر ما ينكسر!,15,Regions/madinah.json
+vo_boss_madinah_taunt3,Guardian of Hegra,boss_madinah,ar,حجارة من فوق!,13,Regions/madinah.json
+vo_stage_qassim_1,hero,aron,ar,مهرجان التمور! سكري وخلاص.,26,Regions/qassim.json
+vo_stage_qassim_2,hero,aron,ar,المسوكف، سوق الطين القديم.,26,Regions/qassim.json
+vo_stage_qassim_3,hero,aron,ar,بيت البسام، طين ونقوش.,22,Regions/qassim.json
+vo_stage_qassim_4,hero,aron,ar,مزارع الرس خضرا.,16,Regions/qassim.json
+vo_stage_qassim_5,hero,aron,ar,رمل أحمر، الذلول جاهزة.,23,Regions/qassim.json
+vo_stage_qassim_6,hero,aron,ar,ميدان الخيل! يلا يا أصيل.,25,Regions/qassim.json
+vo_stage_qassim_race,hero,aron,ar,سباق! سباق الهجن في القصيم، يلا نشوف مين الأول!,47,Regions/qassim.json
+vo_stage_qassim_7,hero,aron,ar,شيخ النخل يرمي تمر!,19,Regions/qassim.json
+vo_boss_qassim_intro,Sheikh of the Palms,boss_qassim,ar,تمر القصيم ما ينعطى بلاش!,25,Regions/qassim.json
+vo_boss_qassim_stun,Sheikh of the Palms,boss_qassim,ar,آخ! راسي...,11,Regions/qassim.json
+vo_boss_qassim_defeat,Sheikh of the Palms,boss_qassim,ar,خذ التمر... أنت تستاهله.,24,Regions/qassim.json
+vo_boss_qassim_taunt1,Sheikh of the Palms,boss_qassim,ar,تمرة بعين!,10,Regions/qassim.json
+vo_boss_qassim_taunt2,Sheikh of the Palms,boss_qassim,ar,يا عيالي! تعالوا!,17,Regions/qassim.json
+vo_boss_qassim_taunt3,Sheikh of the Palms,boss_qassim,ar,آخر صندوق تمر!,14,Regions/qassim.json
+vo_stage_eastern_1,hero,aron,ar,برج الماء بالخبر!,17,Regions/eastern.json
+vo_stage_eastern_2,hero,aron,ar,الجسر للبحرين، طويل مرة.,24,Regions/eastern.json
+vo_stage_eastern_3,hero,aron,ar,كهوف القارة باردة بالصيف.,25,Regions/eastern.json
+vo_stage_eastern_4,hero,aron,ar,قصر إبراهيم، قباب وأسوار.,25,Regions/eastern.json
+vo_stage_eastern_5,hero,aron,ar,القيصرية، أقدم سوق بالأحساء.,28,Regions/eastern.json
+vo_stage_eastern_6,hero,aron,ar,إثراء، شكله حجارة ملفوفة.,25,Regions/eastern.json
+vo_stage_eastern_7,hero,aron,ar,أبو برميل يرمي براميل!,22,Regions/eastern.json
+vo_boss_eastern_intro,Abu Barmeel,boss_eastern,ar,براميلي أثقل منك!,17,Regions/eastern.json
+vo_boss_eastern_stun,Abu Barmeel,boss_eastern,ar,آخ! راسي...,11,Regions/eastern.json
+vo_boss_eastern_defeat,Abu Barmeel,boss_eastern,ar,طاحت البراميل... وأنا معها.,27,Regions/eastern.json
+vo_boss_eastern_taunt1,Abu Barmeel,boss_eastern,ar,برميل طاير!,11,Regions/eastern.json
+vo_boss_eastern_taunt2,Abu Barmeel,boss_eastern,ar,الأرض زيت!,10,Regions/eastern.json
+vo_boss_eastern_taunt3,Abu Barmeel,boss_eastern,ar,كل البراميل!,12,Regions/eastern.json
+vo_stage_asir_1,hero,aron,ar,المفتاحة، بيوت ملونة!,21,Regions/asir.json
+vo_stage_asir_2,hero,aron,ar,السودة فوق الغيم.,17,Regions/asir.json
+vo_stage_asir_3,hero,aron,ar,رجال ألمع، قلاع حجر وألوان.,27,Regions/asir.json
+vo_stage_asir_4,hero,aron,ar,الحبلة معلقة بالجبل!,20,Regions/asir.json
+vo_stage_asir_5,hero,aron,ar,سوق الثلاثاء، عسل وسمن.,23,Regions/asir.json
+vo_stage_asir_6,hero,aron,ar,الضباب يتحرك... فيه أحد.,24,Regions/asir.json
+vo_boss_asir_intro,Sheikh of the Fog,boss_asir,ar,ما تشوفني، بس أنا أشوفك.,24,Regions/asir.json
+vo_boss_asir_stun,Sheikh of the Fog,boss_asir,ar,آخ! راسي...,11,Regions/asir.json
+vo_boss_asir_defeat,Sheikh of the Fog,boss_asir,ar,انقشع الضباب...,15,Regions/asir.json
+vo_boss_asir_taunt1,Sheikh of the Fog,boss_asir,ar,وين رحت؟,8,Regions/asir.json
+vo_boss_asir_taunt2,Sheikh of the Fog,boss_asir,ar,برد السودة!,11,Regions/asir.json
+vo_boss_asir_taunt3,Sheikh of the Fog,boss_asir,ar,يا ظلال، تعالوا!,16,Regions/asir.json
+vo_stage_tabuk_1,hero,aron,ar,قلعة تبوك القديمة.,18,Regions/tabuk.json
+vo_stage_tabuk_2,hero,aron,ar,سكة الحجاز مرت من هنا.,22,Regions/tabuk.json
+vo_stage_tabuk_3,hero,aron,ar,الديسة، صخور عالية وماي.,24,Regions/tabuk.json
+vo_stage_tabuk_4,hero,aron,ar,حقل، تشوف مصر والأردن من هنا!,29,Regions/tabuk.json
+vo_stage_tabuk_5,hero,aron,ar,جبل اللوز، فيه ثلج بالشتا!,26,Regions/tabuk.json
+vo_stage_tabuk_6,hero,aron,ar,شرما، بحر صافي.,15,Regions/tabuk.json
+vo_stage_tabuk_7,hero,aron,ar,عواء... هذا ذئب اللوز.,22,Regions/tabuk.json
+vo_boss_tabuk_intro,Wolf of Al Lawz,boss_tabuk,ar,الجبل جبلي!,11,Regions/tabuk.json
+vo_boss_tabuk_stun,Wolf of Al Lawz,boss_tabuk,ar,آخ! راسي...,11,Regions/tabuk.json
+vo_boss_tabuk_defeat,Wolf of Al Lawz,boss_tabuk,ar,هربت للجبل... بس بارجع.,23,Regions/tabuk.json
+vo_boss_tabuk_taunt1,Wolf of Al Lawz,boss_tabuk,ar,أسرع منك!,9,Regions/tabuk.json
+vo_boss_tabuk_taunt2,Wolf of Al Lawz,boss_tabuk,ar,من فوق!,7,Regions/tabuk.json
+vo_boss_tabuk_taunt3,Wolf of Al Lawz,boss_tabuk,ar,يا قطيع!,8,Regions/tabuk.json
+vo_stage_hail_1,hero,aron,ar,أعيرف فوق الجبل!,16,Regions/hail.json
+vo_stage_hail_2,hero,aron,ar,القشلة، قصر طين كبير.,21,Regions/hail.json
+vo_stage_hail_3,hero,aron,ar,جبال أجا حمرا.,14,Regions/hail.json
+vo_stage_hail_4,hero,aron,ar,رسوم جبة، جمال محفورة بالصخر!,29,Regions/hail.json
+vo_stage_hail_5,hero,aron,ar,النفود الكبير.,14,Regions/hail.json
+vo_stage_hail_6,hero,aron,ar,خيل حائل أصايل.,15,Regions/hail.json
+vo_stage_hail_7,hero,aron,ar,مارد أجا... كبير مرة.,21,Regions/hail.json
+vo_boss_hail_intro,Giant of Aja,boss_hail,ar,أنا أطول من الجبل!,18,Regions/hail.json
+vo_boss_hail_stun,Giant of Aja,boss_hail,ar,آخ! راسي...,11,Regions/hail.json
+vo_boss_hail_defeat,Giant of Aja,boss_hail,ar,طحت... والجبل باقي.,19,Regions/hail.json
+vo_boss_hail_taunt1,Giant of Aja,boss_hail,ar,خطوة وحدة وأوصلك!,17,Regions/hail.json
+vo_boss_hail_taunt2,Giant of Aja,boss_hail,ar,زلزال!,6,Regions/hail.json
+vo_boss_hail_taunt3,Giant of Aja,boss_hail,ar,صخور أجا!,9,Regions/hail.json
+vo_stage_northern_1,hero,aron,ar,عرعر، الشمال بارد.,18,Regions/northern.json
+vo_stage_northern_2,hero,aron,ar,سوق عرعر، فروة وبشت.,20,Regions/northern.json
+vo_stage_northern_3,hero,aron,ar,درب زبيدة، طريق الحجاج القديم.,30,Regions/northern.json
+vo_stage_northern_4,hero,aron,ar,برك قديمة للماي.,16,Regions/northern.json
+vo_stage_northern_5,hero,aron,ar,طريف، أبرد مدينة بالمملكة.,26,Regions/northern.json
+vo_stage_northern_6,hero,aron,ar,ذيب الشمال جاي!,15,Regions/northern.json
+vo_boss_northern_intro,Dheeb Al Shamal,boss_northern,ar,برد الشمال يقص العظم!,21,Regions/northern.json
+vo_boss_northern_stun,Dheeb Al Shamal,boss_northern,ar,آخ! راسي...,11,Regions/northern.json
+vo_boss_northern_defeat,Dheeb Al Shamal,boss_northern,ar,دفيت... خلاص.,13,Regions/northern.json
+vo_boss_northern_taunt1,Dheeb Al Shamal,boss_northern,ar,يا ذيابة!,9,Regions/northern.json
+vo_boss_northern_taunt2,Dheeb Al Shamal,boss_northern,ar,عاصفة!,6,Regions/northern.json
+vo_stage_jazan_1,hero,aron,ar,الدوسرية فوق التل.,18,Regions/jazan.json
+vo_stage_jazan_2,hero,aron,ar,كورنيش جازان، مانجو وفل!,24,Regions/jazan.json
+vo_stage_jazan_3,hero,aron,ar,فرسان، غزلان وبحر.,18,Regions/jazan.json
+vo_stage_jazan_4,hero,aron,ar,فيفاء، مدرجات خضرا.,19,Regions/jazan.json
+vo_stage_jazan_5,hero,aron,ar,سوق الداير، بن جبلي.,20,Regions/jazan.json
+vo_stage_jazan_6,hero,aron,ar,ملك المرجان طلع من البحر!,25,Regions/jazan.json
+vo_boss_jazan_intro,King of Coral,boss_jazan,ar,المرجان أقوى من الحجر!,22,Regions/jazan.json
+vo_boss_jazan_stun,King of Coral,boss_jazan,ar,آخ! راسي...,11,Regions/jazan.json
+vo_boss_jazan_defeat,King of Coral,boss_jazan,ar,رجعت للبحر...,13,Regions/jazan.json
+vo_boss_jazan_taunt1,King of Coral,boss_jazan,ar,شظايا مرجان!,12,Regions/jazan.json
+vo_boss_jazan_taunt2,King of Coral,boss_jazan,ar,يا سرطانات!,11,Regions/jazan.json
+vo_stage_najran_1,hero,aron,ar,قصر نجران، طين وأبراج.,22,Regions/najran.json
+vo_stage_najran_2,hero,aron,ar,الأخدود، آثار ألفين سنة.,24,Regions/najran.json
+vo_stage_najran_3,hero,aron,ar,سوق الجنابي والفضة.,19,Regions/najran.json
+vo_stage_najran_4,hero,aron,ar,وادي نجران أخضر.,16,Regions/najran.json
+vo_stage_najran_5,hero,aron,ar,عروق بني معارض، المها هنا!,26,Regions/najran.json
+vo_stage_najran_6,hero,aron,ar,صاحب الجنبية يتحداني.,21,Regions/najran.json
+vo_boss_najran_intro,Master of the Jambiya,boss_najran,ar,جنبيتي ما تخطي!,15,Regions/najran.json
+vo_boss_najran_stun,Master of the Jambiya,boss_najran,ar,آخ! راسي...,11,Regions/najran.json
+vo_boss_najran_defeat,Master of the Jambiya,boss_najran,ar,خلاص، أنت فارس.,15,Regions/najran.json
+vo_boss_najran_taunt1,Master of the Jambiya,boss_najran,ar,ضربة سريعة!,11,Regions/najran.json
+vo_boss_najran_taunt2,Master of the Jambiya,boss_najran,ar,ما تهرب!,8,Regions/najran.json
+vo_boss_najran_taunt3,Master of the Jambiya,boss_najran,ar,الأرض تهتز!,11,Regions/najran.json
+vo_stage_bahah_1,hero,aron,ar,ذي عين، قرية الرخام.,20,Regions/bahah.json
+vo_stage_bahah_2,hero,aron,ar,غابة رغدان، عرعر وبرد.,22,Regions/bahah.json
+vo_stage_bahah_3,hero,aron,ar,العقبة، لفات ولفات.,19,Regions/bahah.json
+vo_stage_bahah_4,hero,aron,ar,سوق الباحة، رمان وعسل.,22,Regions/bahah.json
+vo_stage_bahah_5,hero,aron,ar,نسر السراة ينقض!,16,Regions/bahah.json
+vo_boss_bahah_intro,Eagle of Sarat,boss_bahah,ar,من فوق الغيم أشوفك!,19,Regions/bahah.json
+vo_boss_bahah_stun,Eagle of Sarat,boss_bahah,ar,آخ! راسي...,11,Regions/bahah.json
+vo_boss_bahah_defeat,Eagle of Sarat,boss_bahah,ar,طرت... بعيد.,12,Regions/bahah.json
+vo_boss_bahah_taunt1,Eagle of Sarat,boss_bahah,ar,انقضاض!,7,Regions/bahah.json
+vo_boss_bahah_taunt2,Eagle of Sarat,boss_bahah,ar,ريش حاد!,8,Regions/bahah.json
+vo_stage_jawf_1,hero,aron,ar,قلعة زعبل فوق الصخر.,20,Regions/jawf.json
+vo_stage_jawf_2,hero,aron,ar,الرجاجيل! أعمدة واقفة من زمان.,30,Regions/jawf.json
+vo_stage_jawf_3,hero,aron,ar,بحيرة بالصحراء!,15,Regions/jawf.json
+vo_stage_jawf_4,hero,aron,ar,حي الدرع، بيوت حجر.,19,Regions/jawf.json
+vo_stage_jawf_5,hero,aron,ar,زيت زيتون الجوف.,16,Regions/jawf.json
+vo_stage_jawf_6,hero,aron,ar,حارس الدومة ينتظر.,18,Regions/jawf.json
+vo_boss_jawf_intro,Keeper of Dumah,boss_jawf,ar,الدومة ما تنفتح لك!,19,Regions/jawf.json
+vo_boss_jawf_stun,Keeper of Dumah,boss_jawf,ar,آخ! راسي...,11,Regions/jawf.json
+vo_boss_jawf_defeat,Keeper of Dumah,boss_jawf,ar,افتحت لك... روح.,16,Regions/jawf.json
+vo_boss_jawf_taunt1,Keeper of Dumah,boss_jawf,ar,زيتون طاير!,11,Regions/jawf.json
+vo_boss_jawf_taunt2,Keeper of Dumah,boss_jawf,ar,يا حرس!,7,Regions/jawf.json
+vo_boss_jawf_taunt3,Keeper of Dumah,boss_jawf,ar,آخر محاولة!,11,Regions/jawf.json
+vo_stage_kuwait_1,hero,aron,ar,أبراج الكويت! يا زينها على البحر.,33,Regions/kuwait.json
+vo_stage_kuwait_2,hero,aron,ar,المباركية، ريحة الباجلا والدارسين.,34,Regions/kuwait.json
+vo_stage_kuwait_3,hero,aron,ar,الصيادين راجعين بالزبيدي، خلني أساعدهم.,39,Regions/kuwait.json
+vo_stage_kuwait_4,hero,aron,ar,حولي زحمة، وهذولي لاحقيني!,26,Regions/kuwait.json
+vo_stage_kuwait_5,hero,aron,ar,أبراج المياه، أعرف الطريق من هنا.,33,Regions/kuwait.json
+vo_stage_kuwait_6,hero,aron,ar,الأفنيوز وايد كبير، لا أضيع!,28,Regions/kuwait.json
+vo_stage_kuwait_7,hero,aron,ar,هبت الغبرة! تمسك يا ذلول.,25,Regions/kuwait.json
+vo_stage_kuwait_race,hero,aron,ar,سباق! سباق السفن الشراعية، يلا نشوف مين الأول!,46,Regions/kuwait.json
+vo_stage_kuwait_8,hero,aron,ar,النوخذة شرهان ينتظرني على الكورنيش...,37,Regions/kuwait.json
+vo_boss_kuwait_intro,Nakhoda Sharhan,boss_kuwait,ar,هالبحر بحري، ومحد يعدي الكويت وأنا هني!,39,Regions/kuwait.json
+vo_boss_kuwait_stun,Nakhoda Sharhan,boss_kuwait,ar,يا ويلي... الدنيا تدور!,23,Regions/kuwait.json
+vo_boss_kuwait_defeat,Nakhoda Sharhan,boss_kuwait,ar,خلاص يا بطل، البحر لك.,22,Regions/kuwait.json
+vo_boss_kuwait_taunt1,Nakhoda Sharhan,boss_kuwait,ar,شباكي بتصيدك يا أرون!,21,Regions/kuwait.json
+vo_boss_kuwait_taunt2,Nakhoda Sharhan,boss_kuwait,ar,شوف سرعة النوخذة!,17,Regions/kuwait.json
+vo_boss_kuwait_taunt3,Nakhoda Sharhan,boss_kuwait,ar,يا بحارة! تعالوا!,17,Regions/kuwait.json
+vo_stage_uae_1,hero,aron,ar,العبرة ماشية على الخور، يلا نعبر.,33,Regions/uae.json
+vo_stage_uae_2,hero,aron,ar,سوق الذهب يلمع، بس انتبه للحرس.,31,Regions/uae.json
+vo_stage_uae_3,hero,aron,ar,البراجيل تبرد الحواري، وهم يلحقوني!,35,Regions/uae.json
+vo_stage_uae_4,hero,aron,ar,أطول برج بالدنيا! والنافورة بدت تغني.,37,Regions/uae.json
+vo_stage_uae_5,hero,aron,ar,كثبان ليوا عالية، والعاصفة جاية!,32,Regions/uae.json
+vo_stage_uae_6,hero,aron,ar,واحة العين، أفلاج ونخل وقلعة الجاهلي.,37,Regions/uae.json
+vo_stage_uae_race,hero,aron,ar,سباق! سباق الصقور، يلا نشوف مين الأول!,38,Regions/uae.json
+vo_stage_uae_7,hero,aron,ar,مارد الخور طلع على الكورنيش!,28,Regions/uae.json
+vo_boss_uae_intro,The Creek Marid,boss_uae,ar,أنا ساكن الخور من زمان، ارجع من وين ما جيت!,43,Regions/uae.json
+vo_boss_uae_stun,The Creek Marid,boss_uae,ar,أوه... وين أنا؟,15,Regions/uae.json
+vo_boss_uae_defeat,The Creek Marid,boss_uae,ar,رجعت للخور... الإمارات لك.,26,Regions/uae.json
+vo_boss_uae_taunt1,The Creek Marid,boss_uae,ar,ما تقدر تلحقني!,15,Regions/uae.json
+vo_boss_uae_taunt2,The Creek Marid,boss_uae,ar,من فوق ومن تحت!,15,Regions/uae.json
+vo_boss_uae_taunt3,The Creek Marid,boss_uae,ar,الموج معي!,10,Regions/uae.json
+vo_stage_bahrain_1,hero,aron,ar,باب البحرين، من هنا يبدأ السوق.,31,Regions/bahrain.json
+vo_stage_bahrain_2,hero,aron,ar,سوق المنامة بالليل له طعم ثاني.,31,Regions/bahrain.json
+vo_stage_bahrain_3,hero,aron,ar,بيوت الطواويش القديمة على طريق اللؤلؤ.,38,Regions/bahrain.json
+vo_stage_bahrain_4,hero,aron,ar,الخيل جاهز، نلف حول القلعة.,27,Regions/bahrain.json
+vo_stage_bahrain_5,hero,aron,ar,شجرة وحدها في الصحراء، والغبار قام!,35,Regions/bahrain.json
+vo_stage_bahrain_race,hero,aron,ar,سباق! سباق قوارب الغوص، يلا نشوف مين الأول!,43,Regions/bahrain.json
+vo_stage_bahrain_6,hero,aron,ar,على الجسر... أبو محار طالع من البحر!,36,Regions/bahrain.json
+vo_boss_bahrain_intro,Abu Mahar,boss_bahrain,ar,كل لؤلؤ الخليج لي، وأنت ما راح تاخذ ولا حبة!,44,Regions/bahrain.json
+vo_boss_bahrain_stun,Abu Mahar,boss_bahrain,ar,صدفتي انفتحت...,15,Regions/bahrain.json
+vo_boss_bahrain_defeat,Abu Mahar,boss_bahrain,ar,خذ اللؤلؤ... البحرين لك.,24,Regions/bahrain.json
+vo_boss_bahrain_taunt1,Abu Mahar,boss_bahrain,ar,خذ لؤلؤ في راسك!,16,Regions/bahrain.json
+vo_boss_bahrain_taunt2,Abu Mahar,boss_bahrain,ar,صدفتي تهز الأرض!,16,Regions/bahrain.json
+vo_boss_bahrain_taunt3,Abu Mahar,boss_bahrain,ar,يا سرطانات البحر!,17,Regions/bahrain.json
+vo_stage_qatar_1,hero,aron,ar,سوق واقف! الخيالة يمشون بين المحلات.,36,Regions/qatar.json
+vo_stage_qatar_2,hero,aron,ar,سوق الصقور، صقري يعرف المكان.,29,Regions/qatar.json
+vo_stage_qatar_3,hero,aron,ar,الكورنيش بالليل، وهذولي ورا ظهري!,33,Regions/qatar.json
+vo_stage_qatar_4,hero,aron,ar,كتارا والمسرح على البحر.,24,Regions/qatar.json
+vo_stage_qatar_5,hero,aron,ar,البحر يدخل بين الكثبان، والعجاج قوي!,36,Regions/qatar.json
+vo_stage_qatar_6,hero,aron,ar,على الخيل للزبارة قبل لا تغيب الشمس.,36,Regions/qatar.json
+vo_stage_qatar_race,hero,aron,ar,سباق! سباق الهجن في الشحانية، يلا نشوف مين الأول!,49,Regions/qatar.json
+vo_stage_qatar_7,hero,aron,ar,حارس الرمال واقف بين الأبراج...,31,Regions/qatar.json
+vo_boss_qatar_intro,The Sand Warden,boss_qatar,ar,الرمل يسمع كلامي، وراح يدفنك!,29,Regions/qatar.json
+vo_boss_qatar_stun,The Sand Warden,boss_qatar,ar,الرمل دخل عيوني!,16,Regions/qatar.json
+vo_boss_qatar_defeat,The Sand Warden,boss_qatar,ar,رجع الرمل لمكانه... قطر لك.,27,Regions/qatar.json
+vo_boss_qatar_taunt1,The Sand Warden,boss_qatar,ar,يا رمال! قومي!,14,Regions/qatar.json
+vo_boss_qatar_taunt2,The Sand Warden,boss_qatar,ar,كرات رمل من كل صوب!,19,Regions/qatar.json
+vo_boss_qatar_taunt3,The Sand Warden,boss_qatar,ar,ما في مهرب!,11,Regions/qatar.json
+vo_stage_oman_1,hero,aron,ar,سوق مطرح، ريحة اللبان في كل مكان.,33,Regions/oman.json
+vo_stage_oman_2,hero,aron,ar,الكورنيش بالليل، والحرامية لاحقيني!,35,Regions/oman.json
+vo_stage_oman_3,hero,aron,ar,برج قلعة نزوى الدائري، من فوق أشوف كل شي.,41,Regions/oman.json
+vo_stage_oman_4,hero,aron,ar,سوق الجمعة في نزوى، انتبه للغنم!,32,Regions/oman.json
+vo_stage_oman_5,hero,aron,ar,المدرجات الخضراء ورمان الجبل.,29,Regions/oman.json
+vo_stage_oman_6,hero,aron,ar,رمال الشرقية! الذلول تعرف الطريق.,33,Regions/oman.json
+vo_stage_oman_7,hero,aron,ar,الخريف في صلالة، مطر ورذاذ وكل شي أخضر!,39,Regions/oman.json
+vo_stage_oman_race,hero,aron,ar,سباق! سباق الخيل العمانية، يلا نشوف مين الأول!,46,Regions/oman.json
+vo_stage_oman_8,hero,aron,ar,كاسر الصخر عند قلعة الجلالي...,30,Regions/oman.json
+vo_boss_oman_intro,The Rockbreaker,boss_oman,ar,الجبال كلها تخاف مني، وأنت حصاة صغيرة!,38,Regions/oman.json
+vo_boss_oman_stun,The Rockbreaker,boss_oman,ar,راسي صخر... بس يوجع!,20,Regions/oman.json
+vo_boss_oman_defeat,The Rockbreaker,boss_oman,ar,انكسرت... عُمان لك يا أرون.,27,Regions/oman.json
+vo_boss_oman_taunt1,The Rockbreaker,boss_oman,ar,الأرض بتهتز!,12,Regions/oman.json
+vo_boss_oman_taunt2,The Rockbreaker,boss_oman,ar,يا صخور! تدحرجي!,16,Regions/oman.json
+vo_boss_oman_taunt3,The Rockbreaker,boss_oman,ar,الحين بكسرك!,12,Regions/oman.json
+vo_stage_yemen_1,hero,aron,ar,باب اليمن، وصنعاء القديمة وراه.,31,Regions/yemen.json
+vo_stage_yemen_2,hero,aron,ar,سوق الملح، البن والزبيب والحلاوة.,33,Regions/yemen.json
+vo_stage_yemen_3,hero,aron,ar,قصر على صخرة! لازم أطلع.,24,Regions/yemen.json
+vo_stage_yemen_4,hero,aron,ar,مانهاتن الصحراء! والعجاج طالع.,30,Regions/yemen.json
+vo_stage_yemen_5,hero,aron,ar,المطر نازل على مدرجات حراز!,27,Regions/yemen.json
+vo_stage_yemen_6,hero,aron,ar,شجر دم الأخوين، كأني في كوكب ثاني.,34,Regions/yemen.json
+vo_stage_yemen_7,hero,aron,ar,الشبابيك القمرية تنور، وهم لاحقيني!,35,Regions/yemen.json
+vo_stage_yemen_race,hero,aron,ar,سباق! سباق الهجن في تهامة، يلا نشوف مين الأول!,46,Regions/yemen.json
+vo_stage_yemen_8,hero,aron,ar,عفريت كريتر ساكن في فوهة البركان...,35,Regions/yemen.json
+vo_boss_yemen_intro,The Crater Ifrit,boss_yemen,ar,هذا البركان بيتي، وعدن ما تفتح لك!,34,Regions/yemen.json
+vo_boss_yemen_stun,The Crater Ifrit,boss_yemen,ar,النار خمدت في راسي...,21,Regions/yemen.json
+vo_boss_yemen_defeat,The Crater Ifrit,boss_yemen,ar,رجعت للفوهة... اليمن لك.,24,Regions/yemen.json
+vo_boss_yemen_taunt1,The Crater Ifrit,boss_yemen,ar,جمر من البركان!,15,Regions/yemen.json
+vo_boss_yemen_taunt2,The Crater Ifrit,boss_yemen,ar,دخان ونار!,10,Regions/yemen.json
+vo_boss_yemen_taunt3,The Crater Ifrit,boss_yemen,ar,الفوهة بتنفجر!,14,Regions/yemen.json
+vo_stage_iraq_1,hero,aron,ar,شارع المتنبي، الكتب على الرصيف.,31,Regions/iraq.json
+vo_stage_iraq_2,hero,aron,ar,الشورجة زحمة، وهذولي لاحقيني!,29,Regions/iraq.json
+vo_stage_iraq_3,hero,aron,ar,أكبر قوس طابوق في العالم!,25,Regions/iraq.json
+vo_stage_iraq_4,hero,aron,ar,بابل! أسوار قديمة وبوابة زرقاء.,31,Regions/iraq.json
+vo_stage_iraq_5,hero,aron,ar,بين القصب في الأهوار، والمشحوف ينتظرني.,39,Regions/iraq.json
+vo_stage_iraq_6,hero,aron,ar,طوز! العاصفة الترابية جاية!,27,Regions/iraq.json
+vo_stage_iraq_7,hero,aron,ar,النخل على الشط، والبصرة بالليل حلوة.,36,Regions/iraq.json
+vo_stage_iraq_race,hero,aron,ar,سباق! سباق المشاحيف في الأهوار، يلا نشوف مين الأول!,51,Regions/iraq.json
+vo_stage_iraq_8,hero,aron,ar,وحش دجلة طالع من النهر...,25,Regions/iraq.json
+vo_boss_iraq_intro,The Tigris Beast,boss_iraq,ar,دجلة نهري، وبغداد ما تشوفها!,28,Regions/iraq.json
+vo_boss_iraq_stun,The Tigris Beast,boss_iraq,ar,دخت... مثل دوامة النهر.,23,Regions/iraq.json
+vo_boss_iraq_defeat,The Tigris Beast,boss_iraq,ar,رجعت للنهر... العراق لك.,24,Regions/iraq.json
+vo_boss_iraq_taunt1,The Tigris Beast,boss_iraq,ar,النهر يفيض!,11,Regions/iraq.json
+vo_boss_iraq_taunt2,The Tigris Beast,boss_iraq,ar,يا سمك البني!,13,Regions/iraq.json
+vo_boss_iraq_taunt3,The Tigris Beast,boss_iraq,ar,ما راح تعبر!,12,Regions/iraq.json
+vo_boss_iraq_taunt4,The Tigris Beast,boss_iraq,ar,الفيضان!,8,Regions/iraq.json
+vo_stage_syria_1,hero,aron,ar,الحميدية، والبوظة بالفستق!,26,Regions/syria.json
+vo_stage_syria_2,hero,aron,ar,أعمدة قديمة عند باب البريد.,27,Regions/syria.json
+vo_stage_syria_3,hero,aron,ar,قلعة حلب فوق التل، الجسر طويل!,30,Regions/syria.json
+vo_stage_syria_4,hero,aron,ar,النواعير تنوح على العاصي.,25,Regions/syria.json
+vo_stage_syria_5,hero,aron,ar,أعمدة تدمر في وسط البادية، والغبار جاي.,39,Regions/syria.json
+vo_stage_syria_6,hero,aron,ar,على الخيل لقلعة الحصن!,22,Regions/syria.json
+vo_stage_syria_race,hero,aron,ar,سباق! سباق الخيل العربية، يلا نشوف مين الأول!,45,Regions/syria.json
+vo_stage_syria_7,hero,aron,ar,الشام كلها تنور تحت... ومارد قاسيون هنا.,40,Regions/syria.json
+vo_boss_syria_intro,The Qasioun Marid,boss_syria,ar,من فوق قاسيون أشوف كل شي، وما راح تنزل!,39,Regions/syria.json
+vo_boss_syria_stun,The Qasioun Marid,boss_syria,ar,الجبل يدور فيني!,16,Regions/syria.json
+vo_boss_syria_defeat,The Qasioun Marid,boss_syria,ar,نزلت عن الجبل... الشام لك.,26,Regions/syria.json
+vo_boss_syria_taunt1,The Qasioun Marid,boss_syria,ar,سرعتي مثل الريح!,16,Regions/syria.json
+vo_boss_syria_taunt2,The Qasioun Marid,boss_syria,ar,يا رجالي!,9,Regions/syria.json
+vo_boss_syria_taunt3,The Qasioun Marid,boss_syria,ar,خذ هذي وهذي!,12,Regions/syria.json
+vo_stage_lebanon_1,hero,aron,ar,صخرة الروشة! والبحر أزرق.,25,Regions/lebanon.json
+vo_stage_lebanon_2,hero,aron,ar,الحمرا بالليل زحمة، وهم ورايا!,30,Regions/lebanon.json
+vo_stage_lebanon_3,hero,aron,ar,جبيل، من أقدم المدن في الدنيا.,30,Regions/lebanon.json
+vo_stage_lebanon_4,hero,aron,ar,الأرز والمطر... الأرض زلقة!,27,Regions/lebanon.json
+vo_stage_lebanon_5,hero,aron,ar,أعمدة آثار بعلبك العملاقة، يلا يا حصان!,39,Regions/lebanon.json
+vo_stage_lebanon_6,hero,aron,ar,الوادي المقدس عميق، انتبه للحافة.,33,Regions/lebanon.json
+vo_stage_lebanon_race,hero,aron,ar,سباق! سباق التزلج في الأرز، يلا نشوف مين الأول!,47,Regions/lebanon.json
+vo_stage_lebanon_7,hero,aron,ar,ساحر الأرز ينتظرني على القلعة...,32,Regions/lebanon.json
+vo_boss_lebanon_intro,The Cedar Sorcerer,boss_lebanon,ar,أنا عمري من عمر الأرز، وإنت بعدك شب صغير!,41,Regions/lebanon.json
+vo_boss_lebanon_stun,The Cedar Sorcerer,boss_lebanon,ar,أغصاني تلخبطت...,16,Regions/lebanon.json
+vo_boss_lebanon_defeat,The Cedar Sorcerer,boss_lebanon,ar,الأرز رجع يتنفس... لبنان لك.,28,Regions/lebanon.json
+vo_boss_lebanon_taunt1,The Cedar Sorcerer,boss_lebanon,ar,كواز الأرز!,11,Regions/lebanon.json
+vo_boss_lebanon_taunt2,The Cedar Sorcerer,boss_lebanon,ar,من فوق الشجر!,13,Regions/lebanon.json
+vo_boss_lebanon_taunt3,The Cedar Sorcerer,boss_lebanon,ar,يا غابة! قومي!,14,Regions/lebanon.json
+vo_stage_jordan_1,hero,aron,ar,وسط البلد، فلافل وكنافة ومدرج!,30,Regions/jordan.json
+vo_stage_jordan_2,hero,aron,ar,من جبل القلعة تشوف عمّان كلها.,30,Regions/jordan.json
+vo_stage_jordan_3,hero,aron,ar,شارع الأعمدة في جرش، وهم لاحقيني!,33,Regions/jordan.json
+vo_stage_jordan_4,hero,aron,ar,أوطى مكان في الأرض! والملح في كل مكان.,38,Regions/jordan.json
+vo_stage_jordan_5,hero,aron,ar,وادي رم، والعاصفة الرملية جاية!,31,Regions/jordan.json
+vo_stage_jordan_6,hero,aron,ar,السيق ضيق، والخزنة في آخره!,27,Regions/jordan.json
+vo_stage_jordan_race,hero,aron,ar,سباق! رالي وادي رم، يلا نشوف مين الأول!,39,Regions/jordan.json
+vo_stage_jordan_7,hero,aron,ar,الغول النبطي فوق الدير...,25,Regions/jordan.json
+vo_boss_jordan_intro,The Nabataean Ghoul,boss_jordan,ar,الصخر الوردي هذا بيتي من ألفين سنة!,35,Regions/jordan.json
+vo_boss_jordan_stun,The Nabataean Ghoul,boss_jordan,ar,الصخر يدور...,13,Regions/jordan.json
+vo_boss_jordan_defeat,The Nabataean Ghoul,boss_jordan,ar,رجعت للصخر... الأردن لك.,24,Regions/jordan.json
+vo_boss_jordan_taunt1,The Nabataean Ghoul,boss_jordan,ar,الجبل يرج!,10,Regions/jordan.json
+vo_boss_jordan_taunt2,The Nabataean Ghoul,boss_jordan,ar,حجارة وردية!,12,Regions/jordan.json
+vo_boss_jordan_taunt3,The Nabataean Ghoul,boss_jordan,ar,يا أهل الصخر!,13,Regions/jordan.json
+vo_stage_egypt_1,hero,aron,ar,خان الخليلي، فوانيس ونحاس!,26,Regions/egypt.json
+vo_stage_egypt_2,hero,aron,ar,شارع المعز بالليل، كله نور.,27,Regions/egypt.json
+vo_stage_egypt_3,hero,aron,ar,القلعة فوق المقطم.,18,Regions/egypt.json
+vo_stage_egypt_4,hero,aron,ar,الفلايك على النيل وقت المغرب.,29,Regions/egypt.json
+vo_stage_egypt_5,hero,aron,ar,الأهرامات! والخماسين هبت!,25,Regions/egypt.json
+vo_stage_egypt_6,hero,aron,ar,أعمدة آثار الكرنك القديمة ضخمة، يلا يا حصان!,44,Regions/egypt.json
+vo_stage_egypt_7,hero,aron,ar,البيوت النوبية ملونة على النيل.,31,Regions/egypt.json
+vo_stage_egypt_race,hero,aron,ar,سباق! سباق الفلوكة في النيل، يلا نشوف مين الأول!,48,Regions/egypt.json
+vo_stage_egypt_8,hero,aron,ar,سيد المومياوات صحى من نومه...,29,Regions/egypt.json
+vo_boss_egypt_intro,The Mummy Lord,boss_egypt,ar,نمت ألف سنة، وأنت اللي صحيتني!,30,Regions/egypt.json
+vo_boss_egypt_stun,The Mummy Lord,boss_egypt,ar,اللفايف اتفكت...,16,Regions/egypt.json
+vo_boss_egypt_defeat,The Mummy Lord,boss_egypt,ar,رجعت أنام... مصر لك يا بطل.,27,Regions/egypt.json
+vo_boss_egypt_taunt1,The Mummy Lord,boss_egypt,ar,لعنة الرمال!,12,Regions/egypt.json
+vo_boss_egypt_taunt2,The Mummy Lord,boss_egypt,ar,قوموا يا مومياوات!,18,Regions/egypt.json
+vo_boss_egypt_taunt3,The Mummy Lord,boss_egypt,ar,الرمل والريح!,13,Regions/egypt.json
+vo_boss_egypt_taunt4,The Mummy Lord,boss_egypt,ar,مش هتعدي!,9,Regions/egypt.json
+vo_stage_sudan_1,hero,aron,ar,سوق أم درمان، الصندل والكركدي.,30,Regions/sudan.json
+vo_stage_sudan_2,hero,aron,ar,النيل الأزرق والأبيض يتلاقوا هنا!,33,Regions/sudan.json
+vo_stage_sudan_3,hero,aron,ar,على الحصان بين المزارع في توتي.,31,Regions/sudan.json
+vo_stage_sudan_4,hero,aron,ar,أهرامات مروي، والهبوب جاي!,26,Regions/sudan.json
+vo_stage_sudan_5,hero,aron,ar,جبل البركل، وهم لاحقيني!,24,Regions/sudan.json
+vo_stage_sudan_6,hero,aron,ar,سواكن القديمة على البحر الأحمر.,31,Regions/sudan.json
+vo_stage_sudan_race,hero,aron,ar,سباق! سباق الهجن في البطانة، يلا نشوف مين الأول!,48,Regions/sudan.json
+vo_stage_sudan_7,hero,aron,ar,عملاق البركل طلع لي في جبل مرة...,33,Regions/sudan.json
+vo_boss_sudan_intro,The Barkal Giant,boss_sudan,ar,الجبل جبلي، وما في زول يعدي!,28,Regions/sudan.json
+vo_boss_sudan_stun,The Barkal Giant,boss_sudan,ar,يا زول... الدنيا لفت!,21,Regions/sudan.json
+vo_boss_sudan_defeat,The Barkal Giant,boss_sudan,ar,خلاص... السودان ليك.,20,Regions/sudan.json
+vo_boss_sudan_taunt1,The Barkal Giant,boss_sudan,ar,خطوتي تهز الأرض!,16,Regions/sudan.json
+vo_boss_sudan_taunt2,The Barkal Giant,boss_sudan,ar,صخور من فوق!,12,Regions/sudan.json
+vo_boss_sudan_taunt3,The Barkal Giant,boss_sudan,ar,يا جماعة! تعالوا!,17,Regions/sudan.json
+vo_stage_libya_1,hero,aron,ar,ميدان الشهداء في طرابلس.,24,Regions/libya.json
+vo_stage_libya_2,hero,aron,ar,السرايا الحمراء على البحر.,26,Regions/libya.json
+vo_stage_libya_3,hero,aron,ar,سوق المشير بالليل، وهم ورايا!,29,Regions/libya.json
+vo_stage_libya_4,hero,aron,ar,لبدة الكبرى، مدينة كاملة من حجر.,32,Regions/libya.json
+vo_stage_libya_5,hero,aron,ar,غدامس جوهرة الصحراء، يلا يا حصان.,33,Regions/libya.json
+vo_stage_libya_6,hero,aron,ar,بحيرات وسط الرمل! والقبلي هب!,29,Regions/libya.json
+vo_stage_libya_race,hero,aron,ar,سباق! رالي الصحراء الكبرى، يلا نشوف مين الأول!,46,Regions/libya.json
+vo_stage_libya_7,hero,aron,ar,الفارس المقنع ينتظرني عند القوس...,34,Regions/libya.json
+vo_boss_libya_intro,The Masked Rider,boss_libya,ar,ما حد يعرف وجهي، وما حد عدى من هني!,35,Regions/libya.json
+vo_boss_libya_stun,The Masked Rider,boss_libya,ar,اللثام طاح على عيوني!,21,Regions/libya.json
+vo_boss_libya_defeat,The Masked Rider,boss_libya,ar,خلاص... ليبيا ليك.,18,Regions/libya.json
+vo_boss_libya_taunt1,The Masked Rider,boss_libya,ar,أسرع من القبلي!,15,Regions/libya.json
+vo_boss_libya_taunt2,The Masked Rider,boss_libya,ar,من كل جهة!,10,Regions/libya.json
+vo_boss_libya_taunt3,The Masked Rider,boss_libya,ar,يا فرسان!,9,Regions/libya.json
+vo_stage_tunisia_1,hero,aron,ar,أبيض وأزرق، وريحة الياسمين.,27,Regions/tunisia.json
+vo_stage_tunisia_2,hero,aron,ar,سوق الشواشية، كل الشواشي حمراء.,31,Regions/tunisia.json
+vo_stage_tunisia_3,hero,aron,ar,قرطاج القديمة على البحر.,24,Regions/tunisia.json
+vo_stage_tunisia_4,hero,aron,ar,مدرج الجم الضخم، يلا يا حصان!,29,Regions/tunisia.json
+vo_stage_tunisia_5,hero,aron,ar,بحيرة ملح ما لها آخر، والعجاج طالع.,35,Regions/tunisia.json
+vo_stage_tunisia_6,hero,aron,ar,طوب توزر والنخيل، وهم لاحقيني!,30,Regions/tunisia.json
+vo_stage_tunisia_race,hero,aron,ar,سباق! سباق الهجن في دوز، يلا نشوف مين الأول!,44,Regions/tunisia.json
+vo_stage_tunisia_7,hero,aron,ar,قرصان المتوسط فوق الرباط...,27,Regions/tunisia.json
+vo_boss_tunisia_intro,The Mediterranean Corsair,boss_tunisia,ar,المتوسط كله بحري، وأنت بس سمكة صغيرة!,37,Regions/tunisia.json
+vo_boss_tunisia_stun,The Mediterranean Corsair,boss_tunisia,ar,دوار البحر...,13,Regions/tunisia.json
+vo_boss_tunisia_defeat,The Mediterranean Corsair,boss_tunisia,ar,نزلت العلم... تونس ليك.,23,Regions/tunisia.json
+vo_boss_tunisia_taunt1,The Mediterranean Corsair,boss_tunisia,ar,مدافعي جاهزة!,13,Regions/tunisia.json
+vo_boss_tunisia_taunt2,The Mediterranean Corsair,boss_tunisia,ar,يا بحارة! هجوم!,15,Regions/tunisia.json
+vo_boss_tunisia_taunt3,The Mediterranean Corsair,boss_tunisia,ar,الموج يغرقك!,12,Regions/tunisia.json
+vo_stage_algeria_1,hero,aron,ar,القصبة، دروج وأزقة بيضاء.,25,Regions/algeria.json
+vo_stage_algeria_2,hero,aron,ar,مقام الشهيد فوق العاصمة.,24,Regions/algeria.json
+vo_stage_algeria_3,hero,aron,ar,مدينة الجسور المعلقة، والمطر نازل!,34,Regions/algeria.json
+vo_stage_algeria_4,hero,aron,ar,قوس تراجان في تيمقاد، يلا يا حصان.,34,Regions/algeria.json
+vo_stage_algeria_5,hero,aron,ar,بيوت ميزاب الملونة، وهم ورايا بالليل!,37,Regions/algeria.json
+vo_stage_algeria_6,hero,aron,ar,صخور طاسيلي، والعاصفة جاية!,27,Regions/algeria.json
+vo_stage_algeria_race,hero,aron,ar,سباق! سباق الفانتازيا، يلا نشوف مين الأول!,42,Regions/algeria.json
+vo_stage_algeria_7,hero,aron,ar,جبار الأهقار واقف بين الصخور...,31,Regions/algeria.json
+vo_boss_algeria_intro,The Hoggar Titan,boss_algeria,ar,صخور الأهقار عمرها ملايين السنين، وأنت ولا شي!,46,Regions/algeria.json
+vo_boss_algeria_stun,The Hoggar Titan,boss_algeria,ar,واش صار؟ راسي يدور!,19,Regions/algeria.json
+vo_boss_algeria_defeat,The Hoggar Titan,boss_algeria,ar,صحيت... الجزائر ليك.,20,Regions/algeria.json
+vo_boss_algeria_taunt1,The Hoggar Titan,boss_algeria,ar,الصخر يطيح!,11,Regions/algeria.json
+vo_boss_algeria_taunt2,The Hoggar Titan,boss_algeria,ar,جبال تنهار!,11,Regions/algeria.json
+vo_boss_algeria_taunt3,The Hoggar Titan,boss_algeria,ar,يا صخور!,8,Regions/algeria.json
+vo_boss_algeria_taunt4,The Hoggar Titan,boss_algeria,ar,النهاية!,8,Regions/algeria.json
+vo_stage_morocco_1,hero,aron,ar,جامع الفنا! حكواتية وعصير برتقال.,33,Regions/morocco.json
+vo_stage_morocco_2,hero,aron,ar,صومعة الكتبية تشوفها من كل مكان.,32,Regions/morocco.json
+vo_stage_morocco_3,hero,aron,ar,باب بوجلود الأزرق، وأزقة فاس متاهة!,35,Regions/morocco.json
+vo_stage_morocco_4,hero,aron,ar,المدينة الزرقاء، والمطر نازل على الدروج.,40,Regions/morocco.json
+vo_stage_morocco_5,hero,aron,ar,قصبة من طين تحت الأطلس، يلا يا حصان!,36,Regions/morocco.json
+vo_stage_morocco_6,hero,aron,ar,كثبان مرزوكة الحمراء، والشركي هب!,33,Regions/morocco.json
+vo_stage_morocco_7,hero,aron,ar,الصويرة والنوارس والريح.,24,Regions/morocco.json
+vo_stage_morocco_race,hero,aron,ar,سباق! سباق التبوريدة، يلا نشوف مين الأول!,41,Regions/morocco.json
+vo_stage_morocco_8,hero,aron,ar,غول الأطلس عند صومعة حسان... آخر واحد!,38,Regions/morocco.json
+vo_boss_morocco_intro,The Atlas Ghoul,boss_morocco,ar,من الأطلس للمحيط، كل شي تحت يدي!,32,Regions/morocco.json
+vo_boss_morocco_stun,The Atlas Ghoul,boss_morocco,ar,واش هذا؟ كلشي كيدور!,20,Regions/morocco.json
+vo_boss_morocco_defeat,The Atlas Ghoul,boss_morocco,ar,صافي... المغرب ديالك يا بطل.,28,Regions/morocco.json
+vo_boss_morocco_taunt1,The Atlas Ghoul,boss_morocco,ar,الريح معي!,10,Regions/morocco.json
+vo_boss_morocco_taunt2,The Atlas Ghoul,boss_morocco,ar,يا غيلان الجبل!,15,Regions/morocco.json
+vo_boss_morocco_taunt3,The Atlas Ghoul,boss_morocco,ar,ما كاين هروب!,13,Regions/morocco.json
+vo_boss_morocco_taunt4,The Atlas Ghoul,boss_morocco,ar,كلشي دفعة وحدة!,15,Regions/morocco.json
+vo_stage_mauritania_1,hero,aron,ar,المدينة الطينية القديمة، والرمل يغطي البيبان.,45,Regions/mauritania.json
+vo_stage_mauritania_2,hero,aron,ar,البيوت الحجرية القديمة على التلة.,33,Regions/mauritania.json
+vo_stage_mauritania_3,hero,aron,ar,دوائر عملاقة في وسط الصحراء!,28,Regions/mauritania.json
+vo_stage_mauritania_4,hero,aron,ar,الشاي والتمر والقماش الملوّن.,29,Regions/mauritania.json
+vo_stage_mauritania_5,hero,aron,ar,قوارب الصيادين الملونة طالعة من البحر.,38,Regions/mauritania.json
+vo_stage_mauritania_6,hero,aron,ar,واحة بين الصخور، والليل صافي.,29,Regions/mauritania.json
+vo_stage_mauritania_race,hero,aron,ar,سباق! سباق الهجن في الصحراء، يلا نشوف مين الأول!,48,Regions/mauritania.json
+vo_stage_mauritania_7,hero,aron,ar,حارس الكثبان ينتظرك فوق أعلى رملة!,34,Regions/mauritania.json
+vo_boss_mauritania_intro,The Dune Keeper,boss_mauritania,ar,الرمل كله يسمع كلامي!,21,Regions/mauritania.json
+vo_boss_mauritania_stun,The Dune Keeper,boss_mauritania,ar,وين راحت الكثبان؟,17,Regions/mauritania.json
+vo_boss_mauritania_defeat,The Dune Keeper,boss_mauritania,ar,زين... موريتانيا لك.,20,Regions/mauritania.json
+vo_boss_mauritania_taunt1,The Dune Keeper,boss_mauritania,ar,الرمل يمشي!,11,Regions/mauritania.json
+vo_boss_mauritania_taunt2,The Dune Keeper,boss_mauritania,ar,يا ريح الشمال!,14,Regions/mauritania.json
+vo_boss_mauritania_taunt3,The Dune Keeper,boss_mauritania,ar,ما فيه ظل هنا!,14,Regions/mauritania.json
+vo_stage_portugal_1,hero,aron,ar,الترام الأصفر طالع الطلعة!,26,Regions/portugal.json
+vo_stage_portugal_2,hero,aron,ar,البيوت الملونة على النهر.,25,Regions/portugal.json
+vo_stage_portugal_3,hero,aron,ar,قصر فوق الغيم، والطريق ضباب.,28,Regions/portugal.json
+vo_stage_portugal_4,hero,aron,ar,صخور ذهبية فوق البحر الأزرق.,28,Regions/portugal.json
+vo_stage_portugal_5,hero,aron,ar,أشجار الفلين والقرى البيضاء.,28,Regions/portugal.json
+vo_stage_portugal_6,hero,aron,ar,السردين المشوي ريحته تفتح النفس.,32,Regions/portugal.json
+vo_stage_portugal_race,hero,aron,ar,سباق! سباق قوارب النهر، يلا نشوف مين الأول!,43,Regions/portugal.json
+vo_stage_portugal_7,hero,aron,ar,ملّاح العاصفة على حافة الصخرة!,30,Regions/portugal.json
+vo_boss_portugal_intro,The Storm Navigator,boss_portugal,ar,البحر الأطلسي ملكي!,19,Regions/portugal.json
+vo_boss_portugal_stun,The Storm Navigator,boss_portugal,ar,الموجة قلبتني!,14,Regions/portugal.json
+vo_boss_portugal_defeat,The Storm Navigator,boss_portugal,ar,طيب... البرتغال لك.,19,Regions/portugal.json
+vo_boss_portugal_taunt1,The Storm Navigator,boss_portugal,ar,الريح في أشرعتي!,16,Regions/portugal.json
+vo_boss_portugal_taunt2,The Storm Navigator,boss_portugal,ar,موجة ورا موجة!,14,Regions/portugal.json
+vo_boss_portugal_taunt3,The Storm Navigator,boss_portugal,ar,ما توصل للبر!,13,Regions/portugal.json
+vo_stage_spain_1,hero,aron,ar,البيوت بيضاء والشوارع طالعة نازلة.,34,Regions/spain.json
+vo_stage_spain_2,hero,aron,ar,أقواس ونوافير وريحة زهر البرتقال.,33,Regions/spain.json
+vo_stage_spain_3,hero,aron,ar,الطواحين تلف والريح قوية!,25,Regions/spain.json
+vo_stage_spain_4,hero,aron,ar,الساحة مليانة ناس وموسيقى.,26,Regions/spain.json
+vo_stage_spain_5,hero,aron,ar,صفوف الزيتون لين آخر النظر.,27,Regions/spain.json
+vo_stage_spain_6,hero,aron,ar,القوارب والمطر على الميناء.,27,Regions/spain.json
+vo_stage_spain_race,hero,aron,ar,سباق! سباق الخيل الأندلسي، يلا نشوف مين الأول!,46,Regions/spain.json
+vo_stage_spain_7,hero,aron,ar,فارس الطواحين ينتظرك فوق التلة!,31,Regions/spain.json
+vo_boss_spain_intro,The Windmill Knight,boss_spain,ar,الطواحين جيشي!,14,Regions/spain.json
+vo_boss_spain_stun,The Windmill Knight,boss_spain,ar,الدنيا تلف فيني!,16,Regions/spain.json
+vo_boss_spain_defeat,The Windmill Knight,boss_spain,ar,تمام... إسبانيا لك.,19,Regions/spain.json
+vo_boss_spain_taunt1,The Windmill Knight,boss_spain,ar,لف يا طاحون!,12,Regions/spain.json
+vo_boss_spain_taunt2,The Windmill Knight,boss_spain,ar,سيفي جاهز!,10,Regions/spain.json
+vo_boss_spain_taunt3,The Windmill Knight,boss_spain,ar,ما فيه هروب!,12,Regions/spain.json
+vo_stage_france_1,hero,aron,ar,المقاهي على الرصيف، وريحة الخبز!,32,Regions/france.json
+vo_stage_france_2,hero,aron,ar,برج حديدي فوق النهر، بالنهار يلمع.,34,Regions/france.json
+vo_stage_france_3,hero,aron,ar,بنفسجي لين آخر الدنيا!,22,Regions/france.json
+vo_stage_france_4,hero,aron,ar,المد يطلع بسرعة، اركض!,22,Regions/france.json
+vo_stage_france_5,hero,aron,ar,قلاع بيضاء على النهر.,21,Regions/france.json
+vo_stage_france_6,hero,aron,ar,الثلج والجبال والهوا بارد.,26,Regions/france.json
+vo_stage_france_race,hero,aron,ar,سباق! سباق عربات الصناديق، يلا نشوف مين الأول!,46,Regions/france.json
+vo_stage_france_7,hero,aron,ar,ساحر الخزامى في وسط الحقل!,26,Regions/france.json
+vo_boss_france_intro,The Lavender Wizard,boss_france,ar,الخزامى تنومك!,14,Regions/france.json
+vo_boss_france_stun,The Lavender Wizard,boss_france,ar,عطس! كله من الورد!,18,Regions/france.json
+vo_boss_france_defeat,The Lavender Wizard,boss_france,ar,طيب... فرنسا لك.,16,Regions/france.json
+vo_boss_france_taunt1,The Lavender Wizard,boss_france,ar,ورود تطير!,10,Regions/france.json
+vo_boss_france_taunt2,The Lavender Wizard,boss_france,ar,نوم يا بطل!,11,Regions/france.json
+vo_boss_france_taunt3,The Lavender Wizard,boss_france,ar,سحر بنفسجي!,11,Regions/france.json
+vo_stage_uk_1,hero,aron,ar,الباص الأحمر جا، اركب!,22,Regions/uk.json
+vo_stage_uk_2,hero,aron,ar,الساعة تدق، لا تتأخر!,21,Regions/uk.json
+vo_stage_uk_3,hero,aron,ar,بحيرات وجبال وضباب.,19,Regions/uk.json
+vo_stage_uk_4,hero,aron,ar,قلعة قديمة فوق التلة.,21,Regions/uk.json
+vo_stage_uk_5,hero,aron,ar,خرفان وحقول خضراء.,18,Regions/uk.json
+vo_stage_uk_6,hero,aron,ar,الموج والنوارس على الرصيف.,26,Regions/uk.json
+vo_stage_uk_race,hero,aron,ar,سباق! سباق التجديف، يلا نشوف مين الأول!,39,Regions/uk.json
+vo_stage_uk_7,hero,aron,ar,فارس الضباب ينتظر في ساحة القلعة!,33,Regions/uk.json
+vo_boss_uk_intro,The Fog Knight,boss_uk,ar,الضباب يخبيني!,14,Regions/uk.json
+vo_boss_uk_stun,The Fog Knight,boss_uk,ar,وين راح الضباب؟,15,Regions/uk.json
+vo_boss_uk_defeat,The Fog Knight,boss_uk,ar,حسناً... بريطانيا لك.,21,Regions/uk.json
+vo_boss_uk_taunt1,The Fog Knight,boss_uk,ar,ضباب كثيف!,10,Regions/uk.json
+vo_boss_uk_taunt2,The Fog Knight,boss_uk,ar,سيفي ودرعي!,11,Regions/uk.json
+vo_boss_uk_taunt3,The Fog Knight,boss_uk,ar,مطر ورا مطر!,12,Regions/uk.json
+vo_stage_germany_1,hero,aron,ar,بيوت بخشب مخطط، مثل الحكايات.,29,Regions/germany.json
+vo_stage_germany_2,hero,aron,ar,أشجار عالية وطاحونة ماء.,24,Regions/germany.json
+vo_stage_germany_3,hero,aron,ar,قلعة فوق الصخرة، والطريق ضيق!,29,Regions/germany.json
+vo_stage_germany_4,hero,aron,ar,قوارب وقلاع على النهر.,22,Regions/germany.json
+vo_stage_germany_5,hero,aron,ar,أنوار وأكشاك خشب ومعجنات.,25,Regions/germany.json
+vo_stage_germany_6,hero,aron,ar,بحيرة زرقاء تحت الثلج.,22,Regions/germany.json
+vo_stage_germany_race,hero,aron,ar,سباق! سباق الطريق السريع الجبلي، يلا نشوف مين الأول!,52,Regions/germany.json
+vo_stage_germany_7,hero,aron,ar,عملاق الغابة صحى!,17,Regions/germany.json
+vo_boss_germany_intro,The Forest Giant,boss_germany,ar,الغابة كلها جذوري!,18,Regions/germany.json
+vo_boss_germany_stun,The Forest Giant,boss_germany,ar,أغصاني انكسرت!,14,Regions/germany.json
+vo_boss_germany_defeat,The Forest Giant,boss_germany,ar,طيب... ألمانيا لك.,18,Regions/germany.json
+vo_boss_germany_taunt1,The Forest Giant,boss_germany,ar,جذور تطلع!,10,Regions/germany.json
+vo_boss_germany_taunt2,The Forest Giant,boss_germany,ar,أوراق تطير!,11,Regions/germany.json
+vo_boss_germany_taunt3,The Forest Giant,boss_germany,ar,الغابة تمشي!,12,Regions/germany.json
+vo_stage_turkey_1,hero,aron,ar,آلاف المحلات تحت سقف واحد!,26,Regions/turkey.json
+vo_stage_turkey_2,hero,aron,ar,عبّارات ونوارس وسميط.,21,Regions/turkey.json
+vo_stage_turkey_3,hero,aron,ar,صخور مثل المداخن، والمناطيد فوقها!,34,Regions/turkey.json
+vo_stage_turkey_4,hero,aron,ar,مدرجات بيضاء والمي ينزل عليها.,30,Regions/turkey.json
+vo_stage_turkey_5,hero,aron,ar,مسرح قديم من حجر.,17,Regions/turkey.json
+vo_stage_turkey_6,hero,aron,ar,مزارع الشاي على الجبل.,22,Regions/turkey.json
+vo_stage_turkey_race,hero,aron,ar,سباق! سباق الخيل في السهل، يلا نشوف مين الأول!,46,Regions/turkey.json
+vo_stage_turkey_7,hero,aron,ar,عملاق المداخن صحى من الصخر!,27,Regions/turkey.json
+vo_boss_turkey_intro,The Chimney Titan,boss_turkey,ar,الصخور كلها معي!,16,Regions/turkey.json
+vo_boss_turkey_stun,The Chimney Titan,boss_turkey,ar,انهدّت مداخني!,14,Regions/turkey.json
+vo_boss_turkey_defeat,The Chimney Titan,boss_turkey,ar,تمام... تركيا لك.,17,Regions/turkey.json
+vo_boss_turkey_taunt1,The Chimney Titan,boss_turkey,ar,صخر يطير!,9,Regions/turkey.json
+vo_boss_turkey_taunt2,The Chimney Titan,boss_turkey,ar,المنطاد معي!,12,Regions/turkey.json
+vo_boss_turkey_taunt3,The Chimney Titan,boss_turkey,ar,الوادي ما يرحم!,15,Regions/turkey.json
+vo_stage_uzbekistan_1,hero,aron,ar,بلاط فيروزي يلمع في الشمس!,26,Regions/uzbekistan.json
+vo_stage_uzbekistan_2,hero,aron,ar,أسوار من طين على طريق الحرير.,29,Regions/uzbekistan.json
+vo_stage_uzbekistan_3,hero,aron,ar,حرير وتوابل وبطيخ أصفر.,23,Regions/uzbekistan.json
+vo_stage_uzbekistan_4,hero,aron,ar,قافلة الجمال في الرمل الأحمر.,29,Regions/uzbekistan.json
+vo_stage_uzbekistan_5,hero,aron,ar,بساتين المشمش والعنب.,21,Regions/uzbekistan.json
+vo_stage_uzbekistan_6,hero,aron,ar,خان قديم للقوافل في الليل.,26,Regions/uzbekistan.json
+vo_stage_uzbekistan_race,hero,aron,ar,سباق! سباق الخيل في السهوب، يلا نشوف مين الأول!,47,Regions/uzbekistan.json
+vo_stage_uzbekistan_7,hero,aron,ar,أمير القوافل في ساحة البوابات!,30,Regions/uzbekistan.json
+vo_boss_uzbekistan_intro,The Caravan Emir,boss_uzbekistan,ar,طريق الحرير كله لي!,19,Regions/uzbekistan.json
+vo_boss_uzbekistan_stun,The Caravan Emir,boss_uzbekistan,ar,ضاع الحرير!,11,Regions/uzbekistan.json
+vo_boss_uzbekistan_defeat,The Caravan Emir,boss_uzbekistan,ar,طيب... أوزبكستان لك.,20,Regions/uzbekistan.json
+vo_boss_uzbekistan_taunt1,The Caravan Emir,boss_uzbekistan,ar,القافلة تهجم!,13,Regions/uzbekistan.json
+vo_boss_uzbekistan_taunt2,The Caravan Emir,boss_uzbekistan,ar,رمل أحمر!,9,Regions/uzbekistan.json
+vo_boss_uzbekistan_taunt3,The Caravan Emir,boss_uzbekistan,ar,سيوف الحرير!,12,Regions/uzbekistan.json
+vo_stage_pakistan_1,hero,aron,ar,شاحنات مرسومة بكل الألوان!,26,Regions/pakistan.json
+vo_stage_pakistan_2,hero,aron,ar,حصن أحمر كبير من أيام المغول.,29,Regions/pakistan.json
+vo_stage_pakistan_3,hero,aron,ar,نوافير وممرات خضراء.,20,Regions/pakistan.json
+vo_stage_pakistan_4,hero,aron,ar,أعلى جبال الدنيا قدامك!,23,Regions/pakistan.json
+vo_stage_pakistan_5,hero,aron,ar,جمال ورمل ونجوم.,16,Regions/pakistan.json
+vo_stage_pakistan_6,hero,aron,ar,ريحة الكباب والجلابي.,21,Regions/pakistan.json
+vo_stage_pakistan_race,hero,aron,ar,سباق! سباق الثيران والطين، يلا نشوف مين الأول!,46,Regions/pakistan.json
+vo_stage_pakistan_7,hero,aron,ar,ثعلب الجبل فوق القمة!,21,Regions/pakistan.json
+vo_boss_pakistan_intro,The Mountain Fox,boss_pakistan,ar,الجبال بيتي!,12,Regions/pakistan.json
+vo_boss_pakistan_stun,The Mountain Fox,boss_pakistan,ar,طاحت فروتي!,11,Regions/pakistan.json
+vo_boss_pakistan_defeat,The Mountain Fox,boss_pakistan,ar,زين... باكستان لك.,18,Regions/pakistan.json
+vo_boss_pakistan_taunt1,The Mountain Fox,boss_pakistan,ar,ثلج يطيح!,9,Regions/pakistan.json
+vo_boss_pakistan_taunt2,The Mountain Fox,boss_pakistan,ar,أسرع من الريح!,14,Regions/pakistan.json
+vo_boss_pakistan_taunt3,The Mountain Fox,boss_pakistan,ar,ما توصل للقمة!,14,Regions/pakistan.json
+vo_stage_india_1,hero,aron,ar,قصور وردية وأسواق مزدحمة!,25,Regions/india.json
+vo_stage_india_2,hero,aron,ar,حصن ذهبي وسط الرمل.,19,Regions/india.json
+vo_stage_india_3,hero,aron,ar,بيوت عايمة بين النخيل.,22,Regions/india.json
+vo_stage_india_4,hero,aron,ar,قطار صغير يطلع الجبل!,21,Regions/india.json
+vo_stage_india_5,hero,aron,ar,كركم وفلفل وهيل.,16,Regions/india.json
+vo_stage_india_6,hero,aron,ar,غابة كثيفة وأصوات بالليل.,25,Regions/india.json
+vo_stage_india_race,hero,aron,ar,سباق! سباق قوارب الأفعى، يلا نشوف مين الأول!,44,Regions/india.json
+vo_stage_india_7,hero,aron,ar,فيل الرعد في ساحة القصر!,24,Regions/india.json
+vo_boss_india_intro,The Thunder Elephant,boss_india,ar,الأرض ترجف تحت أقدامي!,22,Regions/india.json
+vo_boss_india_stun,The Thunder Elephant,boss_india,ar,خرطومي التوى!,13,Regions/india.json
+vo_boss_india_defeat,The Thunder Elephant,boss_india,ar,تمام... الهند لك.,17,Regions/india.json
+vo_boss_india_taunt1,The Thunder Elephant,boss_india,ar,زلزال!,6,Regions/india.json
+vo_boss_india_taunt2,The Thunder Elephant,boss_india,ar,رعد يا سما!,11,Regions/india.json
+vo_boss_india_taunt3,The Thunder Elephant,boss_india,ar,ما فيه مهرب!,12,Regions/india.json
+vo_stage_malaysia_1,hero,aron,ar,برجين لامعين فوق المدينة!,25,Regions/malaysia.json
+vo_stage_malaysia_2,hero,aron,ar,البيوت الخشبية واقفة على المي.,30,Regions/malaysia.json
+vo_stage_malaysia_3,hero,aron,ar,أقدم غابة في الدنيا، والمطر ما يوقف!,36,Regions/malaysia.json
+vo_stage_malaysia_4,hero,aron,ar,ساتيه وعصير قصب.,16,Regions/malaysia.json
+vo_stage_malaysia_5,hero,aron,ar,تلال خضراء من الشاي.,20,Regions/malaysia.json
+vo_stage_malaysia_6,hero,aron,ar,رمل أبيض وبحر فيروزي.,21,Regions/malaysia.json
+vo_stage_malaysia_race,hero,aron,ar,سباق! سباق القوارب الشراعية، يلا نشوف مين الأول!,48,Regions/malaysia.json
+vo_stage_malaysia_7,hero,aron,ar,قرصان المضيق ينتظرك على الميناء!,32,Regions/malaysia.json
+vo_boss_malaysia_intro,The Strait Pirate,boss_malaysia,ar,المضيق كله لي!,14,Regions/malaysia.json
+vo_boss_malaysia_stun,The Strait Pirate,boss_malaysia,ar,سفينتي غرقت!,12,Regions/malaysia.json
+vo_boss_malaysia_defeat,The Strait Pirate,boss_malaysia,ar,طيب... ماليزيا لك.,18,Regions/malaysia.json
+vo_boss_malaysia_taunt1,The Strait Pirate,boss_malaysia,ar,مدفع جاهز!,10,Regions/malaysia.json
+vo_boss_malaysia_taunt2,The Strait Pirate,boss_malaysia,ar,موجة الخليج!,12,Regions/malaysia.json
+vo_boss_malaysia_taunt3,The Strait Pirate,boss_malaysia,ar,ما تهرب بالقارب!,16,Regions/malaysia.json
+vo_stage_indonesia_1,hero,aron,ar,درج أخضر لين آخر الجبل!,23,Regions/indonesia.json
+vo_stage_indonesia_2,hero,aron,ar,دخان البركان قريب، انتبه!,25,Regions/indonesia.json
+vo_stage_indonesia_3,hero,aron,ar,سقوف معكوفة مثل القوارب.,24,Regions/indonesia.json
+vo_stage_indonesia_4,hero,aron,ar,سحلية الكومودو تراقبك!,22,Regions/indonesia.json
+vo_stage_indonesia_5,hero,aron,ar,قماش مرسوم باليد.,17,Regions/indonesia.json
+vo_stage_indonesia_6,hero,aron,ar,مطر استوائي وقرود فوق الشجر.,28,Regions/indonesia.json
+vo_stage_indonesia_race,hero,aron,ar,سباق! سباق الثيران في الطين، يلا نشوف مين الأول!,48,Regions/indonesia.json
+vo_stage_indonesia_7,hero,aron,ar,تنين الجزيرة على حافة البركان!,30,Regions/indonesia.json
+vo_boss_indonesia_intro,The Island Dragon,boss_indonesia,ar,الجزيرة جزيرتي!,15,Regions/indonesia.json
+vo_boss_indonesia_stun,The Island Dragon,boss_indonesia,ar,ذيلي التوى!,11,Regions/indonesia.json
+vo_boss_indonesia_defeat,The Island Dragon,boss_indonesia,ar,زين... إندونيسيا لك.,20,Regions/indonesia.json
+vo_boss_indonesia_taunt1,The Island Dragon,boss_indonesia,ar,نار الجزيرة!,12,Regions/indonesia.json
+vo_boss_indonesia_taunt2,The Island Dragon,boss_indonesia,ar,ذيلي يضرب!,10,Regions/indonesia.json
+vo_boss_indonesia_taunt3,The Island Dragon,boss_indonesia,ar,ما فيه هروب!,12,Regions/indonesia.json
+vo_stage_japan_1,hero,aron,ar,أنوار بكل لون والقطار فوق!,26,Regions/japan.json
+vo_stage_japan_2,hero,aron,ar,الخيزران يطقطق مع الريح.,24,Regions/japan.json
+vo_stage_japan_3,hero,aron,ar,ورد وردي يطير في الهوا!,23,Regions/japan.json
+vo_stage_japan_4,hero,aron,ar,جبل أبيض فوق البحيرة.,21,Regions/japan.json
+vo_stage_japan_5,hero,aron,ar,بيوت سقوفها من قش.,18,Regions/japan.json
+vo_stage_japan_6,hero,aron,ar,قلعة بيضاء مثل الطير.,21,Regions/japan.json
+vo_stage_japan_race,hero,aron,ar,سباق! سباق التزلج الجبلي، يلا نشوف مين الأول!,45,Regions/japan.json
+vo_stage_japan_7,hero,aron,ar,نينجا الضباب فوق السطوح!,24,Regions/japan.json
+vo_boss_japan_intro,The Mist Ninja,boss_japan,ar,ما تشوفني!,10,Regions/japan.json
+vo_boss_japan_stun,The Mist Ninja,boss_japan,ar,انكشفت!,7,Regions/japan.json
+vo_boss_japan_defeat,The Mist Ninja,boss_japan,ar,تمام... اليابان لك.,19,Regions/japan.json
+vo_boss_japan_taunt1,The Mist Ninja,boss_japan,ar,ظل وراك!,8,Regions/japan.json
+vo_boss_japan_taunt2,The Mist Ninja,boss_japan,ar,نجوم تطير!,10,Regions/japan.json
+vo_boss_japan_taunt3,The Mist Ninja,boss_japan,ar,سريع مثل الريح!,15,Regions/japan.json
+vo_boss_japan_taunt4,The Mist Ninja,boss_japan,ar,كل الظلال!,10,Regions/japan.json
+vo_stage_usa_1,hero,aron,ar,الأبراج عالية والتاكسي الأصفر في كل مكان!,41,Regions/usa.json
+vo_stage_usa_2,hero,aron,ar,تمثال الشعلة في وسط الميناء.,28,Regions/usa.json
+vo_stage_usa_3,hero,aron,ar,صخور حمراء وواد عميق!,21,Regions/usa.json
+vo_stage_usa_4,hero,aron,ar,خيل وبقر وغبار!,15,Regions/usa.json
+vo_stage_usa_5,hero,aron,ar,أطول أشجار في الدنيا.,21,Regions/usa.json
+vo_stage_usa_6,hero,aron,ar,جسر أحمر فوق الضباب.,20,Regions/usa.json
+vo_stage_usa_race,hero,aron,ar,سباق! سباق الطريق الطويل، يلا نشوف مين الأول!,45,Regions/usa.json
+vo_stage_usa_7,hero,aron,ar,عملاق الوادي طلع من الصخر!,26,Regions/usa.json
+vo_boss_usa_intro,The Canyon Giant,boss_usa,ar,الوادي كله صخري!,16,Regions/usa.json
+vo_boss_usa_stun,The Canyon Giant,boss_usa,ar,انشقّت صخرتي!,13,Regions/usa.json
+vo_boss_usa_defeat,The Canyon Giant,boss_usa,ar,تمام... أمريكا لك.,18,Regions/usa.json
+vo_boss_usa_taunt1,The Canyon Giant,boss_usa,ar,صخور تتدحرج!,12,Regions/usa.json
+vo_boss_usa_taunt2,The Canyon Giant,boss_usa,ar,غبار الوادي!,12,Regions/usa.json
+vo_boss_usa_taunt3,The Canyon Giant,boss_usa,ar,ما فيه طريق!,12,Regions/usa.json
+vo_boss_usa_taunt4,The Canyon Giant,boss_usa,ar,كل الوادي!,10,Regions/usa.json
+vo_stage_mexico_1,hero,aron,ar,بيوت بكل الألوان!,17,Regions/mexico.json
+vo_stage_mexico_2,hero,aron,ar,هرم حجري بدرج طويل.,19,Regions/mexico.json
+vo_stage_mexico_3,hero,aron,ar,صبار أطول منك!,14,Regions/mexico.json
+vo_stage_mexico_4,hero,aron,ar,قوارب ملونة بين الورد.,22,Regions/mexico.json
+vo_stage_mexico_5,hero,aron,ar,أطلال بين الأشجار والمطر.,25,Regions/mexico.json
+vo_stage_mexico_6,hero,aron,ar,بحر فيروزي ورمل أبيض.,21,Regions/mexico.json
+vo_stage_mexico_race,hero,aron,ar,سباق! سباق الخيل الريفي، يلا نشوف مين الأول!,44,Regions/mexico.json
+vo_stage_mexico_7,hero,aron,ar,مصارع الأقنعة ينتظرك في الحلبة!,31,Regions/mexico.json
+vo_boss_mexico_intro,The Masked Wrestler,boss_mexico,ar,ما أحد يغلبني!,14,Regions/mexico.json
+vo_boss_mexico_stun,The Masked Wrestler,boss_mexico,ar,انفك قناعي!,11,Regions/mexico.json
+vo_boss_mexico_defeat,The Masked Wrestler,boss_mexico,ar,طيب... المكسيك لك.,18,Regions/mexico.json
+vo_boss_mexico_taunt1,The Masked Wrestler,boss_mexico,ar,قفزة من الحبال!,15,Regions/mexico.json
+vo_boss_mexico_taunt2,The Masked Wrestler,boss_mexico,ar,قناعي يلمع!,11,Regions/mexico.json
+vo_boss_mexico_taunt3,The Masked Wrestler,boss_mexico,ar,الحلبة لي!,10,Regions/mexico.json
+vo_boss_mexico_taunt4,The Masked Wrestler,boss_mexico,ar,كل الجمهور معي!,15,Regions/mexico.json
+vo_stage_brazil_1,hero,aron,ar,بيوت ملونة على الجبل!,21,Regions/brazil.json
+vo_stage_brazil_2,hero,aron,ar,رمل وكورة وموسيقى سامبا.,24,Regions/brazil.json
+vo_stage_brazil_3,hero,aron,ar,أكبر نهر في الدنيا!,19,Regions/brazil.json
+vo_stage_brazil_4,hero,aron,ar,شلالات ترش رذاذ في كل مكان.,27,Regions/brazil.json
+vo_stage_brazil_5,hero,aron,ar,شوارع حجرية وبيوت ملونة.,24,Regions/brazil.json
+vo_stage_brazil_6,hero,aron,ar,طبول وريش وألوان!,17,Regions/brazil.json
+vo_stage_brazil_race,hero,aron,ar,سباق! سباق ركوب الأمواج، يلا نشوف مين الأول!,44,Regions/brazil.json
+vo_stage_brazil_7,hero,aron,ar,جاكوار الغابة صحى!,18,Regions/brazil.json
+vo_boss_brazil_intro,The Jungle Jaguar,boss_brazil,ar,الغابة غابتي!,13,Regions/brazil.json
+vo_boss_brazil_stun,The Jungle Jaguar,boss_brazil,ar,ذيلي انعقد!,11,Regions/brazil.json
+vo_boss_brazil_defeat,The Jungle Jaguar,boss_brazil,ar,زين... البرازيل لك.,19,Regions/brazil.json
+vo_boss_brazil_taunt1,The Jungle Jaguar,boss_brazil,ar,قفزة الجاكوار!,14,Regions/brazil.json
+vo_boss_brazil_taunt2,The Jungle Jaguar,boss_brazil,ar,مخالب جاهزة!,12,Regions/brazil.json
+vo_boss_brazil_taunt3,The Jungle Jaguar,boss_brazil,ar,ما تشوفني بين الأشجار!,22,Regions/brazil.json
+vo_boss_brazil_taunt4,The Jungle Jaguar,boss_brazil,ar,كل الغابة!,10,Regions/brazil.json
+vo_stage_south_africa_1,hero,aron,ar,جبل مثل الطاولة فوق المدينة!,28,Regions/south_africa.json
+vo_stage_south_africa_2,hero,aron,ar,موسيقى وألوان وريحة شوي.,24,Regions/south_africa.json
+vo_stage_south_africa_3,hero,aron,ar,شوف الزرافات! يلا يا خيل!,25,Regions/south_africa.json
+vo_stage_south_africa_4,hero,aron,ar,جبال عالية وشلالات.,19,Regions/south_africa.json
+vo_stage_south_africa_5,hero,aron,ar,البطاريق على الشاطئ!,20,Regions/south_africa.json
+vo_stage_south_africa_6,hero,aron,ar,بيوت مرسومة بأشكال هندسية.,26,Regions/south_africa.json
+vo_stage_south_africa_race,hero,aron,ar,سباق! سباق النعام، يلا نشوف مين الأول!,38,Regions/south_africa.json
+vo_stage_south_africa_7,hero,aron,ar,ملك السافانا ينقض من الصخرة!,28,Regions/south_africa.json
+vo_boss_south_africa_intro,The Savanna King,boss_south_africa,ar,السافانا كلها مملكتي!,21,Regions/south_africa.json
+vo_boss_south_africa_stun,The Savanna King,boss_south_africa,ar,ريشي طار!,9,Regions/south_africa.json
+vo_boss_south_africa_defeat,The Savanna King,boss_south_africa,ar,تمام... جنوب أفريقيا لك.,24,Regions/south_africa.json
+vo_boss_south_africa_taunt1,The Savanna King,boss_south_africa,ar,انقضاض!,7,Regions/south_africa.json
+vo_boss_south_africa_taunt2,The Savanna King,boss_south_africa,ar,ريح السافانا!,13,Regions/south_africa.json
+vo_boss_south_africa_taunt3,The Savanna King,boss_south_africa,ar,من فوق ما تشوفني!,17,Regions/south_africa.json
+vo_boss_south_africa_taunt4,The Savanna King,boss_south_africa,ar,كل السما!,9,Regions/south_africa.json
+vo_stage_australia_1,hero,aron,ar,تراب أحمر وسما واسعة!,21,Regions/australia.json
+vo_stage_australia_2,hero,aron,ar,أشجار طويلة وريحة منعشة.,24,Regions/australia.json
+vo_stage_australia_3,hero,aron,ar,مي فيروزية وسمك ملوّن!,22,Regions/australia.json
+vo_stage_australia_4,hero,aron,ar,أسقف مثل الأصداف وجسر من الحديد.,32,Regions/australia.json
+vo_stage_australia_5,hero,aron,ar,ضباب وشلالات وأصوات طيور.,25,Regions/australia.json
+vo_stage_australia_6,hero,aron,ar,في البعيد سلاسل صخور حمراء طبقات طبقات... منظر يجنن!,52,Regions/australia.json
+vo_stage_australia_race,hero,aron,ar,سباق! سباق ركوب الأمواج، يلا نشوف مين الأول!,44,Regions/australia.json
+vo_stage_australia_7,hero,aron,ar,د. دحيم ينتظرك فوق الميناء!,27,Regions/australia.json
+vo_boss_australia_intro,Dr. Duhaim,boss_australia,ar,وصلت أستراليا؟ ما راح تعدي من الميناء!,38,Regions/australia.json
+vo_boss_australia_stun,Dr. Duhaim,boss_australia,ar,آخ! نظارتي!,11,Regions/australia.json
+vo_boss_australia_defeat,Dr. Duhaim,boss_australia,ar,تمام... أستراليا لك.,20,Regions/australia.json
+vo_boss_australia_taunt1,Dr. Duhaim,boss_australia,ar,ما راح تعدي!,12,Regions/australia.json
+vo_boss_australia_taunt2,Dr. Duhaim,boss_australia,ar,روبوتاتي! الميناء لي!,21,Regions/australia.json
+vo_boss_australia_taunt3,Dr. Duhaim,boss_australia,ar,أمواجي أقوى منك!,16,Regions/australia.json
+vo_boss_australia_taunt4,Dr. Duhaim,boss_australia,ar,كل أجهزتي!,10,Regions/australia.json
+vo_greet_algeria,local host,host_algeria,ar,صحيت، واش راك؟,14,Culture/algeria.json
+vo_greet_australia,local host,host_australia,en,G'day!,6,Culture/australia.json
+vo_greet_bahrain,local host,host_bahrain,ar,هلا ومرحبا,10,Culture/bahrain.json
+vo_greet_brazil,local host,host_brazil,pt,"Oi, tudo bem?",13,Culture/brazil.json
+vo_greet_egypt,local host,host_egypt,ar,أهلاً وسهلاً، نورتونا,21,Culture/egypt.json
+vo_greet_france,local host,host_france,fr,Bonjour !,9,Culture/france.json
+vo_greet_germany,local host,host_germany,de,Guten Tag!,10,Culture/germany.json
+vo_greet_india,local host,host_india,hi,Namaste,7,Culture/india.json
+vo_greet_indonesia,local host,host_indonesia,id,"Assalamualaikum, apa kabar?",27,Culture/indonesia.json
+vo_greet_iraq,local host,host_iraq,ar,هلا بيك,7,Culture/iraq.json
+vo_greet_japan,local host,host_japan,ja,Konnichiwa,10,Culture/japan.json
+vo_greet_jordan,local host,host_jordan,ar,هلا والله، يا هلا,17,Culture/jordan.json
+vo_greet_kuwait,local host,host_kuwait,ar,هلا والله,9,Culture/kuwait.json
+vo_greet_lebanon,local host,host_lebanon,ar,أهلا وسهلا، كيفك؟,17,Culture/lebanon.json
+vo_greet_libya,local host,host_libya,ar,مرحبتين، كيف حالك؟,18,Culture/libya.json
+vo_greet_malaysia,local host,host_malaysia,ms,"Assalamualaikum, selamat datang",31,Culture/malaysia.json
+vo_greet_mauritania,local host,host_mauritania,ar,Salam aleykum,13,Culture/mauritania.json
+vo_greet_mexico,local host,host_mexico,es,¡Hola! ¿Qué tal?,16,Culture/mexico.json
+vo_greet_morocco,local host,host_morocco,ar,السلام، لاباس عليك؟,19,Culture/morocco.json
+vo_greet_oman,local host,host_oman,ar,هلا وغلا,8,Culture/oman.json
+vo_greet_pakistan,local host,host_pakistan,ur,Assalam o alaikum,17,Culture/pakistan.json
+vo_greet_portugal,local host,host_portugal,pt,"Olá, bom dia",12,Culture/portugal.json
+vo_greet_qatar,local host,host_qatar,ar,هلا والله,9,Culture/qatar.json
+vo_greet_saudi,local host,host_saudi,ar,هلا والله,9,Culture/saudi.json
+vo_greet_south_africa,local host,host_south_africa,en,Sawubona! Howzit?,17,Culture/south_africa.json
+vo_greet_spain,local host,host_spain,es,"¡Hola, buenos días!",19,Culture/spain.json
+vo_greet_sudan,local host,host_sudan,ar,مرحب بيكم,9,Culture/sudan.json
+vo_greet_syria,local host,host_syria,ar,أهلين، تفضلوا,13,Culture/syria.json
+vo_greet_tunisia,local host,host_tunisia,ar,عسلامة، لاباس؟,14,Culture/tunisia.json
+vo_greet_turkey,local host,host_turkey,tr,"Merhaba, hoş geldiniz!",22,Culture/turkey.json
+vo_greet_uae,local host,host_uae,ar,هلا والله، مرحبا,16,Culture/uae.json
+vo_greet_uk,local host,host_uk,en,"Hello, all right?",17,Culture/uk.json
+vo_greet_usa,local host,host_usa,en,"Hi there, howdy!",16,Culture/usa.json
+vo_greet_uzbekistan,local host,host_uzbekistan,en,Assalomu alaykum,16,Culture/uzbekistan.json
+vo_greet_yemen,local host,host_yemen,ar,أهلاً وسهلاً,12,Culture/yemen.json
+rival_saudi_start,Sahm,rival_saudi,ar-najdi,بالتوفيق يا بطل، يلا نتسابق!,28,Rivals/rivals.json
+rival_saudi_start2,Sahm,rival_saudi,ar-najdi,الله يوفّق اللي يستاهل!,23,Rivals/rivals.json
+rival_saudi_overtake,Sahm,rival_saudi,ar-najdi,نلتقي عند خط النهاية!,21,Rivals/rivals.json
+rival_saudi_overtaken,Sahm,rival_saudi,ar-najdi,وش هالسرعة! ما شاء الله!,24,Rivals/rivals.json
+rival_saudi_boost,Sahm,rival_saudi,ar-najdi,أبشر، هذي أنا طالع!,19,Rivals/rivals.json
+rival_saudi_crash,Sahm,rival_saudi,ar-najdi,يا ساتر! أنا بخير!,18,Rivals/rivals.json
+rival_saudi_win,Sahm,rival_saudi,ar-najdi,سباق حلو، يعطيك العافية!,24,Rivals/rivals.json
+rival_saudi_lose,Sahm,rival_saudi,ar-najdi,مبروك عليك، تستاهل!,19,Rivals/rivals.json
+rival_kuwait_start,Dana,rival_kuwait,ar-kuwaiti,الله يوفقك، يلا نتسابق!,23,Rivals/rivals.json
+rival_kuwait_start2,Dana,rival_kuwait,ar-kuwaiti,اللي يستاهل يفوز!,17,Rivals/rivals.json
+rival_kuwait_overtake,Dana,rival_kuwait,ar-kuwaiti,نشوفك عند النهاية!,18,Rivals/rivals.json
+rival_kuwait_overtaken,Dana,rival_kuwait,ar-kuwaiti,شنو هالسرعة! ما شاء الله!,25,Rivals/rivals.json
+rival_kuwait_boost,Dana,rival_kuwait,ar-kuwaiti,هذا أنا طالعة، شدّ حيلك!,24,Rivals/rivals.json
+rival_kuwait_crash,Dana,rival_kuwait,ar-kuwaiti,أووه! أنا زينة، لا تحاتي!,25,Rivals/rivals.json
+rival_kuwait_win,Dana,rival_kuwait,ar-kuwaiti,سباق حلو، يعطيك العافية!,24,Rivals/rivals.json
+rival_kuwait_lose,Dana,rival_kuwait,ar-kuwaiti,مبروك، تستاهل الفوز!,20,Rivals/rivals.json
+rival_uae_start,Saqr,rival_uae,ar-emirati,بالتوفيق، يالله نتسابق!,23,Rivals/rivals.json
+rival_uae_start2,Saqr,rival_uae,ar-emirati,الله يوفّق اللي يستاهل!,23,Rivals/rivals.json
+rival_uae_overtake,Saqr,rival_uae,ar-emirati,نشوفك عند خط النهاية!,21,Rivals/rivals.json
+rival_uae_overtaken,Saqr,rival_uae,ar-emirati,ما شاء الله، شو هالسرعة!,24,Rivals/rivals.json
+rival_uae_boost,Saqr,rival_uae,ar-emirati,هذا آنا طالع!,13,Rivals/rivals.json
+rival_uae_crash,Saqr,rival_uae,ar-emirati,أوه! آنا بخير، لا تخاف!,23,Rivals/rivals.json
+rival_uae_win,Saqr,rival_uae,ar-emirati,سباق حلو، مشكور!,16,Rivals/rivals.json
+rival_uae_lose,Saqr,rival_uae,ar-emirati,مبروك، تستاهل الفوز!,20,Rivals/rivals.json
+rival_bahrain_start,Lulwa,rival_bahrain,ar-bahraini,الله يوفقك، يالله نتسابق!,25,Rivals/rivals.json
+rival_bahrain_start2,Lulwa,rival_bahrain,ar-bahraini,اللي يستاهل يفوز!,17,Rivals/rivals.json
+rival_bahrain_overtake,Lulwa,rival_bahrain,ar-bahraini,نلتقي عند النهاية!,18,Rivals/rivals.json
+rival_bahrain_overtaken,Lulwa,rival_bahrain,ar-bahraini,شنو هالسرعة! ما شاء الله!,25,Rivals/rivals.json
+rival_bahrain_boost,Lulwa,rival_bahrain,ar-bahraini,هذا أنا طالعة!,14,Rivals/rivals.json
+rival_bahrain_crash,Lulwa,rival_bahrain,ar-bahraini,أوه! أنا زينة، لا تخاف!,23,Rivals/rivals.json
+rival_bahrain_win,Lulwa,rival_bahrain,ar-bahraini,سباق حلو، مشكور!,16,Rivals/rivals.json
+rival_bahrain_lose,Lulwa,rival_bahrain,ar-bahraini,مبروك، تستاهل!,14,Rivals/rivals.json
+rival_qatar_start,Najm,rival_qatar,ar-qatari,بالتوفيق، يالله نتسابق!,23,Rivals/rivals.json
+rival_qatar_start2,Najm,rival_qatar,ar-qatari,الله يوفق اللي يستاهل!,22,Rivals/rivals.json
+rival_qatar_overtake,Najm,rival_qatar,ar-qatari,نشوفك عند النهاية!,18,Rivals/rivals.json
+rival_qatar_overtaken,Najm,rival_qatar,ar-qatari,ما شاء الله، شو هالسرعة!,24,Rivals/rivals.json
+rival_qatar_boost,Najm,rival_qatar,ar-qatari,هذا أنا طالع، شد حيلك!,22,Rivals/rivals.json
+rival_qatar_crash,Najm,rival_qatar,ar-qatari,أوه! أنا بخير، لا تخاف!,23,Rivals/rivals.json
+rival_qatar_win,Najm,rival_qatar,ar-qatari,سباق حلو، مشكور!,16,Rivals/rivals.json
+rival_qatar_lose,Najm,rival_qatar,ar-qatari,مبروك، تستاهل الفوز!,20,Rivals/rivals.json
+rival_oman_start,Mazin,rival_oman,ar-omani,بالتوفيق، يا الله نتسابق!,25,Rivals/rivals.json
+rival_oman_start2,Mazin,rival_oman,ar-omani,اللي يستاهل يفوز!,17,Rivals/rivals.json
+rival_oman_overtake,Mazin,rival_oman,ar-omani,نلتقي عند النهاية!,18,Rivals/rivals.json
+rival_oman_overtaken,Mazin,rival_oman,ar-omani,ما شاء الله، شو هالسرعة!,24,Rivals/rivals.json
+rival_oman_boost,Mazin,rival_oman,ar-omani,ها أنا طالع!,12,Rivals/rivals.json
+rival_oman_crash,Mazin,rival_oman,ar-omani,أوه! أنا بخير، لا تخاف!,23,Rivals/rivals.json
+rival_oman_win,Mazin,rival_oman,ar-omani,سباق جميل، شكرًا لك!,20,Rivals/rivals.json
+rival_oman_lose,Mazin,rival_oman,ar-omani,مبروك، تستاهل!,14,Rivals/rivals.json
+rival_yemen_start,Amal,rival_yemen,ar-yemeni,بالتوفيق، يا الله نتسابق!,25,Rivals/rivals.json
+rival_yemen_start2,Amal,rival_yemen,ar-yemeni,الله يوفق اللي يستحق!,21,Rivals/rivals.json
+rival_yemen_overtake,Amal,rival_yemen,ar-yemeni,نشوفك عند النهاية!,18,Rivals/rivals.json
+rival_yemen_overtaken,Amal,rival_yemen,ar-yemeni,إيش هالسرعة، ما شاء الله!,25,Rivals/rivals.json
+rival_yemen_boost,Amal,rival_yemen,ar-yemeni,هذي أنا طالعة!,14,Rivals/rivals.json
+rival_yemen_crash,Amal,rival_yemen,ar-yemeni,أوه! أنا بخير، لا تخافي!,24,Rivals/rivals.json
+rival_yemen_win,Amal,rival_yemen,ar-yemeni,سباق حلو، يعطيك العافية!,24,Rivals/rivals.json
+rival_yemen_lose,Amal,rival_yemen,ar-yemeni,مبروك، تستاهلي الفوز!,21,Rivals/rivals.json
+rival_iraq_start,Dijla,rival_iraq,ar-iraqi,بالتوفيق، يلا نتسابق!,21,Rivals/rivals.json
+rival_iraq_start2,Dijla,rival_iraq,ar-iraqi,الله يوفّق اللي يستاهل!,23,Rivals/rivals.json
+rival_iraq_overtake,Dijla,rival_iraq,ar-iraqi,نشوفك عند خط النهاية!,21,Rivals/rivals.json
+rival_iraq_overtaken,Dijla,rival_iraq,ar-iraqi,شكد سريع! ماشاء الله!,21,Rivals/rivals.json
+rival_iraq_boost,Dijla,rival_iraq,ar-iraqi,هذي آني أطلع، شدّ حيلك!,23,Rivals/rivals.json
+rival_iraq_crash,Dijla,rival_iraq,ar-iraqi,أوف! آني زينة، لا تخاف!,23,Rivals/rivals.json
+rival_iraq_win,Dijla,rival_iraq,ar-iraqi,سباق حلو، تسلم!,15,Rivals/rivals.json
+rival_iraq_lose,Dijla,rival_iraq,ar-iraqi,مبروك، تستاهل الفوز!,20,Rivals/rivals.json
+rival_syria_start,Yasmin,rival_syria,ar-levantine,بالتوفيق، يلا نتسابق!,21,Rivals/rivals.json
+rival_syria_start2,Yasmin,rival_syria,ar-levantine,الله يوفّق يلي بيستاهل!,23,Rivals/rivals.json
+rival_syria_overtake,Yasmin,rival_syria,ar-levantine,منشوفك عند خط النهاية!,22,Rivals/rivals.json
+rival_syria_overtaken,Yasmin,rival_syria,ar-levantine,يا الله شو سريع!,16,Rivals/rivals.json
+rival_syria_boost,Yasmin,rival_syria,ar-levantine,هاني طالعة، شدّ حيلك!,21,Rivals/rivals.json
+rival_syria_crash,Yasmin,rival_syria,ar-levantine,أوف! أنا منيحة، لا تخاف!,24,Rivals/rivals.json
+rival_syria_win,Yasmin,rival_syria,ar-levantine,سباق حلو، يسلمو!,16,Rivals/rivals.json
+rival_syria_lose,Yasmin,rival_syria,ar-levantine,مبروك، بتستاهل!,15,Rivals/rivals.json
+rival_lebanon_start,Nour,rival_lebanon,ar-levantine,الله معك، يلا نتسابق!,21,Rivals/rivals.json
+rival_lebanon_start2,Nour,rival_lebanon,ar-levantine,يربح يلي بيستاهل!,17,Rivals/rivals.json
+rival_lebanon_overtake,Nour,rival_lebanon,ar-levantine,منتلاقى عالنهاية!,17,Rivals/rivals.json
+rival_lebanon_overtaken,Nour,rival_lebanon,ar-levantine,يا الله شو سريع!,16,Rivals/rivals.json
+rival_lebanon_boost,Nour,rival_lebanon,ar-levantine,هيدا أنا طالع!,14,Rivals/rivals.json
+rival_lebanon_crash,Nour,rival_lebanon,ar-levantine,أوف! أنا منيح، ما تخاف!,23,Rivals/rivals.json
+rival_lebanon_win,Nour,rival_lebanon,ar-levantine,سباق حلو، يسلمو!,16,Rivals/rivals.json
+rival_lebanon_lose,Nour,rival_lebanon,ar-levantine,مبروك، بتستاهل!,15,Rivals/rivals.json
+rival_jordan_start,Hani,rival_jordan,ar-jordanian,بالتوفيق، يلا نتسابق!,21,Rivals/rivals.json
+rival_jordan_start2,Hani,rival_jordan,ar-jordanian,الله يوفّق اللي بستاهل!,23,Rivals/rivals.json
+rival_jordan_overtake,Hani,rival_jordan,ar-jordanian,منشوفك عند النهاية!,19,Rivals/rivals.json
+rival_jordan_overtaken,Hani,rival_jordan,ar-jordanian,يا زلمة شو سريع!,16,Rivals/rivals.json
+rival_jordan_boost,Hani,rival_jordan,ar-jordanian,هاي أنا طالع!,13,Rivals/rivals.json
+rival_jordan_crash,Hani,rival_jordan,ar-jordanian,أوف! أنا تمام، لا تخاف!,23,Rivals/rivals.json
+rival_jordan_win,Hani,rival_jordan,ar-jordanian,سباق حلو، يعطيك العافية!,24,Rivals/rivals.json
+rival_jordan_lose,Hani,rival_jordan,ar-jordanian,مبروك، بتستاهل!,15,Rivals/rivals.json
+rival_egypt_start,Mido,rival_egypt,ar-egyptian,بالتوفيق يا صاحبي، يلا نتسابق!,30,Rivals/rivals.json
+rival_egypt_start2,Mido,rival_egypt,ar-egyptian,اللي يستاهل هو اللي يكسب!,25,Rivals/rivals.json
+rival_egypt_overtake,Mido,rival_egypt,ar-egyptian,هنتقابل عند خط النهاية!,23,Rivals/rivals.json
+rival_egypt_overtaken,Mido,rival_egypt,ar-egyptian,إيه السرعة دي! ما شاء الله!,27,Rivals/rivals.json
+rival_egypt_boost,Mido,rival_egypt,ar-egyptian,أهو أنا طالع!,13,Rivals/rivals.json
+rival_egypt_crash,Mido,rival_egypt,ar-egyptian,آه! أنا كويس، متخافش!,21,Rivals/rivals.json
+rival_egypt_win,Mido,rival_egypt,ar-egyptian,سباق جميل، تسلم!,16,Rivals/rivals.json
+rival_egypt_lose,Mido,rival_egypt,ar-egyptian,مبروك، تستاهل!,14,Rivals/rivals.json
+rival_sudan_start,Asim,rival_sudan,ar-sudanese,بالتوفيق يا زول، يلا نتسابق!,28,Rivals/rivals.json
+rival_sudan_start2,Asim,rival_sudan,ar-sudanese,الزول البستاهل هو الفايز!,25,Rivals/rivals.json
+rival_sudan_overtake,Asim,rival_sudan,ar-sudanese,نتلاقى في النهاية!,18,Rivals/rivals.json
+rival_sudan_overtaken,Asim,rival_sudan,ar-sudanese,ياخي دي سرعة شنو! ما شاء الله!,30,Rivals/rivals.json
+rival_sudan_boost,Asim,rival_sudan,ar-sudanese,ها أنا طالع!,12,Rivals/rivals.json
+rival_sudan_crash,Asim,rival_sudan,ar-sudanese,آي! أنا كويس، ما تخاف!,22,Rivals/rivals.json
+rival_sudan_win,Asim,rival_sudan,ar-sudanese,سباق حلو، تسلم!,15,Rivals/rivals.json
+rival_sudan_lose,Asim,rival_sudan,ar-sudanese,مبروك، بتستاهل!,15,Rivals/rivals.json
+rival_libya_start,Salma,rival_libya,ar-libyan,بالتوفيق، يا لله نتسابقوا!,26,Rivals/rivals.json
+rival_libya_start2,Salma,rival_libya,ar-libyan,اللي يستاهل يفوز!,17,Rivals/rivals.json
+rival_libya_overtake,Salma,rival_libya,ar-libyan,نشوفوك في النهاية!,18,Rivals/rivals.json
+rival_libya_overtaken,Salma,rival_libya,ar-libyan,يا سلام، شن هالسرعة!,20,Rivals/rivals.json
+rival_libya_boost,Salma,rival_libya,ar-libyan,هاني طالعة!,11,Rivals/rivals.json
+rival_libya_crash,Salma,rival_libya,ar-libyan,أوه! أنا مليحة، ما تخافش!,25,Rivals/rivals.json
+rival_libya_win,Salma,rival_libya,ar-libyan,سباق مليح، يعطيك الصحة!,23,Rivals/rivals.json
+rival_libya_lose,Salma,rival_libya,ar-libyan,مبروك، تستاهل!,14,Rivals/rivals.json
+rival_tunisia_start,Zitouna,rival_tunisia,ar-tunisian,بالتوفيق يا صاحبي، يلا نتسابقو!,31,Rivals/rivals.json
+rival_tunisia_start2,Zitouna,rival_tunisia,ar-tunisian,اللي يستاهل يربح!,17,Rivals/rivals.json
+rival_tunisia_overtake,Zitouna,rival_tunisia,ar-tunisian,نلقاوك في النهاية!,18,Rivals/rivals.json
+rival_tunisia_overtaken,Zitouna,rival_tunisia,ar-tunisian,يا سلام، قدّاش سريع!,20,Rivals/rivals.json
+rival_tunisia_boost,Zitouna,rival_tunisia,ar-tunisian,هاني طالعة!,11,Rivals/rivals.json
+rival_tunisia_crash,Zitouna,rival_tunisia,ar-tunisian,أوه! أنا باهية، ما تخافش!,25,Rivals/rivals.json
+rival_tunisia_win,Zitouna,rival_tunisia,ar-tunisian,سباق باهي، عيشك!,16,Rivals/rivals.json
+rival_tunisia_lose,Zitouna,rival_tunisia,ar-tunisian,مبروك، تستاهل!,14,Rivals/rivals.json
+rival_algeria_start,Amine,rival_algeria,ar-algerian,بالتوفيق يا خويا، يلا نتسابقو!,30,Rivals/rivals.json
+rival_algeria_start2,Amine,rival_algeria,ar-algerian,اللي يستاهل يربح!,17,Rivals/rivals.json
+rival_algeria_overtake,Amine,rival_algeria,ar-algerian,نتلاقاو عند النهاية!,20,Rivals/rivals.json
+rival_algeria_overtaken,Amine,rival_algeria,ar-algerian,واش هاد السرعة! ما شاء الله!,28,Rivals/rivals.json
+rival_algeria_boost,Amine,rival_algeria,ar-algerian,هاني طالع!,10,Rivals/rivals.json
+rival_algeria_crash,Amine,rival_algeria,ar-algerian,أوه! أنا بخير، ماتخافش!,23,Rivals/rivals.json
+rival_algeria_win,Amine,rival_algeria,ar-algerian,سباق زوين، صحّة!,16,Rivals/rivals.json
+rival_algeria_lose,Amine,rival_algeria,ar-algerian,مبروك، تستاهل!,14,Rivals/rivals.json
+rival_morocco_start,Zineb,rival_morocco,ar-darija,بالتوفيق يا صاحبي، يالله نتسابقو!,33,Rivals/rivals.json
+rival_morocco_start2,Zineb,rival_morocco,ar-darija,اللي يستاهل هو اللي يربح!,25,Rivals/rivals.json
+rival_morocco_overtake,Zineb,rival_morocco,ar-darija,غادي نتلاقاو فالنهاية!,22,Rivals/rivals.json
+rival_morocco_overtaken,Zineb,rival_morocco,ar-darija,واو، شحال ديال السرعة!,22,Rivals/rivals.json
+rival_morocco_boost,Zineb,rival_morocco,ar-darija,هانا طالعة!,11,Rivals/rivals.json
+rival_morocco_crash,Zineb,rival_morocco,ar-darija,آخ! أنا بخير، ما تخافش!,23,Rivals/rivals.json
+rival_morocco_win,Zineb,rival_morocco,ar-darija,سباق زوين، شكرا بزاف!,21,Rivals/rivals.json
+rival_morocco_lose,Zineb,rival_morocco,ar-darija,مبروك، تستاهل!,14,Rivals/rivals.json
+rival_mauritania_start,Mariem,rival_mauritania,ar-hassaniya,بالتوفيق، يالله نتسابقو!,24,Rivals/rivals.json
+rival_mauritania_start2,Mariem,rival_mauritania,ar-hassaniya,اللي يستاهل يفوز!,17,Rivals/rivals.json
+rival_mauritania_overtake,Mariem,rival_mauritania,ar-hassaniya,نتلاقو فالنهاية!,16,Rivals/rivals.json
+rival_mauritania_overtaken,Mariem,rival_mauritania,ar-hassaniya,ماشاء الله، شكثر سريع!,22,Rivals/rivals.json
+rival_mauritania_boost,Mariem,rival_mauritania,ar-hassaniya,هاني طالعة!,11,Rivals/rivals.json
+rival_mauritania_crash,Mariem,rival_mauritania,ar-hassaniya,أوه! أنا بخير، ما تخاف!,23,Rivals/rivals.json
+rival_mauritania_win,Mariem,rival_mauritania,ar-hassaniya,سباق زين، شكرا!,15,Rivals/rivals.json
+rival_mauritania_lose,Mariem,rival_mauritania,ar-hassaniya,مبروك، تستاهل!,14,Rivals/rivals.json
+rival_portugal_start,Tiago,rival_portugal,pt-PT,"Boa sorte, vamos correr!",24,Rivals/rivals.json
+rival_portugal_start2,Tiago,rival_portugal,pt-PT,Que ganhe o melhor!,19,Rivals/rivals.json
+rival_portugal_overtake,Tiago,rival_portugal,pt-PT,Vemo-nos na meta!,17,Rivals/rivals.json
+rival_portugal_overtaken,Tiago,rival_portugal,pt-PT,"Uau, és mesmo rápido!",21,Rivals/rivals.json
+rival_portugal_boost,Tiago,rival_portugal,pt-PT,Lá vou eu!,10,Rivals/rivals.json
+rival_portugal_crash,Tiago,rival_portugal,pt-PT,Ups! Estou bem!,15,Rivals/rivals.json
+rival_portugal_win,Tiago,rival_portugal,pt-PT,Que corrida tão divertida!,26,Rivals/rivals.json
+rival_portugal_lose,Tiago,rival_portugal,pt-PT,"Muito bem, ganhaste!",20,Rivals/rivals.json
+rival_spain_start,Pilar,rival_spain,es-ES,"¡Buena suerte, vamos a correr!",30,Rivals/rivals.json
+rival_spain_start2,Pilar,rival_spain,es-ES,¡Que gane el mejor!,19,Rivals/rivals.json
+rival_spain_overtake,Pilar,rival_spain,es-ES,¡Nos vemos en la meta!,22,Rivals/rivals.json
+rival_spain_overtaken,Pilar,rival_spain,es-ES,"¡Vaya, qué rápido eres!",23,Rivals/rivals.json
+rival_spain_boost,Pilar,rival_spain,es-ES,¡Allá voy!,10,Rivals/rivals.json
+rival_spain_crash,Pilar,rival_spain,es-ES,¡Ups! ¡Estoy bien!,18,Rivals/rivals.json
+rival_spain_win,Pilar,rival_spain,es-ES,¡Qué carrera tan divertida!,27,Rivals/rivals.json
+rival_spain_lose,Pilar,rival_spain,es-ES,"¡Bien hecho, has ganado!",24,Rivals/rivals.json
+rival_france_start,Camille,rival_france,fr,"Bonne chance, on y va !",23,Rivals/rivals.json
+rival_france_start2,Camille,rival_france,fr,Que le meilleur gagne !,23,Rivals/rivals.json
+rival_france_overtake,Camille,rival_france,fr,On se retrouve à l'arrivée !,28,Rivals/rivals.json
+rival_france_overtaken,Camille,rival_france,fr,"Waouh, tu es rapide !",21,Rivals/rivals.json
+rival_france_boost,Camille,rival_france,fr,C'est parti !,13,Rivals/rivals.json
+rival_france_crash,Camille,rival_france,fr,Oups ! Ça va !,14,Rivals/rivals.json
+rival_france_win,Camille,rival_france,fr,Quelle course amusante !,24,Rivals/rivals.json
+rival_france_lose,Camille,rival_france,fr,"Bravo, tu as gagné !",20,Rivals/rivals.json
+rival_uk_start,Poppy,rival_uk,en-GB,"Good luck, let's race!",22,Rivals/rivals.json
+rival_uk_start2,Poppy,rival_uk,en-GB,May the best racer win!,23,Rivals/rivals.json
+rival_uk_overtake,Poppy,rival_uk,en-GB,See you at the finish line!,27,Rivals/rivals.json
+rival_uk_overtaken,Poppy,rival_uk,en-GB,"Blimey, you're quick!",21,Rivals/rivals.json
+rival_uk_boost,Poppy,rival_uk,en-GB,Here I go!,10,Rivals/rivals.json
+rival_uk_crash,Poppy,rival_uk,en-GB,Oops! I'm all right!,20,Rivals/rivals.json
+rival_uk_win,Poppy,rival_uk,en-GB,What a cracking race!,21,Rivals/rivals.json
+rival_uk_lose,Poppy,rival_uk,en-GB,"Well done, you won!",19,Rivals/rivals.json
+rival_germany_start,Lukas,rival_germany,de,"Viel Glück, los geht's!",23,Rivals/rivals.json
+rival_germany_start2,Lukas,rival_germany,de,Möge der Beste gewinnen!,24,Rivals/rivals.json
+rival_germany_overtake,Lukas,rival_germany,de,Wir sehen uns im Ziel!,22,Rivals/rivals.json
+rival_germany_overtaken,Lukas,rival_germany,de,"Wow, bist du schnell!",21,Rivals/rivals.json
+rival_germany_boost,Lukas,rival_germany,de,Jetzt geht's los!,17,Rivals/rivals.json
+rival_germany_crash,Lukas,rival_germany,de,Hoppla! Mir geht's gut!,23,Rivals/rivals.json
+rival_germany_win,Lukas,rival_germany,de,Was für ein tolles Rennen!,26,Rivals/rivals.json
+rival_germany_lose,Lukas,rival_germany,de,"Gut gemacht, du hast gewonnen!",30,Rivals/rivals.json
+rival_turkey_start,Elif,rival_turkey,tr,"İyi şanslar, hadi yarışalım!",28,Rivals/rivals.json
+rival_turkey_start2,Elif,rival_turkey,tr,En iyisi kazansın!,18,Rivals/rivals.json
+rival_turkey_overtake,Elif,rival_turkey,tr,Bitişte görüşürüz!,18,Rivals/rivals.json
+rival_turkey_overtaken,Elif,rival_turkey,tr,"Vay, çok hızlısın!",18,Rivals/rivals.json
+rival_turkey_boost,Elif,rival_turkey,tr,İşte başlıyorum!,16,Rivals/rivals.json
+rival_turkey_crash,Elif,rival_turkey,tr,Hay aksi! İyiyim!,17,Rivals/rivals.json
+rival_turkey_win,Elif,rival_turkey,tr,Ne güzel bir yarış!,19,Rivals/rivals.json
+rival_turkey_lose,Elif,rival_turkey,tr,"Aferin, sen kazandın!",21,Rivals/rivals.json
+rival_uzbekistan_start,Dilnoza,rival_uzbekistan,uz,"Omad tilayman, poygaga!",23,Rivals/rivals.json
+rival_uzbekistan_start2,Dilnoza,rival_uzbekistan,uz,Eng yaxshisi g'alaba qilsin!,28,Rivals/rivals.json
+rival_uzbekistan_overtake,Dilnoza,rival_uzbekistan,uz,Marra chizig'ida ko'rishamiz!,29,Rivals/rivals.json
+rival_uzbekistan_overtaken,Dilnoza,rival_uzbekistan,uz,"Voy, qanday tezsan!",19,Rivals/rivals.json
+rival_uzbekistan_boost,Dilnoza,rival_uzbekistan,uz,"Mana, ketdim!",13,Rivals/rivals.json
+rival_uzbekistan_crash,Dilnoza,rival_uzbekistan,uz,Voy! Men yaxshiman!,19,Rivals/rivals.json
+rival_uzbekistan_win,Dilnoza,rival_uzbekistan,uz,Qanday qiziq poyga!,19,Rivals/rivals.json
+rival_uzbekistan_lose,Dilnoza,rival_uzbekistan,uz,"Barakalla, sen yutding!",23,Rivals/rivals.json
+rival_pakistan_start,Bilal,rival_pakistan,ur,اچھی قسمت، چلو ریس لگاتے ہیں!,29,Rivals/rivals.json
+rival_pakistan_start2,Bilal,rival_pakistan,ur,جو بہترین ہو وہ جیتے!,21,Rivals/rivals.json
+rival_pakistan_overtake,Bilal,rival_pakistan,ur,فنش لائن پر ملتے ہیں!,21,Rivals/rivals.json
+rival_pakistan_overtaken,Bilal,rival_pakistan,ur,واہ، آپ تو بہت تیز ہیں!,23,Rivals/rivals.json
+rival_pakistan_boost,Bilal,rival_pakistan,ur,لو، میں چلا!,12,Rivals/rivals.json
+rival_pakistan_crash,Bilal,rival_pakistan,ur,اوہ! میں ٹھیک ہوں!,18,Rivals/rivals.json
+rival_pakistan_win,Bilal,rival_pakistan,ur,کیا مزے کی ریس تھی!,19,Rivals/rivals.json
+rival_pakistan_lose,Bilal,rival_pakistan,ur,شاباش، آپ جیت گئے!,18,Rivals/rivals.json
+rival_india_start,Aarav,rival_india,hi,"शुभकामनाएँ, चलो रेस लगाएँ!",26,Rivals/rivals.json
+rival_india_start2,Aarav,rival_india,hi,"जो सबसे अच्छा हो, वही जीते!",27,Rivals/rivals.json
+rival_india_overtake,Aarav,rival_india,hi,फ़िनिश लाइन पर मिलते हैं!,25,Rivals/rivals.json
+rival_india_overtaken,Aarav,rival_india,hi,"वाह, तुम तो बहुत तेज़ हो!",25,Rivals/rivals.json
+rival_india_boost,Aarav,rival_india,hi,"लो, मैं चला!",12,Rivals/rivals.json
+rival_india_crash,Aarav,rival_india,hi,अरे! मैं ठीक हूँ!,17,Rivals/rivals.json
+rival_india_win,Aarav,rival_india,hi,कितनी मज़ेदार रेस थी!,21,Rivals/rivals.json
+rival_india_lose,Aarav,rival_india,hi,"शाबाश, तुम जीत गए!",18,Rivals/rivals.json
+rival_malaysia_start,Siti,rival_malaysia,ms,"Semoga berjaya, jom berlumba!",29,Rivals/rivals.json
+rival_malaysia_start2,Siti,rival_malaysia,ms,Biar yang terbaik menang!,25,Rivals/rivals.json
+rival_malaysia_overtake,Siti,rival_malaysia,ms,Jumpa di garisan penamat!,25,Rivals/rivals.json
+rival_malaysia_overtaken,Siti,rival_malaysia,ms,"Wah, laju betul kamu!",21,Rivals/rivals.json
+rival_malaysia_boost,Siti,rival_malaysia,ms,Ini aku pergi!,14,Rivals/rivals.json
+rival_malaysia_crash,Siti,rival_malaysia,ms,Alamak! Aku okey!,17,Rivals/rivals.json
+rival_malaysia_win,Siti,rival_malaysia,ms,Seronoknya perlumbaan ini!,26,Rivals/rivals.json
+rival_malaysia_lose,Siti,rival_malaysia,ms,"Tahniah, kamu menang!",21,Rivals/rivals.json
+rival_indonesia_start,Budi,rival_indonesia,id,"Semoga sukses, ayo balapan!",27,Rivals/rivals.json
+rival_indonesia_start2,Budi,rival_indonesia,id,Semoga yang terbaik menang!,27,Rivals/rivals.json
+rival_indonesia_overtake,Budi,rival_indonesia,id,Sampai jumpa di garis finis!,28,Rivals/rivals.json
+rival_indonesia_overtaken,Budi,rival_indonesia,id,"Wah, kamu cepat sekali!",23,Rivals/rivals.json
+rival_indonesia_boost,Budi,rival_indonesia,id,Aku berangkat!,14,Rivals/rivals.json
+rival_indonesia_crash,Budi,rival_indonesia,id,Aduh! Aku baik-baik saja!,25,Rivals/rivals.json
+rival_indonesia_win,Budi,rival_indonesia,id,Seru sekali balapannya!,23,Rivals/rivals.json
+rival_indonesia_lose,Budi,rival_indonesia,id,"Selamat, kamu menang!",21,Rivals/rivals.json
+rival_japan_start,Haruto,rival_japan,ja,がんばろうね、レースしよう！,14,Rivals/rivals.json
+rival_japan_start2,Haruto,rival_japan,ja,いちばんの人が勝つよ！,11,Rivals/rivals.json
+rival_japan_overtake,Haruto,rival_japan,ja,ゴールで会おうね！,9,Rivals/rivals.json
+rival_japan_overtaken,Haruto,rival_japan,ja,わあ、速いね！,7,Rivals/rivals.json
+rival_japan_boost,Haruto,rival_japan,ja,いくよー！,5,Rivals/rivals.json
+rival_japan_crash,Haruto,rival_japan,ja,あいたた！だいじょうぶ！,12,Rivals/rivals.json
+rival_japan_win,Haruto,rival_japan,ja,たのしいレースだったね！,12,Rivals/rivals.json
+rival_japan_lose,Haruto,rival_japan,ja,おめでとう、きみの勝ちだよ！,14,Rivals/rivals.json
+rival_usa_start,Jake,rival_usa,en-US,"Good luck, let's race!",22,Rivals/rivals.json
+rival_usa_start2,Jake,rival_usa,en-US,May the best racer win!,23,Rivals/rivals.json
+rival_usa_overtake,Jake,rival_usa,en-US,See you at the finish line!,27,Rivals/rivals.json
+rival_usa_overtaken,Jake,rival_usa,en-US,"Whoa, you're fast!",18,Rivals/rivals.json
+rival_usa_boost,Jake,rival_usa,en-US,Here I go!,10,Rivals/rivals.json
+rival_usa_crash,Jake,rival_usa,en-US,Oops! I'm okay!,15,Rivals/rivals.json
+rival_usa_win,Jake,rival_usa,en-US,That was a blast!,17,Rivals/rivals.json
+rival_usa_lose,Jake,rival_usa,en-US,"Nice job, you won!",18,Rivals/rivals.json
+rival_mexico_start,Mateo,rival_mexico,es-MX,"¡Mucha suerte, vamos a correr!",30,Rivals/rivals.json
+rival_mexico_start2,Mateo,rival_mexico,es-MX,¡Que gane el mejor!,19,Rivals/rivals.json
+rival_mexico_overtake,Mateo,rival_mexico,es-MX,¡Nos vemos en la meta!,22,Rivals/rivals.json
+rival_mexico_overtaken,Mateo,rival_mexico,es-MX,"¡Órale, qué rápido eres!",24,Rivals/rivals.json
+rival_mexico_boost,Mateo,rival_mexico,es-MX,¡Ahí voy!,9,Rivals/rivals.json
+rival_mexico_crash,Mateo,rival_mexico,es-MX,¡Ay! ¡Estoy bien!,17,Rivals/rivals.json
+rival_mexico_win,Mateo,rival_mexico,es-MX,¡Qué carrera tan padre!,23,Rivals/rivals.json
+rival_mexico_lose,Mateo,rival_mexico,es-MX,"¡Bien hecho, ganaste!",21,Rivals/rivals.json
+rival_brazil_start,Luiza,rival_brazil,pt-BR,"Boa sorte, vamos correr!",24,Rivals/rivals.json
+rival_brazil_start2,Luiza,rival_brazil,pt-BR,Que vença o melhor!,19,Rivals/rivals.json
+rival_brazil_overtake,Luiza,rival_brazil,pt-BR,A gente se vê na linha de chegada!,34,Rivals/rivals.json
+rival_brazil_overtaken,Luiza,rival_brazil,pt-BR,"Nossa, como você é rápido!",26,Rivals/rivals.json
+rival_brazil_boost,Luiza,rival_brazil,pt-BR,Lá vou eu!,10,Rivals/rivals.json
+rival_brazil_crash,Luiza,rival_brazil,pt-BR,Opa! Estou bem!,15,Rivals/rivals.json
+rival_brazil_win,Luiza,rival_brazil,pt-BR,Que corrida divertida!,22,Rivals/rivals.json
+rival_brazil_lose,Luiza,rival_brazil,pt-BR,"Muito bem, você ganhou!",23,Rivals/rivals.json
+rival_south_africa_start,Thabo,rival_south_africa,en-ZA,"Good luck, let's race!",22,Rivals/rivals.json
+rival_south_africa_start2,Thabo,rival_south_africa,en-ZA,May the best racer win!,23,Rivals/rivals.json
+rival_south_africa_overtake,Thabo,rival_south_africa,en-ZA,See you at the finish!,22,Rivals/rivals.json
+rival_south_africa_overtaken,Thabo,rival_south_africa,en-ZA,"Hey, you're quick!",18,Rivals/rivals.json
+rival_south_africa_boost,Thabo,rival_south_africa,en-ZA,Here we go!,11,Rivals/rivals.json
+rival_south_africa_crash,Thabo,rival_south_africa,en-ZA,Eish! I'm fine!,15,Rivals/rivals.json
+rival_south_africa_win,Thabo,rival_south_africa,en-ZA,What a lekker race!,19,Rivals/rivals.json
+rival_south_africa_lose,Thabo,rival_south_africa,en-ZA,"Well done, you won!",19,Rivals/rivals.json
+rival_australia_start,Tilly,rival_australia,en-AU,"Good luck, let's race!",22,Rivals/rivals.json
+rival_australia_start2,Tilly,rival_australia,en-AU,May the best racer win!,23,Rivals/rivals.json
+rival_australia_overtake,Tilly,rival_australia,en-AU,See you at the finish line!,27,Rivals/rivals.json
+rival_australia_overtaken,Tilly,rival_australia,en-AU,"Wow, you're fast!",17,Rivals/rivals.json
+rival_australia_boost,Tilly,rival_australia,en-AU,Here I go!,10,Rivals/rivals.json
+rival_australia_crash,Tilly,rival_australia,en-AU,Oops! I'm all good!,19,Rivals/rivals.json
+rival_australia_win,Tilly,rival_australia,en-AU,What a ripper of a race!,24,Rivals/rivals.json
+rival_australia_lose,Tilly,rival_australia,en-AU,"Good on you, you won!",21,Rivals/rivals.json

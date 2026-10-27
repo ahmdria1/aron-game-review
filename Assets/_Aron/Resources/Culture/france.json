@@ -1,0 +1,262 @@
+{
+  "country": "france",
+  "dialect": "fr",
+  "uiLanguage": "fr",
+  "greeting": {
+    "words": "Bonjour !",
+    "wordsEn": "Good morning!",
+    "wordsAr": "صباح الخير!",
+    "gesture": "handshake"
+  },
+  "hospitality": {
+    "ar": "في فرنسا ما يطلع الضيف إلا وهو ماكل حلا.",
+    "en": "In France, no guest leaves without something sweet.",
+    "tr": "Fransa misafirini tatlı ikram etmeden göndermez.",
+    "de": "In Frankreich geht kein Gast ohne etwas Süßes.",
+    "ur": "فرانس میں کوئی مہمان میٹھا کھائے بغیر نہیں جاتا۔",
+    "hi": "फ़्रांस में कोई मेहमान मीठा खाए बिना नहीं जाता।",
+    "es": "En Francia, ningún invitado se va sin algo dulce.",
+    "pt": "Na França, nenhum convidado sai sem um doce.",
+    "id": "Di Prancis, tamu tak pulang tanpa mencicipi yang manis.",
+    "ms": "Di Perancis, tetamu tidak pulang tanpa menjamah manisan.",
+    "ja": "フランスでは甘いものを食べずに帰るお客さんはいません。",
+    "fr": "France : aucun invité ne repart sans quelque chose de sucré."
+  },
+  "customs": [
+    {
+      "act": "share_bread",
+      "en": "A fresh baguette under the arm every morning.",
+      "ar": "خبز الباغيت الطازج كل صباح."
+    },
+    {
+      "act": "wave_hello",
+      "en": "Everyone says bonjour when they walk into a shop.",
+      "ar": "الكل يقول بونجور إذا دخل المحل."
+    }
+  ],
+  "architecture": "Stone bridges, slate roofs, café terraces and lavender fields.",
+  "palette": [
+    "#2A4D9B",
+    "#FFFFFF",
+    "#E1000F",
+    "#9A7FC2"
+  ],
+  "music": {
+    "style": "Musette accordion",
+    "instruments": [
+      "accordion",
+      "violin",
+      "double bass"
+    ]
+  },
+  "street": {
+    "vendors": [
+      "crêpe stand",
+      "baker"
+    ],
+    "cafe": "café terrace",
+    "kidsGames": [
+      "pétanque",
+      "hopscotch"
+    ],
+    "crowd": "chatty, café terraces"
+  },
+  "foods": [
+    {
+      "id": "france_croissant",
+      "local": "Croissant",
+      "name": {
+        "ar": "كرواسون",
+        "en": "Croissant",
+        "tr": "Croissant",
+        "de": "Croissant",
+        "ur": "کروسان",
+        "hi": "क्रोसां",
+        "es": "Croissant",
+        "pt": "Croissant",
+        "id": "Croissant",
+        "ms": "Croissant",
+        "ja": "クロワッサン",
+        "fr": "Croissant"
+      },
+      "fact": {
+        "ar": "فطور محبوب في فرنسا.",
+        "en": "A favourite breakfast in France.",
+        "tr": "Fransa için sevilen bir kahvaltı.",
+        "de": "Ein beliebtes Frühstück in Frankreich.",
+        "ur": "فرانس کا پسندیدہ ناشتہ۔",
+        "hi": "फ़्रांस का पसंदीदा नाश्ता।",
+        "es": "Un desayuno favorito en Francia.",
+        "pt": "Um pequeno-almoço favorito na França.",
+        "id": "Sarapan favorit di Prancis.",
+        "ms": "Sarapan kegemaran di Perancis.",
+        "ja": "フランスで人気の朝ごはんです。",
+        "fr": "France : un petit-déjeuner très apprécié."
+      },
+      "shape": "roll",
+      "color": "#E0A64A",
+      "color2": "#8A5A2A",
+      "buff": "energy",
+      "price": 35
+    },
+    {
+      "id": "france_crepe",
+      "local": "Crêpe",
+      "name": {
+        "ar": "كريب",
+        "en": "Crêpe",
+        "tr": "Crêpe",
+        "de": "Crêpe",
+        "ur": "کریپ",
+        "hi": "क्रेप",
+        "es": "Crêpe",
+        "pt": "Crêpe",
+        "id": "Crêpe",
+        "ms": "Crêpe",
+        "ja": "クレープ",
+        "fr": "Crêpe"
+      },
+      "fact": {
+        "ar": "يُباع حاراً في بسطات الشوارع في كل فرنسا.",
+        "en": "Sold hot at street stalls all over France.",
+        "tr": "Fransa genelinde sokak tezgâhlarında sıcak satılır.",
+        "de": "Überall in Frankreich heiß an Straßenständen verkauft.",
+        "ur": "پورے فرانس میں ٹھیلوں پر گرم گرم بکتا ہے۔",
+        "hi": "पूरे फ़्रांस में ठेलों पर गरमा-गरम बिकता है।",
+        "es": "Se vende caliente en puestos callejeros por todo el territorio de Francia.",
+        "pt": "Vende-se quente em bancas de rua em toda a França.",
+        "id": "Dijual hangat di kaki lima di seluruh Prancis.",
+        "ms": "Dijual panas di gerai tepi jalan di seluruh Perancis.",
+        "ja": "フランスのあちこちの屋台で熱々で売られています。",
+        "fr": "France : vendu tout chaud dans les stands de rue."
+      },
+      "shape": "wrap",
+      "color": "#F2D9A0",
+      "color2": "#6B3A1E",
+      "buff": "speed",
+      "price": 40
+    },
+    {
+      "id": "france_ratatouille",
+      "local": "Ratatouille",
+      "name": {
+        "ar": "راتاتوي",
+        "en": "Stewed summer vegetables",
+        "tr": "Ratatouille",
+        "de": "Ratatouille",
+        "ur": "سبزیوں کا سالن",
+        "hi": "सब्ज़ियों की तरकारी",
+        "es": "Ratatouille",
+        "pt": "Ratatouille",
+        "id": "Ratatouille",
+        "ms": "Ratatouille",
+        "ja": "ラタトゥイユ",
+        "fr": "Ratatouille"
+      },
+      "fact": {
+        "ar": "يتشاركونه من صحن كبير مع الأهل والضيوف في فرنسا.",
+        "en": "Shared from one big plate with family and guests in France.",
+        "tr": "Fransa için aile ve misafirlerle büyük bir tabaktan paylaşılır.",
+        "de": "In Frankreich von einer großen Platte mit Familie und Gästen geteilt.",
+        "ur": "فرانس میں گھر والوں اور مہمانوں کے ساتھ ایک بڑی پلیٹ سے کھایا جاتا ہے۔",
+        "hi": "फ़्रांस में परिवार और मेहमानों के साथ एक बड़ी थाली से खाया जाता है।",
+        "es": "Se comparte de una gran fuente con familia e invitados en Francia.",
+        "pt": "Partilha-se de uma grande travessa com família e convidados na França.",
+        "id": "Disantap bersama dari satu piring besar dengan keluarga dan tamu di Prancis.",
+        "ms": "Dikongsi dari satu pinggan besar bersama keluarga dan tetamu di Perancis.",
+        "ja": "フランスでは大皿から家族やお客さんと分け合います。",
+        "fr": "France : partagé dans un grand plat avec la famille et les invités."
+      },
+      "shape": "bowl",
+      "color": "#C8553D",
+      "color2": "#6A8F3A",
+      "buff": "energy",
+      "price": 60
+    },
+    {
+      "id": "france_baguette",
+      "local": "Baguette",
+      "name": {
+        "ar": "باغيت",
+        "en": "Baguette",
+        "tr": "Baguette",
+        "de": "Baguette",
+        "ur": "لمبی روٹی",
+        "hi": "बगेट",
+        "es": "Baguette",
+        "pt": "Baguette",
+        "id": "Baguette",
+        "ms": "Baguette",
+        "ja": "バゲット",
+        "fr": "Baguette"
+      },
+      "fact": {
+        "ar": "خبز يومي على السفرة في كل فرنسا.",
+        "en": "Daily bread on tables across France.",
+        "tr": "Fransa genelinde sofraların günlük ekmeği.",
+        "de": "Tägliches Brot auf den Tischen in ganz Frankreich.",
+        "ur": "پورے فرانس میں دسترخوان کی روزانہ کی روٹی۔",
+        "hi": "पूरे फ़्रांस में रोज़ की रोटी।",
+        "es": "Pan de cada día en las mesas de Francia.",
+        "pt": "Pão de todos os dias nas mesas da França.",
+        "id": "Roti sehari-hari di meja seluruh Prancis.",
+        "ms": "Roti harian di meja seluruh Perancis.",
+        "ja": "フランスの食卓に毎日並ぶパンです。",
+        "fr": "France : le pain de tous les jours sur la table."
+      },
+      "shape": "stick",
+      "color": "#D9A050",
+      "color2": "#8A5A2A",
+      "buff": "strength",
+      "price": 25
+    },
+    {
+      "id": "france_macaron",
+      "local": "Macaron",
+      "name": {
+        "ar": "ماكرون",
+        "en": "Almond macaron",
+        "tr": "Macaron",
+        "de": "Macaron",
+        "ur": "بادام کے بسکٹ",
+        "hi": "मैकरॉन",
+        "es": "Macaron",
+        "pt": "Macaron",
+        "id": "Macaron",
+        "ms": "Macaron",
+        "ja": "マカロン",
+        "fr": "Macaron"
+      },
+      "fact": {
+        "ar": "حلا محبوب في فرنسا، أحلى مع الشاي أو القهوة.",
+        "en": "A sweet treat in France, best with tea or coffee.",
+        "tr": "Fransa için tatlı bir ikram, çay ya da kahveyle en güzeli.",
+        "de": "Eine süße Leckerei in Frankreich, am besten mit Tee oder Kaffee.",
+        "ur": "فرانس کی میٹھی سوغات، چائے یا کافی کے ساتھ مزیدار۔",
+        "hi": "फ़्रांस की मीठी सौगात, चाय या कॉफ़ी के साथ सबसे अच्छी।",
+        "es": "Un dulce de Francia, mejor con té o café.",
+        "pt": "Um doce da França, melhor com chá ou café.",
+        "id": "Camilan manis di Prancis, paling enak dengan teh atau kopi.",
+        "ms": "Manisan di Perancis, paling sedap dengan teh atau kopi.",
+        "ja": "フランスの甘いおやつ。お茶やコーヒーと一緒にどうぞ。",
+        "fr": "France : une douceur, parfaite avec un thé ou un café."
+      },
+      "shape": "ball",
+      "color": "#F2A6C0",
+      "color2": "#9A7FC2",
+      "buff": "speed",
+      "price": 45
+    }
+  ],
+  "animals": [
+    "france_rooster",
+    "france_snail",
+    "france_horse"
+  ],
+  "attackTrailVfx": "lavender",
+  "eatIdle": {
+    "dishId": "france_croissant",
+    "propModel": "food_croissant",
+    "reaction": "yum"
+  }
+}

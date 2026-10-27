@@ -1,0 +1,100 @@
+{
+  "country": "indonesia",
+  "costumes": [
+    {
+      "id": "indonesia_traditional",
+      "country": "indonesia",
+      "hero": "aron",
+      "nameAr": "قميص الباتيك",
+      "nameEn": "Batik shirt",
+      "isDefault": true,
+      "price": 0,
+      "materials": [
+        {
+          "material": "Clothes",
+          "color": "#8A5A2B"
+        },
+        {
+          "material": "Trim",
+          "color": "#C9A86A"
+        }
+      ],
+      "meshes": [
+        {
+          "slot": "feet",
+          "mesh": "shoes_closed"
+        }
+      ],
+      "accessories": [
+        {
+          "kind": "shirt",
+          "color": "#8A5A2B",
+          "pattern": "#E8C14A"
+        },
+        {
+          "kind": "batik",
+          "color": "#6B3A1E",
+          "pattern": "#E8C14A"
+        },
+        {
+          "kind": "songkok",
+          "color": "#1E1E1E"
+        }
+      ],
+      "footwear": "leather_shoes",
+      "footwearColor": "#5A3A22",
+      "agalMount": "wrist",
+      "boredIdle": {
+        "id": "indonesia_kite_tug",
+        "trigger": 31,
+        "noteEn": "Tugs an invisible kite string",
+        "lineAr": "الطيارة طالعة!",
+        "seconds": 3.5
+      }
+    },
+    {
+      "id": "indonesia_noura",
+      "country": "indonesia",
+      "hero": "noura",
+      "nameAr": "عباية الباتيك",
+      "nameEn": "Batik abaya",
+      "isDefault": true,
+      "price": 0,
+      "materials": [
+        {
+          "material": "Clothes",
+          "color": "#6B3A1E"
+        }
+      ],
+      "meshes": [
+        {
+          "slot": "body",
+          "mesh": "abaya_long"
+        },
+        {
+          "slot": "feet",
+          "mesh": "shoes_closed"
+        }
+      ],
+      "accessories": [
+        {
+          "kind": "abaya",
+          "color": "#6B3A1E",
+          "pattern": "#C9A86A"
+        },
+        {
+          "kind": "hijab",
+          "color": "#F4F0E8"
+        },
+        {
+          "kind": "batik",
+          "color": "#8A5A2B",
+          "pattern": "#E8C14A"
+        }
+      ],
+      "footwear": "closed_flats",
+      "footwearColor": "#2A2020",
+      "agalMount": "none"
+    }
+  ]
+}

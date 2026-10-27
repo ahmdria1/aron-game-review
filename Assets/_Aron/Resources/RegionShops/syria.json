@@ -1,0 +1,20 @@
+{
+  "region": "syria",
+  "shops": [
+    {
+      "stage": "syria_1",
+      "nameAr": "بوظة أبو محمود",
+      "kind": "icecream"
+    },
+    {
+      "stage": "syria_2",
+      "nameAr": "حلويات أبو سمير",
+      "kind": "sweets"
+    },
+    {
+      "stage": "syria_3",
+      "nameAr": "صابون الحاج عبدو",
+      "kind": "soap"
+    }
+  ]
+}

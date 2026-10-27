@@ -1,0 +1,575 @@
+{
+  "version": 1,
+  "classes": [
+    {
+      "id": "sea",
+      "tab": "sea",
+      "slot": "boat",
+      "powerBudget": 8.0,
+      "rawTolerance": 0.04,
+      "helmetAlways": false,
+      "nouraOutfit": "",
+      "pedalStamina": false,
+      "crash": {
+        "tumbleSeconds": 0,
+        "respawnSeconds": 0,
+        "invulnerableSeconds": 0,
+        "speedAfter": 0.5,
+        "kidSafe": true
+      },
+      "vehicles": [
+        {
+          "id": "boat_pearl",
+          "nameAr": "قارب اللؤلؤ",
+          "nameEn": "Pearl rowing boat",
+          "descAr": "قارب تجديف مجاني: متوازن وهادي، ما فيه شي يميّزه.",
+          "stats": {
+            "topSpeed": 1.0,
+            "accel": 1.0,
+            "turning": 1.0,
+            "jump": 1.0,
+            "terrain": 0.15,
+            "weather": 0.1,
+            "stamina": 0,
+            "ability": 0.25
+          },
+          "ability": {
+            "kind": "steady",
+            "amount": 0
+          },
+          "usd": 0,
+          "productId": "",
+          "isDefault": true,
+          "engineId": "",
+          "color": "#E9E2D0",
+          "accent": "#2E7D8C"
+        },
+        {
+          "id": "boat_dhow",
+          "nameAr": "الداو الشراعي",
+          "nameEn": "Sail dhow",
+          "descAr": "شراع يستفيد من الريح ويتحمل الموج، بس بطيء في الانعطاف والتسارع.",
+          "stats": {
+            "topSpeed": 0.85,
+            "accel": 0.75,
+            "turning": 0.7,
+            "jump": 0.85,
+            "terrain": 0.8,
+            "weather": 0.8,
+            "stamina": 0,
+            "ability": 0.4
+          },
+          "ability": {
+            "kind": "tailwind",
+            "amount": 0.08
+          },
+          "usd": 1.99,
+          "productId": "com.ahmdria1.aron.boat_dhow",
+          "isDefault": false,
+          "engineId": "",
+          "color": "#8A5A2B",
+          "accent": "#F2EEE6"
+        },
+        {
+          "id": "boat_speed",
+          "nameAr": "القارب السريع",
+          "nameEn": "Speed boat",
+          "descAr": "الأسرع على الماء، لكن صعب التوجيه ويتأثر بالموج.",
+          "stats": {
+            "topSpeed": 1.25,
+            "accel": 1.05,
+            "turning": 0.65,
+            "jump": 0.8,
+            "terrain": 0.1,
+            "weather": 0.1,
+            "stamina": 0,
+            "ability": 0.3
+          },
+          "ability": {
+            "kind": "planing",
+            "amount": 0.06
+          },
+          "usd": 2.99,
+          "productId": "com.ahmdria1.aron.boat_speed",
+          "isDefault": false,
+          "engineId": "",
+          "color": "#C23B3B",
+          "accent": "#F2EEE6"
+        },
+        {
+          "id": "boat_water_scooter",
+          "nameAr": "الدراجة المائية",
+          "nameEn": "Water scooter",
+          "descAr": "تنعطف بسرعة وتقفز فوق الموج، بس سرعتها القصوى متوسطة.",
+          "stats": {
+            "topSpeed": 0.98,
+            "accel": 1.2,
+            "turning": 1.1,
+            "jump": 0.7,
+            "terrain": 0.1,
+            "weather": 0.0,
+            "stamina": 0,
+            "ability": 0.46
+          },
+          "ability": {
+            "kind": "wave_hop",
+            "amount": 1.0
+          },
+          "usd": 3.99,
+          "productId": "com.ahmdria1.aron.boat_water_scooter",
+          "isDefault": false,
+          "engineId": "",
+          "color": "#1E88E5",
+          "accent": "#FFD54F"
+        }
+      ]
+    },
+    {
+      "id": "cars",
+      "tab": "cars",
+      "slot": "car",
+      "powerBudget": 8.0,
+      "rawTolerance": 0.04,
+      "helmetAlways": false,
+      "nouraOutfit": "",
+      "pedalStamina": false,
+      "crash": {
+        "tumbleSeconds": 0,
+        "respawnSeconds": 0,
+        "invulnerableSeconds": 0,
+        "speedAfter": 0.5,
+        "kidSafe": true
+      },
+      "vehicles": [
+        {
+          "id": "car_starter",
+          "nameAr": "سيارة الرحلة",
+          "nameEn": "Trip car",
+          "descAr": "سيارة مجانية متوازنة وسهلة القيادة.",
+          "stats": {
+            "topSpeed": 1.0,
+            "accel": 1.0,
+            "turning": 1.0,
+            "jump": 1.0,
+            "terrain": 0.15,
+            "weather": 0.1,
+            "stamina": 0,
+            "ability": 0.25
+          },
+          "ability": {
+            "kind": "steady",
+            "amount": 0
+          },
+          "usd": 0,
+          "productId": "",
+          "isDefault": true,
+          "engineId": "",
+          "color": "#B8B2A0",
+          "accent": "#3A6E8A"
+        },
+        {
+          "id": "car_sports",
+          "nameAr": "الرياضية الفيروزية",
+          "nameEn": "Teal wedge sports car",
+          "descAr": "سريعة جداً وتتسارع بقوة، لكنها منخفضة وتتعثر في الرمل والقفزات.",
+          "stats": {
+            "topSpeed": 1.2,
+            "accel": 1.1,
+            "turning": 0.95,
+            "jump": 0.6,
+            "terrain": 0.0,
+            "weather": 0.05,
+            "stamina": 0,
+            "ability": 0.375
+          },
+          "ability": {
+            "kind": "slipstream",
+            "amount": 0.05
+          },
+          "usd": 3.99,
+          "productId": "com.ahmdria1.aron.car_sports",
+          "isDefault": false,
+          "engineId": "",
+          "color": "#1FB5A8",
+          "accent": "#F2EEE6"
+        },
+        {
+          "id": "car_convertible",
+          "nameAr": "الكلاسيكية المرجانية المكشوفة",
+          "nameEn": "Coral classic convertible",
+          "descAr": "تنعطف بسلاسة وتتعافى بسرعة من الصدمات، لكن سرعتها متوسطة.",
+          "stats": {
+            "topSpeed": 0.95,
+            "accel": 0.95,
+            "turning": 1.1,
+            "jump": 0.9,
+            "terrain": 0.35,
+            "weather": 0.05,
+            "stamina": 0,
+            "ability": 0.325
+          },
+          "ability": {
+            "kind": "cruise",
+            "amount": 0.5
+          },
+          "usd": 2.99,
+          "productId": "com.ahmdria1.aron.car_convertible",
+          "isDefault": false,
+          "engineId": "",
+          "color": "#F2705E",
+          "accent": "#F2EEE6"
+        },
+        {
+          "id": "car_buggy",
+          "nameAr": "عربة الكثبان",
+          "nameEn": "Dune buggy",
+          "descAr": "تقفز وتتحمل الكثبان، لكن سرعتها القصوى أقل.",
+          "stats": {
+            "topSpeed": 0.85,
+            "accel": 0.9,
+            "turning": 0.9,
+            "jump": 1.1,
+            "terrain": 0.55,
+            "weather": 0.1,
+            "stamina": 0,
+            "ability": 0.45
+          },
+          "ability": {
+            "kind": "bounce",
+            "amount": 0.6
+          },
+          "usd": 2.99,
+          "productId": "com.ahmdria1.aron.car_buggy",
+          "isDefault": false,
+          "engineId": "",
+          "color": "#E0A526",
+          "accent": "#2B2B2B"
+        },
+        {
+          "id": "car_4x4",
+          "nameAr": "دفع رباعي الصحراء",
+          "nameEn": "Desert 4x4",
+          "descAr": "تتخطى الرمل والمطر بثبات، لكنها بطيئة في الانطلاق والانعطاف.",
+          "stats": {
+            "topSpeed": 0.85,
+            "accel": 0.7,
+            "turning": 0.75,
+            "jump": 0.85,
+            "terrain": 0.9,
+            "weather": 0.7,
+            "stamina": 0,
+            "ability": 0.4
+          },
+          "ability": {
+            "kind": "low_gear",
+            "amount": 0.15
+          },
+          "usd": 3.99,
+          "productId": "com.ahmdria1.aron.car_4x4",
+          "isDefault": false,
+          "engineId": "",
+          "color": "#7A8450",
+          "accent": "#F2EEE6"
+        }
+      ]
+    },
+    {
+      "id": "bicycles",
+      "tab": "bicycles",
+      "slot": "bicycle",
+      "powerBudget": 8.0,
+      "rawTolerance": 0.04,
+      "helmetAlways": true,
+      "nouraOutfit": "abaya",
+      "pedalStamina": true,
+      "crash": {
+        "tumbleSeconds": 0,
+        "respawnSeconds": 0,
+        "invulnerableSeconds": 0,
+        "speedAfter": 0.5,
+        "kidSafe": true
+      },
+      "vehicles": [
+        {
+          "id": "bike_city",
+          "nameAr": "دراجة المدينة",
+          "nameEn": "City bike",
+          "descAr": "دراجة مجانية: متوازنة، والإيقاع يعطيها دفعة صغيرة.",
+          "stats": {
+            "topSpeed": 0.9,
+            "accel": 0.9,
+            "turning": 0.95,
+            "jump": 0.8,
+            "terrain": 0.1,
+            "weather": 0.05,
+            "stamina": 0.9,
+            "ability": 0.275
+          },
+          "ability": {
+            "kind": "pedal_rhythm",
+            "amount": 0.07
+          },
+          "usd": 0,
+          "productId": "",
+          "isDefault": true,
+          "engineId": "",
+          "color": "#4A7FB5",
+          "accent": "#F2EEE6"
+        },
+        {
+          "id": "bike_road",
+          "nameAr": "دراجة السباق",
+          "nameEn": "Road bike",
+          "descAr": "الأسرع على الأسفلت ونفسها طويل، بس ضعيفة في الرمل والقفزات.",
+          "stats": {
+            "topSpeed": 1.1,
+            "accel": 0.8,
+            "turning": 0.85,
+            "jump": 0.6,
+            "terrain": 0.0,
+            "weather": 0.05,
+            "stamina": 1.05,
+            "ability": 0.225
+          },
+          "ability": {
+            "kind": "pedal_rhythm",
+            "amount": 0.08
+          },
+          "usd": 0.99,
+          "productId": "com.ahmdria1.aron.bike_road",
+          "isDefault": false,
+          "engineId": "",
+          "color": "#D94B4B",
+          "accent": "#F2EEE6"
+        },
+        {
+          "id": "bike_mountain",
+          "nameAr": "دراجة الجبال",
+          "nameEn": "Mountain bike",
+          "descAr": "تتحمل الطرق الوعرة والقفزات، لكنها أبطأ على الطريق المعبّد.",
+          "stats": {
+            "topSpeed": 0.8,
+            "accel": 0.8,
+            "turning": 0.9,
+            "jump": 0.95,
+            "terrain": 0.4,
+            "weather": 0.1,
+            "stamina": 0.85,
+            "ability": 0.275
+          },
+          "ability": {
+            "kind": "pedal_rhythm",
+            "amount": 0.07
+          },
+          "usd": 1.99,
+          "productId": "com.ahmdria1.aron.bike_mountain",
+          "isDefault": false,
+          "engineId": "",
+          "color": "#3F8F5A",
+          "accent": "#F2EEE6"
+        },
+        {
+          "id": "bike_fat",
+          "nameAr": "دراجة الصحراء العريضة",
+          "nameEn": "Fat-tire desert bike",
+          "descAr": "إطارات عريضة تمشي على الرمل والحر بسهولة، لكنها بطيئة وثقيلة.",
+          "stats": {
+            "topSpeed": 0.8,
+            "accel": 0.65,
+            "turning": 0.75,
+            "jump": 0.7,
+            "terrain": 0.9,
+            "weather": 0.5,
+            "stamina": 0.8,
+            "ability": 0.25
+          },
+          "ability": {
+            "kind": "pedal_rhythm",
+            "amount": 0.06
+          },
+          "usd": 1.99,
+          "productId": "com.ahmdria1.aron.bike_fat",
+          "isDefault": false,
+          "engineId": "",
+          "color": "#D9A441",
+          "accent": "#2B2B2B"
+        },
+        {
+          "id": "bike_bmx",
+          "nameAr": "دراجة بي إم إكس",
+          "nameEn": "BMX bike",
+          "descAr": "خفيفة تنعطف وتقفز بخفة، بس نفسها قصير وسرعتها قليلة.",
+          "stats": {
+            "topSpeed": 0.8,
+            "accel": 1.0,
+            "turning": 1.1,
+            "jump": 1.1,
+            "terrain": 0.1,
+            "weather": 0.0,
+            "stamina": 0.5,
+            "ability": 0.2
+          },
+          "ability": {
+            "kind": "pedal_rhythm",
+            "amount": 0.08
+          },
+          "usd": 0.99,
+          "productId": "com.ahmdria1.aron.bike_bmx",
+          "isDefault": false,
+          "engineId": "",
+          "color": "#8E5BD6",
+          "accent": "#F2EEE6"
+        }
+      ]
+    },
+    {
+      "id": "motorcycles",
+      "tab": "motorcycles",
+      "slot": "motorcycle",
+      "powerBudget": 8.0,
+      "rawTolerance": 0.04,
+      "helmetAlways": true,
+      "nouraOutfit": "abaya",
+      "pedalStamina": false,
+      "crash": {
+        "tumbleSeconds": 1.2,
+        "respawnSeconds": 0.8,
+        "invulnerableSeconds": 2.0,
+        "speedAfter": 0.5,
+        "kidSafe": true
+      },
+      "vehicles": [
+        {
+          "id": "moto_scooter",
+          "nameAr": "السكوتر",
+          "nameEn": "Scooter",
+          "descAr": "سكوتر مجاني متوازن وسهل.",
+          "stats": {
+            "topSpeed": 1.0,
+            "accel": 1.0,
+            "turning": 1.0,
+            "jump": 1.0,
+            "terrain": 0.1,
+            "weather": 0.1,
+            "stamina": 0,
+            "ability": 0.3
+          },
+          "ability": {
+            "kind": "steady",
+            "amount": 0
+          },
+          "usd": 0,
+          "productId": "",
+          "isDefault": true,
+          "engineId": "scooter",
+          "color": "#E8E2D2",
+          "accent": "#E64A4A"
+        },
+        {
+          "id": "moto_dirt",
+          "nameAr": "الدبّاب",
+          "nameEn": "Dirt bike",
+          "descAr": "يقفز ويتحمل الطرق الترابية، لكنه أبطأ على الإسفلت.",
+          "stats": {
+            "topSpeed": 0.85,
+            "accel": 1.0,
+            "turning": 1.0,
+            "jump": 1.1,
+            "terrain": 0.4,
+            "weather": 0.1,
+            "stamina": 0,
+            "ability": 0.3
+          },
+          "ability": {
+            "kind": "bump_absorb",
+            "amount": 0.5
+          },
+          "usd": 1.99,
+          "productId": "com.ahmdria1.aron.moto_dirt",
+          "isDefault": false,
+          "engineId": "dirt_bike",
+          "color": "#E5762B",
+          "accent": "#2B2B2B"
+        },
+        {
+          "id": "moto_sport",
+          "nameAr": "الدراجة الرياضية",
+          "nameEn": "Sport bike",
+          "descAr": "سريعة جداً على الإسفلت، لكنها صعبة في الرمل والقفزات.",
+          "stats": {
+            "topSpeed": 1.25,
+            "accel": 1.1,
+            "turning": 0.95,
+            "jump": 0.6,
+            "terrain": 0.0,
+            "weather": 0.0,
+            "stamina": 0,
+            "ability": 0.275
+          },
+          "ability": {
+            "kind": "slipstream",
+            "amount": 0.06
+          },
+          "usd": 3.99,
+          "productId": "com.ahmdria1.aron.moto_sport",
+          "isDefault": false,
+          "engineId": "sport_bike",
+          "color": "#2E5FD6",
+          "accent": "#F2EEE6"
+        },
+        {
+          "id": "moto_cruiser",
+          "nameAr": "دراجة الطريق الطويل",
+          "nameEn": "Cruiser",
+          "descAr": "ثابتة ومريحة ضد الريح والحر، لكنها ثقيلة في الانعطاف.",
+          "stats": {
+            "topSpeed": 1.05,
+            "accel": 0.75,
+            "turning": 0.7,
+            "jump": 0.8,
+            "terrain": 0.4,
+            "weather": 0.6,
+            "stamina": 0,
+            "ability": 0.475
+          },
+          "ability": {
+            "kind": "cruise",
+            "amount": 0.5
+          },
+          "usd": 2.99,
+          "productId": "com.ahmdria1.aron.moto_cruiser",
+          "isDefault": false,
+          "engineId": "cruiser",
+          "color": "#5A2A2A",
+          "accent": "#C8A060"
+        },
+        {
+          "id": "moto_quad",
+          "nameAr": "الرباعية الصحراوية",
+          "nameEn": "Desert quad",
+          "descAr": "تمشي على الرمل بثبات، لكنها أبطأ وأصعب في الانعطاف.",
+          "stats": {
+            "topSpeed": 0.85,
+            "accel": 0.85,
+            "turning": 0.8,
+            "jump": 0.9,
+            "terrain": 0.9,
+            "weather": 0.4,
+            "stamina": 0,
+            "ability": 0.325
+          },
+          "ability": {
+            "kind": "all_terrain",
+            "amount": 0.2
+          },
+          "usd": 2.99,
+          "productId": "com.ahmdria1.aron.moto_quad",
+          "isDefault": false,
+          "engineId": "dirt_bike",
+          "color": "#2F8F7A",
+          "accent": "#2B2B2B"
+        }
+      ]
+    }
+  ]
+}

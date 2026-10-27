@@ -1,0 +1,20 @@
+{
+  "region": "morocco",
+  "shops": [
+    {
+      "stage": "morocco_1",
+      "nameAr": "عصير برتقال با حميد",
+      "kind": "juice"
+    },
+    {
+      "stage": "morocco_2",
+      "nameAr": "بلاغي المعلم إدريس",
+      "kind": "leather"
+    },
+    {
+      "stage": "morocco_3",
+      "nameAr": "زليج فاس عند الحاج عمر",
+      "kind": "tiles"
+    }
+  ]
+}

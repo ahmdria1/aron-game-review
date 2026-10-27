@@ -1,0 +1,197 @@
+{
+  "order": 105,
+  "id": "makkah",
+  "nameAr": "منطقة مكة المكرمة",
+  "nameEn": "Makkah Region",
+  "group": "saudi",
+  "country": "saudi",
+  "costume": "saudi_hijazi",
+  "music": "music_saudi_hejaz",
+  "ground": "#E2C9A0",
+  "accent": "#7A4A2A",
+  "sky": "#8FC3E6",
+  "stages": [
+    {
+      "id": "makkah_1",
+      "nameAr": "جدة التاريخية - البلد",
+      "nameEn": "Historic Jeddah - Al Balad",
+      "terrain": "street",
+      "landmarks": [
+        "rawasheen",
+        "gate"
+      ],
+      "mount": "",
+      "difficulty": 1,
+      "boss": false,
+      "type": "normal",
+      "time": "day",
+      "weather": "clear",
+      "costume": "",
+      "lineAr": "رواشين البلد! خشب ونقوش.",
+      "extra": ""
+    },
+    {
+      "id": "makkah_2",
+      "nameAr": "سوق باب مكة",
+      "nameEn": "Bab Makkah Souq",
+      "terrain": "souq",
+      "landmarks": [
+        "souq",
+        "gate"
+      ],
+      "mount": "",
+      "difficulty": 2,
+      "boss": false,
+      "type": "action",
+      "time": "sunset",
+      "weather": "clear",
+      "costume": "",
+      "lineAr": "سوق باب مكة، المطبق والبليلة!",
+      "extra": ""
+    },
+    {
+      "id": "makkah_3",
+      "nameAr": "كورنيش جدة",
+      "nameEn": "Jeddah Corniche",
+      "terrain": "coast",
+      "landmarks": [
+        "fountain",
+        "dhows"
+      ],
+      "mount": "",
+      "difficulty": 2,
+      "boss": false,
+      "type": "normal",
+      "time": "night",
+      "weather": "clear",
+      "costume": "",
+      "lineAr": "نافورة الملك فهد! أطول نافورة.",
+      "extra": ""
+    },
+    {
+      "id": "makkah_4",
+      "nameAr": "الطائف - الهدا",
+      "nameEn": "Taif - Al Hada",
+      "terrain": "mountain",
+      "landmarks": [
+        "terraces",
+        "mountains"
+      ],
+      "mount": "",
+      "difficulty": 2,
+      "boss": false,
+      "type": "normal",
+      "time": "day",
+      "weather": "rain",
+      "costume": "",
+      "lineAr": "الهدا... ورد الطائف وهوا بارد.",
+      "extra": ""
+    },
+    {
+      "id": "makkah_5",
+      "nameAr": "الشفا وجبال السروات",
+      "nameEn": "Al Shafa and the Sarawat",
+      "terrain": "mountain",
+      "landmarks": [
+        "mountains",
+        "terraces"
+      ],
+      "mount": "",
+      "difficulty": 3,
+      "boss": false,
+      "type": "chase",
+      "time": "sunset",
+      "weather": "rain",
+      "costume": "",
+      "lineAr": "عقبة الشفا، انتبه للحواف.",
+      "extra": ""
+    },
+    {
+      "id": "makkah_6",
+      "nameAr": "سوق عكاظ",
+      "nameEn": "Souq Okaz",
+      "terrain": "desert",
+      "landmarks": [
+        "tents",
+        "souq"
+      ],
+      "mount": "camel",
+      "difficulty": 3,
+      "boss": false,
+      "type": "normal",
+      "time": "day",
+      "weather": "sandstorm",
+      "costume": "",
+      "lineAr": "سوق عكاظ، سوق الشعر القديم.",
+      "extra": ""
+    },
+    {
+      "id": "makkah_7",
+      "nameAr": "ميناء جدة",
+      "nameEn": "Jeddah Port",
+      "terrain": "coast",
+      "landmarks": [
+        "dhows",
+        "rawasheen"
+      ],
+      "mount": "",
+      "difficulty": 4,
+      "boss": true,
+      "type": "boss",
+      "time": "night",
+      "weather": "clear",
+      "costume": "",
+      "lineAr": "قرش البحر الأحمر ينتظرني.",
+      "extra": ""
+    }
+  ],
+  "boss": {
+    "nameAr": "قرش البحر الأحمر",
+    "nameEn": "Red Sea Shark",
+    "model": "shark",
+    "headgear": "none",
+    "body": "#1C4E80",
+    "trim": "#E8DCC6",
+    "projectile": "#2A9DCC",
+    "scale": 1.1,
+    "health": 10,
+    "introAr": "البحر الأحمر حقي، وأسناني أكبر منك يا بطل!",
+    "stunAr": "آخ! راسي...",
+    "defeatAr": "رجعت للأعماق... البحر لك!",
+    "phases": [
+      {
+        "threshold": 1.0,
+        "move": 3,
+        "charge": 10,
+        "interval": 2.8,
+        "attacks": [
+          "volley"
+        ],
+        "tauntAr": "خذ لك سمك!"
+      },
+      {
+        "threshold": 0.6,
+        "move": 3.5,
+        "charge": 13,
+        "interval": 2.4,
+        "attacks": [
+          "volley",
+          "charge"
+        ],
+        "tauntAr": "الموجة جاية!"
+      },
+      {
+        "threshold": 0.3,
+        "move": 4.5,
+        "charge": 15,
+        "interval": 2.0,
+        "attacks": [
+          "volley",
+          "dash",
+          "wave"
+        ],
+        "tauntAr": "يا قروش البحر! هجوم!"
+      }
+    ]
+  }
+}

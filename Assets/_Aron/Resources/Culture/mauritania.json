@@ -1,0 +1,262 @@
+{
+  "country": "mauritania",
+  "dialect": "hassaniya",
+  "uiLanguage": "ar",
+  "greeting": {
+    "words": "Salam aleykum",
+    "wordsEn": "Peace be upon you",
+    "wordsAr": "السلام عليكم",
+    "gesture": "hand_on_chest"
+  },
+  "hospitality": {
+    "ar": "في موريتانيا أول شي يُقدَّم للضيف كاسة شاي.",
+    "en": "In Mauritania, the first thing a guest gets is a glass of tea.",
+    "tr": "Moritanya misafire ilk olarak bir bardak çay ikram eder.",
+    "de": "In Mauretanien bekommt ein Gast zuerst ein Glas Tee.",
+    "ur": "موریتانیہ میں مہمان کو سب سے پہلے چائے پیش کی جاتی ہے۔",
+    "hi": "मॉरिटानिया में मेहमान को सबसे पहले चाय दी जाती है।",
+    "es": "En Mauritania, lo primero que recibe un invitado es un vaso de té.",
+    "pt": "Na Mauritânia, a primeira coisa que um convidado recebe é um copo de chá.",
+    "id": "Di Mauritania, tamu pertama-tama disuguhi segelas teh.",
+    "ms": "Di Mauritania, tetamu mula-mula dihidangkan segelas teh.",
+    "ja": "モーリタニアではお客さんにまずお茶を一杯出します。",
+    "fr": "Mauritanie : la première chose qu'on offre à un invité, c'est un verre de thé."
+  },
+  "customs": [
+    {
+      "act": "pour_tea",
+      "en": "Three glasses of tea, each sweeter than the last.",
+      "ar": "ثلاث كاسات شاي، كل وحدة أحلى من اللي قبلها."
+    },
+    {
+      "act": "invite_in",
+      "en": "Guests are welcomed into the tent first.",
+      "ar": "الضيف يدخل الخيمة قبل كل شي."
+    }
+  ],
+  "architecture": "Stone and mud towns with carved wooden doors, tents on the dunes.",
+  "palette": [
+    "#E2B97A",
+    "#006233",
+    "#C8102E",
+    "#3A6EA5"
+  ],
+  "music": {
+    "style": "Moorish griot songs",
+    "instruments": [
+      "tidinit",
+      "ardin",
+      "drum"
+    ]
+  },
+  "street": {
+    "vendors": [
+      "tea seller",
+      "dates seller"
+    ],
+    "cafe": "tea corner",
+    "kidsGames": [
+      "dune sliding",
+      "stone game"
+    ],
+    "crowd": "calm, desert travellers"
+  },
+  "foods": [
+    {
+      "id": "mauritania_thieboudienne",
+      "local": "Thieboudienne",
+      "name": {
+        "ar": "ثيبوديان",
+        "en": "Fish and rice",
+        "tr": "Thieboudienne",
+        "de": "Thieboudienne",
+        "ur": "مچھلی اور چاول",
+        "hi": "मछली और चावल",
+        "es": "Thieboudienne",
+        "pt": "Thieboudienne",
+        "id": "Thieboudienne",
+        "ms": "Thieboudienne",
+        "ja": "魚と炊き込みご飯",
+        "fr": "Thieboudienne"
+      },
+      "fact": {
+        "ar": "تُعرف غالباً بأنها الأكلة الوطنية في موريتانيا.",
+        "en": "Often called the national dish of Mauritania.",
+        "tr": "Genellikle Moritanya ulusal yemeği sayılır.",
+        "de": "Gilt oft als Nationalgericht von Mauretanien.",
+        "ur": "اسے اکثر موریتانیہ کا قومی کھانا کہا جاتا ہے۔",
+        "hi": "इसे अक्सर मॉरिटानिया का राष्ट्रीय व्यंजन कहा जाता है।",
+        "es": "Se le suele llamar el plato nacional de Mauritania.",
+        "pt": "É muitas vezes chamado o prato nacional da Mauritânia.",
+        "id": "Sering disebut hidangan nasional Mauritania.",
+        "ms": "Sering disebut hidangan kebangsaan Mauritania.",
+        "ja": "モーリタニアの国民食とよく言われます。",
+        "fr": "Mauritanie : souvent appelé le plat national."
+      },
+      "shape": "plate",
+      "color": "#D9813A",
+      "color2": "#6A8F3A",
+      "buff": "strength",
+      "price": 80
+    },
+    {
+      "id": "mauritania_mechoui",
+      "local": "Méchoui",
+      "name": {
+        "ar": "مشوي",
+        "en": "Slow-roasted lamb",
+        "tr": "Méchoui",
+        "de": "Méchoui",
+        "ur": "بھنا ہوا دنبہ",
+        "hi": "भुना हुआ मेमना",
+        "es": "Méchoui",
+        "pt": "Méchoui",
+        "id": "Méchoui",
+        "ms": "Méchoui",
+        "ja": "子羊の丸焼き",
+        "fr": "Méchoui"
+      },
+      "fact": {
+        "ar": "تُطبخ في الأعراس والأعياد ولمّات العائلة في موريتانيا.",
+        "en": "Cooked for weddings, Eid and big family days in Mauritania.",
+        "tr": "Moritanya düğünlerinde, bayramlarda ve aile günlerinde pişirilir.",
+        "de": "In Mauretanien gekocht für Hochzeiten, Eid und große Familientage.",
+        "ur": "موریتانیہ میں شادیوں، عید اور خاندانی دنوں پر پکایا جاتا ہے۔",
+        "hi": "मॉरिटानिया में शादियों, ईद और परिवार के ख़ास दिनों पर बनता है।",
+        "es": "Se cocina para bodas, Eid y grandes días en familia en Mauritania.",
+        "pt": "Cozinhado para casamentos, Eid e grandes dias de família na Mauritânia.",
+        "id": "Dimasak untuk pernikahan, Idul Fitri, dan kumpul keluarga di Mauritania.",
+        "ms": "Dimasak untuk majlis kahwin, Hari Raya dan hari keluarga di Mauritania.",
+        "ja": "モーリタニアでは結婚式やイード、家族の集まりで作られます。",
+        "fr": "Mauritanie : préparé pour les mariages, l'Aïd et les grands jours en famille."
+      },
+      "shape": "plate",
+      "color": "#A0522D",
+      "color2": "#E0C08A",
+      "buff": "strength",
+      "price": 120
+    },
+    {
+      "id": "mauritania_couscous",
+      "local": "Couscous",
+      "name": {
+        "ar": "كسكسي",
+        "en": "Couscous",
+        "tr": "Couscous",
+        "de": "Couscous",
+        "ur": "کُسکُس",
+        "hi": "कूसकूस",
+        "es": "Couscous",
+        "pt": "Couscous",
+        "id": "Couscous",
+        "ms": "Couscous",
+        "ja": "クスクス",
+        "fr": "Couscous"
+      },
+      "fact": {
+        "ar": "يتشاركونه من صحن كبير مع الأهل والضيوف في موريتانيا.",
+        "en": "Shared from one big plate with family and guests in Mauritania.",
+        "tr": "Moritanya için aile ve misafirlerle büyük bir tabaktan paylaşılır.",
+        "de": "In Mauretanien von einer großen Platte mit Familie und Gästen geteilt.",
+        "ur": "موریتانیہ میں گھر والوں اور مہمانوں کے ساتھ ایک بڑی پلیٹ سے کھایا جاتا ہے۔",
+        "hi": "मॉरिटानिया में परिवार और मेहमानों के साथ एक बड़ी थाली से खाया जाता है।",
+        "es": "Se comparte de una gran fuente con familia e invitados en Mauritania.",
+        "pt": "Partilha-se de uma grande travessa com família e convidados na Mauritânia.",
+        "id": "Disantap bersama dari satu piring besar dengan keluarga dan tamu di Mauritania.",
+        "ms": "Dikongsi dari satu pinggan besar bersama keluarga dan tetamu di Mauritania.",
+        "ja": "モーリタニアでは大皿から家族やお客さんと分け合います。",
+        "fr": "Mauritanie : partagé dans un grand plat avec la famille et les invités."
+      },
+      "shape": "bowl",
+      "color": "#E8C77A",
+      "color2": "#8A5A2A",
+      "buff": "energy",
+      "price": 60
+    },
+    {
+      "id": "mauritania_zrig",
+      "local": "Zrig",
+      "name": {
+        "ar": "زريق",
+        "en": "Sweet camel-milk drink",
+        "tr": "Zrig",
+        "de": "Zrig",
+        "ur": "میٹھا اونٹنی کا دودھ",
+        "hi": "मीठा ऊँटनी का दूध",
+        "es": "Zrig",
+        "pt": "Zrig",
+        "id": "Zrig",
+        "ms": "Zrig",
+        "ja": "甘いラクダミルク",
+        "fr": "Zrig"
+      },
+      "fact": {
+        "ar": "مشروب يُقدَّم للضيف في موريتانيا.",
+        "en": "A drink offered to guests in Mauritania.",
+        "tr": "Moritanya için misafire ikram edilen bir içecek.",
+        "de": "Ein Getränk, das man in Mauretanien Gästen anbietet.",
+        "ur": "موریتانیہ میں مہمان کو پیش کیا جانے والا مشروب۔",
+        "hi": "मॉरिटानिया में मेहमान को दिया जाने वाला पेय।",
+        "es": "Una bebida que se ofrece a los invitados en Mauritania.",
+        "pt": "Uma bebida oferecida aos convidados na Mauritânia.",
+        "id": "Minuman yang disuguhkan untuk tamu di Mauritania.",
+        "ms": "Minuman yang dihidangkan kepada tetamu di Mauritania.",
+        "ja": "モーリタニアでお客さんに出される飲み物です。",
+        "fr": "Mauritanie : une boisson offerte aux invités."
+      },
+      "shape": "cup",
+      "color": "#F5EEDC",
+      "color2": "#C8A060",
+      "buff": "energy",
+      "price": 40
+    },
+    {
+      "id": "mauritania_dates",
+      "local": "Tmar",
+      "name": {
+        "ar": "تمر",
+        "en": "Dates",
+        "tr": "Tmar",
+        "de": "Tmar",
+        "ur": "کھجور",
+        "hi": "खजूर",
+        "es": "Tmar",
+        "pt": "Tmar",
+        "id": "Tmar",
+        "ms": "Tmar",
+        "ja": "デーツ",
+        "fr": "Tmar"
+      },
+      "fact": {
+        "ar": "سناك محبوب للطريق في موريتانيا.",
+        "en": "A favourite snack for the road in Mauritania.",
+        "tr": "Moritanya için yolda yenen sevilen bir atıştırmalık.",
+        "de": "Ein beliebter Snack für unterwegs in Mauretanien.",
+        "ur": "موریتانیہ میں سفر کا پسندیدہ ناشتہ۔",
+        "hi": "मॉरिटानिया में सफ़र का पसंदीदा नाश्ता।",
+        "es": "Un tentempié favorito para el camino en Mauritania.",
+        "pt": "Um petisco favorito para a viagem na Mauritânia.",
+        "id": "Camilan favorit untuk perjalanan di Mauritania.",
+        "ms": "Snek kegemaran untuk perjalanan di Mauritania.",
+        "ja": "モーリタニアで旅のお供に人気のおやつです。",
+        "fr": "Mauritanie : un en-cas favori pour la route."
+      },
+      "shape": "ball",
+      "color": "#6B3A1E",
+      "color2": "#A0522D",
+      "buff": "speed",
+      "price": 30
+    }
+  ],
+  "animals": [
+    "mauritania_camel",
+    "mauritania_fennec_fox",
+    "mauritania_gazelle"
+  ],
+  "attackTrailVfx": "sand_swirl",
+  "eatIdle": {
+    "dishId": "mauritania_thieboudienne",
+    "propModel": "food_thieboudienne",
+    "reaction": "yum"
+  }
+}

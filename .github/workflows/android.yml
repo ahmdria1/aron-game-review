@@ -1,0 +1,86 @@
+name: Android
+
+on:
+  workflow_dispatch:
+  push:
+    tags: ["v*"]
+
+concurrency:
+  group: android-${{ github.ref }}
+  cancel-in-progress: true
+
+env:
+  UNITY_VERSION: 6000.6.5f1
+
+jobs:
+  logic-tests:
+    name: Logic tests
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: 8.0.x
+      - run: dotnet test Tests/Aron.Logic.Tests
+
+  build:
+    name: Build APK + AAB
+    needs: logic-tests
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - name: Free disk space
+        uses: jlumbroso/free-disk-space@v1.3.1
+        with:
+          android: true
+          dotnet: true
+          haskell: true
+          large-packages: false
+
+      - uses: actions/checkout@v4
+        with:
+          lfs: true
+
+      - name: Editor version matches the project
+        run: grep -q "m_EditorVersion. $UNITY_VERSION" ProjectSettings/ProjectVersion.txt
+
+      - uses: actions/cache@v4
+        with:
+          path: Library
+          key: Library-Android-${{ env.UNITY_VERSION }}-${{ hashFiles('Packages/manifest.json') }}
+          restore-keys: Library-Android-${{ env.UNITY_VERSION }}-
+
+      # One Unity run writes both Aron.apk and Aron.aab into build/Android.
+      # The editor signs in with UNITY_EMAIL and UNITY_PASSWORD and takes a Personal seat for the run,
+      # so no license file is needed. The keystore secrets are optional: without them both files carry
+      # the debug signature, fine for installing from a file but not accepted by Google Play.
+      - name: Build
+        env:
+          UNITY_EMAIL: ${{ secrets.UNITY_EMAIL }}
+          UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
+          ANDROID_KEYSTORE_BASE64: ${{ secrets.ANDROID_KEYSTORE_BASE64 }}
+          ANDROID_KEYSTORE_PASS: ${{ secrets.ANDROID_KEYSTORE_PASS }}
+          ANDROID_KEYALIAS_NAME: ${{ secrets.ANDROID_KEYALIAS_NAME }}
+          ANDROID_KEYALIAS_PASS: ${{ secrets.ANDROID_KEYALIAS_PASS }}
+        run: >
+          docker run --rm --shm-size=2g
+          -e UNITY_EMAIL -e UNITY_PASSWORD
+          -e ANDROID_KEYSTORE_BASE64 -e ANDROID_KEYSTORE_PASS -e ANDROID_KEYALIAS_NAME -e ANDROID_KEYALIAS_PASS
+          -e GITHUB_REF_TYPE -e GITHUB_REF_NAME -e GITHUB_RUN_NUMBER
+          -v "$GITHUB_WORKSPACE:/project" -w /project
+          unityci/editor:ubuntu-${UNITY_VERSION}-android-3
+          bash .github/scripts/build-android.sh
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: Aron-Android-APK
+          path: build/Android/Aron.apk
+          if-no-files-found: error
+          retention-days: 14
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: Aron-Android-AAB
+          path: build/Android/Aron.aab
+          if-no-files-found: error
+          retention-days: 14

@@ -1,0 +1,265 @@
+{
+  "country": "south_africa",
+  "dialect": "en-ZA",
+  "uiLanguage": "en",
+  "greeting": {
+    "words": "Sawubona! Howzit?",
+    "wordsEn": "Hello! How are you?",
+    "wordsAr": "هلا! وش الأخبار؟",
+    "gesture": "handshake"
+  },
+  "hospitality": {
+    "ar": "في جنوب أفريقيا الضيف ينعزم على شوي عائلي (براي).",
+    "en": "In South Africa, a guest gets invited to the family braai.",
+    "tr": "Güney Afrika misafiri aile mangalına (braai) davet eder.",
+    "de": "In Südafrika wird ein Gast zum Familien-Braai eingeladen.",
+    "ur": "جنوبی افریقہ میں مہمان کو خاندانی براے (باربی کیو) پر بلایا جاتا ہے۔",
+    "hi": "दक्षिण अफ़्रीका में मेहमान को परिवार के ब्राई (बारबेक्यू) पर बुलाया जाता है।",
+    "es": "En Sudáfrica invitan al huésped al braai familiar.",
+    "pt": "Na África do Sul o convidado é chamado para o braai da família.",
+    "id": "Di Afrika Selatan, tamu diundang ke braai (panggang) keluarga.",
+    "ms": "Di Afrika Selatan, tetamu dijemput ke braai (bakar-bakar) keluarga.",
+    "ja": "南アフリカではお客さんを家族のブライ（バーベキュー）に招きます。",
+    "fr": "Afrique du Sud : on invite l'invité au braai (barbecue) familial."
+  },
+  "customs": [
+    {
+      "act": "share_bread",
+      "en": "Weekends mean a braai with the whole family.",
+      "ar": "الويكند يعني شوي مع كل العائلة."
+    },
+    {
+      "act": "play_game",
+      "en": "Kids play street football and rugby.",
+      "ar": "البزارين يلعبون كورة ورغبي في الشارع."
+    }
+  ],
+  "architecture": "Flat-topped mountains, painted homesteads, savanna and coast.",
+  "palette": [
+    "#007A4D",
+    "#FFB612",
+    "#DE3831",
+    "#002395"
+  ],
+  "music": {
+    "style": "Choral and marimba",
+    "instruments": [
+      "marimba",
+      "drums",
+      "choir"
+    ]
+  },
+  "street": {
+    "vendors": [
+      "bunny chow shop",
+      "mielie grill"
+    ],
+    "cafe": "township café",
+    "kidsGames": [
+      "football",
+      "diketo"
+    ],
+    "crowd": "warm, many languages"
+  },
+  "foods": [
+    {
+      "id": "south_africa_bunny_chow",
+      "local": "Bunny chow",
+      "name": {
+        "ar": "باني تشاو",
+        "en": "Bread bowl of curry",
+        "tr": "Bunny chow",
+        "de": "Bunny chow",
+        "ur": "روٹی میں سالن",
+        "hi": "ब्रेड में करी",
+        "es": "Bunny chow",
+        "pt": "Bunny chow",
+        "id": "Bunny chow",
+        "ms": "Bunny chow",
+        "ja": "バニーチャウ",
+        "fr": "Bunny chow"
+      },
+      "fact": {
+        "ar": "يُباع حاراً في بسطات الشوارع في كل جنوب أفريقيا.",
+        "en": "Sold hot at street stalls all over South Africa.",
+        "tr": "Güney Afrika genelinde sokak tezgâhlarında sıcak satılır.",
+        "de": "Überall in Südafrika heiß an Straßenständen verkauft.",
+        "ur": "پورے جنوبی افریقہ میں ٹھیلوں پر گرم گرم بکتا ہے۔",
+        "hi": "पूरे दक्षिण अफ़्रीका में ठेलों पर गरमा-गरम बिकता है।",
+        "es": "Se vende caliente en puestos callejeros por todo el territorio de Sudáfrica.",
+        "pt": "Vende-se quente em bancas de rua em toda a África do Sul.",
+        "id": "Dijual hangat di kaki lima di seluruh Afrika Selatan.",
+        "ms": "Dijual panas di gerai tepi jalan di seluruh Afrika Selatan.",
+        "ja": "南アフリカのあちこちの屋台で熱々で売られています。",
+        "fr": "Afrique du Sud : vendu tout chaud dans les stands de rue."
+      },
+      "shape": "bun",
+      "color": "#D9A050",
+      "color2": "#C8553D",
+      "buff": "strength",
+      "price": 60
+    },
+    {
+      "id": "south_africa_bobotie",
+      "local": "Bobotie",
+      "name": {
+        "ar": "بوبوتي",
+        "en": "Spiced baked mince",
+        "tr": "Bobotie",
+        "de": "Bobotie",
+        "ur": "بوبوٹی",
+        "hi": "बोबोटी",
+        "es": "Bobotie",
+        "pt": "Bobotie",
+        "id": "Bobotie",
+        "ms": "Bobotie",
+        "ja": "ボボティ",
+        "fr": "Bobotie"
+      },
+      "fact": {
+        "ar": "تُعرف غالباً بأنها الأكلة الوطنية في جنوب أفريقيا.",
+        "en": "Often called the national dish of South Africa.",
+        "tr": "Genellikle Güney Afrika ulusal yemeği sayılır.",
+        "de": "Gilt oft als Nationalgericht von Südafrika.",
+        "ur": "اسے اکثر جنوبی افریقہ کا قومی کھانا کہا جاتا ہے۔",
+        "hi": "इसे अक्सर दक्षिण अफ़्रीका का राष्ट्रीय व्यंजन कहा जाता है।",
+        "es": "Se le suele llamar el plato nacional de Sudáfrica.",
+        "pt": "É muitas vezes chamado o prato nacional da África do Sul.",
+        "id": "Sering disebut hidangan nasional Afrika Selatan.",
+        "ms": "Sering disebut hidangan kebangsaan Afrika Selatan.",
+        "ja": "南アフリカの国民食とよく言われます。",
+        "fr": "Afrique du Sud : souvent appelé le plat national."
+      },
+      "shape": "cake",
+      "color": "#C8803A",
+      "color2": "#F2D06B",
+      "buff": "strength",
+      "price": 80
+    },
+    {
+      "id": "south_africa_boerewors",
+      "local": "Halal boerewors",
+      "name": {
+        "ar": "سجق مشوي",
+        "en": "Grilled spiced sausage",
+        "tr": "Halal boerewors",
+        "de": "Halal boerewors",
+        "ur": "بھنا ہوا ساسیج",
+        "hi": "भुना हुआ सॉसेज",
+        "es": "Halal boerewors",
+        "pt": "Halal boerewors",
+        "id": "Halal boerewors",
+        "ms": "Halal boerewors",
+        "ja": "ブルボス",
+        "fr": "Halal boerewors"
+      },
+      "fact": {
+        "ar": "تُطبخ في الأعراس والأعياد ولمّات العائلة في جنوب أفريقيا.",
+        "en": "Cooked for weddings, Eid and big family days in South Africa.",
+        "tr": "Güney Afrika düğünlerinde, bayramlarda ve aile günlerinde pişirilir.",
+        "de": "In Südafrika gekocht für Hochzeiten, Eid und große Familientage.",
+        "ur": "جنوبی افریقہ میں شادیوں، عید اور خاندانی دنوں پر پکایا جاتا ہے۔",
+        "hi": "दक्षिण अफ़्रीका में शादियों, ईद और परिवार के ख़ास दिनों पर बनता है।",
+        "es": "Se cocina para bodas, Eid y grandes días en familia en Sudáfrica.",
+        "pt": "Cozinhado para casamentos, Eid e grandes dias de família na África do Sul.",
+        "id": "Dimasak untuk pernikahan, Idul Fitri, dan kumpul keluarga di Afrika Selatan.",
+        "ms": "Dimasak untuk majlis kahwin, Hari Raya dan hari keluarga di Afrika Selatan.",
+        "ja": "南アフリカでは結婚式やイード、家族の集まりで作られます。",
+        "fr": "Afrique du Sud : préparé pour les mariages, l'Aïd et les grands jours en famille."
+      },
+      "shape": "stick",
+      "color": "#8A3A22",
+      "color2": "#E0A64A",
+      "buff": "strength",
+      "price": 70
+    },
+    {
+      "id": "south_africa_koeksister",
+      "local": "Koeksister",
+      "name": {
+        "ar": "كوكسيستر",
+        "en": "Syrup-glazed plait",
+        "tr": "Koeksister",
+        "de": "Koeksister",
+        "ur": "شیرے والی مٹھائی",
+        "hi": "चाशनी वाली मिठाई",
+        "es": "Koeksister",
+        "pt": "Koeksister",
+        "id": "Koeksister",
+        "ms": "Koeksister",
+        "ja": "クックシスター",
+        "fr": "Koeksister"
+      },
+      "fact": {
+        "ar": "حلا محبوب في جنوب أفريقيا، أحلى مع الشاي أو القهوة.",
+        "en": "A sweet treat in South Africa, best with tea or coffee.",
+        "tr": "Güney Afrika için tatlı bir ikram, çay ya da kahveyle en güzeli.",
+        "de": "Eine süße Leckerei in Südafrika, am besten mit Tee oder Kaffee.",
+        "ur": "جنوبی افریقہ کی میٹھی سوغات، چائے یا کافی کے ساتھ مزیدار۔",
+        "hi": "दक्षिण अफ़्रीका की मीठी सौगात, चाय या कॉफ़ी के साथ सबसे अच्छी।",
+        "es": "Un dulce de Sudáfrica, mejor con té o café.",
+        "pt": "Um doce da África do Sul, melhor com chá ou café.",
+        "id": "Camilan manis di Afrika Selatan, paling enak dengan teh atau kopi.",
+        "ms": "Manisan di Afrika Selatan, paling sedap dengan teh atau kopi.",
+        "ja": "南アフリカの甘いおやつ。お茶やコーヒーと一緒にどうぞ。",
+        "fr": "Afrique du Sud : une douceur, parfaite avec un thé ou un café."
+      },
+      "shape": "roll",
+      "color": "#C8803A",
+      "color2": "#E8C14A",
+      "buff": "energy",
+      "price": 30
+    },
+    {
+      "id": "south_africa_pap",
+      "local": "Pap en sous",
+      "name": {
+        "ar": "عصيدة الذرة",
+        "en": "Maize porridge with tomato relish",
+        "tr": "Pap en sous",
+        "de": "Pap en sous",
+        "ur": "مکئی کا دلیہ",
+        "hi": "मक्के का दलिया",
+        "es": "Pap en sous",
+        "pt": "Pap en sous",
+        "id": "Pap en sous",
+        "ms": "Pap en sous",
+        "ja": "パップ",
+        "fr": "Pap en sous"
+      },
+      "fact": {
+        "ar": "يتشاركونه من صحن كبير مع الأهل والضيوف في جنوب أفريقيا.",
+        "en": "Shared from one big plate with family and guests in South Africa.",
+        "tr": "Güney Afrika için aile ve misafirlerle büyük bir tabaktan paylaşılır.",
+        "de": "In Südafrika von einer großen Platte mit Familie und Gästen geteilt.",
+        "ur": "جنوبی افریقہ میں گھر والوں اور مہمانوں کے ساتھ ایک بڑی پلیٹ سے کھایا جاتا ہے۔",
+        "hi": "दक्षिण अफ़्रीका में परिवार और मेहमानों के साथ एक बड़ी थाली से खाया जाता है।",
+        "es": "Se comparte de una gran fuente con familia e invitados en Sudáfrica.",
+        "pt": "Partilha-se de uma grande travessa com família e convidados na África do Sul.",
+        "id": "Disantap bersama dari satu piring besar dengan keluarga dan tamu di Afrika Selatan.",
+        "ms": "Dikongsi dari satu pinggan besar bersama keluarga dan tetamu di Afrika Selatan.",
+        "ja": "南アフリカでは大皿から家族やお客さんと分け合います。",
+        "fr": "Afrique du Sud : partagé dans un grand plat avec la famille et les invités."
+      },
+      "shape": "bowl",
+      "color": "#F5EEDC",
+      "color2": "#C8553D",
+      "buff": "energy",
+      "price": 35
+    }
+  ],
+  "animals": [
+    "south_africa_giraffe",
+    "south_africa_elephant",
+    "south_africa_springbok",
+    "south_africa_lion",
+    "south_africa_zebra",
+    "south_africa_rhino"
+  ],
+  "attackTrailVfx": "savanna_dust",
+  "eatIdle": {
+    "dishId": "south_africa_bunny_chow",
+    "propModel": "food_bunny_chow",
+    "reaction": "spicy"
+  }
+}

@@ -1,0 +1,223 @@
+{
+  "order": 440,
+  "id": "indonesia",
+  "nameAr": "إندونيسيا",
+  "nameEn": "Indonesia",
+  "group": "world",
+  "music": "music_country_indonesia",
+  "ground": "#6E9A4A",
+  "accent": "#CE1126",
+  "sky": "#A0D0EE",
+  "country": "indonesia",
+  "costume": "",
+  "stages": [
+    {
+      "id": "indonesia_1",
+      "nameAr": "مدرجات الأرز",
+      "nameEn": "Rice Terraces",
+      "terrain": "mountain",
+      "landmarks": [
+        "terraces",
+        "palms"
+      ],
+      "mount": "",
+      "difficulty": 3,
+      "boss": false,
+      "lineAr": "درج أخضر لين آخر الجبل!",
+      "extra": "",
+      "time": "day",
+      "weather": "clear",
+      "type": "normal",
+      "costume": ""
+    },
+    {
+      "id": "indonesia_2",
+      "nameAr": "فوهة البركان",
+      "nameEn": "Volcano Crater",
+      "terrain": "mountain",
+      "landmarks": [
+        "volcano",
+        "lake"
+      ],
+      "mount": "horse",
+      "difficulty": 4,
+      "boss": false,
+      "lineAr": "دخان البركان قريب، انتبه!",
+      "extra": "",
+      "time": "sunset",
+      "weather": "clear",
+      "type": "chase",
+      "costume": ""
+    },
+    {
+      "id": "indonesia_3",
+      "nameAr": "البيوت الخشبية المنقوشة",
+      "nameEn": "Carved House Village",
+      "terrain": "street",
+      "landmarks": [
+        "tile_houses",
+        "stilt_house"
+      ],
+      "mount": "",
+      "difficulty": 5,
+      "boss": false,
+      "lineAr": "سقوف معكوفة مثل القوارب.",
+      "extra": "",
+      "time": "day",
+      "weather": "rain",
+      "type": "normal",
+      "costume": ""
+    },
+    {
+      "id": "indonesia_4",
+      "nameAr": "جزيرة التنانين",
+      "nameEn": "Dragon Island",
+      "terrain": "desert",
+      "landmarks": [
+        "savanna",
+        "sea_cliffs"
+      ],
+      "mount": "horse",
+      "difficulty": 6,
+      "boss": false,
+      "lineAr": "سحلية الكومودو تراقبك!",
+      "extra": "",
+      "time": "day",
+      "weather": "clear",
+      "type": "action",
+      "costume": ""
+    },
+    {
+      "id": "indonesia_5",
+      "nameAr": "سوق الباتيك",
+      "nameEn": "Batik Market",
+      "terrain": "souq",
+      "landmarks": [
+        "souq",
+        "bazaar_arches"
+      ],
+      "mount": "",
+      "difficulty": 7,
+      "boss": false,
+      "lineAr": "قماش مرسوم باليد.",
+      "extra": "",
+      "time": "sunset",
+      "weather": "clear",
+      "type": "normal",
+      "costume": ""
+    },
+    {
+      "id": "indonesia_6",
+      "nameAr": "غابة المطر الكبرى",
+      "nameEn": "Great Rainforest",
+      "terrain": "forest",
+      "landmarks": [
+        "rainforest",
+        "waterwheel"
+      ],
+      "mount": "",
+      "difficulty": 8,
+      "boss": false,
+      "lineAr": "مطر استوائي وقرود فوق الشجر.",
+      "extra": "",
+      "time": "night",
+      "weather": "rain",
+      "type": "chase",
+      "costume": ""
+    },
+    {
+      "id": "indonesia_race",
+      "nameAr": "سباق الثيران في الطين",
+      "nameEn": "Mud Bull Race",
+      "terrain": "river",
+      "landmarks": [
+        "terraces",
+        "volcano"
+      ],
+      "mount": "",
+      "difficulty": 8,
+      "boss": false,
+      "lineAr": "سباق! سباق الثيران في الطين، يلا نشوف مين الأول!",
+      "extra": "",
+      "time": "day",
+      "weather": "clear",
+      "type": "race",
+      "costume": "",
+      "race": "indonesia_bull"
+    },
+    {
+      "id": "indonesia_7",
+      "nameAr": "حافة البركان",
+      "nameEn": "Volcano Rim",
+      "terrain": "mountain",
+      "landmarks": [
+        "volcano",
+        "snow_peaks"
+      ],
+      "mount": "",
+      "difficulty": 10,
+      "boss": true,
+      "lineAr": "تنين الجزيرة على حافة البركان!",
+      "extra": "",
+      "time": "night",
+      "weather": "clear",
+      "type": "boss",
+      "costume": ""
+    }
+  ],
+  "skyline": [
+    "volcano_rice_terraces",
+    "volcano"
+  ],
+  "boss": {
+    "nameAr": "تنين الجزيرة",
+    "nameEn": "The Island Dragon",
+    "model": "croc",
+    "headgear": "horns",
+    "body": "#4A6A3A",
+    "trim": "#CE1126",
+    "projectile": "#FF7A3A",
+    "scale": 1.22,
+    "health": 17,
+    "introAr": "الجزيرة جزيرتي!",
+    "stunAr": "ذيلي التوى!",
+    "defeatAr": "زين... إندونيسيا لك.",
+    "phases": [
+      {
+        "threshold": 1.0,
+        "move": 4.0,
+        "charge": 14.0,
+        "interval": 2.8,
+        "attacks": [
+          "volley",
+          "leap"
+        ],
+        "tauntAr": "نار الجزيرة!"
+      },
+      {
+        "threshold": 0.66,
+        "move": 4.6,
+        "charge": 15.5,
+        "interval": 2.4,
+        "attacks": [
+          "charge",
+          "summon",
+          "volley"
+        ],
+        "tauntAr": "ذيلي يضرب!"
+      },
+      {
+        "threshold": 0.33,
+        "move": 5.2,
+        "charge": 17.0,
+        "interval": 2.0,
+        "attacks": [
+          "charge",
+          "volley",
+          "leap"
+        ],
+        "tauntAr": "ما فيه هروب!"
+      }
+    ]
+  }
+}

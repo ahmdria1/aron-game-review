@@ -1,0 +1,23 @@
+name: Lint
+
+on:
+  pull_request:
+  push:
+    branches: ["**"]
+  workflow_dispatch:
+
+concurrency:
+  group: lint-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  csharp-lint:
+    name: C# style and analyzers
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: 8.0.x
+      # Fails when a file outside tools/lint_baseline.txt breaks a rule in .editorconfig.
+      - run: python3 tools/lint_check.py

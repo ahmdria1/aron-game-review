@@ -1,0 +1,176 @@
+{
+  "order": 150,
+  "id": "najran",
+  "nameAr": "منطقة نجران",
+  "nameEn": "Najran Region",
+  "group": "saudi",
+  "country": "saudi",
+  "costume": "saudi_south",
+  "music": "music_saudi_south",
+  "ground": "#C89A6A",
+  "accent": "#8A1C1C",
+  "sky": "#A6C8E2",
+  "stages": [
+    {
+      "id": "najran_1",
+      "nameAr": "قصر الإمارة التاريخي",
+      "nameEn": "Najran Emirate Palace",
+      "terrain": "ruins",
+      "landmarks": [
+        "fort",
+        "mud_town"
+      ],
+      "mount": "",
+      "difficulty": 3,
+      "boss": false,
+      "type": "normal",
+      "time": "day",
+      "weather": "clear",
+      "costume": "",
+      "lineAr": "قصر نجران، طين وأبراج.",
+      "extra": ""
+    },
+    {
+      "id": "najran_2",
+      "nameAr": "الأخدود",
+      "nameEn": "Al Ukhdood",
+      "terrain": "ruins",
+      "landmarks": [
+        "stone_pillars",
+        "rock_tomb"
+      ],
+      "mount": "",
+      "difficulty": 4,
+      "boss": false,
+      "type": "normal",
+      "time": "sunset",
+      "weather": "sandstorm",
+      "costume": "",
+      "lineAr": "الأخدود، آثار ألفين سنة.",
+      "extra": ""
+    },
+    {
+      "id": "najran_3",
+      "nameAr": "سوق الجنابي",
+      "nameEn": "Najran Jambiya Souq",
+      "terrain": "souq",
+      "landmarks": [
+        "souq",
+        "mud_town"
+      ],
+      "mount": "",
+      "difficulty": 4,
+      "boss": false,
+      "type": "action",
+      "time": "night",
+      "weather": "clear",
+      "costume": "",
+      "lineAr": "سوق الجنابي والفضة.",
+      "extra": ""
+    },
+    {
+      "id": "najran_4",
+      "nameAr": "وادي نجران",
+      "nameEn": "Wadi Najran",
+      "terrain": "oasis",
+      "landmarks": [
+        "palms",
+        "lake"
+      ],
+      "mount": "",
+      "difficulty": 5,
+      "boss": false,
+      "type": "normal",
+      "time": "day",
+      "weather": "rain",
+      "costume": "",
+      "lineAr": "وادي نجران أخضر.",
+      "extra": ""
+    },
+    {
+      "id": "najran_5",
+      "nameAr": "عروق بني معارض",
+      "nameEn": "Uruq Bani Ma'arid",
+      "terrain": "desert",
+      "landmarks": [
+        "dunes"
+      ],
+      "mount": "camel",
+      "difficulty": 5,
+      "boss": false,
+      "type": "chase",
+      "time": "sunset",
+      "weather": "clear",
+      "costume": "",
+      "lineAr": "عروق بني معارض، المها هنا!",
+      "extra": ""
+    },
+    {
+      "id": "najran_6",
+      "nameAr": "ساحة صاحب الجنبية",
+      "nameEn": "Master of the Jambiya",
+      "terrain": "desert",
+      "landmarks": [
+        "fort"
+      ],
+      "mount": "",
+      "difficulty": 6,
+      "boss": true,
+      "type": "boss",
+      "time": "night",
+      "weather": "clear",
+      "costume": "",
+      "lineAr": "صاحب الجنبية يتحداني.",
+      "extra": ""
+    }
+  ],
+  "boss": {
+    "nameAr": "صاحب الجنبية",
+    "nameEn": "Master of the Jambiya",
+    "model": "robe",
+    "headgear": "turban",
+    "body": "#2A3A5A",
+    "trim": "#D0B060",
+    "projectile": "#C0C0C8",
+    "scale": 1.05,
+    "health": 12,
+    "introAr": "جنبيتي ما تخطي!",
+    "stunAr": "آخ! راسي...",
+    "defeatAr": "خلاص، أنت فارس.",
+    "phases": [
+      {
+        "threshold": 1.0,
+        "move": 4,
+        "charge": 14,
+        "interval": 2.8,
+        "attacks": [
+          "dash"
+        ],
+        "tauntAr": "ضربة سريعة!"
+      },
+      {
+        "threshold": 0.6,
+        "move": 4.5,
+        "charge": 16,
+        "interval": 2.3,
+        "attacks": [
+          "dash",
+          "charge"
+        ],
+        "tauntAr": "ما تهرب!"
+      },
+      {
+        "threshold": 0.3,
+        "move": 5,
+        "charge": 18,
+        "interval": 1.9,
+        "attacks": [
+          "dash",
+          "charge",
+          "wave"
+        ],
+        "tauntAr": "الأرض تهتز!"
+      }
+    ]
+  }
+}

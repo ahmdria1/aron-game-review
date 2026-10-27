@@ -1,0 +1,196 @@
+{
+  "order": 110,
+  "id": "madinah",
+  "nameAr": "منطقة المدينة المنورة",
+  "nameEn": "Madinah Region",
+  "group": "saudi",
+  "country": "saudi",
+  "costume": "saudi_hijazi",
+  "music": "music_saudi_hejaz",
+  "ground": "#D6B48A",
+  "accent": "#0B7A3E",
+  "sky": "#A4CDE8",
+  "stages": [
+    {
+      "id": "madinah_1",
+      "nameAr": "قباء ومزارع النخيل",
+      "nameEn": "Quba Palm Farms",
+      "terrain": "oasis",
+      "landmarks": [
+        "palms",
+        "lake"
+      ],
+      "mount": "",
+      "difficulty": 1,
+      "boss": false,
+      "type": "normal",
+      "time": "day",
+      "weather": "clear",
+      "costume": "",
+      "lineAr": "نخيل المدينة! عجوة وبرني.",
+      "extra": ""
+    },
+    {
+      "id": "madinah_2",
+      "nameAr": "البلدة القديمة بالعلا",
+      "nameEn": "AlUla Old Town",
+      "terrain": "ruins",
+      "landmarks": [
+        "mud_town",
+        "rock_arch"
+      ],
+      "mount": "",
+      "difficulty": 2,
+      "boss": false,
+      "type": "normal",
+      "time": "sunset",
+      "weather": "clear",
+      "costume": "",
+      "lineAr": "البلدة القديمة بالعلا، بيوت طين وحجر.",
+      "extra": ""
+    },
+    {
+      "id": "madinah_3",
+      "nameAr": "محطة سكة حديد الحجاز",
+      "nameEn": "Hejaz Railway Station",
+      "terrain": "ruins",
+      "landmarks": [
+        "railway",
+        "fort"
+      ],
+      "mount": "",
+      "difficulty": 2,
+      "boss": false,
+      "type": "action",
+      "time": "night",
+      "weather": "clear",
+      "costume": "",
+      "lineAr": "القطار القديم واقف من مية سنة.",
+      "extra": ""
+    },
+    {
+      "id": "madinah_4",
+      "nameAr": "وادي العقيق",
+      "nameEn": "Wadi Al Aqiq",
+      "terrain": "oasis",
+      "landmarks": [
+        "palms",
+        "rock_arch"
+      ],
+      "mount": "",
+      "difficulty": 3,
+      "boss": false,
+      "type": "normal",
+      "time": "day",
+      "weather": "rain",
+      "costume": "",
+      "lineAr": "وادي العقيق، الماي والنخل.",
+      "extra": ""
+    },
+    {
+      "id": "madinah_5",
+      "nameAr": "العلا - الحِجر",
+      "nameEn": "AlUla - Hegra",
+      "terrain": "desert",
+      "landmarks": [
+        "rock_tomb",
+        "rock_arch"
+      ],
+      "mount": "camel",
+      "difficulty": 3,
+      "boss": false,
+      "type": "normal",
+      "time": "sunset",
+      "weather": "sandstorm",
+      "costume": "",
+      "lineAr": "مقابر الحِجر منحوتة بالصخر!",
+      "extra": ""
+    },
+    {
+      "id": "madinah_6",
+      "nameAr": "العلا - جبل الفيل",
+      "nameEn": "AlUla - Elephant Rock",
+      "terrain": "desert",
+      "landmarks": [
+        "rock_arch",
+        "dunes"
+      ],
+      "mount": "camel",
+      "difficulty": 4,
+      "boss": false,
+      "type": "chase",
+      "time": "night",
+      "weather": "clear",
+      "costume": "",
+      "lineAr": "صخرة الفيل! شكلها فيل صدق.",
+      "extra": ""
+    },
+    {
+      "id": "madinah_7",
+      "nameAr": "ساحة حارس الحِجر",
+      "nameEn": "Guardian of Hegra",
+      "terrain": "desert",
+      "landmarks": [
+        "rock_tomb"
+      ],
+      "mount": "",
+      "difficulty": 4,
+      "boss": true,
+      "type": "boss",
+      "time": "night",
+      "weather": "clear",
+      "costume": "",
+      "lineAr": "الحارس الحجري صحى.",
+      "extra": ""
+    }
+  ],
+  "boss": {
+    "nameAr": "حارس الحِجر",
+    "nameEn": "Guardian of Hegra",
+    "model": "golem",
+    "headgear": "crown",
+    "body": "#9A6B4A",
+    "trim": "#5C3A22",
+    "projectile": "#B07A50",
+    "scale": 1.25,
+    "health": 11,
+    "introAr": "أنا حارس الصخر من ألفين سنة!",
+    "stunAr": "الصخر... دايخ...",
+    "defeatAr": "رجعت حجر... مع السلامة.",
+    "phases": [
+      {
+        "threshold": 1.0,
+        "move": 2.5,
+        "charge": 10,
+        "interval": 3.2,
+        "attacks": [
+          "leap"
+        ],
+        "tauntAr": "الأرض بتهتز!"
+      },
+      {
+        "threshold": 0.6,
+        "move": 3,
+        "charge": 12,
+        "interval": 2.7,
+        "attacks": [
+          "leap",
+          "wave"
+        ],
+        "tauntAr": "الصخر ما ينكسر!"
+      },
+      {
+        "threshold": 0.3,
+        "move": 3.5,
+        "charge": 13,
+        "interval": 2.2,
+        "attacks": [
+          "leap",
+          "wave",
+          "volley"
+        ],
+        "tauntAr": "حجارة من فوق!"
+      }
+    ]
+  }
+}

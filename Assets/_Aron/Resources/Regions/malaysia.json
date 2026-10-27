@@ -1,0 +1,220 @@
+{
+  "order": 436,
+  "id": "malaysia",
+  "nameAr": "ماليزيا",
+  "nameEn": "Malaysia",
+  "group": "world",
+  "music": "music_country_malaysia",
+  "ground": "#7FA060",
+  "accent": "#CC0001",
+  "sky": "#9ED0F0",
+  "country": "malaysia",
+  "costume": "",
+  "stages": [
+    {
+      "id": "malaysia_1",
+      "nameAr": "أبراج المدينة",
+      "nameEn": "City Twin Towers",
+      "terrain": "street",
+      "landmarks": [
+        "twin_towers",
+        "skyscraper"
+      ],
+      "mount": "",
+      "difficulty": 3,
+      "boss": false,
+      "lineAr": "برجين لامعين فوق المدينة!",
+      "extra": "",
+      "time": "night",
+      "weather": "clear",
+      "type": "normal",
+      "costume": ""
+    },
+    {
+      "id": "malaysia_2",
+      "nameAr": "بيوت على أعمدة",
+      "nameEn": "Stilt Village",
+      "terrain": "river",
+      "landmarks": [
+        "stilt_house",
+        "palms"
+      ],
+      "mount": "",
+      "difficulty": 4,
+      "boss": false,
+      "lineAr": "البيوت الخشبية واقفة على المي.",
+      "extra": "",
+      "time": "day",
+      "weather": "clear",
+      "type": "chase",
+      "costume": ""
+    },
+    {
+      "id": "malaysia_3",
+      "nameAr": "الغابة المطيرة",
+      "nameEn": "The Rainforest",
+      "terrain": "forest",
+      "landmarks": [
+        "rainforest",
+        "waterwheel"
+      ],
+      "mount": "",
+      "difficulty": 5,
+      "boss": false,
+      "lineAr": "أقدم غابة في الدنيا، والمطر ما يوقف!",
+      "extra": "",
+      "time": "day",
+      "weather": "rain",
+      "type": "action",
+      "costume": ""
+    },
+    {
+      "id": "malaysia_4",
+      "nameAr": "سوق الليل",
+      "nameEn": "Night Market",
+      "terrain": "souq",
+      "landmarks": [
+        "souq",
+        "colour_plaza"
+      ],
+      "mount": "",
+      "difficulty": 6,
+      "boss": false,
+      "lineAr": "ساتيه وعصير قصب.",
+      "extra": "",
+      "time": "night",
+      "weather": "clear",
+      "type": "normal",
+      "costume": ""
+    },
+    {
+      "id": "malaysia_5",
+      "nameAr": "مزارع الشاي في التلال",
+      "nameEn": "Highland Tea Hills",
+      "terrain": "mountain",
+      "landmarks": [
+        "terraces",
+        "hill_station"
+      ],
+      "mount": "",
+      "difficulty": 7,
+      "boss": false,
+      "lineAr": "تلال خضراء من الشاي.",
+      "extra": "",
+      "time": "sunset",
+      "weather": "rain",
+      "type": "normal",
+      "costume": ""
+    },
+    {
+      "id": "malaysia_6",
+      "nameAr": "الجزيرة الاستوائية",
+      "nameEn": "Tropical Island",
+      "terrain": "coast",
+      "landmarks": [
+        "palms",
+        "sea_cliffs"
+      ],
+      "mount": "",
+      "difficulty": 8,
+      "boss": false,
+      "lineAr": "رمل أبيض وبحر فيروزي.",
+      "extra": "",
+      "time": "day",
+      "weather": "clear",
+      "type": "chase",
+      "costume": ""
+    },
+    {
+      "id": "malaysia_race",
+      "nameAr": "سباق القوارب الشراعية",
+      "nameEn": "Sailing Regatta",
+      "terrain": "coast",
+      "landmarks": [
+        "palms",
+        "sea_cliffs"
+      ],
+      "mount": "",
+      "difficulty": 8,
+      "boss": false,
+      "lineAr": "سباق! سباق القوارب الشراعية، يلا نشوف مين الأول!",
+      "extra": "",
+      "time": "day",
+      "weather": "clear",
+      "type": "race",
+      "costume": "",
+      "race": "malaysia_sail"
+    },
+    {
+      "id": "malaysia_7",
+      "nameAr": "ميناء المضيق",
+      "nameEn": "Strait Harbour",
+      "terrain": "coast",
+      "landmarks": [
+        "dhows",
+        "fort"
+      ],
+      "mount": "",
+      "difficulty": 10,
+      "boss": true,
+      "lineAr": "قرصان المضيق ينتظرك على الميناء!",
+      "extra": "",
+      "time": "night",
+      "weather": "rain",
+      "type": "boss",
+      "costume": ""
+    }
+  ],
+  "skyline": [],
+  "boss": {
+    "nameAr": "قرصان المضيق",
+    "nameEn": "The Strait Pirate",
+    "model": "captain",
+    "headgear": "none",
+    "body": "#3A2A1E",
+    "trim": "#CC0001",
+    "projectile": "#FFCC00",
+    "scale": 1.2,
+    "health": 17,
+    "introAr": "المضيق كله لي!",
+    "stunAr": "سفينتي غرقت!",
+    "defeatAr": "طيب... ماليزيا لك.",
+    "phases": [
+      {
+        "threshold": 1.0,
+        "move": 4.0,
+        "charge": 14.0,
+        "interval": 2.8,
+        "attacks": [
+          "charge",
+          "dash"
+        ],
+        "tauntAr": "مدفع جاهز!"
+      },
+      {
+        "threshold": 0.66,
+        "move": 4.6,
+        "charge": 15.5,
+        "interval": 2.4,
+        "attacks": [
+          "summon",
+          "volley",
+          "dash"
+        ],
+        "tauntAr": "موجة الخليج!"
+      },
+      {
+        "threshold": 0.33,
+        "move": 5.2,
+        "charge": 17.0,
+        "interval": 2.0,
+        "attacks": [
+          "wave",
+          "summon",
+          "dash"
+        ],
+        "tauntAr": "ما تهرب بالقارب!"
+      }
+    ]
+  }
+}

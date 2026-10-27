@@ -1,0 +1,15 @@
+{
+  "region": "indonesia",
+  "shops": [
+    {
+      "stage": "indonesia_5",
+      "nameAr": "باتيك اليد",
+      "kind": "fabric"
+    },
+    {
+      "stage": "indonesia_3",
+      "nameAr": "مطبق الحارة",
+      "kind": "sweets"
+    }
+  ]
+}

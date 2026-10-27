@@ -1,0 +1,2184 @@
+{
+ "entries": [
+  {
+   "id": "vo_aron_help",
+   "kind": "speech",
+   "speaker": "aron",
+   "important": false,
+   "text": {
+    "ar": "الحقوني! الحقوني!",
+    "en": "Help me! Help me!",
+    "tr": "Yetişin! Yetişin!",
+    "de": "Hilfe! Hilfe!",
+    "ur": "بچاؤ! بچاؤ!",
+    "hi": "बचाओ! बचाओ!",
+    "es": "¡Ayuda! ¡Ayuda!",
+    "pt": "Socorro! Socorro!",
+    "id": "Tolong! Tolong!",
+    "ms": "Tolong! Tolong!",
+    "ja": "助けて！助けて！",
+    "fr": "À l'aide ! À l'aide !"
+   }
+  },
+  {
+   "id": "vo_aron_near_miss",
+   "kind": "speech",
+   "speaker": "aron",
+   "important": false,
+   "text": {
+    "ar": "أوووه! على الطاير!",
+    "en": "Whoa! That was close!",
+    "tr": "Oha! Az kalsın!",
+    "de": "Uff! Das war knapp!",
+    "ur": "اوہ! بال بال بچے!",
+    "hi": "अरे! बाल-बाल बचे!",
+    "es": "¡Uf! ¡Por poco!",
+    "pt": "Uau! Foi por pouco!",
+    "id": "Wah! Hampir saja!",
+    "ms": "Wah! Nyaris sahaja!",
+    "ja": "うわっ！あぶなかった！",
+    "fr": "Ouf ! De justesse !"
+   }
+  },
+  {
+   "id": "vo_aron_falling",
+   "kind": "speech",
+   "speaker": "aron",
+   "important": false,
+   "text": {
+    "ar": "يا ويلييي!",
+    "en": "Oh nooo!",
+    "tr": "Ah hayır!",
+    "de": "Oh neeein!",
+    "ur": "ارے نہیں!",
+    "hi": "अरे नहीं!",
+    "es": "¡Ay, no!",
+    "pt": "Ai, não!",
+    "id": "Aduh!",
+    "ms": "Aduh!",
+    "ja": "わあああ！",
+    "fr": "Oh non !"
+   }
+  },
+  {
+   "id": "vo_aron_bisht_cheer",
+   "kind": "speech",
+   "speaker": "aron",
+   "important": false,
+   "text": {
+    "ar": "البشت الذهبي! يا سلااام!",
+    "en": "The golden bisht! Wow!",
+    "tr": "Altın bişt! Vay canına!",
+    "de": "Der goldene Bischt! Wow!",
+    "ur": "سنہری بشت! واہ!",
+    "hi": "सुनहरा बिश्त! वाह!",
+    "es": "¡El bisht dorado! ¡Guau!",
+    "pt": "O bisht dourado! Uau!",
+    "id": "Bisht emas! Wah!",
+    "ms": "Bisht emas! Wah!",
+    "ja": "金のビシュト！すごい！",
+    "fr": "Le bisht doré ! Waouh !"
+   }
+  },
+  {
+   "id": "vo_aron_checkpoint",
+   "kind": "speech",
+   "speaker": "aron",
+   "important": false,
+   "text": {
+    "ar": "تمام، حفظناها!",
+    "en": "Okay, saved!",
+    "tr": "Tamam, kaydettik!",
+    "de": "Okay, gespeichert!",
+    "ur": "ٹھیک ہے، محفوظ ہو گیا!",
+    "hi": "ठीक है, सेव हो गया!",
+    "es": "¡Listo, guardado!",
+    "pt": "Pronto, salvo!",
+    "id": "Oke, tersimpan!",
+    "ms": "Okey, disimpan!",
+    "ja": "よし、セーブしたよ！",
+    "fr": "C'est bon, c'est enregistré !"
+   }
+  },
+  {
+   "id": "vo_aron_stomp",
+   "kind": "speech",
+   "speaker": "aron",
+   "important": false,
+   "text": {
+    "ar": "خذ هذي!",
+    "en": "Take that!",
+    "tr": "Al bunu!",
+    "de": "Nimm das!",
+    "ur": "یہ لو!",
+    "hi": "ये लो!",
+    "es": "¡Toma!",
+    "pt": "Toma essa!",
+    "id": "Rasakan ini!",
+    "ms": "Rasakan ini!",
+    "ja": "これでどうだ！",
+    "fr": "Prends ça !"
+   }
+  },
+  {
+   "id": "vo_noura_uff",
+   "kind": "speech",
+   "speaker": "noura",
+   "important": false,
+   "text": {
+    "ar": "أفّ!",
+    "en": "Ugh!",
+    "tr": "Of!",
+    "de": "Uff!",
+    "ur": "اف!",
+    "hi": "उफ़!",
+    "es": "¡Uf!",
+    "pt": "Ufa!",
+    "id": "Ih!",
+    "ms": "Isy!",
+    "ja": "もう！",
+    "fr": "Pff !"
+   }
+  },
+  {
+   "id": "vo_noura_call_oryx",
+   "kind": "speech",
+   "speaker": "noura",
+   "important": false,
+   "text": {
+    "ar": "يا مها! تعال هنا!",
+    "en": "Maha! Come here!",
+    "tr": "Maha! Buraya gel!",
+    "de": "Maha! Komm her!",
+    "ur": "مہا! یہاں آؤ!",
+    "hi": "माहा! यहाँ आओ!",
+    "es": "¡Maha! ¡Ven aquí!",
+    "pt": "Maha! Venha aqui!",
+    "id": "Maha! Kemari!",
+    "ms": "Maha! Mari sini!",
+    "ja": "マハ！こっちにおいで！",
+    "fr": "Maha ! Viens ici !"
+   }
+  },
+  {
+   "id": "vo_noura_puzzle_solved",
+   "kind": "speech",
+   "speaker": "noura",
+   "important": false,
+   "text": {
+    "ar": "انحلّت! سهلة!",
+    "en": "Solved! Easy!",
+    "tr": "Çözüldü! Çok kolay!",
+    "de": "Gelöst! Ganz leicht!",
+    "ur": "حل ہو گیا! آسان تھا!",
+    "hi": "हल हो गया! आसान था!",
+    "es": "¡Resuelto! ¡Fácil!",
+    "pt": "Resolvido! Fácil!",
+    "id": "Beres! Gampang!",
+    "ms": "Selesai! Senang!",
+    "ja": "解けた！かんたん！",
+    "fr": "Résolu ! Facile !"
+   }
+  },
+  {
+   "id": "vo_noura_bag_throw",
+   "kind": "speech",
+   "speaker": "noura",
+   "important": false,
+   "text": {
+    "ar": "خذ الشنطة!",
+    "en": "Take the bag!",
+    "tr": "Çantayı al!",
+    "de": "Nimm die Tasche!",
+    "ur": "یہ بیگ لو!",
+    "hi": "ये बैग लो!",
+    "es": "¡Toma el bolso!",
+    "pt": "Pega a bolsa!",
+    "id": "Ini tasnya!",
+    "ms": "Ambil beg ini!",
+    "ja": "バッグをどうぞ！",
+    "fr": "Prends le sac !"
+   }
+  },
+  {
+   "id": "vo_bisht",
+   "kind": "speech",
+   "speaker": "",
+   "important": false,
+   "text": {
+    "ar": "بشت ذهبي!",
+    "en": "Golden bisht!",
+    "tr": "Altın bişt!",
+    "de": "Goldener Bischt!",
+    "ur": "سنہری بشت!",
+    "hi": "सुनहरा बिश्त!",
+    "es": "¡Bisht dorado!",
+    "pt": "Bisht dourado!",
+    "id": "Bisht emas!",
+    "ms": "Bisht emas!",
+    "ja": "金のビシュト！",
+    "fr": "Bisht doré !"
+   }
+  },
+  {
+   "id": "vo_bisht_full",
+   "kind": "speech",
+   "speaker": "",
+   "important": false,
+   "text": {
+    "ar": "ثلاثة بشوت! ما أحد يوقفني!",
+    "en": "Three bishts! Nobody can stop me!",
+    "tr": "Üç bişt! Kimse durduramaz beni!",
+    "de": "Drei Bischts! Mich hält keiner auf!",
+    "ur": "تین بشت! مجھے کوئی نہیں روک سکتا!",
+    "hi": "तीन बिश्त! मुझे कोई नहीं रोक सकता!",
+    "es": "¡Tres bishts! ¡Nadie me para!",
+    "pt": "Três bishts! Ninguém me segura!",
+    "id": "Tiga bisht! Tak ada yang bisa menghentikanku!",
+    "ms": "Tiga bisht! Tiada siapa boleh menghalang saya!",
+    "ja": "ビシュト３枚！だれにも止められない！",
+    "fr": "Trois bishts ! Personne ne m'arrête !"
+   }
+  },
+  {
+   "id": "vo_mercy",
+   "kind": "speech",
+   "speaker": "",
+   "important": false,
+   "text": {
+    "ar": "هذا البشت هدية، لا تستسلم!",
+    "en": "This bisht is a gift, don't give up!",
+    "tr": "Bu bişt bir hediye, pes etme!",
+    "de": "Dieser Bischt ist ein Geschenk, gib nicht auf!",
+    "ur": "یہ بشت تحفہ ہے، ہمت نہ ہارو!",
+    "hi": "यह बिश्त एक तोहफ़ा है, हार मत मानो!",
+    "es": "¡Este bisht es un regalo, no te rindas!",
+    "pt": "Este bisht é um presente, não desista!",
+    "id": "Bisht ini hadiah, jangan menyerah!",
+    "ms": "Bisht ini hadiah, jangan putus asa!",
+    "ja": "このビシュトはプレゼント。あきらめないで！",
+    "fr": "Ce bisht est un cadeau, n'abandonne pas !"
+   }
+  },
+  {
+   "id": "vo_puzzle_solved",
+   "kind": "speech",
+   "speaker": "",
+   "important": false,
+   "text": {
+    "ar": "انفتح الطريق!",
+    "en": "The way is open!",
+    "tr": "Yol açıldı!",
+    "de": "Der Weg ist frei!",
+    "ur": "راستہ کھل گیا!",
+    "hi": "रास्ता खुल गया!",
+    "es": "¡El camino está abierto!",
+    "pt": "O caminho está aberto!",
+    "id": "Jalannya terbuka!",
+    "ms": "Jalan sudah terbuka!",
+    "ja": "道がひらいた！",
+    "fr": "Le chemin est ouvert !"
+   }
+  },
+  {
+   "id": "vo_puzzle_wrong",
+   "kind": "speech",
+   "speaker": "",
+   "important": false,
+   "text": {
+    "ar": "لا، مو كذا...",
+    "en": "No, not like that...",
+    "tr": "Hayır, öyle değil...",
+    "de": "Nein, so nicht ...",
+    "ur": "نہیں، ایسے نہیں...",
+    "hi": "नहीं, ऐसे नहीं...",
+    "es": "No, así no...",
+    "pt": "Não, assim não...",
+    "id": "Bukan begitu...",
+    "ms": "Bukan begitu...",
+    "ja": "ちがう、そうじゃない…",
+    "fr": "Non, pas comme ça..."
+   }
+  },
+  {
+   "id": "vo_lock_hint",
+   "kind": "speech",
+   "speaker": "",
+   "important": false,
+   "text": {
+    "ar": "هذا القفل يبي نورة.",
+    "en": "This lock needs Noura.",
+    "tr": "Bu kilit Nura'yı istiyor.",
+    "de": "Dieses Schloss braucht Noura.",
+    "ur": "اس تالے کے لیے نورہ چاہیے۔",
+    "hi": "इस ताले के लिए नूरा चाहिए।",
+    "es": "Esta cerradura necesita a Noura.",
+    "pt": "Esta fechadura precisa da Noura.",
+    "id": "Gembok ini butuh Noura.",
+    "ms": "Mangga ini perlukan Noura.",
+    "ja": "このカギにはヌーラが必要だよ。",
+    "fr": "Cette serrure a besoin de Noura."
+   }
+  },
+  {
+   "id": "vo_chase",
+   "kind": "speech",
+   "speaker": "",
+   "important": false,
+   "text": {
+    "ar": "اركض!",
+    "en": "Run!",
+    "tr": "Koş!",
+    "de": "Lauf!",
+    "ur": "بھاگو!",
+    "hi": "भागो!",
+    "es": "¡Corre!",
+    "pt": "Corra!",
+    "id": "Lari!",
+    "ms": "Lari!",
+    "ja": "走れ！",
+    "fr": "Cours !"
+   }
+  },
+  {
+   "id": "vo_extra_life",
+   "kind": "speech",
+   "speaker": "",
+   "important": false,
+   "text": {
+    "ar": "حياة زيادة!",
+    "en": "Extra life!",
+    "tr": "Fazladan can!",
+    "de": "Extraleben!",
+    "ur": "ایک اور زندگی!",
+    "hi": "एक और जान!",
+    "es": "¡Vida extra!",
+    "pt": "Vida extra!",
+    "id": "Nyawa tambahan!",
+    "ms": "Nyawa tambahan!",
+    "ja": "ライフが１つ増えた！",
+    "fr": "Vie en plus !"
+   }
+  },
+  {
+   "id": "vo_checkpoint",
+   "kind": "speech",
+   "speaker": "",
+   "important": false,
+   "text": {
+    "ar": "هنا نكمّل.",
+    "en": "We continue from here.",
+    "tr": "Buradan devam ederiz.",
+    "de": "Hier geht es weiter.",
+    "ur": "یہیں سے آگے چلیں گے۔",
+    "hi": "यहीं से आगे चलेंगे।",
+    "es": "Seguimos desde aquí.",
+    "pt": "Continuamos daqui.",
+    "id": "Kita lanjut dari sini.",
+    "ms": "Kita sambung dari sini.",
+    "ja": "ここから続けよう。",
+    "fr": "On reprend d'ici."
+   }
+  },
+  {
+   "id": "vo_boss_scientist_taunt",
+   "kind": "speech",
+   "speaker": "boss",
+   "important": false,
+   "text": {
+    "ar": "روبوتاتي بتوقّفك!",
+    "en": "My robots will stop you!",
+    "tr": "Robotlarım seni durduracak!",
+    "de": "Meine Roboter werden dich aufhalten!",
+    "ur": "میرے روبوٹ تمہیں روک لیں گے!",
+    "hi": "मेरे रोबोट तुम्हें रोक लेंगे!",
+    "es": "¡Mis robots te detendrán!",
+    "pt": "Meus robôs vão te deter!",
+    "id": "Robotku akan menghentikanmu!",
+    "ms": "Robot saya akan menghalang kamu!",
+    "ja": "わたしのロボットが止めるぞ！",
+    "fr": "Mes robots vont t'arrêter !"
+   }
+  },
+  {
+   "id": "vo_boss_scientist_hurt",
+   "kind": "speech",
+   "speaker": "boss",
+   "important": false,
+   "text": {
+    "ar": "آخ! تجربتي!",
+    "en": "Ouch! My experiment!",
+    "tr": "Ah! Deneyim!",
+    "de": "Aua! Mein Experiment!",
+    "ur": "آہ! میرا تجربہ!",
+    "hi": "आह! मेरा प्रयोग!",
+    "es": "¡Ay! ¡Mi experimento!",
+    "pt": "Ai! Meu experimento!",
+    "id": "Aduh! Percobaanku!",
+    "ms": "Aduh! Eksperimen saya!",
+    "ja": "あっ！わたしの実験が！",
+    "fr": "Aïe ! Mon expérience !"
+   }
+  },
+  {
+   "id": "vo_boss_scientist_defeat",
+   "kind": "speech",
+   "speaker": "boss",
+   "important": false,
+   "text": {
+    "ar": "خلاص! الرياض لك يا بطل!",
+    "en": "That's it! Riyadh is yours, hero!",
+    "tr": "Tamam! Riyad senin, kahraman!",
+    "de": "Das war's! Riad gehört dir, Held!",
+    "ur": "بس! ریاض تمہارا ہے، ہیرو!",
+    "hi": "बस! रियाद तुम्हारा है, हीरो!",
+    "es": "¡Basta! ¡Riad es tuyo, héroe!",
+    "pt": "Chega! Riade é sua, herói!",
+    "id": "Sudah! Riyadh milikmu, pahlawan!",
+    "ms": "Sudah! Riyadh milik kamu, wira!",
+    "ja": "ここまでだ！リヤドは君のものだ、ヒーロー！",
+    "fr": "Ça suffit ! Riyad est à toi, héros !"
+   }
+  },
+  {
+   "id": "vo_boss_captain_taunt",
+   "kind": "speech",
+   "speaker": "boss",
+   "important": false,
+   "text": {
+    "ar": "البحر بحري، ارجع!",
+    "en": "The sea is mine, go back!",
+    "tr": "Deniz benim, geri dön!",
+    "de": "Das Meer gehört mir, kehr um!",
+    "ur": "سمندر میرا ہے، واپس جاؤ!",
+    "hi": "समुद्र मेरा है, लौट जाओ!",
+    "es": "¡El mar es mío, vuelve!",
+    "pt": "O mar é meu, volte!",
+    "id": "Laut ini milikku, pergi!",
+    "ms": "Laut ini milik saya, berundur!",
+    "ja": "海はわたしのものだ、帰れ！",
+    "fr": "La mer est à moi, repars !"
+   }
+  },
+  {
+   "id": "vo_boss_captain_hurt",
+   "kind": "speech",
+   "speaker": "boss",
+   "important": false,
+   "text": {
+    "ar": "آخ يا الموج!",
+    "en": "Ouch, my waves!",
+    "tr": "Ah, dalgalarım!",
+    "de": "Aua, meine Wellen!",
+    "ur": "آہ، میری لہریں!",
+    "hi": "आह, मेरी लहरें!",
+    "es": "¡Ay, mis olas!",
+    "pt": "Ai, minhas ondas!",
+    "id": "Aduh, ombakku!",
+    "ms": "Aduh, ombak saya!",
+    "ja": "あっ、わたしの波が！",
+    "fr": "Aïe, mes vagues !"
+   }
+  },
+  {
+   "id": "vo_boss_captain_defeat",
+   "kind": "speech",
+   "speaker": "boss",
+   "important": false,
+   "text": {
+    "ar": "سلّمت... البحر لك!",
+    "en": "I give up... the sea is yours!",
+    "tr": "Pes ediyorum... deniz senin!",
+    "de": "Ich gebe auf ... das Meer gehört dir!",
+    "ur": "میں ہار گیا... سمندر تمہارا ہے!",
+    "hi": "मैं हार गया... समुद्र तुम्हारा है!",
+    "es": "Me rindo... ¡el mar es tuyo!",
+    "pt": "Eu me rendo... o mar é seu!",
+    "id": "Aku menyerah... laut milikmu!",
+    "ms": "Saya mengalah... laut milik kamu!",
+    "ja": "降参だ…海は君のものだ！",
+    "fr": "Je me rends... la mer est à toi !"
+   }
+  },
+  {
+   "id": "vo_boss_ninja_taunt",
+   "kind": "speech",
+   "speaker": "boss",
+   "important": false,
+   "text": {
+    "ar": "ما تشوفني، بس أشوفك!",
+    "en": "You can't see me, but I see you!",
+    "tr": "Beni göremezsin ama ben seni görüyorum!",
+    "de": "Du siehst mich nicht, aber ich sehe dich!",
+    "ur": "تم مجھے نہیں دیکھ سکتے، میں دیکھتا ہوں!",
+    "hi": "तुम मुझे नहीं देख सकते, पर मैं देख रहा हूँ!",
+    "es": "¡No me ves, pero yo te veo!",
+    "pt": "Você não me vê, mas eu vejo você!",
+    "id": "Kau tak bisa melihatku, tapi aku melihatmu!",
+    "ms": "Kamu tak nampak saya, tapi saya nampak kamu!",
+    "ja": "わたしは見えないが、君は見えているぞ！",
+    "fr": "Tu ne me vois pas, mais moi je te vois !"
+   }
+  },
+  {
+   "id": "vo_boss_ninja_hurt",
+   "kind": "speech",
+   "speaker": "boss",
+   "important": false,
+   "text": {
+    "ar": "آخ!",
+    "en": "Ouch!",
+    "tr": "Ah!",
+    "de": "Aua!",
+    "ur": "آہ!",
+    "hi": "आह!",
+    "es": "¡Ay!",
+    "pt": "Ai!",
+    "id": "Aduh!",
+    "ms": "Aduh!",
+    "ja": "いてっ！",
+    "fr": "Aïe !"
+   }
+  },
+  {
+   "id": "vo_boss_ninja_defeat",
+   "kind": "speech",
+   "speaker": "boss",
+   "important": false,
+   "text": {
+    "ar": "انكشفت...",
+    "en": "I've been found out...",
+    "tr": "Yakalandım...",
+    "de": "Ich wurde entdeckt ...",
+    "ur": "میں پکڑا گیا...",
+    "hi": "मैं पकड़ा गया...",
+    "es": "Me han descubierto...",
+    "pt": "Fui descoberto...",
+    "id": "Aku ketahuan...",
+    "ms": "Saya sudah ditemui...",
+    "ja": "見つかったか…",
+    "fr": "On m'a découvert..."
+   }
+  },
+  {
+   "id": "vo_boss_robe_taunt",
+   "kind": "speech",
+   "speaker": "boss",
+   "important": false,
+   "text": {
+    "ar": "ما راح تعدّي من هنا!",
+    "en": "You won't get past here!",
+    "tr": "Buradan geçemezsin!",
+    "de": "Hier kommst du nicht vorbei!",
+    "ur": "تم یہاں سے نہیں گزر سکتے!",
+    "hi": "तुम यहाँ से नहीं गुज़र सकते!",
+    "es": "¡Por aquí no pasarás!",
+    "pt": "Você não passa por aqui!",
+    "id": "Kau tak akan lewat sini!",
+    "ms": "Kamu tak akan lepas di sini!",
+    "ja": "ここは通さないぞ！",
+    "fr": "Tu ne passeras pas !"
+   }
+  },
+  {
+   "id": "vo_boss_robe_hurt",
+   "kind": "speech",
+   "speaker": "boss",
+   "important": false,
+   "text": {
+    "ar": "آخ يا ظهري!",
+    "en": "Ouch, my back!",
+    "tr": "Ah, belim!",
+    "de": "Aua, mein Rücken!",
+    "ur": "آہ، میری کمر!",
+    "hi": "आह, मेरी कमर!",
+    "es": "¡Ay, mi espalda!",
+    "pt": "Ai, minhas costas!",
+    "id": "Aduh, punggungku!",
+    "ms": "Aduh, belakang saya!",
+    "ja": "あいたた、こしが！",
+    "fr": "Aïe, mon dos !"
+   }
+  },
+  {
+   "id": "vo_boss_robe_defeat",
+   "kind": "speech",
+   "speaker": "boss",
+   "important": false,
+   "text": {
+    "ar": "خلاص... غلبتني!",
+    "en": "That's it... you beat me!",
+    "tr": "Tamam... beni yendin!",
+    "de": "Das war's ... du hast mich besiegt!",
+    "ur": "بس... تم نے مجھے ہرا دیا!",
+    "hi": "बस... तुमने मुझे हरा दिया!",
+    "es": "Basta... ¡me has vencido!",
+    "pt": "Chega... você me venceu!",
+    "id": "Sudah... kau mengalahkanku!",
+    "ms": "Sudah... kamu mengalahkan saya!",
+    "ja": "ここまでか…負けたよ！",
+    "fr": "Ça suffit... tu m'as battu !"
+   }
+  },
+  {
+   "id": "vo_boss_soldier_taunt",
+   "kind": "speech",
+   "speaker": "boss",
+   "important": false,
+   "text": {
+    "ar": "الأسوار مسكّرة!",
+    "en": "The walls are closed!",
+    "tr": "Surlar kapalı!",
+    "de": "Die Mauern sind geschlossen!",
+    "ur": "دیواریں بند ہیں!",
+    "hi": "दीवारें बंद हैं!",
+    "es": "¡Las murallas están cerradas!",
+    "pt": "As muralhas estão fechadas!",
+    "id": "Tembok sudah tertutup!",
+    "ms": "Tembok sudah ditutup!",
+    "ja": "城壁は閉じられた！",
+    "fr": "Les murailles sont fermées !"
+   }
+  },
+  {
+   "id": "vo_boss_soldier_hurt",
+   "kind": "speech",
+   "speaker": "boss",
+   "important": false,
+   "text": {
+    "ar": "آخ!",
+    "en": "Ouch!",
+    "tr": "Ah!",
+    "de": "Aua!",
+    "ur": "آہ!",
+    "hi": "आह!",
+    "es": "¡Ay!",
+    "pt": "Ai!",
+    "id": "Aduh!",
+    "ms": "Aduh!",
+    "ja": "いてっ！",
+    "fr": "Aïe !"
+   }
+  },
+  {
+   "id": "vo_boss_soldier_defeat",
+   "kind": "speech",
+   "speaker": "boss",
+   "important": false,
+   "text": {
+    "ar": "افتحوا البوابة...",
+    "en": "Open the gate...",
+    "tr": "Kapıyı açın...",
+    "de": "Öffnet das Tor ...",
+    "ur": "دروازہ کھولو...",
+    "hi": "फाटक खोल दो...",
+    "es": "Abran la puerta...",
+    "pt": "Abram o portão...",
+    "id": "Buka gerbangnya...",
+    "ms": "Buka pintu pagar...",
+    "ja": "門を開けろ…",
+    "fr": "Ouvrez la porte..."
+   }
+  },
+  {
+   "id": "vo_boss_marid_taunt",
+   "kind": "speech",
+   "speaker": "boss",
+   "important": false,
+   "text": {
+    "ar": "أنا المارد! ارجع!",
+    "en": "I am the Marid! Go back!",
+    "tr": "Ben Marid'im! Geri dön!",
+    "de": "Ich bin der Marid! Kehr um!",
+    "ur": "میں مارد ہوں! واپس جاؤ!",
+    "hi": "मैं मारिद हूँ! लौट जाओ!",
+    "es": "¡Soy el Marid! ¡Vuelve!",
+    "pt": "Eu sou o Marid! Volte!",
+    "id": "Akulah Marid! Pergi!",
+    "ms": "Akulah Marid! Berundur!",
+    "ja": "わたしはマリードだ！帰れ！",
+    "fr": "Je suis le Marid ! Repars !"
+   }
+  },
+  {
+   "id": "vo_boss_marid_hurt",
+   "kind": "speech",
+   "speaker": "boss",
+   "important": false,
+   "text": {
+    "ar": "آخ! يا ويلي!",
+    "en": "Ouch! Oh no!",
+    "tr": "Ah! Eyvah!",
+    "de": "Aua! Oh nein!",
+    "ur": "آہ! ہائے!",
+    "hi": "आह! हाय!",
+    "es": "¡Ay! ¡Ay, no!",
+    "pt": "Ai! Ai, não!",
+    "id": "Aduh! Waduh!",
+    "ms": "Aduh! Alamak!",
+    "ja": "いてっ！うわあ！",
+    "fr": "Aïe ! Oh non !"
+   }
+  },
+  {
+   "id": "vo_boss_marid_defeat",
+   "kind": "speech",
+   "speaker": "boss",
+   "important": false,
+   "text": {
+    "ar": "رجعت للقمقم...",
+    "en": "Back into the bottle...",
+    "tr": "Şişeye geri dönüyorum...",
+    "de": "Zurück in die Flasche ...",
+    "ur": "واپس بوتل میں...",
+    "hi": "वापस बोतल में...",
+    "es": "De vuelta a la botella...",
+    "pt": "De volta à garrafa...",
+    "id": "Kembali ke dalam botol...",
+    "ms": "Kembali ke dalam botol...",
+    "ja": "ボトルにもどるのか…",
+    "fr": "Retour dans la bouteille..."
+   }
+  },
+  {
+   "id": "vo_boss_ghoul_taunt",
+   "kind": "speech",
+   "speaker": "boss",
+   "important": false,
+   "text": {
+    "ar": "هههه! تعال قرّب!",
+    "en": "Hahaha! Come closer!",
+    "tr": "Hahaha! Yaklaş!",
+    "de": "Hahaha! Komm näher!",
+    "ur": "ہاہاہا! قریب آؤ!",
+    "hi": "हाहाहा! पास आओ!",
+    "es": "¡Jajaja! ¡Acércate!",
+    "pt": "Hahaha! Chegue mais perto!",
+    "id": "Hahaha! Mendekatlah!",
+    "ms": "Hahaha! Datanglah dekat!",
+    "ja": "ハハハ！もっと近くへ来い！",
+    "fr": "Hahaha ! Approche !"
+   }
+  },
+  {
+   "id": "vo_boss_ghoul_hurt",
+   "kind": "speech",
+   "speaker": "boss",
+   "important": false,
+   "text": {
+    "ar": "آآخ!",
+    "en": "Aaargh!",
+    "tr": "Aaah!",
+    "de": "Aaargh!",
+    "ur": "آآہ!",
+    "hi": "आआह!",
+    "es": "¡Aaay!",
+    "pt": "Aaai!",
+    "id": "Aaargh!",
+    "ms": "Aaargh!",
+    "ja": "ぐああ！",
+    "fr": "Aaargh !"
+   }
+  },
+  {
+   "id": "vo_boss_ghoul_defeat",
+   "kind": "speech",
+   "speaker": "boss",
+   "important": false,
+   "text": {
+    "ar": "راح الغول...",
+    "en": "The ghoul is gone...",
+    "tr": "Gul gitti...",
+    "de": "Der Ghul ist fort ...",
+    "ur": "غول چلا گیا...",
+    "hi": "ग़ूल चला गया...",
+    "es": "El gul se fue...",
+    "pt": "O gul se foi...",
+    "id": "Si hantu sudah pergi...",
+    "ms": "Hantu itu sudah pergi...",
+    "ja": "グールは消えた…",
+    "fr": "Le goule a disparu..."
+   }
+  },
+  {
+   "id": "vo_boss_mummy_taunt",
+   "kind": "speech",
+   "speaker": "boss",
+   "important": false,
+   "text": {
+    "ar": "ممممم... ارجع!",
+    "en": "Mmmmm... go back!",
+    "tr": "Mmmmm... geri dön!",
+    "de": "Mmmmm ... kehr um!",
+    "ur": "ممممم... واپس جاؤ!",
+    "hi": "म्म्म्म... लौट जाओ!",
+    "es": "Mmmmm... ¡vuelve!",
+    "pt": "Mmmmm... volte!",
+    "id": "Mmmmm... pergi!",
+    "ms": "Mmmmm... berundur!",
+    "ja": "むむむ…帰れ！",
+    "fr": "Mmmmm... repars !"
+   }
+  },
+  {
+   "id": "vo_boss_mummy_hurt",
+   "kind": "speech",
+   "speaker": "boss",
+   "important": false,
+   "text": {
+    "ar": "ممم! آخ!",
+    "en": "Mmm! Ouch!",
+    "tr": "Mmm! Ah!",
+    "de": "Mmm! Aua!",
+    "ur": "ممم! آہ!",
+    "hi": "म्म! आह!",
+    "es": "¡Mmm! ¡Ay!",
+    "pt": "Mmm! Ai!",
+    "id": "Mmm! Aduh!",
+    "ms": "Mmm! Aduh!",
+    "ja": "むむ！いてっ！",
+    "fr": "Mmm ! Aïe !"
+   }
+  },
+  {
+   "id": "vo_boss_mummy_defeat",
+   "kind": "speech",
+   "speaker": "boss",
+   "important": false,
+   "text": {
+    "ar": "رجعت أنام...",
+    "en": "Back to sleep...",
+    "tr": "Uykuya geri dönüyorum...",
+    "de": "Zurück ins Bett ...",
+    "ur": "واپس سونے...",
+    "hi": "वापस सोने...",
+    "es": "A dormir otra vez...",
+    "pt": "De volta a dormir...",
+    "id": "Kembali tidur...",
+    "ms": "Kembali tidur...",
+    "ja": "またねむるよ…",
+    "fr": "Je retourne dormir..."
+   }
+  },
+  {
+   "id": "vo_boss_tree_taunt",
+   "kind": "speech",
+   "speaker": "boss",
+   "important": false,
+   "text": {
+    "ar": "جذوري أقوى منك!",
+    "en": "My roots are stronger than you!",
+    "tr": "Köklerim senden güçlü!",
+    "de": "Meine Wurzeln sind stärker als du!",
+    "ur": "میری جڑیں تم سے مضبوط ہیں!",
+    "hi": "मेरी जड़ें तुमसे मज़बूत हैं!",
+    "es": "¡Mis raíces son más fuertes que tú!",
+    "pt": "Minhas raízes são mais fortes que você!",
+    "id": "Akarku lebih kuat darimu!",
+    "ms": "Akar saya lebih kuat daripada kamu!",
+    "ja": "わたしの根は君より強い！",
+    "fr": "Mes racines sont plus fortes que toi !"
+   }
+  },
+  {
+   "id": "vo_boss_tree_hurt",
+   "kind": "speech",
+   "speaker": "boss",
+   "important": false,
+   "text": {
+    "ar": "آخ يا أغصاني!",
+    "en": "Ouch, my branches!",
+    "tr": "Ah, dallarım!",
+    "de": "Aua, meine Äste!",
+    "ur": "آہ، میری شاخیں!",
+    "hi": "आह, मेरी शाखाएँ!",
+    "es": "¡Ay, mis ramas!",
+    "pt": "Ai, meus galhos!",
+    "id": "Aduh, dahanku!",
+    "ms": "Aduh, dahan saya!",
+    "ja": "あっ、わたしの枝が！",
+    "fr": "Aïe, mes branches !"
+   }
+  },
+  {
+   "id": "vo_boss_tree_defeat",
+   "kind": "speech",
+   "speaker": "boss",
+   "important": false,
+   "text": {
+    "ar": "طحت... مثل ورقة.",
+    "en": "I fell... like a leaf.",
+    "tr": "Düştüm... bir yaprak gibi.",
+    "de": "Ich bin gefallen ... wie ein Blatt.",
+    "ur": "میں گر گیا... پتے کی طرح۔",
+    "hi": "मैं गिर गया... पत्ते की तरह।",
+    "es": "Caí... como una hoja.",
+    "pt": "Caí... como uma folha.",
+    "id": "Aku jatuh... seperti sehelai daun.",
+    "ms": "Saya jatuh... seperti sehelai daun.",
+    "ja": "わたしは倒れた…葉っぱのように。",
+    "fr": "Je suis tombé... comme une feuille."
+   }
+  },
+  {
+   "id": "vo_boss_shark_taunt",
+   "kind": "sound",
+   "speaker": "boss",
+   "important": true,
+   "text": {
+    "ar": "خبطة زعنفة",
+    "en": "Shark slaps its fin",
+    "tr": "Köpekbalığı yüzgecini çarpar",
+    "de": "Hai schlägt mit der Flosse",
+    "ur": "شارک پر مارتی ہے",
+    "hi": "शार्क पंख मारती है",
+    "es": "El tiburón golpea con la aleta",
+    "pt": "O tubarão bate a nadadeira",
+    "id": "Hiu menepuk siripnya",
+    "ms": "Jerung memukul siripnya",
+    "ja": "サメがヒレをたたく",
+    "fr": "Le requin frappe de sa nageoire"
+   }
+  },
+  {
+   "id": "vo_boss_shark_hurt",
+   "kind": "sound",
+   "speaker": "boss",
+   "important": true,
+   "text": {
+    "ar": "رشّة ماء",
+    "en": "Water splashes",
+    "tr": "Su sıçrar",
+    "de": "Wasser spritzt",
+    "ur": "پانی کے چھینٹے",
+    "hi": "पानी के छींटे",
+    "es": "Salpica el agua",
+    "pt": "A água espirra",
+    "id": "Air memercik",
+    "ms": "Air memercik",
+    "ja": "水しぶき",
+    "fr": "L'eau éclabousse"
+   }
+  },
+  {
+   "id": "vo_boss_shark_defeat",
+   "kind": "sound",
+   "speaker": "boss",
+   "important": true,
+   "text": {
+    "ar": "غطس للأعماق",
+    "en": "Dives into the deep",
+    "tr": "Derinlere dalar",
+    "de": "Taucht in die Tiefe",
+    "ur": "گہرائی میں غوطہ",
+    "hi": "गहराई में गोता",
+    "es": "Se sumerge en lo profundo",
+    "pt": "Mergulha no fundo",
+    "id": "Menyelam ke kedalaman",
+    "ms": "Menyelam ke dalam laut",
+    "ja": "深くもぐる",
+    "fr": "Plonge dans les profondeurs"
+   }
+  },
+  {
+   "id": "vo_boss_golem_taunt",
+   "kind": "sound",
+   "speaker": "boss",
+   "important": true,
+   "text": {
+    "ar": "هدير صخر",
+    "en": "Rocks rumble",
+    "tr": "Kayalar gürler",
+    "de": "Felsen grollen",
+    "ur": "پتھر گرجتے ہیں",
+    "hi": "चट्टानें गरजती हैं",
+    "es": "Retumban las rocas",
+    "pt": "As rochas rugem",
+    "id": "Batu bergemuruh",
+    "ms": "Batu bergemuruh",
+    "ja": "岩がゴゴゴとなる",
+    "fr": "Les rochers grondent"
+   }
+  },
+  {
+   "id": "vo_boss_golem_hurt",
+   "kind": "sound",
+   "speaker": "boss",
+   "important": true,
+   "text": {
+    "ar": "تكسّر حجر",
+    "en": "Stone cracks",
+    "tr": "Taş çatlar",
+    "de": "Stein bricht",
+    "ur": "پتھر ٹوٹتا ہے",
+    "hi": "पत्थर चटकता है",
+    "es": "Se parte la piedra",
+    "pt": "A pedra racha",
+    "id": "Batu retak",
+    "ms": "Batu retak",
+    "ja": "石が割れる",
+    "fr": "La pierre se fend"
+   }
+  },
+  {
+   "id": "vo_boss_golem_defeat",
+   "kind": "sound",
+   "speaker": "boss",
+   "important": true,
+   "text": {
+    "ar": "انهيار صخور",
+    "en": "Rocks collapse",
+    "tr": "Kayalar çöker",
+    "de": "Felsen stürzen ein",
+    "ur": "چٹانیں ڈھہ جاتی ہیں",
+    "hi": "चट्टानें ढह जाती हैं",
+    "es": "Las rocas se derrumban",
+    "pt": "As rochas desabam",
+    "id": "Batu runtuh",
+    "ms": "Batu runtuh",
+    "ja": "岩がくずれ落ちる",
+    "fr": "Les rochers s'effondrent"
+   }
+  },
+  {
+   "id": "vo_boss_wolf_taunt",
+   "kind": "sound",
+   "speaker": "boss",
+   "important": true,
+   "text": {
+    "ar": "عووووو!",
+    "en": "Wolf howls",
+    "tr": "Kurt uluyor",
+    "de": "Wolf heult",
+    "ur": "بھیڑیا چیختا ہے",
+    "hi": "भेड़िया हुआँ-हुआँ करता है",
+    "es": "El lobo aúlla",
+    "pt": "O lobo uiva",
+    "id": "Serigala melolong",
+    "ms": "Serigala melolong",
+    "ja": "オオカミが遠ぼえする",
+    "fr": "Le loup hurle"
+   }
+  },
+  {
+   "id": "vo_boss_wolf_hurt",
+   "kind": "sound",
+   "speaker": "boss",
+   "important": true,
+   "text": {
+    "ar": "عيييك!",
+    "en": "Wolf yelps",
+    "tr": "Kurt acıyla bağırır",
+    "de": "Wolf jault auf",
+    "ur": "بھیڑیا کراہتا ہے",
+    "hi": "भेड़िया कराहता है",
+    "es": "El lobo aúlla de dolor",
+    "pt": "O lobo ganiu",
+    "id": "Serigala mengaing",
+    "ms": "Serigala mengaing",
+    "ja": "オオカミがキャンと鳴く",
+    "fr": "Le loup gémit"
+   }
+  },
+  {
+   "id": "vo_boss_wolf_defeat",
+   "kind": "sound",
+   "speaker": "boss",
+   "important": true,
+   "text": {
+    "ar": "أنين ذيب",
+    "en": "Wolf whimpers",
+    "tr": "Kurt inler",
+    "de": "Wolf winselt",
+    "ur": "بھیڑیا سسکتا ہے",
+    "hi": "भेड़िया सिसकता है",
+    "es": "El lobo gimotea",
+    "pt": "O lobo choraminga",
+    "id": "Serigala merintih",
+    "ms": "Serigala merengek",
+    "ja": "オオカミがくうんと鳴く",
+    "fr": "Le loup geint"
+   }
+  },
+  {
+   "id": "vo_boss_eagle_taunt",
+   "kind": "sound",
+   "speaker": "boss",
+   "important": true,
+   "text": {
+    "ar": "صيحة نسر",
+    "en": "Eagle screeches",
+    "tr": "Kartal çığlık atar",
+    "de": "Adler schreit",
+    "ur": "عقاب چیختا ہے",
+    "hi": "बाज़ चीखता है",
+    "es": "El águila chilla",
+    "pt": "A águia grita",
+    "id": "Elang memekik",
+    "ms": "Helang menjerit",
+    "ja": "ワシが鳴く",
+    "fr": "L'aigle crie"
+   }
+  },
+  {
+   "id": "vo_boss_eagle_hurt",
+   "kind": "sound",
+   "speaker": "boss",
+   "important": true,
+   "text": {
+    "ar": "ريش يطير",
+    "en": "Feathers fly",
+    "tr": "Tüyler uçuşur",
+    "de": "Federn fliegen",
+    "ur": "پَر اڑتے ہیں",
+    "hi": "पंख उड़ते हैं",
+    "es": "Vuelan las plumas",
+    "pt": "As penas voam",
+    "id": "Bulu beterbangan",
+    "ms": "Bulu berterbangan",
+    "ja": "羽が舞う",
+    "fr": "Les plumes volent"
+   }
+  },
+  {
+   "id": "vo_boss_eagle_defeat",
+   "kind": "sound",
+   "speaker": "boss",
+   "important": true,
+   "text": {
+    "ar": "صيحة بعيدة",
+    "en": "A far-off screech",
+    "tr": "Uzaktan bir çığlık",
+    "de": "Ein ferner Schrei",
+    "ur": "دور سے چیخ",
+    "hi": "दूर से चीख",
+    "es": "Un chillido lejano",
+    "pt": "Um grito distante",
+    "id": "Pekikan dari jauh",
+    "ms": "Jeritan dari jauh",
+    "ja": "遠くで鳴き声",
+    "fr": "Un cri lointain"
+   }
+  },
+  {
+   "id": "vo_boss_clam_taunt",
+   "kind": "sound",
+   "speaker": "boss",
+   "important": true,
+   "text": {
+    "ar": "طقطقة صدفة",
+    "en": "Shell clicks",
+    "tr": "Kabuk tıkırdar",
+    "de": "Muschel klappert",
+    "ur": "سیپی کھٹکتی ہے",
+    "hi": "सीपी खटखटाती है",
+    "es": "La concha castañea",
+    "pt": "A concha estala",
+    "id": "Cangkang berdetak",
+    "ms": "Cengkerang berdetik",
+    "ja": "貝がカチカチ鳴る",
+    "fr": "La coquille claque"
+   }
+  },
+  {
+   "id": "vo_boss_clam_hurt",
+   "kind": "sound",
+   "speaker": "boss",
+   "important": true,
+   "text": {
+    "ar": "صدفة تنغلق",
+    "en": "Shell snaps shut",
+    "tr": "Kabuk kapanır",
+    "de": "Muschel schnappt zu",
+    "ur": "سیپی بند ہو جاتی ہے",
+    "hi": "सीपी बंद हो जाती है",
+    "es": "La concha se cierra de golpe",
+    "pt": "A concha se fecha",
+    "id": "Cangkang menutup",
+    "ms": "Cengkerang tertutup",
+    "ja": "貝がパタンと閉じる",
+    "fr": "La coquille se referme"
+   }
+  },
+  {
+   "id": "vo_boss_clam_defeat",
+   "kind": "sound",
+   "speaker": "boss",
+   "important": true,
+   "text": {
+    "ar": "صدفة تنفتح",
+    "en": "Shell opens",
+    "tr": "Kabuk açılır",
+    "de": "Muschel öffnet sich",
+    "ur": "سیپی کھل جاتی ہے",
+    "hi": "सीपी खुल जाती है",
+    "es": "La concha se abre",
+    "pt": "A concha se abre",
+    "id": "Cangkang terbuka",
+    "ms": "Cengkerang terbuka",
+    "ja": "貝が開く",
+    "fr": "La coquille s'ouvre"
+   }
+  },
+  {
+   "id": "vo_boss_barrel_taunt",
+   "kind": "sound",
+   "speaker": "boss",
+   "important": true,
+   "text": {
+    "ar": "قرقعة برميل",
+    "en": "Barrel rattles",
+    "tr": "Fıçı takırdar",
+    "de": "Fass rumpelt",
+    "ur": "پیپا کھڑکتا ہے",
+    "hi": "पीपा खड़खड़ाता है",
+    "es": "El barril traquetea",
+    "pt": "O barril chacoalha",
+    "id": "Tong berderak",
+    "ms": "Tong berdentang",
+    "ja": "樽がガタガタ鳴る",
+    "fr": "Le tonneau cogne"
+   }
+  },
+  {
+   "id": "vo_boss_barrel_hurt",
+   "kind": "sound",
+   "speaker": "boss",
+   "important": true,
+   "text": {
+    "ar": "دنق!",
+    "en": "Clang!",
+    "tr": "Çın!",
+    "de": "Klong!",
+    "ur": "ٹن!",
+    "hi": "टन!",
+    "es": "¡Clang!",
+    "pt": "Clang!",
+    "id": "Klang!",
+    "ms": "Dentang!",
+    "ja": "ガン！",
+    "fr": "Clang !"
+   }
+  },
+  {
+   "id": "vo_boss_barrel_defeat",
+   "kind": "sound",
+   "speaker": "boss",
+   "important": true,
+   "text": {
+    "ar": "برميل يتدحرج",
+    "en": "Barrel rolls away",
+    "tr": "Fıçı yuvarlanır",
+    "de": "Fass rollt davon",
+    "ur": "پیپا لڑھک جاتا ہے",
+    "hi": "पीपा लुढ़क जाता है",
+    "es": "El barril rueda",
+    "pt": "O barril rola para longe",
+    "id": "Tong menggelinding",
+    "ms": "Tong bergolek pergi",
+    "ja": "樽がころがっていく",
+    "fr": "Le tonneau roule au loin"
+   }
+  },
+  {
+   "id": "vo_boss_croc_taunt",
+   "kind": "sound",
+   "speaker": "boss",
+   "important": true,
+   "text": {
+    "ar": "زمجرة",
+    "en": "Growl",
+    "tr": "Hırıltı",
+    "de": "Knurren",
+    "ur": "غراہٹ",
+    "hi": "गुर्राहट",
+    "es": "Gruñido",
+    "pt": "Rosnado",
+    "id": "Geraman",
+    "ms": "Geraman",
+    "ja": "うなり声",
+    "fr": "Grognement"
+   }
+  },
+  {
+   "id": "vo_boss_croc_hurt",
+   "kind": "sound",
+   "speaker": "boss",
+   "important": true,
+   "text": {
+    "ar": "طقّة فكّ",
+    "en": "Jaws snap",
+    "tr": "Çeneler kapanır",
+    "de": "Kiefer schnappen",
+    "ur": "جبڑے بند ہوتے ہیں",
+    "hi": "जबड़े बंद होते हैं",
+    "es": "Las mandíbulas chasquean",
+    "pt": "As mandíbulas estalam",
+    "id": "Rahang mengatup",
+    "ms": "Rahang mengatup",
+    "ja": "あごがガチンと鳴る",
+    "fr": "Les mâchoires claquent"
+   }
+  },
+  {
+   "id": "vo_boss_croc_defeat",
+   "kind": "sound",
+   "speaker": "boss",
+   "important": true,
+   "text": {
+    "ar": "غطس بالنهر",
+    "en": "Dives into the river",
+    "tr": "Nehre dalar",
+    "de": "Taucht in den Fluss",
+    "ur": "دریا میں غوطہ",
+    "hi": "नदी में गोता",
+    "es": "Se zambulle en el río",
+    "pt": "Mergulha no rio",
+    "id": "Menyelam ke sungai",
+    "ms": "Menyelam ke sungai",
+    "ja": "川にもぐる",
+    "fr": "Plonge dans la rivière"
+   }
+  },
+  {
+   "id": "vo_boss_crab_taunt",
+   "kind": "sound",
+   "speaker": "boss",
+   "important": true,
+   "text": {
+    "ar": "طقطقة مقصّات",
+    "en": "Claws click",
+    "tr": "Kıskaçlar tıkırdar",
+    "de": "Scheren klappern",
+    "ur": "پنجے کھٹکتے ہیں",
+    "hi": "पंजे खटखटाते हैं",
+    "es": "Las pinzas chasquean",
+    "pt": "As garras estalam",
+    "id": "Capit berdetak",
+    "ms": "Sepit berdetik",
+    "ja": "ハサミがカチカチ鳴る",
+    "fr": "Les pinces claquent"
+   }
+  },
+  {
+   "id": "vo_boss_crab_hurt",
+   "kind": "sound",
+   "speaker": "boss",
+   "important": true,
+   "text": {
+    "ar": "طق!",
+    "en": "Click!",
+    "tr": "Çıt!",
+    "de": "Klack!",
+    "ur": "کھٹ!",
+    "hi": "खट!",
+    "es": "¡Clic!",
+    "pt": "Clic!",
+    "id": "Klik!",
+    "ms": "Klik!",
+    "ja": "カチッ！",
+    "fr": "Clic !"
+   }
+  },
+  {
+   "id": "vo_boss_crab_defeat",
+   "kind": "sound",
+   "speaker": "boss",
+   "important": true,
+   "text": {
+    "ar": "سلطعون يهرب",
+    "en": "Crab scuttles away",
+    "tr": "Yengeç kaçar",
+    "de": "Krabbe huscht davon",
+    "ur": "کیکڑا بھاگ جاتا ہے",
+    "hi": "केकड़ा भाग जाता है",
+    "es": "El cangrejo se escabulle",
+    "pt": "O caranguejo foge",
+    "id": "Kepiting kabur",
+    "ms": "Ketam lari pergi",
+    "ja": "カニが逃げていく",
+    "fr": "Le crabe s'enfuit"
+   }
+  },
+  {
+   "id": "bisht_pickup",
+   "kind": "sound",
+   "speaker": "",
+   "important": true,
+   "text": {
+    "ar": "التقاط البشت الذهبي",
+    "en": "Golden bisht picked up",
+    "tr": "Altın bişt alındı",
+    "de": "Goldener Bischt aufgesammelt",
+    "ur": "سنہری بشت مل گیا",
+    "hi": "सुनहरा बिश्त मिला",
+    "es": "Recoges el bisht dorado",
+    "pt": "Bisht dourado coletado",
+    "id": "Bisht emas diambil",
+    "ms": "Bisht emas diambil",
+    "ja": "金のビシュトを取った",
+    "fr": "Bisht doré ramassé"
+   }
+  },
+  {
+   "id": "bisht_lost",
+   "kind": "sound",
+   "speaker": "",
+   "important": true,
+   "text": {
+    "ar": "ضاع البشت",
+    "en": "Bisht lost",
+    "tr": "Bişt kayboldu",
+    "de": "Bischt verloren",
+    "ur": "بشت چلا گیا",
+    "hi": "बिश्त चला गया",
+    "es": "Pierdes el bisht",
+    "pt": "Bisht perdido",
+    "id": "Bisht hilang",
+    "ms": "Bisht hilang",
+    "ja": "ビシュトを失った",
+    "fr": "Bisht perdu"
+   }
+  },
+  {
+   "id": "bisht_box",
+   "kind": "sound",
+   "speaker": "",
+   "important": false,
+   "text": {
+    "ar": "تكسّر صندوق البشت",
+    "en": "Bisht box breaks",
+    "tr": "Bişt kutusu kırılır",
+    "de": "Bischt-Kiste zerbricht",
+    "ur": "بشت کا ڈبہ ٹوٹا",
+    "hi": "बिश्त का डिब्बा टूटा",
+    "es": "Se rompe la caja del bisht",
+    "pt": "A caixa do bisht quebra",
+    "id": "Kotak bisht pecah",
+    "ms": "Kotak bisht pecah",
+    "ja": "ビシュトの箱がこわれる",
+    "fr": "La caisse à bisht se brise"
+   }
+  },
+  {
+   "id": "enemy_stomp",
+   "kind": "sound",
+   "speaker": "",
+   "important": false,
+   "text": {
+    "ar": "دعسة على العدو",
+    "en": "Stomp on an enemy",
+    "tr": "Düşmanın üstüne basma",
+    "de": "Auf einen Gegner gesprungen",
+    "ur": "دشمن پر چھلانگ",
+    "hi": "दुश्मन पर कूद",
+    "es": "Pisotón al enemigo",
+    "pt": "Pisão no inimigo",
+    "id": "Injak musuh",
+    "ms": "Pijak musuh",
+    "ja": "てきをふむ",
+    "fr": "Saut sur un ennemi"
+   }
+  },
+  {
+   "id": "life",
+   "kind": "sound",
+   "speaker": "",
+   "important": true,
+   "text": {
+    "ar": "حياة زيادة",
+    "en": "Extra life chime",
+    "tr": "Fazladan can sesi",
+    "de": "Extraleben-Klang",
+    "ur": "ایک اور زندگی کی آواز",
+    "hi": "एक और जान की आवाज़",
+    "es": "Sonido de vida extra",
+    "pt": "Som de vida extra",
+    "id": "Bunyi nyawa tambahan",
+    "ms": "Bunyi nyawa tambahan",
+    "ja": "ライフが増える音",
+    "fr": "Son de vie en plus"
+   }
+  },
+  {
+   "id": "puzzle_step",
+   "kind": "sound",
+   "speaker": "",
+   "important": false,
+   "text": {
+    "ar": "خطوة صحيحة في اللغز",
+    "en": "Puzzle step done",
+    "tr": "Bilmecede doğru adım",
+    "de": "Rätselschritt geschafft",
+    "ur": "پہیلی کا ایک قدم",
+    "hi": "पहेली का एक कदम",
+    "es": "Paso del puzle hecho",
+    "pt": "Passo do enigma feito",
+    "id": "Langkah teka-teki benar",
+    "ms": "Langkah teka-teki betul",
+    "ja": "パズルの一歩",
+    "fr": "Étape de l'énigme réussie"
+   }
+  },
+  {
+   "id": "puzzle_wrong",
+   "kind": "sound",
+   "speaker": "",
+   "important": true,
+   "text": {
+    "ar": "خطأ في اللغز",
+    "en": "Wrong move in the puzzle",
+    "tr": "Bilmecede yanlış hamle",
+    "de": "Falscher Zug im Rätsel",
+    "ur": "پہیلی میں غلط چال",
+    "hi": "पहेली में गलत चाल",
+    "es": "Movimiento incorrecto en el puzle",
+    "pt": "Movimento errado no enigma",
+    "id": "Langkah teka-teki salah",
+    "ms": "Langkah teka-teki salah",
+    "ja": "パズルのまちがい",
+    "fr": "Mauvais geste dans l'énigme"
+   }
+  },
+  {
+   "id": "puzzle_solved",
+   "kind": "sound",
+   "speaker": "",
+   "important": true,
+   "text": {
+    "ar": "انحلّ اللغز",
+    "en": "Puzzle solved",
+    "tr": "Bilmece çözüldü",
+    "de": "Rätsel gelöst",
+    "ur": "پہیلی حل ہو گئی",
+    "hi": "पहेली हल हो गई",
+    "es": "Puzle resuelto",
+    "pt": "Enigma resolvido",
+    "id": "Teka-teki selesai",
+    "ms": "Teka-teki selesai",
+    "ja": "パズルが解けた",
+    "fr": "Énigme résolue"
+   }
+  },
+  {
+   "id": "gate_open",
+   "kind": "sound",
+   "speaker": "",
+   "important": true,
+   "text": {
+    "ar": "البوابة تنفتح",
+    "en": "Gate opens",
+    "tr": "Kapı açılır",
+    "de": "Tor öffnet sich",
+    "ur": "دروازہ کھلتا ہے",
+    "hi": "फाटक खुलता है",
+    "es": "La puerta se abre",
+    "pt": "O portão se abre",
+    "id": "Gerbang terbuka",
+    "ms": "Pintu pagar terbuka",
+    "ja": "門が開く",
+    "fr": "La porte s'ouvre"
+   }
+  },
+  {
+   "id": "lever",
+   "kind": "sound",
+   "speaker": "",
+   "important": false,
+   "text": {
+    "ar": "مقبض يتحرك",
+    "en": "Lever clicks",
+    "tr": "Kol tıkırdar",
+    "de": "Hebel klickt",
+    "ur": "لیور کھٹکتا ہے",
+    "hi": "लीवर खटकता है",
+    "es": "La palanca hace clic",
+    "pt": "A alavanca estala",
+    "id": "Tuas berklik",
+    "ms": "Tuil berklik",
+    "ja": "レバーがカチッと鳴る",
+    "fr": "Le levier claque"
+   }
+  },
+  {
+   "id": "timer_tick",
+   "kind": "sound",
+   "speaker": "",
+   "important": true,
+   "text": {
+    "ar": "تكتكة المؤقت",
+    "en": "Timer ticking",
+    "tr": "Sayaç tıkırdar",
+    "de": "Zeitgeber tickt",
+    "ur": "ٹائمر ٹک ٹک کرتا ہے",
+    "hi": "टाइमर टिक-टिक करता है",
+    "es": "El temporizador hace tic-tac",
+    "pt": "O cronômetro faz tique-taque",
+    "id": "Pengatur waktu berdetik",
+    "ms": "Pemasa berdetik",
+    "ja": "タイマーがチクタク鳴る",
+    "fr": "Le minuteur fait tic-tac"
+   }
+  },
+  {
+   "id": "crate_push",
+   "kind": "sound",
+   "speaker": "",
+   "important": false,
+   "text": {
+    "ar": "صندوق ينسحب",
+    "en": "Crate scrapes",
+    "tr": "Sandık sürtünür",
+    "de": "Kiste schleift",
+    "ur": "صندوق کھسکتا ہے",
+    "hi": "संदूक घिसटता है",
+    "es": "La caja se arrastra",
+    "pt": "A caixa arrasta",
+    "id": "Peti bergeser",
+    "ms": "Peti bergesel",
+    "ja": "木箱をおす音",
+    "fr": "La caisse racle le sol"
+   }
+  },
+  {
+   "id": "chase_start",
+   "kind": "sound",
+   "speaker": "",
+   "important": true,
+   "text": {
+    "ar": "بدأت المطاردة",
+    "en": "The chase begins",
+    "tr": "Kovalamaca başlıyor",
+    "de": "Die Verfolgung beginnt",
+    "ur": "پیچھا شروع ہوا",
+    "hi": "पीछा शुरू हुआ",
+    "es": "Empieza la persecución",
+    "pt": "A perseguição começa",
+    "id": "Pengejaran dimulai",
+    "ms": "Pengejaran bermula",
+    "ja": "おいかけっこの始まり",
+    "fr": "La poursuite commence"
+   }
+  },
+  {
+   "id": "death_spin",
+   "kind": "sound",
+   "speaker": "",
+   "important": true,
+   "text": {
+    "ar": "أرون يدور ويطيح",
+    "en": "Knocked out, spinning",
+    "tr": "Vurulup dönüyor",
+    "de": "Ausgeknockt, dreht sich",
+    "ur": "ہار کر گھومتا ہے",
+    "hi": "हारकर घूमता है",
+    "es": "Noqueado, da vueltas",
+    "pt": "Nocauteado, gira",
+    "id": "Terjatuh sambil berputar",
+    "ms": "Jatuh sambil berpusing",
+    "ja": "ふっとんで回る",
+    "fr": "K.-O., tourne sur lui-même"
+   }
+  },
+  {
+   "id": "death_fall",
+   "kind": "sound",
+   "speaker": "",
+   "important": true,
+   "text": {
+    "ar": "سقوط في الحفرة",
+    "en": "Falls into a pit",
+    "tr": "Çukura düşer",
+    "de": "Fällt in eine Grube",
+    "ur": "گڑھے میں گرتا ہے",
+    "hi": "गड्ढे में गिरता है",
+    "es": "Cae a un foso",
+    "pt": "Cai em um buraco",
+    "id": "Jatuh ke lubang",
+    "ms": "Jatuh ke dalam lubang",
+    "ja": "あなに落ちる",
+    "fr": "Tombe dans un trou"
+   }
+  },
+  {
+   "id": "death_splash",
+   "kind": "sound",
+   "speaker": "",
+   "important": true,
+   "text": {
+    "ar": "سقوط في الماء",
+    "en": "Splash into the water",
+    "tr": "Suya düşer",
+    "de": "Platscht ins Wasser",
+    "ur": "پانی میں چھینٹا",
+    "hi": "पानी में छपाक",
+    "es": "Cae al agua",
+    "pt": "Cai na água",
+    "id": "Jatuh ke air",
+    "ms": "Jatuh ke dalam air",
+    "ja": "水にドボン",
+    "fr": "Plouf dans l'eau"
+   }
+  },
+  {
+   "id": "death_sit",
+   "kind": "sound",
+   "speaker": "",
+   "important": true,
+   "text": {
+    "ar": "تجلس وتبكي",
+    "en": "Sits down, defeated",
+    "tr": "Yenilip oturur",
+    "de": "Setzt sich geschlagen hin",
+    "ur": "ہار کر بیٹھ جاتی ہے",
+    "hi": "हारकर बैठ जाती है",
+    "es": "Se sienta derrotada",
+    "pt": "Senta, derrotada",
+    "id": "Duduk kalah",
+    "ms": "Duduk kecewa",
+    "ja": "くやしくて座りこむ",
+    "fr": "S'assoit, vaincue"
+   }
+  },
+  {
+   "id": "bounce",
+   "kind": "sound",
+   "speaker": "",
+   "important": false,
+   "text": {
+    "ar": "نطّة",
+    "en": "Bounce",
+    "tr": "Zıplama",
+    "de": "Sprung",
+    "ur": "اچھال",
+    "hi": "उछाल",
+    "es": "Rebote",
+    "pt": "Quique",
+    "id": "Memantul",
+    "ms": "Melantun",
+    "ja": "バウンド",
+    "fr": "Rebond"
+   }
+  },
+  {
+   "id": "checkpoint",
+   "kind": "sound",
+   "speaker": "",
+   "important": true,
+   "text": {
+    "ar": "تم حفظ نقطة التفتيش",
+    "en": "Checkpoint saved",
+    "tr": "Kontrol noktası kaydedildi",
+    "de": "Checkpoint gespeichert",
+    "ur": "چیک پوائنٹ محفوظ",
+    "hi": "चेकपॉइंट सेव हुआ",
+    "es": "Punto de control guardado",
+    "pt": "Ponto de controle salvo",
+    "id": "Titik pemeriksaan tersimpan",
+    "ms": "Titik semak disimpan",
+    "ja": "チェックポイントを保存",
+    "fr": "Point de contrôle enregistré"
+   }
+  },
+  {
+   "id": "coin",
+   "kind": "sound",
+   "speaker": "",
+   "important": false,
+   "text": {
+    "ar": "تمرة",
+    "en": "Date collected",
+    "tr": "Hurma toplandı",
+    "de": "Dattel eingesammelt",
+    "ur": "کھجور مل گئی",
+    "hi": "खजूर मिली",
+    "es": "Dátil recogido",
+    "pt": "Tâmara coletada",
+    "id": "Kurma diambil",
+    "ms": "Kurma diambil",
+    "ja": "ナツメヤシを取った",
+    "fr": "Datte ramassée"
+   }
+  },
+  {
+   "id": "crate",
+   "kind": "sound",
+   "speaker": "",
+   "important": false,
+   "text": {
+    "ar": "تكسّر صندوق",
+    "en": "Crate breaks",
+    "tr": "Sandık kırılır",
+    "de": "Kiste zerbricht",
+    "ur": "صندوق ٹوٹا",
+    "hi": "संदूक टूटा",
+    "es": "Se rompe la caja",
+    "pt": "A caixa quebra",
+    "id": "Peti pecah",
+    "ms": "Peti pecah",
+    "ja": "箱がこわれる",
+    "fr": "La caisse se brise"
+   }
+  },
+  {
+   "id": "death",
+   "kind": "sound",
+   "speaker": "",
+   "important": true,
+   "text": {
+    "ar": "خسارة",
+    "en": "Knocked out",
+    "tr": "Yenildin",
+    "de": "Ausgeknockt",
+    "ur": "ہار گئے",
+    "hi": "हार गए",
+    "es": "Noqueado",
+    "pt": "Nocauteado",
+    "id": "Kalah",
+    "ms": "Kalah",
+    "ja": "やられた",
+    "fr": "K.-O."
+   }
+  },
+  {
+   "id": "doublejump",
+   "kind": "sound",
+   "speaker": "",
+   "important": false,
+   "text": {
+    "ar": "قفزة ثانية",
+    "en": "Double jump",
+    "tr": "Çift zıplama",
+    "de": "Doppelsprung",
+    "ur": "دوسری چھلانگ",
+    "hi": "दूसरी छलाँग",
+    "es": "Doble salto",
+    "pt": "Pulo duplo",
+    "id": "Lompat ganda",
+    "ms": "Lompat dua kali",
+    "ja": "二段ジャンプ",
+    "fr": "Double saut"
+   }
+  },
+  {
+   "id": "enemy",
+   "kind": "sound",
+   "speaker": "",
+   "important": true,
+   "text": {
+    "ar": "عدو قريب",
+    "en": "Enemy nearby",
+    "tr": "Yakında düşman",
+    "de": "Gegner in der Nähe",
+    "ur": "دشمن قریب ہے",
+    "hi": "दुश्मन पास है",
+    "es": "Enemigo cerca",
+    "pt": "Inimigo por perto",
+    "id": "Musuh di dekat",
+    "ms": "Musuh berdekatan",
+    "ja": "てきが近くにいる",
+    "fr": "Ennemi à proximité"
+   }
+  },
+  {
+   "id": "finish",
+   "kind": "sound",
+   "speaker": "",
+   "important": true,
+   "text": {
+    "ar": "نهاية المرحلة",
+    "en": "Stage finished",
+    "tr": "Bölüm bitti",
+    "de": "Level geschafft",
+    "ur": "مرحلہ ختم",
+    "hi": "स्तर पूरा",
+    "es": "Etapa completada",
+    "pt": "Fase concluída",
+    "id": "Tahap selesai",
+    "ms": "Peringkat tamat",
+    "ja": "ステージクリア",
+    "fr": "Niveau terminé"
+   }
+  },
+  {
+   "id": "gameover",
+   "kind": "sound",
+   "speaker": "",
+   "important": true,
+   "text": {
+    "ar": "انتهت اللعبة",
+    "en": "Game over",
+    "tr": "Oyun bitti",
+    "de": "Spiel vorbei",
+    "ur": "کھیل ختم",
+    "hi": "खेल खत्म",
+    "es": "Fin del juego",
+    "pt": "Fim de jogo",
+    "id": "Permainan selesai",
+    "ms": "Permainan tamat",
+    "ja": "ゲームオーバー",
+    "fr": "Partie terminée"
+   }
+  },
+  {
+   "id": "hit",
+   "kind": "sound",
+   "speaker": "",
+   "important": true,
+   "text": {
+    "ar": "ضربة",
+    "en": "Hit taken",
+    "tr": "Darbe alındı",
+    "de": "Treffer kassiert",
+    "ur": "چوٹ لگی",
+    "hi": "चोट लगी",
+    "es": "Golpe recibido",
+    "pt": "Golpe recebido",
+    "id": "Terkena pukulan",
+    "ms": "Terkena pukulan",
+    "ja": "ダメージを受けた",
+    "fr": "Coup reçu"
+   }
+  },
+  {
+   "id": "spin",
+   "kind": "sound",
+   "speaker": "",
+   "important": false,
+   "text": {
+    "ar": "دوران",
+    "en": "Spin attack",
+    "tr": "Dönme saldırısı",
+    "de": "Wirbelangriff",
+    "ur": "گھومنے والا حملہ",
+    "hi": "घूमने वाला हमला",
+    "es": "Ataque giratorio",
+    "pt": "Ataque giratório",
+    "id": "Serangan putar",
+    "ms": "Serangan pusing",
+    "ja": "回転こうげき",
+    "fr": "Attaque tournoyante"
+   }
+  },
+  {
+   "id": "swing",
+   "kind": "sound",
+   "speaker": "",
+   "important": false,
+   "text": {
+    "ar": "ضربة بالسلاح",
+    "en": "Swing",
+    "tr": "Savurma",
+    "de": "Schwung",
+    "ur": "وار",
+    "hi": "वार",
+    "es": "Golpe",
+    "pt": "Golpe",
+    "id": "Ayunan",
+    "ms": "Ayunan",
+    "ja": "ふる音",
+    "fr": "Coup porté"
+   }
+  },
+  {
+   "id": "crate_break",
+   "kind": "sound",
+   "speaker": "",
+   "important": false,
+   "text": {
+    "ar": "تكسّر صندوق",
+    "en": "Crate breaks",
+    "tr": "Sandık kırılır",
+    "de": "Kiste zerbricht",
+    "ur": "صندوق ٹوٹا",
+    "hi": "संदूक टूटा",
+    "es": "Se rompe la caja",
+    "pt": "A caixa quebra",
+    "id": "Peti pecah",
+    "ms": "Peti pecah",
+    "ja": "箱がこわれる",
+    "fr": "La caisse se brise"
+   }
+  },
+  {
+   "id": "jar_break",
+   "kind": "sound",
+   "speaker": "",
+   "important": false,
+   "text": {
+    "ar": "تكسّر جرّة",
+    "en": "Jar breaks",
+    "tr": "Kavanoz kırılır",
+    "de": "Krug zerbricht",
+    "ur": "مٹکا ٹوٹا",
+    "hi": "मटका टूटा",
+    "es": "Se rompe la jarra",
+    "pt": "O jarro quebra",
+    "id": "Guci pecah",
+    "ms": "Jag pecah",
+    "ja": "つぼがわれる",
+    "fr": "La jarre se brise"
+   }
+  },
+  {
+   "id": "glass_break",
+   "kind": "sound",
+   "speaker": "",
+   "important": false,
+   "text": {
+    "ar": "تكسّر زجاج",
+    "en": "Glass shatters",
+    "tr": "Cam kırılır",
+    "de": "Glas zerbricht",
+    "ur": "شیشہ ٹوٹا",
+    "hi": "शीशा टूटा",
+    "es": "Se rompe el cristal",
+    "pt": "O vidro quebra",
+    "id": "Kaca pecah",
+    "ms": "Kaca pecah",
+    "ja": "ガラスがわれる",
+    "fr": "Le verre se brise"
+   }
+  },
+  {
+   "id": "metal_break",
+   "kind": "sound",
+   "speaker": "",
+   "important": false,
+   "text": {
+    "ar": "تكسّر معدن",
+    "en": "Metal clangs",
+    "tr": "Metal çınlar",
+    "de": "Metall scheppert",
+    "ur": "دھات کی ٹنٹناہٹ",
+    "hi": "धातु की टनटनाहट",
+    "es": "Suena el metal",
+    "pt": "O metal ressoa",
+    "id": "Logam berdentang",
+    "ms": "Logam berdenting",
+    "ja": "金属がガシャンと鳴る",
+    "fr": "Le métal résonne"
+   }
+  },
+  {
+   "id": "wall_crumble",
+   "kind": "sound",
+   "speaker": "",
+   "important": false,
+   "text": {
+    "ar": "جدار ينهار",
+    "en": "Wall crumbles",
+    "tr": "Duvar çöker",
+    "de": "Mauer bröckelt",
+    "ur": "دیوار گرتی ہے",
+    "hi": "दीवार ढहती है",
+    "es": "El muro se desmorona",
+    "pt": "A parede desmorona",
+    "id": "Dinding runtuh",
+    "ms": "Dinding runtuh",
+    "ja": "かべがくずれる",
+    "fr": "Le mur s'effrite"
+   }
+  },
+  {
+   "id": "explosion",
+   "kind": "sound",
+   "speaker": "",
+   "important": true,
+   "text": {
+    "ar": "انفجار",
+    "en": "Explosion",
+    "tr": "Patlama",
+    "de": "Explosion",
+    "ur": "دھماکا",
+    "hi": "धमाका",
+    "es": "Explosión",
+    "pt": "Explosão",
+    "id": "Ledakan",
+    "ms": "Letupan",
+    "ja": "ばくはつ",
+    "fr": "Explosion"
+   }
+  },
+  {
+   "id": "boss_hit",
+   "kind": "sound",
+   "speaker": "",
+   "important": true,
+   "text": {
+    "ar": "ضربة للزعيم",
+    "en": "Boss is hit",
+    "tr": "Patron vuruldu",
+    "de": "Boss getroffen",
+    "ur": "باس کو چوٹ لگی",
+    "hi": "बॉस को चोट लगी",
+    "es": "Jefe golpeado",
+    "pt": "Chefe atingido",
+    "id": "Bos terkena",
+    "ms": "Bos terkena",
+    "ja": "ボスにヒット",
+    "fr": "Boss touché"
+   }
+  },
+  {
+   "id": "thunder_near",
+   "kind": "sound",
+   "speaker": "",
+   "important": true,
+   "text": {
+    "ar": "رعد قريب",
+    "en": "Thunder close by",
+    "tr": "Yakında gök gürültüsü",
+    "de": "Donner ganz nah",
+    "ur": "قریب گرج",
+    "hi": "पास में गड़गड़ाहट",
+    "es": "Trueno cercano",
+    "pt": "Trovão próximo",
+    "id": "Guntur dekat",
+    "ms": "Guruh dekat",
+    "ja": "近くのかみなり",
+    "fr": "Tonnerre tout proche"
+   }
+  },
+  {
+   "id": "thunder_far",
+   "kind": "sound",
+   "speaker": "",
+   "important": false,
+   "text": {
+    "ar": "رعد بعيد",
+    "en": "Thunder far away",
+    "tr": "Uzakta gök gürültüsü",
+    "de": "Donner in der Ferne",
+    "ur": "دور کی گرج",
+    "hi": "दूर की गड़गड़ाहट",
+    "es": "Trueno lejano",
+    "pt": "Trovão distante",
+    "id": "Guntur jauh",
+    "ms": "Guruh jauh",
+    "ja": "遠くのかみなり",
+    "fr": "Tonnerre lointain"
+   }
+  },
+  {
+   "id": "wind_gust",
+   "kind": "sound",
+   "speaker": "",
+   "important": false,
+   "text": {
+    "ar": "هبّة ريح",
+    "en": "Gust of wind",
+    "tr": "Rüzgâr esintisi",
+    "de": "Windböe",
+    "ur": "ہوا کا جھونکا",
+    "hi": "हवा का झोंका",
+    "es": "Ráfaga de viento",
+    "pt": "Rajada de vento",
+    "id": "Hembusan angin",
+    "ms": "Tiupan angin",
+    "ja": "風がふく",
+    "fr": "Rafale de vent"
+   }
+  }
+ ]
+}

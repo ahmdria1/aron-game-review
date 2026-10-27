@@ -1,0 +1,115 @@
+{
+  "lang": "de",
+  "profanity": {
+    "terms": [
+      "scheiss",
+      "scheisse",
+      "fotze",
+      "wichser",
+      "arschloch",
+      "hurensohn",
+      "schlampe",
+      "ficken",
+      "ficker",
+      "fickdich",
+      "mistkerl",
+      "kacke"
+    ],
+    "words": [
+      "arsch",
+      "hure",
+      "fick",
+      "kacke",
+      "scheisse"
+    ],
+    "exact": [
+      "fick"
+    ]
+  },
+  "insult": {
+    "terms": [
+      "vollidiot",
+      "trottel",
+      "dummkopf",
+      "blodmann",
+      "spast",
+      "idiot",
+      "depp"
+    ],
+    "words": [
+      "depp",
+      "mongo",
+      "spast",
+      "opfer",
+      "doof"
+    ],
+    "exact": [
+      "mongo"
+    ]
+  },
+  "hate": {
+    "terms": [
+      "kanake",
+      "zigeuner",
+      "judensau",
+      "kameltreiber",
+      "ziegenficker",
+      "heilhitler",
+      "siegheil",
+      "sieg heil",
+      "kanacke",
+      "untermensch"
+    ],
+    "words": [
+      "neger",
+      "jud",
+      "itaker",
+      "kanak"
+    ],
+    "exact": [
+      "neger"
+    ]
+  },
+  "sexual": {
+    "terms": [
+      "vergewalt",
+      "pornos",
+      "titten",
+      "schwanz",
+      "muschi",
+      "wixxer",
+      "nutte",
+      "kinderfick"
+    ],
+    "words": [
+      "porno",
+      "geil",
+      "titten",
+      "schwanz",
+      "muschi",
+      "nutte"
+    ],
+    "exact": [
+      "sex"
+    ]
+  },
+  "figures": {
+    "terms": [
+      "merkel",
+      "scholz",
+      "adolfhitler",
+      "fuhrer",
+      "reichskanzler"
+    ],
+    "words": [
+      "gott",
+      "teufel",
+      "merkel",
+      "scholz"
+    ],
+    "exact": [
+      "gott",
+      "herr"
+    ]
+  }
+}

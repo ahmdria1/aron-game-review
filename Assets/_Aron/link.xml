@@ -1,0 +1,16 @@
+<linker>
+  <!-- (c) Ahmed Alamrani. All rights reserved.
+       High managed stripping removes code it cannot see being used. Everything below is reached only by reflection:
+       JsonUtility (save, catalogs, config), the crypto providers, and Unity IAP. -->
+  <assembly fullname="Aron.Logic" preserve="all"/>
+  <assembly fullname="Aron.Store.Iap" preserve="all"/>
+  <assembly fullname="System.Core">
+    <type fullname="System.Security.Cryptography.*" preserve="all"/>
+  </assembly>
+  <assembly fullname="mscorlib">
+    <type fullname="System.Security.Cryptography.*" preserve="all"/>
+  </assembly>
+  <assembly fullname="System">
+    <type fullname="System.Security.Cryptography.X509Certificates.*" preserve="all"/>
+  </assembly>
+</linker>

@@ -1,0 +1,252 @@
+{
+  "order": 308,
+  "id": "iraq",
+  "nameAr": "العراق",
+  "nameEn": "Iraq",
+  "group": "arab",
+  "music": "music_country_iraq",
+  "ground": "#D2B48C",
+  "accent": "#007A3D",
+  "sky": "#A9C9E3",
+  "country": "iraq",
+  "costume": "",
+  "stages": [
+    {
+      "id": "iraq_1",
+      "nameAr": "شارع المتنبي",
+      "nameEn": "Al-Mutanabbi Street",
+      "terrain": "street",
+      "landmarks": [
+        "souq",
+        "monument"
+      ],
+      "mount": "",
+      "difficulty": 4,
+      "boss": false,
+      "lineAr": "شارع المتنبي، الكتب على الرصيف.",
+      "extra": "",
+      "time": "day",
+      "weather": "clear",
+      "type": "normal",
+      "costume": ""
+    },
+    {
+      "id": "iraq_2",
+      "nameAr": "سوق الشورجة",
+      "nameEn": "Shorja Market",
+      "terrain": "souq",
+      "landmarks": [
+        "souq",
+        "gate"
+      ],
+      "mount": "",
+      "difficulty": 4,
+      "boss": false,
+      "lineAr": "الشورجة زحمة، وهذولي لاحقيني!",
+      "extra": "",
+      "time": "day",
+      "weather": "clear",
+      "type": "action",
+      "costume": ""
+    },
+    {
+      "id": "iraq_3",
+      "nameAr": "طاق كسرى",
+      "nameEn": "Taq Kasra",
+      "terrain": "ruins",
+      "landmarks": [
+        "big_arch",
+        "palms"
+      ],
+      "mount": "",
+      "difficulty": 5,
+      "boss": false,
+      "lineAr": "أكبر قوس طابوق في العالم!",
+      "extra": "",
+      "time": "sunset",
+      "weather": "clear",
+      "type": "normal",
+      "costume": ""
+    },
+    {
+      "id": "iraq_4",
+      "nameAr": "بابل",
+      "nameEn": "Babylon",
+      "terrain": "ruins",
+      "landmarks": [
+        "gate",
+        "columns"
+      ],
+      "mount": "",
+      "difficulty": 5,
+      "boss": false,
+      "lineAr": "بابل! أسوار قديمة وبوابة زرقاء.",
+      "extra": "",
+      "time": "day",
+      "weather": "clear",
+      "type": "normal",
+      "costume": ""
+    },
+    {
+      "id": "iraq_5",
+      "nameAr": "الأهوار",
+      "nameEn": "The Marshes",
+      "terrain": "river",
+      "landmarks": [
+        "reeds",
+        "lake"
+      ],
+      "mount": "",
+      "difficulty": 6,
+      "boss": false,
+      "lineAr": "بين القصب في الأهوار، والمشحوف ينتظرني.",
+      "extra": "",
+      "time": "sunset",
+      "weather": "clear",
+      "type": "normal",
+      "costume": ""
+    },
+    {
+      "id": "iraq_6",
+      "nameAr": "بادية الأنبار",
+      "nameEn": "Anbar Desert",
+      "terrain": "desert",
+      "landmarks": [
+        "dunes",
+        "tents"
+      ],
+      "mount": "camel",
+      "difficulty": 6,
+      "boss": false,
+      "lineAr": "طوز! العاصفة الترابية جاية!",
+      "extra": "",
+      "time": "day",
+      "weather": "sandstorm",
+      "type": "chase",
+      "costume": ""
+    },
+    {
+      "id": "iraq_7",
+      "nameAr": "شط العرب",
+      "nameEn": "Shatt al-Arab",
+      "terrain": "river",
+      "landmarks": [
+        "palms",
+        "dhows"
+      ],
+      "mount": "",
+      "difficulty": 7,
+      "boss": false,
+      "lineAr": "النخل على الشط، والبصرة بالليل حلوة.",
+      "extra": "",
+      "time": "night",
+      "weather": "clear",
+      "type": "chase",
+      "costume": ""
+    },
+    {
+      "id": "iraq_race",
+      "nameAr": "سباق المشاحيف في الأهوار",
+      "nameEn": "Marsh Boat Race",
+      "terrain": "coast",
+      "landmarks": [
+        "reeds",
+        "waterwheel"
+      ],
+      "mount": "",
+      "difficulty": 7,
+      "boss": false,
+      "lineAr": "سباق! سباق المشاحيف في الأهوار، يلا نشوف مين الأول!",
+      "extra": "",
+      "time": "day",
+      "weather": "clear",
+      "type": "race",
+      "costume": "",
+      "race": "iraq_boat"
+    },
+    {
+      "id": "iraq_8",
+      "nameAr": "ساحة التحرير",
+      "nameEn": "Tahrir Square",
+      "terrain": "street",
+      "landmarks": [
+        "monument",
+        "big_arch"
+      ],
+      "mount": "",
+      "difficulty": 7,
+      "boss": true,
+      "lineAr": "وحش دجلة طالع من النهر...",
+      "extra": "",
+      "time": "night",
+      "weather": "rain",
+      "type": "boss",
+      "costume": ""
+    }
+  ],
+  "boss": {
+    "nameAr": "وحش دجلة",
+    "nameEn": "The Tigris Beast",
+    "model": "croc",
+    "headgear": "crown",
+    "body": "#2F5D50",
+    "trim": "#C8A951",
+    "projectile": "#4FA3A5",
+    "scale": 1.45,
+    "health": 14,
+    "introAr": "دجلة نهري، وبغداد ما تشوفها!",
+    "stunAr": "دخت... مثل دوامة النهر.",
+    "defeatAr": "رجعت للنهر... العراق لك.",
+    "phases": [
+      {
+        "threshold": 1.0,
+        "move": 3,
+        "charge": 12,
+        "interval": 3.0,
+        "attacks": [
+          "charge",
+          "leap"
+        ],
+        "tauntAr": "النهر يفيض!"
+      },
+      {
+        "threshold": 0.75,
+        "move": 3.5,
+        "charge": 13,
+        "interval": 2.6,
+        "attacks": [
+          "summon",
+          "volley"
+        ],
+        "tauntAr": "يا سمك البني!"
+      },
+      {
+        "threshold": 0.5,
+        "move": 4.5,
+        "charge": 15,
+        "interval": 2.2,
+        "attacks": [
+          "charge",
+          "leap",
+          "volley"
+        ],
+        "tauntAr": "ما راح تعبر!"
+      },
+      {
+        "threshold": 0.25,
+        "move": 5.5,
+        "charge": 17,
+        "interval": 1.8,
+        "attacks": [
+          "dash",
+          "wave",
+          "summon"
+        ],
+        "tauntAr": "الفيضان!"
+      }
+    ]
+  },
+  "skyline": [
+    "spiral_minaret"
+  ]
+}

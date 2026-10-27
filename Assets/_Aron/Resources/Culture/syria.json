@@ -1,0 +1,261 @@
+{
+  "country": "syria",
+  "dialect": "levantine",
+  "uiLanguage": "ar",
+  "greeting": {
+    "words": "أهلين، تفضلوا",
+    "wordsEn": "Hello, come in",
+    "wordsAr": "أهلين، تفضلوا",
+    "gesture": "hand_on_chest"
+  },
+  "hospitality": {
+    "ar": "في سوريا ما يطلع الضيف إلا وهو ماكل حلا.",
+    "en": "In Syria, no guest leaves without something sweet.",
+    "tr": "Suriye misafirini tatlı ikram etmeden göndermez.",
+    "de": "In Syrien geht kein Gast ohne etwas Süßes.",
+    "ur": "شام میں کوئی مہمان میٹھا کھائے بغیر نہیں جاتا۔",
+    "hi": "सीरिया में कोई मेहमान मीठा खाए बिना नहीं जाता।",
+    "es": "En Siria, ningún invitado se va sin algo dulce.",
+    "pt": "Na Síria, nenhum convidado sai sem um doce.",
+    "id": "Di Suriah, tamu tak pulang tanpa mencicipi yang manis.",
+    "ms": "Di Syria, tetamu tidak pulang tanpa menjamah manisan.",
+    "ja": "シリアでは甘いものを食べずに帰るお客さんはいません。",
+    "fr": "Syrie : aucun invité ne repart sans quelque chose de sucré."
+  },
+  "customs": [
+    {
+      "act": "offer_sweets",
+      "en": "Damascene sweets are offered on every visit.",
+      "ar": "الحلويات الشامية مع كل زيارة."
+    },
+    {
+      "act": "invite_in",
+      "en": "Houses open onto a courtyard with a jasmine tree.",
+      "ar": "البيوت على أرض ديار فيها ياسمين."
+    }
+  ],
+  "architecture": "Courtyard houses, covered souqs, waterwheels and stone castles.",
+  "palette": [
+    "#CE1126",
+    "#FFFFFF",
+    "#000000",
+    "#007A3D"
+  ],
+  "music": {
+    "style": "Muwashshah and dabke",
+    "instruments": [
+      "oud",
+      "qanun",
+      "darbuka"
+    ]
+  },
+  "street": {
+    "vendors": [
+      "juice seller",
+      "bread bakery"
+    ],
+    "cafe": "old courtyard café",
+    "kidsGames": [
+      "marbles",
+      "hopscotch"
+    ],
+    "crowd": "busy souqs, warm neighbours"
+  },
+  "foods": [
+    {
+      "id": "syria_shawarma",
+      "local": "Shawarma",
+      "name": {
+        "ar": "شاورما",
+        "en": "Chicken shawarma wrap",
+        "tr": "Shawarma",
+        "de": "Shawarma",
+        "ur": "شاورما",
+        "hi": "शावरमा",
+        "es": "Shawarma",
+        "pt": "Shawarma",
+        "id": "Shawarma",
+        "ms": "Shawarma",
+        "ja": "シャワルマ",
+        "fr": "Shawarma"
+      },
+      "fact": {
+        "ar": "يُباع حاراً في بسطات الشوارع في كل سوريا.",
+        "en": "Sold hot at street stalls all over Syria.",
+        "tr": "Suriye genelinde sokak tezgâhlarında sıcak satılır.",
+        "de": "Überall in Syrien heiß an Straßenständen verkauft.",
+        "ur": "پورے شام میں ٹھیلوں پر گرم گرم بکتا ہے۔",
+        "hi": "पूरे सीरिया में ठेलों पर गरमा-गरम बिकता है।",
+        "es": "Se vende caliente en puestos callejeros por todo el territorio de Siria.",
+        "pt": "Vende-se quente em bancas de rua em toda a Síria.",
+        "id": "Dijual hangat di kaki lima di seluruh Suriah.",
+        "ms": "Dijual panas di gerai tepi jalan di seluruh Syria.",
+        "ja": "シリアのあちこちの屋台で熱々で売られています。",
+        "fr": "Syrie : vendu tout chaud dans les stands de rue."
+      },
+      "shape": "wrap",
+      "color": "#C8803A",
+      "color2": "#F5EEDC",
+      "buff": "strength",
+      "price": 40
+    },
+    {
+      "id": "syria_kibbeh",
+      "local": "Kibbeh",
+      "name": {
+        "ar": "كبة",
+        "en": "Bulgur and meat croquettes",
+        "tr": "Kibbeh",
+        "de": "Kibbeh",
+        "ur": "کبہ",
+        "hi": "किब्बेह",
+        "es": "Kibbeh",
+        "pt": "Kibbeh",
+        "id": "Kibbeh",
+        "ms": "Kibbeh",
+        "ja": "キッベ",
+        "fr": "Kibbeh"
+      },
+      "fact": {
+        "ar": "تُعرف غالباً بأنها الأكلة الوطنية في سوريا.",
+        "en": "Often called the national dish of Syria.",
+        "tr": "Genellikle Suriye ulusal yemeği sayılır.",
+        "de": "Gilt oft als Nationalgericht von Syrien.",
+        "ur": "اسے اکثر شام کا قومی کھانا کہا جاتا ہے۔",
+        "hi": "इसे अक्सर सीरिया का राष्ट्रीय व्यंजन कहा जाता है।",
+        "es": "Se le suele llamar el plato nacional de Siria.",
+        "pt": "É muitas vezes chamado o prato nacional da Síria.",
+        "id": "Sering disebut hidangan nasional Suriah.",
+        "ms": "Sering disebut hidangan kebangsaan Syria.",
+        "ja": "シリアの国民食とよく言われます。",
+        "fr": "Syrie : souvent appelé le plat national."
+      },
+      "shape": "ball",
+      "color": "#8A4A1E",
+      "color2": "#E0C08A",
+      "buff": "strength",
+      "price": 50
+    },
+    {
+      "id": "syria_fattoush",
+      "local": "Fattoush",
+      "name": {
+        "ar": "فتوش",
+        "en": "Bread salad",
+        "tr": "Fattoush",
+        "de": "Fattoush",
+        "ur": "فتوش",
+        "hi": "फ़त्तूश",
+        "es": "Fattoush",
+        "pt": "Fattoush",
+        "id": "Fattoush",
+        "ms": "Fattoush",
+        "ja": "ファットゥーシュ",
+        "fr": "Fattoush"
+      },
+      "fact": {
+        "ar": "يتشاركونه من صحن كبير مع الأهل والضيوف في سوريا.",
+        "en": "Shared from one big plate with family and guests in Syria.",
+        "tr": "Suriye için aile ve misafirlerle büyük bir tabaktan paylaşılır.",
+        "de": "In Syrien von einer großen Platte mit Familie und Gästen geteilt.",
+        "ur": "شام میں گھر والوں اور مہمانوں کے ساتھ ایک بڑی پلیٹ سے کھایا جاتا ہے۔",
+        "hi": "सीरिया में परिवार और मेहमानों के साथ एक बड़ी थाली से खाया जाता है।",
+        "es": "Se comparte de una gran fuente con familia e invitados en Siria.",
+        "pt": "Partilha-se de uma grande travessa com família e convidados na Síria.",
+        "id": "Disantap bersama dari satu piring besar dengan keluarga dan tamu di Suriah.",
+        "ms": "Dikongsi dari satu pinggan besar bersama keluarga dan tetamu di Syria.",
+        "ja": "シリアでは大皿から家族やお客さんと分け合います。",
+        "fr": "Syrie : partagé dans un grand plat avec la famille et les invités."
+      },
+      "shape": "bowl",
+      "color": "#6A8F3A",
+      "color2": "#D9A050",
+      "buff": "speed",
+      "price": 35
+    },
+    {
+      "id": "syria_halawet_jibn",
+      "local": "Halawet el-jibn",
+      "name": {
+        "ar": "حلاوة الجبن",
+        "en": "Cheese rolls with cream",
+        "tr": "Halawet el-jibn",
+        "de": "Halawet el-jibn",
+        "ur": "حلاوت الجبن",
+        "hi": "हलावत अल-जुब्न",
+        "es": "Halawet el-jibn",
+        "pt": "Halawet el-jibn",
+        "id": "Halawet el-jibn",
+        "ms": "Halawet el-jibn",
+        "ja": "ハラーウェト・エル・ジブン",
+        "fr": "Halawet el-jibn"
+      },
+      "fact": {
+        "ar": "حلا محبوب في سوريا، أحلى مع الشاي أو القهوة.",
+        "en": "A sweet treat in Syria, best with tea or coffee.",
+        "tr": "Suriye için tatlı bir ikram, çay ya da kahveyle en güzeli.",
+        "de": "Eine süße Leckerei in Syrien, am besten mit Tee oder Kaffee.",
+        "ur": "شام کی میٹھی سوغات، چائے یا کافی کے ساتھ مزیدار۔",
+        "hi": "सीरिया की मीठी सौगात, चाय या कॉफ़ी के साथ सबसे अच्छी।",
+        "es": "Un dulce de Siria, mejor con té o café.",
+        "pt": "Um doce da Síria, melhor com chá ou café.",
+        "id": "Camilan manis di Suriah, paling enak dengan teh atau kopi.",
+        "ms": "Manisan di Syria, paling sedap dengan teh atau kopi.",
+        "ja": "シリアの甘いおやつ。お茶やコーヒーと一緒にどうぞ。",
+        "fr": "Syrie : une douceur, parfaite avec un thé ou un café."
+      },
+      "shape": "roll",
+      "color": "#F5EEDC",
+      "color2": "#6A8F3A",
+      "buff": "energy",
+      "price": 40
+    },
+    {
+      "id": "syria_barazek",
+      "local": "Barazek",
+      "name": {
+        "ar": "برازق",
+        "en": "Sesame pistachio cookies",
+        "tr": "Barazek",
+        "de": "Barazek",
+        "ur": "برازق",
+        "hi": "बराज़िक",
+        "es": "Barazek",
+        "pt": "Barazek",
+        "id": "Barazek",
+        "ms": "Barazek",
+        "ja": "バラーゼク",
+        "fr": "Barazek"
+      },
+      "fact": {
+        "ar": "سناك محبوب للطريق في سوريا.",
+        "en": "A favourite snack for the road in Syria.",
+        "tr": "Suriye için yolda yenen sevilen bir atıştırmalık.",
+        "de": "Ein beliebter Snack für unterwegs in Syrien.",
+        "ur": "شام میں سفر کا پسندیدہ ناشتہ۔",
+        "hi": "सीरिया में सफ़र का पसंदीदा नाश्ता।",
+        "es": "Un tentempié favorito para el camino en Siria.",
+        "pt": "Um petisco favorito para a viagem na Síria.",
+        "id": "Camilan favorit untuk perjalanan di Suriah.",
+        "ms": "Snek kegemaran untuk perjalanan di Syria.",
+        "ja": "シリアで旅のお供に人気のおやつです。",
+        "fr": "Syrie : un en-cas favori pour la route."
+      },
+      "shape": "cake",
+      "color": "#D9A050",
+      "color2": "#6A8F3A",
+      "buff": "energy",
+      "price": 25
+    }
+  ],
+  "animals": [
+    "syria_horse",
+    "syria_goat"
+  ],
+  "attackTrailVfx": "jasmine_petals",
+  "eatIdle": {
+    "dishId": "syria_shawarma",
+    "propModel": "food_shawarma",
+    "reaction": "yum"
+  }
+}

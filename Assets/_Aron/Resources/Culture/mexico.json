@@ -1,0 +1,262 @@
+{
+  "country": "mexico",
+  "dialect": "es-MX",
+  "uiLanguage": "es",
+  "greeting": {
+    "words": "¡Hola! ¿Qué tal?",
+    "wordsEn": "Hello! How are you?",
+    "wordsAr": "هلا! كيف الحال؟",
+    "gesture": "handshake"
+  },
+  "hospitality": {
+    "ar": "في المكسيك الضيف لازم يتعشى قبل لا يمشي.",
+    "en": "In Mexico, a guest is always asked to stay and eat.",
+    "tr": "Meksika misafiri her zaman yemeğe alıkoyar.",
+    "de": "In Mexiko wird ein Gast immer zum Essen eingeladen.",
+    "ur": "میکسیکو میں مہمان کو ہمیشہ کھانے پر روکا جاتا ہے۔",
+    "hi": "मेक्सिको में मेहमान को हमेशा खाने के लिए रोका जाता है।",
+    "es": "En México siempre se invita al huésped a quedarse a comer.",
+    "pt": "No México pede-se sempre ao convidado que fique para comer.",
+    "id": "Di Meksiko, tamu selalu diajak makan dulu.",
+    "ms": "Di Mexico, tetamu sentiasa diajak makan dahulu.",
+    "ja": "メキシコではお客さんはいつも食事に誘われます。",
+    "fr": "Mexique : on invite toujours l'invité à rester manger."
+  },
+  "customs": [
+    {
+      "act": "share_bread",
+      "en": "Fresh tortillas come to every table, warm in a cloth.",
+      "ar": "التورتيا الطازجة تجي ملفوفة بقماش."
+    },
+    {
+      "act": "play_game",
+      "en": "Kids break a piñata at birthday parties.",
+      "ar": "البزارين يكسرون البينياتا في الحفلات."
+    }
+  ],
+  "architecture": "Bright painted houses, stone step pyramids, cactus deserts and plazas.",
+  "palette": [
+    "#006847",
+    "#FFFFFF",
+    "#CE1126",
+    "#F2A13A"
+  ],
+  "music": {
+    "style": "Mariachi",
+    "instruments": [
+      "trumpet",
+      "guitarrón",
+      "violin"
+    ]
+  },
+  "street": {
+    "vendors": [
+      "elote cart",
+      "agua fresca stand"
+    ],
+    "cafe": "paletería ice-pop shop",
+    "kidsGames": [
+      "piñata",
+      "lotería"
+    ],
+    "crowd": "colourful, festive"
+  },
+  "foods": [
+    {
+      "id": "mexico_tacos",
+      "local": "Tacos de pollo",
+      "name": {
+        "ar": "تاكو دجاج",
+        "en": "Chicken tacos",
+        "tr": "Tacos de pollo",
+        "de": "Tacos de pollo",
+        "ur": "چکن ٹاکو",
+        "hi": "चिकन टाको",
+        "es": "Tacos de pollo",
+        "pt": "Tacos de pollo",
+        "id": "Tacos de pollo",
+        "ms": "Tacos de pollo",
+        "ja": "チキンタコス",
+        "fr": "Tacos de pollo"
+      },
+      "fact": {
+        "ar": "يُباع حاراً في بسطات الشوارع في كل المكسيك.",
+        "en": "Sold hot at street stalls all over Mexico.",
+        "tr": "Meksika genelinde sokak tezgâhlarında sıcak satılır.",
+        "de": "Überall in Mexiko heiß an Straßenständen verkauft.",
+        "ur": "پورے میکسیکو میں ٹھیلوں پر گرم گرم بکتا ہے۔",
+        "hi": "पूरे मेक्सिको में ठेलों पर गरमा-गरम बिकता है।",
+        "es": "Se vende caliente en puestos callejeros por todo el territorio de México.",
+        "pt": "Vende-se quente em bancas de rua em todo o México.",
+        "id": "Dijual hangat di kaki lima di seluruh Meksiko.",
+        "ms": "Dijual panas di gerai tepi jalan di seluruh Mexico.",
+        "ja": "メキシコのあちこちの屋台で熱々で売られています。",
+        "fr": "Mexique : vendu tout chaud dans les stands de rue."
+      },
+      "shape": "wrap",
+      "color": "#E0B070",
+      "color2": "#6A8F3A",
+      "buff": "strength",
+      "price": 50
+    },
+    {
+      "id": "mexico_guacamole",
+      "local": "Guacamole",
+      "name": {
+        "ar": "غواكامولي",
+        "en": "Avocado dip",
+        "tr": "Guacamole",
+        "de": "Guacamole",
+        "ur": "گواکامولے",
+        "hi": "ग्वाकामोले",
+        "es": "Guacamole",
+        "pt": "Guacamole",
+        "id": "Guacamole",
+        "ms": "Guacamole",
+        "ja": "ワカモレ",
+        "fr": "Guacamole"
+      },
+      "fact": {
+        "ar": "سناك محبوب للطريق في المكسيك.",
+        "en": "A favourite snack for the road in Mexico.",
+        "tr": "Meksika için yolda yenen sevilen bir atıştırmalık.",
+        "de": "Ein beliebter Snack für unterwegs in Mexiko.",
+        "ur": "میکسیکو میں سفر کا پسندیدہ ناشتہ۔",
+        "hi": "मेक्सिको में सफ़र का पसंदीदा नाश्ता।",
+        "es": "Un tentempié favorito para el camino en México.",
+        "pt": "Um petisco favorito para a viagem no México.",
+        "id": "Camilan favorit untuk perjalanan di Meksiko.",
+        "ms": "Snek kegemaran untuk perjalanan di Mexico.",
+        "ja": "メキシコで旅のお供に人気のおやつです。",
+        "fr": "Mexique : un en-cas favori pour la route."
+      },
+      "shape": "bowl",
+      "color": "#6A8F3A",
+      "color2": "#F2D06B",
+      "buff": "speed",
+      "price": 40
+    },
+    {
+      "id": "mexico_quesadilla",
+      "local": "Quesadilla",
+      "name": {
+        "ar": "كاساديا",
+        "en": "Cheese-filled tortilla",
+        "tr": "Quesadilla",
+        "de": "Quesadilla",
+        "ur": "کیساڈیا",
+        "hi": "केसाडिया",
+        "es": "Quesadilla",
+        "pt": "Quesadilla",
+        "id": "Quesadilla",
+        "ms": "Quesadilla",
+        "ja": "ケサディーヤ",
+        "fr": "Quesadilla"
+      },
+      "fact": {
+        "ar": "فطور محبوب في المكسيك.",
+        "en": "A favourite breakfast in Mexico.",
+        "tr": "Meksika için sevilen bir kahvaltı.",
+        "de": "Ein beliebtes Frühstück in Mexiko.",
+        "ur": "میکسیکو کا پسندیدہ ناشتہ۔",
+        "hi": "मेक्सिको का पसंदीदा नाश्ता।",
+        "es": "Un desayuno favorito en México.",
+        "pt": "Um pequeno-almoço favorito no México.",
+        "id": "Sarapan favorit di Meksiko.",
+        "ms": "Sarapan kegemaran di Mexico.",
+        "ja": "メキシコで人気の朝ごはんです。",
+        "fr": "Mexique : un petit-déjeuner très apprécié."
+      },
+      "shape": "roll",
+      "color": "#F2D06B",
+      "color2": "#6A8F3A",
+      "buff": "energy",
+      "price": 45
+    },
+    {
+      "id": "mexico_elote",
+      "local": "Elote",
+      "name": {
+        "ar": "ذرة مشوية",
+        "en": "Grilled corn on the cob",
+        "tr": "Elote",
+        "de": "Elote",
+        "ur": "بھنی ہوئی مکئی",
+        "hi": "भुना हुआ भुट्टा",
+        "es": "Elote",
+        "pt": "Elote",
+        "id": "Elote",
+        "ms": "Elote",
+        "ja": "エローテ",
+        "fr": "Elote"
+      },
+      "fact": {
+        "ar": "يُباع حاراً في بسطات الشوارع في كل المكسيك.",
+        "en": "Sold hot at street stalls all over Mexico.",
+        "tr": "Meksika genelinde sokak tezgâhlarında sıcak satılır.",
+        "de": "Überall in Mexiko heiß an Straßenständen verkauft.",
+        "ur": "پورے میکسیکو میں ٹھیلوں پر گرم گرم بکتا ہے۔",
+        "hi": "पूरे मेक्सिको में ठेलों पर गरमा-गरम बिकता है।",
+        "es": "Se vende caliente en puestos callejeros por todo el territorio de México.",
+        "pt": "Vende-se quente em bancas de rua em todo o México.",
+        "id": "Dijual hangat di kaki lima di seluruh Meksiko.",
+        "ms": "Dijual panas di gerai tepi jalan di seluruh Mexico.",
+        "ja": "メキシコのあちこちの屋台で熱々で売られています。",
+        "fr": "Mexique : vendu tout chaud dans les stands de rue."
+      },
+      "shape": "stick",
+      "color": "#F2C14E",
+      "color2": "#FFFFFF",
+      "buff": "energy",
+      "price": 25
+    },
+    {
+      "id": "mexico_churros_mx",
+      "local": "Churros con cajeta",
+      "name": {
+        "ar": "تشوروس بالكراميل",
+        "en": "Churros with caramel",
+        "tr": "Churros con cajeta",
+        "de": "Churros con cajeta",
+        "ur": "چُرّوس کیرامل",
+        "hi": "कैरमल चुर्रोस",
+        "es": "Churros con cajeta",
+        "pt": "Churros con cajeta",
+        "id": "Churros con cajeta",
+        "ms": "Churros con cajeta",
+        "ja": "カヘタのチュロス",
+        "fr": "Churros con cajeta"
+      },
+      "fact": {
+        "ar": "حلا محبوب في المكسيك، أحلى مع الشاي أو القهوة.",
+        "en": "A sweet treat in Mexico, best with tea or coffee.",
+        "tr": "Meksika için tatlı bir ikram, çay ya da kahveyle en güzeli.",
+        "de": "Eine süße Leckerei in Mexiko, am besten mit Tee oder Kaffee.",
+        "ur": "میکسیکو کی میٹھی سوغات، چائے یا کافی کے ساتھ مزیدار۔",
+        "hi": "मेक्सिको की मीठी सौगात, चाय या कॉफ़ी के साथ सबसे अच्छी।",
+        "es": "Un dulce de México, mejor con té o café.",
+        "pt": "Um doce do México, melhor com chá ou café.",
+        "id": "Camilan manis di Meksiko, paling enak dengan teh atau kopi.",
+        "ms": "Manisan di Mexico, paling sedap dengan teh atau kopi.",
+        "ja": "メキシコの甘いおやつ。お茶やコーヒーと一緒にどうぞ。",
+        "fr": "Mexique : une douceur, parfaite avec un thé ou un café."
+      },
+      "shape": "stick",
+      "color": "#C68A3A",
+      "color2": "#8A4A1E",
+      "buff": "magnet",
+      "price": 35
+    }
+  ],
+  "animals": [
+    "mexico_axolotl",
+    "mexico_horse",
+    "mexico_monarch_butterfly"
+  ],
+  "attackTrailVfx": "papel_picado",
+  "eatIdle": {
+    "dishId": "mexico_tacos",
+    "propModel": "food_tacos",
+    "reaction": "spicy"
+  }
+}

@@ -1,0 +1,261 @@
+{
+  "country": "sudan",
+  "dialect": "sudanese",
+  "uiLanguage": "ar",
+  "greeting": {
+    "words": "مرحب بيكم",
+    "wordsEn": "Welcome to you",
+    "wordsAr": "مرحب بيكم",
+    "gesture": "handshake"
+  },
+  "hospitality": {
+    "ar": "في السودان يُستقبل الضيف بفنجان قهوة.",
+    "en": "In Sudan, guests are welcomed with a cup of coffee.",
+    "tr": "Sudan misafirleri bir fincan kahveyle karşılar.",
+    "de": "Im Sudan empfängt man Gäste mit einer Tasse Kaffee.",
+    "ur": "سوڈان میں مہمان کا استقبال کافی کے کپ سے ہوتا ہے۔",
+    "hi": "सूडान में मेहमान का स्वागत एक कप कॉफ़ी से होता है।",
+    "es": "En Sudán se recibe a los invitados con una taza de café.",
+    "pt": "No Sudão recebem-se os convidados com um cafezinho.",
+    "id": "Di Sudan, tamu disambut dengan secangkir kopi.",
+    "ms": "Di Sudan, tetamu disambut dengan secawan kopi.",
+    "ja": "スーダンではお客さんをコーヒーでもてなします。",
+    "fr": "Soudan : on accueille les invités avec une tasse de café."
+  },
+  "customs": [
+    {
+      "act": "pour_coffee",
+      "en": "Jabana coffee with ginger, poured from a clay pot.",
+      "ar": "قهوة الجبنة بالزنجبيل."
+    },
+    {
+      "act": "invite_in",
+      "en": "Guests always eat first.",
+      "ar": "الضيف ياكل أول."
+    }
+  ],
+  "architecture": "Nubian painted houses, the pyramids of Meroë, the meeting of the two Niles.",
+  "palette": [
+    "#D21034",
+    "#FFFFFF",
+    "#000000",
+    "#007229"
+  ],
+  "music": {
+    "style": "Haqiba song",
+    "instruments": [
+      "tambour lyre",
+      "daluka drum",
+      "oud"
+    ]
+  },
+  "street": {
+    "vendors": [
+      "tea lady",
+      "ful seller"
+    ],
+    "cafe": "riverside tea stall",
+    "kidsGames": [
+      "sija stone game",
+      "football"
+    ],
+    "crowd": "calm, generous"
+  },
+  "foods": [
+    {
+      "id": "sudan_kisra",
+      "local": "Kisra",
+      "name": {
+        "ar": "كسرة",
+        "en": "Thin sorghum flatbread",
+        "tr": "Kisra",
+        "de": "Kisra",
+        "ur": "کسرہ",
+        "hi": "किसरा",
+        "es": "Kisra",
+        "pt": "Kisra",
+        "id": "Kisra",
+        "ms": "Kisra",
+        "ja": "キスラ",
+        "fr": "Kisra"
+      },
+      "fact": {
+        "ar": "خبز يومي على السفرة في كل السودان.",
+        "en": "Daily bread on tables across Sudan.",
+        "tr": "Sudan genelinde sofraların günlük ekmeği.",
+        "de": "Tägliches Brot auf den Tischen im ganzen Sudan.",
+        "ur": "پورے سوڈان میں دسترخوان کی روزانہ کی روٹی۔",
+        "hi": "पूरे सूडान में रोज़ की रोटी।",
+        "es": "Pan de cada día en las mesas de Sudán.",
+        "pt": "Pão de todos os dias nas mesas do Sudão.",
+        "id": "Roti sehari-hari di meja seluruh Sudan.",
+        "ms": "Roti harian di meja seluruh Sudan.",
+        "ja": "スーダンの食卓に毎日並ぶパンです。",
+        "fr": "Soudan : le pain de tous les jours sur la table."
+      },
+      "shape": "cake",
+      "color": "#E0C08A",
+      "color2": "#8A5A2A",
+      "buff": "energy",
+      "price": 20
+    },
+    {
+      "id": "sudan_ful",
+      "local": "Ful sudani",
+      "name": {
+        "ar": "فول سوداني",
+        "en": "Stewed beans with oil and cheese",
+        "tr": "Ful sudani",
+        "de": "Ful sudani",
+        "ur": "سوڈانی فول",
+        "hi": "सूडानी फ़ूल",
+        "es": "Ful sudani",
+        "pt": "Ful sudani",
+        "id": "Ful sudani",
+        "ms": "Ful sudani",
+        "ja": "スーダンのフール",
+        "fr": "Ful sudani"
+      },
+      "fact": {
+        "ar": "فطور محبوب في السودان.",
+        "en": "A favourite breakfast in Sudan.",
+        "tr": "Sudan için sevilen bir kahvaltı.",
+        "de": "Ein beliebtes Frühstück im Sudan.",
+        "ur": "سوڈان کا پسندیدہ ناشتہ۔",
+        "hi": "सूडान का पसंदीदा नाश्ता।",
+        "es": "Un desayuno favorito en Sudán.",
+        "pt": "Um pequeno-almoço favorito no Sudão.",
+        "id": "Sarapan favorit di Sudan.",
+        "ms": "Sarapan kegemaran di Sudan.",
+        "ja": "スーダンで人気の朝ごはんです。",
+        "fr": "Soudan : un petit-déjeuner très apprécié."
+      },
+      "shape": "bowl",
+      "color": "#8A5A2A",
+      "color2": "#F5EEDC",
+      "buff": "strength",
+      "price": 25
+    },
+    {
+      "id": "sudan_mulah",
+      "local": "Mullah bamia",
+      "name": {
+        "ar": "ملاح بامية",
+        "en": "Okra stew",
+        "tr": "Mullah bamia",
+        "de": "Mullah bamia",
+        "ur": "بھنڈی کا سالن",
+        "hi": "भिंडी का सालन",
+        "es": "Mullah bamia",
+        "pt": "Mullah bamia",
+        "id": "Mullah bamia",
+        "ms": "Mullah bamia",
+        "ja": "オクラのシチュー",
+        "fr": "Mullah bamia"
+      },
+      "fact": {
+        "ar": "يتشاركونه من صحن كبير مع الأهل والضيوف في السودان.",
+        "en": "Shared from one big plate with family and guests in Sudan.",
+        "tr": "Sudan için aile ve misafirlerle büyük bir tabaktan paylaşılır.",
+        "de": "Im Sudan von einer großen Platte mit Familie und Gästen geteilt.",
+        "ur": "سوڈان میں گھر والوں اور مہمانوں کے ساتھ ایک بڑی پلیٹ سے کھایا جاتا ہے۔",
+        "hi": "सूडान में परिवार और मेहमानों के साथ एक बड़ी थाली से खाया जाता है।",
+        "es": "Se comparte de una gran fuente con familia e invitados en Sudán.",
+        "pt": "Partilha-se de uma grande travessa com família e convidados no Sudão.",
+        "id": "Disantap bersama dari satu piring besar dengan keluarga dan tamu di Sudan.",
+        "ms": "Dikongsi dari satu pinggan besar bersama keluarga dan tetamu di Sudan.",
+        "ja": "スーダンでは大皿から家族やお客さんと分け合います。",
+        "fr": "Soudan : partagé dans un grand plat avec la famille et les invités."
+      },
+      "shape": "bowl",
+      "color": "#6A8F3A",
+      "color2": "#C8553D",
+      "buff": "strength",
+      "price": 45
+    },
+    {
+      "id": "sudan_asida",
+      "local": "Asida",
+      "name": {
+        "ar": "عصيدة",
+        "en": "Sorghum porridge",
+        "tr": "Asida",
+        "de": "Asida",
+        "ur": "عصیدہ",
+        "hi": "असीदा",
+        "es": "Asida",
+        "pt": "Asida",
+        "id": "Asida",
+        "ms": "Asida",
+        "ja": "アシーダ",
+        "fr": "Asida"
+      },
+      "fact": {
+        "ar": "تُطبخ في الأعراس والأعياد ولمّات العائلة في السودان.",
+        "en": "Cooked for weddings, Eid and big family days in Sudan.",
+        "tr": "Sudan düğünlerinde, bayramlarda ve aile günlerinde pişirilir.",
+        "de": "Im Sudan gekocht für Hochzeiten, Eid und große Familientage.",
+        "ur": "سوڈان میں شادیوں، عید اور خاندانی دنوں پر پکایا جاتا ہے۔",
+        "hi": "सूडान में शादियों, ईद और परिवार के ख़ास दिनों पर बनता है।",
+        "es": "Se cocina para bodas, Eid y grandes días en familia en Sudán.",
+        "pt": "Cozinhado para casamentos, Eid e grandes dias de família no Sudão.",
+        "id": "Dimasak untuk pernikahan, Idul Fitri, dan kumpul keluarga di Sudan.",
+        "ms": "Dimasak untuk majlis kahwin, Hari Raya dan hari keluarga di Sudan.",
+        "ja": "スーダンでは結婚式やイード、家族の集まりで作られます。",
+        "fr": "Soudan : préparé pour les mariages, l'Aïd et les grands jours en famille."
+      },
+      "shape": "bowl",
+      "color": "#E0C890",
+      "color2": "#8A4A1E",
+      "buff": "energy",
+      "price": 35
+    },
+    {
+      "id": "sudan_jabana",
+      "local": "Jabana",
+      "name": {
+        "ar": "جبنة",
+        "en": "Ginger coffee",
+        "tr": "Jabana",
+        "de": "Jabana",
+        "ur": "جبنہ کافی",
+        "hi": "जबना कॉफ़ी",
+        "es": "Jabana",
+        "pt": "Jabana",
+        "id": "Jabana",
+        "ms": "Jabana",
+        "ja": "ジャバナコーヒー",
+        "fr": "Jabana"
+      },
+      "fact": {
+        "ar": "مشروب يُقدَّم للضيف في السودان.",
+        "en": "A drink offered to guests in Sudan.",
+        "tr": "Sudan için misafire ikram edilen bir içecek.",
+        "de": "Ein Getränk, das man im Sudan Gästen anbietet.",
+        "ur": "سوڈان میں مہمان کو پیش کیا جانے والا مشروب۔",
+        "hi": "सूडान में मेहमान को दिया जाने वाला पेय।",
+        "es": "Una bebida que se ofrece a los invitados en Sudán.",
+        "pt": "Uma bebida oferecida aos convidados no Sudão.",
+        "id": "Minuman yang disuguhkan untuk tamu di Sudan.",
+        "ms": "Minuman yang dihidangkan kepada tetamu di Sudan.",
+        "ja": "スーダンでお客さんに出される飲み物です。",
+        "fr": "Soudan : une boisson offerte aux invités."
+      },
+      "shape": "cup",
+      "color": "#6B3A1E",
+      "color2": "#C8A060",
+      "buff": "speed",
+      "price": 20
+    }
+  ],
+  "animals": [
+    "sudan_camel",
+    "sudan_crocodile"
+  ],
+  "attackTrailVfx": "henna_swirl",
+  "eatIdle": {
+    "dishId": "sudan_kisra",
+    "propModel": "food_kisra",
+    "reaction": "yum"
+  }
+}

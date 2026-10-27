@@ -1,0 +1,3340 @@
+{
+ "version": 1,
+ "kinds": [
+  "start",
+  "start2",
+  "overtake",
+  "overtaken",
+  "boost",
+  "crash",
+  "win",
+  "lose"
+ ],
+ "rivals": [
+  {
+   "id": "rival_saudi",
+   "country": "saudi",
+   "nameEn": "Sahm",
+   "nameAr": "سهم",
+   "female": false,
+   "modest": true,
+   "mount": "horse",
+   "style": "clean",
+   "model": "rival_saudi",
+   "outfit": "white thobe, red-and-white head cloth, racing vest",
+   "outfitReview": false,
+   "lines": [
+    {
+     "id": "rival_saudi_start",
+     "kind": "start",
+     "lang": "ar",
+     "dialect": "najdi",
+     "text": "بالتوفيق يا بطل، يلا نتسابق!",
+     "subtitleAr": "بالتوفيق! خلّنا نسوي سباق حلو!",
+     "subtitleKey": "rival_bark_start",
+     "review": "dialect"
+    },
+    {
+     "id": "rival_saudi_start2",
+     "kind": "start2",
+     "lang": "ar",
+     "dialect": "najdi",
+     "text": "الله يوفّق اللي يستاهل!",
+     "subtitleAr": "ليفز الأفضل!",
+     "subtitleKey": "rival_bark_start2",
+     "review": "dialect"
+    },
+    {
+     "id": "rival_saudi_overtake",
+     "kind": "overtake",
+     "lang": "ar",
+     "dialect": "najdi",
+     "text": "نلتقي عند خط النهاية!",
+     "subtitleAr": "نشوفك عند خط النهاية!",
+     "subtitleKey": "rival_bark_overtake",
+     "review": "dialect"
+    },
+    {
+     "id": "rival_saudi_overtaken",
+     "kind": "overtaken",
+     "lang": "ar",
+     "dialect": "najdi",
+     "text": "وش هالسرعة! ما شاء الله!",
+     "subtitleAr": "ما شاء الله، ما أسرعك!",
+     "subtitleKey": "rival_bark_overtaken",
+     "review": "dialect"
+    },
+    {
+     "id": "rival_saudi_boost",
+     "kind": "boost",
+     "lang": "ar",
+     "dialect": "najdi",
+     "text": "أبشر، هذي أنا طالع!",
+     "subtitleAr": "هذا أنا أنطلق!",
+     "subtitleKey": "rival_bark_boost",
+     "review": "dialect"
+    },
+    {
+     "id": "rival_saudi_crash",
+     "kind": "crash",
+     "lang": "ar",
+     "dialect": "najdi",
+     "text": "يا ساتر! أنا بخير!",
+     "subtitleAr": "أوه! أنا بخير!",
+     "subtitleKey": "rival_bark_crash",
+     "review": "dialect"
+    },
+    {
+     "id": "rival_saudi_win",
+     "kind": "win",
+     "lang": "ar",
+     "dialect": "najdi",
+     "text": "سباق حلو، يعطيك العافية!",
+     "subtitleAr": "كان سباقًا ممتعًا!",
+     "subtitleKey": "rival_bark_win",
+     "review": "dialect"
+    },
+    {
+     "id": "rival_saudi_lose",
+     "kind": "lose",
+     "lang": "ar",
+     "dialect": "najdi",
+     "text": "مبروك عليك، تستاهل!",
+     "subtitleAr": "أحسنت، أنت فزت!",
+     "subtitleKey": "rival_bark_lose",
+     "review": "dialect"
+    }
+   ]
+  },
+  {
+   "id": "rival_kuwait",
+   "country": "kuwait",
+   "nameEn": "Dana",
+   "nameAr": "دانة",
+   "female": true,
+   "modest": true,
+   "mount": "camel",
+   "style": "steady",
+   "model": "rival_kuwait",
+   "outfit": "long sea-blue tunic over trousers, soft scarf under a racing helmet",
+   "outfitReview": true,
+   "lines": [
+    {
+     "id": "rival_kuwait_start",
+     "kind": "start",
+     "lang": "ar",
+     "dialect": "kuwaiti",
+     "text": "الله يوفقك، يلا نتسابق!",
+     "subtitleAr": "بالتوفيق! خلّنا نسوي سباق حلو!",
+     "subtitleKey": "rival_bark_start",
+     "review": "dialect"
+    },
+    {
+     "id": "rival_kuwait_start2",
+     "kind": "start2",
+     "lang": "ar",
+     "dialect": "kuwaiti",
+     "text": "اللي يستاهل يفوز!",
+     "subtitleAr": "ليفز الأفضل!",
+     "subtitleKey": "rival_bark_start2",
+     "review": "dialect"
+    },
+    {
+     "id": "rival_kuwait_overtake",
+     "kind": "overtake",
+     "lang": "ar",
+     "dialect": "kuwaiti",
+     "text": "نشوفك عند النهاية!",
+     "subtitleAr": "نشوفك عند خط النهاية!",
+     "subtitleKey": "rival_bark_overtake",
+     "review": "dialect"
+    },
+    {
+     "id": "rival_kuwait_overtaken",
+     "kind": "overtaken",
+     "lang": "ar",
+     "dialect": "kuwaiti",
+     "text": "شنو هالسرعة! ما شاء الله!",
+     "subtitleAr": "ما شاء الله، ما أسرعك!",
+     "subtitleKey": "rival_bark_overtaken",
+     "review": "dialect"
+    },
+    {
+     "id": "rival_kuwait_boost",
+     "kind": "boost",
+     "lang": "ar",
+     "dialect": "kuwaiti",
+     "text": "هذا أنا طالعة، شدّ حيلك!",
+     "subtitleAr": "هذا أنا أنطلق!",
+     "subtitleKey": "rival_bark_boost",
+     "review": "dialect"
+    },
+    {
+     "id": "rival_kuwait_crash",
+     "kind": "crash",
+     "lang": "ar",
+     "dialect": "kuwaiti",
+     "text": "أووه! أنا زينة، لا تحاتي!",
+     "subtitleAr": "أوه! أنا بخير!",
+     "subtitleKey": "rival_bark_crash",
+     "review": "dialect"
+    },
+    {
+     "id": "rival_kuwait_win",
+     "kind": "win",
+     "lang": "ar",
+     "dialect": "kuwaiti",
+     "text": "سباق حلو، يعطيك العافية!",
+     "subtitleAr": "كان سباقًا ممتعًا!",
+     "subtitleKey": "rival_bark_win",
+     "review": "dialect"
+    },
+    {
+     "id": "rival_kuwait_lose",
+     "kind": "lose",
+     "lang": "ar",
+     "dialect": "kuwaiti",
+     "text": "مبروك، تستاهل الفوز!",
+     "subtitleAr": "أحسنت، أنت فزت!",
+     "subtitleKey": "rival_bark_lose",
+     "review": "dialect"
+    }
+   ]
+  },
+  {
+   "id": "rival_uae",
+   "country": "uae",
+   "nameEn": "Saqr",
+   "nameAr": "صقر",
+   "female": false,
+   "modest": true,
+   "mount": "falcon_glider",
+   "style": "aggressive",
+   "model": "rival_uae",
+   "outfit": "white kandura, light head cloth, falcon-grey racing vest",
+   "outfitReview": false,
+   "lines": [
+    {
+     "id": "rival_uae_start",
+     "kind": "start",
+     "lang": "ar",
+     "dialect": "emirati",
+     "text": "بالتوفيق، يالله نتسابق!",
+     "subtitleAr": "بالتوفيق! خلّنا نسوي سباق حلو!",
+     "subtitleKey": "rival_bark_start",
+     "review": "dialect"
+    },
+    {
+     "id": "rival_uae_start2",
+     "kind": "start2",
+     "lang": "ar",
+     "dialect": "emirati",
+     "text": "الله يوفّق اللي يستاهل!",
+     "subtitleAr": "ليفز الأفضل!",
+     "subtitleKey": "rival_bark_start2",
+     "review": "dialect"
+    },
+    {
+     "id": "rival_uae_overtake",
+     "kind": "overtake",
+     "lang": "ar",
+     "dialect": "emirati",
+     "text": "نشوفك عند خط النهاية!",
+     "subtitleAr": "نشوفك عند خط النهاية!",
+     "subtitleKey": "rival_bark_overtake",
+     "review": "dialect"
+    },
+    {
+     "id": "rival_uae_overtaken",
+     "kind": "overtaken",
+     "lang": "ar",
+     "dialect": "emirati",
+     "text": "ما شاء الله، شو هالسرعة!",
+     "subtitleAr": "ما شاء الله، ما أسرعك!",
+     "subtitleKey": "rival_bark_overtaken",
+     "review": "dialect"
+    },
+    {
+     "id": "rival_uae_boost",
+     "kind": "boost",
+     "lang": "ar",
+     "dialect": "emirati",
+     "text": "هذا آنا طالع!",
+     "subtitleAr": "هذا أنا أنطلق!",
+     "subtitleKey": "rival_bark_boost",
+     "review": "dialect"
+    },
+    {
+     "id": "rival_uae_crash",
+     "kind": "crash",
+     "lang": "ar",
+     "dialect": "emirati",
+     "text": "أوه! آنا بخير، لا تخاف!",
+     "subtitleAr": "أوه! أنا بخير!",
+     "subtitleKey": "rival_bark_crash",
+     "review": "dialect"
+    },
+    {
+     "id": "rival_uae_win",
+     "kind": "win",
+     "lang": "ar",
+     "dialect": "emirati",
+     "text": "سباق حلو، مشكور!",
+     "subtitleAr": "كان سباقًا ممتعًا!",
+     "subtitleKey": "rival_bark_win",
+     "review": "dialect"
+    },
+    {
+     "id": "rival_uae_lose",
+     "kind": "lose",
+     "lang": "ar",
+     "dialect": "emirati",
+     "text": "مبروك، تستاهل الفوز!",
+     "subtitleAr": "أحسنت، أنت فزت!",
+     "subtitleKey": "rival_bark_lose",
+     "review": "dialect"
+    }
+   ]
+  },
+  {
+   "id": "rival_bahrain",
+   "country": "bahrain",
+   "nameEn": "Lulwa",
+   "nameAr": "لولوة",
+   "female": true,
+   "modest": true,
+   "mount": "horse",
+   "style": "clean",
+   "model": "rival_bahrain",
+   "outfit": "pearl-white long tunic with trousers, pale scarf under a helmet",
+   "outfitReview": true,
+   "lines": [
+    {
+     "id": "rival_bahrain_start",
+     "kind": "start",
+     "lang": "ar",
+     "dialect": "bahraini",
+     "text": "الله يوفقك، يالله نتسابق!",
+     "subtitleAr": "بالتوفيق! خلّنا نسوي سباق حلو!",
+     "subtitleKey": "rival_bark_start",
+     "review": "dialect"
+    },
+    {
+     "id": "rival_bahrain_start2",
+     "kind": "start2",
+     "lang": "ar",
+     "dialect": "bahraini",
+     "text": "اللي يستاهل يفوز!",
+     "subtitleAr": "ليفز الأفضل!",
+     "subtitleKey": "rival_bark_start2",
+     "review": "dialect"
+    },
+    {
+     "id": "rival_bahrain_overtake",
+     "kind": "overtake",
+     "lang": "ar",
+     "dialect": "bahraini",
+     "text": "نلتقي عند النهاية!",
+     "subtitleAr": "نشوفك عند خط النهاية!",
+     "subtitleKey": "rival_bark_overtake",
+     "review": "dialect"
+    },
+    {
+     "id": "rival_bahrain_overtaken",
+     "kind": "overtaken",
+     "lang": "ar",
+     "dialect": "bahraini",
+     "text": "شنو هالسرعة! ما شاء الله!",
+     "subtitleAr": "ما شاء الله، ما أسرعك!",
+     "subtitleKey": "rival_bark_overtaken",
+     "review": "dialect"
+    },
+    {
+     "id": "rival_bahrain_boost",
+     "kind": "boost",
+     "lang": "ar",
+     "dialect": "bahraini",
+     "text": "هذا أنا طالعة!",
+     "subtitleAr": "هذا أنا أنطلق!",
+     "subtitleKey": "rival_bark_boost",
+     "review": "dialect"
+    },
+    {
+     "id": "rival_bahrain_crash",
+     "kind": "crash",
+     "lang": "ar",
+     "dialect": "bahraini",
+     "text": "أوه! أنا زينة، لا تخاف!",
+     "subtitleAr": "أوه! أنا بخير!",
+     "subtitleKey": "rival_bark_crash",
+     "review": "dialect"
+    },
+    {
+     "id": "rival_bahrain_win",
+     "kind": "win",
+     "lang": "ar",
+     "dialect": "bahraini",
+     "text": "سباق حلو، مشكور!",
+     "subtitleAr": "كان سباقًا ممتعًا!",
+     "subtitleKey": "rival_bark_win",
+     "review": "dialect"
+    },
+    {
+     "id": "rival_bahrain_lose",
+     "kind": "lose",
+     "lang": "ar",
+     "dialect": "bahraini",
+     "text": "مبروك، تستاهل!",
+     "subtitleAr": "أحسنت، أنت فزت!",
+     "subtitleKey": "rival_bark_lose",
+     "review": "dialect"
+    }
+   ]
+  },
+  {
+   "id": "rival_qatar",
+   "country": "qatar",
+   "nameEn": "Najm",
+   "nameAr": "نجم",
+   "female": false,
+   "modest": true,
+   "mount": "camel",
+   "style": "steady",
+   "model": "rival_qatar",
+   "outfit": "white thobe, maroon-and-white head cloth, racing vest",
+   "outfitReview": false,
+   "lines": [
+    {
+     "id": "rival_qatar_start",
+     "kind": "start",
+     "lang": "ar",
+     "dialect": "qatari",
+     "text": "بالتوفيق، يالله نتسابق!",
+     "subtitleAr": "بالتوفيق! خلّنا نسوي سباق حلو!",
+     "subtitleKey": "rival_bark_start",
+     "review": "dialect"
+    },
+    {
+     "id": "rival_qatar_start2",
+     "kind": "start2",
+     "lang": "ar",
+     "dialect": "qatari",
+     "text": "الله يوفق اللي يستاهل!",
+     "subtitleAr": "ليفز الأفضل!",
+     "subtitleKey": "rival_bark_start2",
+     "review": "dialect"
+    },
+    {
+     "id": "rival_qatar_overtake",
+     "kind": "overtake",
+     "lang": "ar",
+     "dialect": "qatari",
+     "text": "نشوفك عند النهاية!",
+     "subtitleAr": "نشوفك عند خط النهاية!",
+     "subtitleKey": "rival_bark_overtake",
+     "review": "dialect"
+    },
+    {
+     "id": "rival_qatar_overtaken",
+     "kind": "overtaken",
+     "lang": "ar",
+     "dialect": "qatari",
+     "text": "ما شاء الله، شو هالسرعة!",
+     "subtitleAr": "ما شاء الله، ما أسرعك!",
+     "subtitleKey": "rival_bark_overtaken",
+     "review": "dialect"
+    },
+    {
+     "id": "rival_qatar_boost",
+     "kind": "boost",
+     "lang": "ar",
+     "dialect": "qatari",
+     "text": "هذا أنا طالع، شد حيلك!",
+     "subtitleAr": "هذا أنا أنطلق!",
+     "subtitleKey": "rival_bark_boost",
+     "review": "dialect"
+    },
+    {
+     "id": "rival_qatar_crash",
+     "kind": "crash",
+     "lang": "ar",
+     "dialect": "qatari",
+     "text": "أوه! أنا بخير، لا تخاف!",
+     "subtitleAr": "أوه! أنا بخير!",
+     "subtitleKey": "rival_bark_crash",
+     "review": "dialect"
+    },
+    {
+     "id": "rival_qatar_win",
+     "kind": "win",
+     "lang": "ar",
+     "dialect": "qatari",
+     "text": "سباق حلو، مشكور!",
+     "subtitleAr": "كان سباقًا ممتعًا!",
+     "subtitleKey": "rival_bark_win",
+     "review": "dialect"
+    },
+    {
+     "id": "rival_qatar_lose",
+     "kind": "lose",
+     "lang": "ar",
+     "dialect": "qatari",
+     "text": "مبروك، تستاهل الفوز!",
+     "subtitleAr": "أحسنت، أنت فزت!",
+     "subtitleKey": "rival_bark_lose",
+     "review": "dialect"
+    }
+   ]
+  },
+  {
+   "id": "rival_oman",
+   "country": "oman",
+   "nameEn": "Mazin",
+   "nameAr": "مازن",
+   "female": false,
+   "modest": true,
+   "mount": "camel",
+   "style": "clean",
+   "model": "rival_oman",
+   "outfit": "white dishdasha, embroidered cap, green sash",
+   "outfitReview": false,
+   "lines": [
+    {
+     "id": "rival_oman_start",
+     "kind": "start",
+     "lang": "ar",
+     "dialect": "omani",
+     "text": "بالتوفيق، يا الله نتسابق!",
+     "subtitleAr": "بالتوفيق! خلّنا نسوي سباق حلو!",
+     "subtitleKey": "rival_bark_start",
+     "review": "dialect"
+    },
+    {
+     "id": "rival_oman_start2",
+     "kind": "start2",
+     "lang": "ar",
+     "dialect": "omani",
+     "text": "اللي يستاهل يفوز!",
+     "subtitleAr": "ليفز الأفضل!",
+     "subtitleKey": "rival_bark_start2",
+     "review": "dialect"
+    },
+    {
+     "id": "rival_oman_overtake",
+     "kind": "overtake",
+     "lang": "ar",
+     "dialect": "omani",
+     "text": "نلتقي عند النهاية!",
+     "subtitleAr": "نشوفك عند خط النهاية!",
+     "subtitleKey": "rival_bark_overtake",
+     "review": "dialect"
+    },
+    {
+     "id": "rival_oman_overtaken",
+     "kind": "overtaken",
+     "lang": "ar",
+     "dialect": "omani",
+     "text": "ما شاء الله، شو هالسرعة!",
+     "subtitleAr": "ما شاء الله، ما أسرعك!",
+     "subtitleKey": "rival_bark_overtaken",
+     "review": "dialect"
+    },
+    {
+     "id": "rival_oman_boost",
+     "kind": "boost",
+     "lang": "ar",
+     "dialect": "omani",
+     "text": "ها أنا طالع!",
+     "subtitleAr": "هذا أنا أنطلق!",
+     "subtitleKey": "rival_bark_boost",
+     "review": "dialect"
+    },
+    {
+     "id": "rival_oman_crash",
+     "kind": "crash",
+     "lang": "ar",
+     "dialect": "omani",
+     "text": "أوه! أنا بخير، لا تخاف!",
+     "subtitleAr": "أوه! أنا بخير!",
+     "subtitleKey": "rival_bark_crash",
+     "review": "dialect"
+    },
+    {
+     "id": "rival_oman_win",
+     "kind": "win",
+     "lang": "ar",
+     "dialect": "omani",
+     "text": "سباق جميل، شكرًا لك!",
+     "subtitleAr": "كان سباقًا ممتعًا!",
+     "subtitleKey": "rival_bark_win",
+     "review": "dialect"
+    },
+    {
+     "id": "rival_oman_lose",
+     "kind": "lose",
+     "lang": "ar",
+     "dialect": "omani",
+     "text": "مبروك، تستاهل!",
+     "subtitleAr": "أحسنت، أنت فزت!",
+     "subtitleKey": "rival_bark_lose",
+     "review": "dialect"
+    }
+   ]
+  },
+  {
+   "id": "rival_yemen",
+   "country": "yemen",
+   "nameEn": "Amal",
+   "nameAr": "أمل",
+   "female": true,
+   "modest": true,
+   "mount": "camel",
+   "style": "steady",
+   "model": "rival_yemen",
+   "outfit": "long patterned tunic with trousers, soft scarf under a helmet",
+   "outfitReview": true,
+   "lines": [
+    {
+     "id": "rival_yemen_start",
+     "kind": "start",
+     "lang": "ar",
+     "dialect": "yemeni",
+     "text": "بالتوفيق، يا الله نتسابق!",
+     "subtitleAr": "بالتوفيق! خلّنا نسوي سباق حلو!",
+     "subtitleKey": "rival_bark_start",
+     "review": "dialect"
+    },
+    {
+     "id": "rival_yemen_start2",
+     "kind": "start2",
+     "lang": "ar",
+     "dialect": "yemeni",
+     "text": "الله يوفق اللي يستحق!",
+     "subtitleAr": "ليفز الأفضل!",
+     "subtitleKey": "rival_bark_start2",
+     "review": "dialect"
+    },
+    {
+     "id": "rival_yemen_overtake",
+     "kind": "overtake",
+     "lang": "ar",
+     "dialect": "yemeni",
+     "text": "نشوفك عند النهاية!",
+     "subtitleAr": "نشوفك عند خط النهاية!",
+     "subtitleKey": "rival_bark_overtake",
+     "review": "dialect"
+    },
+    {
+     "id": "rival_yemen_overtaken",
+     "kind": "overtaken",
+     "lang": "ar",
+     "dialect": "yemeni",
+     "text": "إيش هالسرعة، ما شاء الله!",
+     "subtitleAr": "ما شاء الله، ما أسرعك!",
+     "subtitleKey": "rival_bark_overtaken",
+     "review": "dialect"
+    },
+    {
+     "id": "rival_yemen_boost",
+     "kind": "boost",
+     "lang": "ar",
+     "dialect": "yemeni",
+     "text": "هذي أنا طالعة!",
+     "subtitleAr": "هذا أنا أنطلق!",
+     "subtitleKey": "rival_bark_boost",
+     "review": "dialect"
+    },
+    {
+     "id": "rival_yemen_crash",
+     "kind": "crash",
+     "lang": "ar",
+     "dialect": "yemeni",
+     "text": "أوه! أنا بخير، لا تخافي!",
+     "subtitleAr": "أوه! أنا بخير!",
+     "subtitleKey": "rival_bark_crash",
+     "review": "dialect"
+    },
+    {
+     "id": "rival_yemen_win",
+     "kind": "win",
+     "lang": "ar",
+     "dialect": "yemeni",
+     "text": "سباق حلو، يعطيك العافية!",
+     "subtitleAr": "كان سباقًا ممتعًا!",
+     "subtitleKey": "rival_bark_win",
+     "review": "dialect"
+    },
+    {
+     "id": "rival_yemen_lose",
+     "kind": "lose",
+     "lang": "ar",
+     "dialect": "yemeni",
+     "text": "مبروك، تستاهلي الفوز!",
+     "subtitleAr": "أحسنت، أنت فزت!",
+     "subtitleKey": "rival_bark_lose",
+     "review": "dialect"
+    }
+   ]
+  },
+  {
+   "id": "rival_iraq",
+   "country": "iraq",
+   "nameEn": "Dijla",
+   "nameAr": "دجلة",
+   "female": true,
+   "modest": true,
+   "mount": "horse",
+   "style": "steady",
+   "model": "rival_iraq",
+   "outfit": "long teal tunic with trousers, light scarf under a helmet",
+   "outfitReview": true,
+   "lines": [
+    {
+     "id": "rival_iraq_start",
+     "kind": "start",
+     "lang": "ar",
+     "dialect": "iraqi",
+     "text": "بالتوفيق، يلا نتسابق!",
+     "subtitleAr": "بالتوفيق! خلّنا نسوي سباق حلو!",
+     "subtitleKey": "rival_bark_start",
+     "review": "dialect"
+    },
+    {
+     "id": "rival_iraq_start2",
+     "kind": "start2",
+     "lang": "ar",
+     "dialect": "iraqi",
+     "text": "الله يوفّق اللي يستاهل!",
+     "subtitleAr": "ليفز الأفضل!",
+     "subtitleKey": "rival_bark_start2",
+     "review": "dialect"
+    },
+    {
+     "id": "rival_iraq_overtake",
+     "kind": "overtake",
+     "lang": "ar",
+     "dialect": "iraqi",
+     "text": "نشوفك عند خط النهاية!",
+     "subtitleAr": "نشوفك عند خط النهاية!",
+     "subtitleKey": "rival_bark_overtake",
+     "review": "dialect"
+    },
+    {
+     "id": "rival_iraq_overtaken",
+     "kind": "overtaken",
+     "lang": "ar",
+     "dialect": "iraqi",
+     "text": "شكد سريع! ماشاء الله!",
+     "subtitleAr": "ما شاء الله، ما أسرعك!",
+     "subtitleKey": "rival_bark_overtaken",
+     "review": "dialect"
+    },
+    {
+     "id": "rival_iraq_boost",
+     "kind": "boost",
+     "lang": "ar",
+     "dialect": "iraqi",
+     "text": "هذي آني أطلع، شدّ حيلك!",
+     "subtitleAr": "هذا أنا أنطلق!",
+     "subtitleKey": "rival_bark_boost",
+     "review": "dialect"
+    },
+    {
+     "id": "rival_iraq_crash",
+     "kind": "crash",
+     "lang": "ar",
+     "dialect": "iraqi",
+     "text": "أوف! آني زينة، لا تخاف!",
+     "subtitleAr": "أوه! أنا بخير!",
+     "subtitleKey": "rival_bark_crash",
+     "review": "dialect"
+    },
+    {
+     "id": "rival_iraq_win",
+     "kind": "win",
+     "lang": "ar",
+     "dialect": "iraqi",
+     "text": "سباق حلو، تسلم!",
+     "subtitleAr": "كان سباقًا ممتعًا!",
+     "subtitleKey": "rival_bark_win",
+     "review": "dialect"
+    },
+    {
+     "id": "rival_iraq_lose",
+     "kind": "lose",
+     "lang": "ar",
+     "dialect": "iraqi",
+     "text": "مبروك، تستاهل الفوز!",
+     "subtitleAr": "أحسنت، أنت فزت!",
+     "subtitleKey": "rival_bark_lose",
+     "review": "dialect"
+    }
+   ]
+  },
+  {
+   "id": "rival_syria",
+   "country": "syria",
+   "nameEn": "Yasmin",
+   "nameAr": "ياسمين",
+   "female": true,
+   "modest": true,
+   "mount": "horse",
+   "style": "clean",
+   "model": "rival_syria",
+   "outfit": "long white-and-green tunic with trousers, soft scarf under a helmet",
+   "outfitReview": true,
+   "lines": [
+    {
+     "id": "rival_syria_start",
+     "kind": "start",
+     "lang": "ar",
+     "dialect": "levantine",
+     "text": "بالتوفيق، يلا نتسابق!",
+     "subtitleAr": "بالتوفيق! خلّنا نسوي سباق حلو!",
+     "subtitleKey": "rival_bark_start",
+     "review": "dialect"
+    },
+    {
+     "id": "rival_syria_start2",
+     "kind": "start2",
+     "lang": "ar",
+     "dialect": "levantine",
+     "text": "الله يوفّق يلي بيستاهل!",
+     "subtitleAr": "ليفز الأفضل!",
+     "subtitleKey": "rival_bark_start2",
+     "review": "dialect"
+    },
+    {
+     "id": "rival_syria_overtake",
+     "kind": "overtake",
+     "lang": "ar",
+     "dialect": "levantine",
+     "text": "منشوفك عند خط النهاية!",
+     "subtitleAr": "نشوفك عند خط النهاية!",
+     "subtitleKey": "rival_bark_overtake",
+     "review": "dialect"
+    },
+    {
+     "id": "rival_syria_overtaken",
+     "kind": "overtaken",
+     "lang": "ar",
+     "dialect": "levantine",
+     "text": "يا الله شو سريع!",
+     "subtitleAr": "ما شاء الله، ما أسرعك!",
+     "subtitleKey": "rival_bark_overtaken",
+     "review": "dialect"
+    },
+    {
+     "id": "rival_syria_boost",
+     "kind": "boost",
+     "lang": "ar",
+     "dialect": "levantine",
+     "text": "هاني طالعة، شدّ حيلك!",
+     "subtitleAr": "هذا أنا أنطلق!",
+     "subtitleKey": "rival_bark_boost",
+     "review": "dialect"
+    },
+    {
+     "id": "rival_syria_crash",
+     "kind": "crash",
+     "lang": "ar",
+     "dialect": "levantine",
+     "text": "أوف! أنا منيحة، لا تخاف!",
+     "subtitleAr": "أوه! أنا بخير!",
+     "subtitleKey": "rival_bark_crash",
+     "review": "dialect"
+    },
+    {
+     "id": "rival_syria_win",
+     "kind": "win",
+     "lang": "ar",
+     "dialect": "levantine",
+     "text": "سباق حلو، يسلمو!",
+     "subtitleAr": "كان سباقًا ممتعًا!",
+     "subtitleKey": "rival_bark_win",
+     "review": "dialect"
+    },
+    {
+     "id": "rival_syria_lose",
+     "kind": "lose",
+     "lang": "ar",
+     "dialect": "levantine",
+     "text": "مبروك، بتستاهل!",
+     "subtitleAr": "أحسنت، أنت فزت!",
+     "subtitleKey": "rival_bark_lose",
+     "review": "dialect"
+    }
+   ]
+  },
+  {
+   "id": "rival_lebanon",
+   "country": "lebanon",
+   "nameEn": "Nour",
+   "nameAr": "نور",
+   "female": false,
+   "modest": true,
+   "mount": "horse",
+   "style": "steady",
+   "model": "rival_lebanon",
+   "outfit": "green-and-white racing jacket with a stylised tree badge",
+   "outfitReview": false,
+   "lines": [
+    {
+     "id": "rival_lebanon_start",
+     "kind": "start",
+     "lang": "ar",
+     "dialect": "levantine",
+     "text": "الله معك، يلا نتسابق!",
+     "subtitleAr": "بالتوفيق! خلّنا نسوي سباق حلو!",
+     "subtitleKey": "rival_bark_start",
+     "review": "dialect"
+    },
+    {
+     "id": "rival_lebanon_start2",
+     "kind": "start2",
+     "lang": "ar",
+     "dialect": "levantine",
+     "text": "يربح يلي بيستاهل!",
+     "subtitleAr": "ليفز الأفضل!",
+     "subtitleKey": "rival_bark_start2",
+     "review": "dialect"
+    },
+    {
+     "id": "rival_lebanon_overtake",
+     "kind": "overtake",
+     "lang": "ar",
+     "dialect": "levantine",
+     "text": "منتلاقى عالنهاية!",
+     "subtitleAr": "نشوفك عند خط النهاية!",
+     "subtitleKey": "rival_bark_overtake",
+     "review": "dialect"
+    },
+    {
+     "id": "rival_lebanon_overtaken",
+     "kind": "overtaken",
+     "lang": "ar",
+     "dialect": "levantine",
+     "text": "يا الله شو سريع!",
+     "subtitleAr": "ما شاء الله، ما أسرعك!",
+     "subtitleKey": "rival_bark_overtaken",
+     "review": "dialect"
+    },
+    {
+     "id": "rival_lebanon_boost",
+     "kind": "boost",
+     "lang": "ar",
+     "dialect": "levantine",
+     "text": "هيدا أنا طالع!",
+     "subtitleAr": "هذا أنا أنطلق!",
+     "subtitleKey": "rival_bark_boost",
+     "review": "dialect"
+    },
+    {
+     "id": "rival_lebanon_crash",
+     "kind": "crash",
+     "lang": "ar",
+     "dialect": "levantine",
+     "text": "أوف! أنا منيح، ما تخاف!",
+     "subtitleAr": "أوه! أنا بخير!",
+     "subtitleKey": "rival_bark_crash",
+     "review": "dialect"
+    },
+    {
+     "id": "rival_lebanon_win",
+     "kind": "win",
+     "lang": "ar",
+     "dialect": "levantine",
+     "text": "سباق حلو، يسلمو!",
+     "subtitleAr": "كان سباقًا ممتعًا!",
+     "subtitleKey": "rival_bark_win",
+     "review": "dialect"
+    },
+    {
+     "id": "rival_lebanon_lose",
+     "kind": "lose",
+     "lang": "ar",
+     "dialect": "levantine",
+     "text": "مبروك، بتستاهل!",
+     "subtitleAr": "أحسنت، أنت فزت!",
+     "subtitleKey": "rival_bark_lose",
+     "review": "dialect"
+    }
+   ]
+  },
+  {
+   "id": "rival_jordan",
+   "country": "jordan",
+   "nameEn": "Hani",
+   "nameAr": "هاني",
+   "female": false,
+   "modest": true,
+   "mount": "camel",
+   "style": "aggressive",
+   "model": "rival_jordan",
+   "outfit": "red-and-white head cloth, desert-sand jacket",
+   "outfitReview": false,
+   "lines": [
+    {
+     "id": "rival_jordan_start",
+     "kind": "start",
+     "lang": "ar",
+     "dialect": "jordanian",
+     "text": "بالتوفيق، يلا نتسابق!",
+     "subtitleAr": "بالتوفيق! خلّنا نسوي سباق حلو!",
+     "subtitleKey": "rival_bark_start",
+     "review": "dialect"
+    },
+    {
+     "id": "rival_jordan_start2",
+     "kind": "start2",
+     "lang": "ar",
+     "dialect": "jordanian",
+     "text": "الله يوفّق اللي بستاهل!",
+     "subtitleAr": "ليفز الأفضل!",
+     "subtitleKey": "rival_bark_start2",
+     "review": "dialect"
+    },
+    {
+     "id": "rival_jordan_overtake",
+     "kind": "overtake",
+     "lang": "ar",
+     "dialect": "jordanian",
+     "text": "منشوفك عند النهاية!",
+     "subtitleAr": "نشوفك عند خط النهاية!",
+     "subtitleKey": "rival_bark_overtake",
+     "review": "dialect"
+    },
+    {
+     "id": "rival_jordan_overtaken",
+     "kind": "overtaken",
+     "lang": "ar",
+     "dialect": "jordanian",
+     "text": "يا زلمة شو سريع!",
+     "subtitleAr": "ما شاء الله، ما أسرعك!",
+     "subtitleKey": "rival_bark_overtaken",
+     "review": "dialect"
+    },
+    {
+     "id": "rival_jordan_boost",
+     "kind": "boost",
+     "lang": "ar",
+     "dialect": "jordanian",
+     "text": "هاي أنا طالع!",
+     "subtitleAr": "هذا أنا أنطلق!",
+     "subtitleKey": "rival_bark_boost",
+     "review": "dialect"
+    },
+    {
+     "id": "rival_jordan_crash",
+     "kind": "crash",
+     "lang": "ar",
+     "dialect": "jordanian",
+     "text": "أوف! أنا تمام، لا تخاف!",
+     "subtitleAr": "أوه! أنا بخير!",
+     "subtitleKey": "rival_bark_crash",
+     "review": "dialect"
+    },
+    {
+     "id": "rival_jordan_win",
+     "kind": "win",
+     "lang": "ar",
+     "dialect": "jordanian",
+     "text": "سباق حلو، يعطيك العافية!",
+     "subtitleAr": "كان سباقًا ممتعًا!",
+     "subtitleKey": "rival_bark_win",
+     "review": "dialect"
+    },
+    {
+     "id": "rival_jordan_lose",
+     "kind": "lose",
+     "lang": "ar",
+     "dialect": "jordanian",
+     "text": "مبروك، بتستاهل!",
+     "subtitleAr": "أحسنت، أنت فزت!",
+     "subtitleKey": "rival_bark_lose",
+     "review": "dialect"
+    }
+   ]
+  },
+  {
+   "id": "rival_egypt",
+   "country": "egypt",
+   "nameEn": "Mido",
+   "nameAr": "ميدو",
+   "female": false,
+   "modest": true,
+   "mount": "camel",
+   "style": "aggressive",
+   "model": "rival_egypt",
+   "outfit": "sky-blue galabeya jacket, sun-yellow scarf",
+   "outfitReview": false,
+   "lines": [
+    {
+     "id": "rival_egypt_start",
+     "kind": "start",
+     "lang": "ar",
+     "dialect": "egyptian",
+     "text": "بالتوفيق يا صاحبي، يلا نتسابق!",
+     "subtitleAr": "بالتوفيق! خلّنا نسوي سباق حلو!",
+     "subtitleKey": "rival_bark_start",
+     "review": "dialect"
+    },
+    {
+     "id": "rival_egypt_start2",
+     "kind": "start2",
+     "lang": "ar",
+     "dialect": "egyptian",
+     "text": "اللي يستاهل هو اللي يكسب!",
+     "subtitleAr": "ليفز الأفضل!",
+     "subtitleKey": "rival_bark_start2",
+     "review": "dialect"
+    },
+    {
+     "id": "rival_egypt_overtake",
+     "kind": "overtake",
+     "lang": "ar",
+     "dialect": "egyptian",
+     "text": "هنتقابل عند خط النهاية!",
+     "subtitleAr": "نشوفك عند خط النهاية!",
+     "subtitleKey": "rival_bark_overtake",
+     "review": "dialect"
+    },
+    {
+     "id": "rival_egypt_overtaken",
+     "kind": "overtaken",
+     "lang": "ar",
+     "dialect": "egyptian",
+     "text": "إيه السرعة دي! ما شاء الله!",
+     "subtitleAr": "ما شاء الله، ما أسرعك!",
+     "subtitleKey": "rival_bark_overtaken",
+     "review": "dialect"
+    },
+    {
+     "id": "rival_egypt_boost",
+     "kind": "boost",
+     "lang": "ar",
+     "dialect": "egyptian",
+     "text": "أهو أنا طالع!",
+     "subtitleAr": "هذا أنا أنطلق!",
+     "subtitleKey": "rival_bark_boost",
+     "review": "dialect"
+    },
+    {
+     "id": "rival_egypt_crash",
+     "kind": "crash",
+     "lang": "ar",
+     "dialect": "egyptian",
+     "text": "آه! أنا كويس، متخافش!",
+     "subtitleAr": "أوه! أنا بخير!",
+     "subtitleKey": "rival_bark_crash",
+     "review": "dialect"
+    },
+    {
+     "id": "rival_egypt_win",
+     "kind": "win",
+     "lang": "ar",
+     "dialect": "egyptian",
+     "text": "سباق جميل، تسلم!",
+     "subtitleAr": "كان سباقًا ممتعًا!",
+     "subtitleKey": "rival_bark_win",
+     "review": "dialect"
+    },
+    {
+     "id": "rival_egypt_lose",
+     "kind": "lose",
+     "lang": "ar",
+     "dialect": "egyptian",
+     "text": "مبروك، تستاهل!",
+     "subtitleAr": "أحسنت، أنت فزت!",
+     "subtitleKey": "rival_bark_lose",
+     "review": "dialect"
+    }
+   ]
+  },
+  {
+   "id": "rival_sudan",
+   "country": "sudan",
+   "nameEn": "Asim",
+   "nameAr": "عاصم",
+   "female": false,
+   "modest": true,
+   "mount": "camel",
+   "style": "steady",
+   "model": "rival_sudan",
+   "outfit": "long white jalabiya, white turban cloth, green sash",
+   "outfitReview": false,
+   "lines": [
+    {
+     "id": "rival_sudan_start",
+     "kind": "start",
+     "lang": "ar",
+     "dialect": "sudanese",
+     "text": "بالتوفيق يا زول، يلا نتسابق!",
+     "subtitleAr": "بالتوفيق! خلّنا نسوي سباق حلو!",
+     "subtitleKey": "rival_bark_start",
+     "review": "dialect"
+    },
+    {
+     "id": "rival_sudan_start2",
+     "kind": "start2",
+     "lang": "ar",
+     "dialect": "sudanese",
+     "text": "الزول البستاهل هو الفايز!",
+     "subtitleAr": "ليفز الأفضل!",
+     "subtitleKey": "rival_bark_start2",
+     "review": "dialect"
+    },
+    {
+     "id": "rival_sudan_overtake",
+     "kind": "overtake",
+     "lang": "ar",
+     "dialect": "sudanese",
+     "text": "نتلاقى في النهاية!",
+     "subtitleAr": "نشوفك عند خط النهاية!",
+     "subtitleKey": "rival_bark_overtake",
+     "review": "dialect"
+    },
+    {
+     "id": "rival_sudan_overtaken",
+     "kind": "overtaken",
+     "lang": "ar",
+     "dialect": "sudanese",
+     "text": "ياخي دي سرعة شنو! ما شاء الله!",
+     "subtitleAr": "ما شاء الله، ما أسرعك!",
+     "subtitleKey": "rival_bark_overtaken",
+     "review": "dialect"
+    },
+    {
+     "id": "rival_sudan_boost",
+     "kind": "boost",
+     "lang": "ar",
+     "dialect": "sudanese",
+     "text": "ها أنا طالع!",
+     "subtitleAr": "هذا أنا أنطلق!",
+     "subtitleKey": "rival_bark_boost",
+     "review": "dialect"
+    },
+    {
+     "id": "rival_sudan_crash",
+     "kind": "crash",
+     "lang": "ar",
+     "dialect": "sudanese",
+     "text": "آي! أنا كويس، ما تخاف!",
+     "subtitleAr": "أوه! أنا بخير!",
+     "subtitleKey": "rival_bark_crash",
+     "review": "dialect"
+    },
+    {
+     "id": "rival_sudan_win",
+     "kind": "win",
+     "lang": "ar",
+     "dialect": "sudanese",
+     "text": "سباق حلو، تسلم!",
+     "subtitleAr": "كان سباقًا ممتعًا!",
+     "subtitleKey": "rival_bark_win",
+     "review": "dialect"
+    },
+    {
+     "id": "rival_sudan_lose",
+     "kind": "lose",
+     "lang": "ar",
+     "dialect": "sudanese",
+     "text": "مبروك، بتستاهل!",
+     "subtitleAr": "أحسنت، أنت فزت!",
+     "subtitleKey": "rival_bark_lose",
+     "review": "dialect"
+    }
+   ]
+  },
+  {
+   "id": "rival_libya",
+   "country": "libya",
+   "nameEn": "Salma",
+   "nameAr": "سلمى",
+   "female": true,
+   "modest": true,
+   "mount": "horse",
+   "style": "clean",
+   "model": "rival_libya",
+   "outfit": "long olive tunic with trousers, soft scarf under a helmet",
+   "outfitReview": true,
+   "lines": [
+    {
+     "id": "rival_libya_start",
+     "kind": "start",
+     "lang": "ar",
+     "dialect": "libyan",
+     "text": "بالتوفيق، يا لله نتسابقوا!",
+     "subtitleAr": "بالتوفيق! خلّنا نسوي سباق حلو!",
+     "subtitleKey": "rival_bark_start",
+     "review": "dialect"
+    },
+    {
+     "id": "rival_libya_start2",
+     "kind": "start2",
+     "lang": "ar",
+     "dialect": "libyan",
+     "text": "اللي يستاهل يفوز!",
+     "subtitleAr": "ليفز الأفضل!",
+     "subtitleKey": "rival_bark_start2",
+     "review": "dialect"
+    },
+    {
+     "id": "rival_libya_overtake",
+     "kind": "overtake",
+     "lang": "ar",
+     "dialect": "libyan",
+     "text": "نشوفوك في النهاية!",
+     "subtitleAr": "نشوفك عند خط النهاية!",
+     "subtitleKey": "rival_bark_overtake",
+     "review": "dialect"
+    },
+    {
+     "id": "rival_libya_overtaken",
+     "kind": "overtaken",
+     "lang": "ar",
+     "dialect": "libyan",
+     "text": "يا سلام، شن هالسرعة!",
+     "subtitleAr": "ما شاء الله، ما أسرعك!",
+     "subtitleKey": "rival_bark_overtaken",
+     "review": "dialect"
+    },
+    {
+     "id": "rival_libya_boost",
+     "kind": "boost",
+     "lang": "ar",
+     "dialect": "libyan",
+     "text": "هاني طالعة!",
+     "subtitleAr": "هذا أنا أنطلق!",
+     "subtitleKey": "rival_bark_boost",
+     "review": "dialect"
+    },
+    {
+     "id": "rival_libya_crash",
+     "kind": "crash",
+     "lang": "ar",
+     "dialect": "libyan",
+     "text": "أوه! أنا مليحة، ما تخافش!",
+     "subtitleAr": "أوه! أنا بخير!",
+     "subtitleKey": "rival_bark_crash",
+     "review": "dialect"
+    },
+    {
+     "id": "rival_libya_win",
+     "kind": "win",
+     "lang": "ar",
+     "dialect": "libyan",
+     "text": "سباق مليح، يعطيك الصحة!",
+     "subtitleAr": "كان سباقًا ممتعًا!",
+     "subtitleKey": "rival_bark_win",
+     "review": "dialect"
+    },
+    {
+     "id": "rival_libya_lose",
+     "kind": "lose",
+     "lang": "ar",
+     "dialect": "libyan",
+     "text": "مبروك، تستاهل!",
+     "subtitleAr": "أحسنت، أنت فزت!",
+     "subtitleKey": "rival_bark_lose",
+     "review": "dialect"
+    }
+   ]
+  },
+  {
+   "id": "rival_tunisia",
+   "country": "tunisia",
+   "nameEn": "Zitouna",
+   "nameAr": "زيتونة",
+   "female": true,
+   "modest": true,
+   "mount": "horse",
+   "style": "steady",
+   "model": "rival_tunisia",
+   "outfit": "long olive-green tunic with trousers, soft scarf under a helmet",
+   "outfitReview": true,
+   "lines": [
+    {
+     "id": "rival_tunisia_start",
+     "kind": "start",
+     "lang": "ar",
+     "dialect": "tunisian",
+     "text": "بالتوفيق يا صاحبي، يلا نتسابقو!",
+     "subtitleAr": "بالتوفيق! خلّنا نسوي سباق حلو!",
+     "subtitleKey": "rival_bark_start",
+     "review": "dialect"
+    },
+    {
+     "id": "rival_tunisia_start2",
+     "kind": "start2",
+     "lang": "ar",
+     "dialect": "tunisian",
+     "text": "اللي يستاهل يربح!",
+     "subtitleAr": "ليفز الأفضل!",
+     "subtitleKey": "rival_bark_start2",
+     "review": "dialect"
+    },
+    {
+     "id": "rival_tunisia_overtake",
+     "kind": "overtake",
+     "lang": "ar",
+     "dialect": "tunisian",
+     "text": "نلقاوك في النهاية!",
+     "subtitleAr": "نشوفك عند خط النهاية!",
+     "subtitleKey": "rival_bark_overtake",
+     "review": "dialect"
+    },
+    {
+     "id": "rival_tunisia_overtaken",
+     "kind": "overtaken",
+     "lang": "ar",
+     "dialect": "tunisian",
+     "text": "يا سلام، قدّاش سريع!",
+     "subtitleAr": "ما شاء الله، ما أسرعك!",
+     "subtitleKey": "rival_bark_overtaken",
+     "review": "dialect"
+    },
+    {
+     "id": "rival_tunisia_boost",
+     "kind": "boost",
+     "lang": "ar",
+     "dialect": "tunisian",
+     "text": "هاني طالعة!",
+     "subtitleAr": "هذا أنا أنطلق!",
+     "subtitleKey": "rival_bark_boost",
+     "review": "dialect"
+    },
+    {
+     "id": "rival_tunisia_crash",
+     "kind": "crash",
+     "lang": "ar",
+     "dialect": "tunisian",
+     "text": "أوه! أنا باهية، ما تخافش!",
+     "subtitleAr": "أوه! أنا بخير!",
+     "subtitleKey": "rival_bark_crash",
+     "review": "dialect"
+    },
+    {
+     "id": "rival_tunisia_win",
+     "kind": "win",
+     "lang": "ar",
+     "dialect": "tunisian",
+     "text": "سباق باهي، عيشك!",
+     "subtitleAr": "كان سباقًا ممتعًا!",
+     "subtitleKey": "rival_bark_win",
+     "review": "dialect"
+    },
+    {
+     "id": "rival_tunisia_lose",
+     "kind": "lose",
+     "lang": "ar",
+     "dialect": "tunisian",
+     "text": "مبروك، تستاهل!",
+     "subtitleAr": "أحسنت، أنت فزت!",
+     "subtitleKey": "rival_bark_lose",
+     "review": "dialect"
+    }
+   ]
+  },
+  {
+   "id": "rival_algeria",
+   "country": "algeria",
+   "nameEn": "Amine",
+   "nameAr": "أمين",
+   "female": false,
+   "modest": true,
+   "mount": "camel",
+   "style": "aggressive",
+   "model": "rival_algeria",
+   "outfit": "white-and-green racing jacket, light cap",
+   "outfitReview": false,
+   "lines": [
+    {
+     "id": "rival_algeria_start",
+     "kind": "start",
+     "lang": "ar",
+     "dialect": "algerian",
+     "text": "بالتوفيق يا خويا، يلا نتسابقو!",
+     "subtitleAr": "بالتوفيق! خلّنا نسوي سباق حلو!",
+     "subtitleKey": "rival_bark_start",
+     "review": "dialect"
+    },
+    {
+     "id": "rival_algeria_start2",
+     "kind": "start2",
+     "lang": "ar",
+     "dialect": "algerian",
+     "text": "اللي يستاهل يربح!",
+     "subtitleAr": "ليفز الأفضل!",
+     "subtitleKey": "rival_bark_start2",
+     "review": "dialect"
+    },
+    {
+     "id": "rival_algeria_overtake",
+     "kind": "overtake",
+     "lang": "ar",
+     "dialect": "algerian",
+     "text": "نتلاقاو عند النهاية!",
+     "subtitleAr": "نشوفك عند خط النهاية!",
+     "subtitleKey": "rival_bark_overtake",
+     "review": "dialect"
+    },
+    {
+     "id": "rival_algeria_overtaken",
+     "kind": "overtaken",
+     "lang": "ar",
+     "dialect": "algerian",
+     "text": "واش هاد السرعة! ما شاء الله!",
+     "subtitleAr": "ما شاء الله، ما أسرعك!",
+     "subtitleKey": "rival_bark_overtaken",
+     "review": "dialect"
+    },
+    {
+     "id": "rival_algeria_boost",
+     "kind": "boost",
+     "lang": "ar",
+     "dialect": "algerian",
+     "text": "هاني طالع!",
+     "subtitleAr": "هذا أنا أنطلق!",
+     "subtitleKey": "rival_bark_boost",
+     "review": "dialect"
+    },
+    {
+     "id": "rival_algeria_crash",
+     "kind": "crash",
+     "lang": "ar",
+     "dialect": "algerian",
+     "text": "أوه! أنا بخير، ماتخافش!",
+     "subtitleAr": "أوه! أنا بخير!",
+     "subtitleKey": "rival_bark_crash",
+     "review": "dialect"
+    },
+    {
+     "id": "rival_algeria_win",
+     "kind": "win",
+     "lang": "ar",
+     "dialect": "algerian",
+     "text": "سباق زوين، صحّة!",
+     "subtitleAr": "كان سباقًا ممتعًا!",
+     "subtitleKey": "rival_bark_win",
+     "review": "dialect"
+    },
+    {
+     "id": "rival_algeria_lose",
+     "kind": "lose",
+     "lang": "ar",
+     "dialect": "algerian",
+     "text": "مبروك، تستاهل!",
+     "subtitleAr": "أحسنت، أنت فزت!",
+     "subtitleKey": "rival_bark_lose",
+     "review": "dialect"
+    }
+   ]
+  },
+  {
+   "id": "rival_morocco",
+   "country": "morocco",
+   "nameEn": "Zineb",
+   "nameAr": "زينب",
+   "female": true,
+   "modest": true,
+   "mount": "camel",
+   "style": "clean",
+   "model": "rival_morocco",
+   "outfit": "long terracotta tunic with trousers, soft scarf under a helmet",
+   "outfitReview": true,
+   "lines": [
+    {
+     "id": "rival_morocco_start",
+     "kind": "start",
+     "lang": "ar",
+     "dialect": "darija",
+     "text": "بالتوفيق يا صاحبي، يالله نتسابقو!",
+     "subtitleAr": "بالتوفيق! خلّنا نسوي سباق حلو!",
+     "subtitleKey": "rival_bark_start",
+     "review": "dialect"
+    },
+    {
+     "id": "rival_morocco_start2",
+     "kind": "start2",
+     "lang": "ar",
+     "dialect": "darija",
+     "text": "اللي يستاهل هو اللي يربح!",
+     "subtitleAr": "ليفز الأفضل!",
+     "subtitleKey": "rival_bark_start2",
+     "review": "dialect"
+    },
+    {
+     "id": "rival_morocco_overtake",
+     "kind": "overtake",
+     "lang": "ar",
+     "dialect": "darija",
+     "text": "غادي نتلاقاو فالنهاية!",
+     "subtitleAr": "نشوفك عند خط النهاية!",
+     "subtitleKey": "rival_bark_overtake",
+     "review": "dialect"
+    },
+    {
+     "id": "rival_morocco_overtaken",
+     "kind": "overtaken",
+     "lang": "ar",
+     "dialect": "darija",
+     "text": "واو، شحال ديال السرعة!",
+     "subtitleAr": "ما شاء الله، ما أسرعك!",
+     "subtitleKey": "rival_bark_overtaken",
+     "review": "dialect"
+    },
+    {
+     "id": "rival_morocco_boost",
+     "kind": "boost",
+     "lang": "ar",
+     "dialect": "darija",
+     "text": "هانا طالعة!",
+     "subtitleAr": "هذا أنا أنطلق!",
+     "subtitleKey": "rival_bark_boost",
+     "review": "dialect"
+    },
+    {
+     "id": "rival_morocco_crash",
+     "kind": "crash",
+     "lang": "ar",
+     "dialect": "darija",
+     "text": "آخ! أنا بخير، ما تخافش!",
+     "subtitleAr": "أوه! أنا بخير!",
+     "subtitleKey": "rival_bark_crash",
+     "review": "dialect"
+    },
+    {
+     "id": "rival_morocco_win",
+     "kind": "win",
+     "lang": "ar",
+     "dialect": "darija",
+     "text": "سباق زوين، شكرا بزاف!",
+     "subtitleAr": "كان سباقًا ممتعًا!",
+     "subtitleKey": "rival_bark_win",
+     "review": "dialect"
+    },
+    {
+     "id": "rival_morocco_lose",
+     "kind": "lose",
+     "lang": "ar",
+     "dialect": "darija",
+     "text": "مبروك، تستاهل!",
+     "subtitleAr": "أحسنت، أنت فزت!",
+     "subtitleKey": "rival_bark_lose",
+     "review": "dialect"
+    }
+   ]
+  },
+  {
+   "id": "rival_mauritania",
+   "country": "mauritania",
+   "nameEn": "Mariem",
+   "nameAr": "مريم",
+   "female": true,
+   "modest": true,
+   "mount": "camel",
+   "style": "steady",
+   "model": "rival_mauritania",
+   "outfit": "light-blue long wrap over trousers, soft scarf under a helmet",
+   "outfitReview": true,
+   "lines": [
+    {
+     "id": "rival_mauritania_start",
+     "kind": "start",
+     "lang": "ar",
+     "dialect": "hassaniya",
+     "text": "بالتوفيق، يالله نتسابقو!",
+     "subtitleAr": "بالتوفيق! خلّنا نسوي سباق حلو!",
+     "subtitleKey": "rival_bark_start",
+     "review": "dialect"
+    },
+    {
+     "id": "rival_mauritania_start2",
+     "kind": "start2",
+     "lang": "ar",
+     "dialect": "hassaniya",
+     "text": "اللي يستاهل يفوز!",
+     "subtitleAr": "ليفز الأفضل!",
+     "subtitleKey": "rival_bark_start2",
+     "review": "dialect"
+    },
+    {
+     "id": "rival_mauritania_overtake",
+     "kind": "overtake",
+     "lang": "ar",
+     "dialect": "hassaniya",
+     "text": "نتلاقو فالنهاية!",
+     "subtitleAr": "نشوفك عند خط النهاية!",
+     "subtitleKey": "rival_bark_overtake",
+     "review": "dialect"
+    },
+    {
+     "id": "rival_mauritania_overtaken",
+     "kind": "overtaken",
+     "lang": "ar",
+     "dialect": "hassaniya",
+     "text": "ماشاء الله، شكثر سريع!",
+     "subtitleAr": "ما شاء الله، ما أسرعك!",
+     "subtitleKey": "rival_bark_overtaken",
+     "review": "dialect"
+    },
+    {
+     "id": "rival_mauritania_boost",
+     "kind": "boost",
+     "lang": "ar",
+     "dialect": "hassaniya",
+     "text": "هاني طالعة!",
+     "subtitleAr": "هذا أنا أنطلق!",
+     "subtitleKey": "rival_bark_boost",
+     "review": "dialect"
+    },
+    {
+     "id": "rival_mauritania_crash",
+     "kind": "crash",
+     "lang": "ar",
+     "dialect": "hassaniya",
+     "text": "أوه! أنا بخير، ما تخاف!",
+     "subtitleAr": "أوه! أنا بخير!",
+     "subtitleKey": "rival_bark_crash",
+     "review": "dialect"
+    },
+    {
+     "id": "rival_mauritania_win",
+     "kind": "win",
+     "lang": "ar",
+     "dialect": "hassaniya",
+     "text": "سباق زين، شكرا!",
+     "subtitleAr": "كان سباقًا ممتعًا!",
+     "subtitleKey": "rival_bark_win",
+     "review": "dialect"
+    },
+    {
+     "id": "rival_mauritania_lose",
+     "kind": "lose",
+     "lang": "ar",
+     "dialect": "hassaniya",
+     "text": "مبروك، تستاهل!",
+     "subtitleAr": "أحسنت، أنت فزت!",
+     "subtitleKey": "rival_bark_lose",
+     "review": "dialect"
+    }
+   ]
+  },
+  {
+   "id": "rival_portugal",
+   "country": "portugal",
+   "nameEn": "Tiago",
+   "nameAr": "تياغو",
+   "female": false,
+   "modest": true,
+   "mount": "horse",
+   "style": "clean",
+   "model": "rival_portugal",
+   "outfit": "red-and-green racing jacket, simple cap",
+   "outfitReview": false,
+   "lines": [
+    {
+     "id": "rival_portugal_start",
+     "kind": "start",
+     "lang": "pt",
+     "dialect": "pt-PT",
+     "text": "Boa sorte, vamos correr!",
+     "subtitleAr": "بالتوفيق! خلّنا نسوي سباق حلو!",
+     "subtitleKey": "rival_bark_start",
+     "review": "native"
+    },
+    {
+     "id": "rival_portugal_start2",
+     "kind": "start2",
+     "lang": "pt",
+     "dialect": "pt-PT",
+     "text": "Que ganhe o melhor!",
+     "subtitleAr": "ليفز الأفضل!",
+     "subtitleKey": "rival_bark_start2",
+     "review": "native"
+    },
+    {
+     "id": "rival_portugal_overtake",
+     "kind": "overtake",
+     "lang": "pt",
+     "dialect": "pt-PT",
+     "text": "Vemo-nos na meta!",
+     "subtitleAr": "نشوفك عند خط النهاية!",
+     "subtitleKey": "rival_bark_overtake",
+     "review": "native"
+    },
+    {
+     "id": "rival_portugal_overtaken",
+     "kind": "overtaken",
+     "lang": "pt",
+     "dialect": "pt-PT",
+     "text": "Uau, és mesmo rápido!",
+     "subtitleAr": "ما شاء الله، ما أسرعك!",
+     "subtitleKey": "rival_bark_overtaken",
+     "review": "native"
+    },
+    {
+     "id": "rival_portugal_boost",
+     "kind": "boost",
+     "lang": "pt",
+     "dialect": "pt-PT",
+     "text": "Lá vou eu!",
+     "subtitleAr": "هذا أنا أنطلق!",
+     "subtitleKey": "rival_bark_boost",
+     "review": "native"
+    },
+    {
+     "id": "rival_portugal_crash",
+     "kind": "crash",
+     "lang": "pt",
+     "dialect": "pt-PT",
+     "text": "Ups! Estou bem!",
+     "subtitleAr": "أوه! أنا بخير!",
+     "subtitleKey": "rival_bark_crash",
+     "review": "native"
+    },
+    {
+     "id": "rival_portugal_win",
+     "kind": "win",
+     "lang": "pt",
+     "dialect": "pt-PT",
+     "text": "Que corrida tão divertida!",
+     "subtitleAr": "كان سباقًا ممتعًا!",
+     "subtitleKey": "rival_bark_win",
+     "review": "native"
+    },
+    {
+     "id": "rival_portugal_lose",
+     "kind": "lose",
+     "lang": "pt",
+     "dialect": "pt-PT",
+     "text": "Muito bem, ganhaste!",
+     "subtitleAr": "أحسنت، أنت فزت!",
+     "subtitleKey": "rival_bark_lose",
+     "review": "native"
+    }
+   ]
+  },
+  {
+   "id": "rival_spain",
+   "country": "spain",
+   "nameEn": "Pilar",
+   "nameAr": "بيلار",
+   "female": true,
+   "modest": true,
+   "mount": "horse",
+   "style": "aggressive",
+   "model": "rival_spain",
+   "outfit": "red-and-yellow racing jacket with long sleeves, helmet over a scarf",
+   "outfitReview": true,
+   "lines": [
+    {
+     "id": "rival_spain_start",
+     "kind": "start",
+     "lang": "es",
+     "dialect": "es-ES",
+     "text": "¡Buena suerte, vamos a correr!",
+     "subtitleAr": "بالتوفيق! خلّنا نسوي سباق حلو!",
+     "subtitleKey": "rival_bark_start",
+     "review": "native"
+    },
+    {
+     "id": "rival_spain_start2",
+     "kind": "start2",
+     "lang": "es",
+     "dialect": "es-ES",
+     "text": "¡Que gane el mejor!",
+     "subtitleAr": "ليفز الأفضل!",
+     "subtitleKey": "rival_bark_start2",
+     "review": "native"
+    },
+    {
+     "id": "rival_spain_overtake",
+     "kind": "overtake",
+     "lang": "es",
+     "dialect": "es-ES",
+     "text": "¡Nos vemos en la meta!",
+     "subtitleAr": "نشوفك عند خط النهاية!",
+     "subtitleKey": "rival_bark_overtake",
+     "review": "native"
+    },
+    {
+     "id": "rival_spain_overtaken",
+     "kind": "overtaken",
+     "lang": "es",
+     "dialect": "es-ES",
+     "text": "¡Vaya, qué rápido eres!",
+     "subtitleAr": "ما شاء الله، ما أسرعك!",
+     "subtitleKey": "rival_bark_overtaken",
+     "review": "native"
+    },
+    {
+     "id": "rival_spain_boost",
+     "kind": "boost",
+     "lang": "es",
+     "dialect": "es-ES",
+     "text": "¡Allá voy!",
+     "subtitleAr": "هذا أنا أنطلق!",
+     "subtitleKey": "rival_bark_boost",
+     "review": "native"
+    },
+    {
+     "id": "rival_spain_crash",
+     "kind": "crash",
+     "lang": "es",
+     "dialect": "es-ES",
+     "text": "¡Ups! ¡Estoy bien!",
+     "subtitleAr": "أوه! أنا بخير!",
+     "subtitleKey": "rival_bark_crash",
+     "review": "native"
+    },
+    {
+     "id": "rival_spain_win",
+     "kind": "win",
+     "lang": "es",
+     "dialect": "es-ES",
+     "text": "¡Qué carrera tan divertida!",
+     "subtitleAr": "كان سباقًا ممتعًا!",
+     "subtitleKey": "rival_bark_win",
+     "review": "native"
+    },
+    {
+     "id": "rival_spain_lose",
+     "kind": "lose",
+     "lang": "es",
+     "dialect": "es-ES",
+     "text": "¡Bien hecho, has ganado!",
+     "subtitleAr": "أحسنت، أنت فزت!",
+     "subtitleKey": "rival_bark_lose",
+     "review": "native"
+    }
+   ]
+  },
+  {
+   "id": "rival_france",
+   "country": "france",
+   "nameEn": "Camille",
+   "nameAr": "كاميل",
+   "female": false,
+   "modest": true,
+   "mount": "horse",
+   "style": "clean",
+   "model": "rival_france",
+   "outfit": "blue-white-red striped sweater, flat cap",
+   "outfitReview": false,
+   "lines": [
+    {
+     "id": "rival_france_start",
+     "kind": "start",
+     "lang": "fr",
+     "dialect": "fr",
+     "text": "Bonne chance, on y va !",
+     "subtitleAr": "بالتوفيق! خلّنا نسوي سباق حلو!",
+     "subtitleKey": "rival_bark_start",
+     "review": "native"
+    },
+    {
+     "id": "rival_france_start2",
+     "kind": "start2",
+     "lang": "fr",
+     "dialect": "fr",
+     "text": "Que le meilleur gagne !",
+     "subtitleAr": "ليفز الأفضل!",
+     "subtitleKey": "rival_bark_start2",
+     "review": "native"
+    },
+    {
+     "id": "rival_france_overtake",
+     "kind": "overtake",
+     "lang": "fr",
+     "dialect": "fr",
+     "text": "On se retrouve à l'arrivée !",
+     "subtitleAr": "نشوفك عند خط النهاية!",
+     "subtitleKey": "rival_bark_overtake",
+     "review": "native"
+    },
+    {
+     "id": "rival_france_overtaken",
+     "kind": "overtaken",
+     "lang": "fr",
+     "dialect": "fr",
+     "text": "Waouh, tu es rapide !",
+     "subtitleAr": "ما شاء الله، ما أسرعك!",
+     "subtitleKey": "rival_bark_overtaken",
+     "review": "native"
+    },
+    {
+     "id": "rival_france_boost",
+     "kind": "boost",
+     "lang": "fr",
+     "dialect": "fr",
+     "text": "C'est parti !",
+     "subtitleAr": "هذا أنا أنطلق!",
+     "subtitleKey": "rival_bark_boost",
+     "review": "native"
+    },
+    {
+     "id": "rival_france_crash",
+     "kind": "crash",
+     "lang": "fr",
+     "dialect": "fr",
+     "text": "Oups ! Ça va !",
+     "subtitleAr": "أوه! أنا بخير!",
+     "subtitleKey": "rival_bark_crash",
+     "review": "native"
+    },
+    {
+     "id": "rival_france_win",
+     "kind": "win",
+     "lang": "fr",
+     "dialect": "fr",
+     "text": "Quelle course amusante !",
+     "subtitleAr": "كان سباقًا ممتعًا!",
+     "subtitleKey": "rival_bark_win",
+     "review": "native"
+    },
+    {
+     "id": "rival_france_lose",
+     "kind": "lose",
+     "lang": "fr",
+     "dialect": "fr",
+     "text": "Bravo, tu as gagné !",
+     "subtitleAr": "أحسنت، أنت فزت!",
+     "subtitleKey": "rival_bark_lose",
+     "review": "native"
+    }
+   ]
+  },
+  {
+   "id": "rival_uk",
+   "country": "uk",
+   "nameEn": "Poppy",
+   "nameAr": "بوبي",
+   "female": true,
+   "modest": true,
+   "mount": "horse",
+   "style": "steady",
+   "model": "rival_uk",
+   "outfit": "tweed jacket, long trousers, riding helmet",
+   "outfitReview": true,
+   "lines": [
+    {
+     "id": "rival_uk_start",
+     "kind": "start",
+     "lang": "en",
+     "dialect": "en-GB",
+     "text": "Good luck, let's race!",
+     "subtitleAr": "بالتوفيق! خلّنا نسوي سباق حلو!",
+     "subtitleKey": "rival_bark_start",
+     "review": "none"
+    },
+    {
+     "id": "rival_uk_start2",
+     "kind": "start2",
+     "lang": "en",
+     "dialect": "en-GB",
+     "text": "May the best racer win!",
+     "subtitleAr": "ليفز الأفضل!",
+     "subtitleKey": "rival_bark_start2",
+     "review": "none"
+    },
+    {
+     "id": "rival_uk_overtake",
+     "kind": "overtake",
+     "lang": "en",
+     "dialect": "en-GB",
+     "text": "See you at the finish line!",
+     "subtitleAr": "نشوفك عند خط النهاية!",
+     "subtitleKey": "rival_bark_overtake",
+     "review": "none"
+    },
+    {
+     "id": "rival_uk_overtaken",
+     "kind": "overtaken",
+     "lang": "en",
+     "dialect": "en-GB",
+     "text": "Blimey, you're quick!",
+     "subtitleAr": "ما شاء الله، ما أسرعك!",
+     "subtitleKey": "rival_bark_overtaken",
+     "review": "none"
+    },
+    {
+     "id": "rival_uk_boost",
+     "kind": "boost",
+     "lang": "en",
+     "dialect": "en-GB",
+     "text": "Here I go!",
+     "subtitleAr": "هذا أنا أنطلق!",
+     "subtitleKey": "rival_bark_boost",
+     "review": "none"
+    },
+    {
+     "id": "rival_uk_crash",
+     "kind": "crash",
+     "lang": "en",
+     "dialect": "en-GB",
+     "text": "Oops! I'm all right!",
+     "subtitleAr": "أوه! أنا بخير!",
+     "subtitleKey": "rival_bark_crash",
+     "review": "none"
+    },
+    {
+     "id": "rival_uk_win",
+     "kind": "win",
+     "lang": "en",
+     "dialect": "en-GB",
+     "text": "What a cracking race!",
+     "subtitleAr": "كان سباقًا ممتعًا!",
+     "subtitleKey": "rival_bark_win",
+     "review": "none"
+    },
+    {
+     "id": "rival_uk_lose",
+     "kind": "lose",
+     "lang": "en",
+     "dialect": "en-GB",
+     "text": "Well done, you won!",
+     "subtitleAr": "أحسنت، أنت فزت!",
+     "subtitleKey": "rival_bark_lose",
+     "review": "none"
+    }
+   ]
+  },
+  {
+   "id": "rival_germany",
+   "country": "germany",
+   "nameEn": "Lukas",
+   "nameAr": "لوكاس",
+   "female": false,
+   "modest": true,
+   "mount": "horse",
+   "style": "clean",
+   "model": "rival_germany",
+   "outfit": "grey-and-red racing jacket, practical cap",
+   "outfitReview": false,
+   "lines": [
+    {
+     "id": "rival_germany_start",
+     "kind": "start",
+     "lang": "de",
+     "dialect": "de",
+     "text": "Viel Glück, los geht's!",
+     "subtitleAr": "بالتوفيق! خلّنا نسوي سباق حلو!",
+     "subtitleKey": "rival_bark_start",
+     "review": "native"
+    },
+    {
+     "id": "rival_germany_start2",
+     "kind": "start2",
+     "lang": "de",
+     "dialect": "de",
+     "text": "Möge der Beste gewinnen!",
+     "subtitleAr": "ليفز الأفضل!",
+     "subtitleKey": "rival_bark_start2",
+     "review": "native"
+    },
+    {
+     "id": "rival_germany_overtake",
+     "kind": "overtake",
+     "lang": "de",
+     "dialect": "de",
+     "text": "Wir sehen uns im Ziel!",
+     "subtitleAr": "نشوفك عند خط النهاية!",
+     "subtitleKey": "rival_bark_overtake",
+     "review": "native"
+    },
+    {
+     "id": "rival_germany_overtaken",
+     "kind": "overtaken",
+     "lang": "de",
+     "dialect": "de",
+     "text": "Wow, bist du schnell!",
+     "subtitleAr": "ما شاء الله، ما أسرعك!",
+     "subtitleKey": "rival_bark_overtaken",
+     "review": "native"
+    },
+    {
+     "id": "rival_germany_boost",
+     "kind": "boost",
+     "lang": "de",
+     "dialect": "de",
+     "text": "Jetzt geht's los!",
+     "subtitleAr": "هذا أنا أنطلق!",
+     "subtitleKey": "rival_bark_boost",
+     "review": "native"
+    },
+    {
+     "id": "rival_germany_crash",
+     "kind": "crash",
+     "lang": "de",
+     "dialect": "de",
+     "text": "Hoppla! Mir geht's gut!",
+     "subtitleAr": "أوه! أنا بخير!",
+     "subtitleKey": "rival_bark_crash",
+     "review": "native"
+    },
+    {
+     "id": "rival_germany_win",
+     "kind": "win",
+     "lang": "de",
+     "dialect": "de",
+     "text": "Was für ein tolles Rennen!",
+     "subtitleAr": "كان سباقًا ممتعًا!",
+     "subtitleKey": "rival_bark_win",
+     "review": "native"
+    },
+    {
+     "id": "rival_germany_lose",
+     "kind": "lose",
+     "lang": "de",
+     "dialect": "de",
+     "text": "Gut gemacht, du hast gewonnen!",
+     "subtitleAr": "أحسنت، أنت فزت!",
+     "subtitleKey": "rival_bark_lose",
+     "review": "native"
+    }
+   ]
+  },
+  {
+   "id": "rival_turkey",
+   "country": "turkey",
+   "nameEn": "Elif",
+   "nameAr": "إليف",
+   "female": true,
+   "modest": true,
+   "mount": "horse",
+   "style": "steady",
+   "model": "rival_turkey",
+   "outfit": "long red tunic with trousers, soft scarf under a helmet",
+   "outfitReview": true,
+   "lines": [
+    {
+     "id": "rival_turkey_start",
+     "kind": "start",
+     "lang": "tr",
+     "dialect": "tr",
+     "text": "İyi şanslar, hadi yarışalım!",
+     "subtitleAr": "بالتوفيق! خلّنا نسوي سباق حلو!",
+     "subtitleKey": "rival_bark_start",
+     "review": "native"
+    },
+    {
+     "id": "rival_turkey_start2",
+     "kind": "start2",
+     "lang": "tr",
+     "dialect": "tr",
+     "text": "En iyisi kazansın!",
+     "subtitleAr": "ليفز الأفضل!",
+     "subtitleKey": "rival_bark_start2",
+     "review": "native"
+    },
+    {
+     "id": "rival_turkey_overtake",
+     "kind": "overtake",
+     "lang": "tr",
+     "dialect": "tr",
+     "text": "Bitişte görüşürüz!",
+     "subtitleAr": "نشوفك عند خط النهاية!",
+     "subtitleKey": "rival_bark_overtake",
+     "review": "native"
+    },
+    {
+     "id": "rival_turkey_overtaken",
+     "kind": "overtaken",
+     "lang": "tr",
+     "dialect": "tr",
+     "text": "Vay, çok hızlısın!",
+     "subtitleAr": "ما شاء الله، ما أسرعك!",
+     "subtitleKey": "rival_bark_overtaken",
+     "review": "native"
+    },
+    {
+     "id": "rival_turkey_boost",
+     "kind": "boost",
+     "lang": "tr",
+     "dialect": "tr",
+     "text": "İşte başlıyorum!",
+     "subtitleAr": "هذا أنا أنطلق!",
+     "subtitleKey": "rival_bark_boost",
+     "review": "native"
+    },
+    {
+     "id": "rival_turkey_crash",
+     "kind": "crash",
+     "lang": "tr",
+     "dialect": "tr",
+     "text": "Hay aksi! İyiyim!",
+     "subtitleAr": "أوه! أنا بخير!",
+     "subtitleKey": "rival_bark_crash",
+     "review": "native"
+    },
+    {
+     "id": "rival_turkey_win",
+     "kind": "win",
+     "lang": "tr",
+     "dialect": "tr",
+     "text": "Ne güzel bir yarış!",
+     "subtitleAr": "كان سباقًا ممتعًا!",
+     "subtitleKey": "rival_bark_win",
+     "review": "native"
+    },
+    {
+     "id": "rival_turkey_lose",
+     "kind": "lose",
+     "lang": "tr",
+     "dialect": "tr",
+     "text": "Aferin, sen kazandın!",
+     "subtitleAr": "أحسنت، أنت فزت!",
+     "subtitleKey": "rival_bark_lose",
+     "review": "native"
+    }
+   ]
+  },
+  {
+   "id": "rival_uzbekistan",
+   "country": "uzbekistan",
+   "nameEn": "Dilnoza",
+   "nameAr": "دِلنوزا",
+   "female": true,
+   "modest": true,
+   "mount": "horse",
+   "style": "clean",
+   "model": "rival_uzbekistan",
+   "outfit": "long patterned silk-style tunic with trousers, soft scarf under a helmet",
+   "outfitReview": true,
+   "lines": [
+    {
+     "id": "rival_uzbekistan_start",
+     "kind": "start",
+     "lang": "uz",
+     "dialect": "uz",
+     "text": "Omad tilayman, poygaga!",
+     "subtitleAr": "بالتوفيق! خلّنا نسوي سباق حلو!",
+     "subtitleKey": "rival_bark_start",
+     "review": "native"
+    },
+    {
+     "id": "rival_uzbekistan_start2",
+     "kind": "start2",
+     "lang": "uz",
+     "dialect": "uz",
+     "text": "Eng yaxshisi g'alaba qilsin!",
+     "subtitleAr": "ليفز الأفضل!",
+     "subtitleKey": "rival_bark_start2",
+     "review": "native"
+    },
+    {
+     "id": "rival_uzbekistan_overtake",
+     "kind": "overtake",
+     "lang": "uz",
+     "dialect": "uz",
+     "text": "Marra chizig'ida ko'rishamiz!",
+     "subtitleAr": "نشوفك عند خط النهاية!",
+     "subtitleKey": "rival_bark_overtake",
+     "review": "native"
+    },
+    {
+     "id": "rival_uzbekistan_overtaken",
+     "kind": "overtaken",
+     "lang": "uz",
+     "dialect": "uz",
+     "text": "Voy, qanday tezsan!",
+     "subtitleAr": "ما شاء الله، ما أسرعك!",
+     "subtitleKey": "rival_bark_overtaken",
+     "review": "native"
+    },
+    {
+     "id": "rival_uzbekistan_boost",
+     "kind": "boost",
+     "lang": "uz",
+     "dialect": "uz",
+     "text": "Mana, ketdim!",
+     "subtitleAr": "هذا أنا أنطلق!",
+     "subtitleKey": "rival_bark_boost",
+     "review": "native"
+    },
+    {
+     "id": "rival_uzbekistan_crash",
+     "kind": "crash",
+     "lang": "uz",
+     "dialect": "uz",
+     "text": "Voy! Men yaxshiman!",
+     "subtitleAr": "أوه! أنا بخير!",
+     "subtitleKey": "rival_bark_crash",
+     "review": "native"
+    },
+    {
+     "id": "rival_uzbekistan_win",
+     "kind": "win",
+     "lang": "uz",
+     "dialect": "uz",
+     "text": "Qanday qiziq poyga!",
+     "subtitleAr": "كان سباقًا ممتعًا!",
+     "subtitleKey": "rival_bark_win",
+     "review": "native"
+    },
+    {
+     "id": "rival_uzbekistan_lose",
+     "kind": "lose",
+     "lang": "uz",
+     "dialect": "uz",
+     "text": "Barakalla, sen yutding!",
+     "subtitleAr": "أحسنت، أنت فزت!",
+     "subtitleKey": "rival_bark_lose",
+     "review": "native"
+    }
+   ]
+  },
+  {
+   "id": "rival_pakistan",
+   "country": "pakistan",
+   "nameEn": "Bilal",
+   "nameAr": "بلال",
+   "female": false,
+   "modest": true,
+   "mount": "camel",
+   "style": "steady",
+   "model": "rival_pakistan",
+   "outfit": "long green shalwar kameez, embroidered cap",
+   "outfitReview": false,
+   "lines": [
+    {
+     "id": "rival_pakistan_start",
+     "kind": "start",
+     "lang": "ur",
+     "dialect": "ur",
+     "text": "اچھی قسمت، چلو ریس لگاتے ہیں!",
+     "subtitleAr": "بالتوفيق! خلّنا نسوي سباق حلو!",
+     "subtitleKey": "rival_bark_start",
+     "review": "native"
+    },
+    {
+     "id": "rival_pakistan_start2",
+     "kind": "start2",
+     "lang": "ur",
+     "dialect": "ur",
+     "text": "جو بہترین ہو وہ جیتے!",
+     "subtitleAr": "ليفز الأفضل!",
+     "subtitleKey": "rival_bark_start2",
+     "review": "native"
+    },
+    {
+     "id": "rival_pakistan_overtake",
+     "kind": "overtake",
+     "lang": "ur",
+     "dialect": "ur",
+     "text": "فنش لائن پر ملتے ہیں!",
+     "subtitleAr": "نشوفك عند خط النهاية!",
+     "subtitleKey": "rival_bark_overtake",
+     "review": "native"
+    },
+    {
+     "id": "rival_pakistan_overtaken",
+     "kind": "overtaken",
+     "lang": "ur",
+     "dialect": "ur",
+     "text": "واہ، آپ تو بہت تیز ہیں!",
+     "subtitleAr": "ما شاء الله، ما أسرعك!",
+     "subtitleKey": "rival_bark_overtaken",
+     "review": "native"
+    },
+    {
+     "id": "rival_pakistan_boost",
+     "kind": "boost",
+     "lang": "ur",
+     "dialect": "ur",
+     "text": "لو، میں چلا!",
+     "subtitleAr": "هذا أنا أنطلق!",
+     "subtitleKey": "rival_bark_boost",
+     "review": "native"
+    },
+    {
+     "id": "rival_pakistan_crash",
+     "kind": "crash",
+     "lang": "ur",
+     "dialect": "ur",
+     "text": "اوہ! میں ٹھیک ہوں!",
+     "subtitleAr": "أوه! أنا بخير!",
+     "subtitleKey": "rival_bark_crash",
+     "review": "native"
+    },
+    {
+     "id": "rival_pakistan_win",
+     "kind": "win",
+     "lang": "ur",
+     "dialect": "ur",
+     "text": "کیا مزے کی ریس تھی!",
+     "subtitleAr": "كان سباقًا ممتعًا!",
+     "subtitleKey": "rival_bark_win",
+     "review": "native"
+    },
+    {
+     "id": "rival_pakistan_lose",
+     "kind": "lose",
+     "lang": "ur",
+     "dialect": "ur",
+     "text": "شاباش، آپ جیت گئے!",
+     "subtitleAr": "أحسنت، أنت فزت!",
+     "subtitleKey": "rival_bark_lose",
+     "review": "native"
+    }
+   ]
+  },
+  {
+   "id": "rival_india",
+   "country": "india",
+   "nameEn": "Aarav",
+   "nameAr": "آراف",
+   "female": false,
+   "modest": true,
+   "mount": "giraffe",
+   "style": "clean",
+   "model": "rival_india",
+   "outfit": "saffron-and-cream kurta jacket, simple headband",
+   "outfitReview": false,
+   "lines": [
+    {
+     "id": "rival_india_start",
+     "kind": "start",
+     "lang": "hi",
+     "dialect": "hi",
+     "text": "शुभकामनाएँ, चलो रेस लगाएँ!",
+     "subtitleAr": "بالتوفيق! خلّنا نسوي سباق حلو!",
+     "subtitleKey": "rival_bark_start",
+     "review": "native"
+    },
+    {
+     "id": "rival_india_start2",
+     "kind": "start2",
+     "lang": "hi",
+     "dialect": "hi",
+     "text": "जो सबसे अच्छा हो, वही जीते!",
+     "subtitleAr": "ليفز الأفضل!",
+     "subtitleKey": "rival_bark_start2",
+     "review": "native"
+    },
+    {
+     "id": "rival_india_overtake",
+     "kind": "overtake",
+     "lang": "hi",
+     "dialect": "hi",
+     "text": "फ़िनिश लाइन पर मिलते हैं!",
+     "subtitleAr": "نشوفك عند خط النهاية!",
+     "subtitleKey": "rival_bark_overtake",
+     "review": "native"
+    },
+    {
+     "id": "rival_india_overtaken",
+     "kind": "overtaken",
+     "lang": "hi",
+     "dialect": "hi",
+     "text": "वाह, तुम तो बहुत तेज़ हो!",
+     "subtitleAr": "ما شاء الله، ما أسرعك!",
+     "subtitleKey": "rival_bark_overtaken",
+     "review": "native"
+    },
+    {
+     "id": "rival_india_boost",
+     "kind": "boost",
+     "lang": "hi",
+     "dialect": "hi",
+     "text": "लो, मैं चला!",
+     "subtitleAr": "هذا أنا أنطلق!",
+     "subtitleKey": "rival_bark_boost",
+     "review": "native"
+    },
+    {
+     "id": "rival_india_crash",
+     "kind": "crash",
+     "lang": "hi",
+     "dialect": "hi",
+     "text": "अरे! मैं ठीक हूँ!",
+     "subtitleAr": "أوه! أنا بخير!",
+     "subtitleKey": "rival_bark_crash",
+     "review": "native"
+    },
+    {
+     "id": "rival_india_win",
+     "kind": "win",
+     "lang": "hi",
+     "dialect": "hi",
+     "text": "कितनी मज़ेदार रेस थी!",
+     "subtitleAr": "كان سباقًا ممتعًا!",
+     "subtitleKey": "rival_bark_win",
+     "review": "native"
+    },
+    {
+     "id": "rival_india_lose",
+     "kind": "lose",
+     "lang": "hi",
+     "dialect": "hi",
+     "text": "शाबाश, तुम जीत गए!",
+     "subtitleAr": "أحسنت، أنت فزت!",
+     "subtitleKey": "rival_bark_lose",
+     "review": "native"
+    }
+   ]
+  },
+  {
+   "id": "rival_malaysia",
+   "country": "malaysia",
+   "nameEn": "Siti",
+   "nameAr": "سيتي",
+   "female": true,
+   "modest": true,
+   "mount": "horse",
+   "style": "steady",
+   "model": "rival_malaysia",
+   "outfit": "bright yellow baju kurung with a headscarf under a helmet",
+   "outfitReview": true,
+   "lines": [
+    {
+     "id": "rival_malaysia_start",
+     "kind": "start",
+     "lang": "ms",
+     "dialect": "ms",
+     "text": "Semoga berjaya, jom berlumba!",
+     "subtitleAr": "بالتوفيق! خلّنا نسوي سباق حلو!",
+     "subtitleKey": "rival_bark_start",
+     "review": "native"
+    },
+    {
+     "id": "rival_malaysia_start2",
+     "kind": "start2",
+     "lang": "ms",
+     "dialect": "ms",
+     "text": "Biar yang terbaik menang!",
+     "subtitleAr": "ليفز الأفضل!",
+     "subtitleKey": "rival_bark_start2",
+     "review": "native"
+    },
+    {
+     "id": "rival_malaysia_overtake",
+     "kind": "overtake",
+     "lang": "ms",
+     "dialect": "ms",
+     "text": "Jumpa di garisan penamat!",
+     "subtitleAr": "نشوفك عند خط النهاية!",
+     "subtitleKey": "rival_bark_overtake",
+     "review": "native"
+    },
+    {
+     "id": "rival_malaysia_overtaken",
+     "kind": "overtaken",
+     "lang": "ms",
+     "dialect": "ms",
+     "text": "Wah, laju betul kamu!",
+     "subtitleAr": "ما شاء الله، ما أسرعك!",
+     "subtitleKey": "rival_bark_overtaken",
+     "review": "native"
+    },
+    {
+     "id": "rival_malaysia_boost",
+     "kind": "boost",
+     "lang": "ms",
+     "dialect": "ms",
+     "text": "Ini aku pergi!",
+     "subtitleAr": "هذا أنا أنطلق!",
+     "subtitleKey": "rival_bark_boost",
+     "review": "native"
+    },
+    {
+     "id": "rival_malaysia_crash",
+     "kind": "crash",
+     "lang": "ms",
+     "dialect": "ms",
+     "text": "Alamak! Aku okey!",
+     "subtitleAr": "أوه! أنا بخير!",
+     "subtitleKey": "rival_bark_crash",
+     "review": "native"
+    },
+    {
+     "id": "rival_malaysia_win",
+     "kind": "win",
+     "lang": "ms",
+     "dialect": "ms",
+     "text": "Seronoknya perlumbaan ini!",
+     "subtitleAr": "كان سباقًا ممتعًا!",
+     "subtitleKey": "rival_bark_win",
+     "review": "native"
+    },
+    {
+     "id": "rival_malaysia_lose",
+     "kind": "lose",
+     "lang": "ms",
+     "dialect": "ms",
+     "text": "Tahniah, kamu menang!",
+     "subtitleAr": "أحسنت، أنت فزت!",
+     "subtitleKey": "rival_bark_lose",
+     "review": "native"
+    }
+   ]
+  },
+  {
+   "id": "rival_indonesia",
+   "country": "indonesia",
+   "nameEn": "Budi",
+   "nameAr": "بودي",
+   "female": false,
+   "modest": true,
+   "mount": "horse",
+   "style": "aggressive",
+   "model": "rival_indonesia",
+   "outfit": "batik-pattern racing shirt, black cap",
+   "outfitReview": false,
+   "lines": [
+    {
+     "id": "rival_indonesia_start",
+     "kind": "start",
+     "lang": "id",
+     "dialect": "id",
+     "text": "Semoga sukses, ayo balapan!",
+     "subtitleAr": "بالتوفيق! خلّنا نسوي سباق حلو!",
+     "subtitleKey": "rival_bark_start",
+     "review": "native"
+    },
+    {
+     "id": "rival_indonesia_start2",
+     "kind": "start2",
+     "lang": "id",
+     "dialect": "id",
+     "text": "Semoga yang terbaik menang!",
+     "subtitleAr": "ليفز الأفضل!",
+     "subtitleKey": "rival_bark_start2",
+     "review": "native"
+    },
+    {
+     "id": "rival_indonesia_overtake",
+     "kind": "overtake",
+     "lang": "id",
+     "dialect": "id",
+     "text": "Sampai jumpa di garis finis!",
+     "subtitleAr": "نشوفك عند خط النهاية!",
+     "subtitleKey": "rival_bark_overtake",
+     "review": "native"
+    },
+    {
+     "id": "rival_indonesia_overtaken",
+     "kind": "overtaken",
+     "lang": "id",
+     "dialect": "id",
+     "text": "Wah, kamu cepat sekali!",
+     "subtitleAr": "ما شاء الله، ما أسرعك!",
+     "subtitleKey": "rival_bark_overtaken",
+     "review": "native"
+    },
+    {
+     "id": "rival_indonesia_boost",
+     "kind": "boost",
+     "lang": "id",
+     "dialect": "id",
+     "text": "Aku berangkat!",
+     "subtitleAr": "هذا أنا أنطلق!",
+     "subtitleKey": "rival_bark_boost",
+     "review": "native"
+    },
+    {
+     "id": "rival_indonesia_crash",
+     "kind": "crash",
+     "lang": "id",
+     "dialect": "id",
+     "text": "Aduh! Aku baik-baik saja!",
+     "subtitleAr": "أوه! أنا بخير!",
+     "subtitleKey": "rival_bark_crash",
+     "review": "native"
+    },
+    {
+     "id": "rival_indonesia_win",
+     "kind": "win",
+     "lang": "id",
+     "dialect": "id",
+     "text": "Seru sekali balapannya!",
+     "subtitleAr": "كان سباقًا ممتعًا!",
+     "subtitleKey": "rival_bark_win",
+     "review": "native"
+    },
+    {
+     "id": "rival_indonesia_lose",
+     "kind": "lose",
+     "lang": "id",
+     "dialect": "id",
+     "text": "Selamat, kamu menang!",
+     "subtitleAr": "أحسنت، أنت فزت!",
+     "subtitleKey": "rival_bark_lose",
+     "review": "native"
+    }
+   ]
+  },
+  {
+   "id": "rival_japan",
+   "country": "japan",
+   "nameEn": "Haruto",
+   "nameAr": "هاروتو",
+   "female": false,
+   "modest": true,
+   "mount": "falcon_glider",
+   "style": "clean",
+   "model": "rival_japan",
+   "outfit": "indigo happi-style jacket, headband",
+   "outfitReview": false,
+   "lines": [
+    {
+     "id": "rival_japan_start",
+     "kind": "start",
+     "lang": "ja",
+     "dialect": "ja",
+     "text": "がんばろうね、レースしよう！",
+     "subtitleAr": "بالتوفيق! خلّنا نسوي سباق حلو!",
+     "subtitleKey": "rival_bark_start",
+     "review": "native"
+    },
+    {
+     "id": "rival_japan_start2",
+     "kind": "start2",
+     "lang": "ja",
+     "dialect": "ja",
+     "text": "いちばんの人が勝つよ！",
+     "subtitleAr": "ليفز الأفضل!",
+     "subtitleKey": "rival_bark_start2",
+     "review": "native"
+    },
+    {
+     "id": "rival_japan_overtake",
+     "kind": "overtake",
+     "lang": "ja",
+     "dialect": "ja",
+     "text": "ゴールで会おうね！",
+     "subtitleAr": "نشوفك عند خط النهاية!",
+     "subtitleKey": "rival_bark_overtake",
+     "review": "native"
+    },
+    {
+     "id": "rival_japan_overtaken",
+     "kind": "overtaken",
+     "lang": "ja",
+     "dialect": "ja",
+     "text": "わあ、速いね！",
+     "subtitleAr": "ما شاء الله، ما أسرعك!",
+     "subtitleKey": "rival_bark_overtaken",
+     "review": "native"
+    },
+    {
+     "id": "rival_japan_boost",
+     "kind": "boost",
+     "lang": "ja",
+     "dialect": "ja",
+     "text": "いくよー！",
+     "subtitleAr": "هذا أنا أنطلق!",
+     "subtitleKey": "rival_bark_boost",
+     "review": "native"
+    },
+    {
+     "id": "rival_japan_crash",
+     "kind": "crash",
+     "lang": "ja",
+     "dialect": "ja",
+     "text": "あいたた！だいじょうぶ！",
+     "subtitleAr": "أوه! أنا بخير!",
+     "subtitleKey": "rival_bark_crash",
+     "review": "native"
+    },
+    {
+     "id": "rival_japan_win",
+     "kind": "win",
+     "lang": "ja",
+     "dialect": "ja",
+     "text": "たのしいレースだったね！",
+     "subtitleAr": "كان سباقًا ممتعًا!",
+     "subtitleKey": "rival_bark_win",
+     "review": "native"
+    },
+    {
+     "id": "rival_japan_lose",
+     "kind": "lose",
+     "lang": "ja",
+     "dialect": "ja",
+     "text": "おめでとう、きみの勝ちだよ！",
+     "subtitleAr": "أحسنت، أنت فزت!",
+     "subtitleKey": "rival_bark_lose",
+     "review": "native"
+    }
+   ]
+  },
+  {
+   "id": "rival_usa",
+   "country": "usa",
+   "nameEn": "Jake",
+   "nameAr": "جيك",
+   "female": false,
+   "modest": true,
+   "mount": "horse",
+   "style": "aggressive",
+   "model": "rival_usa",
+   "outfit": "denim jacket, baseball cap",
+   "outfitReview": false,
+   "lines": [
+    {
+     "id": "rival_usa_start",
+     "kind": "start",
+     "lang": "en",
+     "dialect": "en-US",
+     "text": "Good luck, let's race!",
+     "subtitleAr": "بالتوفيق! خلّنا نسوي سباق حلو!",
+     "subtitleKey": "rival_bark_start",
+     "review": "none"
+    },
+    {
+     "id": "rival_usa_start2",
+     "kind": "start2",
+     "lang": "en",
+     "dialect": "en-US",
+     "text": "May the best racer win!",
+     "subtitleAr": "ليفز الأفضل!",
+     "subtitleKey": "rival_bark_start2",
+     "review": "none"
+    },
+    {
+     "id": "rival_usa_overtake",
+     "kind": "overtake",
+     "lang": "en",
+     "dialect": "en-US",
+     "text": "See you at the finish line!",
+     "subtitleAr": "نشوفك عند خط النهاية!",
+     "subtitleKey": "rival_bark_overtake",
+     "review": "none"
+    },
+    {
+     "id": "rival_usa_overtaken",
+     "kind": "overtaken",
+     "lang": "en",
+     "dialect": "en-US",
+     "text": "Whoa, you're fast!",
+     "subtitleAr": "ما شاء الله، ما أسرعك!",
+     "subtitleKey": "rival_bark_overtaken",
+     "review": "none"
+    },
+    {
+     "id": "rival_usa_boost",
+     "kind": "boost",
+     "lang": "en",
+     "dialect": "en-US",
+     "text": "Here I go!",
+     "subtitleAr": "هذا أنا أنطلق!",
+     "subtitleKey": "rival_bark_boost",
+     "review": "none"
+    },
+    {
+     "id": "rival_usa_crash",
+     "kind": "crash",
+     "lang": "en",
+     "dialect": "en-US",
+     "text": "Oops! I'm okay!",
+     "subtitleAr": "أوه! أنا بخير!",
+     "subtitleKey": "rival_bark_crash",
+     "review": "none"
+    },
+    {
+     "id": "rival_usa_win",
+     "kind": "win",
+     "lang": "en",
+     "dialect": "en-US",
+     "text": "That was a blast!",
+     "subtitleAr": "كان سباقًا ممتعًا!",
+     "subtitleKey": "rival_bark_win",
+     "review": "none"
+    },
+    {
+     "id": "rival_usa_lose",
+     "kind": "lose",
+     "lang": "en",
+     "dialect": "en-US",
+     "text": "Nice job, you won!",
+     "subtitleAr": "أحسنت، أنت فزت!",
+     "subtitleKey": "rival_bark_lose",
+     "review": "none"
+    }
+   ]
+  },
+  {
+   "id": "rival_mexico",
+   "country": "mexico",
+   "nameEn": "Mateo",
+   "nameAr": "ماتيو",
+   "female": false,
+   "modest": true,
+   "mount": "horse",
+   "style": "steady",
+   "model": "rival_mexico",
+   "outfit": "embroidered colourful vest, straw hat",
+   "outfitReview": false,
+   "lines": [
+    {
+     "id": "rival_mexico_start",
+     "kind": "start",
+     "lang": "es",
+     "dialect": "es-MX",
+     "text": "¡Mucha suerte, vamos a correr!",
+     "subtitleAr": "بالتوفيق! خلّنا نسوي سباق حلو!",
+     "subtitleKey": "rival_bark_start",
+     "review": "native"
+    },
+    {
+     "id": "rival_mexico_start2",
+     "kind": "start2",
+     "lang": "es",
+     "dialect": "es-MX",
+     "text": "¡Que gane el mejor!",
+     "subtitleAr": "ليفز الأفضل!",
+     "subtitleKey": "rival_bark_start2",
+     "review": "native"
+    },
+    {
+     "id": "rival_mexico_overtake",
+     "kind": "overtake",
+     "lang": "es",
+     "dialect": "es-MX",
+     "text": "¡Nos vemos en la meta!",
+     "subtitleAr": "نشوفك عند خط النهاية!",
+     "subtitleKey": "rival_bark_overtake",
+     "review": "native"
+    },
+    {
+     "id": "rival_mexico_overtaken",
+     "kind": "overtaken",
+     "lang": "es",
+     "dialect": "es-MX",
+     "text": "¡Órale, qué rápido eres!",
+     "subtitleAr": "ما شاء الله، ما أسرعك!",
+     "subtitleKey": "rival_bark_overtaken",
+     "review": "native"
+    },
+    {
+     "id": "rival_mexico_boost",
+     "kind": "boost",
+     "lang": "es",
+     "dialect": "es-MX",
+     "text": "¡Ahí voy!",
+     "subtitleAr": "هذا أنا أنطلق!",
+     "subtitleKey": "rival_bark_boost",
+     "review": "native"
+    },
+    {
+     "id": "rival_mexico_crash",
+     "kind": "crash",
+     "lang": "es",
+     "dialect": "es-MX",
+     "text": "¡Ay! ¡Estoy bien!",
+     "subtitleAr": "أوه! أنا بخير!",
+     "subtitleKey": "rival_bark_crash",
+     "review": "native"
+    },
+    {
+     "id": "rival_mexico_win",
+     "kind": "win",
+     "lang": "es",
+     "dialect": "es-MX",
+     "text": "¡Qué carrera tan padre!",
+     "subtitleAr": "كان سباقًا ممتعًا!",
+     "subtitleKey": "rival_bark_win",
+     "review": "native"
+    },
+    {
+     "id": "rival_mexico_lose",
+     "kind": "lose",
+     "lang": "es",
+     "dialect": "es-MX",
+     "text": "¡Bien hecho, ganaste!",
+     "subtitleAr": "أحسنت، أنت فزت!",
+     "subtitleKey": "rival_bark_lose",
+     "review": "native"
+    }
+   ]
+  },
+  {
+   "id": "rival_brazil",
+   "country": "brazil",
+   "nameEn": "Luiza",
+   "nameAr": "لويزا",
+   "female": true,
+   "modest": true,
+   "mount": "giraffe",
+   "style": "clean",
+   "model": "rival_brazil",
+   "outfit": "green-and-yellow tracksuit with long sleeves and trousers, helmet",
+   "outfitReview": true,
+   "lines": [
+    {
+     "id": "rival_brazil_start",
+     "kind": "start",
+     "lang": "pt",
+     "dialect": "pt-BR",
+     "text": "Boa sorte, vamos correr!",
+     "subtitleAr": "بالتوفيق! خلّنا نسوي سباق حلو!",
+     "subtitleKey": "rival_bark_start",
+     "review": "native"
+    },
+    {
+     "id": "rival_brazil_start2",
+     "kind": "start2",
+     "lang": "pt",
+     "dialect": "pt-BR",
+     "text": "Que vença o melhor!",
+     "subtitleAr": "ليفز الأفضل!",
+     "subtitleKey": "rival_bark_start2",
+     "review": "native"
+    },
+    {
+     "id": "rival_brazil_overtake",
+     "kind": "overtake",
+     "lang": "pt",
+     "dialect": "pt-BR",
+     "text": "A gente se vê na linha de chegada!",
+     "subtitleAr": "نشوفك عند خط النهاية!",
+     "subtitleKey": "rival_bark_overtake",
+     "review": "native"
+    },
+    {
+     "id": "rival_brazil_overtaken",
+     "kind": "overtaken",
+     "lang": "pt",
+     "dialect": "pt-BR",
+     "text": "Nossa, como você é rápido!",
+     "subtitleAr": "ما شاء الله، ما أسرعك!",
+     "subtitleKey": "rival_bark_overtaken",
+     "review": "native"
+    },
+    {
+     "id": "rival_brazil_boost",
+     "kind": "boost",
+     "lang": "pt",
+     "dialect": "pt-BR",
+     "text": "Lá vou eu!",
+     "subtitleAr": "هذا أنا أنطلق!",
+     "subtitleKey": "rival_bark_boost",
+     "review": "native"
+    },
+    {
+     "id": "rival_brazil_crash",
+     "kind": "crash",
+     "lang": "pt",
+     "dialect": "pt-BR",
+     "text": "Opa! Estou bem!",
+     "subtitleAr": "أوه! أنا بخير!",
+     "subtitleKey": "rival_bark_crash",
+     "review": "native"
+    },
+    {
+     "id": "rival_brazil_win",
+     "kind": "win",
+     "lang": "pt",
+     "dialect": "pt-BR",
+     "text": "Que corrida divertida!",
+     "subtitleAr": "كان سباقًا ممتعًا!",
+     "subtitleKey": "rival_bark_win",
+     "review": "native"
+    },
+    {
+     "id": "rival_brazil_lose",
+     "kind": "lose",
+     "lang": "pt",
+     "dialect": "pt-BR",
+     "text": "Muito bem, você ganhou!",
+     "subtitleAr": "أحسنت، أنت فزت!",
+     "subtitleKey": "rival_bark_lose",
+     "review": "native"
+    }
+   ]
+  },
+  {
+   "id": "rival_south_africa",
+   "country": "south_africa",
+   "nameEn": "Thabo",
+   "nameAr": "تابو",
+   "female": false,
+   "modest": true,
+   "mount": "ostrich",
+   "style": "steady",
+   "model": "rival_south_africa",
+   "outfit": "bright patterned shirt, bush hat",
+   "outfitReview": false,
+   "lines": [
+    {
+     "id": "rival_south_africa_start",
+     "kind": "start",
+     "lang": "en",
+     "dialect": "en-ZA",
+     "text": "Good luck, let's race!",
+     "subtitleAr": "بالتوفيق! خلّنا نسوي سباق حلو!",
+     "subtitleKey": "rival_bark_start",
+     "review": "none"
+    },
+    {
+     "id": "rival_south_africa_start2",
+     "kind": "start2",
+     "lang": "en",
+     "dialect": "en-ZA",
+     "text": "May the best racer win!",
+     "subtitleAr": "ليفز الأفضل!",
+     "subtitleKey": "rival_bark_start2",
+     "review": "none"
+    },
+    {
+     "id": "rival_south_africa_overtake",
+     "kind": "overtake",
+     "lang": "en",
+     "dialect": "en-ZA",
+     "text": "See you at the finish!",
+     "subtitleAr": "نشوفك عند خط النهاية!",
+     "subtitleKey": "rival_bark_overtake",
+     "review": "none"
+    },
+    {
+     "id": "rival_south_africa_overtaken",
+     "kind": "overtaken",
+     "lang": "en",
+     "dialect": "en-ZA",
+     "text": "Hey, you're quick!",
+     "subtitleAr": "ما شاء الله، ما أسرعك!",
+     "subtitleKey": "rival_bark_overtaken",
+     "review": "none"
+    },
+    {
+     "id": "rival_south_africa_boost",
+     "kind": "boost",
+     "lang": "en",
+     "dialect": "en-ZA",
+     "text": "Here we go!",
+     "subtitleAr": "هذا أنا أنطلق!",
+     "subtitleKey": "rival_bark_boost",
+     "review": "none"
+    },
+    {
+     "id": "rival_south_africa_crash",
+     "kind": "crash",
+     "lang": "en",
+     "dialect": "en-ZA",
+     "text": "Eish! I'm fine!",
+     "subtitleAr": "أوه! أنا بخير!",
+     "subtitleKey": "rival_bark_crash",
+     "review": "none"
+    },
+    {
+     "id": "rival_south_africa_win",
+     "kind": "win",
+     "lang": "en",
+     "dialect": "en-ZA",
+     "text": "What a lekker race!",
+     "subtitleAr": "كان سباقًا ممتعًا!",
+     "subtitleKey": "rival_bark_win",
+     "review": "none"
+    },
+    {
+     "id": "rival_south_africa_lose",
+     "kind": "lose",
+     "lang": "en",
+     "dialect": "en-ZA",
+     "text": "Well done, you won!",
+     "subtitleAr": "أحسنت، أنت فزت!",
+     "subtitleKey": "rival_bark_lose",
+     "review": "none"
+    }
+   ]
+  },
+  {
+   "id": "rival_australia",
+   "country": "australia",
+   "nameEn": "Tilly",
+   "nameAr": "تيلي",
+   "female": true,
+   "modest": true,
+   "mount": "ostrich",
+   "style": "clean",
+   "model": "rival_australia",
+   "outfit": "outback hat, long-sleeved khaki shirt and trousers, helmet",
+   "outfitReview": true,
+   "lines": [
+    {
+     "id": "rival_australia_start",
+     "kind": "start",
+     "lang": "en",
+     "dialect": "en-AU",
+     "text": "Good luck, let's race!",
+     "subtitleAr": "بالتوفيق! خلّنا نسوي سباق حلو!",
+     "subtitleKey": "rival_bark_start",
+     "review": "none"
+    },
+    {
+     "id": "rival_australia_start2",
+     "kind": "start2",
+     "lang": "en",
+     "dialect": "en-AU",
+     "text": "May the best racer win!",
+     "subtitleAr": "ليفز الأفضل!",
+     "subtitleKey": "rival_bark_start2",
+     "review": "none"
+    },
+    {
+     "id": "rival_australia_overtake",
+     "kind": "overtake",
+     "lang": "en",
+     "dialect": "en-AU",
+     "text": "See you at the finish line!",
+     "subtitleAr": "نشوفك عند خط النهاية!",
+     "subtitleKey": "rival_bark_overtake",
+     "review": "none"
+    },
+    {
+     "id": "rival_australia_overtaken",
+     "kind": "overtaken",
+     "lang": "en",
+     "dialect": "en-AU",
+     "text": "Wow, you're fast!",
+     "subtitleAr": "ما شاء الله، ما أسرعك!",
+     "subtitleKey": "rival_bark_overtaken",
+     "review": "none"
+    },
+    {
+     "id": "rival_australia_boost",
+     "kind": "boost",
+     "lang": "en",
+     "dialect": "en-AU",
+     "text": "Here I go!",
+     "subtitleAr": "هذا أنا أنطلق!",
+     "subtitleKey": "rival_bark_boost",
+     "review": "none"
+    },
+    {
+     "id": "rival_australia_crash",
+     "kind": "crash",
+     "lang": "en",
+     "dialect": "en-AU",
+     "text": "Oops! I'm all good!",
+     "subtitleAr": "أوه! أنا بخير!",
+     "subtitleKey": "rival_bark_crash",
+     "review": "none"
+    },
+    {
+     "id": "rival_australia_win",
+     "kind": "win",
+     "lang": "en",
+     "dialect": "en-AU",
+     "text": "What a ripper of a race!",
+     "subtitleAr": "كان سباقًا ممتعًا!",
+     "subtitleKey": "rival_bark_win",
+     "review": "none"
+    },
+    {
+     "id": "rival_australia_lose",
+     "kind": "lose",
+     "lang": "en",
+     "dialect": "en-AU",
+     "text": "Good on you, you won!",
+     "subtitleAr": "أحسنت، أنت فزت!",
+     "subtitleKey": "rival_bark_lose",
+     "review": "none"
+    }
+   ]
+  }
+ ]
+}

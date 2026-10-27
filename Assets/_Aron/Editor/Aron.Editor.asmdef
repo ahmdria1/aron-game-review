@@ -1,0 +1,10 @@
+{
+    "name": "Aron.Editor",
+    "rootNamespace": "Aron.EditorTools",
+    "references": ["Aron.Runtime", "Aron.Logic", "Unity.InputSystem", "Unity.TextMeshPro", "Unity.RenderPipelines.Universal.Runtime", "Unity.RenderPipelines.Core.Runtime"],
+    "includePlatforms": ["Editor"],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "autoReferenced": false,
+    "noEngineReferences": false
+}

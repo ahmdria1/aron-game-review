@@ -1,0 +1,15 @@
+{
+  "region": "pakistan",
+  "shops": [
+    {
+      "stage": "pakistan_1",
+      "nameAr": "ألوان الشاحنات",
+      "kind": "gifts"
+    },
+    {
+      "stage": "pakistan_6",
+      "nameAr": "جلابي الليل",
+      "kind": "sweets"
+    }
+  ]
+}

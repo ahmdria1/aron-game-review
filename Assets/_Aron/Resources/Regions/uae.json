@@ -1,0 +1,217 @@
+{
+  "order": 210,
+  "id": "uae",
+  "nameAr": "الإمارات",
+  "nameEn": "UAE",
+  "group": "gulf",
+  "music": "music_country_uae",
+  "ground": "#E9D3A8",
+  "accent": "#00732F",
+  "sky": "#A3D2F0",
+  "country": "uae",
+  "costume": "",
+  "stages": [
+    {
+      "id": "uae_1",
+      "nameAr": "خور دبي والعبرة",
+      "nameEn": "Dubai Creek and the Abra",
+      "terrain": "coast",
+      "landmarks": [
+        "dhows",
+        "wind_towers"
+      ],
+      "mount": "",
+      "difficulty": 2,
+      "boss": false,
+      "lineAr": "العبرة ماشية على الخور، يلا نعبر.",
+      "extra": "",
+      "time": "day",
+      "weather": "clear",
+      "type": "normal",
+      "costume": ""
+    },
+    {
+      "id": "uae_2",
+      "nameAr": "سوق الذهب",
+      "nameEn": "The Gold Souq",
+      "terrain": "souq",
+      "landmarks": [
+        "souq",
+        "gate"
+      ],
+      "mount": "",
+      "difficulty": 3,
+      "boss": false,
+      "lineAr": "سوق الذهب يلمع، بس انتبه للحرس.",
+      "extra": "",
+      "time": "day",
+      "weather": "clear",
+      "type": "normal",
+      "costume": ""
+    },
+    {
+      "id": "uae_3",
+      "nameAr": "البستكية",
+      "nameEn": "Al Bastakiya",
+      "terrain": "street",
+      "landmarks": [
+        "wind_towers",
+        "mud_town"
+      ],
+      "mount": "",
+      "difficulty": 3,
+      "boss": false,
+      "lineAr": "البراجيل تبرد الحواري، وهم يلحقوني!",
+      "extra": "",
+      "time": "sunset",
+      "weather": "clear",
+      "type": "action",
+      "costume": ""
+    },
+    {
+      "id": "uae_4",
+      "nameAr": "وسط دبي",
+      "nameEn": "Downtown Dubai",
+      "terrain": "street",
+      "landmarks": [
+        "needle_tower",
+        "fountain"
+      ],
+      "mount": "",
+      "difficulty": 4,
+      "boss": false,
+      "lineAr": "أطول برج بالدنيا! والنافورة بدت تغني.",
+      "extra": "",
+      "time": "night",
+      "weather": "clear",
+      "type": "normal",
+      "costume": ""
+    },
+    {
+      "id": "uae_5",
+      "nameAr": "صحراء ليوا",
+      "nameEn": "Liwa Desert",
+      "terrain": "desert",
+      "landmarks": [
+        "dunes",
+        "tents"
+      ],
+      "mount": "camel",
+      "difficulty": 5,
+      "boss": false,
+      "lineAr": "كثبان ليوا عالية، والعاصفة جاية!",
+      "extra": "",
+      "time": "day",
+      "weather": "sandstorm",
+      "type": "chase",
+      "costume": ""
+    },
+    {
+      "id": "uae_6",
+      "nameAr": "واحة العين",
+      "nameEn": "Al Ain Oasis",
+      "terrain": "oasis",
+      "landmarks": [
+        "palms",
+        "round_fort"
+      ],
+      "mount": "",
+      "difficulty": 5,
+      "boss": false,
+      "lineAr": "واحة العين، أفلاج ونخل وقلعة الجاهلي.",
+      "extra": "",
+      "time": "sunset",
+      "weather": "clear",
+      "type": "normal",
+      "costume": ""
+    },
+    {
+      "id": "uae_race",
+      "nameAr": "سباق الصقور",
+      "nameEn": "Falcon Glider Race",
+      "terrain": "mountain",
+      "landmarks": [
+        "dunes",
+        "skyscraper"
+      ],
+      "mount": "",
+      "difficulty": 5,
+      "boss": false,
+      "lineAr": "سباق! سباق الصقور، يلا نشوف مين الأول!",
+      "extra": "",
+      "time": "day",
+      "weather": "clear",
+      "type": "race",
+      "costume": "",
+      "race": "uae_sky"
+    },
+    {
+      "id": "uae_7",
+      "nameAr": "كورنيش أبوظبي",
+      "nameEn": "Abu Dhabi Corniche",
+      "terrain": "coast",
+      "landmarks": [
+        "skyscraper",
+        "palms"
+      ],
+      "mount": "",
+      "difficulty": 6,
+      "boss": true,
+      "lineAr": "مارد الخور طلع على الكورنيش!",
+      "extra": "",
+      "time": "night",
+      "weather": "clear",
+      "type": "boss",
+      "costume": ""
+    }
+  ],
+  "boss": {
+    "nameAr": "مارد الخور",
+    "nameEn": "The Creek Marid",
+    "model": "marid",
+    "headgear": "hood",
+    "body": "#0F5257",
+    "trim": "#C9B037",
+    "projectile": "#36D1C4",
+    "scale": 1.2,
+    "health": 11,
+    "introAr": "أنا ساكن الخور من زمان، ارجع من وين ما جيت!",
+    "stunAr": "أوه... وين أنا؟",
+    "defeatAr": "رجعت للخور... الإمارات لك.",
+    "phases": [
+      {
+        "threshold": 1.0,
+        "move": 3.5,
+        "charge": 12,
+        "interval": 2.9,
+        "attacks": [
+          "dash"
+        ],
+        "tauntAr": "ما تقدر تلحقني!"
+      },
+      {
+        "threshold": 0.66,
+        "move": 4.5,
+        "charge": 14,
+        "interval": 2.4,
+        "attacks": [
+          "dash",
+          "leap"
+        ],
+        "tauntAr": "من فوق ومن تحت!"
+      },
+      {
+        "threshold": 0.33,
+        "move": 5.5,
+        "charge": 16,
+        "interval": 1.9,
+        "attacks": [
+          "dash",
+          "leap",
+          "wave"
+        ],
+        "tauntAr": "الموج معي!"
+      }
+    ]
+  }
+}

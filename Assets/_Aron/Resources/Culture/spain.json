@@ -1,0 +1,262 @@
+{
+  "country": "spain",
+  "dialect": "es-ES",
+  "uiLanguage": "es",
+  "greeting": {
+    "words": "¡Hola, buenos días!",
+    "wordsEn": "Hello, good morning!",
+    "wordsAr": "أهلاً، صباح الخير!",
+    "gesture": "cheek_kiss"
+  },
+  "hospitality": {
+    "ar": "في إسبانيا الضيف لازم يتعشى قبل لا يمشي.",
+    "en": "In Spain, a guest is always asked to stay and eat.",
+    "tr": "İspanya misafiri her zaman yemeğe alıkoyar.",
+    "de": "In Spanien wird ein Gast immer zum Essen eingeladen.",
+    "ur": "سپین میں مہمان کو ہمیشہ کھانے پر روکا جاتا ہے۔",
+    "hi": "स्पेन में मेहमान को हमेशा खाने के लिए रोका जाता है।",
+    "es": "En España siempre se invita al huésped a quedarse a comer.",
+    "pt": "Na Espanha pede-se sempre ao convidado que fique para comer.",
+    "id": "Di Spanyol, tamu selalu diajak makan dulu.",
+    "ms": "Di Sepanyol, tetamu sentiasa diajak makan dahulu.",
+    "ja": "スペインではお客さんはいつも食事に誘われます。",
+    "fr": "Espagne : on invite toujours l'invité à rester manger."
+  },
+  "customs": [
+    {
+      "act": "share_bread",
+      "en": "Small plates are shared around the table.",
+      "ar": "الصحون الصغيرة تنقسم على الكل."
+    },
+    {
+      "act": "play_game",
+      "en": "Kids play football in the plaza until late.",
+      "ar": "البزارين يلعبون كورة في الساحة لين متأخر."
+    }
+  ],
+  "architecture": "Whitewashed villages, palace courtyards with fountains and tiled walls, orange trees.",
+  "palette": [
+    "#C60B1E",
+    "#F1BF00",
+    "#FFFFFF",
+    "#2E6DA4"
+  ],
+  "music": {
+    "style": "Flamenco guitar",
+    "instruments": [
+      "guitar",
+      "cajón",
+      "handclaps"
+    ]
+  },
+  "street": {
+    "vendors": [
+      "churros stand",
+      "orange seller"
+    ],
+    "cafe": "café with terrace",
+    "kidsGames": [
+      "football",
+      "skipping rope"
+    ],
+    "crowd": "lively, loud and warm"
+  },
+  "foods": [
+    {
+      "id": "spain_churros",
+      "local": "Churros con chocolate",
+      "name": {
+        "ar": "تشوروس",
+        "en": "Churros with hot chocolate",
+        "tr": "Churros con chocolate",
+        "de": "Churros con chocolate",
+        "ur": "چُرّوس",
+        "hi": "चुर्रोस",
+        "es": "Churros con chocolate",
+        "pt": "Churros con chocolate",
+        "id": "Churros con chocolate",
+        "ms": "Churros con chocolate",
+        "ja": "チュロス",
+        "fr": "Churros con chocolate"
+      },
+      "fact": {
+        "ar": "حلا محبوب في إسبانيا، أحلى مع الشاي أو القهوة.",
+        "en": "A sweet treat in Spain, best with tea or coffee.",
+        "tr": "İspanya için tatlı bir ikram, çay ya da kahveyle en güzeli.",
+        "de": "Eine süße Leckerei in Spanien, am besten mit Tee oder Kaffee.",
+        "ur": "سپین کی میٹھی سوغات، چائے یا کافی کے ساتھ مزیدار۔",
+        "hi": "स्पेन की मीठी सौगात, चाय या कॉफ़ी के साथ सबसे अच्छी।",
+        "es": "Un dulce de España, mejor con té o café.",
+        "pt": "Um doce da Espanha, melhor com chá ou café.",
+        "id": "Camilan manis di Spanyol, paling enak dengan teh atau kopi.",
+        "ms": "Manisan di Sepanyol, paling sedap dengan teh atau kopi.",
+        "ja": "スペインの甘いおやつ。お茶やコーヒーと一緒にどうぞ。",
+        "fr": "Espagne : une douceur, parfaite avec un thé ou un café."
+      },
+      "shape": "stick",
+      "color": "#C68A3A",
+      "color2": "#4A2A14",
+      "buff": "energy",
+      "price": 40
+    },
+    {
+      "id": "spain_tortilla",
+      "local": "Tortilla de patatas",
+      "name": {
+        "ar": "تورتيا البطاطس",
+        "en": "Potato omelette",
+        "tr": "Tortilla de patatas",
+        "de": "Tortilla de patatas",
+        "ur": "آلو کا آملیٹ",
+        "hi": "आलू का ऑमलेट",
+        "es": "Tortilla de patatas",
+        "pt": "Tortilla de patatas",
+        "id": "Tortilla de patatas",
+        "ms": "Tortilla de patatas",
+        "ja": "スペイン風オムレツ",
+        "fr": "Tortilla de patatas"
+      },
+      "fact": {
+        "ar": "تُعرف غالباً بأنها الأكلة الوطنية في إسبانيا.",
+        "en": "Often called the national dish of Spain.",
+        "tr": "Genellikle İspanya ulusal yemeği sayılır.",
+        "de": "Gilt oft als Nationalgericht von Spanien.",
+        "ur": "اسے اکثر سپین کا قومی کھانا کہا جاتا ہے۔",
+        "hi": "इसे अक्सर स्पेन का राष्ट्रीय व्यंजन कहा जाता है।",
+        "es": "Se le suele llamar el plato nacional de España.",
+        "pt": "É muitas vezes chamado o prato nacional da Espanha.",
+        "id": "Sering disebut hidangan nasional Spanyol.",
+        "ms": "Sering disebut hidangan kebangsaan Sepanyol.",
+        "ja": "スペインの国民食とよく言われます。",
+        "fr": "Espagne : souvent appelé le plat national."
+      },
+      "shape": "cake",
+      "color": "#F2D06B",
+      "color2": "#A0782A",
+      "buff": "strength",
+      "price": 60
+    },
+    {
+      "id": "spain_paella",
+      "local": "Paella de mariscos",
+      "name": {
+        "ar": "باييا",
+        "en": "Seafood rice pan",
+        "tr": "Paella de mariscos",
+        "de": "Paella de mariscos",
+        "ur": "پائیا",
+        "hi": "पाएया",
+        "es": "Paella de mariscos",
+        "pt": "Paella de mariscos",
+        "id": "Paella de mariscos",
+        "ms": "Paella de mariscos",
+        "ja": "パエリア",
+        "fr": "Paella de mariscos"
+      },
+      "fact": {
+        "ar": "يتشاركونه من صحن كبير مع الأهل والضيوف في إسبانيا.",
+        "en": "Shared from one big plate with family and guests in Spain.",
+        "tr": "İspanya için aile ve misafirlerle büyük bir tabaktan paylaşılır.",
+        "de": "In Spanien von einer großen Platte mit Familie und Gästen geteilt.",
+        "ur": "سپین میں گھر والوں اور مہمانوں کے ساتھ ایک بڑی پلیٹ سے کھایا جاتا ہے۔",
+        "hi": "स्पेन में परिवार और मेहमानों के साथ एक बड़ी थाली से खाया जाता है।",
+        "es": "Se comparte de una gran fuente con familia e invitados en España.",
+        "pt": "Partilha-se de uma grande travessa com família e convidados na Espanha.",
+        "id": "Disantap bersama dari satu piring besar dengan keluarga dan tamu di Spanyol.",
+        "ms": "Dikongsi dari satu pinggan besar bersama keluarga dan tetamu di Sepanyol.",
+        "ja": "スペインでは大皿から家族やお客さんと分け合います。",
+        "fr": "Espagne : partagé dans un grand plat avec la famille et les invités."
+      },
+      "shape": "plate",
+      "color": "#E8B33A",
+      "color2": "#C8553D",
+      "buff": "strength",
+      "price": 110
+    },
+    {
+      "id": "spain_gazpacho",
+      "local": "Gazpacho",
+      "name": {
+        "ar": "غازباتشو",
+        "en": "Cold tomato soup",
+        "tr": "Gazpacho",
+        "de": "Gazpacho",
+        "ur": "ٹماٹر کا ٹھنڈا شوربہ",
+        "hi": "ठंडा टमाटर सूप",
+        "es": "Gazpacho",
+        "pt": "Gazpacho",
+        "id": "Gazpacho",
+        "ms": "Gazpacho",
+        "ja": "ガスパチョ",
+        "fr": "Gazpacho"
+      },
+      "fact": {
+        "ar": "يُباع حاراً في بسطات الشوارع في كل إسبانيا.",
+        "en": "Sold hot at street stalls all over Spain.",
+        "tr": "İspanya genelinde sokak tezgâhlarında sıcak satılır.",
+        "de": "Überall in Spanien heiß an Straßenständen verkauft.",
+        "ur": "پورے سپین میں ٹھیلوں پر گرم گرم بکتا ہے۔",
+        "hi": "पूरे स्पेन में ठेलों पर गरमा-गरम बिकता है।",
+        "es": "Se vende caliente en puestos callejeros por todo el territorio de España.",
+        "pt": "Vende-se quente em bancas de rua em toda a Espanha.",
+        "id": "Dijual hangat di kaki lima di seluruh Spanyol.",
+        "ms": "Dijual panas di gerai tepi jalan di seluruh Sepanyol.",
+        "ja": "スペインのあちこちの屋台で熱々で売られています。",
+        "fr": "Espagne : vendu tout chaud dans les stands de rue."
+      },
+      "shape": "bowl",
+      "color": "#D2422E",
+      "color2": "#6A8F3A",
+      "buff": "speed",
+      "price": 45
+    },
+    {
+      "id": "spain_turron",
+      "local": "Turrón",
+      "name": {
+        "ar": "طرون اللوز",
+        "en": "Almond nougat",
+        "tr": "Turrón",
+        "de": "Turrón",
+        "ur": "بادام کی مٹھائی",
+        "hi": "बादाम की मिठाई",
+        "es": "Turrón",
+        "pt": "Turrón",
+        "id": "Turrón",
+        "ms": "Turrón",
+        "ja": "トゥロン",
+        "fr": "Turrón"
+      },
+      "fact": {
+        "ar": "حلا محبوب في إسبانيا، أحلى مع الشاي أو القهوة.",
+        "en": "A sweet treat in Spain, best with tea or coffee.",
+        "tr": "İspanya için tatlı bir ikram, çay ya da kahveyle en güzeli.",
+        "de": "Eine süße Leckerei in Spanien, am besten mit Tee oder Kaffee.",
+        "ur": "سپین کی میٹھی سوغات، چائے یا کافی کے ساتھ مزیدار۔",
+        "hi": "स्पेन की मीठी सौगात, चाय या कॉफ़ी के साथ सबसे अच्छी।",
+        "es": "Un dulce de España, mejor con té o café.",
+        "pt": "Um doce da Espanha, melhor com chá ou café.",
+        "id": "Camilan manis di Spanyol, paling enak dengan teh atau kopi.",
+        "ms": "Manisan di Sepanyol, paling sedap dengan teh atau kopi.",
+        "ja": "スペインの甘いおやつ。お茶やコーヒーと一緒にどうぞ。",
+        "fr": "Espagne : une douceur, parfaite avec un thé ou un café."
+      },
+      "shape": "cake",
+      "color": "#EAD9B0",
+      "color2": "#A0782A",
+      "buff": "energy",
+      "price": 50
+    }
+  ],
+  "animals": [
+    "spain_bull",
+    "spain_horse",
+    "spain_stork"
+  ],
+  "attackTrailVfx": "orange_blossom",
+  "eatIdle": {
+    "dishId": "spain_churros",
+    "propModel": "food_churros",
+    "reaction": "sweet"
+  }
+}

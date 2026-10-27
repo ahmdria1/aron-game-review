@@ -1,0 +1,109 @@
+{
+  "lang": "ms",
+  "profanity": {
+    "terms": [
+      "pukimak",
+      "cibai",
+      "lancau",
+      "bangsat",
+      "anjing",
+      "sundal",
+      "keparat",
+      "bapuk",
+      "sial",
+      "celaka",
+      "puki",
+      "pantat"
+    ],
+    "words": [
+      "babi",
+      "puki",
+      "sial",
+      "celaka",
+      "pantat",
+      "cb",
+      "pk"
+    ],
+    "exact": [
+      "babi"
+    ]
+  },
+  "insult": {
+    "terms": [
+      "bodoh",
+      "bengap",
+      "dungu",
+      "tolol",
+      "bebal",
+      "lembab",
+      "bahlul"
+    ],
+    "words": [
+      "bodoh",
+      "bengap",
+      "bebal",
+      "dungu"
+    ],
+    "exact": [
+      "gila"
+    ]
+  },
+  "hate": {
+    "terms": [
+      "keling",
+      "cinababi",
+      "kafirlaknat",
+      "pariah",
+      "india keling",
+      "melayu bodoh"
+    ],
+    "words": [
+      "keling",
+      "kafir"
+    ],
+    "exact": [
+      "keling"
+    ]
+  },
+  "sexual": {
+    "terms": [
+      "lucah",
+      "bersetubuh",
+      "rogol",
+      "pedofil",
+      "porno",
+      "pelacur",
+      "bogel",
+      "bukakan",
+      "lancap"
+    ],
+    "words": [
+      "seks",
+      "bogel",
+      "lucah",
+      "rogol",
+      "pelacur"
+    ],
+    "exact": [
+      "seks"
+    ]
+  },
+  "figures": {
+    "terms": [
+      "mahathir",
+      "najibrazak",
+      "anwaribrahim",
+      "jholow",
+      "tuhanallah"
+    ],
+    "words": [
+      "tuhan",
+      "mahathir",
+      "setan",
+      "iblis"
+    ],
+    "exact": [
+      "tuhan"
+    ]
+  }
+}

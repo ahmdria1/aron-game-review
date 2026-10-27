@@ -1,0 +1,233 @@
+{
+  "order": 470,
+  "id": "australia",
+  "nameAr": "أستراليا",
+  "nameEn": "Australia",
+  "group": "world",
+  "music": "music_country_australia",
+  "ground": "#C9703A",
+  "accent": "#00843D",
+  "sky": "#8FC8F0",
+  "country": "australia",
+  "costume": "",
+  "stages": [
+    {
+      "id": "australia_1",
+      "nameAr": "السهول الحمراء",
+      "nameEn": "The Red Outback",
+      "terrain": "desert",
+      "landmarks": [
+        "dunes",
+        "lone_tree"
+      ],
+      "mount": "horse",
+      "difficulty": 3,
+      "boss": false,
+      "lineAr": "تراب أحمر وسما واسعة!",
+      "extra": "",
+      "time": "day",
+      "weather": "clear",
+      "type": "normal",
+      "costume": ""
+    },
+    {
+      "id": "australia_2",
+      "nameAr": "غابة الأوكالبتوس",
+      "nameEn": "Eucalyptus Forest",
+      "terrain": "forest",
+      "landmarks": [
+        "gum_forest",
+        "lone_tree"
+      ],
+      "mount": "",
+      "difficulty": 4,
+      "boss": false,
+      "lineAr": "أشجار طويلة وريحة منعشة.",
+      "extra": "",
+      "time": "day",
+      "weather": "clear",
+      "type": "chase",
+      "costume": ""
+    },
+    {
+      "id": "australia_3",
+      "nameAr": "ساحل الشعاب",
+      "nameEn": "Coral Reef Coast",
+      "terrain": "coast",
+      "landmarks": [
+        "coral_reef",
+        "sea_cliffs"
+      ],
+      "mount": "",
+      "difficulty": 5,
+      "boss": false,
+      "lineAr": "مي فيروزية وسمك ملوّن!",
+      "extra": "",
+      "time": "day",
+      "weather": "clear",
+      "type": "normal",
+      "costume": ""
+    },
+    {
+      "id": "australia_4",
+      "nameAr": "مدينة الميناء",
+      "nameEn": "Harbour City",
+      "terrain": "street",
+      "landmarks": [
+        "shell_hall",
+        "steel_arch"
+      ],
+      "mount": "",
+      "difficulty": 6,
+      "boss": false,
+      "lineAr": "أسقف مثل الأصداف وجسر من الحديد.",
+      "extra": "",
+      "time": "sunset",
+      "weather": "clear",
+      "type": "action",
+      "costume": ""
+    },
+    {
+      "id": "australia_5",
+      "nameAr": "الغابة المطيرة",
+      "nameEn": "The Rainforest",
+      "terrain": "forest",
+      "landmarks": [
+        "rainforest",
+        "lake"
+      ],
+      "mount": "",
+      "difficulty": 7,
+      "boss": false,
+      "lineAr": "ضباب وشلالات وأصوات طيور.",
+      "extra": "",
+      "time": "day",
+      "weather": "rain",
+      "type": "normal",
+      "costume": ""
+    },
+    {
+      "id": "australia_6",
+      "nameAr": "سهول الغروب",
+      "nameEn": "Sunset Plains",
+      "terrain": "desert",
+      "landmarks": [
+        "dunes",
+        "acacia"
+      ],
+      "mount": "horse",
+      "difficulty": 8,
+      "boss": false,
+      "lineAr": "في البعيد سلاسل صخور حمراء طبقات طبقات... منظر يجنن!",
+      "extra": "",
+      "time": "sunset",
+      "weather": "clear",
+      "type": "chase",
+      "costume": ""
+    },
+    {
+      "id": "australia_race",
+      "nameAr": "سباق ركوب الأمواج",
+      "nameEn": "Surf Race",
+      "terrain": "coast",
+      "landmarks": [
+        "coral_reef",
+        "sea_cliffs"
+      ],
+      "mount": "",
+      "difficulty": 8,
+      "boss": false,
+      "lineAr": "سباق! سباق ركوب الأمواج، يلا نشوف مين الأول!",
+      "extra": "",
+      "time": "day",
+      "weather": "clear",
+      "type": "race",
+      "costume": "",
+      "race": "australia_surf"
+    },
+    {
+      "id": "australia_7",
+      "nameAr": "سطح الميناء",
+      "nameEn": "Harbour Rooftop",
+      "terrain": "street",
+      "landmarks": [
+        "steel_arch",
+        "shell_hall"
+      ],
+      "mount": "",
+      "difficulty": 10,
+      "boss": true,
+      "lineAr": "د. دحيم ينتظرك فوق الميناء!",
+      "extra": "",
+      "time": "night",
+      "weather": "clear",
+      "type": "boss",
+      "costume": ""
+    }
+  ],
+  "skyline": [
+    "red_rock_ridges"
+  ],
+  "boss": {
+    "nameAr": "د. دحيم",
+    "nameEn": "Dr. Duhaim",
+    "model": "scientist",
+    "headgear": "none",
+    "body": "#2F5E78",
+    "trim": "#D9B340",
+    "projectile": "#FF9A1A",
+    "scale": 1.34,
+    "health": 19,
+    "introAr": "وصلت أستراليا؟ ما راح تعدي من الميناء!",
+    "stunAr": "آخ! نظارتي!",
+    "defeatAr": "تمام... أستراليا لك.",
+    "phases": [
+      {
+        "threshold": 1.0,
+        "move": 4.0,
+        "charge": 14.0,
+        "interval": 2.8,
+        "attacks": [
+          "charge",
+          "wave",
+          "volley"
+        ],
+        "tauntAr": "ما راح تعدي!"
+      },
+      {
+        "threshold": 0.75,
+        "move": 4.6,
+        "charge": 15.5,
+        "interval": 2.4,
+        "attacks": [
+          "summon",
+          "volley"
+        ],
+        "tauntAr": "روبوتاتي! الميناء لي!"
+      },
+      {
+        "threshold": 0.5,
+        "move": 5.2,
+        "charge": 17.0,
+        "interval": 2.0,
+        "attacks": [
+          "summon",
+          "volley",
+          "dash"
+        ],
+        "tauntAr": "أمواجي أقوى منك!"
+      },
+      {
+        "threshold": 0.25,
+        "move": 5.8,
+        "charge": 18.5,
+        "interval": 1.6,
+        "attacks": [
+          "wave",
+          "dash"
+        ],
+        "tauntAr": "كل أجهزتي!"
+      }
+    ]
+  }
+}

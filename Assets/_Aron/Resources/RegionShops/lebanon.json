@@ -1,0 +1,20 @@
+{
+  "region": "lebanon",
+  "shops": [
+    {
+      "stage": "lebanon_2",
+      "nameAr": "منقوشة أبو طوني",
+      "kind": "bakery"
+    },
+    {
+      "stage": "lebanon_3",
+      "nameAr": "فخار جبيل عند أبو جورج",
+      "kind": "pottery"
+    },
+    {
+      "stage": "lebanon_1",
+      "nameAr": "كعك الروشة",
+      "kind": "bakery"
+    }
+  ]
+}

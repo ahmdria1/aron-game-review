@@ -1,0 +1,20 @@
+{
+  "region": "oman",
+  "shops": [
+    {
+      "stage": "oman_1",
+      "nameAr": "لبان ظفار عند أبو سعيد",
+      "kind": "frankincense"
+    },
+    {
+      "stage": "oman_4",
+      "nameAr": "حلوى بن راشد",
+      "kind": "sweets"
+    },
+    {
+      "stage": "oman_2",
+      "nameAr": "بقالة الساحل",
+      "kind": "grocery"
+    }
+  ]
+}

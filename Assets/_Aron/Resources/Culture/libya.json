@@ -1,0 +1,261 @@
+{
+  "country": "libya",
+  "dialect": "libyan",
+  "uiLanguage": "ar",
+  "greeting": {
+    "words": "مرحبتين، كيف حالك؟",
+    "wordsEn": "Welcome twice, how are you?",
+    "wordsAr": "مرحبتين، كيف حالك؟",
+    "gesture": "hand_on_chest"
+  },
+  "hospitality": {
+    "ar": "في ليبيا أول شي يُقدَّم للضيف كاسة شاي.",
+    "en": "In Libya, the first thing a guest gets is a glass of tea.",
+    "tr": "Libya misafire ilk olarak bir bardak çay ikram eder.",
+    "de": "In Libyen bekommt ein Gast zuerst ein Glas Tee.",
+    "ur": "لیبیا میں مہمان کو سب سے پہلے چائے پیش کی جاتی ہے۔",
+    "hi": "लीबिया में मेहमान को सबसे पहले चाय दी जाती है।",
+    "es": "En Libia, lo primero que recibe un invitado es un vaso de té.",
+    "pt": "Na Líbia, a primeira coisa que um convidado recebe é um copo de chá.",
+    "id": "Di Libya, tamu pertama-tama disuguhi segelas teh.",
+    "ms": "Di Libya, tetamu mula-mula dihidangkan segelas teh.",
+    "ja": "リビアではお客さんにまずお茶を一杯出します。",
+    "fr": "Libye : la première chose qu'on offre à un invité, c'est un verre de thé."
+  },
+  "customs": [
+    {
+      "act": "pour_tea",
+      "en": "Strong red tea with peanuts or almonds.",
+      "ar": "الشاي الأحمر بالكاكاوية."
+    },
+    {
+      "act": "share_bread",
+      "en": "Bazeen is eaten together by hand.",
+      "ar": "البازين ينكل مع بعض."
+    }
+  ],
+  "architecture": "Old Mediterranean medinas, desert ksour, Roman columns by the sea.",
+  "palette": [
+    "#E70013",
+    "#000000",
+    "#239E46",
+    "#FFFFFF"
+  ],
+  "music": {
+    "style": "Malouf",
+    "instruments": [
+      "zukra",
+      "darbuka",
+      "oud"
+    ]
+  },
+  "street": {
+    "vendors": [
+      "bread oven",
+      "olive seller"
+    ],
+    "cafe": "medina tea corner",
+    "kidsGames": [
+      "seven stones",
+      "marbles"
+    ],
+    "crowd": "calm, family-first"
+  },
+  "foods": [
+    {
+      "id": "libya_couscous",
+      "local": "Kuskusi",
+      "name": {
+        "ar": "كسكسي",
+        "en": "Couscous with lamb",
+        "tr": "Kuskusi",
+        "de": "Kuskusi",
+        "ur": "کسکس",
+        "hi": "कूसकूस",
+        "es": "Kuskusi",
+        "pt": "Kuskusi",
+        "id": "Kuskusi",
+        "ms": "Kuskusi",
+        "ja": "クスクス",
+        "fr": "Kuskusi"
+      },
+      "fact": {
+        "ar": "تُعرف غالباً بأنها الأكلة الوطنية في ليبيا.",
+        "en": "Often called the national dish of Libya.",
+        "tr": "Genellikle Libya ulusal yemeği sayılır.",
+        "de": "Gilt oft als Nationalgericht von Libyen.",
+        "ur": "اسے اکثر لیبیا کا قومی کھانا کہا جاتا ہے۔",
+        "hi": "इसे अक्सर लीबिया का राष्ट्रीय व्यंजन कहा जाता है।",
+        "es": "Se le suele llamar el plato nacional de Libia.",
+        "pt": "É muitas vezes chamado o prato nacional da Líbia.",
+        "id": "Sering disebut hidangan nasional Libya.",
+        "ms": "Sering disebut hidangan kebangsaan Libya.",
+        "ja": "リビアの国民食とよく言われます。",
+        "fr": "Libye : souvent appelé le plat national."
+      },
+      "shape": "bowl",
+      "color": "#E8C77A",
+      "color2": "#8A4A2A",
+      "buff": "strength",
+      "price": 60
+    },
+    {
+      "id": "libya_bazeen",
+      "local": "Bazeen",
+      "name": {
+        "ar": "بازين",
+        "en": "Barley dough in tomato stew",
+        "tr": "Bazeen",
+        "de": "Bazeen",
+        "ur": "بازین",
+        "hi": "बाज़ीन",
+        "es": "Bazeen",
+        "pt": "Bazeen",
+        "id": "Bazeen",
+        "ms": "Bazeen",
+        "ja": "バジーン",
+        "fr": "Bazeen"
+      },
+      "fact": {
+        "ar": "يتشاركونه من صحن كبير مع الأهل والضيوف في ليبيا.",
+        "en": "Shared from one big plate with family and guests in Libya.",
+        "tr": "Libya için aile ve misafirlerle büyük bir tabaktan paylaşılır.",
+        "de": "In Libyen von einer großen Platte mit Familie und Gästen geteilt.",
+        "ur": "لیبیا میں گھر والوں اور مہمانوں کے ساتھ ایک بڑی پلیٹ سے کھایا جاتا ہے۔",
+        "hi": "लीबिया में परिवार और मेहमानों के साथ एक बड़ी थाली से खाया जाता है।",
+        "es": "Se comparte de una gran fuente con familia e invitados en Libia.",
+        "pt": "Partilha-se de uma grande travessa com família e convidados na Líbia.",
+        "id": "Disantap bersama dari satu piring besar dengan keluarga dan tamu di Libya.",
+        "ms": "Dikongsi dari satu pinggan besar bersama keluarga dan tetamu di Libya.",
+        "ja": "リビアでは大皿から家族やお客さんと分け合います。",
+        "fr": "Libye : partagé dans un grand plat avec la famille et les invités."
+      },
+      "shape": "bowl",
+      "color": "#8A5A2A",
+      "color2": "#C8553D",
+      "buff": "strength",
+      "price": 55
+    },
+    {
+      "id": "libya_sharba",
+      "local": "Sharba libiya",
+      "name": {
+        "ar": "شربة ليبية",
+        "en": "Tomato soup with orzo",
+        "tr": "Sharba libiya",
+        "de": "Sharba libiya",
+        "ur": "لیبیائی شوربہ",
+        "hi": "लीबियाई शोरबा",
+        "es": "Sharba libiya",
+        "pt": "Sharba libiya",
+        "id": "Sharba libiya",
+        "ms": "Sharba libiya",
+        "ja": "リビアのスープ",
+        "fr": "Sharba libiya"
+      },
+      "fact": {
+        "ar": "من أحب أكلات فطور رمضان في ليبيا.",
+        "en": "A Ramadan iftar favourite in Libya.",
+        "tr": "Libya için sevilen bir Ramazan iftar yemeği.",
+        "de": "In Libyen ein Liebling beim Iftar im Ramadan.",
+        "ur": "لیبیا میں رمضان کی افطاری کا پسندیدہ کھانا۔",
+        "hi": "लीबिया में रमज़ान की इफ़्तारी का पसंदीदा व्यंजन।",
+        "es": "Un favorito del iftar de Ramadán en Libia.",
+        "pt": "Um favorito do iftar do Ramadão na Líbia.",
+        "id": "Menu buka puasa Ramadan favorit di Libya.",
+        "ms": "Hidangan berbuka puasa kegemaran di Libya.",
+        "ja": "リビアのラマダンのイフタールで人気の料理です。",
+        "fr": "Libye : un classique de l'iftar du Ramadan."
+      },
+      "shape": "bowl",
+      "color": "#C8553D",
+      "color2": "#6A8F3A",
+      "buff": "energy",
+      "price": 30
+    },
+    {
+      "id": "libya_asida",
+      "local": "Asida",
+      "name": {
+        "ar": "عصيدة",
+        "en": "Sweet dough with date syrup",
+        "tr": "Asida",
+        "de": "Asida",
+        "ur": "عصیدہ",
+        "hi": "असीदा",
+        "es": "Asida",
+        "pt": "Asida",
+        "id": "Asida",
+        "ms": "Asida",
+        "ja": "アシーダ",
+        "fr": "Asida"
+      },
+      "fact": {
+        "ar": "حلا محبوب في ليبيا، أحلى مع الشاي أو القهوة.",
+        "en": "A sweet treat in Libya, best with tea or coffee.",
+        "tr": "Libya için tatlı bir ikram, çay ya da kahveyle en güzeli.",
+        "de": "Eine süße Leckerei in Libyen, am besten mit Tee oder Kaffee.",
+        "ur": "لیبیا کی میٹھی سوغات، چائے یا کافی کے ساتھ مزیدار۔",
+        "hi": "लीबिया की मीठी सौगात, चाय या कॉफ़ी के साथ सबसे अच्छी।",
+        "es": "Un dulce de Libia, mejor con té o café.",
+        "pt": "Um doce da Líbia, melhor com chá ou café.",
+        "id": "Camilan manis di Libya, paling enak dengan teh atau kopi.",
+        "ms": "Manisan di Libya, paling sedap dengan teh atau kopi.",
+        "ja": "リビアの甘いおやつ。お茶やコーヒーと一緒にどうぞ。",
+        "fr": "Libye : une douceur, parfaite avec un thé ou un café."
+      },
+      "shape": "bowl",
+      "color": "#E0C890",
+      "color2": "#6B3A1E",
+      "buff": "energy",
+      "price": 35
+    },
+    {
+      "id": "libya_makroudh",
+      "local": "Makroudh",
+      "name": {
+        "ar": "مقروض",
+        "en": "Date semolina cookies",
+        "tr": "Makroudh",
+        "de": "Makroudh",
+        "ur": "مقروض",
+        "hi": "मक़रूद",
+        "es": "Makroudh",
+        "pt": "Makroudh",
+        "id": "Makroudh",
+        "ms": "Makroudh",
+        "ja": "マクルード",
+        "fr": "Makroudh"
+      },
+      "fact": {
+        "ar": "سناك محبوب للطريق في ليبيا.",
+        "en": "A favourite snack for the road in Libya.",
+        "tr": "Libya için yolda yenen sevilen bir atıştırmalık.",
+        "de": "Ein beliebter Snack für unterwegs in Libyen.",
+        "ur": "لیبیا میں سفر کا پسندیدہ ناشتہ۔",
+        "hi": "लीबिया में सफ़र का पसंदीदा नाश्ता।",
+        "es": "Un tentempié favorito para el camino en Libia.",
+        "pt": "Um petisco favorito para a viagem na Líbia.",
+        "id": "Camilan favorit untuk perjalanan di Libya.",
+        "ms": "Snek kegemaran untuk perjalanan di Libya.",
+        "ja": "リビアで旅のお供に人気のおやつです。",
+        "fr": "Libye : un en-cas favori pour la route."
+      },
+      "shape": "cake",
+      "color": "#C8803A",
+      "color2": "#6B3A1E",
+      "buff": "speed",
+      "price": 25
+    }
+  ],
+  "animals": [
+    "libya_camel",
+    "libya_gazelle"
+  ],
+  "attackTrailVfx": "olive_leaves",
+  "eatIdle": {
+    "dishId": "libya_couscous",
+    "propModel": "food_couscous",
+    "reaction": "yum"
+  }
+}

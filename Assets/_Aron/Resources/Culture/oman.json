@@ -1,0 +1,262 @@
+{
+  "country": "oman",
+  "dialect": "omani",
+  "uiLanguage": "ar",
+  "greeting": {
+    "words": "هلا وغلا",
+    "wordsEn": "Hello and welcome",
+    "wordsAr": "هلا وغلا",
+    "gesture": "hand_on_chest"
+  },
+  "hospitality": {
+    "ar": "في عُمان يُستقبل الضيف بالقهوة والتمر.",
+    "en": "In Oman, guests are welcomed with coffee and dates.",
+    "tr": "Umman misafirleri kahve ve hurmayla karşılar.",
+    "de": "Im Oman empfängt man Gäste mit Kaffee und Datteln.",
+    "ur": "عمان میں مہمان کا استقبال قہوے اور کھجور سے ہوتا ہے۔",
+    "hi": "ओमान में मेहमान का स्वागत क़हवा और खजूर से होता है।",
+    "es": "En Omán se recibe a los invitados con café y dátiles.",
+    "pt": "Em Omã recebem-se os convidados com café e tâmaras.",
+    "id": "Di Oman, tamu disambut dengan kopi dan kurma.",
+    "ms": "Di Oman, tetamu disambut dengan kopi dan kurma.",
+    "ja": "オマーンではお客さんをコーヒーとデーツでもてなします。",
+    "fr": "Oman : on accueille les invités avec du café et des dattes."
+  },
+  "customs": [
+    {
+      "act": "offer_sweets",
+      "en": "Omani halwa and coffee for every guest.",
+      "ar": "الحلوى العمانية والقهوة لكل ضيف."
+    },
+    {
+      "act": "pour_coffee",
+      "en": "The coffee pot (dallah) is always ready.",
+      "ar": "الدلة دايماً جاهزة."
+    }
+  ],
+  "architecture": "Hill forts and watchtowers, falaj channels, mountain villages.",
+  "palette": [
+    "#DB161B",
+    "#FFFFFF",
+    "#008000",
+    "#C8A060"
+  ],
+  "music": {
+    "style": "Razha and fann al-bahr",
+    "instruments": [
+      "kasir drum",
+      "rahmani drum",
+      "burghum horn"
+    ]
+  },
+  "street": {
+    "vendors": [
+      "halwa maker",
+      "frankincense seller"
+    ],
+    "cafe": "souq coffee corner",
+    "kidsGames": [
+      "kairam",
+      "al-mahbas"
+    ],
+    "crowd": "calm, welcoming"
+  },
+  "foods": [
+    {
+      "id": "oman_shuwa",
+      "local": "Shuwa",
+      "name": {
+        "ar": "شواء",
+        "en": "Slow-roasted lamb",
+        "tr": "Shuwa",
+        "de": "Shuwa",
+        "ur": "شوا",
+        "hi": "शुवा",
+        "es": "Shuwa",
+        "pt": "Shuwa",
+        "id": "Shuwa",
+        "ms": "Shuwa",
+        "ja": "シュワ",
+        "fr": "Shuwa"
+      },
+      "fact": {
+        "ar": "تُطبخ في الأعراس والأعياد ولمّات العائلة في عُمان.",
+        "en": "Cooked for weddings, Eid and big family days in Oman.",
+        "tr": "Umman düğünlerinde, bayramlarda ve aile günlerinde pişirilir.",
+        "de": "Im Oman gekocht für Hochzeiten, Eid und große Familientage.",
+        "ur": "عمان میں شادیوں، عید اور خاندانی دنوں پر پکایا جاتا ہے۔",
+        "hi": "ओमान में शादियों, ईद और परिवार के ख़ास दिनों पर बनता है।",
+        "es": "Se cocina para bodas, Eid y grandes días en familia en Omán.",
+        "pt": "Cozinhado para casamentos, Eid e grandes dias de família em Omã.",
+        "id": "Dimasak untuk pernikahan, Idul Fitri, dan kumpul keluarga di Oman.",
+        "ms": "Dimasak untuk majlis kahwin, Hari Raya dan hari keluarga di Oman.",
+        "ja": "オマーンでは結婚式やイード、家族の集まりで作られます。",
+        "fr": "Oman : préparé pour les mariages, l'Aïd et les grands jours en famille."
+      },
+      "shape": "plate",
+      "color": "#8A3A22",
+      "color2": "#E0C08A",
+      "buff": "strength",
+      "price": 100
+    },
+    {
+      "id": "oman_halwa",
+      "local": "Halwa omani",
+      "name": {
+        "ar": "حلوى عمانية",
+        "en": "Omani halwa",
+        "tr": "Halwa omani",
+        "de": "Halwa omani",
+        "ur": "عمانی حلوہ",
+        "hi": "ओमानी हलवा",
+        "es": "Halwa omani",
+        "pt": "Halwa omani",
+        "id": "Halwa omani",
+        "ms": "Halwa omani",
+        "ja": "オマーンのハルワ",
+        "fr": "Halwa omani"
+      },
+      "fact": {
+        "ar": "حلا محبوب في عُمان، أحلى مع الشاي أو القهوة.",
+        "en": "A sweet treat in Oman, best with tea or coffee.",
+        "tr": "Umman için tatlı bir ikram, çay ya da kahveyle en güzeli.",
+        "de": "Eine süße Leckerei im Oman, am besten mit Tee oder Kaffee.",
+        "ur": "عمان کی میٹھی سوغات، چائے یا کافی کے ساتھ مزیدار۔",
+        "hi": "ओमान की मीठी सौगात, चाय या कॉफ़ी के साथ सबसे अच्छी।",
+        "es": "Un dulce de Omán, mejor con té o café.",
+        "pt": "Um doce de Omã, melhor com chá ou café.",
+        "id": "Camilan manis di Oman, paling enak dengan teh atau kopi.",
+        "ms": "Manisan di Oman, paling sedap dengan teh atau kopi.",
+        "ja": "オマーンの甘いおやつ。お茶やコーヒーと一緒にどうぞ。",
+        "fr": "Oman : une douceur, parfaite avec un thé ou un café."
+      },
+      "shape": "bowl",
+      "color": "#6B3A1E",
+      "color2": "#E8C14A",
+      "buff": "energy",
+      "price": 40
+    },
+    {
+      "id": "oman_mashuai",
+      "local": "Mashuai",
+      "name": {
+        "ar": "مشاوي",
+        "en": "Kingfish with lemon rice",
+        "tr": "Mashuai",
+        "de": "Mashuai",
+        "ur": "مچھلی اور لیموں چاول",
+        "hi": "मछली और नींबू चावल",
+        "es": "Mashuai",
+        "pt": "Mashuai",
+        "id": "Mashuai",
+        "ms": "Mashuai",
+        "ja": "マシュアイ",
+        "fr": "Mashuai"
+      },
+      "fact": {
+        "ar": "من خير بحر عُمان وسواحلها.",
+        "en": "From the sea and coast of Oman.",
+        "tr": "Umman denizinden ve kıyılarından.",
+        "de": "Aus dem Meer und von der Küste vom Oman.",
+        "ur": "عمان کے سمندر اور ساحل کی سوغات۔",
+        "hi": "ओमान के समुद्र और तट की सौगात।",
+        "es": "Del mar y la costa de Omán.",
+        "pt": "Do mar e da costa de Omã.",
+        "id": "Dari laut dan pesisir Oman.",
+        "ms": "Dari laut dan pantai Oman.",
+        "ja": "オマーンの海と海岸の恵みです。",
+        "fr": "Oman : un trésor de la mer et de la côte."
+      },
+      "shape": "plate",
+      "color": "#8A9BA8",
+      "color2": "#F2D06B",
+      "buff": "strength",
+      "price": 70
+    },
+    {
+      "id": "oman_harees",
+      "local": "Harees",
+      "name": {
+        "ar": "هريس",
+        "en": "Slow-cooked wheat and meat",
+        "tr": "Harees",
+        "de": "Harees",
+        "ur": "ہریس",
+        "hi": "हरीस",
+        "es": "Harees",
+        "pt": "Harees",
+        "id": "Harees",
+        "ms": "Harees",
+        "ja": "ハリース",
+        "fr": "Harees"
+      },
+      "fact": {
+        "ar": "يتشاركونه من صحن كبير مع الأهل والضيوف في عُمان.",
+        "en": "Shared from one big plate with family and guests in Oman.",
+        "tr": "Umman için aile ve misafirlerle büyük bir tabaktan paylaşılır.",
+        "de": "Im Oman von einer großen Platte mit Familie und Gästen geteilt.",
+        "ur": "عمان میں گھر والوں اور مہمانوں کے ساتھ ایک بڑی پلیٹ سے کھایا جاتا ہے۔",
+        "hi": "ओमान में परिवार और मेहमानों के साथ एक बड़ी थाली से खाया जाता है।",
+        "es": "Se comparte de una gran fuente con familia e invitados en Omán.",
+        "pt": "Partilha-se de uma grande travessa com família e convidados em Omã.",
+        "id": "Disantap bersama dari satu piring besar dengan keluarga dan tamu di Oman.",
+        "ms": "Dikongsi dari satu pinggan besar bersama keluarga dan tetamu di Oman.",
+        "ja": "オマーンでは大皿から家族やお客さんと分け合います。",
+        "fr": "Oman : partagé dans un grand plat avec la famille et les invités."
+      },
+      "shape": "bowl",
+      "color": "#E0C890",
+      "color2": "#8A5A2A",
+      "buff": "energy",
+      "price": 55
+    },
+    {
+      "id": "oman_khubz_rakhal",
+      "local": "Khubz rakhal",
+      "name": {
+        "ar": "خبز رخال",
+        "en": "Thin flatbread",
+        "tr": "Khubz rakhal",
+        "de": "Khubz rakhal",
+        "ur": "پتلی روٹی",
+        "hi": "पतली रोटी",
+        "es": "Khubz rakhal",
+        "pt": "Khubz rakhal",
+        "id": "Khubz rakhal",
+        "ms": "Khubz rakhal",
+        "ja": "薄焼きパン",
+        "fr": "Khubz rakhal"
+      },
+      "fact": {
+        "ar": "خبز يومي على السفرة في كل عُمان.",
+        "en": "Daily bread on tables across Oman.",
+        "tr": "Umman genelinde sofraların günlük ekmeği.",
+        "de": "Tägliches Brot auf den Tischen im ganzen Oman.",
+        "ur": "پورے عمان میں دسترخوان کی روزانہ کی روٹی۔",
+        "hi": "पूरे ओमान में रोज़ की रोटी।",
+        "es": "Pan de cada día en las mesas de Omán.",
+        "pt": "Pão de todos os dias nas mesas de Omã.",
+        "id": "Roti sehari-hari di meja seluruh Oman.",
+        "ms": "Roti harian di meja seluruh Oman.",
+        "ja": "オマーンの食卓に毎日並ぶパンです。",
+        "fr": "Oman : le pain de tous les jours sur la table."
+      },
+      "shape": "cake",
+      "color": "#E0C08A",
+      "color2": "#8A5A2A",
+      "buff": "speed",
+      "price": 20
+    }
+  ],
+  "animals": [
+    "oman_oryx",
+    "oman_turtle",
+    "oman_camel"
+  ],
+  "attackTrailVfx": "frankincense_smoke",
+  "eatIdle": {
+    "dishId": "oman_halwa",
+    "propModel": "food_halwa",
+    "reaction": "sticky"
+  }
+}

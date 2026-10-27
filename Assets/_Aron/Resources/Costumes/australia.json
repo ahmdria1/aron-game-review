@@ -1,0 +1,104 @@
+{
+  "country": "australia",
+  "costumes": [
+    {
+      "id": "australia_traditional",
+      "country": "australia",
+      "hero": "aron",
+      "nameAr": "قبعة الأوتباك",
+      "nameEn": "Outback hat",
+      "isDefault": true,
+      "price": 0,
+      "materials": [
+        {
+          "material": "Clothes",
+          "color": "#F4F0E8"
+        },
+        {
+          "material": "Trim",
+          "color": "#C9A86A"
+        }
+      ],
+      "meshes": [
+        {
+          "slot": "feet",
+          "mesh": "shoes_closed"
+        }
+      ],
+      "accessories": [
+        {
+          "kind": "shirt",
+          "color": "#F4F0E8"
+        },
+        {
+          "kind": "shemagh",
+          "color": "#F4F0E8",
+          "pattern": "#B3242B"
+        },
+        {
+          "kind": "outback_hat",
+          "color": "#8A6A3A",
+          "pattern": "#3A2A1A"
+        },
+        {
+          "kind": "belt",
+          "color": "#5A3A22"
+        }
+      ],
+      "footwear": "leather_shoes",
+      "footwearColor": "#5A3A22",
+      "agalMount": "wrist",
+      "boredIdle": {
+        "id": "australia_surf_wobble",
+        "trigger": 37,
+        "noteEn": "Pretends to balance on a surfboard",
+        "lineAr": "ثبّت يا أرون... ثبّت!",
+        "seconds": 3.5
+      }
+    },
+    {
+      "id": "australia_noura",
+      "country": "australia",
+      "hero": "noura",
+      "nameAr": "العباية البحرية",
+      "nameEn": "Navy abaya",
+      "isDefault": true,
+      "price": 0,
+      "materials": [
+        {
+          "material": "Clothes",
+          "color": "#1E3A6E"
+        }
+      ],
+      "meshes": [
+        {
+          "slot": "body",
+          "mesh": "abaya_long"
+        },
+        {
+          "slot": "feet",
+          "mesh": "shoes_closed"
+        }
+      ],
+      "accessories": [
+        {
+          "kind": "abaya",
+          "color": "#1E3A6E",
+          "pattern": "#C9A86A"
+        },
+        {
+          "kind": "hijab",
+          "color": "#F4F0E8"
+        },
+        {
+          "kind": "sash",
+          "color": "#00843D",
+          "pattern": "#FFCD00"
+        }
+      ],
+      "footwear": "closed_flats",
+      "footwearColor": "#2A2020",
+      "agalMount": "none"
+    }
+  ]
+}

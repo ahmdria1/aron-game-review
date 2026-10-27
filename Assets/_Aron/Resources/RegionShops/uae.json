@@ -1,0 +1,20 @@
+{
+  "region": "uae",
+  "shops": [
+    {
+      "stage": "uae_2",
+      "nameAr": "مجوهرات بن سالم",
+      "kind": "gold"
+    },
+    {
+      "stage": "uae_3",
+      "nameAr": "بقالة الفريج",
+      "kind": "grocery"
+    },
+    {
+      "stage": "uae_6",
+      "nameAr": "عطور أم حمدان",
+      "kind": "perfume"
+    }
+  ]
+}

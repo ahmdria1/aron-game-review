@@ -1,0 +1,263 @@
+{
+  "country": "australia",
+  "dialect": "en-AU",
+  "uiLanguage": "en",
+  "greeting": {
+    "words": "G'day!",
+    "wordsEn": "Hello",
+    "wordsAr": "هلا والله! وش الأخبار؟",
+    "gesture": "wave"
+  },
+  "hospitality": {
+    "ar": "في أستراليا أول شي يُقدَّم للضيف كاسة شاي.",
+    "en": "In Australia, the first thing a guest gets is a glass of tea.",
+    "tr": "Avustralya misafire ilk olarak bir bardak çay ikram eder.",
+    "de": "In Australien bekommt ein Gast zuerst ein Glas Tee.",
+    "ur": "آسٹریلیا میں مہمان کو سب سے پہلے چائے پیش کی جاتی ہے۔",
+    "hi": "ऑस्ट्रेलिया में मेहमान को सबसे पहले चाय दी जाती है।",
+    "es": "En Australia, lo primero que recibe un invitado es un vaso de té.",
+    "pt": "Na Austrália, a primeira coisa que um convidado recebe é um copo de chá.",
+    "id": "Di Australia, tamu pertama-tama disuguhi segelas teh.",
+    "ms": "Di Australia, tetamu mula-mula dihidangkan segelas teh.",
+    "ja": "オーストラリアではお客さんにまずお茶を一杯出します。",
+    "fr": "Australie : la première chose qu'on offre à un invité, c'est un verre de thé."
+  },
+  "customs": [
+    {
+      "act": "share_bread",
+      "en": "Weekend barbecues with neighbours and family.",
+      "ar": "الويكند شوي مع الجيران والعائلة."
+    },
+    {
+      "act": "wave_hello",
+      "en": "People greet each other with a friendly g'day.",
+      "ar": "الناس يسلمون على بعض بـ«غدّاي» وابتسامة."
+    }
+  ],
+  "architecture": "Red desert plains, eucalyptus forests, a coral reef coast and a harbour city with shell-shaped roofs and a steel arch bridge.",
+  "palette": [
+    "#C9703A",
+    "#00843D",
+    "#FFCD00",
+    "#2E7FB8"
+  ],
+  "music": {
+    "style": "Bush folk and surf rock",
+    "instruments": [
+      "acoustic guitar",
+      "harmonica",
+      "hand drums"
+    ]
+  },
+  "street": {
+    "vendors": [
+      "lamington stall",
+      "meat pie van"
+    ],
+    "cafe": "seaside cafe",
+    "kidsGames": [
+      "beach cricket",
+      "footy"
+    ],
+    "crowd": "relaxed, sunny, friendly"
+  },
+  "foods": [
+    {
+      "id": "australia_lamington",
+      "local": "Lamington",
+      "name": {
+        "ar": "لامينغتون",
+        "en": "Chocolate and coconut sponge cube",
+        "tr": "Lamington",
+        "de": "Lamington",
+        "ur": "لیمنگٹن",
+        "hi": "लैमिंगटन",
+        "es": "Lamington",
+        "pt": "Lamington",
+        "id": "Lamington",
+        "ms": "Lamington",
+        "ja": "ラミントン",
+        "fr": "Lamington"
+      },
+      "fact": {
+        "ar": "حلا محبوب في أستراليا، أحلى مع الشاي أو القهوة.",
+        "en": "A sweet treat in Australia, best with tea or coffee.",
+        "tr": "Avustralya için tatlı bir ikram, çay ya da kahveyle en güzeli.",
+        "de": "Eine süße Leckerei in Australien, am besten mit Tee oder Kaffee.",
+        "ur": "آسٹریلیا کی میٹھی سوغات، چائے یا کافی کے ساتھ مزیدار۔",
+        "hi": "ऑस्ट्रेलिया की मीठी सौगात, चाय या कॉफ़ी के साथ सबसे अच्छी।",
+        "es": "Un dulce de Australia, mejor con té o café.",
+        "pt": "Um doce da Austrália, melhor com chá ou café.",
+        "id": "Camilan manis di Australia, paling enak dengan teh atau kopi.",
+        "ms": "Manisan di Australia, paling sedap dengan teh atau kopi.",
+        "ja": "オーストラリアの甘いおやつ。お茶やコーヒーと一緒にどうぞ。",
+        "fr": "Australie : une douceur, parfaite avec un thé ou un café."
+      },
+      "shape": "cake",
+      "color": "#4A2A14",
+      "color2": "#F4F0E8",
+      "buff": "energy",
+      "price": 35
+    },
+    {
+      "id": "australia_pavlova",
+      "local": "Pavlova",
+      "name": {
+        "ar": "بافلوفا",
+        "en": "Meringue dessert with fruit",
+        "tr": "Pavlova",
+        "de": "Pavlova",
+        "ur": "پاولووا",
+        "hi": "पावलोवा",
+        "es": "Pavlova",
+        "pt": "Pavlova",
+        "id": "Pavlova",
+        "ms": "Pavlova",
+        "ja": "パブロバ",
+        "fr": "Pavlova"
+      },
+      "fact": {
+        "ar": "حلا محبوب في أستراليا، أحلى مع الشاي أو القهوة.",
+        "en": "A sweet treat in Australia, best with tea or coffee.",
+        "tr": "Avustralya için tatlı bir ikram, çay ya da kahveyle en güzeli.",
+        "de": "Eine süße Leckerei in Australien, am besten mit Tee oder Kaffee.",
+        "ur": "آسٹریلیا کی میٹھی سوغات، چائے یا کافی کے ساتھ مزیدار۔",
+        "hi": "ऑस्ट्रेलिया की मीठी सौगात, चाय या कॉफ़ी के साथ सबसे अच्छी।",
+        "es": "Un dulce de Australia, mejor con té o café.",
+        "pt": "Um doce da Austrália, melhor com chá ou café.",
+        "id": "Camilan manis di Australia, paling enak dengan teh atau kopi.",
+        "ms": "Manisan di Australia, paling sedap dengan teh atau kopi.",
+        "ja": "オーストラリアの甘いおやつ。お茶やコーヒーと一緒にどうぞ。",
+        "fr": "Australie : une douceur, parfaite avec un thé ou un café."
+      },
+      "shape": "cake",
+      "color": "#F4F0E8",
+      "color2": "#E0603A",
+      "buff": "speed",
+      "price": 40
+    },
+    {
+      "id": "australia_anzac_biscuit",
+      "local": "Anzac biscuit",
+      "name": {
+        "ar": "بسكويت أنزاك",
+        "en": "Oat and coconut biscuit",
+        "tr": "Anzac biscuit",
+        "de": "Anzac biscuit",
+        "ur": "انزیک بسکٹ",
+        "hi": "एन्ज़ैक बिस्कुट",
+        "es": "Anzac biscuit",
+        "pt": "Anzac biscuit",
+        "id": "Anzac biscuit",
+        "ms": "Anzac biscuit",
+        "ja": "アンザックビスケット",
+        "fr": "Anzac biscuit"
+      },
+      "fact": {
+        "ar": "سناك محبوب للطريق في أستراليا.",
+        "en": "A favourite snack for the road in Australia.",
+        "tr": "Avustralya için yolda yenen sevilen bir atıştırmalık.",
+        "de": "Ein beliebter Snack für unterwegs in Australien.",
+        "ur": "آسٹریلیا میں سفر کا پسندیدہ ناشتہ۔",
+        "hi": "ऑस्ट्रेलिया में सफ़र का पसंदीदा नाश्ता।",
+        "es": "Un tentempié favorito para el camino en Australia.",
+        "pt": "Um petisco favorito para a viagem na Austrália.",
+        "id": "Camilan favorit untuk perjalanan di Australia.",
+        "ms": "Snek kegemaran untuk perjalanan di Australia.",
+        "ja": "オーストラリアで旅のお供に人気のおやつです。",
+        "fr": "Australie : un en-cas favori pour la route."
+      },
+      "shape": "ball",
+      "color": "#C8903A",
+      "color2": "#8A5A2A",
+      "buff": "strength",
+      "price": 25
+    },
+    {
+      "id": "australia_halal_meat_pie",
+      "local": "Halal meat pie",
+      "name": {
+        "ar": "فطيرة لحم حلال",
+        "en": "Beef pie with gravy",
+        "tr": "Halal meat pie",
+        "de": "Halal meat pie",
+        "ur": "حلال گوشت پائی",
+        "hi": "हलाल मीट पाई",
+        "es": "Halal meat pie",
+        "pt": "Halal meat pie",
+        "id": "Halal meat pie",
+        "ms": "Halal meat pie",
+        "ja": "ハラール・ミートパイ",
+        "fr": "Halal meat pie"
+      },
+      "fact": {
+        "ar": "يُباع حاراً في بسطات الشوارع في كل أستراليا.",
+        "en": "Sold hot at street stalls all over Australia.",
+        "tr": "Avustralya genelinde sokak tezgâhlarında sıcak satılır.",
+        "de": "Überall in Australien heiß an Straßenständen verkauft.",
+        "ur": "پورے آسٹریلیا میں ٹھیلوں پر گرم گرم بکتا ہے۔",
+        "hi": "पूरे ऑस्ट्रेलिया में ठेलों पर गरमा-गरम बिकता है।",
+        "es": "Se vende caliente en puestos callejeros por todo el territorio de Australia.",
+        "pt": "Vende-se quente em bancas de rua em toda a Austrália.",
+        "id": "Dijual hangat di kaki lima di seluruh Australia.",
+        "ms": "Dijual panas di gerai tepi jalan di seluruh Australia.",
+        "ja": "オーストラリアのあちこちの屋台で熱々で売られています。",
+        "fr": "Australie : vendu tout chaud dans les stands de rue."
+      },
+      "shape": "bun",
+      "color": "#D9A050",
+      "color2": "#8A4A1E",
+      "buff": "strength",
+      "price": 55
+    },
+    {
+      "id": "australia_grilled_barramundi",
+      "local": "Grilled barramundi",
+      "name": {
+        "ar": "سمك باراموندي مشوي",
+        "en": "Grilled barramundi fillet",
+        "tr": "Grilled barramundi",
+        "de": "Grilled barramundi",
+        "ur": "گرِل باراموندی مچھلی",
+        "hi": "ग्रिल्ड बैरामुंडी मछली",
+        "es": "Grilled barramundi",
+        "pt": "Grilled barramundi",
+        "id": "Grilled barramundi",
+        "ms": "Grilled barramundi",
+        "ja": "バラマンディのグリル",
+        "fr": "Grilled barramundi"
+      },
+      "fact": {
+        "ar": "من خير بحر أستراليا وسواحلها.",
+        "en": "From the sea and coast of Australia.",
+        "tr": "Avustralya denizinden ve kıyılarından.",
+        "de": "Aus dem Meer und von der Küste von Australien.",
+        "ur": "آسٹریلیا کے سمندر اور ساحل کی سوغات۔",
+        "hi": "ऑस्ट्रेलिया के समुद्र और तट की सौगात।",
+        "es": "Del mar y la costa de Australia.",
+        "pt": "Do mar e da costa da Austrália.",
+        "id": "Dari laut dan pesisir Australia.",
+        "ms": "Dari laut dan pantai Australia.",
+        "ja": "オーストラリアの海と海岸の恵みです。",
+        "fr": "Australie : un trésor de la mer et de la côte."
+      },
+      "shape": "plate",
+      "color": "#E8C890",
+      "color2": "#6A8F3A",
+      "buff": "magnet",
+      "price": 70
+    }
+  ],
+  "animals": [
+    "australia_kangaroo",
+    "australia_koala",
+    "australia_emu",
+    "australia_saltwater_crocodile"
+  ],
+  "attackTrailVfx": "red_dust",
+  "eatIdle": {
+    "dishId": "australia_lamington",
+    "propModel": "food_lamington",
+    "reaction": "sweet"
+  }
+}

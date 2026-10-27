@@ -1,0 +1,16 @@
+{
+  "hardMinMinutes": 5,
+  "hardMaxMinutes": 8,
+  "checkpointSeconds": 90,
+  "parFactor": 0.9,
+  "bossFightMin": 150,
+  "bossFightMax": 220,
+  "overshootAllowance": 10,
+  "types": [
+    { "id": "normal", "minMinutes": 6, "maxMinutes": 8 },
+    { "id": "chase", "minMinutes": 5, "maxMinutes": 6 },
+    { "id": "action", "minMinutes": 5, "maxMinutes": 7 },
+    { "id": "race", "minMinutes": 5, "maxMinutes": 6 },
+    { "id": "boss", "minMinutes": 6, "maxMinutes": 8 }
+  ]
+}

@@ -1,0 +1,197 @@
+{
+  "order": 120,
+  "id": "eastern",
+  "nameAr": "المنطقة الشرقية",
+  "nameEn": "Eastern Province",
+  "group": "saudi",
+  "country": "saudi",
+  "costume": "",
+  "music": "music_saudi_eastern",
+  "ground": "#E3CDA4",
+  "accent": "#0E5E7A",
+  "sky": "#92C4E4",
+  "stages": [
+    {
+      "id": "eastern_1",
+      "nameAr": "الخبر - الكورنيش",
+      "nameEn": "Al Khobar Corniche",
+      "terrain": "coast",
+      "landmarks": [
+        "water_tower",
+        "dhows"
+      ],
+      "mount": "",
+      "difficulty": 2,
+      "boss": false,
+      "type": "normal",
+      "time": "sunset",
+      "weather": "clear",
+      "costume": "",
+      "lineAr": "برج الماء بالخبر!",
+      "extra": ""
+    },
+    {
+      "id": "eastern_2",
+      "nameAr": "جسر الملك فهد",
+      "nameEn": "King Fahd Causeway",
+      "terrain": "coast",
+      "landmarks": [
+        "causeway"
+      ],
+      "mount": "",
+      "difficulty": 2,
+      "boss": false,
+      "type": "chase",
+      "time": "night",
+      "weather": "clear",
+      "costume": "",
+      "lineAr": "الجسر للبحرين، طويل مرة.",
+      "extra": ""
+    },
+    {
+      "id": "eastern_3",
+      "nameAr": "الأحساء - جبل القارة",
+      "nameEn": "Al Ahsa - Jabal Al Qarah",
+      "terrain": "oasis",
+      "landmarks": [
+        "rock_arch",
+        "palms"
+      ],
+      "mount": "",
+      "difficulty": 3,
+      "boss": false,
+      "type": "normal",
+      "time": "day",
+      "weather": "clear",
+      "costume": "",
+      "lineAr": "كهوف القارة باردة بالصيف.",
+      "extra": ""
+    },
+    {
+      "id": "eastern_4",
+      "nameAr": "قصر إبراهيم بالهفوف",
+      "nameEn": "Ibrahim Palace, Hofuf",
+      "terrain": "ruins",
+      "landmarks": [
+        "fort",
+        "mud_town"
+      ],
+      "mount": "",
+      "difficulty": 3,
+      "boss": false,
+      "type": "action",
+      "time": "day",
+      "weather": "sandstorm",
+      "costume": "",
+      "lineAr": "قصر إبراهيم، قباب وأسوار.",
+      "extra": ""
+    },
+    {
+      "id": "eastern_5",
+      "nameAr": "سوق القيصرية",
+      "nameEn": "Al Qaisariah Souq",
+      "terrain": "souq",
+      "landmarks": [
+        "souq",
+        "gate"
+      ],
+      "mount": "",
+      "difficulty": 4,
+      "boss": false,
+      "type": "normal",
+      "time": "night",
+      "weather": "clear",
+      "costume": "",
+      "lineAr": "القيصرية، أقدم سوق بالأحساء.",
+      "extra": ""
+    },
+    {
+      "id": "eastern_6",
+      "nameAr": "الظهران - إثراء",
+      "nameEn": "Dhahran - Ithra",
+      "terrain": "street",
+      "landmarks": [
+        "skyscraper",
+        "palms"
+      ],
+      "mount": "",
+      "difficulty": 4,
+      "boss": false,
+      "type": "normal",
+      "time": "day",
+      "weather": "rain",
+      "costume": "",
+      "lineAr": "إثراء، شكله حجارة ملفوفة.",
+      "extra": ""
+    },
+    {
+      "id": "eastern_7",
+      "nameAr": "ساحة أبو برميل",
+      "nameEn": "Abu Barmeel",
+      "terrain": "coast",
+      "landmarks": [
+        "causeway",
+        "water_tower"
+      ],
+      "mount": "",
+      "difficulty": 4,
+      "boss": true,
+      "type": "boss",
+      "time": "night",
+      "weather": "clear",
+      "costume": "",
+      "lineAr": "أبو برميل يرمي براميل!",
+      "extra": ""
+    }
+  ],
+  "boss": {
+    "nameAr": "أبو برميل",
+    "nameEn": "Abu Barmeel",
+    "model": "barrel",
+    "headgear": "none",
+    "body": "#2A2A2E",
+    "trim": "#E0B020",
+    "projectile": "#3A3A3A",
+    "scale": 1.3,
+    "health": 12,
+    "introAr": "براميلي أثقل منك!",
+    "stunAr": "آخ! راسي...",
+    "defeatAr": "طاحت البراميل... وأنا معها.",
+    "phases": [
+      {
+        "threshold": 1.0,
+        "move": 3,
+        "charge": 11,
+        "interval": 3,
+        "attacks": [
+          "volley",
+          "charge"
+        ],
+        "tauntAr": "برميل طاير!"
+      },
+      {
+        "threshold": 0.6,
+        "move": 3.5,
+        "charge": 13,
+        "interval": 2.5,
+        "attacks": [
+          "volley",
+          "wave"
+        ],
+        "tauntAr": "الأرض زيت!"
+      },
+      {
+        "threshold": 0.3,
+        "move": 4.5,
+        "charge": 16,
+        "interval": 2.0,
+        "attacks": [
+          "volley",
+          "wave",
+          "dash"
+        ],
+        "tauntAr": "كل البراميل!"
+      }
+    ]
+  }
+}

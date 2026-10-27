@@ -1,0 +1,100 @@
+{
+  "country": "india",
+  "costumes": [
+    {
+      "id": "india_traditional",
+      "country": "india",
+      "hero": "aron",
+      "nameAr": "الكورتا والعمامة",
+      "nameEn": "Kurta and pagri",
+      "isDefault": true,
+      "price": 0,
+      "materials": [
+        {
+          "material": "Clothes",
+          "color": "#F4F0E8"
+        },
+        {
+          "material": "Trim",
+          "color": "#C9A86A"
+        }
+      ],
+      "meshes": [
+        {
+          "slot": "feet",
+          "mesh": "shoes_closed"
+        }
+      ],
+      "accessories": [
+        {
+          "kind": "kurta",
+          "color": "#FFF4E0",
+          "pattern": "#FF9933"
+        },
+        {
+          "kind": "shalwar",
+          "color": "#FFFFFF"
+        },
+        {
+          "kind": "pagri",
+          "color": "#FF9933",
+          "pattern": "#138808"
+        }
+      ],
+      "footwear": "leather_shoes",
+      "footwearColor": "#5A3A22",
+      "agalMount": "wrist",
+      "boredIdle": {
+        "id": "india_chai_cool",
+        "trigger": 29,
+        "noteEn": "Pours chai between two cups to cool it",
+        "lineAr": "الشاي لازم يبرد شوي!",
+        "seconds": 3.5
+      }
+    },
+    {
+      "id": "india_noura",
+      "country": "india",
+      "hero": "noura",
+      "nameAr": "العباية والساري",
+      "nameEn": "Abaya and sari drape",
+      "isDefault": true,
+      "price": 0,
+      "materials": [
+        {
+          "material": "Clothes",
+          "color": "#7A1E4A"
+        }
+      ],
+      "meshes": [
+        {
+          "slot": "body",
+          "mesh": "abaya_long"
+        },
+        {
+          "slot": "feet",
+          "mesh": "shoes_closed"
+        }
+      ],
+      "accessories": [
+        {
+          "kind": "abaya",
+          "color": "#7A1E4A",
+          "pattern": "#C9A86A"
+        },
+        {
+          "kind": "hijab",
+          "color": "#F4F0E8"
+        },
+        {
+          "kind": "sari_drape",
+          "color": "#FF9933",
+          "pattern": "#138808"
+        }
+      ],
+      "footwear": "closed_flats",
+      "footwearColor": "#2A2020",
+      "agalMount": "none"
+    }
+  ]
+}

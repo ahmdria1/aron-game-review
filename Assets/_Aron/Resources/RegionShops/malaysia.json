@@ -1,0 +1,15 @@
+{
+  "region": "malaysia",
+  "shops": [
+    {
+      "stage": "malaysia_4",
+      "nameAr": "ساتيه سوق الليل",
+      "kind": "food"
+    },
+    {
+      "stage": "malaysia_5",
+      "nameAr": "شاي التلال",
+      "kind": "tea"
+    }
+  ]
+}

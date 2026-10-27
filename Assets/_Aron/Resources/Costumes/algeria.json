@@ -1,0 +1,86 @@
+{
+  "country": "algeria",
+  "costumes": [
+    {
+      "id": "algeria_burnous",
+      "country": "algeria",
+      "hero": "aron",
+      "nameAr": "البرنوس",
+      "nameEn": "Burnous",
+      "isDefault": true,
+      "price": 0,
+      "materials": [
+        {
+          "material": "Clothes",
+          "color": "#E9E1CF"
+        },
+        {
+          "material": "Trim",
+          "color": "#BFA77A"
+        }
+      ],
+      "meshes": [
+        {
+          "slot": "body",
+          "mesh": "burnous_cape"
+        },
+        {
+          "slot": "feet",
+          "mesh": "shoes_closed"
+        }
+      ],
+      "accessories": [
+        {
+          "kind": "turban",
+          "color": "#F2EEE4"
+        }
+      ],
+      "footwear": "leather_shoes",
+      "footwearColor": "#5A3A22",
+      "agalMount": "wrist"
+    },
+    {
+      "id": "algeria_noura",
+      "country": "algeria",
+      "hero": "noura",
+      "nameAr": "الحايك",
+      "nameEn": "Haik",
+      "isDefault": true,
+      "price": 0,
+      "materials": [
+        {
+          "material": "Clothes",
+          "color": "#F5F2EA"
+        }
+      ],
+      "meshes": [
+        {
+          "slot": "body",
+          "mesh": "abaya_long"
+        },
+        {
+          "slot": "feet",
+          "mesh": "shoes_closed"
+        }
+      ],
+      "accessories": [
+        {
+          "kind": "abaya",
+          "color": "#F5F2EA",
+          "pattern": "#2E7D5B"
+        },
+        {
+          "kind": "hijab",
+          "color": "#F5F2EA"
+        },
+        {
+          "kind": "shawl",
+          "color": "#F5F2EA"
+        }
+      ],
+      "footwear": "closed_flats",
+      "footwearColor": "#2A2020",
+      "agalMount": "none"
+    }
+  ]
+}

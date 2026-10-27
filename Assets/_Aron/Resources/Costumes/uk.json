@@ -1,0 +1,100 @@
+{
+  "country": "uk",
+  "costumes": [
+    {
+      "id": "uk_traditional",
+      "country": "uk",
+      "hero": "aron",
+      "nameAr": "المعطف الطويل",
+      "nameEn": "Long coat",
+      "isDefault": true,
+      "price": 0,
+      "materials": [
+        {
+          "material": "Clothes",
+          "color": "#3A3A4A"
+        },
+        {
+          "material": "Trim",
+          "color": "#C9A86A"
+        }
+      ],
+      "meshes": [
+        {
+          "slot": "feet",
+          "mesh": "shoes_closed"
+        }
+      ],
+      "accessories": [
+        {
+          "kind": "shirt",
+          "color": "#FFFFFF"
+        },
+        {
+          "kind": "long_coat",
+          "color": "#012169",
+          "pattern": "#C8103E"
+        },
+        {
+          "kind": "top_hat",
+          "color": "#1E1E1E",
+          "pattern": "#C8102E"
+        }
+      ],
+      "footwear": "leather_shoes",
+      "footwearColor": "#5A3A22",
+      "agalMount": "wrist",
+      "boredIdle": {
+        "id": "uk_umbrella_check",
+        "trigger": 24,
+        "noteEn": "Holds out a hand to check for rain",
+        "lineAr": "مطر... كالعادة.",
+        "seconds": 3
+      }
+    },
+    {
+      "id": "uk_noura",
+      "country": "uk",
+      "hero": "noura",
+      "nameAr": "العباية والمعطف",
+      "nameEn": "Abaya and coat",
+      "isDefault": true,
+      "price": 0,
+      "materials": [
+        {
+          "material": "Clothes",
+          "color": "#012169"
+        }
+      ],
+      "meshes": [
+        {
+          "slot": "body",
+          "mesh": "abaya_long"
+        },
+        {
+          "slot": "feet",
+          "mesh": "shoes_closed"
+        }
+      ],
+      "accessories": [
+        {
+          "kind": "abaya",
+          "color": "#012169",
+          "pattern": "#C9A86A"
+        },
+        {
+          "kind": "hijab",
+          "color": "#C8102E"
+        },
+        {
+          "kind": "long_coat",
+          "color": "#3A3A4A",
+          "pattern": "#C8102E"
+        }
+      ],
+      "footwear": "closed_flats",
+      "footwearColor": "#2A2020",
+      "agalMount": "none"
+    }
+  ]
+}

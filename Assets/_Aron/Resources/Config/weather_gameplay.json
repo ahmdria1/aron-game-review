@@ -1,0 +1,10 @@
+{
+  "fullDustVisibility": 24, "minVisibility": 14, "clearVisibility": 120,
+  "maxWindPush": 1.8, "gustPeriodSeconds": 6, "ridingWindShare": 0.5, "reduceMotionWindShare": 0.4, "windThreshold": 0.55,
+  "wetTraction": 0.55, "snowTraction": 0.7, "puddleTraction": 0.4, "puddleSpeed": 0.7,
+  "heatBuildSeconds": 30, "heatMinSpeed": 0.85, "heatRecoverSeconds": 6, "heatHintAt": 0.6,
+  "climates": [
+    { "climate": "desert", "heat": 1.0 }, { "climate": "semi_arid", "heat": 0.8 },
+    { "climate": "tropical", "heat": 0.6 }, { "climate": "subtropical", "heat": 0.5 }, { "climate": "monsoon", "heat": 0.5 }
+  ]
+}

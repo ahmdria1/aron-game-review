@@ -1,0 +1,11 @@
+# (c) Ahmed Alamrani. All rights reserved.
+# Used when Player Settings > Android > Publishing Settings > "Custom Proguard File" is ticked.
+# Java reached only from C# over JNI has no Java call sites, so R8 must keep it.
+-keep class com.ahmedalamrani.aron.** { *; }
+-keepclassmembers class com.ahmedalamrani.aron.KeyVault { public static *; }
+# Android Keystore / crypto classes are looked up by name.
+-keep class javax.crypto.** { *; }
+-dontwarn javax.crypto.**
+# Readable crash lines for the crash reporter. (-renamesourcefileattribute is a global option that
+# Gradle refuses in a consumer file, so file names stay as they are.)
+-keepattributes SourceFile,LineNumberTable

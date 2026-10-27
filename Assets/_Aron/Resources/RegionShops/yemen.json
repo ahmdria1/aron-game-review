@@ -1,0 +1,20 @@
+{
+  "region": "yemen",
+  "shops": [
+    {
+      "stage": "yemen_2",
+      "nameAr": "بن أبو علي الحرازي",
+      "kind": "coffee"
+    },
+    {
+      "stage": "yemen_2",
+      "nameAr": "عسل دوعن عند الحاج صالح",
+      "kind": "honey"
+    },
+    {
+      "stage": "yemen_7",
+      "nameAr": "مخبازة العم محمد",
+      "kind": "bakery"
+    }
+  ]
+}

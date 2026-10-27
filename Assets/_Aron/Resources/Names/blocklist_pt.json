@@ -1,0 +1,115 @@
+{
+  "lang": "pt",
+  "profanity": {
+    "terms": [
+      "caralho",
+      "porra",
+      "putaquepariu",
+      "filhodaputa",
+      "merda",
+      "foder",
+      "fodase",
+      "buceta",
+      "cuzao",
+      "arrombado",
+      "cacete",
+      "bosta",
+      "vtnc"
+    ],
+    "words": [
+      "puta",
+      "foda",
+      "porra",
+      "cacete",
+      "bosta",
+      "fdp",
+      "vsf",
+      "pqp",
+      "krl"
+    ],
+    "exact": [
+      "puta",
+      "foda"
+    ]
+  },
+  "insult": {
+    "terms": [
+      "idiota",
+      "imbecil",
+      "babaca",
+      "otario",
+      "retardado",
+      "trouxa",
+      "energumeno"
+    ],
+    "words": [
+      "burro",
+      "lixo",
+      "trouxa",
+      "idiota"
+    ],
+    "exact": [
+      "burro",
+      "lixo"
+    ]
+  },
+  "hate": {
+    "terms": [
+      "crioulo",
+      "sapatao",
+      "baitola",
+      "viado",
+      "nazista",
+      "macaco"
+    ],
+    "words": [
+      "macaco",
+      "bicha",
+      "viado",
+      "crioulo"
+    ],
+    "exact": [
+      "negao"
+    ]
+  },
+  "sexual": {
+    "terms": [
+      "xoxota",
+      "punheta",
+      "estupro",
+      "pedofilo",
+      "peitos",
+      "tesao",
+      "masturba",
+      "prostituta"
+    ],
+    "words": [
+      "sexo",
+      "porno",
+      "bunda",
+      "tesao",
+      "peitos",
+      "pau"
+    ],
+    "exact": [
+      "sexo",
+      "gozar"
+    ]
+  },
+  "figures": {
+    "terms": [
+      "satanas",
+      "jesuscristo",
+      "bolsonaro",
+      "hitler"
+    ],
+    "words": [
+      "deus",
+      "diabo",
+      "satanas"
+    ],
+    "exact": [
+      "deus"
+    ]
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "country": "saudi",
+  "costumes": [
+    {
+      "id": "saudi_najdi", "country": "saudi", "hero": "aron", "nameAr": "الثوب والشماغ", "nameEn": "Thobe and shemagh", "isDefault": true, "price": 0,
+      "materials": [{"material": "Clothes", "color": "#F7F7F2"}],
+      "meshes": [{"slot": "body", "mesh": "thobe_long"}, {"slot": "feet", "mesh": "shoes_closed"}],
+      "accessories": [{"kind": "shemagh", "color": "#C8141E", "pattern": "#F4F1EA"}, {"kind": "agal", "color": "#111111"}],
+      "footwear": "leather_shoes", "footwearColor": "#5A3A22",
+      "agalMount": "head"
+    },
+    {
+      "id": "saudi_hijazi", "country": "saudi", "hero": "aron", "nameAr": "اللبس الحجازي", "nameEn": "Hijazi dress", "price": 0,
+      "materials": [{"material": "Clothes", "color": "#F4F1E8"}],
+      "meshes": [{"slot": "body", "mesh": "thobe_long"}, {"slot": "feet", "mesh": "shoes_closed"}],
+      "accessories": [{"kind": "turban", "color": "#EDE4CC", "pattern": "#B8902E"}, {"kind": "vest", "color": "#2E3A5A"}, {"kind": "sash", "color": "#C9A14A"}],
+      "footwear": "leather_shoes", "footwearColor": "#4A2E1A",
+      "agalMount": "wrist"
+    },
+    {
+      "id": "saudi_south", "country": "saudi", "hero": "aron", "nameAr": "لبس الجنوب", "nameEn": "Southern dress", "price": 0,
+      "materials": [{"material": "Clothes", "color": "#F2EFE6"}],
+      "meshes": [{"slot": "body", "mesh": "thobe_long"}, {"slot": "feet", "mesh": "shoes_closed"}],
+      "accessories": [{"kind": "flower_crown", "color": "#3C8C3A", "pattern": "#F2C230"}, {"kind": "jambiya_belt", "color": "#6B3A1E"}, {"kind": "embroidery", "color": "#B3261E"}],
+      "footwear": "leather_shoes", "footwearColor": "#5A3A22",
+      "agalMount": "wrist"
+    },
+    {
+      "id": "saudi_bisht", "country": "saudi", "hero": "aron", "nameAr": "البشت", "nameEn": "Bisht", "price": 600,
+      "materials": [{"material": "Clothes", "color": "#F7F7F2"}],
+      "meshes": [{"slot": "body", "mesh": "thobe_long"}, {"slot": "feet", "mesh": "shoes_closed"}],
+      "accessories": [{"kind": "shemagh", "color": "#C8141E", "pattern": "#F4F1EA"}, {"kind": "agal", "color": "#111111"}, {"kind": "bisht", "color": "#3A2A1A", "pattern": "#D4AF37"}],
+      "footwear": "leather_shoes", "footwearColor": "#3E2716",
+      "agalMount": "head"
+    },
+    {
+      "id": "saudi_noura", "country": "saudi", "hero": "noura", "nameAr": "العباية والطرحة", "nameEn": "Abaya and hijab", "isDefault": true, "price": 0,
+      "materials": [{"material": "Clothes", "color": "#141418"}],
+      "meshes": [{"slot": "body", "mesh": "abaya_long"}, {"slot": "feet", "mesh": "shoes_closed"}],
+      "accessories": [{"kind": "abaya", "color": "#141418", "pattern": "#9C6B30"}, {"kind": "hijab", "color": "#141418"}],
+      "footwear": "closed_flats", "footwearColor": "#2A2020",
+      "agalMount": "none"
+    },
+    {
+      "id": "saudi_noura_hijazi", "country": "saudi", "hero": "noura", "nameAr": "عباية حجازية", "nameEn": "Hijazi abaya", "price": 0,
+      "materials": [{"material": "Clothes", "color": "#1A1A22"}],
+      "meshes": [{"slot": "body", "mesh": "abaya_long"}, {"slot": "feet", "mesh": "shoes_closed"}],
+      "accessories": [{"kind": "abaya", "color": "#1A1A22", "pattern": "#C9A14A"}, {"kind": "hijab", "color": "#24304A"}, {"kind": "shawl", "color": "#C9A14A"}],
+      "footwear": "closed_flats", "footwearColor": "#3A2A20",
+      "agalMount": "none"
+    },
+    {
+      "id": "saudi_noura_south", "country": "saudi", "hero": "noura", "nameAr": "عباية جنوبية مطرزة", "nameEn": "Embroidered southern abaya", "price": 0,
+      "materials": [{"material": "Clothes", "color": "#16161A"}],
+      "meshes": [{"slot": "body", "mesh": "abaya_long"}, {"slot": "feet", "mesh": "shoes_closed"}],
+      "accessories": [{"kind": "abaya", "color": "#16161A", "pattern": "#E0533A"}, {"kind": "hijab", "color": "#16161A"}, {"kind": "embroidery", "color": "#E0533A"}],
+      "footwear": "closed_flats", "footwearColor": "#2A2020",
+      "agalMount": "none"
+    },
+    {
+      "id": "saudi_noura_bisht", "country": "saudi", "hero": "noura", "nameAr": "العباية المطرزة", "nameEn": "Embroidered abaya", "price": 0,
+      "materials": [{"material": "Clothes", "color": "#121216"}, {"material": "Trim", "color": "#C9A227"}],
+      "meshes": [{"slot": "body", "mesh": "abaya_embroidered"}, {"slot": "feet", "mesh": "shoes_closed"}],
+      "accessories": [{"kind": "abaya", "color": "#121216", "pattern": "#C9A227"}, {"kind": "hijab", "color": "#121216"}, {"kind": "embroidery", "color": "#C9A227"}],
+      "footwear": "closed_flats", "footwearColor": "#2A2020",
+      "agalMount": "none"
+    },
+    {
+      "id": "saudi_golden_bisht", "country": "saudi", "hero": "aron", "nameAr": "البشت الذهبي للأبطال", "nameEn": "Champion's golden bisht", "isDefault": false, "price": 0, "unlock": "hard_all",
+      "materials": [{"material": "Clothes", "color": "#F7F7F2"}, {"material": "Trim", "color": "#E8B84A"}],
+      "meshes": [{"slot": "body", "mesh": "thobe_long"}, {"slot": "feet", "mesh": "shoes_closed"}],
+      "accessories": [{"kind": "shemagh", "color": "#F2F0EA", "pattern": "#E8B84A"}, {"kind": "agal", "color": "#C9A227"}, {"kind": "bisht", "color": "#D4A63A", "pattern": "#FFF1B8"}],
+      "footwear": "leather_shoes", "footwearColor": "#5A3A22",
+      "agalMount": "head"
+    },
+    {
+      "id": "saudi_noura_golden_abaya", "country": "saudi", "hero": "noura", "nameAr": "العباية الذهبية للبطلات", "nameEn": "Champion's gold-trimmed abaya", "isDefault": false, "price": 0, "unlock": "hard_all",
+      "materials": [{"material": "Clothes", "color": "#141418"}, {"material": "Trim", "color": "#E8B84A"}],
+      "meshes": [{"slot": "body", "mesh": "abaya_embroidered"}, {"slot": "feet", "mesh": "shoes_closed"}],
+      "accessories": [{"kind": "abaya", "color": "#141418", "pattern": "#E8B84A"}, {"kind": "hijab", "color": "#141418", "pattern": "#E8B84A"}, {"kind": "embroidery", "color": "#E8B84A"}],
+      "footwear": "closed_flats", "footwearColor": "#2A2020",
+      "agalMount": "none"
+    },
+    {
+      "id": "saudi_golden_sadu", "country": "saudi", "hero": "aron", "nameAr": "ثوب السدو الذهبي", "nameEn": "Golden Sadu thobe", "isDefault": false, "price": 0, "unlock": "gift",
+      "materials": [{"material": "Clothes", "color": "#F4EFE2"}, {"material": "Trim", "color": "#C9A227"}],
+      "meshes": [{"slot": "body", "mesh": "thobe_long"}, {"slot": "feet", "mesh": "shoes_closed"}],
+      "accessories": [{"kind": "shemagh", "color": "#C8141E", "pattern": "#F4F1EA"}, {"kind": "agal", "color": "#111111"}, {"kind": "sash", "color": "#8E1B1B", "pattern": "#C9A227"}, {"kind": "embroidery", "color": "#C9A227"}],
+      "footwear": "leather_shoes", "footwearColor": "#5A3A22",
+      "agalMount": "head"
+    },
+    {
+      "id": "saudi_noura_golden_sadu", "country": "saudi", "hero": "noura", "nameAr": "عباية السدو الذهبية", "nameEn": "Golden Sadu abaya", "isDefault": false, "price": 0, "unlock": "gift",
+      "materials": [{"material": "Clothes", "color": "#16161A"}, {"material": "Trim", "color": "#C9A227"}],
+      "meshes": [{"slot": "body", "mesh": "abaya_embroidered"}, {"slot": "feet", "mesh": "shoes_closed"}],
+      "accessories": [{"kind": "abaya", "color": "#16161A", "pattern": "#8E1B1B"}, {"kind": "hijab", "color": "#16161A"}, {"kind": "embroidery", "color": "#C9A227"}],
+      "footwear": "closed_flats", "footwearColor": "#2A2020",
+      "agalMount": "none"
+    }
+  ]
+}

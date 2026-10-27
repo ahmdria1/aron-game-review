@@ -1,0 +1,261 @@
+{
+  "country": "kuwait",
+  "dialect": "kuwaiti",
+  "uiLanguage": "ar",
+  "greeting": {
+    "words": "هلا والله",
+    "wordsEn": "Hello and welcome",
+    "wordsAr": "هلا والله",
+    "gesture": "hand_on_chest"
+  },
+  "hospitality": {
+    "ar": "في الكويت يُستقبل الضيف بالقهوة والتمر.",
+    "en": "In Kuwait, guests are welcomed with coffee and dates.",
+    "tr": "Kuveyt misafirleri kahve ve hurmayla karşılar.",
+    "de": "In Kuwait empfängt man Gäste mit Kaffee und Datteln.",
+    "ur": "کویت میں مہمان کا استقبال قہوے اور کھجور سے ہوتا ہے۔",
+    "hi": "कुवैत में मेहमान का स्वागत क़हवा और खजूर से होता है।",
+    "es": "En Kuwait se recibe a los invitados con café y dátiles.",
+    "pt": "No Kuwait recebem-se os convidados com café e tâmaras.",
+    "id": "Di Kuwait, tamu disambut dengan kopi dan kurma.",
+    "ms": "Di Kuwait, tetamu disambut dengan kopi dan kurma.",
+    "ja": "クウェートではお客さんをコーヒーとデーツでもてなします。",
+    "fr": "Koweït : on accueille les invités avec du café et des dattes."
+  },
+  "customs": [
+    {
+      "act": "invite_in",
+      "en": "The diwaniya is open for friends every evening.",
+      "ar": "الديوانية مفتوحة للربع كل ليلة."
+    },
+    {
+      "act": "pour_coffee",
+      "en": "Coffee goes round the diwaniya.",
+      "ar": "القهوة تدور على الديوانية."
+    }
+  ],
+  "architecture": "Sea-facing mud houses, wind towers, tall spheres on the water.",
+  "palette": [
+    "#007A3D",
+    "#FFFFFF",
+    "#CE1126",
+    "#1E3A5F"
+  ],
+  "music": {
+    "style": "Sea songs (fjiri)",
+    "instruments": [
+      "mirwas",
+      "handclaps",
+      "oud"
+    ]
+  },
+  "street": {
+    "vendors": [
+      "fish seller",
+      "bakery"
+    ],
+    "cafe": "diwaniya",
+    "kidsGames": [
+      "kairam",
+      "dama"
+    ],
+    "crowd": "family evenings by the sea"
+  },
+  "foods": [
+    {
+      "id": "kuwait_machboos",
+      "local": "Machboos",
+      "name": {
+        "ar": "مجبوس",
+        "en": "Spiced rice with fish",
+        "tr": "Machboos",
+        "de": "Machboos",
+        "ur": "مچبوس",
+        "hi": "मचबूस",
+        "es": "Machboos",
+        "pt": "Machboos",
+        "id": "Machboos",
+        "ms": "Machboos",
+        "ja": "マチブース",
+        "fr": "Machboos"
+      },
+      "fact": {
+        "ar": "تُعرف غالباً بأنها الأكلة الوطنية في الكويت.",
+        "en": "Often called the national dish of Kuwait.",
+        "tr": "Genellikle Kuveyt ulusal yemeği sayılır.",
+        "de": "Gilt oft als Nationalgericht von Kuwait.",
+        "ur": "اسے اکثر کویت کا قومی کھانا کہا جاتا ہے۔",
+        "hi": "इसे अक्सर कुवैत का राष्ट्रीय व्यंजन कहा जाता है।",
+        "es": "Se le suele llamar el plato nacional de Kuwait.",
+        "pt": "É muitas vezes chamado o prato nacional do Kuwait.",
+        "id": "Sering disebut hidangan nasional Kuwait.",
+        "ms": "Sering disebut hidangan kebangsaan Kuwait.",
+        "ja": "クウェートの国民食とよく言われます。",
+        "fr": "Koweït : souvent appelé le plat national."
+      },
+      "shape": "plate",
+      "color": "#E8A03A",
+      "color2": "#8A9BA8",
+      "buff": "strength",
+      "price": 80
+    },
+    {
+      "id": "kuwait_murabyan",
+      "local": "Murabyan",
+      "name": {
+        "ar": "مربين",
+        "en": "Shrimp rice",
+        "tr": "Murabyan",
+        "de": "Murabyan",
+        "ur": "جھینگا چاول",
+        "hi": "झींगा चावल",
+        "es": "Murabyan",
+        "pt": "Murabyan",
+        "id": "Murabyan",
+        "ms": "Murabyan",
+        "ja": "エビご飯",
+        "fr": "Murabyan"
+      },
+      "fact": {
+        "ar": "من خير بحر الكويت وسواحلها.",
+        "en": "From the sea and coast of Kuwait.",
+        "tr": "Kuveyt denizinden ve kıyılarından.",
+        "de": "Aus dem Meer und von der Küste von Kuwait.",
+        "ur": "کویت کے سمندر اور ساحل کی سوغات۔",
+        "hi": "कुवैत के समुद्र और तट की सौगात।",
+        "es": "Del mar y la costa de Kuwait.",
+        "pt": "Do mar e da costa do Kuwait.",
+        "id": "Dari laut dan pesisir Kuwait.",
+        "ms": "Dari laut dan pantai Kuwait.",
+        "ja": "クウェートの海と海岸の恵みです。",
+        "fr": "Koweït : un trésor de la mer et de la côte."
+      },
+      "shape": "plate",
+      "color": "#F28C5A",
+      "color2": "#E8C14A",
+      "buff": "strength",
+      "price": 70
+    },
+    {
+      "id": "kuwait_gers_ogaili",
+      "local": "Gers ogaili",
+      "name": {
+        "ar": "قرص عقيلي",
+        "en": "Saffron cardamom cake",
+        "tr": "Gers ogaili",
+        "de": "Gers ogaili",
+        "ur": "زعفرانی کیک",
+        "hi": "केसर केक",
+        "es": "Gers ogaili",
+        "pt": "Gers ogaili",
+        "id": "Gers ogaili",
+        "ms": "Gers ogaili",
+        "ja": "サフランケーキ",
+        "fr": "Gers ogaili"
+      },
+      "fact": {
+        "ar": "حلا محبوب في الكويت، أحلى مع الشاي أو القهوة.",
+        "en": "A sweet treat in Kuwait, best with tea or coffee.",
+        "tr": "Kuveyt için tatlı bir ikram, çay ya da kahveyle en güzeli.",
+        "de": "Eine süße Leckerei in Kuwait, am besten mit Tee oder Kaffee.",
+        "ur": "کویت کی میٹھی سوغات، چائے یا کافی کے ساتھ مزیدار۔",
+        "hi": "कुवैत की मीठी सौगात, चाय या कॉफ़ी के साथ सबसे अच्छी।",
+        "es": "Un dulce de Kuwait, mejor con té o café.",
+        "pt": "Um doce do Kuwait, melhor com chá ou café.",
+        "id": "Camilan manis di Kuwait, paling enak dengan teh atau kopi.",
+        "ms": "Manisan di Kuwait, paling sedap dengan teh atau kopi.",
+        "ja": "クウェートの甘いおやつ。お茶やコーヒーと一緒にどうぞ。",
+        "fr": "Koweït : une douceur, parfaite avec un thé ou un café."
+      },
+      "shape": "cake",
+      "color": "#E8C14A",
+      "color2": "#8A5A2A",
+      "buff": "energy",
+      "price": 35
+    },
+    {
+      "id": "kuwait_balaleet",
+      "local": "Balaleet",
+      "name": {
+        "ar": "بلاليط",
+        "en": "Sweet vermicelli with egg",
+        "tr": "Balaleet",
+        "de": "Balaleet",
+        "ur": "میٹھی سویاں",
+        "hi": "मीठी सेवइयाँ",
+        "es": "Balaleet",
+        "pt": "Balaleet",
+        "id": "Balaleet",
+        "ms": "Balaleet",
+        "ja": "バラリート",
+        "fr": "Balaleet"
+      },
+      "fact": {
+        "ar": "فطور محبوب في الكويت.",
+        "en": "A favourite breakfast in Kuwait.",
+        "tr": "Kuveyt için sevilen bir kahvaltı.",
+        "de": "Ein beliebtes Frühstück in Kuwait.",
+        "ur": "کویت کا پسندیدہ ناشتہ۔",
+        "hi": "कुवैत का पसंदीदा नाश्ता।",
+        "es": "Un desayuno favorito en Kuwait.",
+        "pt": "Um pequeno-almoço favorito no Kuwait.",
+        "id": "Sarapan favorit di Kuwait.",
+        "ms": "Sarapan kegemaran di Kuwait.",
+        "ja": "クウェートで人気の朝ごはんです。",
+        "fr": "Koweït : un petit-déjeuner très apprécié."
+      },
+      "shape": "bowl",
+      "color": "#F2D06B",
+      "color2": "#F5EEDC",
+      "buff": "speed",
+      "price": 35
+    },
+    {
+      "id": "kuwait_luqaimat",
+      "local": "Luqaimat",
+      "name": {
+        "ar": "لقيمات",
+        "en": "Date-syrup dumplings",
+        "tr": "Luqaimat",
+        "de": "Luqaimat",
+        "ur": "لقیمات",
+        "hi": "लुक़ैमात",
+        "es": "Luqaimat",
+        "pt": "Luqaimat",
+        "id": "Luqaimat",
+        "ms": "Luqaimat",
+        "ja": "ルカイマート",
+        "fr": "Luqaimat"
+      },
+      "fact": {
+        "ar": "حلا محبوب في الكويت، أحلى مع الشاي أو القهوة.",
+        "en": "A sweet treat in Kuwait, best with tea or coffee.",
+        "tr": "Kuveyt için tatlı bir ikram, çay ya da kahveyle en güzeli.",
+        "de": "Eine süße Leckerei in Kuwait, am besten mit Tee oder Kaffee.",
+        "ur": "کویت کی میٹھی سوغات، چائے یا کافی کے ساتھ مزیدار۔",
+        "hi": "कुवैत की मीठी सौगात, चाय या कॉफ़ी के साथ सबसे अच्छी।",
+        "es": "Un dulce de Kuwait, mejor con té o café.",
+        "pt": "Um doce do Kuwait, melhor com chá ou café.",
+        "id": "Camilan manis di Kuwait, paling enak dengan teh atau kopi.",
+        "ms": "Manisan di Kuwait, paling sedap dengan teh atau kopi.",
+        "ja": "クウェートの甘いおやつ。お茶やコーヒーと一緒にどうぞ。",
+        "fr": "Koweït : une douceur, parfaite avec un thé ou un café."
+      },
+      "shape": "ball",
+      "color": "#C8803A",
+      "color2": "#6B3A1E",
+      "buff": "energy",
+      "price": 30
+    }
+  ],
+  "animals": [
+    "kuwait_falcon",
+    "kuwait_dolphin"
+  ],
+  "attackTrailVfx": "pearl_glints",
+  "eatIdle": {
+    "dishId": "kuwait_machboos",
+    "propModel": "food_machboos",
+    "reaction": "yum"
+  }
+}

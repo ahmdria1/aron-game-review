@@ -1,0 +1,218 @@
+{
+  "order": 230,
+  "id": "qatar",
+  "nameAr": "قطر",
+  "nameEn": "Qatar",
+  "group": "gulf",
+  "music": "music_country_qatar",
+  "ground": "#E4CBA0",
+  "accent": "#8A1538",
+  "sky": "#A8D0EC",
+  "country": "qatar",
+  "costume": "",
+  "stages": [
+    {
+      "id": "qatar_1",
+      "nameAr": "سوق واقف",
+      "nameEn": "Souq Waqif",
+      "terrain": "souq",
+      "landmarks": [
+        "souq",
+        "gate"
+      ],
+      "mount": "",
+      "difficulty": 3,
+      "boss": false,
+      "lineAr": "سوق واقف! الخيالة يمشون بين المحلات.",
+      "extra": "",
+      "time": "day",
+      "weather": "clear",
+      "type": "normal",
+      "costume": ""
+    },
+    {
+      "id": "qatar_2",
+      "nameAr": "سوق الصقور",
+      "nameEn": "The Falcon Souq",
+      "terrain": "souq",
+      "landmarks": [
+        "souq",
+        "tents"
+      ],
+      "mount": "",
+      "difficulty": 4,
+      "boss": false,
+      "lineAr": "سوق الصقور، صقري يعرف المكان.",
+      "extra": "",
+      "time": "day",
+      "weather": "clear",
+      "type": "normal",
+      "costume": ""
+    },
+    {
+      "id": "qatar_3",
+      "nameAr": "كورنيش الدوحة",
+      "nameEn": "Doha Corniche",
+      "terrain": "coast",
+      "landmarks": [
+        "dhows",
+        "skyscraper"
+      ],
+      "mount": "",
+      "difficulty": 4,
+      "boss": false,
+      "lineAr": "الكورنيش بالليل، وهذولي ورا ظهري!",
+      "extra": "",
+      "time": "night",
+      "weather": "clear",
+      "type": "chase",
+      "costume": ""
+    },
+    {
+      "id": "qatar_4",
+      "nameAr": "الحي الثقافي كتارا",
+      "nameEn": "Katara Cultural Village",
+      "terrain": "street",
+      "landmarks": [
+        "amphitheater",
+        "columns"
+      ],
+      "mount": "",
+      "difficulty": 5,
+      "boss": false,
+      "lineAr": "كتارا والمسرح على البحر.",
+      "extra": "",
+      "time": "sunset",
+      "weather": "clear",
+      "type": "normal",
+      "costume": ""
+    },
+    {
+      "id": "qatar_5",
+      "nameAr": "خور العديد",
+      "nameEn": "Khor Al Adaid",
+      "terrain": "desert",
+      "landmarks": [
+        "dunes",
+        "lake"
+      ],
+      "mount": "camel",
+      "difficulty": 5,
+      "boss": false,
+      "lineAr": "البحر يدخل بين الكثبان، والعجاج قوي!",
+      "extra": "",
+      "time": "day",
+      "weather": "sandstorm",
+      "type": "chase",
+      "costume": ""
+    },
+    {
+      "id": "qatar_6",
+      "nameAr": "قلعة الزبارة",
+      "nameEn": "Al Zubarah Fort",
+      "terrain": "ruins",
+      "landmarks": [
+        "fort",
+        "mud_town"
+      ],
+      "mount": "horse",
+      "difficulty": 6,
+      "boss": false,
+      "lineAr": "على الخيل للزبارة قبل لا تغيب الشمس.",
+      "extra": "",
+      "time": "sunset",
+      "weather": "clear",
+      "type": "normal",
+      "costume": ""
+    },
+    {
+      "id": "qatar_race",
+      "nameAr": "سباق الهجن في الشحانية",
+      "nameEn": "Camel Track Race",
+      "terrain": "desert",
+      "landmarks": [
+        "dunes",
+        "fort"
+      ],
+      "mount": "",
+      "difficulty": 6,
+      "boss": false,
+      "lineAr": "سباق! سباق الهجن في الشحانية، يلا نشوف مين الأول!",
+      "extra": "",
+      "time": "day",
+      "weather": "clear",
+      "type": "race",
+      "costume": "",
+      "race": "qatar_camel"
+    },
+    {
+      "id": "qatar_7",
+      "nameAr": "الخليج الغربي",
+      "nameEn": "West Bay",
+      "terrain": "street",
+      "landmarks": [
+        "skyscraper",
+        "rings"
+      ],
+      "mount": "",
+      "difficulty": 6,
+      "boss": true,
+      "lineAr": "حارس الرمال واقف بين الأبراج...",
+      "extra": "",
+      "time": "night",
+      "weather": "clear",
+      "type": "boss",
+      "costume": ""
+    }
+  ],
+  "boss": {
+    "nameAr": "حارس الرمال",
+    "nameEn": "The Sand Warden",
+    "model": "robe",
+    "headgear": "turban",
+    "body": "#8A1538",
+    "trim": "#F5F0E6",
+    "projectile": "#E0B45C",
+    "scale": 1.25,
+    "health": 12,
+    "introAr": "الرمل يسمع كلامي، وراح يدفنك!",
+    "stunAr": "الرمل دخل عيوني!",
+    "defeatAr": "رجع الرمل لمكانه... قطر لك.",
+    "phases": [
+      {
+        "threshold": 1.0,
+        "move": 3,
+        "charge": 12,
+        "interval": 3.0,
+        "attacks": [
+          "charge",
+          "summon"
+        ],
+        "tauntAr": "يا رمال! قومي!"
+      },
+      {
+        "threshold": 0.66,
+        "move": 4,
+        "charge": 14,
+        "interval": 2.5,
+        "attacks": [
+          "volley",
+          "wave"
+        ],
+        "tauntAr": "كرات رمل من كل صوب!"
+      },
+      {
+        "threshold": 0.33,
+        "move": 5,
+        "charge": 16,
+        "interval": 2.0,
+        "attacks": [
+          "dash",
+          "volley",
+          "summon"
+        ],
+        "tauntAr": "ما في مهرب!"
+      }
+    ]
+  }
+}

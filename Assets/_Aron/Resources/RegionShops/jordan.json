@@ -1,0 +1,20 @@
+{
+  "region": "jordan",
+  "shops": [
+    {
+      "stage": "jordan_1",
+      "nameAr": "فلافل أبو جبارة",
+      "kind": "food"
+    },
+    {
+      "stage": "jordan_1",
+      "nameAr": "كنافة الحاج خليل",
+      "kind": "sweets"
+    },
+    {
+      "stage": "jordan_3",
+      "nameAr": "تحف أم خالد",
+      "kind": "crafts"
+    }
+  ]
+}

@@ -1,0 +1,223 @@
+{
+  "order": 420,
+  "id": "turkey",
+  "nameAr": "تركيا",
+  "nameEn": "Türkiye",
+  "group": "world",
+  "music": "music_country_turkey",
+  "ground": "#C8A878",
+  "accent": "#E30A17",
+  "sky": "#9FC8EC",
+  "country": "turkey",
+  "costume": "",
+  "stages": [
+    {
+      "id": "turkey_1",
+      "nameAr": "البازار المسقوف",
+      "nameEn": "The Covered Bazaar",
+      "terrain": "souq",
+      "landmarks": [
+        "covered_bazaar",
+        "bazaar_arches"
+      ],
+      "mount": "",
+      "difficulty": 3,
+      "boss": false,
+      "lineAr": "آلاف المحلات تحت سقف واحد!",
+      "extra": "",
+      "time": "day",
+      "weather": "clear",
+      "type": "normal",
+      "costume": ""
+    },
+    {
+      "id": "turkey_2",
+      "nameAr": "ضفاف المضيق",
+      "nameEn": "Bosphorus Shore",
+      "terrain": "coast",
+      "landmarks": [
+        "row_houses",
+        "sea_tower"
+      ],
+      "mount": "",
+      "difficulty": 4,
+      "boss": false,
+      "lineAr": "عبّارات ونوارس وسميط.",
+      "extra": "",
+      "time": "sunset",
+      "weather": "clear",
+      "type": "chase",
+      "costume": ""
+    },
+    {
+      "id": "turkey_3",
+      "nameAr": "مداخن الجنيات",
+      "nameEn": "Fairy Chimneys",
+      "terrain": "desert",
+      "landmarks": [
+        "chimneys",
+        "canyon"
+      ],
+      "mount": "horse",
+      "difficulty": 5,
+      "boss": false,
+      "lineAr": "صخور مثل المداخن، والمناطيد فوقها!",
+      "extra": "",
+      "time": "day",
+      "weather": "clear",
+      "type": "normal",
+      "costume": ""
+    },
+    {
+      "id": "turkey_4",
+      "nameAr": "المصاطب البيضاء",
+      "nameEn": "White Terraces",
+      "terrain": "mountain",
+      "landmarks": [
+        "terraces",
+        "lake"
+      ],
+      "mount": "",
+      "difficulty": 6,
+      "boss": false,
+      "lineAr": "مدرجات بيضاء والمي ينزل عليها.",
+      "extra": "",
+      "time": "day",
+      "weather": "rain",
+      "type": "action",
+      "costume": ""
+    },
+    {
+      "id": "turkey_5",
+      "nameAr": "أطلال المسرح",
+      "nameEn": "Ancient Theatre",
+      "terrain": "ruins",
+      "landmarks": [
+        "amphitheater",
+        "columns"
+      ],
+      "mount": "",
+      "difficulty": 7,
+      "boss": false,
+      "lineAr": "مسرح قديم من حجر.",
+      "extra": "",
+      "time": "sunset",
+      "weather": "clear",
+      "type": "normal",
+      "costume": ""
+    },
+    {
+      "id": "turkey_6",
+      "nameAr": "قرية البحر الأسود",
+      "nameEn": "Black Sea Village",
+      "terrain": "forest",
+      "landmarks": [
+        "tile_houses",
+        "terraces"
+      ],
+      "mount": "",
+      "difficulty": 8,
+      "boss": false,
+      "lineAr": "مزارع الشاي على الجبل.",
+      "extra": "",
+      "time": "night",
+      "weather": "rain",
+      "type": "chase",
+      "costume": ""
+    },
+    {
+      "id": "turkey_race",
+      "nameAr": "سباق الخيل في السهل",
+      "nameEn": "Steppe Horse Race",
+      "terrain": "oasis",
+      "landmarks": [
+        "chimneys",
+        "canyon"
+      ],
+      "mount": "",
+      "difficulty": 8,
+      "boss": false,
+      "lineAr": "سباق! سباق الخيل في السهل، يلا نشوف مين الأول!",
+      "extra": "",
+      "time": "sunset",
+      "weather": "clear",
+      "type": "race",
+      "costume": "",
+      "race": "turkey_horse"
+    },
+    {
+      "id": "turkey_7",
+      "nameAr": "وادي المداخن",
+      "nameEn": "Chimney Valley",
+      "terrain": "desert",
+      "landmarks": [
+        "chimneys",
+        "canyon"
+      ],
+      "mount": "",
+      "difficulty": 10,
+      "boss": true,
+      "lineAr": "عملاق المداخن صحى من الصخر!",
+      "extra": "",
+      "time": "night",
+      "weather": "clear",
+      "type": "boss",
+      "costume": ""
+    }
+  ],
+  "skyline": [
+    "blue_domes"
+  ],
+  "boss": {
+    "nameAr": "عملاق المداخن",
+    "nameEn": "The Chimney Titan",
+    "model": "golem",
+    "headgear": "fez",
+    "body": "#C89A6A",
+    "trim": "#E30A17",
+    "projectile": "#FFB347",
+    "scale": 1.32,
+    "health": 16,
+    "introAr": "الصخور كلها معي!",
+    "stunAr": "انهدّت مداخني!",
+    "defeatAr": "تمام... تركيا لك.",
+    "phases": [
+      {
+        "threshold": 1.0,
+        "move": 4.0,
+        "charge": 14.0,
+        "interval": 2.8,
+        "attacks": [
+          "charge",
+          "wave",
+          "summon"
+        ],
+        "tauntAr": "صخر يطير!"
+      },
+      {
+        "threshold": 0.66,
+        "move": 4.6,
+        "charge": 15.5,
+        "interval": 2.4,
+        "attacks": [
+          "charge",
+          "wave",
+          "volley"
+        ],
+        "tauntAr": "المنطاد معي!"
+      },
+      {
+        "threshold": 0.33,
+        "move": 5.2,
+        "charge": 17.0,
+        "interval": 2.0,
+        "attacks": [
+          "wave",
+          "summon",
+          "dash"
+        ],
+        "tauntAr": "الوادي ما يرحم!"
+      }
+    ]
+  }
+}

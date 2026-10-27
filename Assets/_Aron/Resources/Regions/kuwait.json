@@ -1,0 +1,239 @@
+{
+  "order": 200,
+  "id": "kuwait",
+  "nameAr": "الكويت",
+  "nameEn": "Kuwait",
+  "group": "gulf",
+  "music": "music_country_kuwait",
+  "ground": "#E2C9A0",
+  "accent": "#007A3D",
+  "sky": "#8EC5E6",
+  "country": "kuwait",
+  "costume": "",
+  "stages": [
+    {
+      "id": "kuwait_1",
+      "nameAr": "أبراج الكويت",
+      "nameEn": "Kuwait Towers",
+      "terrain": "coast",
+      "landmarks": [
+        "twin_spheres",
+        "dhows"
+      ],
+      "mount": "",
+      "difficulty": 2,
+      "boss": false,
+      "lineAr": "أبراج الكويت! يا زينها على البحر.",
+      "extra": "",
+      "time": "day",
+      "weather": "clear",
+      "type": "normal",
+      "music": "music_kuwait_sea",
+      "costume": ""
+    },
+    {
+      "id": "kuwait_2",
+      "nameAr": "سوق المباركية",
+      "nameEn": "Souq Al-Mubarakiya",
+      "terrain": "souq",
+      "landmarks": [
+        "souq",
+        "gate"
+      ],
+      "mount": "",
+      "difficulty": 2,
+      "boss": false,
+      "lineAr": "المباركية، ريحة الباجلا والدارسين.",
+      "extra": "",
+      "time": "day",
+      "weather": "clear",
+      "type": "normal",
+      "costume": ""
+    },
+    {
+      "id": "kuwait_3",
+      "nameAr": "سوق شرق والصيادين",
+      "nameEn": "Souq Sharq and the Fishermen",
+      "terrain": "coast",
+      "landmarks": [
+        "dhows",
+        "souq"
+      ],
+      "mount": "",
+      "difficulty": 3,
+      "boss": false,
+      "lineAr": "الصيادين راجعين بالزبيدي، خلني أساعدهم.",
+      "extra": "",
+      "time": "sunset",
+      "weather": "clear",
+      "type": "normal",
+      "music": "music_kuwait_sea",
+      "costume": ""
+    },
+    {
+      "id": "kuwait_4",
+      "nameAr": "شوارع حولي",
+      "nameEn": "Hawalli Streets",
+      "terrain": "street",
+      "landmarks": [
+        "skyscraper",
+        "souq"
+      ],
+      "mount": "",
+      "difficulty": 3,
+      "boss": false,
+      "lineAr": "حولي زحمة، وهذولي لاحقيني!",
+      "extra": "",
+      "time": "night",
+      "weather": "clear",
+      "type": "chase",
+      "costume": ""
+    },
+    {
+      "id": "kuwait_5",
+      "nameAr": "الجابرية وأبراج المياه",
+      "nameEn": "Jabriya and the Water Towers",
+      "terrain": "street",
+      "landmarks": [
+        "water_tower",
+        "skyscraper"
+      ],
+      "mount": "",
+      "difficulty": 4,
+      "boss": false,
+      "lineAr": "أبراج المياه، أعرف الطريق من هنا.",
+      "extra": "",
+      "time": "day",
+      "weather": "clear",
+      "type": "normal",
+      "costume": ""
+    },
+    {
+      "id": "kuwait_6",
+      "nameAr": "الأفنيوز",
+      "nameEn": "The Avenues",
+      "terrain": "street",
+      "landmarks": [
+        "skyscraper",
+        "fountain"
+      ],
+      "mount": "",
+      "difficulty": 4,
+      "boss": false,
+      "lineAr": "الأفنيوز وايد كبير، لا أضيع!",
+      "extra": "",
+      "time": "night",
+      "weather": "clear",
+      "type": "chase",
+      "costume": ""
+    },
+    {
+      "id": "kuwait_7",
+      "nameAr": "بر المطلاع",
+      "nameEn": "Al Mutla'a Desert",
+      "terrain": "desert",
+      "landmarks": [
+        "dunes",
+        "tents"
+      ],
+      "mount": "camel",
+      "difficulty": 5,
+      "boss": false,
+      "lineAr": "هبت الغبرة! تمسك يا ذلول.",
+      "extra": "",
+      "time": "day",
+      "weather": "sandstorm",
+      "type": "chase",
+      "costume": ""
+    },
+    {
+      "id": "kuwait_race",
+      "nameAr": "سباق السفن الشراعية",
+      "nameEn": "Dhow Sailing Race",
+      "terrain": "coast",
+      "landmarks": [
+        "dhows",
+        "twin_spheres"
+      ],
+      "mount": "",
+      "difficulty": 5,
+      "boss": false,
+      "lineAr": "سباق! سباق السفن الشراعية، يلا نشوف مين الأول!",
+      "extra": "",
+      "time": "day",
+      "weather": "clear",
+      "type": "race",
+      "music": "music_kuwait_sea",
+      "costume": "",
+      "race": "kuwait_sail"
+    },
+    {
+      "id": "kuwait_8",
+      "nameAr": "شارع الخليج العربي",
+      "nameEn": "Arabian Gulf Street",
+      "terrain": "coast",
+      "landmarks": [
+        "twin_spheres",
+        "water_tower"
+      ],
+      "mount": "",
+      "difficulty": 5,
+      "boss": true,
+      "lineAr": "النوخذة شرهان ينتظرني على الكورنيش...",
+      "extra": "",
+      "time": "night",
+      "weather": "clear",
+      "type": "boss",
+      "costume": "kuwait_bisht"
+    }
+  ],
+  "boss": {
+    "nameAr": "النوخذة شرهان",
+    "nameEn": "Nakhoda Sharhan",
+    "model": "captain",
+    "headgear": "ghutra",
+    "body": "#1E3A5F",
+    "trim": "#E8D9A8",
+    "projectile": "#5FA8D3",
+    "scale": 1.15,
+    "health": 10,
+    "introAr": "هالبحر بحري، ومحد يعدي الكويت وأنا هني!",
+    "stunAr": "يا ويلي... الدنيا تدور!",
+    "defeatAr": "خلاص يا بطل، البحر لك.",
+    "phases": [
+      {
+        "threshold": 1.0,
+        "move": 3,
+        "charge": 11,
+        "interval": 3.0,
+        "attacks": [
+          "volley"
+        ],
+        "tauntAr": "شباكي بتصيدك يا أرون!"
+      },
+      {
+        "threshold": 0.66,
+        "move": 4,
+        "charge": 13,
+        "interval": 2.6,
+        "attacks": [
+          "volley",
+          "dash"
+        ],
+        "tauntAr": "شوف سرعة النوخذة!"
+      },
+      {
+        "threshold": 0.33,
+        "move": 5,
+        "charge": 15,
+        "interval": 2.1,
+        "attacks": [
+          "volley",
+          "dash",
+          "summon"
+        ],
+        "tauntAr": "يا بحارة! تعالوا!"
+      }
+    ]
+  }
+}

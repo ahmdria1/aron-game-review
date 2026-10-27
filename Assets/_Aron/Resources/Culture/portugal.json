@@ -1,0 +1,262 @@
+{
+  "country": "portugal",
+  "dialect": "pt-PT",
+  "uiLanguage": "pt",
+  "greeting": {
+    "words": "Olá, bom dia",
+    "wordsEn": "Hello, good morning",
+    "wordsAr": "أهلاً، صباح الخير",
+    "gesture": "cheek_kiss"
+  },
+  "hospitality": {
+    "ar": "في البرتغال يُستقبل الضيف بفنجان قهوة.",
+    "en": "In Portugal, guests are welcomed with a cup of coffee.",
+    "tr": "Portekiz misafirleri bir fincan kahveyle karşılar.",
+    "de": "In Portugal empfängt man Gäste mit einer Tasse Kaffee.",
+    "ur": "پرتگال میں مہمان کا استقبال کافی کے کپ سے ہوتا ہے۔",
+    "hi": "पुर्तगाल में मेहमान का स्वागत एक कप कॉफ़ी से होता है।",
+    "es": "En Portugal se recibe a los invitados con una taza de café.",
+    "pt": "Em Portugal recebem-se os convidados com um cafezinho.",
+    "id": "Di Portugal, tamu disambut dengan secangkir kopi.",
+    "ms": "Di Portugal, tetamu disambut dengan secawan kopi.",
+    "ja": "ポルトガルではお客さんをコーヒーでもてなします。",
+    "fr": "Portugal : on accueille les invités avec une tasse de café."
+  },
+  "customs": [
+    {
+      "act": "offer_sweets",
+      "en": "A custard tart with coffee at the corner café.",
+      "ar": "تارت الكاسترد مع قهوة في المقهى."
+    },
+    {
+      "act": "wave_hello",
+      "en": "Neighbours greet each other from tiled balconies.",
+      "ar": "الجيران يسلّمون على بعض من البلكونات."
+    }
+  ],
+  "architecture": "Hillside lanes, blue-and-white tile façades, yellow trams.",
+  "palette": [
+    "#1F4E9A",
+    "#F2C14E",
+    "#FFFFFF",
+    "#C8553D"
+  ],
+  "music": {
+    "style": "Fado and folk",
+    "instruments": [
+      "portuguese guitar",
+      "accordion",
+      "adufe drum"
+    ]
+  },
+  "street": {
+    "vendors": [
+      "chestnut roaster",
+      "pastry shop"
+    ],
+    "cafe": "pastelaria",
+    "kidsGames": [
+      "hopscotch",
+      "street football"
+    ],
+    "crowd": "busy, friendly"
+  },
+  "foods": [
+    {
+      "id": "portugal_pastel_nata",
+      "local": "Pastel de nata",
+      "name": {
+        "ar": "تارت الكاسترد",
+        "en": "Custard tart",
+        "tr": "Pastel de nata",
+        "de": "Pastel de nata",
+        "ur": "کسٹرڈ ٹارٹ",
+        "hi": "कस्टर्ड टार्ट",
+        "es": "Pastel de nata",
+        "pt": "Pastel de nata",
+        "id": "Pastel de nata",
+        "ms": "Pastel de nata",
+        "ja": "エッグタルト",
+        "fr": "Pastel de nata"
+      },
+      "fact": {
+        "ar": "حلا محبوب في البرتغال، أحلى مع الشاي أو القهوة.",
+        "en": "A sweet treat in Portugal, best with tea or coffee.",
+        "tr": "Portekiz için tatlı bir ikram, çay ya da kahveyle en güzeli.",
+        "de": "Eine süße Leckerei in Portugal, am besten mit Tee oder Kaffee.",
+        "ur": "پرتگال کی میٹھی سوغات، چائے یا کافی کے ساتھ مزیدار۔",
+        "hi": "पुर्तगाल की मीठी सौगात, चाय या कॉफ़ी के साथ सबसे अच्छी।",
+        "es": "Un dulce de Portugal, mejor con té o café.",
+        "pt": "Um doce de Portugal, melhor com chá ou café.",
+        "id": "Camilan manis di Portugal, paling enak dengan teh atau kopi.",
+        "ms": "Manisan di Portugal, paling sedap dengan teh atau kopi.",
+        "ja": "ポルトガルの甘いおやつ。お茶やコーヒーと一緒にどうぞ。",
+        "fr": "Portugal : une douceur, parfaite avec un thé ou un café."
+      },
+      "shape": "cake",
+      "color": "#F2C14E",
+      "color2": "#A0522D",
+      "buff": "energy",
+      "price": 40
+    },
+    {
+      "id": "portugal_sardinhas",
+      "local": "Sardinhas assadas",
+      "name": {
+        "ar": "سردين مشوي",
+        "en": "Grilled sardines",
+        "tr": "Sardinhas assadas",
+        "de": "Sardinhas assadas",
+        "ur": "بھنی ہوئی سارڈین",
+        "hi": "भुनी हुई सार्डिन",
+        "es": "Sardinhas assadas",
+        "pt": "Sardinhas assadas",
+        "id": "Sardinhas assadas",
+        "ms": "Sardinhas assadas",
+        "ja": "イワシの炭火焼き",
+        "fr": "Sardinhas assadas"
+      },
+      "fact": {
+        "ar": "من خير بحر البرتغال وسواحلها.",
+        "en": "From the sea and coast of Portugal.",
+        "tr": "Portekiz denizinden ve kıyılarından.",
+        "de": "Aus dem Meer und von der Küste von Portugal.",
+        "ur": "پرتگال کے سمندر اور ساحل کی سوغات۔",
+        "hi": "पुर्तगाल के समुद्र और तट की सौगात।",
+        "es": "Del mar y la costa de Portugal.",
+        "pt": "Do mar e da costa de Portugal.",
+        "id": "Dari laut dan pesisir Portugal.",
+        "ms": "Dari laut dan pantai Portugal.",
+        "ja": "ポルトガルの海と海岸の恵みです。",
+        "fr": "Portugal : un trésor de la mer et de la côte."
+      },
+      "shape": "plate",
+      "color": "#8A9BA8",
+      "color2": "#E8C77A",
+      "buff": "strength",
+      "price": 70
+    },
+    {
+      "id": "portugal_bacalhau",
+      "local": "Bacalhau à Brás",
+      "name": {
+        "ar": "باكالاو",
+        "en": "Salt-cod with egg and potato",
+        "tr": "Bacalhau à Brás",
+        "de": "Bacalhau à Brás",
+        "ur": "نمکین مچھلی اور انڈا",
+        "hi": "नमकीन मछली और अंडा",
+        "es": "Bacalhau à Brás",
+        "pt": "Bacalhau à Brás",
+        "id": "Bacalhau à Brás",
+        "ms": "Bacalhau à Brás",
+        "ja": "バカリャウ",
+        "fr": "Bacalhau à Brás"
+      },
+      "fact": {
+        "ar": "تُعرف غالباً بأنها الأكلة الوطنية في البرتغال.",
+        "en": "Often called the national dish of Portugal.",
+        "tr": "Genellikle Portekiz ulusal yemeği sayılır.",
+        "de": "Gilt oft als Nationalgericht von Portugal.",
+        "ur": "اسے اکثر پرتگال کا قومی کھانا کہا جاتا ہے۔",
+        "hi": "इसे अक्सर पुर्तगाल का राष्ट्रीय व्यंजन कहा जाता है।",
+        "es": "Se le suele llamar el plato nacional de Portugal.",
+        "pt": "É muitas vezes chamado o prato nacional de Portugal.",
+        "id": "Sering disebut hidangan nasional Portugal.",
+        "ms": "Sering disebut hidangan kebangsaan Portugal.",
+        "ja": "ポルトガルの国民食とよく言われます。",
+        "fr": "Portugal : souvent appelé le plat national."
+      },
+      "shape": "plate",
+      "color": "#F5E6B0",
+      "color2": "#C8A060",
+      "buff": "strength",
+      "price": 90
+    },
+    {
+      "id": "portugal_caldo_verde",
+      "local": "Caldo verde",
+      "name": {
+        "ar": "شوربة الكرنب",
+        "en": "Kale and potato soup",
+        "tr": "Caldo verde",
+        "de": "Caldo verde",
+        "ur": "ساگ اور آلو کا شوربہ",
+        "hi": "साग और आलू का सूप",
+        "es": "Caldo verde",
+        "pt": "Caldo verde",
+        "id": "Caldo verde",
+        "ms": "Caldo verde",
+        "ja": "カルド・ヴェルデ",
+        "fr": "Caldo verde"
+      },
+      "fact": {
+        "ar": "يُباع حاراً في بسطات الشوارع في كل البرتغال.",
+        "en": "Sold hot at street stalls all over Portugal.",
+        "tr": "Portekiz genelinde sokak tezgâhlarında sıcak satılır.",
+        "de": "Überall in Portugal heiß an Straßenständen verkauft.",
+        "ur": "پورے پرتگال میں ٹھیلوں پر گرم گرم بکتا ہے۔",
+        "hi": "पूरे पुर्तगाल में ठेलों पर गरमा-गरम बिकता है।",
+        "es": "Se vende caliente en puestos callejeros por todo el territorio de Portugal.",
+        "pt": "Vende-se quente em bancas de rua em todo Portugal.",
+        "id": "Dijual hangat di kaki lima di seluruh Portugal.",
+        "ms": "Dijual panas di gerai tepi jalan di seluruh Portugal.",
+        "ja": "ポルトガルのあちこちの屋台で熱々で売られています。",
+        "fr": "Portugal : vendu tout chaud dans les stands de rue."
+      },
+      "shape": "bowl",
+      "color": "#6A8F3A",
+      "color2": "#F5EEDC",
+      "buff": "energy",
+      "price": 50
+    },
+    {
+      "id": "portugal_bolo_rei",
+      "local": "Bolo de arroz",
+      "name": {
+        "ar": "كيك الرز",
+        "en": "Rice-flour muffin",
+        "tr": "Bolo de arroz",
+        "de": "Bolo de arroz",
+        "ur": "چاول کا کیک",
+        "hi": "चावल का केक",
+        "es": "Bolo de arroz",
+        "pt": "Bolo de arroz",
+        "id": "Bolo de arroz",
+        "ms": "Bolo de arroz",
+        "ja": "米粉のマフィン",
+        "fr": "Bolo de arroz"
+      },
+      "fact": {
+        "ar": "فطور محبوب في البرتغال.",
+        "en": "A favourite breakfast in Portugal.",
+        "tr": "Portekiz için sevilen bir kahvaltı.",
+        "de": "Ein beliebtes Frühstück in Portugal.",
+        "ur": "پرتگال کا پسندیدہ ناشتہ۔",
+        "hi": "पुर्तगाल का पसंदीदा नाश्ता।",
+        "es": "Un desayuno favorito en Portugal.",
+        "pt": "Um pequeno-almoço favorito em Portugal.",
+        "id": "Sarapan favorit di Portugal.",
+        "ms": "Sarapan kegemaran di Portugal.",
+        "ja": "ポルトガルで人気の朝ごはんです。",
+        "fr": "Portugal : un petit-déjeuner très apprécié."
+      },
+      "shape": "cake",
+      "color": "#E8C77A",
+      "color2": "#8A5A2A",
+      "buff": "speed",
+      "price": 35
+    }
+  ],
+  "animals": [
+    "portugal_rooster",
+    "portugal_horse",
+    "portugal_seagull"
+  ],
+  "attackTrailVfx": "azulejo_shards",
+  "eatIdle": {
+    "dishId": "portugal_pastel_nata",
+    "propModel": "food_pastel_nata",
+    "reaction": "sweet"
+  }
+}

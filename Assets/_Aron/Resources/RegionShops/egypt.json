@@ -1,0 +1,20 @@
+{
+  "region": "egypt",
+  "shops": [
+    {
+      "stage": "egypt_1",
+      "nameAr": "فوانيس عم حسن",
+      "kind": "lanterns"
+    },
+    {
+      "stage": "egypt_2",
+      "nameAr": "فول وطعمية أبو محمد",
+      "kind": "food"
+    },
+    {
+      "stage": "egypt_7",
+      "nameAr": "توابل الحاج نوبي",
+      "kind": "spices"
+    }
+  ]
+}

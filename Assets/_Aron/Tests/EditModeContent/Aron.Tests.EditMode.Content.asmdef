@@ -1,0 +1,35 @@
+{
+    "name": "Aron.Tests.EditMode.Content",
+    "references": [
+        "Aron.Logic",
+        "Aron.Runtime",
+        "Aron.Editor.Content",
+        "Aron.Content.Addressables",
+        "Unity.Addressables",
+        "Unity.Addressables.Editor",
+        "UnityEngine.TestRunner",
+        "UnityEditor.TestRunner"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "nunit.framework.dll"
+    ],
+    "autoReferenced": false,
+    "defineConstraints": [
+        "UNITY_INCLUDE_TESTS",
+        "ARON_ADDRESSABLES"
+    ],
+    "versionDefines": [
+        {
+            "name": "com.unity.addressables",
+            "expression": "2.0.0",
+            "define": "ARON_ADDRESSABLES"
+        }
+    ],
+    "noEngineReferences": false
+}

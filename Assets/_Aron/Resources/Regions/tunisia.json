@@ -1,0 +1,219 @@
+{
+  "order": 372,
+  "id": "tunisia",
+  "nameAr": "تونس",
+  "nameEn": "Tunisia",
+  "group": "arab",
+  "music": "music_country_tunisia",
+  "ground": "#E0C9A2",
+  "accent": "#E70013",
+  "sky": "#9FD0F0",
+  "country": "tunisia",
+  "costume": "",
+  "stages": [
+    {
+      "id": "tunisia_1",
+      "nameAr": "سيدي بو سعيد",
+      "nameEn": "Sidi Bou Said",
+      "terrain": "coast",
+      "landmarks": [
+        "blue_town",
+        "painted_houses"
+      ],
+      "mount": "",
+      "difficulty": 7,
+      "boss": false,
+      "lineAr": "أبيض وأزرق، وريحة الياسمين.",
+      "extra": "",
+      "time": "day",
+      "weather": "clear",
+      "type": "normal",
+      "costume": ""
+    },
+    {
+      "id": "tunisia_2",
+      "nameAr": "سوق الشواشية",
+      "nameEn": "Souq El Chaouachia",
+      "terrain": "souq",
+      "landmarks": [
+        "souq",
+        "gate"
+      ],
+      "mount": "",
+      "difficulty": 8,
+      "boss": false,
+      "lineAr": "سوق الشواشية، كل الشواشي حمراء.",
+      "extra": "",
+      "time": "day",
+      "weather": "clear",
+      "type": "action",
+      "costume": ""
+    },
+    {
+      "id": "tunisia_3",
+      "nameAr": "قرطاج",
+      "nameEn": "Carthage",
+      "terrain": "ruins",
+      "landmarks": [
+        "columns",
+        "amphitheater"
+      ],
+      "mount": "",
+      "difficulty": 8,
+      "boss": false,
+      "lineAr": "قرطاج القديمة على البحر.",
+      "extra": "",
+      "time": "sunset",
+      "weather": "clear",
+      "type": "normal",
+      "costume": ""
+    },
+    {
+      "id": "tunisia_4",
+      "nameAr": "مدرج الجم",
+      "nameEn": "Amphitheatre of El Jem",
+      "terrain": "ruins",
+      "landmarks": [
+        "amphitheater",
+        "palms"
+      ],
+      "mount": "horse",
+      "difficulty": 8,
+      "boss": false,
+      "lineAr": "مدرج الجم الضخم، يلا يا حصان!",
+      "extra": "",
+      "time": "day",
+      "weather": "rain",
+      "type": "normal",
+      "costume": ""
+    },
+    {
+      "id": "tunisia_5",
+      "nameAr": "شط الجريد",
+      "nameEn": "Chott el Djerid",
+      "terrain": "desert",
+      "landmarks": [
+        "salt_lake",
+        "dunes"
+      ],
+      "mount": "camel",
+      "difficulty": 9,
+      "boss": false,
+      "lineAr": "بحيرة ملح ما لها آخر، والعجاج طالع.",
+      "extra": "",
+      "time": "day",
+      "weather": "sandstorm",
+      "type": "chase",
+      "costume": ""
+    },
+    {
+      "id": "tunisia_6",
+      "nameAr": "واحة توزر",
+      "nameEn": "Tozeur Oasis",
+      "terrain": "oasis",
+      "landmarks": [
+        "palms",
+        "mud_town"
+      ],
+      "mount": "",
+      "difficulty": 9,
+      "boss": false,
+      "lineAr": "طوب توزر والنخيل، وهم لاحقيني!",
+      "extra": "",
+      "time": "night",
+      "weather": "clear",
+      "type": "chase",
+      "costume": ""
+    },
+    {
+      "id": "tunisia_race",
+      "nameAr": "سباق الهجن في دوز",
+      "nameEn": "Douz Camel Race",
+      "terrain": "desert",
+      "landmarks": [
+        "dunes",
+        "palms"
+      ],
+      "mount": "",
+      "difficulty": 9,
+      "boss": false,
+      "lineAr": "سباق! سباق الهجن في دوز، يلا نشوف مين الأول!",
+      "extra": "",
+      "time": "sunset",
+      "weather": "clear",
+      "type": "race",
+      "costume": "",
+      "race": "tunisia_camel"
+    },
+    {
+      "id": "tunisia_7",
+      "nameAr": "رباط المنستير",
+      "nameEn": "Ribat of Monastir",
+      "terrain": "coast",
+      "landmarks": [
+        "fort",
+        "round_fort"
+      ],
+      "mount": "",
+      "difficulty": 9,
+      "boss": true,
+      "lineAr": "قرصان المتوسط فوق الرباط...",
+      "extra": "",
+      "time": "night",
+      "weather": "clear",
+      "type": "boss",
+      "costume": ""
+    }
+  ],
+  "boss": {
+    "nameAr": "قرصان المتوسط",
+    "nameEn": "The Mediterranean Corsair",
+    "model": "captain",
+    "headgear": "fez",
+    "body": "#B22222",
+    "trim": "#F2E3C6",
+    "projectile": "#4C6EF5",
+    "scale": 1.2,
+    "health": 17,
+    "introAr": "المتوسط كله بحري، وأنت بس سمكة صغيرة!",
+    "stunAr": "دوار البحر...",
+    "defeatAr": "نزلت العلم... تونس ليك.",
+    "phases": [
+      {
+        "threshold": 1.0,
+        "move": 4,
+        "charge": 14,
+        "interval": 2.7,
+        "attacks": [
+          "volley",
+          "charge"
+        ],
+        "tauntAr": "مدافعي جاهزة!"
+      },
+      {
+        "threshold": 0.66,
+        "move": 4.5,
+        "charge": 15,
+        "interval": 2.3,
+        "attacks": [
+          "dash",
+          "summon",
+          "volley"
+        ],
+        "tauntAr": "يا بحارة! هجوم!"
+      },
+      {
+        "threshold": 0.33,
+        "move": 5.5,
+        "charge": 17,
+        "interval": 1.8,
+        "attacks": [
+          "charge",
+          "wave",
+          "leap"
+        ],
+        "tauntAr": "الموج يغرقك!"
+      }
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "region": "brazil",
+  "shops": [
+    {
+      "stage": "brazil_2",
+      "nameAr": "ماء جوز الهند",
+      "kind": "juice"
+    },
+    {
+      "stage": "brazil_1",
+      "nameAr": "مخبز الحارة",
+      "kind": "bakery"
+    }
+  ]
+}

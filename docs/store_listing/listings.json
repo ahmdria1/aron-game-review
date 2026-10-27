@@ -1,0 +1,271 @@
+{
+  "_note": "Source of truth for both stores. Limits: Play title 30, short 80, full 4000; App Store name 30, subtitle 30, keywords 100, promo 170, description 4000. Edit here and keep the .md files in step (tests check both).",
+  "category": {
+    "play": "Game > Adventure",
+    "apple_primary": "Games",
+    "apple_primary_genre": "Adventure",
+    "apple_secondary_genre": "Racing"
+  },
+  "tags_play": [
+    "Platformer",
+    "Adventure",
+    "Racing",
+    "Single player",
+    "Offline"
+  ],
+  "rating_target": "7+ (answers drafted in docs/iarc_draft.md; the store questionnaires decide the final rating)",
+  "languages": {
+    "ar": {
+      "play_locale": "ar",
+      "apple_locale": "ar-SA",
+      "title": "رحلة أرون: مغامرة وسباقات",
+      "subtitle": "اركض واقفز وسابق بالجمل",
+      "short_description": "مغامرة ثلاثية الأبعاد من الرياض: اركض، اقفز، اهزم الزعماء وسابق بالجمل.",
+      "full_description": "يلا ننطلق مع أرون! رحلة ثلاثية الأبعاد على الجوال تبدأ من الرياض وتمشي بك بين مناطق المملكة وبلدان العالم. اركض، اقفز، لوّح بالعقال، واجمع التمر قبل ما يوصل الزعيم.\n\n• مراحل مغامرات من ٥ إلى ٨ دقائق، ولكل مرحلة ثلاث نجوم: أنهِها، أو اكسر كل الصناديق، أو اكسب الوقت.\n• زعماء بحركات طريفة وبدون دم ولا خوف: لعبة مناسبة للعيلة كلها.\n• سباقات بالحصان والجمل والنعامة والزرافة والصقر الشراعي، وكمان قوارب وسيارات ودراجات هوائية ونارية.\n• كل مركبة لها ميزة تناسب أسلوبك، وفي السباقات الرسمية القوة متساوية: اللي يفوز هو الأمهر.\n• سباق أونلاين لحد ٤ لاعبين بدون دردشة، بأسماء جاهزة تناسب الصغار والكبار.\n• جواز سفر وأختام ومتحف تجمع فيه الأماكن اللي زرتها، وأزياء وتخصيص لأرون وحصانه.\n• تعمل بدون إنترنت، وفيها توفير للبطارية وتوفير للبيانات ونمط اليد الواحدة.\n• بدون إعلانات. المشتريات اختيارية، وما فيها صناديق عشوائية مدفوعة.\n\nلغات اللعبة: العربية، الإنجليزية، التركية، الألمانية، الأردية، الهندية، الإسبانية، البرتغالية، الإندونيسية، الملايو، اليابانية والفرنسية.",
+      "ios_keywords": "لعبة,مغامرات,سباق,منصات,السعودية,الرياض,جمل,صقر,ركض,قفز,هجن,ثلاثية الأبعاد,عائلية",
+      "promotional_text": "مغامرة وسباقات من قلب الرياض. اركض، اقفز، سابق بالجمل والصقر، وتحدّى أصدقاءك أونلاين. بدون إعلانات.",
+      "whats_new": "الإصدار الأول: مراحل الرياض، السباقات، المتجر، واللعب أونلاين.",
+      "screenshot_captions": [
+        "اركض واقفز في شوارع الرياض",
+        "اهزم الزعماء بحركات طريفة",
+        "سابق بالجمل والصقر والنعامة",
+        "قوارب وسيارات ودراجات",
+        "رحلة بين مناطق المملكة",
+        "جواز سفر ومتحف لكل مكان",
+        "تحدّى أصدقاءك أونلاين",
+        "يدك الوحدة تكفي"
+      ]
+    },
+    "en": {
+      "play_locale": "en-US",
+      "apple_locale": "en-US",
+      "title": "Aron's Journey: Run & Race",
+      "subtitle": "Platformer, camels and races",
+      "short_description": "3D adventure from Riyadh: run, jump, beat bosses and race camels and falcons.",
+      "full_description": "Join Aron on a 3D mobile adventure that starts in Riyadh and travels across Saudi Arabia and the wider world. Run, jump, swing your agal and collect dates before the boss shows up.\n\n• Stages of 5 to 8 minutes, each with three stars: finish it, break every crate, or beat the par time.\n• Funny bosses with cartoon moves, no blood and nothing scary, so the whole family can play.\n• Race on a horse, camel, ostrich, giraffe or falcon glider, or take a boat, car, bicycle or motorcycle.\n• Every ride has its own strengths, and in ranked races all rides are balanced to the same power: skill decides.\n• Online races for up to 4 players, with no chat and preset nicknames.\n• A passport with stamps, a museum of the places you visit, and outfits for Aron and his mount.\n• Play offline. Battery saver, data saver and one-hand mode are built in.\n• No ads. Purchases are optional and there are no random paid items.\n\nAvailable in Arabic, English, Turkish, German, Urdu, Hindi, Spanish, Portuguese, Indonesian, Malay, Japanese and French.",
+      "ios_keywords": "action,adventure,saudi,riyadh,camel race,falcon,arabic game,3d runner,family,kids,racing,jump",
+      "promotional_text": "A 3D adventure and racing game from Riyadh. Run, jump, race camels and falcons, and challenge friends online. No ads.",
+      "whats_new": "First release: Riyadh stages, races, the shop and online play.",
+      "screenshot_captions": [
+        "Run and jump through Riyadh",
+        "Beat bosses with funny moves",
+        "Race camels, falcons and ostriches",
+        "Boats, cars and bikes too",
+        "A journey across the Kingdom",
+        "A passport and museum to fill",
+        "Challenge friends online",
+        "Easy to play with one hand"
+      ]
+    },
+    "tr": {
+      "play_locale": "tr-TR",
+      "apple_locale": "tr",
+      "title": "Aron'un Yolculuğu: Macera",
+      "subtitle": "Zıpla, koş ve deve yarışı",
+      "short_description": "Riyad'dan başlayan 3D macera: koş, zıpla, patronları yen, deve ve şahinle yarış.",
+      "full_description": "Aron'la birlikte Riyad'dan başlayıp Suudi Arabistan'ı ve dünyayı gezen 3D bir mobil maceraya çık. Koş, zıpla, ikalini salla ve patron gelmeden hurmaları topla.\n\n• 5 ile 8 dakikalık bölümler. Her bölümde üç yıldız var: bitir, bütün sandıkları kır ya da süreyi geç.\n• Çizgi film hareketleriyle komik patronlar. Kan yok, korkutucu bir şey yok; tüm aile oynayabilir.\n• At, deve, devekuşu, zürafa ya da şahin planörüyle yarış. Tekne, araba, bisiklet ve motosiklet de var.\n• Her aracın kendine göre güçlü yanı var. Dereceli yarışlarda hepsi aynı güce ayarlanır, yani kazananı beceri belirler.\n• En fazla 4 oyunculu çevrimiçi yarışlar. Sohbet yok, hazır takma adlar var.\n• Damgalı pasaport, gezdiğin yerlerin müzesi ve Aron ile bineği için kıyafetler.\n• İnternetsiz oynanır. Pil tasarrufu, veri tasarrufu ve tek elle oynama modu hazır.\n• Reklam yok. Satın almalar isteğe bağlı ve rastgele ücretli eşya yok.\n\nOyun dilleri: Arapça, İngilizce, Türkçe, Almanca, Urduca, Hintçe, İspanyolca, Portekizce, Endonezce, Malayca, Japonca ve Fransızca.",
+      "ios_keywords": "platform,yarış,şahin,Riyad,Suudi,3d,koşu,aile,çocuk,Arap oyunu,çevrimdışı,hurma",
+      "promotional_text": "Riyad'dan 3D macera ve yarış oyunu. Koş, zıpla, deve ve şahinle yarış, arkadaşlarına çevrimiçi meydan oku. Reklam yok.",
+      "whats_new": "İlk sürüm: Riyad bölümleri, yarışlar, mağaza ve çevrimiçi oyun.",
+      "screenshot_captions": [
+        "Riyad'da koş ve zıpla",
+        "Komik patronları yen",
+        "Deve ve şahinle yarış",
+        "Tekne, araba ve bisiklet",
+        "Krallık boyunca yolculuk",
+        "Pasaport ve müze",
+        "Arkadaşlarına meydan oku",
+        "Tek elle rahat oyun"
+      ]
+    },
+    "de": {
+      "play_locale": "de-DE",
+      "apple_locale": "de-DE",
+      "title": "Arons Reise: Jump & Race",
+      "subtitle": "Abenteuer mit Kamelrennen",
+      "short_description": "3D-Abenteuer ab Riad: laufen, springen, Bosse besiegen, Kamelrennen fahren.",
+      "full_description": "Begleite Aron auf einem 3D-Abenteuer fürs Handy, das in Riad beginnt und durch Saudi-Arabien und die Welt führt. Lauf, spring, schwing den Agal und sammle Datteln, bevor der Boss kommt.\n\n• Level von 5 bis 8 Minuten mit je drei Sternen: ins Ziel kommen, alle Kisten zerschlagen oder die Bestzeit schlagen.\n• Witzige Bosse mit Comic-Bewegungen, ohne Blut und ohne Grusel. Für die ganze Familie.\n• Renne auf Pferd, Kamel, Strauß, Giraffe oder Falkengleiter, oder fahre Boot, Auto, Fahrrad und Motorrad.\n• Jedes Gefährt hat eigene Stärken. In Ranglistenrennen sind alle gleich stark: Geschick entscheidet.\n• Online-Rennen für bis zu 4 Spieler, ohne Chat und mit vorgegebenen Spitznamen.\n• Reisepass mit Stempeln, ein Museum für besuchte Orte und Outfits für Aron und sein Reittier.\n• Auch offline spielbar. Energiesparmodus, Datensparmodus und Einhandmodus sind dabei.\n• Keine Werbung. Käufe sind freiwillig, bezahlte Zufallsinhalte gibt es nicht.\n\nSprachen: Arabisch, Englisch, Türkisch, Deutsch, Urdu, Hindi, Spanisch, Portugiesisch, Indonesisch, Malaiisch, Japanisch und Französisch.",
+      "ios_keywords": "jump and run,kamel,rennen,falke,riad,saudi-arabien,3d,familie,kinder,arabisch,laufen,offline",
+      "promotional_text": "3D-Abenteuer und Rennspiel aus Riad. Laufen, springen, mit Kamel und Falke rennen und Freunde online herausfordern. Ohne Werbung.",
+      "whats_new": "Erste Version: Level in Riad, Rennen, Shop und Online-Spiel.",
+      "screenshot_captions": [
+        "Lauf und spring durch Riad",
+        "Besiege witzige Bosse",
+        "Rennen mit Kamel und Falke",
+        "Auch Boote, Autos und Räder",
+        "Eine Reise durch das Königreich",
+        "Reisepass und Museum",
+        "Fordere Freunde online heraus",
+        "Bequem mit einer Hand"
+      ]
+    },
+    "ur": {
+      "play_locale": "ur",
+      "apple_locale": "ur-PK",
+      "title": "ارون کا سفر: ایڈونچر اور ریس",
+      "subtitle": "دوڑو، کودو اور اونٹ ریس",
+      "short_description": "ریاض سے تھری ڈی ایڈونچر: دوڑو، کودو، باس ہراؤ اور اونٹ کی ریس لگاؤ۔",
+      "full_description": "ارون کے ساتھ موبائل پر تھری ڈی ایڈونچر پر نکلیں جو ریاض سے شروع ہو کر سعودی عرب اور دنیا بھر کی سیر کرواتا ہے۔ دوڑیں، کودیں، عقال گھمائیں اور باس کے آنے سے پہلے کھجوریں جمع کریں۔\n\n• پانچ سے آٹھ منٹ کے مرحلے، ہر مرحلے میں تین ستارے: مکمل کریں، سب صندوق توڑیں یا مقررہ وقت سے پہلے پہنچیں۔\n• کارٹون انداز کے مزے دار باس۔ خون نہیں، ڈراؤنا کچھ نہیں، پورا گھرانہ کھیل سکتا ہے۔\n• گھوڑے، اونٹ، شتر مرغ، زرافے یا شاہین گلائیڈر پر ریس لگائیں، یا کشتی، کار، سائیکل اور موٹر سائیکل چلائیں۔\n• ہر سواری کی اپنی خوبی ہے۔ رینکڈ ریس میں سب کی طاقت برابر کر دی جاتی ہے، یعنی مہارت جیتتی ہے۔\n• چار کھلاڑیوں تک آن لائن ریس، بغیر چیٹ کے اور پہلے سے طے شدہ ناموں کے ساتھ۔\n• مہروں والا پاسپورٹ، دیکھی ہوئی جگہوں کا عجائب گھر، اور ارون و اس کی سواری کے لیے لباس۔\n• انٹرنیٹ کے بغیر بھی کھیلیں۔ بیٹری سیور، ڈیٹا سیور اور ایک ہاتھ کا موڈ موجود ہے۔\n• اشتہارات نہیں۔ خریداری اختیاری ہے اور بے ترتیب ادائیگی والی چیزیں نہیں۔\n\nزبانیں: عربی، انگریزی، ترکی، جرمن، اردو، ہندی، ہسپانوی، پرتگالی، انڈونیشی، ملے، جاپانی اور فرانسیسی۔",
+      "ios_keywords": "شاہین,ریاض,سعودی عرب,تھری ڈی,دوڑ,کھیل,بچے,فیملی,عربی,پلیٹ فارمر,آف لائن,کھجور",
+      "promotional_text": "ریاض سے تھری ڈی ایڈونچر اور ریس گیم۔ دوڑیں، کودیں، اونٹ اور شاہین کے ساتھ ریس لگائیں اور دوستوں کو آن لائن چیلنج کریں۔ اشتہارات نہیں۔",
+      "whats_new": "پہلا ورژن: ریاض کے مرحلے، ریس، اسٹور اور آن لائن کھیل۔",
+      "screenshot_captions": [
+        "ریاض میں دوڑو اور کودو",
+        "مزے دار باس ہراؤ",
+        "اونٹ اور شاہین کی ریس",
+        "کشتی، کار اور سائیکل",
+        "مملکت بھر کا سفر",
+        "پاسپورٹ اور عجائب گھر",
+        "دوستوں کو آن لائن چیلنج کرو",
+        "ایک ہاتھ سے آسان کھیل"
+      ]
+    },
+    "hi": {
+      "play_locale": "hi-IN",
+      "apple_locale": "hi",
+      "title": "ऐरन की यात्रा: रेस और जंप",
+      "subtitle": "दौड़ो, कूदो, ऊँट रेस",
+      "short_description": "रियाद से 3D एडवेंचर: दौड़ो, कूदो, बॉस हराओ और ऊँट की रेस लगाओ।",
+      "full_description": "ऐरन के साथ मोबाइल पर 3D एडवेंचर पर निकलिए, जो रियाद से शुरू होकर सऊदी अरब और दुनिया भर की सैर कराता है। दौड़िए, कूदिए, अकाल घुमाइए और बॉस आने से पहले खजूर जमा कीजिए।\n\n• 5 से 8 मिनट के स्टेज, हर स्टेज में तीन सितारे: पूरा करें, सारे बक्से तोड़ें या तय समय से पहले पहुँचें।\n• कार्टून अंदाज़ वाले मज़ेदार बॉस। न ख़ून, न डरावना कुछ, पूरा परिवार खेल सकता है।\n• घोड़े, ऊँट, शुतुरमुर्ग, जिराफ़ या बाज़ ग्लाइडर पर रेस लगाइए, या नाव, कार, साइकिल और मोटरसाइकिल चलाइए।\n• हर सवारी की अपनी ख़ूबी है। रैंक वाली रेस में सबकी ताक़त बराबर रखी जाती है, यानी हुनर जीतता है।\n• 4 खिलाड़ियों तक की ऑनलाइन रेस, बिना चैट और पहले से तय उपनामों के साथ।\n• मुहरों वाला पासपोर्ट, देखी हुई जगहों का संग्रहालय, और ऐरन व उसकी सवारी के लिए पोशाकें।\n• इंटरनेट के बिना भी खेलें। बैटरी सेवर, डेटा सेवर और एक हाथ वाला मोड मौजूद है।\n• कोई विज्ञापन नहीं। ख़रीदारी वैकल्पिक है और कोई रैंडम पेड आइटम नहीं।\n\nभाषाएँ: अरबी, अंग्रेज़ी, तुर्की, जर्मन, उर्दू, हिंदी, स्पेनिश, पुर्तगाली, इंडोनेशियाई, मलय, जापानी और फ़्रेंच।",
+      "ios_keywords": "एडवेंचर,बाज़,रियाद,सऊदी,3D,खेल,बच्चे,परिवार,अरबी,प्लेटफ़ॉर्मर,ऑफ़लाइन,खजूर",
+      "promotional_text": "रियाद से 3D एडवेंचर और रेसिंग गेम। दौड़ो, कूदो, ऊँट और बाज़ के साथ रेस लगाओ, दोस्तों को ऑनलाइन चुनौती दो। विज्ञापन नहीं।",
+      "whats_new": "पहला संस्करण: रियाद के स्टेज, रेस, स्टोर और ऑनलाइन खेल।",
+      "screenshot_captions": [
+        "रियाद में दौड़ो और कूदो",
+        "मज़ेदार बॉस को हराओ",
+        "ऊँट और बाज़ की रेस",
+        "नाव, कार और साइकिल",
+        "पूरे साम्राज्य की यात्रा",
+        "पासपोर्ट और संग्रहालय",
+        "दोस्तों को ऑनलाइन चुनौती दो",
+        "एक हाथ से आसान खेल"
+      ]
+    },
+    "es": {
+      "play_locale": "es-419",
+      "apple_locale": "es-ES",
+      "title": "El Viaje de Aron: Aventura",
+      "subtitle": "Plataformas y carreras",
+      "short_description": "Aventura 3D desde Riad: corre, salta, vence jefes y compite en camello.",
+      "full_description": "Acompaña a Aron en una aventura 3D para el móvil que empieza en Riad y recorre Arabia Saudí y el mundo. Corre, salta, haz girar el agal y recoge dátiles antes de que llegue el jefe.\n\n• Niveles de 5 a 8 minutos con tres estrellas cada uno: termínalo, rompe todas las cajas o bate el tiempo objetivo.\n• Jefes divertidos con movimientos de dibujos animados, sin sangre ni sustos. Para toda la familia.\n• Compite a caballo, en camello, avestruz, jirafa o con el planeador de halcón, o conduce barco, coche, bici y moto.\n• Cada vehículo tiene sus puntos fuertes. En las carreras clasificatorias todos tienen la misma potencia: gana la habilidad.\n• Carreras en línea de hasta 4 jugadores, sin chat y con apodos predefinidos.\n• Pasaporte con sellos, un museo de los lugares que visitas y trajes para Aron y su montura.\n• Se juega sin conexión. Incluye ahorro de batería, ahorro de datos y modo a una mano.\n• Sin anuncios. Las compras son opcionales y no hay objetos aleatorios de pago.\n\nIdiomas: árabe, inglés, turco, alemán, urdu, hindi, español, portugués, indonesio, malayo, japonés y francés.",
+      "ios_keywords": "camello,halcón,Riad,Arabia Saudí,3d,correr,saltar,familia,niños,sin conexión,dátiles,jefes",
+      "promotional_text": "Aventura 3D y carreras desde Riad. Corre, salta, compite con camellos y halcones y reta a tus amigos en línea. Sin anuncios.",
+      "whats_new": "Primera versión: niveles de Riad, carreras, tienda y juego en línea.",
+      "screenshot_captions": [
+        "Corre y salta por Riad",
+        "Vence a jefes divertidos",
+        "Carreras de camellos y halcones",
+        "También barcos, coches y bicis",
+        "Un viaje por todo el reino",
+        "Pasaporte y museo",
+        "Reta a tus amigos en línea",
+        "Cómodo con una sola mano"
+      ]
+    },
+    "pt": {
+      "play_locale": "pt-BR",
+      "apple_locale": "pt-BR",
+      "title": "A Jornada de Aron: Corrida",
+      "subtitle": "Aventura e corridas 3D",
+      "short_description": "Aventura 3D de Riade: corra, pule, vença chefes e dispute corridas de camelo.",
+      "full_description": "Acompanhe Aron numa aventura 3D para celular que começa em Riade e passa pela Arábia Saudita e pelo mundo. Corra, pule, gire o agal e colete tâmaras antes que o chefe apareça.\n\n• Fases de 5 a 8 minutos, cada uma com três estrelas: termine, quebre todas as caixas ou bata o tempo-alvo.\n• Chefes engraçados com movimentos de desenho animado, sem sangue e sem sustos. Bom para a família toda.\n• Dispute a corrida de cavalo, camelo, avestruz, girafa ou planador de falcão, ou pilote barco, carro, bicicleta e moto.\n• Cada veículo tem seus pontos fortes. Nas corridas ranqueadas todos têm a mesma potência: vence a habilidade.\n• Corridas on-line para até 4 jogadores, sem bate-papo e com apelidos prontos.\n• Passaporte com carimbos, um museu dos lugares visitados e roupas para Aron e sua montaria.\n• Dá para jogar off-line. Economia de bateria, economia de dados e modo de uma mão incluídos.\n• Sem anúncios. As compras são opcionais e não há itens aleatórios pagos.\n\nIdiomas: árabe, inglês, turco, alemão, urdu, híndi, espanhol, português, indonésio, malaio, japonês e francês.",
+      "ios_keywords": "plataforma,camelo,falcão,Riade,Arábia Saudita,correr,pular,família,crianças,offline,tâmaras,chefes",
+      "promotional_text": "Aventura 3D e corridas a partir de Riade. Corra, pule, dispute com camelos e falcões e desafie amigos on-line. Sem anúncios.",
+      "whats_new": "Primeira versão: fases de Riade, corridas, loja e jogo on-line.",
+      "screenshot_captions": [
+        "Corra e pule por Riade",
+        "Vença chefes engraçados",
+        "Corrida de camelos e falcões",
+        "Barcos, carros e bicicletas",
+        "Uma viagem pelo reino",
+        "Passaporte e museu",
+        "Desafie amigos on-line",
+        "Fácil de jogar com uma mão"
+      ]
+    },
+    "id": {
+      "play_locale": "id",
+      "apple_locale": "id",
+      "title": "Perjalanan Aron: Petualangan",
+      "subtitle": "Lari, lompat, balap unta",
+      "short_description": "Petualangan 3D dari Riyadh: lari, lompat, kalahkan bos, balapan unta.",
+      "full_description": "Ikut Aron dalam petualangan 3D di ponsel yang dimulai dari Riyadh lalu berkeliling Arab Saudi dan dunia. Lari, lompat, putar agal, dan kumpulkan kurma sebelum bos datang.\n\n• Level 5 sampai 8 menit dengan tiga bintang: selesaikan, pecahkan semua peti, atau kalahkan waktu target.\n• Bos lucu dengan gerakan ala kartun, tanpa darah dan tanpa menakutkan. Aman untuk seluruh keluarga.\n• Balapan dengan kuda, unta, burung unta, jerapah, atau glider elang, atau kendarai perahu, mobil, sepeda, dan motor.\n• Setiap kendaraan punya keunggulan sendiri. Di balapan peringkat semua dibuat sama kuat, jadi keahlian yang menentukan.\n• Balapan online sampai 4 pemain, tanpa obrolan dan dengan nama panggilan siap pakai.\n• Paspor berstempel, museum tempat yang kamu kunjungi, dan pakaian untuk Aron dan tunggangannya.\n• Bisa dimainkan tanpa internet. Hemat baterai, hemat data, dan mode satu tangan tersedia.\n• Tanpa iklan. Pembelian bersifat pilihan dan tidak ada item acak berbayar.\n\nBahasa: Arab, Inggris, Turki, Jerman, Urdu, Hindi, Spanyol, Portugis, Indonesia, Melayu, Jepang, dan Prancis.",
+      "ios_keywords": "platformer,elang,Riyadh,Arab Saudi,3d,keluarga,anak,offline,kurma,bos,balapan,seru",
+      "promotional_text": "Petualangan 3D dan balapan dari Riyadh. Lari, lompat, balapan dengan unta dan elang, tantang teman secara online. Tanpa iklan.",
+      "whats_new": "Rilis pertama: level Riyadh, balapan, toko, dan permainan online.",
+      "screenshot_captions": [
+        "Lari dan lompat di Riyadh",
+        "Kalahkan bos yang lucu",
+        "Balapan unta dan elang",
+        "Perahu, mobil, dan sepeda",
+        "Perjalanan keliling kerajaan",
+        "Paspor dan museum",
+        "Tantang teman secara online",
+        "Mudah dimainkan satu tangan"
+      ]
+    },
+    "ms": {
+      "play_locale": "ms",
+      "apple_locale": "ms",
+      "title": "Pengembaraan Aron: Lari",
+      "subtitle": "Lompat, lari, lumba unta",
+      "short_description": "Pengembaraan 3D dari Riyadh: lari, lompat, kalahkan bos, lumba unta.",
+      "full_description": "Sertai Aron dalam pengembaraan 3D di telefon yang bermula di Riyadh dan merentasi Arab Saudi serta dunia. Lari, lompat, putar agal dan kumpulkan kurma sebelum bos tiba.\n\n• Peringkat 5 hingga 8 minit dengan tiga bintang: tamatkan, pecahkan semua peti, atau atasi masa sasaran.\n• Bos lucu dengan gerak gaya kartun, tanpa darah dan tidak menakutkan. Sesuai untuk seluruh keluarga.\n• Berlumba dengan kuda, unta, burung unta, zirafah atau glider helang, atau pandu bot, kereta, basikal dan motosikal.\n• Setiap kenderaan ada kelebihan sendiri. Dalam lumba bertaraf semuanya disamakan kuasa, jadi kemahiran yang menang.\n• Lumba dalam talian sehingga 4 pemain, tanpa sembang dan dengan nama samaran yang disediakan.\n• Pasport bercop, muzium tempat yang anda lawati, dan pakaian untuk Aron serta tunggangannya.\n• Boleh dimainkan tanpa internet. Jimat bateri, jimat data dan mod satu tangan disediakan.\n• Tiada iklan. Pembelian adalah pilihan dan tiada item rawak berbayar.\n\nBahasa: Arab, Inggeris, Turki, Jerman, Urdu, Hindi, Sepanyol, Portugis, Indonesia, Melayu, Jepun dan Perancis.",
+      "ios_keywords": "platformer,helang,Riyadh,Arab Saudi,3d,keluarga,kanak-kanak,luar talian,kurma,bos,permainan,seronok",
+      "promotional_text": "Pengembaraan 3D dan lumba dari Riyadh. Lari, lompat, berlumba dengan unta dan helang, cabar rakan dalam talian. Tiada iklan.",
+      "whats_new": "Keluaran pertama: peringkat Riyadh, lumba, kedai dan permainan dalam talian.",
+      "screenshot_captions": [
+        "Lari dan lompat di Riyadh",
+        "Kalahkan bos yang lucu",
+        "Lumba unta dan helang",
+        "Bot, kereta dan basikal",
+        "Perjalanan merentas kerajaan",
+        "Pasport dan muzium",
+        "Cabar rakan dalam talian",
+        "Mudah dimain dengan satu tangan"
+      ]
+    },
+    "ja": {
+      "play_locale": "ja-JP",
+      "apple_locale": "ja",
+      "title": "アロンの旅：冒険とレース",
+      "subtitle": "走って跳んでラクダレース",
+      "short_description": "リヤドから始まる3D冒険。走って、跳んで、ボスを倒し、ラクダやハヤブサとレースしよう。",
+      "full_description": "リヤドから始まり、サウジアラビアと世界をめぐる3Dのスマホ冒険に、アロンと一緒に出かけましょう。走って、跳んで、アガルを振り回し、ボスが来る前にナツメヤシを集めます。\n\n• 1ステージは5〜8分。星は3つ：クリア、すべての箱を壊す、目標タイムより速くゴール。\n• 漫画のような動きの楽しいボス。血も怖い演出もなく、家族みんなで遊べます。\n• 馬、ラクダ、ダチョウ、キリン、ハヤブサのグライダーでレース。ボート、車、自転車、バイクも登場します。\n• 乗り物ごとに得意なことが違います。ランクレースでは全員の性能がそろうので、腕前で勝負が決まります。\n• 最大4人のオンラインレース。チャットなし、ニックネームは用意された中から選びます。\n• スタンプを集めるパスポート、訪れた場所の博物館、アロンと乗り物の着せ替え。\n• オフラインでも遊べます。省電力、データ節約、片手モードに対応。\n• 広告なし。購入は任意で、課金のランダム要素はありません。\n\n対応言語：アラビア語、英語、トルコ語、ドイツ語、ウルドゥー語、ヒンディー語、スペイン語、ポルトガル語、インドネシア語、マレー語、日本語、フランス語。",
+      "ios_keywords": "冒険,アクション,ラクダ,レース,ハヤブサ,リヤド,サウジアラビア,3D,ジャンプ,家族,子供,アラビア",
+      "promotional_text": "リヤドから始まる3D冒険とレースゲーム。走って、跳んで、ラクダやハヤブサとレース。友だちとオンライン対戦もできます。広告なし。",
+      "whats_new": "最初のバージョン：リヤドのステージ、レース、ショップ、オンライン対戦。",
+      "screenshot_captions": [
+        "リヤドを走って跳ぼう",
+        "楽しいボスを倒せ",
+        "ラクダとハヤブサのレース",
+        "ボートも車も自転車も",
+        "王国をめぐる旅",
+        "パスポートと博物館",
+        "友だちとオンライン対戦",
+        "片手でらくらく操作"
+      ]
+    },
+    "fr": {
+      "play_locale": "fr-FR",
+      "apple_locale": "fr-FR",
+      "title": "Le Voyage d'Aron : Aventure",
+      "subtitle": "Plateformes et courses 3D",
+      "short_description": "Aventure 3D depuis Riyad : cours, saute, bats les boss, course de chameaux.",
+      "full_description": "Pars avec Aron pour une aventure 3D sur mobile qui commence à Riyad et traverse l'Arabie saoudite et le monde. Cours, saute, fais tourner l'agal et ramasse des dattes avant l'arrivée du boss.\n\n• Niveaux de 5 à 8 minutes, chacun avec trois étoiles : termine-le, casse toutes les caisses ou bats le temps de référence.\n• Des boss rigolos aux gestes de dessin animé, sans sang ni frayeur. Pour toute la famille.\n• Fais la course à cheval, en chameau, en autruche, en girafe ou en planeur faucon, ou pilote bateau, voiture, vélo et moto.\n• Chaque monture a ses points forts. En course classée, tout le monde a la même puissance : c'est l'adresse qui décide.\n• Courses en ligne jusqu'à 4 joueurs, sans chat et avec des pseudos prédéfinis.\n• Un passeport à tampons, un musée des lieux visités et des tenues pour Aron et sa monture.\n• Jouable hors ligne. Économie de batterie, économie de données et mode une main inclus.\n• Aucune publicité. Les achats sont facultatifs et il n'y a pas d'objets payants aléatoires.\n\nLangues : arabe, anglais, turc, allemand, ourdou, hindi, espagnol, portugais, indonésien, malais, japonais et français.",
+      "ios_keywords": "chameau,course,faucon,Riyad,Arabie saoudite,courir,sauter,famille,enfants,hors ligne,dattes,arabe",
+      "promotional_text": "Aventure 3D et course depuis Riyad. Cours, saute, fais la course avec chameaux et faucons et défie tes amis en ligne. Sans publicité.",
+      "whats_new": "Première version : niveaux de Riyad, courses, boutique et jeu en ligne.",
+      "screenshot_captions": [
+        "Cours et saute dans Riyad",
+        "Bats des boss rigolos",
+        "Courses de chameaux et de faucons",
+        "Bateaux, voitures et vélos",
+        "Un voyage à travers le royaume",
+        "Passeport et musée",
+        "Défie tes amis en ligne",
+        "Facile à jouer d'une main"
+      ]
+    }
+  }
+}

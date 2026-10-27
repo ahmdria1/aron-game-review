@@ -1,0 +1,249 @@
+{
+  "order": 348,
+  "id": "egypt",
+  "nameAr": "مصر",
+  "nameEn": "Egypt",
+  "group": "arab",
+  "music": "music_country_egypt",
+  "ground": "#E0C38C",
+  "accent": "#CE1126",
+  "sky": "#AFD3EE",
+  "country": "egypt",
+  "costume": "",
+  "stages": [
+    {
+      "id": "egypt_1",
+      "nameAr": "خان الخليلي",
+      "nameEn": "Khan el-Khalili",
+      "terrain": "souq",
+      "landmarks": [
+        "souq",
+        "gate"
+      ],
+      "mount": "",
+      "difficulty": 6,
+      "boss": false,
+      "lineAr": "خان الخليلي، فوانيس ونحاس!",
+      "extra": "",
+      "time": "day",
+      "weather": "clear",
+      "type": "normal",
+      "costume": ""
+    },
+    {
+      "id": "egypt_2",
+      "nameAr": "شارع المعز",
+      "nameEn": "Al-Muizz Street",
+      "terrain": "street",
+      "landmarks": [
+        "gate",
+        "souq"
+      ],
+      "mount": "",
+      "difficulty": 6,
+      "boss": false,
+      "lineAr": "شارع المعز بالليل، كله نور.",
+      "extra": "",
+      "time": "night",
+      "weather": "clear",
+      "type": "chase",
+      "costume": ""
+    },
+    {
+      "id": "egypt_3",
+      "nameAr": "قلعة صلاح الدين",
+      "nameEn": "Saladin Citadel",
+      "terrain": "ruins",
+      "landmarks": [
+        "fort",
+        "monument"
+      ],
+      "mount": "",
+      "difficulty": 7,
+      "boss": false,
+      "lineAr": "القلعة فوق المقطم.",
+      "extra": "",
+      "time": "day",
+      "weather": "clear",
+      "type": "normal",
+      "costume": ""
+    },
+    {
+      "id": "egypt_4",
+      "nameAr": "كورنيش النيل",
+      "nameEn": "Nile Corniche",
+      "terrain": "river",
+      "landmarks": [
+        "dhows",
+        "palms"
+      ],
+      "mount": "",
+      "difficulty": 7,
+      "boss": false,
+      "lineAr": "الفلايك على النيل وقت المغرب.",
+      "extra": "",
+      "time": "sunset",
+      "weather": "clear",
+      "type": "normal",
+      "costume": ""
+    },
+    {
+      "id": "egypt_5",
+      "nameAr": "أهرامات الجيزة",
+      "nameEn": "Pyramids of Giza",
+      "terrain": "desert",
+      "landmarks": [
+        "pyramids",
+        "dunes"
+      ],
+      "mount": "camel",
+      "difficulty": 7,
+      "boss": false,
+      "lineAr": "الأهرامات! والخماسين هبت!",
+      "extra": "",
+      "time": "day",
+      "weather": "sandstorm",
+      "type": "chase",
+      "costume": ""
+    },
+    {
+      "id": "egypt_6",
+      "nameAr": "الأقصر - آثار الكرنك القديمة",
+      "nameEn": "Luxor - Karnak Ancient Ruins",
+      "terrain": "ruins",
+      "landmarks": [
+        "columns",
+        "monument"
+      ],
+      "mount": "horse",
+      "difficulty": 8,
+      "boss": false,
+      "lineAr": "أعمدة آثار الكرنك القديمة ضخمة، يلا يا حصان!",
+      "extra": "",
+      "time": "sunset",
+      "weather": "clear",
+      "type": "normal",
+      "costume": ""
+    },
+    {
+      "id": "egypt_7",
+      "nameAr": "أسوان - القرية النوبية",
+      "nameEn": "Aswan - Nubian Village",
+      "terrain": "river",
+      "landmarks": [
+        "painted_houses",
+        "palms"
+      ],
+      "mount": "",
+      "difficulty": 8,
+      "boss": false,
+      "lineAr": "البيوت النوبية ملونة على النيل.",
+      "extra": "",
+      "time": "day",
+      "weather": "clear",
+      "type": "action",
+      "costume": ""
+    },
+    {
+      "id": "egypt_race",
+      "nameAr": "سباق الفلوكة في النيل",
+      "nameEn": "Nile Felucca Race",
+      "terrain": "coast",
+      "landmarks": [
+        "palms",
+        "columns"
+      ],
+      "mount": "",
+      "difficulty": 8,
+      "boss": false,
+      "lineAr": "سباق! سباق الفلوكة في النيل، يلا نشوف مين الأول!",
+      "extra": "",
+      "time": "sunset",
+      "weather": "clear",
+      "type": "race",
+      "costume": "",
+      "race": "egypt_sail"
+    },
+    {
+      "id": "egypt_8",
+      "nameAr": "هضبة أبو الهول",
+      "nameEn": "Sphinx Plateau",
+      "terrain": "desert",
+      "landmarks": [
+        "pyramids",
+        "monument"
+      ],
+      "mount": "",
+      "difficulty": 8,
+      "boss": true,
+      "lineAr": "سيد المومياوات صحى من نومه...",
+      "extra": "",
+      "time": "night",
+      "weather": "clear",
+      "type": "boss",
+      "costume": ""
+    }
+  ],
+  "boss": {
+    "nameAr": "سيد المومياوات",
+    "nameEn": "The Mummy Lord",
+    "model": "mummy",
+    "headgear": "crown",
+    "body": "#D8CCA8",
+    "trim": "#1F3F8F",
+    "projectile": "#E8E0C0",
+    "scale": 1.4,
+    "health": 16,
+    "introAr": "نمت ألف سنة، وأنت اللي صحيتني!",
+    "stunAr": "اللفايف اتفكت...",
+    "defeatAr": "رجعت أنام... مصر لك يا بطل.",
+    "phases": [
+      {
+        "threshold": 1.0,
+        "move": 3.5,
+        "charge": 13,
+        "interval": 2.8,
+        "attacks": [
+          "volley",
+          "wave"
+        ],
+        "tauntAr": "لعنة الرمال!"
+      },
+      {
+        "threshold": 0.75,
+        "move": 4,
+        "charge": 14,
+        "interval": 2.5,
+        "attacks": [
+          "summon",
+          "leap"
+        ],
+        "tauntAr": "قوموا يا مومياوات!"
+      },
+      {
+        "threshold": 0.5,
+        "move": 4.5,
+        "charge": 15,
+        "interval": 2.1,
+        "attacks": [
+          "volley",
+          "dash",
+          "wave"
+        ],
+        "tauntAr": "الرمل والريح!"
+      },
+      {
+        "threshold": 0.25,
+        "move": 5.5,
+        "charge": 17,
+        "interval": 1.7,
+        "attacks": [
+          "charge",
+          "leap",
+          "summon"
+        ],
+        "tauntAr": "مش هتعدي!"
+      }
+    ]
+  }
+}

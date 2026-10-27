@@ -1,0 +1,15 @@
+{
+  "region": "australia",
+  "shops": [
+    {
+      "stage": "australia_1",
+      "nameAr": "لامينغتون الشاطئ",
+      "kind": "bakery"
+    },
+    {
+      "stage": "australia_4",
+      "nameAr": "سمك المرفأ",
+      "kind": "fish"
+    }
+  ]
+}

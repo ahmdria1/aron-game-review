@@ -1,0 +1,262 @@
+{
+  "country": "indonesia",
+  "dialect": "id",
+  "uiLanguage": "id",
+  "greeting": {
+    "words": "Assalamualaikum, apa kabar?",
+    "wordsEn": "Peace be upon you, how are you?",
+    "wordsAr": "السلام عليكم، كيف الحال؟",
+    "gesture": "hand_on_chest"
+  },
+  "hospitality": {
+    "ar": "في إندونيسيا ما يطلع الضيف إلا وهو ماكل حلا.",
+    "en": "In Indonesia, no guest leaves without something sweet.",
+    "tr": "Endonezya misafirini tatlı ikram etmeden göndermez.",
+    "de": "In Indonesien geht kein Gast ohne etwas Süßes.",
+    "ur": "انڈونیشیا میں کوئی مہمان میٹھا کھائے بغیر نہیں جاتا۔",
+    "hi": "इंडोनेशिया में कोई मेहमान मीठा खाए बिना नहीं जाता।",
+    "es": "En Indonesia, ningún invitado se va sin algo dulce.",
+    "pt": "Na Indonésia, nenhum convidado sai sem um doce.",
+    "id": "Di Indonesia, tamu tak pulang tanpa mencicipi yang manis.",
+    "ms": "Di Indonesia, tetamu tidak pulang tanpa menjamah manisan.",
+    "ja": "インドネシアでは甘いものを食べずに帰るお客さんはいません。",
+    "fr": "Indonésie : aucun invité ne repart sans quelque chose de sucré."
+  },
+  "customs": [
+    {
+      "act": "share_bread",
+      "en": "Families eat together on mats at home.",
+      "ar": "العائلة تاكل سوا على الحصير."
+    },
+    {
+      "act": "invite_in",
+      "en": "Guests are offered tea and snacks right away.",
+      "ar": "الضيف ينقدم له شاي ومقرمشات فوراً."
+    }
+  ],
+  "architecture": "Rice terraces, volcano peaks, carved wooden houses with curved roofs.",
+  "palette": [
+    "#CE1126",
+    "#FFFFFF",
+    "#2E8B57",
+    "#E8A03A"
+  ],
+  "music": {
+    "style": "Gamelan",
+    "instruments": [
+      "gamelan",
+      "angklung",
+      "kendang"
+    ]
+  },
+  "street": {
+    "vendors": [
+      "bakso cart",
+      "martabak stall"
+    ],
+    "cafe": "warung",
+    "kidsGames": [
+      "kite flying",
+      "gasing tops"
+    ],
+    "crowd": "busy, scooters everywhere"
+  },
+  "foods": [
+    {
+      "id": "indonesia_nasi_goreng",
+      "local": "Nasi goreng",
+      "name": {
+        "ar": "ناسي غورينغ",
+        "en": "Fried rice",
+        "tr": "Nasi goreng",
+        "de": "Nasi goreng",
+        "ur": "تلے ہوئے چاول",
+        "hi": "तले हुए चावल",
+        "es": "Nasi goreng",
+        "pt": "Nasi goreng",
+        "id": "Nasi goreng",
+        "ms": "Nasi goreng",
+        "ja": "ナシゴレン",
+        "fr": "Nasi goreng"
+      },
+      "fact": {
+        "ar": "تُعرف غالباً بأنها الأكلة الوطنية في إندونيسيا.",
+        "en": "Often called the national dish of Indonesia.",
+        "tr": "Genellikle Endonezya ulusal yemeği sayılır.",
+        "de": "Gilt oft als Nationalgericht von Indonesien.",
+        "ur": "اسے اکثر انڈونیشیا کا قومی کھانا کہا جاتا ہے۔",
+        "hi": "इसे अक्सर इंडोनेशिया का राष्ट्रीय व्यंजन कहा जाता है।",
+        "es": "Se le suele llamar el plato nacional de Indonesia.",
+        "pt": "É muitas vezes chamado o prato nacional da Indonésia.",
+        "id": "Sering disebut hidangan nasional Indonesia.",
+        "ms": "Sering disebut hidangan kebangsaan Indonesia.",
+        "ja": "インドネシアの国民食とよく言われます。",
+        "fr": "Indonésie : souvent appelé le plat national."
+      },
+      "shape": "plate",
+      "color": "#C8803A",
+      "color2": "#F2D06B",
+      "buff": "strength",
+      "price": 55
+    },
+    {
+      "id": "indonesia_rendang",
+      "local": "Rendang",
+      "name": {
+        "ar": "رندانغ",
+        "en": "Slow-cooked spiced beef",
+        "tr": "Rendang",
+        "de": "Rendang",
+        "ur": "رندانگ",
+        "hi": "रेंदांग",
+        "es": "Rendang",
+        "pt": "Rendang",
+        "id": "Rendang",
+        "ms": "Rendang",
+        "ja": "ルンダン",
+        "fr": "Rendang"
+      },
+      "fact": {
+        "ar": "تُطبخ في الأعراس والأعياد ولمّات العائلة في إندونيسيا.",
+        "en": "Cooked for weddings, Eid and big family days in Indonesia.",
+        "tr": "Endonezya düğünlerinde, bayramlarda ve aile günlerinde pişirilir.",
+        "de": "In Indonesien gekocht für Hochzeiten, Eid und große Familientage.",
+        "ur": "انڈونیشیا میں شادیوں، عید اور خاندانی دنوں پر پکایا جاتا ہے۔",
+        "hi": "इंडोनेशिया में शादियों, ईद और परिवार के ख़ास दिनों पर बनता है।",
+        "es": "Se cocina para bodas, Eid y grandes días en familia en Indonesia.",
+        "pt": "Cozinhado para casamentos, Eid e grandes dias de família na Indonésia.",
+        "id": "Dimasak untuk pernikahan, Idul Fitri, dan kumpul keluarga di Indonesia.",
+        "ms": "Dimasak untuk majlis kahwin, Hari Raya dan hari keluarga di Indonesia.",
+        "ja": "インドネシアでは結婚式やイード、家族の集まりで作られます。",
+        "fr": "Indonésie : préparé pour les mariages, l'Aïd et les grands jours en famille."
+      },
+      "shape": "bowl",
+      "color": "#6B3A1E",
+      "color2": "#C8553D",
+      "buff": "strength",
+      "price": 100
+    },
+    {
+      "id": "indonesia_sate_ayam",
+      "local": "Sate ayam",
+      "name": {
+        "ar": "ساتيه دجاج",
+        "en": "Chicken skewers",
+        "tr": "Sate ayam",
+        "de": "Sate ayam",
+        "ur": "چکن ساتے",
+        "hi": "चिकन सटे",
+        "es": "Sate ayam",
+        "pt": "Sate ayam",
+        "id": "Sate ayam",
+        "ms": "Sate ayam",
+        "ja": "サテ・アヤム",
+        "fr": "Sate ayam"
+      },
+      "fact": {
+        "ar": "يُباع حاراً في بسطات الشوارع في كل إندونيسيا.",
+        "en": "Sold hot at street stalls all over Indonesia.",
+        "tr": "Endonezya genelinde sokak tezgâhlarında sıcak satılır.",
+        "de": "Überall in Indonesien heiß an Straßenständen verkauft.",
+        "ur": "پورے انڈونیشیا میں ٹھیلوں پر گرم گرم بکتا ہے۔",
+        "hi": "पूरे इंडोनेशिया में ठेलों पर गरमा-गरम बिकता है।",
+        "es": "Se vende caliente en puestos callejeros por todo el territorio de Indonesia.",
+        "pt": "Vende-se quente em bancas de rua em toda a Indonésia.",
+        "id": "Dijual hangat di kaki lima di seluruh Indonesia.",
+        "ms": "Dijual panas di gerai tepi jalan di seluruh Indonesia.",
+        "ja": "インドネシアのあちこちの屋台で熱々で売られています。",
+        "fr": "Indonésie : vendu tout chaud dans les stands de rue."
+      },
+      "shape": "skewer",
+      "color": "#8A4A1E",
+      "color2": "#E0A64A",
+      "buff": "speed",
+      "price": 45
+    },
+    {
+      "id": "indonesia_martabak",
+      "local": "Martabak manis",
+      "name": {
+        "ar": "مطبق حلو",
+        "en": "Thick sweet pancake",
+        "tr": "Martabak manis",
+        "de": "Martabak manis",
+        "ur": "میٹھا مطبق",
+        "hi": "मीठा मुर्तबाक",
+        "es": "Martabak manis",
+        "pt": "Martabak manis",
+        "id": "Martabak manis",
+        "ms": "Martabak manis",
+        "ja": "マルタバ",
+        "fr": "Martabak manis"
+      },
+      "fact": {
+        "ar": "حلا محبوب في إندونيسيا، أحلى مع الشاي أو القهوة.",
+        "en": "A sweet treat in Indonesia, best with tea or coffee.",
+        "tr": "Endonezya için tatlı bir ikram, çay ya da kahveyle en güzeli.",
+        "de": "Eine süße Leckerei in Indonesien, am besten mit Tee oder Kaffee.",
+        "ur": "انڈونیشیا کی میٹھی سوغات، چائے یا کافی کے ساتھ مزیدار۔",
+        "hi": "इंडोनेशिया की मीठी सौगात, चाय या कॉफ़ी के साथ सबसे अच्छी।",
+        "es": "Un dulce de Indonesia, mejor con té o café.",
+        "pt": "Um doce da Indonésia, melhor com chá ou café.",
+        "id": "Camilan manis di Indonesia, paling enak dengan teh atau kopi.",
+        "ms": "Manisan di Indonesia, paling sedap dengan teh atau kopi.",
+        "ja": "インドネシアの甘いおやつ。お茶やコーヒーと一緒にどうぞ。",
+        "fr": "Indonésie : une douceur, parfaite avec un thé ou un café."
+      },
+      "shape": "cake",
+      "color": "#E0B070",
+      "color2": "#6B3A1E",
+      "buff": "energy",
+      "price": 40
+    },
+    {
+      "id": "indonesia_es_cendol",
+      "local": "Es cendol",
+      "name": {
+        "ar": "سندول",
+        "en": "Coconut and palm-sugar drink",
+        "tr": "Es cendol",
+        "de": "Es cendol",
+        "ur": "سینڈول",
+        "hi": "चेंडोल",
+        "es": "Es cendol",
+        "pt": "Es cendol",
+        "id": "Es cendol",
+        "ms": "Es cendol",
+        "ja": "チェンドル",
+        "fr": "Es cendol"
+      },
+      "fact": {
+        "ar": "مشروب يُقدَّم للضيف في إندونيسيا.",
+        "en": "A drink offered to guests in Indonesia.",
+        "tr": "Endonezya için misafire ikram edilen bir içecek.",
+        "de": "Ein Getränk, das man in Indonesien Gästen anbietet.",
+        "ur": "انڈونیشیا میں مہمان کو پیش کیا جانے والا مشروب۔",
+        "hi": "इंडोनेशिया में मेहमान को दिया जाने वाला पेय।",
+        "es": "Una bebida que se ofrece a los invitados en Indonesia.",
+        "pt": "Uma bebida oferecida aos convidados na Indonésia.",
+        "id": "Minuman yang disuguhkan untuk tamu di Indonesia.",
+        "ms": "Minuman yang dihidangkan kepada tetamu di Indonesia.",
+        "ja": "インドネシアでお客さんに出される飲み物です。",
+        "fr": "Indonésie : une boisson offerte aux invités."
+      },
+      "shape": "cup",
+      "color": "#6A8F3A",
+      "color2": "#C89A6A",
+      "buff": "magnet",
+      "price": 30
+    }
+  ],
+  "animals": [
+    "indonesia_komodo",
+    "indonesia_orangutan",
+    "indonesia_water_buffalo"
+  ],
+  "attackTrailVfx": "batik_glints",
+  "eatIdle": {
+    "dishId": "indonesia_nasi_goreng",
+    "propModel": "food_nasi_goreng",
+    "reaction": "spicy"
+  }
+}

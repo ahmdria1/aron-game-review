@@ -1,0 +1,21 @@
+{
+    "name": "Aron.Telemetry.Ugs",
+    "rootNamespace": "Aron.Telemetry",
+    "references": [
+        "Aron.Runtime",
+        "Aron.Logic",
+        "Unity.Services.Core",
+        "Unity.Services.Analytics"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "autoReferenced": true,
+    "defineConstraints": [
+        "ARON_UGS_ANALYTICS"
+    ],
+    "versionDefines": [
+        { "name": "com.unity.services.analytics", "expression": "6.1.0", "define": "ARON_UGS_ANALYTICS" }
+    ],
+    "noEngineReferences": false
+}

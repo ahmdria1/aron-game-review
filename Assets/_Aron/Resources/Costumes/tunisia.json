@@ -1,0 +1,124 @@
+{
+  "country": "tunisia",
+  "costumes": [
+    {
+      "id": "tunisia_jebba",
+      "country": "tunisia",
+      "hero": "aron",
+      "nameAr": "الجبة والشاشية",
+      "nameEn": "Jebba and chechia",
+      "isDefault": true,
+      "price": 0,
+      "materials": [
+        {
+          "material": "Clothes",
+          "color": "#EFE8D8"
+        },
+        {
+          "material": "Trim",
+          "color": "#C9A86A"
+        }
+      ],
+      "meshes": [
+        {
+          "slot": "body",
+          "mesh": "jebba"
+        },
+        {
+          "slot": "feet",
+          "mesh": "shoes_closed"
+        }
+      ],
+      "accessories": [
+        {
+          "kind": "chechia",
+          "color": "#B3202A"
+        }
+      ],
+      "footwear": "leather_shoes",
+      "footwearColor": "#5A3A22",
+      "agalMount": "wrist"
+    },
+    {
+      "id": "tunisia_burnous",
+      "country": "tunisia",
+      "hero": "aron",
+      "nameAr": "البرنس والشاشية",
+      "nameEn": "Burnous and chechia",
+      "isDefault": false,
+      "price": 0,
+      "materials": [
+        {
+          "material": "Clothes",
+          "color": "#E6DCC6"
+        },
+        {
+          "material": "Trim",
+          "color": "#C9A86A"
+        }
+      ],
+      "meshes": [
+        {
+          "slot": "body",
+          "mesh": "burnous_cape"
+        },
+        {
+          "slot": "feet",
+          "mesh": "shoes_closed"
+        }
+      ],
+      "accessories": [
+        {
+          "kind": "chechia",
+          "color": "#B3202A"
+        }
+      ],
+      "footwear": "leather_shoes",
+      "footwearColor": "#5A3A22",
+      "agalMount": "wrist"
+    },
+    {
+      "id": "tunisia_noura",
+      "country": "tunisia",
+      "hero": "noura",
+      "nameAr": "السفساري",
+      "nameEn": "Sefsari",
+      "isDefault": true,
+      "price": 0,
+      "materials": [
+        {
+          "material": "Clothes",
+          "color": "#F4F0E8"
+        }
+      ],
+      "meshes": [
+        {
+          "slot": "body",
+          "mesh": "abaya_long"
+        },
+        {
+          "slot": "feet",
+          "mesh": "shoes_closed"
+        }
+      ],
+      "accessories": [
+        {
+          "kind": "abaya",
+          "color": "#F4F0E8",
+          "pattern": "#C9A86A"
+        },
+        {
+          "kind": "hijab",
+          "color": "#F4F0E8"
+        },
+        {
+          "kind": "shawl",
+          "color": "#F4F0E8"
+        }
+      ],
+      "footwear": "closed_flats",
+      "footwearColor": "#2A2020",
+      "agalMount": "none"
+    }
+  ]
+}

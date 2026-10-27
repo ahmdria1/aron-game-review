@@ -1,0 +1,142 @@
+{
+  "version": 1,
+  "powerBudget": 8.1,
+  "rawTolerance": 0.04,
+  "mounts": [
+    {
+      "id": "horse",
+      "kind": "horse",
+      "nameAr": "الخيل العربي",
+      "nameEn": "Arabian horse",
+      "styleKey": "mount_style_horse",
+      "stats": {
+        "topSpeed": 1.0,
+        "accel": 1.0,
+        "turning": 1.0,
+        "jump": 1.0,
+        "sandResist": 0.1,
+        "heatResist": 0.1,
+        "ability": 0.4
+      },
+      "ability": {
+        "kind": "steady",
+        "amount": 0.0,
+        "blocksGroundPickups": false,
+        "highShortcuts": false
+      },
+      "price": {
+        "usd": 0,
+        "productId": ""
+      },
+      "isDefault": true
+    },
+    {
+      "id": "camel",
+      "kind": "camel",
+      "nameAr": "الجمل",
+      "nameEn": "Camel",
+      "styleKey": "mount_style_camel",
+      "stats": {
+        "topSpeed": 0.92,
+        "accel": 0.92,
+        "turning": 0.95,
+        "jump": 0.9,
+        "sandResist": 0.55,
+        "heatResist": 0.45,
+        "ability": 0.3
+      },
+      "ability": {
+        "kind": "sand_walker",
+        "amount": 0.0,
+        "blocksGroundPickups": false,
+        "highShortcuts": false
+      },
+      "price": {
+        "usd": 1.99,
+        "productId": "com.ahmdria1.aron.mount_camel"
+      },
+      "isDefault": false
+    },
+    {
+      "id": "ostrich",
+      "kind": "ostrich",
+      "nameAr": "النعامة",
+      "nameEn": "Ostrich",
+      "styleKey": "mount_style_ostrich",
+      "stats": {
+        "topSpeed": 1.2,
+        "accel": 1.05,
+        "turning": 0.7,
+        "jump": 0.95,
+        "sandResist": 0.05,
+        "heatResist": 0.05,
+        "ability": 0.3
+      },
+      "ability": {
+        "kind": "sprint",
+        "amount": 0.06,
+        "blocksGroundPickups": false,
+        "highShortcuts": false
+      },
+      "price": {
+        "usd": 2.99,
+        "productId": "com.ahmdria1.aron.mount_ostrich"
+      },
+      "isDefault": false
+    },
+    {
+      "id": "giraffe",
+      "kind": "giraffe",
+      "nameAr": "الزرافة",
+      "nameEn": "Giraffe",
+      "styleKey": "mount_style_giraffe",
+      "stats": {
+        "topSpeed": 1.0,
+        "accel": 0.8,
+        "turning": 0.85,
+        "jump": 1.4,
+        "sandResist": 0.1,
+        "heatResist": 0.1,
+        "ability": 0.35
+      },
+      "ability": {
+        "kind": "high_path",
+        "amount": 0.8,
+        "blocksGroundPickups": false,
+        "highShortcuts": true
+      },
+      "price": {
+        "usd": 3.99,
+        "productId": "com.ahmdria1.aron.mount_giraffe"
+      },
+      "isDefault": false
+    },
+    {
+      "id": "falcon_glider",
+      "kind": "falcon",
+      "nameAr": "الصقر الشراعي",
+      "nameEn": "Falcon glider",
+      "styleKey": "mount_style_falcon_glider",
+      "stats": {
+        "topSpeed": 1.02,
+        "accel": 1.1,
+        "turning": 1.1,
+        "jump": 0.8,
+        "sandResist": 0.0,
+        "heatResist": 0.0,
+        "ability": 0.55
+      },
+      "ability": {
+        "kind": "glide",
+        "amount": 1.2,
+        "blocksGroundPickups": true,
+        "highShortcuts": false
+      },
+      "price": {
+        "usd": 4.99,
+        "productId": "com.ahmdria1.aron.mount_falcon_glider"
+      },
+      "isDefault": false
+    }
+  ]
+}

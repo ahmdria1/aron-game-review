@@ -1,0 +1,197 @@
+{
+  "order": 100,
+  "id": "riyadh",
+  "nameAr": "الرياض",
+  "nameEn": "Riyadh",
+  "group": "saudi",
+  "country": "saudi",
+  "costume": "",
+  "music": "music_saudi_najd",
+  "ground": "#D9B98A",
+  "accent": "#A1262B",
+  "sky": "#9EC7E8",
+  "stages": [
+    {
+      "id": "riyadh_1",
+      "nameAr": "الديرة والمصمك",
+      "nameEn": "Al Dirah and Masmak",
+      "terrain": "street",
+      "landmarks": [
+        "masmak",
+        "mud_town"
+      ],
+      "mount": "",
+      "difficulty": 1,
+      "boss": false,
+      "type": "normal",
+      "time": "day",
+      "weather": "clear",
+      "costume": "",
+      "lineAr": "المصمك! هنا بدأت الحكاية.",
+      "extra": ""
+    },
+    {
+      "id": "riyadh_2",
+      "nameAr": "سوق الزل",
+      "nameEn": "Souq Al Zal",
+      "terrain": "souq",
+      "landmarks": [
+        "souq",
+        "gate"
+      ],
+      "mount": "",
+      "difficulty": 1,
+      "boss": false,
+      "type": "normal",
+      "time": "sunset",
+      "weather": "clear",
+      "costume": "",
+      "lineAr": "سوق الزل، ريحة العود والبشوت.",
+      "extra": ""
+    },
+    {
+      "id": "riyadh_3",
+      "nameAr": "سوق طيبة",
+      "nameEn": "Souq Taibah",
+      "terrain": "souq",
+      "landmarks": [
+        "souq",
+        "gate"
+      ],
+      "mount": "",
+      "difficulty": 2,
+      "boss": false,
+      "type": "action",
+      "time": "night",
+      "weather": "clear",
+      "costume": "",
+      "lineAr": "سوق طيبة بالليل، والحرس جايين موجات!",
+      "extra": ""
+    },
+    {
+      "id": "riyadh_4",
+      "nameAr": "الدرعية - حي الطريف",
+      "nameEn": "Diriyah - At-Turaif",
+      "terrain": "ruins",
+      "landmarks": [
+        "mud_town",
+        "fort"
+      ],
+      "mount": "",
+      "difficulty": 2,
+      "boss": false,
+      "type": "normal",
+      "time": "day",
+      "weather": "rain",
+      "costume": "",
+      "lineAr": "مطر على الطريف! الطين يزلق.",
+      "extra": ""
+    },
+    {
+      "id": "riyadh_5",
+      "nameAr": "شارع الثميري",
+      "nameEn": "Al Thumairi Street",
+      "terrain": "street",
+      "landmarks": [
+        "mud_town",
+        "arch_tower"
+      ],
+      "mount": "",
+      "difficulty": 3,
+      "boss": false,
+      "type": "chase",
+      "time": "night",
+      "weather": "clear",
+      "costume": "",
+      "lineAr": "شارع الثميري، ومحلات أحمد هنا! وش هذا اللي يلحقنا؟!",
+      "extra": "shops"
+    },
+    {
+      "id": "riyadh_6",
+      "nameAr": "نفود الثمامة",
+      "nameEn": "Al Thumamah Dunes",
+      "terrain": "desert",
+      "landmarks": [
+        "dunes",
+        "tents"
+      ],
+      "mount": "camel",
+      "difficulty": 3,
+      "boss": false,
+      "type": "normal",
+      "time": "sunset",
+      "weather": "sandstorm",
+      "costume": "",
+      "lineAr": "عجاج بالثمامة! الذلول تعرف الطريق.",
+      "extra": ""
+    },
+    {
+      "id": "riyadh_7",
+      "nameAr": "ساحة د. دحيم",
+      "nameEn": "Dr. Duhaim's Square",
+      "terrain": "street",
+      "landmarks": [
+        "arch_tower",
+        "masmak"
+      ],
+      "mount": "",
+      "difficulty": 4,
+      "boss": true,
+      "type": "boss",
+      "time": "night",
+      "weather": "clear",
+      "costume": "",
+      "lineAr": "هذا هو د. دحيم...",
+      "extra": ""
+    }
+  ],
+  "boss": {
+    "nameAr": "د. دحيم",
+    "nameEn": "Dr. Duhaim",
+    "model": "scientist",
+    "headgear": "none",
+    "body": "#4D5240",
+    "trim": "#D9B340",
+    "projectile": "#FF9A1A",
+    "scale": 1.0,
+    "health": 9,
+    "introAr": "وقف عندك! ما أحد يعدي الرياض وأنا هنا.",
+    "stunAr": "آخ! راسي...",
+    "defeatAr": "خلاص! الرياض لك يا بطل!",
+    "phases": [
+      {
+        "threshold": 1.0,
+        "move": 3,
+        "charge": 11,
+        "interval": 3.2,
+        "attacks": [
+          "charge"
+        ],
+        "tauntAr": "ما راح تعدي الرياض يا أرون!"
+      },
+      {
+        "threshold": 0.66,
+        "move": 4,
+        "charge": 14,
+        "interval": 2.6,
+        "attacks": [
+          "charge",
+          "wave"
+        ],
+        "tauntAr": "الحين بتشوف قوتي!"
+      },
+      {
+        "threshold": 0.33,
+        "move": 5,
+        "charge": 16,
+        "interval": 2.0,
+        "attacks": [
+          "charge",
+          "wave",
+          "summon"
+        ],
+        "tauntAr": "يا روبوتاتي! ساعدوني!"
+      }
+    ]
+  }
+}

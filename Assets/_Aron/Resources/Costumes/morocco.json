@@ -1,0 +1,130 @@
+{
+  "country": "morocco",
+  "costumes": [
+    {
+      "id": "morocco_djellaba",
+      "country": "morocco",
+      "hero": "aron",
+      "nameAr": "الجلابة المغربية",
+      "nameEn": "Moroccan djellaba",
+      "isDefault": true,
+      "price": 0,
+      "materials": [
+        {
+          "material": "Clothes",
+          "color": "#7B5B3A"
+        },
+        {
+          "material": "Trim",
+          "color": "#D9B97A"
+        }
+      ],
+      "meshes": [
+        {
+          "slot": "body",
+          "mesh": "djellaba_hooded"
+        },
+        {
+          "slot": "feet",
+          "mesh": "shoes_closed"
+        }
+      ],
+      "accessories": [
+        {
+          "kind": "fez",
+          "color": "#A3242C",
+          "pattern": "#151515"
+        }
+      ],
+      "footwear": "leather_shoes",
+      "footwearColor": "#5A3A22",
+      "agalMount": "wrist"
+    },
+    {
+      "id": "morocco_babouche",
+      "country": "morocco",
+      "hero": "aron",
+      "nameAr": "الجلابة والبلغة المغلقة",
+      "nameEn": "Djellaba and closed babouche",
+      "isDefault": false,
+      "price": 150,
+      "materials": [
+        {
+          "material": "Clothes",
+          "color": "#E8DFCB"
+        },
+        {
+          "material": "Trim",
+          "color": "#8C6A3F"
+        }
+      ],
+      "meshes": [
+        {
+          "slot": "body",
+          "mesh": "djellaba_hooded"
+        },
+        {
+          "slot": "feet",
+          "mesh": "babouche_closed"
+        }
+      ],
+      "accessories": [
+        {
+          "kind": "fez",
+          "color": "#A3242C",
+          "pattern": "#151515"
+        }
+      ],
+      "footwear": "leather_shoes",
+      "footwearColor": "#5A3A22",
+      "agalMount": "wrist"
+    },
+    {
+      "id": "morocco_noura",
+      "country": "morocco",
+      "hero": "noura",
+      "nameAr": "الجلابة النسائية",
+      "nameEn": "Women's djellaba",
+      "isDefault": true,
+      "price": 0,
+      "materials": [
+        {
+          "material": "Clothes",
+          "color": "#2F4B7C"
+        },
+        {
+          "material": "Trim",
+          "color": "#D9B97A"
+        }
+      ],
+      "meshes": [
+        {
+          "slot": "body",
+          "mesh": "djellaba_hooded"
+        },
+        {
+          "slot": "feet",
+          "mesh": "shoes_closed"
+        }
+      ],
+      "accessories": [
+        {
+          "kind": "abaya",
+          "color": "#2F4B7C",
+          "pattern": "#D9B97A"
+        },
+        {
+          "kind": "hijab",
+          "color": "#2F4B7C"
+        },
+        {
+          "kind": "embroidery",
+          "color": "#D9B97A"
+        }
+      ],
+      "footwear": "closed_flats",
+      "footwearColor": "#2A2020",
+      "agalMount": "none"
+    }
+  ]
+}

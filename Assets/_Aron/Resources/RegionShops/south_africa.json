@@ -1,0 +1,15 @@
+{
+  "region": "south_africa",
+  "shops": [
+    {
+      "stage": "south_africa_2",
+      "nameAr": "سوق البلدة",
+      "kind": "food"
+    },
+    {
+      "stage": "south_africa_6",
+      "nameAr": "خرز البيوت المرسومة",
+      "kind": "gifts"
+    }
+  ]
+}

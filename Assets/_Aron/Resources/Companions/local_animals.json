@@ -1,0 +1,1407 @@
+{
+  "animals": [
+    {
+      "id": "mauritania_camel",
+      "country": "mauritania",
+      "nameAr": "جمل",
+      "nameEn": "Camel",
+      "role": "mount",
+      "plays": "camel",
+      "body": "#C8A060",
+      "accent": "#6B4A2A",
+      "size": 1.0
+    },
+    {
+      "id": "mauritania_fennec_fox",
+      "country": "mauritania",
+      "nameAr": "فنك",
+      "nameEn": "Fennec fox",
+      "role": "ground",
+      "plays": "none",
+      "body": "#E8C890",
+      "accent": "#8A6A4A",
+      "size": 0.3
+    },
+    {
+      "id": "mauritania_gazelle",
+      "country": "mauritania",
+      "nameAr": "غزال",
+      "nameEn": "Gazelle",
+      "role": "ground",
+      "plays": "oryx",
+      "body": "#C89A6A",
+      "accent": "#F4F0E8",
+      "size": 0.6
+    },
+    {
+      "id": "portugal_rooster",
+      "country": "portugal",
+      "nameAr": "ديك",
+      "nameEn": "Rooster",
+      "role": "ground",
+      "plays": "none",
+      "body": "#C8553D",
+      "accent": "#2E4A2A",
+      "size": 0.3
+    },
+    {
+      "id": "portugal_horse",
+      "country": "portugal",
+      "nameAr": "حصان",
+      "nameEn": "Horse",
+      "role": "mount",
+      "plays": "horse",
+      "body": "#6B4A2A",
+      "accent": "#2A1E14",
+      "size": 1.0
+    },
+    {
+      "id": "portugal_seagull",
+      "country": "portugal",
+      "nameAr": "نورس",
+      "nameEn": "Seagull",
+      "role": "flier",
+      "plays": "falcon",
+      "body": "#F4F0E8",
+      "accent": "#8A9BA8",
+      "size": 0.4
+    },
+    {
+      "id": "spain_bull",
+      "country": "spain",
+      "nameAr": "ثور",
+      "nameEn": "Bull",
+      "role": "ground",
+      "plays": "none",
+      "body": "#2A1E14",
+      "accent": "#E8E0D0",
+      "size": 1.2
+    },
+    {
+      "id": "spain_horse",
+      "country": "spain",
+      "nameAr": "حصان",
+      "nameEn": "Horse",
+      "role": "mount",
+      "plays": "horse",
+      "body": "#6B4A2A",
+      "accent": "#2A1E14",
+      "size": 1.0
+    },
+    {
+      "id": "spain_stork",
+      "country": "spain",
+      "nameAr": "لقلق",
+      "nameEn": "Stork",
+      "role": "flier",
+      "plays": "falcon",
+      "body": "#F4F0E8",
+      "accent": "#1E1E1E",
+      "size": 0.6
+    },
+    {
+      "id": "france_rooster",
+      "country": "france",
+      "nameAr": "ديك",
+      "nameEn": "Rooster",
+      "role": "ground",
+      "plays": "none",
+      "body": "#C8553D",
+      "accent": "#2E4A2A",
+      "size": 0.3
+    },
+    {
+      "id": "france_snail",
+      "country": "france",
+      "nameAr": "حلزون",
+      "nameEn": "Snail",
+      "role": "ground",
+      "plays": "none",
+      "body": "#A0782A",
+      "accent": "#6B4A2A",
+      "size": 0.15
+    },
+    {
+      "id": "france_horse",
+      "country": "france",
+      "nameAr": "حصان",
+      "nameEn": "Horse",
+      "role": "mount",
+      "plays": "horse",
+      "body": "#6B4A2A",
+      "accent": "#2A1E14",
+      "size": 1.0
+    },
+    {
+      "id": "uk_sheep",
+      "country": "uk",
+      "nameAr": "خروف",
+      "nameEn": "Sheep",
+      "role": "ground",
+      "plays": "none",
+      "body": "#F4F0E8",
+      "accent": "#2A2A2A",
+      "size": 0.6
+    },
+    {
+      "id": "uk_fox",
+      "country": "uk",
+      "nameAr": "ثعلب",
+      "nameEn": "Fox",
+      "role": "ground",
+      "plays": "none",
+      "body": "#D2691E",
+      "accent": "#F4F0E8",
+      "size": 0.5
+    },
+    {
+      "id": "uk_robin",
+      "country": "uk",
+      "nameAr": "أبو الحناء",
+      "nameEn": "Robin",
+      "role": "flier",
+      "plays": "falcon",
+      "body": "#8A5A2A",
+      "accent": "#E0603A",
+      "size": 0.2
+    },
+    {
+      "id": "germany_deer",
+      "country": "germany",
+      "nameAr": "غزال الأيل",
+      "nameEn": "Deer",
+      "role": "ground",
+      "plays": "oryx",
+      "body": "#A0703A",
+      "accent": "#F4F0E8",
+      "size": 0.9
+    },
+    {
+      "id": "germany_stork",
+      "country": "germany",
+      "nameAr": "لقلق",
+      "nameEn": "Stork",
+      "role": "flier",
+      "plays": "falcon",
+      "body": "#F4F0E8",
+      "accent": "#1E1E1E",
+      "size": 0.6
+    },
+    {
+      "id": "germany_dachshund",
+      "country": "germany",
+      "nameAr": "كلب دشهند",
+      "nameEn": "Dachshund",
+      "role": "pointer",
+      "plays": "none",
+      "body": "#8A4A1E",
+      "accent": "#3A2A1A",
+      "size": 0.35
+    },
+    {
+      "id": "turkey_cat",
+      "country": "turkey",
+      "nameAr": "قطة",
+      "nameEn": "Cat",
+      "role": "ground",
+      "plays": "none",
+      "body": "#C8803A",
+      "accent": "#F4F0E8",
+      "size": 0.3
+    },
+    {
+      "id": "turkey_stork",
+      "country": "turkey",
+      "nameAr": "لقلق",
+      "nameEn": "Stork",
+      "role": "flier",
+      "plays": "falcon",
+      "body": "#F4F0E8",
+      "accent": "#1E1E1E",
+      "size": 0.6
+    },
+    {
+      "id": "turkey_anatolian_shepherd",
+      "country": "turkey",
+      "nameAr": "كلب الراعي الأناضولي",
+      "nameEn": "Anatolian shepherd dog",
+      "role": "pointer",
+      "plays": "none",
+      "body": "#E0C08A",
+      "accent": "#3A2A1A",
+      "size": 0.8
+    },
+    {
+      "id": "turkey_brown_bear",
+      "country": "turkey",
+      "nameAr": "الدب البني",
+      "nameEn": "Brown bear",
+      "role": "hazard",
+      "plays": "none",
+      "body": "#6B4A2A",
+      "accent": "#3A2A1A",
+      "size": 1.5,
+      "behavior": "wander_trail",
+      "effect": "knockback",
+      "stages": [
+        "turkey_6"
+      ]
+    },
+    {
+      "id": "uzbekistan_horse",
+      "country": "uzbekistan",
+      "nameAr": "حصان",
+      "nameEn": "Horse",
+      "role": "mount",
+      "plays": "horse",
+      "body": "#6B4A2A",
+      "accent": "#2A1E14",
+      "size": 1.0
+    },
+    {
+      "id": "uzbekistan_camel",
+      "country": "uzbekistan",
+      "nameAr": "جمل",
+      "nameEn": "Camel",
+      "role": "mount",
+      "plays": "camel",
+      "body": "#C8A060",
+      "accent": "#6B4A2A",
+      "size": 1.0
+    },
+    {
+      "id": "uzbekistan_sheep",
+      "country": "uzbekistan",
+      "nameAr": "خروف",
+      "nameEn": "Sheep",
+      "role": "ground",
+      "plays": "none",
+      "body": "#F4F0E8",
+      "accent": "#2A2A2A",
+      "size": 0.6
+    },
+    {
+      "id": "pakistan_markhor",
+      "country": "pakistan",
+      "nameAr": "ماعز المارخور",
+      "nameEn": "Markhor",
+      "role": "ground",
+      "plays": "oryx",
+      "body": "#A08A6A",
+      "accent": "#3A2A1A",
+      "size": 0.9
+    },
+    {
+      "id": "pakistan_camel",
+      "country": "pakistan",
+      "nameAr": "جمل",
+      "nameEn": "Camel",
+      "role": "mount",
+      "plays": "camel",
+      "body": "#C8A060",
+      "accent": "#6B4A2A",
+      "size": 1.0
+    },
+    {
+      "id": "pakistan_water_buffalo",
+      "country": "pakistan",
+      "nameAr": "جاموس",
+      "nameEn": "Water buffalo",
+      "role": "ground",
+      "plays": "none",
+      "body": "#3A3A3A",
+      "accent": "#6E6E6E",
+      "size": 1.3
+    },
+    {
+      "id": "india_elephant",
+      "country": "india",
+      "nameAr": "فيل",
+      "nameEn": "Elephant",
+      "role": "ground",
+      "plays": "none",
+      "body": "#7A7A82",
+      "accent": "#5A5A62",
+      "size": 2.2
+    },
+    {
+      "id": "india_peacock",
+      "country": "india",
+      "nameAr": "طاووس",
+      "nameEn": "Peacock",
+      "role": "ground",
+      "plays": "none",
+      "body": "#1E5A8A",
+      "accent": "#2E8B57",
+      "size": 0.5
+    },
+    {
+      "id": "india_cow",
+      "country": "india",
+      "nameAr": "بقرة",
+      "nameEn": "Cow",
+      "role": "ground",
+      "plays": "none",
+      "body": "#F4F0E8",
+      "accent": "#8A6A4A",
+      "size": 1.1
+    },
+    {
+      "id": "india_bengal_tiger",
+      "country": "india",
+      "nameAr": "النمر البنغالي",
+      "nameEn": "Bengal tiger",
+      "role": "hazard",
+      "plays": "none",
+      "body": "#E08A2A",
+      "accent": "#1E1E1E",
+      "size": 1.4,
+      "behavior": "chase_scene",
+      "effect": "knockback",
+      "stages": [
+        "india_6"
+      ]
+    },
+    {
+      "id": "india_langur",
+      "country": "india",
+      "nameAr": "قرد اللنغور",
+      "nameEn": "Langur",
+      "role": "ground",
+      "plays": "none",
+      "body": "#B8B0A0",
+      "accent": "#2A2A2A",
+      "size": 0.6,
+      "behavior": "hop_along",
+      "stages": [
+        "india_4",
+        "india_6"
+      ]
+    },
+    {
+      "id": "india_indian_cobra",
+      "country": "india",
+      "nameAr": "الكوبرا الهندية",
+      "nameEn": "Indian cobra",
+      "role": "hazard",
+      "plays": "none",
+      "body": "#8A6A3A",
+      "accent": "#3A2A1A",
+      "size": 0.6,
+      "behavior": "block_path",
+      "effect": "knockback",
+      "stages": [
+        "india_2"
+      ]
+    },
+    {
+      "id": "malaysia_hornbill",
+      "country": "malaysia",
+      "nameAr": "طائر أبو قرن",
+      "nameEn": "Hornbill",
+      "role": "flier",
+      "plays": "falcon",
+      "body": "#1E1E1E",
+      "accent": "#E0A63A",
+      "size": 0.5
+    },
+    {
+      "id": "malaysia_orangutan",
+      "country": "malaysia",
+      "nameAr": "إنسان الغاب",
+      "nameEn": "Orangutan",
+      "role": "ground",
+      "plays": "none",
+      "body": "#B5531D",
+      "accent": "#6B2A10",
+      "size": 0.9
+    },
+    {
+      "id": "malaysia_tapir",
+      "country": "malaysia",
+      "nameAr": "تابير",
+      "nameEn": "Tapir",
+      "role": "ground",
+      "plays": "none",
+      "body": "#2A2A2A",
+      "accent": "#F4F0E8",
+      "size": 1.0
+    },
+    {
+      "id": "indonesia_komodo",
+      "country": "indonesia",
+      "nameAr": "تنين كومودو",
+      "nameEn": "Komodo dragon",
+      "role": "hazard",
+      "plays": "none",
+      "body": "#6E6A4A",
+      "accent": "#3A3A2A",
+      "size": 1.0,
+      "behavior": "block_path",
+      "effect": "knockback"
+    },
+    {
+      "id": "indonesia_orangutan",
+      "country": "indonesia",
+      "nameAr": "إنسان الغاب",
+      "nameEn": "Orangutan",
+      "role": "ground",
+      "plays": "none",
+      "body": "#B5531D",
+      "accent": "#6B2A10",
+      "size": 0.9
+    },
+    {
+      "id": "indonesia_water_buffalo",
+      "country": "indonesia",
+      "nameAr": "جاموس",
+      "nameEn": "Water buffalo",
+      "role": "ground",
+      "plays": "none",
+      "body": "#3A3A3A",
+      "accent": "#6E6E6E",
+      "size": 1.3
+    },
+    {
+      "id": "japan_deer",
+      "country": "japan",
+      "nameAr": "غزال الأيل",
+      "nameEn": "Deer",
+      "role": "ground",
+      "plays": "oryx",
+      "body": "#A0703A",
+      "accent": "#F4F0E8",
+      "size": 0.9
+    },
+    {
+      "id": "japan_snow_monkey",
+      "country": "japan",
+      "nameAr": "قرد الثلج",
+      "nameEn": "Snow monkey",
+      "role": "ground",
+      "plays": "none",
+      "body": "#B0A090",
+      "accent": "#E0807A",
+      "size": 0.5
+    },
+    {
+      "id": "japan_koi",
+      "country": "japan",
+      "nameAr": "سمك الكوي",
+      "nameEn": "Koi",
+      "role": "ground",
+      "plays": "none",
+      "body": "#F28C3A",
+      "accent": "#F4F0E8",
+      "size": 0.3
+    },
+    {
+      "id": "japan_black_bear",
+      "country": "japan",
+      "nameAr": "الدب الأسود الآسيوي",
+      "nameEn": "Asian black bear",
+      "role": "hazard",
+      "plays": "none",
+      "body": "#2A2A2A",
+      "accent": "#E8E0D0",
+      "size": 1.3,
+      "behavior": "wander_trail",
+      "effect": "knockback",
+      "stages": [
+        "japan_5"
+      ]
+    },
+    {
+      "id": "usa_bald_eagle",
+      "country": "usa",
+      "nameAr": "النسر الأصلع",
+      "nameEn": "Bald eagle",
+      "role": "flier",
+      "plays": "falcon",
+      "body": "#4A3A2A",
+      "accent": "#F4F0E8",
+      "size": 0.7
+    },
+    {
+      "id": "usa_bison",
+      "country": "usa",
+      "nameAr": "بيسون",
+      "nameEn": "Bison",
+      "role": "ground",
+      "plays": "none",
+      "body": "#5A3A22",
+      "accent": "#2A1E14",
+      "size": 1.4
+    },
+    {
+      "id": "usa_horse",
+      "country": "usa",
+      "nameAr": "حصان",
+      "nameEn": "Horse",
+      "role": "mount",
+      "plays": "horse",
+      "body": "#6B4A2A",
+      "accent": "#2A1E14",
+      "size": 1.0
+    },
+    {
+      "id": "usa_brown_bear",
+      "country": "usa",
+      "nameAr": "الدب البني",
+      "nameEn": "Brown bear",
+      "role": "hazard",
+      "plays": "none",
+      "body": "#6B4A2A",
+      "accent": "#3A2A1A",
+      "size": 1.5,
+      "behavior": "wander_trail",
+      "effect": "knockback",
+      "stages": [
+        "usa_5"
+      ]
+    },
+    {
+      "id": "mexico_axolotl",
+      "country": "mexico",
+      "nameAr": "أكسولوتل",
+      "nameEn": "Axolotl",
+      "role": "ground",
+      "plays": "none",
+      "body": "#F2A6C0",
+      "accent": "#C8553D",
+      "size": 0.2
+    },
+    {
+      "id": "mexico_horse",
+      "country": "mexico",
+      "nameAr": "حصان",
+      "nameEn": "Horse",
+      "role": "mount",
+      "plays": "horse",
+      "body": "#6B4A2A",
+      "accent": "#2A1E14",
+      "size": 1.0
+    },
+    {
+      "id": "mexico_monarch_butterfly",
+      "country": "mexico",
+      "nameAr": "فراشة الملك",
+      "nameEn": "Monarch butterfly",
+      "role": "flier",
+      "plays": "falcon",
+      "body": "#F28C1E",
+      "accent": "#1E1E1E",
+      "size": 0.15
+    },
+    {
+      "id": "brazil_toucan",
+      "country": "brazil",
+      "nameAr": "طوقان",
+      "nameEn": "Toucan",
+      "role": "flier",
+      "plays": "falcon",
+      "body": "#1E1E1E",
+      "accent": "#F2A13A",
+      "size": 0.4
+    },
+    {
+      "id": "brazil_macaw",
+      "country": "brazil",
+      "nameAr": "ببغاء المكاو",
+      "nameEn": "Macaw",
+      "role": "flier",
+      "plays": "falcon",
+      "body": "#D2222E",
+      "accent": "#1E5AC8",
+      "size": 0.5
+    },
+    {
+      "id": "brazil_jaguar",
+      "country": "brazil",
+      "nameAr": "جاكوار",
+      "nameEn": "Jaguar",
+      "role": "hazard",
+      "plays": "none",
+      "body": "#E0A63A",
+      "accent": "#2A1E14",
+      "size": 1.0,
+      "behavior": "chase_scene",
+      "effect": "knockback",
+      "stages": [
+        "brazil_4"
+      ]
+    },
+    {
+      "id": "brazil_green_anaconda",
+      "country": "brazil",
+      "nameAr": "الأناكوندا الخضراء",
+      "nameEn": "Green anaconda",
+      "role": "hazard",
+      "plays": "none",
+      "body": "#4A6A2E",
+      "accent": "#2A3A1A",
+      "size": 1.4,
+      "behavior": "water_edge",
+      "effect": "knockback",
+      "stages": [
+        "brazil_3"
+      ]
+    },
+    {
+      "id": "brazil_sloth",
+      "country": "brazil",
+      "nameAr": "كسلان",
+      "nameEn": "Sloth",
+      "role": "ground",
+      "plays": "none",
+      "body": "#A08A6A",
+      "accent": "#5A4A32",
+      "size": 0.5,
+      "behavior": "wave_back",
+      "stages": [
+        "brazil_3",
+        "brazil_4"
+      ]
+    },
+    {
+      "id": "south_africa_giraffe",
+      "country": "south_africa",
+      "nameAr": "زرافة",
+      "nameEn": "Giraffe",
+      "role": "mount",
+      "plays": "horse",
+      "body": "#E0A64A",
+      "accent": "#8A4A1E",
+      "size": 1.8
+    },
+    {
+      "id": "south_africa_elephant",
+      "country": "south_africa",
+      "nameAr": "فيل",
+      "nameEn": "Elephant",
+      "role": "ground",
+      "plays": "none",
+      "body": "#7A7A82",
+      "accent": "#5A5A62",
+      "size": 2.2
+    },
+    {
+      "id": "south_africa_springbok",
+      "country": "south_africa",
+      "nameAr": "غزال السبرينغبوك",
+      "nameEn": "Springbok",
+      "role": "ground",
+      "plays": "oryx",
+      "body": "#C89A6A",
+      "accent": "#F4F0E8",
+      "size": 0.7
+    },
+    {
+      "id": "south_africa_lion",
+      "country": "south_africa",
+      "nameAr": "أسد",
+      "nameEn": "Lion",
+      "role": "hazard",
+      "plays": "none",
+      "body": "#D9A64A",
+      "accent": "#8A5A22",
+      "size": 1.4,
+      "behavior": "chase_scene",
+      "effect": "knockback",
+      "stages": [
+        "south_africa_3"
+      ]
+    },
+    {
+      "id": "south_africa_zebra",
+      "country": "south_africa",
+      "nameAr": "حمار وحشي",
+      "nameEn": "Zebra",
+      "role": "ground",
+      "plays": "none",
+      "body": "#F4F0E8",
+      "accent": "#1E1E1E",
+      "size": 1.1,
+      "behavior": "graze",
+      "stages": [
+        "south_africa_3"
+      ]
+    },
+    {
+      "id": "south_africa_rhino",
+      "country": "south_africa",
+      "nameAr": "وحيد القرن",
+      "nameEn": "Rhinoceros",
+      "role": "hazard",
+      "plays": "none",
+      "body": "#8A8A86",
+      "accent": "#5A5A58",
+      "size": 1.8,
+      "behavior": "charge_lane",
+      "effect": "knockback",
+      "stages": [
+        "south_africa_3"
+      ]
+    },
+    {
+      "id": "australia_kangaroo",
+      "country": "australia",
+      "nameAr": "كنغر",
+      "nameEn": "Kangaroo",
+      "role": "ground",
+      "plays": "none",
+      "body": "#B8743A",
+      "accent": "#E8D0A0",
+      "size": 1.4,
+      "behavior": "bounce_pad",
+      "stages": [
+        "australia_1",
+        "australia_6"
+      ]
+    },
+    {
+      "id": "australia_koala",
+      "country": "australia",
+      "nameAr": "كوالا",
+      "nameEn": "Koala",
+      "role": "ground",
+      "plays": "none",
+      "body": "#8A8A90",
+      "accent": "#E8E4E0",
+      "size": 0.4,
+      "behavior": "wave_back",
+      "stages": [
+        "australia_2"
+      ]
+    },
+    {
+      "id": "australia_emu",
+      "country": "australia",
+      "nameAr": "طائر الإيمو",
+      "nameEn": "Emu",
+      "role": "ground",
+      "plays": "none",
+      "body": "#6B5A4A",
+      "accent": "#3A3028",
+      "size": 1.2,
+      "behavior": "ambient",
+      "stages": [
+        "australia_1",
+        "australia_6"
+      ]
+    },
+    {
+      "id": "australia_saltwater_crocodile",
+      "country": "australia",
+      "nameAr": "تمساح المياه المالحة",
+      "nameEn": "Saltwater crocodile",
+      "role": "hazard",
+      "plays": "none",
+      "body": "#4A5A3A",
+      "accent": "#2A3A2A",
+      "size": 1.6,
+      "behavior": "water_edge",
+      "effect": "life",
+      "stages": [
+        "australia_3"
+      ]
+    },
+    {
+      "id": "saudi_camel",
+      "country": "saudi",
+      "nameAr": "جمل",
+      "nameEn": "Camel",
+      "role": "mount",
+      "plays": "camel",
+      "body": "#C8A060",
+      "accent": "#6B4A2A",
+      "size": 1.0
+    },
+    {
+      "id": "saudi_falcon",
+      "country": "saudi",
+      "nameAr": "صقر",
+      "nameEn": "Falcon",
+      "role": "flier",
+      "plays": "falcon",
+      "body": "#8A6A4A",
+      "accent": "#3A2A1A",
+      "size": 0.5
+    },
+    {
+      "id": "saudi_oryx",
+      "country": "saudi",
+      "nameAr": "مها",
+      "nameEn": "Arabian oryx",
+      "role": "ground",
+      "plays": "oryx",
+      "body": "#F4F0E8",
+      "accent": "#2A2A2A",
+      "size": 1.0,
+      "behavior": "flee_gently",
+      "regions": [
+        "madinah",
+        "tabuk",
+        "northern"
+      ],
+      "stages": [
+        "madinah_5",
+        "madinah_6",
+        "tabuk_3",
+        "tabuk_5",
+        "northern_3",
+        "northern_4"
+      ]
+    },
+    {
+      "id": "saudi_dhub",
+      "country": "saudi",
+      "nameAr": "ضب",
+      "nameEn": "Spiny-tailed lizard",
+      "role": "ground",
+      "plays": "none",
+      "body": "#C8A060",
+      "accent": "#6B4A2A",
+      "size": 0.3,
+      "behavior": "ambient",
+      "regions": [
+        "riyadh",
+        "qassim",
+        "hail",
+        "northern",
+        "najran",
+        "madinah"
+      ]
+    },
+    {
+      "id": "saudi_sand_viper",
+      "country": "saudi",
+      "nameAr": "الأفعى الرملية العربية",
+      "nameEn": "Arabian sand viper",
+      "role": "hazard",
+      "plays": "none",
+      "body": "#D8BE8A",
+      "accent": "#8A6A3A",
+      "size": 0.4,
+      "behavior": "block_path",
+      "effect": "knockback",
+      "regions": [
+        "riyadh",
+        "qassim",
+        "hail",
+        "northern",
+        "najran",
+        "madinah"
+      ]
+    },
+    {
+      "id": "saudi_arabian_wolf",
+      "country": "saudi",
+      "nameAr": "الذئب العربي",
+      "nameEn": "Arabian wolf",
+      "role": "ground",
+      "plays": "none",
+      "body": "#B09A78",
+      "accent": "#5A4A32",
+      "size": 0.6,
+      "behavior": "distant",
+      "regions": [
+        "tabuk",
+        "northern",
+        "jawf"
+      ]
+    },
+    {
+      "id": "kuwait_falcon",
+      "country": "kuwait",
+      "nameAr": "صقر",
+      "nameEn": "Falcon",
+      "role": "flier",
+      "plays": "falcon",
+      "body": "#8A6A4A",
+      "accent": "#3A2A1A",
+      "size": 0.5
+    },
+    {
+      "id": "kuwait_dolphin",
+      "country": "kuwait",
+      "nameAr": "دلفين",
+      "nameEn": "Dolphin",
+      "role": "ground",
+      "plays": "none",
+      "body": "#7A8A9A",
+      "accent": "#E0E4E8",
+      "size": 1.0
+    },
+    {
+      "id": "uae_falcon",
+      "country": "uae",
+      "nameAr": "صقر",
+      "nameEn": "Falcon",
+      "role": "flier",
+      "plays": "falcon",
+      "body": "#8A6A4A",
+      "accent": "#3A2A1A",
+      "size": 0.5
+    },
+    {
+      "id": "uae_oryx",
+      "country": "uae",
+      "nameAr": "مها",
+      "nameEn": "Arabian oryx",
+      "role": "ground",
+      "plays": "oryx",
+      "body": "#F4F0E8",
+      "accent": "#2A2A2A",
+      "size": 1.0
+    },
+    {
+      "id": "uae_camel",
+      "country": "uae",
+      "nameAr": "جمل",
+      "nameEn": "Camel",
+      "role": "mount",
+      "plays": "camel",
+      "body": "#C8A060",
+      "accent": "#6B4A2A",
+      "size": 1.0
+    },
+    {
+      "id": "uae_sand_viper",
+      "country": "uae",
+      "nameAr": "الأفعى الرملية العربية",
+      "nameEn": "Arabian sand viper",
+      "role": "hazard",
+      "plays": "none",
+      "body": "#D8BE8A",
+      "accent": "#8A6A3A",
+      "size": 0.4,
+      "behavior": "block_path",
+      "effect": "knockback",
+      "stages": [
+        "uae_5"
+      ]
+    },
+    {
+      "id": "bahrain_camel",
+      "country": "bahrain",
+      "nameAr": "جمل",
+      "nameEn": "Camel",
+      "role": "mount",
+      "plays": "camel",
+      "body": "#C8A060",
+      "accent": "#6B4A2A",
+      "size": 1.0
+    },
+    {
+      "id": "bahrain_flamingo",
+      "country": "bahrain",
+      "nameAr": "فلامنجو",
+      "nameEn": "Flamingo",
+      "role": "flier",
+      "plays": "falcon",
+      "body": "#F2A6C0",
+      "accent": "#1E1E1E",
+      "size": 0.8
+    },
+    {
+      "id": "bahrain_dolphin",
+      "country": "bahrain",
+      "nameAr": "دلفين",
+      "nameEn": "Dolphin",
+      "role": "ground",
+      "plays": "none",
+      "body": "#7A8A9A",
+      "accent": "#E0E4E8",
+      "size": 1.0
+    },
+    {
+      "id": "qatar_falcon",
+      "country": "qatar",
+      "nameAr": "صقر",
+      "nameEn": "Falcon",
+      "role": "flier",
+      "plays": "falcon",
+      "body": "#8A6A4A",
+      "accent": "#3A2A1A",
+      "size": 0.5
+    },
+    {
+      "id": "qatar_oryx",
+      "country": "qatar",
+      "nameAr": "مها",
+      "nameEn": "Arabian oryx",
+      "role": "ground",
+      "plays": "oryx",
+      "body": "#F4F0E8",
+      "accent": "#2A2A2A",
+      "size": 1.0
+    },
+    {
+      "id": "qatar_camel",
+      "country": "qatar",
+      "nameAr": "جمل",
+      "nameEn": "Camel",
+      "role": "mount",
+      "plays": "camel",
+      "body": "#C8A060",
+      "accent": "#6B4A2A",
+      "size": 1.0
+    },
+    {
+      "id": "oman_oryx",
+      "country": "oman",
+      "nameAr": "مها",
+      "nameEn": "Arabian oryx",
+      "role": "ground",
+      "plays": "oryx",
+      "body": "#F4F0E8",
+      "accent": "#2A2A2A",
+      "size": 1.0
+    },
+    {
+      "id": "oman_turtle",
+      "country": "oman",
+      "nameAr": "سلحفاة بحرية",
+      "nameEn": "Sea turtle",
+      "role": "ground",
+      "plays": "none",
+      "body": "#6A8F3A",
+      "accent": "#3A4A2A",
+      "size": 0.6
+    },
+    {
+      "id": "oman_camel",
+      "country": "oman",
+      "nameAr": "جمل",
+      "nameEn": "Camel",
+      "role": "mount",
+      "plays": "camel",
+      "body": "#C8A060",
+      "accent": "#6B4A2A",
+      "size": 1.0
+    },
+    {
+      "id": "yemen_ibex",
+      "country": "yemen",
+      "nameAr": "وعل",
+      "nameEn": "Nubian ibex",
+      "role": "ground",
+      "plays": "oryx",
+      "body": "#A08A6A",
+      "accent": "#3A2A1A",
+      "size": 0.9
+    },
+    {
+      "id": "yemen_camel",
+      "country": "yemen",
+      "nameAr": "جمل",
+      "nameEn": "Camel",
+      "role": "mount",
+      "plays": "camel",
+      "body": "#C8A060",
+      "accent": "#6B4A2A",
+      "size": 1.0
+    },
+    {
+      "id": "yemen_falcon",
+      "country": "yemen",
+      "nameAr": "صقر",
+      "nameEn": "Falcon",
+      "role": "flier",
+      "plays": "falcon",
+      "body": "#8A6A4A",
+      "accent": "#3A2A1A",
+      "size": 0.5
+    },
+    {
+      "id": "iraq_buffalo",
+      "country": "iraq",
+      "nameAr": "جاموس",
+      "nameEn": "Water buffalo",
+      "role": "ground",
+      "plays": "none",
+      "body": "#3A3A3A",
+      "accent": "#6E6E6E",
+      "size": 1.3
+    },
+    {
+      "id": "iraq_ibis",
+      "country": "iraq",
+      "nameAr": "أبو منجل",
+      "nameEn": "Ibis",
+      "role": "flier",
+      "plays": "falcon",
+      "body": "#F4F0E8",
+      "accent": "#1E1E1E",
+      "size": 0.6
+    },
+    {
+      "id": "iraq_falcon",
+      "country": "iraq",
+      "nameAr": "صقر",
+      "nameEn": "Falcon",
+      "role": "flier",
+      "plays": "falcon",
+      "body": "#8A6A4A",
+      "accent": "#3A2A1A",
+      "size": 0.5
+    },
+    {
+      "id": "syria_horse",
+      "country": "syria",
+      "nameAr": "حصان",
+      "nameEn": "Horse",
+      "role": "mount",
+      "plays": "horse",
+      "body": "#6B4A2A",
+      "accent": "#2A1E14",
+      "size": 1.0
+    },
+    {
+      "id": "syria_goat",
+      "country": "syria",
+      "nameAr": "ماعز",
+      "nameEn": "Goat",
+      "role": "ground",
+      "plays": "none",
+      "body": "#3A2A1A",
+      "accent": "#F4F0E8",
+      "size": 0.6
+    },
+    {
+      "id": "lebanon_goat",
+      "country": "lebanon",
+      "nameAr": "ماعز",
+      "nameEn": "Goat",
+      "role": "ground",
+      "plays": "none",
+      "body": "#3A2A1A",
+      "accent": "#F4F0E8",
+      "size": 0.6
+    },
+    {
+      "id": "lebanon_eagle",
+      "country": "lebanon",
+      "nameAr": "عقاب",
+      "nameEn": "Golden eagle",
+      "role": "flier",
+      "plays": "falcon",
+      "body": "#6B4A2A",
+      "accent": "#E0A63A",
+      "size": 0.7
+    },
+    {
+      "id": "jordan_camel",
+      "country": "jordan",
+      "nameAr": "جمل",
+      "nameEn": "Camel",
+      "role": "mount",
+      "plays": "camel",
+      "body": "#C8A060",
+      "accent": "#6B4A2A",
+      "size": 1.0
+    },
+    {
+      "id": "jordan_ibex",
+      "country": "jordan",
+      "nameAr": "وعل",
+      "nameEn": "Nubian ibex",
+      "role": "ground",
+      "plays": "oryx",
+      "body": "#A08A6A",
+      "accent": "#3A2A1A",
+      "size": 0.9
+    },
+    {
+      "id": "egypt_camel",
+      "country": "egypt",
+      "nameAr": "جمل",
+      "nameEn": "Camel",
+      "role": "mount",
+      "plays": "camel",
+      "body": "#C8A060",
+      "accent": "#6B4A2A",
+      "size": 1.0
+    },
+    {
+      "id": "egypt_ibis",
+      "country": "egypt",
+      "nameAr": "أبو منجل",
+      "nameEn": "Ibis",
+      "role": "flier",
+      "plays": "falcon",
+      "body": "#F4F0E8",
+      "accent": "#1E1E1E",
+      "size": 0.6
+    },
+    {
+      "id": "egypt_crocodile",
+      "country": "egypt",
+      "nameAr": "تمساح",
+      "nameEn": "Nile crocodile",
+      "role": "hazard",
+      "plays": "none",
+      "body": "#4A5A3A",
+      "accent": "#2A3A2A",
+      "size": 1.2,
+      "behavior": "water_edge",
+      "effect": "life",
+      "stages": [
+        "egypt_4",
+        "egypt_7"
+      ]
+    },
+    {
+      "id": "egypt_egyptian_cobra",
+      "country": "egypt",
+      "nameAr": "الكوبرا المصرية",
+      "nameEn": "Egyptian cobra",
+      "role": "hazard",
+      "plays": "none",
+      "body": "#6B5A3A",
+      "accent": "#2A2216",
+      "size": 0.6,
+      "behavior": "block_path",
+      "effect": "knockback",
+      "stages": [
+        "egypt_5",
+        "egypt_8"
+      ]
+    },
+    {
+      "id": "sudan_camel",
+      "country": "sudan",
+      "nameAr": "جمل",
+      "nameEn": "Camel",
+      "role": "mount",
+      "plays": "camel",
+      "body": "#C8A060",
+      "accent": "#6B4A2A",
+      "size": 1.0
+    },
+    {
+      "id": "sudan_crocodile",
+      "country": "sudan",
+      "nameAr": "تمساح",
+      "nameEn": "Nile crocodile",
+      "role": "hazard",
+      "plays": "none",
+      "body": "#4A5A3A",
+      "accent": "#2A3A2A",
+      "size": 1.2,
+      "behavior": "water_edge",
+      "effect": "life"
+    },
+    {
+      "id": "libya_camel",
+      "country": "libya",
+      "nameAr": "جمل",
+      "nameEn": "Camel",
+      "role": "mount",
+      "plays": "camel",
+      "body": "#C8A060",
+      "accent": "#6B4A2A",
+      "size": 1.0
+    },
+    {
+      "id": "libya_gazelle",
+      "country": "libya",
+      "nameAr": "غزال",
+      "nameEn": "Gazelle",
+      "role": "ground",
+      "plays": "oryx",
+      "body": "#C89A6A",
+      "accent": "#F4F0E8",
+      "size": 0.6
+    },
+    {
+      "id": "tunisia_camel",
+      "country": "tunisia",
+      "nameAr": "جمل",
+      "nameEn": "Camel",
+      "role": "mount",
+      "plays": "camel",
+      "body": "#C8A060",
+      "accent": "#6B4A2A",
+      "size": 1.0
+    },
+    {
+      "id": "tunisia_horse",
+      "country": "tunisia",
+      "nameAr": "حصان",
+      "nameEn": "Horse",
+      "role": "mount",
+      "plays": "horse",
+      "body": "#6B4A2A",
+      "accent": "#2A1E14",
+      "size": 1.0
+    },
+    {
+      "id": "algeria_camel",
+      "country": "algeria",
+      "nameAr": "جمل",
+      "nameEn": "Camel",
+      "role": "mount",
+      "plays": "camel",
+      "body": "#C8A060",
+      "accent": "#6B4A2A",
+      "size": 1.0
+    },
+    {
+      "id": "algeria_barbary_macaque",
+      "country": "algeria",
+      "nameAr": "قرد المكاك",
+      "nameEn": "Barbary macaque",
+      "role": "ground",
+      "plays": "none",
+      "body": "#A08A6A",
+      "accent": "#E0B0A0",
+      "size": 0.5
+    },
+    {
+      "id": "algeria_fennec_fox",
+      "country": "algeria",
+      "nameAr": "فنك",
+      "nameEn": "Fennec fox",
+      "role": "ground",
+      "plays": "none",
+      "body": "#E8C890",
+      "accent": "#8A6A4A",
+      "size": 0.3
+    },
+    {
+      "id": "morocco_camel",
+      "country": "morocco",
+      "nameAr": "جمل",
+      "nameEn": "Camel",
+      "role": "mount",
+      "plays": "camel",
+      "body": "#C8A060",
+      "accent": "#6B4A2A",
+      "size": 1.0
+    },
+    {
+      "id": "morocco_barbary_macaque",
+      "country": "morocco",
+      "nameAr": "قرد المكاك",
+      "nameEn": "Barbary macaque",
+      "role": "ground",
+      "plays": "none",
+      "body": "#A08A6A",
+      "accent": "#E0B0A0",
+      "size": 0.5
+    },
+    {
+      "id": "morocco_stork_white",
+      "country": "morocco",
+      "nameAr": "لقلق أبيض",
+      "nameEn": "White stork",
+      "role": "flier",
+      "plays": "falcon",
+      "body": "#F4F0E8",
+      "accent": "#1E1E1E",
+      "size": 0.6
+    }
+  ]
+}

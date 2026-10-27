@@ -1,0 +1,20 @@
+{
+  "region": "sudan",
+  "shops": [
+    {
+      "stage": "sudan_1",
+      "nameAr": "كركدي ود الحاج",
+      "kind": "drinks"
+    },
+    {
+      "stage": "sudan_1",
+      "nameAr": "عطور أم أحمد",
+      "kind": "perfume"
+    },
+    {
+      "stage": "sudan_6",
+      "nameAr": "بقالة البحر الأحمر",
+      "kind": "grocery"
+    }
+  ]
+}

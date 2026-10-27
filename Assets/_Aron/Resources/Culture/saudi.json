@@ -1,0 +1,265 @@
+{
+  "country": "saudi",
+  "dialect": "najdi",
+  "uiLanguage": "ar",
+  "greeting": {
+    "words": "هلا والله",
+    "wordsEn": "Hello and welcome",
+    "wordsAr": "هلا والله",
+    "gesture": "hand_on_chest"
+  },
+  "hospitality": {
+    "ar": "في السعودية يُستقبل الضيف بالقهوة والتمر.",
+    "en": "In Saudi Arabia, guests are welcomed with coffee and dates.",
+    "tr": "Suudi Arabistan misafirleri kahve ve hurmayla karşılar.",
+    "de": "In Saudi-Arabien empfängt man Gäste mit Kaffee und Datteln.",
+    "ur": "سعودی عرب میں مہمان کا استقبال قہوے اور کھجور سے ہوتا ہے۔",
+    "hi": "सऊदी अरब में मेहमान का स्वागत क़हवा और खजूर से होता है।",
+    "es": "En Arabia Saudí se recibe a los invitados con café y dátiles.",
+    "pt": "Na Arábia Saudita recebem-se os convidados com café e tâmaras.",
+    "id": "Di Arab Saudi, tamu disambut dengan kopi dan kurma.",
+    "ms": "Di Arab Saudi, tetamu disambut dengan kopi dan kurma.",
+    "ja": "サウジアラビアではお客さんをコーヒーとデーツでもてなします。",
+    "fr": "Arabie saoudite : on accueille les invités avec du café et des dattes."
+  },
+  "customs": [
+    {
+      "act": "pour_coffee",
+      "en": "Saudi coffee is poured with the left hand into a small cup, held in the right.",
+      "ar": "القهوة تنصب باليسار والفنجال باليمين."
+    },
+    {
+      "act": "offer_dates",
+      "en": "Dates always come with the coffee.",
+      "ar": "التمر ما يفارق القهوة."
+    }
+  ],
+  "architecture": "Mud-brick Najdi forts with triangle windows, Hijazi rawasheen balconies, glass towers.",
+  "palette": [
+    "#006C35",
+    "#FFFFFF",
+    "#C8A060",
+    "#8A3A22"
+  ],
+  "music": {
+    "style": "Ardah and samri",
+    "instruments": [
+      "tabl",
+      "duff",
+      "oud"
+    ]
+  },
+  "street": {
+    "vendors": [
+      "dates seller",
+      "coffee roaster"
+    ],
+    "cafe": "majlis by the street",
+    "kidsGames": [
+      "kairam",
+      "seven stones"
+    ],
+    "crowd": "warm, families out after maghrib"
+  },
+  "foods": [
+    {
+      "id": "saudi_kabsa",
+      "local": "Kabsa",
+      "name": {
+        "ar": "كبسة",
+        "en": "Spiced rice with chicken",
+        "tr": "Kabsa",
+        "de": "Kabsa",
+        "ur": "کبسہ",
+        "hi": "कबसा",
+        "es": "Kabsa",
+        "pt": "Kabsa",
+        "id": "Kabsa",
+        "ms": "Kabsa",
+        "ja": "カブサ",
+        "fr": "Kabsa"
+      },
+      "fact": {
+        "ar": "تُعرف غالباً بأنها الأكلة الوطنية في السعودية.",
+        "en": "Often called the national dish of Saudi Arabia.",
+        "tr": "Genellikle Suudi Arabistan ulusal yemeği sayılır.",
+        "de": "Gilt oft als Nationalgericht von Saudi-Arabien.",
+        "ur": "اسے اکثر سعودی عرب کا قومی کھانا کہا جاتا ہے۔",
+        "hi": "इसे अक्सर सऊदी अरब का राष्ट्रीय व्यंजन कहा जाता है।",
+        "es": "Se le suele llamar el plato nacional de Arabia Saudí.",
+        "pt": "É muitas vezes chamado o prato nacional da Arábia Saudita.",
+        "id": "Sering disebut hidangan nasional Arab Saudi.",
+        "ms": "Sering disebut hidangan kebangsaan Arab Saudi.",
+        "ja": "サウジアラビアの国民食とよく言われます。",
+        "fr": "Arabie saoudite : souvent appelé le plat national."
+      },
+      "shape": "plate",
+      "color": "#E8A03A",
+      "color2": "#8A4A2A",
+      "buff": "strength",
+      "price": 80
+    },
+    {
+      "id": "saudi_jareesh",
+      "local": "Jareesh",
+      "name": {
+        "ar": "جريش",
+        "en": "Cracked wheat porridge",
+        "tr": "Jareesh",
+        "de": "Jareesh",
+        "ur": "جریش",
+        "hi": "जरीश",
+        "es": "Jareesh",
+        "pt": "Jareesh",
+        "id": "Jareesh",
+        "ms": "Jareesh",
+        "ja": "ジャリーシュ",
+        "fr": "Jareesh"
+      },
+      "fact": {
+        "ar": "يتشاركونه من صحن كبير مع الأهل والضيوف في السعودية.",
+        "en": "Shared from one big plate with family and guests in Saudi Arabia.",
+        "tr": "Suudi Arabistan için aile ve misafirlerle büyük bir tabaktan paylaşılır.",
+        "de": "In Saudi-Arabien von einer großen Platte mit Familie und Gästen geteilt.",
+        "ur": "سعودی عرب میں گھر والوں اور مہمانوں کے ساتھ ایک بڑی پلیٹ سے کھایا جاتا ہے۔",
+        "hi": "सऊदी अरब में परिवार और मेहमानों के साथ एक बड़ी थाली से खाया जाता है।",
+        "es": "Se comparte de una gran fuente con familia e invitados en Arabia Saudí.",
+        "pt": "Partilha-se de uma grande travessa com família e convidados na Arábia Saudita.",
+        "id": "Disantap bersama dari satu piring besar dengan keluarga dan tamu di Arab Saudi.",
+        "ms": "Dikongsi dari satu pinggan besar bersama keluarga dan tetamu di Arab Saudi.",
+        "ja": "サウジアラビアでは大皿から家族やお客さんと分け合います。",
+        "fr": "Arabie saoudite : partagé dans un grand plat avec la famille et les invités."
+      },
+      "shape": "bowl",
+      "color": "#E0C890",
+      "color2": "#8A5A2A",
+      "buff": "energy",
+      "price": 50
+    },
+    {
+      "id": "saudi_mutabbaq",
+      "local": "Mutabbaq",
+      "name": {
+        "ar": "مطبق",
+        "en": "Stuffed pan pastry",
+        "tr": "Mutabbaq",
+        "de": "Mutabbaq",
+        "ur": "مطبق",
+        "hi": "मुतब्बक",
+        "es": "Mutabbaq",
+        "pt": "Mutabbaq",
+        "id": "Mutabbaq",
+        "ms": "Mutabbaq",
+        "ja": "ムタッバク",
+        "fr": "Mutabbaq"
+      },
+      "fact": {
+        "ar": "يُباع حاراً في بسطات الشوارع في كل السعودية.",
+        "en": "Sold hot at street stalls all over Saudi Arabia.",
+        "tr": "Suudi Arabistan genelinde sokak tezgâhlarında sıcak satılır.",
+        "de": "Überall in Saudi-Arabien heiß an Straßenständen verkauft.",
+        "ur": "پورے سعودی عرب میں ٹھیلوں پر گرم گرم بکتا ہے۔",
+        "hi": "पूरे सऊदी अरब में ठेलों पर गरमा-गरम बिकता है।",
+        "es": "Se vende caliente en puestos callejeros por todo el territorio de Arabia Saudí.",
+        "pt": "Vende-se quente em bancas de rua em toda a Arábia Saudita.",
+        "id": "Dijual hangat di kaki lima di seluruh Arab Saudi.",
+        "ms": "Dijual panas di gerai tepi jalan di seluruh Arab Saudi.",
+        "ja": "サウジアラビアのあちこちの屋台で熱々で売られています。",
+        "fr": "Arabie saoudite : vendu tout chaud dans les stands de rue."
+      },
+      "shape": "cake",
+      "color": "#D9A050",
+      "color2": "#6A8F3A",
+      "buff": "strength",
+      "price": 35
+    },
+    {
+      "id": "saudi_kleija",
+      "local": "Kleija",
+      "name": {
+        "ar": "كليجا",
+        "en": "Cardamom date cookies",
+        "tr": "Kleija",
+        "de": "Kleija",
+        "ur": "کلیجا",
+        "hi": "क्लेजा",
+        "es": "Kleija",
+        "pt": "Kleija",
+        "id": "Kleija",
+        "ms": "Kleija",
+        "ja": "クレイジャ",
+        "fr": "Kleija"
+      },
+      "fact": {
+        "ar": "حلا محبوب في السعودية، أحلى مع الشاي أو القهوة.",
+        "en": "A sweet treat in Saudi Arabia, best with tea or coffee.",
+        "tr": "Suudi Arabistan için tatlı bir ikram, çay ya da kahveyle en güzeli.",
+        "de": "Eine süße Leckerei in Saudi-Arabien, am besten mit Tee oder Kaffee.",
+        "ur": "سعودی عرب کی میٹھی سوغات، چائے یا کافی کے ساتھ مزیدار۔",
+        "hi": "सऊदी अरब की मीठी सौगात, चाय या कॉफ़ी के साथ सबसे अच्छी।",
+        "es": "Un dulce de Arabia Saudí, mejor con té o café.",
+        "pt": "Um doce da Arábia Saudita, melhor com chá ou café.",
+        "id": "Camilan manis di Arab Saudi, paling enak dengan teh atau kopi.",
+        "ms": "Manisan di Arab Saudi, paling sedap dengan teh atau kopi.",
+        "ja": "サウジアラビアの甘いおやつ。お茶やコーヒーと一緒にどうぞ。",
+        "fr": "Arabie saoudite : une douceur, parfaite avec un thé ou un café."
+      },
+      "shape": "ball",
+      "color": "#B5651D",
+      "color2": "#E8C14A",
+      "buff": "energy",
+      "price": 30
+    },
+    {
+      "id": "saudi_gahwa",
+      "local": "Gahwa",
+      "name": {
+        "ar": "قهوة سعودية",
+        "en": "Saudi coffee with cardamom",
+        "tr": "Gahwa",
+        "de": "Gahwa",
+        "ur": "سعودی قہوہ",
+        "hi": "सऊदी क़हवा",
+        "es": "Gahwa",
+        "pt": "Gahwa",
+        "id": "Gahwa",
+        "ms": "Gahwa",
+        "ja": "サウジコーヒー",
+        "fr": "Gahwa"
+      },
+      "fact": {
+        "ar": "مشروب يُقدَّم للضيف في السعودية.",
+        "en": "A drink offered to guests in Saudi Arabia.",
+        "tr": "Suudi Arabistan için misafire ikram edilen bir içecek.",
+        "de": "Ein Getränk, das man in Saudi-Arabien Gästen anbietet.",
+        "ur": "سعودی عرب میں مہمان کو پیش کیا جانے والا مشروب۔",
+        "hi": "सऊदी अरब में मेहमान को दिया जाने वाला पेय।",
+        "es": "Una bebida que se ofrece a los invitados en Arabia Saudí.",
+        "pt": "Uma bebida oferecida aos convidados na Arábia Saudita.",
+        "id": "Minuman yang disuguhkan untuk tamu di Arab Saudi.",
+        "ms": "Minuman yang dihidangkan kepada tetamu di Arab Saudi.",
+        "ja": "サウジアラビアでお客さんに出される飲み物です。",
+        "fr": "Arabie saoudite : une boisson offerte aux invités."
+      },
+      "shape": "cup",
+      "color": "#C8A060",
+      "color2": "#6B4A2A",
+      "buff": "speed",
+      "price": 20
+    }
+  ],
+  "animals": [
+    "saudi_camel",
+    "saudi_falcon",
+    "saudi_oryx",
+    "saudi_dhub",
+    "saudi_sand_viper",
+    "saudi_arabian_wolf"
+  ],
+  "attackTrailVfx": "date_sparkles",
+  "eatIdle": {
+    "dishId": "saudi_kabsa",
+    "propModel": "food_kabsa",
+    "reaction": "yum"
+  }
+}

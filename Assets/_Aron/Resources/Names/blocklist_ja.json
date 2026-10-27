@@ -1,0 +1,115 @@
+{
+  "lang": "ja",
+  "profanity": {
+    "terms": [
+      "chikusho",
+      "bakayaro",
+      "bakayarou",
+      "kisama",
+      "chinko",
+      "manko",
+      "chinchin",
+      "kuso",
+      "kutabare",
+      "shineyo"
+    ],
+    "words": [
+      "kuso",
+      "kisama",
+      "temee",
+      "yarou",
+      "kuzu",
+      "kutabare"
+    ],
+    "exact": [
+      "kuso",
+      "kuzu"
+    ]
+  },
+  "insult": {
+    "terms": [
+      "bakayarou",
+      "manuke",
+      "kimoi",
+      "busu",
+      "debu",
+      "aho",
+      "boke"
+    ],
+    "words": [
+      "baka",
+      "aho",
+      "boke",
+      "debu",
+      "busu",
+      "kimoi",
+      "manuke"
+    ],
+    "exact": [
+      "baka",
+      "aho"
+    ]
+  },
+  "hate": {
+    "terms": [
+      "chonko",
+      "kichigai",
+      "shinajin",
+      "gaijin",
+      "hinin",
+      "burakumin"
+    ],
+    "words": [
+      "chon",
+      "kichigai",
+      "hinin"
+    ],
+    "exact": [
+      "chon"
+    ]
+  },
+  "sexual": {
+    "terms": [
+      "hentai",
+      "sekkusu",
+      "oppai",
+      "goukan",
+      "lolicon",
+      "shotacon",
+      "fellatio",
+      "ecchi",
+      "chinpo",
+      "dosukebe"
+    ],
+    "words": [
+      "ecchi",
+      "oppai",
+      "sekkusu",
+      "hentai",
+      "fera",
+      "chinko",
+      "manko"
+    ],
+    "exact": [
+      "ecchi"
+    ]
+  },
+  "figures": {
+    "terms": [
+      "abeshinzo",
+      "kishidafumio",
+      "hitler",
+      "tennoheika",
+      "amaterasu"
+    ],
+    "words": [
+      "kamisama",
+      "tennou",
+      "hotoke"
+    ],
+    "exact": [
+      "kami",
+      "tenno"
+    ]
+  }
+}

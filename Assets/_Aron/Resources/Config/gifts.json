@@ -1,0 +1,42 @@
+{
+  "hoursBetween": 6,
+  "entries": [
+    {
+      "kind": "coins",
+      "weight": 50,
+      "min": 40,
+      "max": 120
+    },
+    {
+      "kind": "costume_piece",
+      "weight": 18,
+      "min": 1,
+      "max": 1
+    },
+    {
+      "kind": "food_card",
+      "weight": 15,
+      "min": 1,
+      "max": 1
+    },
+    {
+      "kind": "helper",
+      "weight": 14,
+      "min": 1,
+      "max": 1
+    },
+    {
+      "kind": "ticket",
+      "weight": 3,
+      "min": 1,
+      "max": 1
+    }
+  ],
+  "pieceCostumes": [
+    "saudi_golden_sadu",
+    "saudi_noura_golden_sadu"
+  ],
+  "piecesPerCostume": 5,
+  "streakBonusPerDay": 0.25,
+  "streakCap": 7
+}

@@ -1,0 +1,20 @@
+{
+  "region": "iraq",
+  "shops": [
+    {
+      "stage": "iraq_1",
+      "nameAr": "مكتبة أبو حيدر",
+      "kind": "books"
+    },
+    {
+      "stage": "iraq_2",
+      "nameAr": "بهارات الحاج كاظم",
+      "kind": "spices"
+    },
+    {
+      "stage": "iraq_7",
+      "nameAr": "مسكوف أبو علي",
+      "kind": "fish"
+    }
+  ]
+}

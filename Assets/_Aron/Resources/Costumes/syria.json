@@ -1,0 +1,100 @@
+{
+  "country": "syria",
+  "costumes": [
+    {
+      "id": "syria_sherwal",
+      "country": "syria",
+      "hero": "aron",
+      "nameAr": "الشروال والعباية الشامية",
+      "nameEn": "Sherwal and Levantine aba",
+      "isDefault": true,
+      "price": 0,
+      "materials": [
+        {
+          "material": "Clothes",
+          "color": "#2E2A26"
+        }
+      ],
+      "meshes": [
+        {
+          "slot": "body",
+          "mesh": "sherwal"
+        },
+        {
+          "slot": "feet",
+          "mesh": "shoes_closed"
+        }
+      ],
+      "accessories": [
+        {
+          "kind": "keffiyeh",
+          "color": "#FFFFFF"
+        },
+        {
+          "kind": "agal",
+          "color": "#111111"
+        },
+        {
+          "kind": "vest",
+          "color": "#3A2C20",
+          "pattern": "#C9A86A"
+        },
+        {
+          "kind": "sash",
+          "color": "#C9A86A"
+        },
+        {
+          "kind": "bisht",
+          "color": "#5A4632",
+          "pattern": "#C9A86A"
+        }
+      ],
+      "footwear": "leather_shoes",
+      "footwearColor": "#5A3A22",
+      "agalMount": "head"
+    },
+    {
+      "id": "syria_noura",
+      "country": "syria",
+      "hero": "noura",
+      "nameAr": "العباية الشامية",
+      "nameEn": "Damascene abaya",
+      "isDefault": true,
+      "price": 0,
+      "materials": [
+        {
+          "material": "Clothes",
+          "color": "#16151A"
+        }
+      ],
+      "meshes": [
+        {
+          "slot": "body",
+          "mesh": "abaya_long"
+        },
+        {
+          "slot": "feet",
+          "mesh": "shoes_closed"
+        }
+      ],
+      "accessories": [
+        {
+          "kind": "abaya",
+          "color": "#16151A",
+          "pattern": "#B8860B"
+        },
+        {
+          "kind": "hijab",
+          "color": "#2B2A33"
+        },
+        {
+          "kind": "embroidery",
+          "color": "#B8860B"
+        }
+      ],
+      "footwear": "closed_flats",
+      "footwearColor": "#2A2020",
+      "agalMount": "none"
+    }
+  ]
+}

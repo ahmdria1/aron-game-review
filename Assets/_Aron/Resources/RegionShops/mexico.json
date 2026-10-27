@@ -1,0 +1,15 @@
+{
+  "region": "mexico",
+  "shops": [
+    {
+      "stage": "mexico_1",
+      "nameAr": "تاكو الساحة",
+      "kind": "food"
+    },
+    {
+      "stage": "mexico_4",
+      "nameAr": "زهور القوارب",
+      "kind": "flowers"
+    }
+  ]
+}

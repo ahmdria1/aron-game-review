@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "features": {
+    "onlineRaces": true,
+    "store": true,
+    "purchases": true,
+    "events": true,
+    "shopSigns": true,
+    "analytics": true,
+    "vehicleSea": true,
+    "vehicleCars": true,
+    "vehicleBicycles": true,
+    "vehicleMotorcycles": true
+  },
+  "difficulty": { "enemySpeedScale": 1.0, "bossHealthScale": 1.0, "extraLivesBonus": 0 },
+  "events": [],
+  "pinMode": "reportOnly"
+}

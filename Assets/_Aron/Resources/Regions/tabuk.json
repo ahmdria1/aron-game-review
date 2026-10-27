@@ -1,0 +1,195 @@
+{
+  "order": 130,
+  "id": "tabuk",
+  "nameAr": "منطقة تبوك",
+  "nameEn": "Tabuk Region",
+  "group": "saudi",
+  "country": "saudi",
+  "costume": "",
+  "music": "music_saudi_north",
+  "ground": "#C9A27A",
+  "accent": "#2F4E7A",
+  "sky": "#A2C8E6",
+  "stages": [
+    {
+      "id": "tabuk_1",
+      "nameAr": "قلعة تبوك",
+      "nameEn": "Tabuk Castle",
+      "terrain": "ruins",
+      "landmarks": [
+        "fort"
+      ],
+      "mount": "",
+      "difficulty": 2,
+      "boss": false,
+      "type": "normal",
+      "time": "day",
+      "weather": "sandstorm",
+      "costume": "",
+      "lineAr": "قلعة تبوك القديمة.",
+      "extra": ""
+    },
+    {
+      "id": "tabuk_2",
+      "nameAr": "محطة تبوك",
+      "nameEn": "Tabuk Railway Station",
+      "terrain": "ruins",
+      "landmarks": [
+        "railway"
+      ],
+      "mount": "",
+      "difficulty": 3,
+      "boss": false,
+      "type": "chase",
+      "time": "night",
+      "weather": "clear",
+      "costume": "",
+      "lineAr": "سكة الحجاز مرت من هنا.",
+      "extra": ""
+    },
+    {
+      "id": "tabuk_3",
+      "nameAr": "وادي الديسة",
+      "nameEn": "Wadi Al Disah",
+      "terrain": "oasis",
+      "landmarks": [
+        "rock_arch",
+        "palms"
+      ],
+      "mount": "",
+      "difficulty": 3,
+      "boss": false,
+      "type": "normal",
+      "time": "sunset",
+      "weather": "clear",
+      "costume": "",
+      "lineAr": "الديسة، صخور عالية وماي.",
+      "extra": ""
+    },
+    {
+      "id": "tabuk_4",
+      "nameAr": "حقل - الشاطئ",
+      "nameEn": "Haql Beach",
+      "terrain": "coast",
+      "landmarks": [
+        "dhows",
+        "mountains"
+      ],
+      "mount": "",
+      "difficulty": 4,
+      "boss": false,
+      "type": "normal",
+      "time": "day",
+      "weather": "rain",
+      "costume": "",
+      "lineAr": "حقل، تشوف مصر والأردن من هنا!",
+      "extra": ""
+    },
+    {
+      "id": "tabuk_5",
+      "nameAr": "جبال اللوز",
+      "nameEn": "Jabal Al Lawz",
+      "terrain": "mountain",
+      "landmarks": [
+        "mountains"
+      ],
+      "mount": "",
+      "difficulty": 4,
+      "boss": false,
+      "type": "action",
+      "time": "night",
+      "weather": "clear",
+      "costume": "",
+      "lineAr": "جبل اللوز، فيه ثلج بالشتا!",
+      "extra": ""
+    },
+    {
+      "id": "tabuk_6",
+      "nameAr": "شرما",
+      "nameEn": "Sharma",
+      "terrain": "coast",
+      "landmarks": [
+        "palms",
+        "dhows"
+      ],
+      "mount": "",
+      "difficulty": 4,
+      "boss": false,
+      "type": "normal",
+      "time": "sunset",
+      "weather": "clear",
+      "costume": "",
+      "lineAr": "شرما، بحر صافي.",
+      "extra": ""
+    },
+    {
+      "id": "tabuk_7",
+      "nameAr": "ساحة ذئب اللوز",
+      "nameEn": "Wolf of Al Lawz",
+      "terrain": "mountain",
+      "landmarks": [
+        "mountains"
+      ],
+      "mount": "",
+      "difficulty": 5,
+      "boss": true,
+      "type": "boss",
+      "music": "music_tabuk_boss",
+      "time": "night",
+      "weather": "clear",
+      "costume": "saudi_bisht",
+      "lineAr": "عواء... هذا ذئب اللوز.",
+      "extra": ""
+    }
+  ],
+  "boss": {
+    "nameAr": "ذئب اللوز",
+    "nameEn": "Wolf of Al Lawz",
+    "model": "wolf",
+    "headgear": "none",
+    "body": "#6E6E73",
+    "trim": "#E8E8E8",
+    "projectile": "#BFD4E6",
+    "scale": 1.0,
+    "health": 11,
+    "introAr": "الجبل جبلي!",
+    "stunAr": "آخ! راسي...",
+    "defeatAr": "هربت للجبل... بس بارجع.",
+    "phases": [
+      {
+        "threshold": 1.0,
+        "move": 4.5,
+        "charge": 15,
+        "interval": 2.6,
+        "attacks": [
+          "dash",
+          "charge"
+        ],
+        "tauntAr": "أسرع منك!"
+      },
+      {
+        "threshold": 0.55,
+        "move": 5,
+        "charge": 16,
+        "interval": 2.2,
+        "attacks": [
+          "dash",
+          "leap"
+        ],
+        "tauntAr": "من فوق!"
+      },
+      {
+        "threshold": 0.25,
+        "move": 5.5,
+        "charge": 18,
+        "interval": 1.8,
+        "attacks": [
+          "dash",
+          "leap",
+          "summon"
+        ],
+        "tauntAr": "يا قطيع!"
+      }
+    ]
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "lang": "es",
+  "profanity": {
+    "terms": [
+      "mierda",
+      "cabron",
+      "pendejo",
+      "gilipollas",
+      "chingad",
+      "hijodeputa",
+      "hijueputa",
+      "putamadre",
+      "jodete",
+      "culero",
+      "mamaguevo",
+      "carajo",
+      "coñazo",
+      "cojones"
+    ],
+    "words": [
+      "puta",
+      "joder",
+      "coño",
+      "carajo",
+      "verga",
+      "pinche",
+      "hdp",
+      "ctm",
+      "ptm",
+      "mierda"
+    ],
+    "exact": [
+      "puto",
+      "puta"
+    ]
+  },
+  "insult": {
+    "terms": [
+      "idiota",
+      "imbecil",
+      "estupido",
+      "tarado",
+      "subnormal",
+      "mongolico",
+      "gilipollas",
+      "baboso"
+    ],
+    "words": [
+      "idiota",
+      "tonto",
+      "tarado",
+      "mongolo"
+    ],
+    "exact": [
+      "tonto",
+      "bobo"
+    ]
+  },
+  "hate": {
+    "terms": [
+      "negrata",
+      "sudaca",
+      "maricon",
+      "machorra",
+      "moromierda",
+      "panchito",
+      "indiomierda"
+    ],
+    "words": [
+      "maricon",
+      "marica",
+      "sudaca",
+      "gabacho"
+    ],
+    "exact": [
+      "moro",
+      "indio"
+    ]
+  },
+  "sexual": {
+    "terms": [
+      "pornografia",
+      "violador",
+      "pedofilo",
+      "follar",
+      "masturbar",
+      "tetas",
+      "pollas",
+      "violacion",
+      "prostituta"
+    ],
+    "words": [
+      "sexo",
+      "porno",
+      "polla",
+      "tetas",
+      "culo",
+      "pene",
+      "vagina",
+      "follar"
+    ],
+    "exact": [
+      "sexo",
+      "puta"
+    ]
+  },
+  "figures": {
+    "terms": [
+      "jesucristo",
+      "satanas",
+      "hitler",
+      "francisco franco",
+      "pedrosanchez",
+      "nicolasmaduro"
+    ],
+    "words": [
+      "dios",
+      "diablo",
+      "satanas"
+    ],
+    "exact": [
+      "dios",
+      "jesus"
+    ]
+  }
+}

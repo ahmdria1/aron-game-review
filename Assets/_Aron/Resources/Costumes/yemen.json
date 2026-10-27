@@ -1,0 +1,141 @@
+{
+  "country": "yemen",
+  "costumes": [
+    {
+      "id": "yemen_futa",
+      "country": "yemen",
+      "hero": "aron",
+      "nameAr": "الفوطة والجنبية والشال",
+      "nameEn": "Futa, jambiya and shal",
+      "isDefault": true,
+      "price": 0,
+      "materials": [
+        {
+          "material": "Clothes",
+          "color": "#EDE6D6"
+        }
+      ],
+      "meshes": [
+        {
+          "slot": "body",
+          "mesh": "thobe_long"
+        },
+        {
+          "slot": "feet",
+          "mesh": "shoes_closed"
+        }
+      ],
+      "accessories": [
+        {
+          "kind": "turban",
+          "color": "#E9DFC6",
+          "pattern": "#8C6A3F"
+        },
+        {
+          "kind": "futa",
+          "color": "#3E4A5C",
+          "pattern": "#C9A14A"
+        },
+        {
+          "kind": "jambiya_belt",
+          "color": "#6B3A1E",
+          "pattern": "#C9A14A"
+        },
+        {
+          "kind": "vest",
+          "color": "#3D3A36"
+        }
+      ],
+      "footwear": "leather_shoes",
+      "footwearColor": "#5A3A22",
+      "agalMount": "wrist"
+    },
+    {
+      "id": "yemen_thobe",
+      "country": "yemen",
+      "hero": "aron",
+      "nameAr": "الثوب والجنبية",
+      "nameEn": "Thobe and jambiya",
+      "isDefault": false,
+      "price": 0,
+      "materials": [
+        {
+          "material": "Clothes",
+          "color": "#EDE6D6"
+        }
+      ],
+      "meshes": [
+        {
+          "slot": "body",
+          "mesh": "thobe_long"
+        },
+        {
+          "slot": "feet",
+          "mesh": "shoes_closed"
+        }
+      ],
+      "accessories": [
+        {
+          "kind": "massar",
+          "color": "#E9DFC6",
+          "pattern": "#8C6A3F"
+        },
+        {
+          "kind": "jambiya_belt",
+          "color": "#6B3A1E",
+          "pattern": "#C9A14A"
+        },
+        {
+          "kind": "vest",
+          "color": "#3D3A36"
+        }
+      ],
+      "footwear": "leather_shoes",
+      "footwearColor": "#5A3A22",
+      "agalMount": "wrist"
+    },
+    {
+      "id": "yemen_noura",
+      "country": "yemen",
+      "hero": "noura",
+      "nameAr": "الشرشف اليمني",
+      "nameEn": "Yemeni sharshaf",
+      "isDefault": true,
+      "price": 0,
+      "materials": [
+        {
+          "material": "Clothes",
+          "color": "#121214"
+        }
+      ],
+      "meshes": [
+        {
+          "slot": "body",
+          "mesh": "abaya_long"
+        },
+        {
+          "slot": "feet",
+          "mesh": "shoes_closed"
+        }
+      ],
+      "accessories": [
+        {
+          "kind": "abaya",
+          "color": "#121214",
+          "pattern": "#9C2F2F"
+        },
+        {
+          "kind": "hijab",
+          "color": "#121214"
+        },
+        {
+          "kind": "shawl",
+          "color": "#9C2F2F"
+        }
+      ],
+      "footwear": "closed_flats",
+      "footwearColor": "#2A2020",
+      "agalMount": "none"
+    }
+  ]
+}

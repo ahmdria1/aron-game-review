@@ -1,0 +1,232 @@
+{
+  "order": 380,
+  "id": "algeria",
+  "nameAr": "الجزائر",
+  "nameEn": "Algeria",
+  "group": "arab",
+  "music": "music_country_algeria",
+  "ground": "#D4B38A",
+  "accent": "#006233",
+  "sky": "#A4CAE6",
+  "country": "algeria",
+  "costume": "",
+  "stages": [
+    {
+      "id": "algeria_1",
+      "nameAr": "القصبة",
+      "nameEn": "The Casbah of Algiers",
+      "terrain": "street",
+      "landmarks": [
+        "mud_town",
+        "gate"
+      ],
+      "mount": "",
+      "difficulty": 8,
+      "boss": false,
+      "lineAr": "القصبة، دروج وأزقة بيضاء.",
+      "extra": "",
+      "time": "day",
+      "weather": "clear",
+      "type": "normal",
+      "costume": ""
+    },
+    {
+      "id": "algeria_2",
+      "nameAr": "مقام الشهيد",
+      "nameEn": "Maqam Echahid",
+      "terrain": "street",
+      "landmarks": [
+        "monument",
+        "skyscraper"
+      ],
+      "mount": "",
+      "difficulty": 8,
+      "boss": false,
+      "lineAr": "مقام الشهيد فوق العاصمة.",
+      "extra": "",
+      "time": "sunset",
+      "weather": "clear",
+      "type": "normal",
+      "costume": ""
+    },
+    {
+      "id": "algeria_3",
+      "nameAr": "جسور قسنطينة",
+      "nameEn": "Bridges of Constantine",
+      "terrain": "mountain",
+      "landmarks": [
+        "mountains",
+        "gate"
+      ],
+      "mount": "",
+      "difficulty": 8,
+      "boss": false,
+      "lineAr": "مدينة الجسور المعلقة، والمطر نازل!",
+      "extra": "",
+      "time": "day",
+      "weather": "rain",
+      "type": "action",
+      "costume": ""
+    },
+    {
+      "id": "algeria_4",
+      "nameAr": "تيمقاد",
+      "nameEn": "Timgad",
+      "terrain": "ruins",
+      "landmarks": [
+        "columns",
+        "big_arch"
+      ],
+      "mount": "horse",
+      "difficulty": 9,
+      "boss": false,
+      "lineAr": "قوس تراجان في تيمقاد، يلا يا حصان.",
+      "extra": "",
+      "time": "day",
+      "weather": "clear",
+      "type": "normal",
+      "costume": ""
+    },
+    {
+      "id": "algeria_5",
+      "nameAr": "غرداية - وادي ميزاب",
+      "nameEn": "Ghardaia - M'zab Valley",
+      "terrain": "oasis",
+      "landmarks": [
+        "mud_town",
+        "palms"
+      ],
+      "mount": "",
+      "difficulty": 9,
+      "boss": false,
+      "lineAr": "بيوت ميزاب الملونة، وهم ورايا بالليل!",
+      "extra": "",
+      "time": "night",
+      "weather": "clear",
+      "type": "chase",
+      "costume": ""
+    },
+    {
+      "id": "algeria_6",
+      "nameAr": "طاسيلي ناجر",
+      "nameEn": "Tassili n'Ajjer",
+      "terrain": "desert",
+      "landmarks": [
+        "rock_arch",
+        "dunes"
+      ],
+      "mount": "camel",
+      "difficulty": 9,
+      "boss": false,
+      "lineAr": "صخور طاسيلي، والعاصفة جاية!",
+      "extra": "",
+      "time": "day",
+      "weather": "sandstorm",
+      "type": "chase",
+      "costume": ""
+    },
+    {
+      "id": "algeria_race",
+      "nameAr": "سباق الفانتازيا",
+      "nameEn": "Fantasia Horse Race",
+      "terrain": "desert",
+      "landmarks": [
+        "mud_town",
+        "palms"
+      ],
+      "mount": "",
+      "difficulty": 9,
+      "boss": false,
+      "lineAr": "سباق! سباق الفانتازيا، يلا نشوف مين الأول!",
+      "extra": "",
+      "time": "sunset",
+      "weather": "clear",
+      "type": "race",
+      "costume": "",
+      "race": "algeria_horse"
+    },
+    {
+      "id": "algeria_7",
+      "nameAr": "الأهقار - تمنراست",
+      "nameEn": "Hoggar - Tamanrasset",
+      "terrain": "mountain",
+      "landmarks": [
+        "stone_pillars",
+        "mountains"
+      ],
+      "mount": "",
+      "difficulty": 10,
+      "boss": true,
+      "lineAr": "جبار الأهقار واقف بين الصخور...",
+      "extra": "",
+      "time": "night",
+      "weather": "clear",
+      "type": "boss",
+      "costume": ""
+    }
+  ],
+  "boss": {
+    "nameAr": "جبّار الأهقار",
+    "nameEn": "The Hoggar Titan",
+    "model": "golem",
+    "headgear": "none",
+    "body": "#7A4A2A",
+    "trim": "#E9C46A",
+    "projectile": "#B5651D",
+    "scale": 1.5,
+    "health": 18,
+    "introAr": "صخور الأهقار عمرها ملايين السنين، وأنت ولا شي!",
+    "stunAr": "واش صار؟ راسي يدور!",
+    "defeatAr": "صحيت... الجزائر ليك.",
+    "phases": [
+      {
+        "threshold": 1.0,
+        "move": 3.5,
+        "charge": 14,
+        "interval": 2.8,
+        "attacks": [
+          "leap",
+          "charge"
+        ],
+        "tauntAr": "الصخر يطيح!"
+      },
+      {
+        "threshold": 0.75,
+        "move": 4,
+        "charge": 15,
+        "interval": 2.4,
+        "attacks": [
+          "leap",
+          "volley",
+          "wave"
+        ],
+        "tauntAr": "جبال تنهار!"
+      },
+      {
+        "threshold": 0.5,
+        "move": 5,
+        "charge": 16,
+        "interval": 2.0,
+        "attacks": [
+          "dash",
+          "leap",
+          "summon"
+        ],
+        "tauntAr": "يا صخور!"
+      },
+      {
+        "threshold": 0.25,
+        "move": 6,
+        "charge": 18,
+        "interval": 1.6,
+        "attacks": [
+          "charge",
+          "dash",
+          "volley",
+          "wave"
+        ],
+        "tauntAr": "النهاية!"
+      }
+    ]
+  }
+}

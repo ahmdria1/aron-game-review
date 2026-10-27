@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!--
+    Unity Cloud Code C# module: player names (docs/player_names.md).
+    NOT BUILT AND NOT DEPLOYED. Unity Gaming Services is not set up yet, and the two Unity packages below were never restored here.
+    Steps: cloud/AronNames/README.md.
+  -->
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <LangVersion>10.0</LangVersion>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <RootNamespace>Aron.Cloud</RootNamespace>
+    <AssemblyName>AronNames</AssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+    <!-- Pick the current versions in the Cloud Code docs when you set the project up (dotnet add package ...). -->
+    <PackageReference Include="Unity.Services.CloudCode.Core" Version="*" />
+    <PackageReference Include="Unity.Services.CloudCode.Apis" Version="*" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="*" />
+  </ItemGroup>
+  <ItemGroup>
+    <!-- The same rule and word-list code the game runs. One copy, so client and server cannot disagree. -->
+    <Compile Include="../../Assets/_Aron/Scripts/Logic/Names/*.cs" LinkBase="Logic/Names" />
+    <Content Include="../../Assets/_Aron/Resources/Names/*.json" LinkBase="Names" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+</Project>

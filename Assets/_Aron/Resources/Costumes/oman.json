@@ -1,0 +1,138 @@
+{
+  "country": "oman",
+  "costumes": [
+    {
+      "id": "oman_kumma",
+      "country": "oman",
+      "hero": "aron",
+      "nameAr": "الدشداشة والكمة والخنجر",
+      "nameEn": "Dishdasha, kumma and khanjar",
+      "isDefault": true,
+      "price": 0,
+      "materials": [
+        {
+          "material": "Clothes",
+          "color": "#F4F1E8"
+        }
+      ],
+      "meshes": [
+        {
+          "slot": "body",
+          "mesh": "kandura"
+        },
+        {
+          "slot": "feet",
+          "mesh": "shoes_closed"
+        }
+      ],
+      "accessories": [
+        {
+          "kind": "kumma",
+          "color": "#F2EEE0",
+          "pattern": "#B08D57"
+        },
+        {
+          "kind": "khanjar",
+          "color": "#C8CCD2",
+          "pattern": "#6B4A2A"
+        },
+        {
+          "kind": "tarboosha",
+          "color": "#F4F1E8",
+          "pattern": "#E2DCCB"
+        }
+      ],
+      "footwear": "leather_shoes",
+      "footwearColor": "#5A3A22",
+      "agalMount": "wrist"
+    },
+    {
+      "id": "oman_massar",
+      "country": "oman",
+      "hero": "aron",
+      "nameAr": "الدشداشة والمصر",
+      "nameEn": "Dishdasha and massar",
+      "isDefault": false,
+      "price": 0,
+      "materials": [
+        {
+          "material": "Clothes",
+          "color": "#F4F1E8"
+        }
+      ],
+      "meshes": [
+        {
+          "slot": "body",
+          "mesh": "kandura"
+        },
+        {
+          "slot": "feet",
+          "mesh": "shoes_closed"
+        }
+      ],
+      "accessories": [
+        {
+          "kind": "massar",
+          "color": "#D9C9A3",
+          "pattern": "#7A2E3A"
+        },
+        {
+          "kind": "khanjar",
+          "color": "#C8CCD2",
+          "pattern": "#6B4A2A"
+        },
+        {
+          "kind": "tarboosha",
+          "color": "#F4F1E8",
+          "pattern": "#E2DCCB"
+        }
+      ],
+      "footwear": "leather_shoes",
+      "footwearColor": "#5A3A22",
+      "agalMount": "wrist"
+    },
+    {
+      "id": "oman_noura",
+      "country": "oman",
+      "hero": "noura",
+      "nameAr": "العباية العمانية",
+      "nameEn": "Omani abaya",
+      "isDefault": true,
+      "price": 0,
+      "materials": [
+        {
+          "material": "Clothes",
+          "color": "#141419"
+        }
+      ],
+      "meshes": [
+        {
+          "slot": "body",
+          "mesh": "abaya_long"
+        },
+        {
+          "slot": "feet",
+          "mesh": "shoes_closed"
+        }
+      ],
+      "accessories": [
+        {
+          "kind": "abaya",
+          "color": "#141419",
+          "pattern": "#C23B4B"
+        },
+        {
+          "kind": "hijab",
+          "color": "#141419"
+        },
+        {
+          "kind": "embroidery",
+          "color": "#C23B4B"
+        }
+      ],
+      "footwear": "closed_flats",
+      "footwearColor": "#2A2020",
+      "agalMount": "none"
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "country": "qatar",
+  "costumes": [
+    {
+      "id": "qatar_thobe",
+      "country": "qatar",
+      "hero": "aron",
+      "nameAr": "الثوب القطري والعقال المقصب",
+      "nameEn": "Qatari thobe and cobra agal",
+      "isDefault": true,
+      "price": 0,
+      "materials": [
+        {
+          "material": "Clothes",
+          "color": "#FBFAF6"
+        }
+      ],
+      "meshes": [
+        {
+          "slot": "body",
+          "mesh": "thobe_long"
+        },
+        {
+          "slot": "feet",
+          "mesh": "shoes_closed"
+        }
+      ],
+      "accessories": [
+        {
+          "kind": "ghutra",
+          "color": "#FFFFFF"
+        },
+        {
+          "kind": "agal",
+          "color": "#111111",
+          "pattern": "#2A2A2A"
+        },
+        {
+          "kind": "agal_cords",
+          "color": "#111111",
+          "pattern": "#2A2A2A"
+        }
+      ],
+      "footwear": "leather_shoes",
+      "footwearColor": "#5A3A22",
+      "agalMount": "head"
+    },
+    {
+      "id": "qatar_noura",
+      "country": "qatar",
+      "hero": "noura",
+      "nameAr": "العباية القطرية",
+      "nameEn": "Qatari abaya",
+      "isDefault": true,
+      "price": 0,
+      "materials": [
+        {
+          "material": "Clothes",
+          "color": "#111115"
+        }
+      ],
+      "meshes": [
+        {
+          "slot": "body",
+          "mesh": "abaya_long"
+        },
+        {
+          "slot": "feet",
+          "mesh": "shoes_closed"
+        }
+      ],
+      "accessories": [
+        {
+          "kind": "abaya",
+          "color": "#111115",
+          "pattern": "#8A1538"
+        },
+        {
+          "kind": "hijab",
+          "color": "#111115"
+        }
+      ],
+      "footwear": "closed_flats",
+      "footwearColor": "#2A2020",
+      "agalMount": "none"
+    }
+  ]
+}

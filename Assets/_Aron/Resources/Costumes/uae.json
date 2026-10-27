@@ -1,0 +1,186 @@
+{
+  "country": "uae",
+  "costumes": [
+    {
+      "id": "uae_kandura",
+      "country": "uae",
+      "hero": "aron",
+      "nameAr": "الكندورة والغترة",
+      "nameEn": "Kandura and ghutra",
+      "isDefault": true,
+      "price": 0,
+      "materials": [
+        {
+          "material": "Clothes",
+          "color": "#FAFAF5"
+        }
+      ],
+      "meshes": [
+        {
+          "slot": "body",
+          "mesh": "kandura"
+        },
+        {
+          "slot": "feet",
+          "mesh": "shoes_closed"
+        }
+      ],
+      "accessories": [
+        {
+          "kind": "ghutra",
+          "color": "#FFFFFF"
+        },
+        {
+          "kind": "agal",
+          "color": "#111111"
+        },
+        {
+          "kind": "tarboosha",
+          "color": "#FAFAF5",
+          "pattern": "#F1EEE4"
+        }
+      ],
+      "footwear": "leather_shoes",
+      "footwearColor": "#5A3A22",
+      "agalMount": "head"
+    },
+    {
+      "id": "uae_bisht",
+      "country": "uae",
+      "hero": "aron",
+      "nameAr": "الكندورة والبشت",
+      "nameEn": "Kandura and bisht",
+      "isDefault": false,
+      "price": 500,
+      "materials": [
+        {
+          "material": "Clothes",
+          "color": "#FAFAF5"
+        }
+      ],
+      "meshes": [
+        {
+          "slot": "body",
+          "mesh": "kandura"
+        },
+        {
+          "slot": "feet",
+          "mesh": "shoes_closed"
+        }
+      ],
+      "accessories": [
+        {
+          "kind": "ghutra",
+          "color": "#FFFFFF"
+        },
+        {
+          "kind": "agal",
+          "color": "#111111"
+        },
+        {
+          "kind": "tarboosha",
+          "color": "#FAFAF5",
+          "pattern": "#F1EEE4"
+        },
+        {
+          "kind": "bisht",
+          "color": "#1E1A16",
+          "pattern": "#D4AF37"
+        }
+      ],
+      "footwear": "leather_shoes",
+      "footwearColor": "#5A3A22",
+      "agalMount": "head"
+    },
+    {
+      "id": "uae_noura",
+      "country": "uae",
+      "hero": "noura",
+      "nameAr": "العباية الإماراتية",
+      "nameEn": "Emirati abaya",
+      "isDefault": true,
+      "price": 0,
+      "materials": [
+        {
+          "material": "Clothes",
+          "color": "#101014"
+        }
+      ],
+      "meshes": [
+        {
+          "slot": "body",
+          "mesh": "abaya_long"
+        },
+        {
+          "slot": "feet",
+          "mesh": "shoes_closed"
+        }
+      ],
+      "accessories": [
+        {
+          "kind": "abaya",
+          "color": "#101014",
+          "pattern": "#C9A227"
+        },
+        {
+          "kind": "hijab",
+          "color": "#101014"
+        },
+        {
+          "kind": "embroidery",
+          "color": "#C9A227"
+        }
+      ],
+      "footwear": "closed_flats",
+      "footwearColor": "#2A2020",
+      "agalMount": "none"
+    },
+    {
+      "id": "uae_noura_bisht",
+      "country": "uae",
+      "hero": "noura",
+      "nameAr": "العباية المطرزة",
+      "nameEn": "Embroidered abaya",
+      "isDefault": false,
+      "price": 0,
+      "materials": [
+        {
+          "material": "Clothes",
+          "color": "#101014"
+        },
+        {
+          "material": "Trim",
+          "color": "#C9A227"
+        }
+      ],
+      "meshes": [
+        {
+          "slot": "body",
+          "mesh": "abaya_embroidered"
+        },
+        {
+          "slot": "feet",
+          "mesh": "shoes_closed"
+        }
+      ],
+      "accessories": [
+        {
+          "kind": "abaya",
+          "color": "#101014",
+          "pattern": "#C9A227"
+        },
+        {
+          "kind": "hijab",
+          "color": "#101014"
+        },
+        {
+          "kind": "embroidery",
+          "color": "#C9A227"
+        }
+      ],
+      "footwear": "closed_flats",
+      "footwearColor": "#2A2020",
+      "agalMount": "none"
+    }
+  ]
+}

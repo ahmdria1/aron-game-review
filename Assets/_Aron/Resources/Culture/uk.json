@@ -1,0 +1,262 @@
+{
+  "country": "uk",
+  "dialect": "en-GB",
+  "uiLanguage": "en",
+  "greeting": {
+    "words": "Hello, all right?",
+    "wordsEn": "Hello, how are you?",
+    "wordsAr": "هلا، كيف الحال؟",
+    "gesture": "handshake"
+  },
+  "hospitality": {
+    "ar": "في بريطانيا أول شي يُقدَّم للضيف كاسة شاي.",
+    "en": "In the United Kingdom, the first thing a guest gets is a glass of tea.",
+    "tr": "Birleşik Krallık misafire ilk olarak bir bardak çay ikram eder.",
+    "de": "In Großbritannien bekommt ein Gast zuerst ein Glas Tee.",
+    "ur": "برطانیہ میں مہمان کو سب سے پہلے چائے پیش کی جاتی ہے۔",
+    "hi": "ब्रिटेन में मेहमान को सबसे पहले चाय दी जाती है।",
+    "es": "En el Reino Unido, lo primero que recibe un invitado es un vaso de té.",
+    "pt": "No Reino Unido, a primeira coisa que um convidado recebe é um copo de chá.",
+    "id": "Di Britania Raya, tamu pertama-tama disuguhi segelas teh.",
+    "ms": "Di United Kingdom, tetamu mula-mula dihidangkan segelas teh.",
+    "ja": "イギリスではお客さんにまずお茶を一杯出します。",
+    "fr": "Royaume-Uni : la première chose qu'on offre à un invité, c'est un verre de thé."
+  },
+  "customs": [
+    {
+      "act": "pour_tea",
+      "en": "A cup of tea fixes everything.",
+      "ar": "كاسة شاي تصلّح كل شي."
+    },
+    {
+      "act": "wave_hello",
+      "en": "People queue politely and say sorry a lot.",
+      "ar": "الناس يوقفون في الطابور ويعتذرون كثير."
+    }
+  ],
+  "architecture": "Brick row houses, red buses, stone castles and green hills.",
+  "palette": [
+    "#012169",
+    "#C8102E",
+    "#FFFFFF",
+    "#4F7A3A"
+  ],
+  "music": {
+    "style": "Brass band and folk",
+    "instruments": [
+      "brass",
+      "fiddle",
+      "drums"
+    ]
+  },
+  "street": {
+    "vendors": [
+      "fish and chips shop",
+      "bakery"
+    ],
+    "cafe": "tea room",
+    "kidsGames": [
+      "football",
+      "conkers"
+    ],
+    "crowd": "polite, rainy-day umbrellas"
+  },
+  "foods": [
+    {
+      "id": "uk_fish_chips",
+      "local": "Fish and chips",
+      "name": {
+        "ar": "سمك وبطاطس",
+        "en": "Fish and chips",
+        "tr": "Fish and chips",
+        "de": "Fish and chips",
+        "ur": "مچھلی اور چپس",
+        "hi": "मछली और चिप्स",
+        "es": "Fish and chips",
+        "pt": "Fish and chips",
+        "id": "Fish and chips",
+        "ms": "Fish and chips",
+        "ja": "フィッシュ・アンド・チップス",
+        "fr": "Fish and chips"
+      },
+      "fact": {
+        "ar": "تُعرف غالباً بأنها الأكلة الوطنية في بريطانيا.",
+        "en": "Often called the national dish of the United Kingdom.",
+        "tr": "Genellikle Birleşik Krallık ulusal yemeği sayılır.",
+        "de": "Gilt oft als Nationalgericht von Großbritannien.",
+        "ur": "اسے اکثر برطانیہ کا قومی کھانا کہا جاتا ہے۔",
+        "hi": "इसे अक्सर ब्रिटेन का राष्ट्रीय व्यंजन कहा जाता है।",
+        "es": "Se le suele llamar el plato nacional del Reino Unido.",
+        "pt": "É muitas vezes chamado o prato nacional do Reino Unido.",
+        "id": "Sering disebut hidangan nasional Britania Raya.",
+        "ms": "Sering disebut hidangan kebangsaan United Kingdom.",
+        "ja": "イギリスの国民食とよく言われます。",
+        "fr": "Royaume-Uni : souvent appelé le plat national."
+      },
+      "shape": "plate",
+      "color": "#E8B33A",
+      "color2": "#F5EEDC",
+      "buff": "strength",
+      "price": 70
+    },
+    {
+      "id": "uk_scones",
+      "local": "Scones with cream",
+      "name": {
+        "ar": "سكونز",
+        "en": "Scones with jam and cream",
+        "tr": "Scones with cream",
+        "de": "Scones with cream",
+        "ur": "اسکونز",
+        "hi": "स्कोन्स",
+        "es": "Scones with cream",
+        "pt": "Scones with cream",
+        "id": "Scones with cream",
+        "ms": "Scones with cream",
+        "ja": "スコーン",
+        "fr": "Scones with cream"
+      },
+      "fact": {
+        "ar": "حلا محبوب في بريطانيا، أحلى مع الشاي أو القهوة.",
+        "en": "A sweet treat in the United Kingdom, best with tea or coffee.",
+        "tr": "Birleşik Krallık için tatlı bir ikram, çay ya da kahveyle en güzeli.",
+        "de": "Eine süße Leckerei in Großbritannien, am besten mit Tee oder Kaffee.",
+        "ur": "برطانیہ کی میٹھی سوغات، چائے یا کافی کے ساتھ مزیدار۔",
+        "hi": "ब्रिटेन की मीठी सौगात, चाय या कॉफ़ी के साथ सबसे अच्छी।",
+        "es": "Un dulce del Reino Unido, mejor con té o café.",
+        "pt": "Um doce do Reino Unido, melhor com chá ou café.",
+        "id": "Camilan manis di Britania Raya, paling enak dengan teh atau kopi.",
+        "ms": "Manisan di United Kingdom, paling sedap dengan teh atau kopi.",
+        "ja": "イギリスの甘いおやつ。お茶やコーヒーと一緒にどうぞ。",
+        "fr": "Royaume-Uni : une douceur, parfaite avec un thé ou un café."
+      },
+      "shape": "bun",
+      "color": "#E0B070",
+      "color2": "#C8102E",
+      "buff": "energy",
+      "price": 40
+    },
+    {
+      "id": "uk_shepherds_pie",
+      "local": "Cottage pie",
+      "name": {
+        "ar": "فطيرة اللحم والبطاطس",
+        "en": "Beef and mash pie",
+        "tr": "Cottage pie",
+        "de": "Cottage pie",
+        "ur": "گوشت اور آلو کی پائی",
+        "hi": "मांस और आलू की पाई",
+        "es": "Cottage pie",
+        "pt": "Cottage pie",
+        "id": "Cottage pie",
+        "ms": "Cottage pie",
+        "ja": "コテージパイ",
+        "fr": "Cottage pie"
+      },
+      "fact": {
+        "ar": "يتشاركونه من صحن كبير مع الأهل والضيوف في بريطانيا.",
+        "en": "Shared from one big plate with family and guests in the United Kingdom.",
+        "tr": "Birleşik Krallık için aile ve misafirlerle büyük bir tabaktan paylaşılır.",
+        "de": "In Großbritannien von einer großen Platte mit Familie und Gästen geteilt.",
+        "ur": "برطانیہ میں گھر والوں اور مہمانوں کے ساتھ ایک بڑی پلیٹ سے کھایا جاتا ہے۔",
+        "hi": "ब्रिटेन में परिवार और मेहमानों के साथ एक बड़ी थाली से खाया जाता है।",
+        "es": "Se comparte de una gran fuente con familia e invitados en el Reino Unido.",
+        "pt": "Partilha-se de uma grande travessa com família e convidados no Reino Unido.",
+        "id": "Disantap bersama dari satu piring besar dengan keluarga dan tamu di Britania Raya.",
+        "ms": "Dikongsi dari satu pinggan besar bersama keluarga dan tetamu di United Kingdom.",
+        "ja": "イギリスでは大皿から家族やお客さんと分け合います。",
+        "fr": "Royaume-Uni : partagé dans un grand plat avec la famille et les invités."
+      },
+      "shape": "cake",
+      "color": "#C8A060",
+      "color2": "#8A4A2A",
+      "buff": "strength",
+      "price": 80
+    },
+    {
+      "id": "uk_crumpets",
+      "local": "Crumpets",
+      "name": {
+        "ar": "كرمبت",
+        "en": "Crumpets",
+        "tr": "Crumpets",
+        "de": "Crumpets",
+        "ur": "کرمپٹ",
+        "hi": "क्रम्पेट",
+        "es": "Crumpets",
+        "pt": "Crumpets",
+        "id": "Crumpets",
+        "ms": "Crumpets",
+        "ja": "クランペット",
+        "fr": "Crumpets"
+      },
+      "fact": {
+        "ar": "فطور محبوب في بريطانيا.",
+        "en": "A favourite breakfast in the United Kingdom.",
+        "tr": "Birleşik Krallık için sevilen bir kahvaltı.",
+        "de": "Ein beliebtes Frühstück in Großbritannien.",
+        "ur": "برطانیہ کا پسندیدہ ناشتہ۔",
+        "hi": "ब्रिटेन का पसंदीदा नाश्ता।",
+        "es": "Un desayuno favorito en el Reino Unido.",
+        "pt": "Um pequeno-almoço favorito no Reino Unido.",
+        "id": "Sarapan favorit di Britania Raya.",
+        "ms": "Sarapan kegemaran di United Kingdom.",
+        "ja": "イギリスで人気の朝ごはんです。",
+        "fr": "Royaume-Uni : un petit-déjeuner très apprécié."
+      },
+      "shape": "bun",
+      "color": "#E0C08A",
+      "color2": "#8A5A2A",
+      "buff": "speed",
+      "price": 30
+    },
+    {
+      "id": "uk_trifle",
+      "local": "Trifle",
+      "name": {
+        "ar": "ترايفل",
+        "en": "Fruit and custard trifle",
+        "tr": "Trifle",
+        "de": "Trifle",
+        "ur": "ٹرائفل",
+        "hi": "ट्राइफ़ल",
+        "es": "Trifle",
+        "pt": "Trifle",
+        "id": "Trifle",
+        "ms": "Trifle",
+        "ja": "トライフル",
+        "fr": "Trifle"
+      },
+      "fact": {
+        "ar": "حلا محبوب في بريطانيا، أحلى مع الشاي أو القهوة.",
+        "en": "A sweet treat in the United Kingdom, best with tea or coffee.",
+        "tr": "Birleşik Krallık için tatlı bir ikram, çay ya da kahveyle en güzeli.",
+        "de": "Eine süße Leckerei in Großbritannien, am besten mit Tee oder Kaffee.",
+        "ur": "برطانیہ کی میٹھی سوغات، چائے یا کافی کے ساتھ مزیدار۔",
+        "hi": "ब्रिटेन की मीठी सौगात, चाय या कॉफ़ी के साथ सबसे अच्छी।",
+        "es": "Un dulce del Reino Unido, mejor con té o café.",
+        "pt": "Um doce do Reino Unido, melhor com chá ou café.",
+        "id": "Camilan manis di Britania Raya, paling enak dengan teh atau kopi.",
+        "ms": "Manisan di United Kingdom, paling sedap dengan teh atau kopi.",
+        "ja": "イギリスの甘いおやつ。お茶やコーヒーと一緒にどうぞ。",
+        "fr": "Royaume-Uni : une douceur, parfaite avec un thé ou un café."
+      },
+      "shape": "cup",
+      "color": "#F2D06B",
+      "color2": "#C8102E",
+      "buff": "energy",
+      "price": 45
+    }
+  ],
+  "animals": [
+    "uk_sheep",
+    "uk_fox",
+    "uk_robin"
+  ],
+  "attackTrailVfx": "drizzle",
+  "eatIdle": {
+    "dishId": "uk_fish_chips",
+    "propModel": "food_fish_chips",
+    "reaction": "crunchy"
+  }
+}

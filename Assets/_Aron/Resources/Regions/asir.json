@@ -1,0 +1,176 @@
+{
+  "order": 125,
+  "id": "asir",
+  "nameAr": "منطقة عسير",
+  "nameEn": "Asir Region",
+  "group": "saudi",
+  "country": "saudi",
+  "costume": "saudi_south",
+  "music": "music_saudi_south",
+  "ground": "#8FA36B",
+  "accent": "#C23A2B",
+  "sky": "#A9C9E2",
+  "stages": [
+    {
+      "id": "asir_1",
+      "nameAr": "أبها - المفتاحة",
+      "nameEn": "Abha - Al Muftaha",
+      "terrain": "street",
+      "landmarks": [
+        "painted_houses",
+        "terraces"
+      ],
+      "mount": "",
+      "difficulty": 2,
+      "boss": false,
+      "type": "normal",
+      "time": "day",
+      "weather": "clear",
+      "costume": "",
+      "lineAr": "المفتاحة، بيوت ملونة!",
+      "extra": ""
+    },
+    {
+      "id": "asir_2",
+      "nameAr": "السودة",
+      "nameEn": "Al Soudah",
+      "terrain": "mountain",
+      "landmarks": [
+        "mountains",
+        "terraces"
+      ],
+      "mount": "",
+      "difficulty": 3,
+      "boss": false,
+      "type": "normal",
+      "time": "day",
+      "weather": "rain",
+      "costume": "",
+      "lineAr": "السودة فوق الغيم.",
+      "extra": ""
+    },
+    {
+      "id": "asir_3",
+      "nameAr": "قرية رجال ألمع",
+      "nameEn": "Rijal Almaa Village",
+      "terrain": "mountain",
+      "landmarks": [
+        "tower_houses",
+        "terraces"
+      ],
+      "mount": "",
+      "difficulty": 3,
+      "boss": false,
+      "type": "action",
+      "time": "sunset",
+      "weather": "clear",
+      "costume": "",
+      "lineAr": "رجال ألمع، قلاع حجر وألوان.",
+      "extra": ""
+    },
+    {
+      "id": "asir_4",
+      "nameAr": "قرية الحبلة",
+      "nameEn": "Al Habala",
+      "terrain": "mountain",
+      "landmarks": [
+        "mountains"
+      ],
+      "mount": "",
+      "difficulty": 4,
+      "boss": false,
+      "type": "chase",
+      "time": "night",
+      "weather": "clear",
+      "costume": "",
+      "lineAr": "الحبلة معلقة بالجبل!",
+      "extra": ""
+    },
+    {
+      "id": "asir_5",
+      "nameAr": "سوق الثلاثاء",
+      "nameEn": "Tuesday Market, Abha",
+      "terrain": "souq",
+      "landmarks": [
+        "souq",
+        "painted_houses"
+      ],
+      "mount": "",
+      "difficulty": 4,
+      "boss": false,
+      "type": "normal",
+      "time": "night",
+      "weather": "clear",
+      "costume": "",
+      "lineAr": "سوق الثلاثاء، عسل وسمن.",
+      "extra": ""
+    },
+    {
+      "id": "asir_6",
+      "nameAr": "ساحة شيخ الضباب",
+      "nameEn": "Sheikh of the Fog",
+      "terrain": "mountain",
+      "landmarks": [
+        "mountains"
+      ],
+      "mount": "",
+      "difficulty": 5,
+      "boss": true,
+      "type": "boss",
+      "time": "sunset",
+      "weather": "rain",
+      "costume": "",
+      "lineAr": "الضباب يتحرك... فيه أحد.",
+      "extra": ""
+    }
+  ],
+  "boss": {
+    "nameAr": "شيخ الضباب",
+    "nameEn": "Sheikh of the Fog",
+    "model": "ninja",
+    "headgear": "hood",
+    "body": "#8A9BA8",
+    "trim": "#C23A2B",
+    "projectile": "#DDE6EE",
+    "scale": 1.05,
+    "health": 10,
+    "introAr": "ما تشوفني، بس أنا أشوفك.",
+    "stunAr": "آخ! راسي...",
+    "defeatAr": "انقشع الضباب...",
+    "phases": [
+      {
+        "threshold": 1.0,
+        "move": 3.5,
+        "charge": 13,
+        "interval": 2.8,
+        "attacks": [
+          "dash"
+        ],
+        "tauntAr": "وين رحت؟"
+      },
+      {
+        "threshold": 0.55,
+        "move": 4,
+        "charge": 15,
+        "interval": 2.3,
+        "attacks": [
+          "dash",
+          "volley"
+        ],
+        "tauntAr": "برد السودة!"
+      },
+      {
+        "threshold": 0.25,
+        "move": 5,
+        "charge": 17,
+        "interval": 1.9,
+        "attacks": [
+          "dash",
+          "volley",
+          "summon"
+        ],
+        "tauntAr": "يا ظلال، تعالوا!"
+      }
+    ]
+  }
+}

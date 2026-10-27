@@ -1,0 +1,217 @@
+{
+  "order": 316,
+  "id": "syria",
+  "nameAr": "سوريا",
+  "nameEn": "Syria",
+  "group": "arab",
+  "music": "music_country_syria",
+  "ground": "#D6C2A0",
+  "accent": "#CE1126",
+  "sky": "#A7C7E0",
+  "country": "syria",
+  "costume": "",
+  "stages": [
+    {
+      "id": "syria_1",
+      "nameAr": "سوق الحميدية",
+      "nameEn": "Souq Al-Hamidiyah",
+      "terrain": "souq",
+      "landmarks": [
+        "souq",
+        "gate"
+      ],
+      "mount": "",
+      "difficulty": 4,
+      "boss": false,
+      "lineAr": "الحميدية، والبوظة بالفستق!",
+      "extra": "",
+      "time": "day",
+      "weather": "clear",
+      "type": "normal",
+      "costume": ""
+    },
+    {
+      "id": "syria_2",
+      "nameAr": "باب البريد",
+      "nameEn": "Bab al-Barid Roman Columns",
+      "terrain": "street",
+      "landmarks": [
+        "gate",
+        "columns"
+      ],
+      "mount": "",
+      "difficulty": 5,
+      "boss": false,
+      "lineAr": "أعمدة قديمة عند باب البريد.",
+      "extra": "",
+      "time": "sunset",
+      "weather": "clear",
+      "type": "normal",
+      "costume": ""
+    },
+    {
+      "id": "syria_3",
+      "nameAr": "قلعة حلب",
+      "nameEn": "Aleppo Citadel",
+      "terrain": "ruins",
+      "landmarks": [
+        "fort",
+        "gate"
+      ],
+      "mount": "",
+      "difficulty": 5,
+      "boss": false,
+      "lineAr": "قلعة حلب فوق التل، الجسر طويل!",
+      "extra": "",
+      "time": "day",
+      "weather": "clear",
+      "type": "action",
+      "costume": ""
+    },
+    {
+      "id": "syria_4",
+      "nameAr": "نواعير حماة",
+      "nameEn": "Waterwheels of Hama",
+      "terrain": "river",
+      "landmarks": [
+        "waterwheel",
+        "palms"
+      ],
+      "mount": "",
+      "difficulty": 5,
+      "boss": false,
+      "lineAr": "النواعير تنوح على العاصي.",
+      "extra": "",
+      "time": "day",
+      "weather": "rain",
+      "type": "normal",
+      "costume": ""
+    },
+    {
+      "id": "syria_5",
+      "nameAr": "تدمر",
+      "nameEn": "Palmyra",
+      "terrain": "desert",
+      "landmarks": [
+        "columns",
+        "amphitheater"
+      ],
+      "mount": "camel",
+      "difficulty": 6,
+      "boss": false,
+      "lineAr": "أعمدة تدمر في وسط البادية، والغبار جاي.",
+      "extra": "",
+      "time": "day",
+      "weather": "sandstorm",
+      "type": "chase",
+      "costume": ""
+    },
+    {
+      "id": "syria_6",
+      "nameAr": "قلعة الحصن",
+      "nameEn": "Krak des Chevaliers",
+      "terrain": "mountain",
+      "landmarks": [
+        "fort",
+        "mountains"
+      ],
+      "mount": "horse",
+      "difficulty": 6,
+      "boss": false,
+      "lineAr": "على الخيل لقلعة الحصن!",
+      "extra": "",
+      "time": "sunset",
+      "weather": "clear",
+      "type": "normal",
+      "costume": ""
+    },
+    {
+      "id": "syria_race",
+      "nameAr": "سباق الخيل العربية",
+      "nameEn": "Arabian Horse Race",
+      "terrain": "oasis",
+      "landmarks": [
+        "waterwheel",
+        "columns"
+      ],
+      "mount": "",
+      "difficulty": 6,
+      "boss": false,
+      "lineAr": "سباق! سباق الخيل العربية، يلا نشوف مين الأول!",
+      "extra": "",
+      "time": "sunset",
+      "weather": "clear",
+      "type": "race",
+      "costume": "",
+      "race": "syria_horse"
+    },
+    {
+      "id": "syria_7",
+      "nameAr": "جبل قاسيون",
+      "nameEn": "Mount Qasioun",
+      "terrain": "mountain",
+      "landmarks": [
+        "mountains",
+        "monument"
+      ],
+      "mount": "",
+      "difficulty": 7,
+      "boss": true,
+      "lineAr": "الشام كلها تنور تحت... ومارد قاسيون هنا.",
+      "extra": "",
+      "time": "night",
+      "weather": "clear",
+      "type": "boss",
+      "costume": ""
+    }
+  ],
+  "boss": {
+    "nameAr": "مارد قاسيون",
+    "nameEn": "The Qasioun Marid",
+    "model": "marid",
+    "headgear": "fez",
+    "body": "#5A2E2E",
+    "trim": "#E3C77A",
+    "projectile": "#F28C28",
+    "scale": 1.35,
+    "health": 14,
+    "introAr": "من فوق قاسيون أشوف كل شي، وما راح تنزل!",
+    "stunAr": "الجبل يدور فيني!",
+    "defeatAr": "نزلت عن الجبل... الشام لك.",
+    "phases": [
+      {
+        "threshold": 1.0,
+        "move": 3.5,
+        "charge": 13,
+        "interval": 2.9,
+        "attacks": [
+          "dash"
+        ],
+        "tauntAr": "سرعتي مثل الريح!"
+      },
+      {
+        "threshold": 0.66,
+        "move": 4,
+        "charge": 14,
+        "interval": 2.5,
+        "attacks": [
+          "dash",
+          "summon"
+        ],
+        "tauntAr": "يا رجالي!"
+      },
+      {
+        "threshold": 0.33,
+        "move": 5,
+        "charge": 16,
+        "interval": 2.0,
+        "attacks": [
+          "dash",
+          "wave",
+          "volley"
+        ],
+        "tauntAr": "خذ هذي وهذي!"
+      }
+    ]
+  }
+}

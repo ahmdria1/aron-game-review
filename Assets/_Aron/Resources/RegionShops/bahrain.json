@@ -1,0 +1,20 @@
+{
+  "region": "bahrain",
+  "shops": [
+    {
+      "stage": "bahrain_1",
+      "nameAr": "حلوى أبو يوسف",
+      "kind": "sweets"
+    },
+    {
+      "stage": "bahrain_2",
+      "nameAr": "بقالة الحاج جاسم",
+      "kind": "grocery"
+    },
+    {
+      "stage": "bahrain_3",
+      "nameAr": "مقهى الطواويش",
+      "kind": "cafe"
+    }
+  ]
+}

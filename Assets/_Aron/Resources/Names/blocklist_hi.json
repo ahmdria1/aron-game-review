@@ -1,0 +1,118 @@
+{
+  "lang": "hi",
+  "profanity": {
+    "terms": [
+      "madarchod",
+      "behenchod",
+      "bhenchod",
+      "bhosdike",
+      "bhosdi",
+      "chutiya",
+      "chutiye",
+      "gandu",
+      "haramzada",
+      "lauda",
+      "kutte",
+      "kamina",
+      "kameena",
+      "bhosda",
+      "randi",
+      "raand",
+      "chodu"
+    ],
+    "words": [
+      "lund",
+      "gaand",
+      "harami",
+      "kutta",
+      "kutti",
+      "saala",
+      "chod",
+      "bkl",
+      "bsdk"
+    ],
+    "exact": [
+      "lund",
+      "gaand"
+    ]
+  },
+  "insult": {
+    "terms": [
+      "bewakoof",
+      "nalayak",
+      "kameena",
+      "kamina",
+      "ullukapatha",
+      "pagal",
+      "gadhe"
+    ],
+    "words": [
+      "bewakoof",
+      "gadha",
+      "ullu"
+    ],
+    "exact": [
+      "gadha",
+      "ullu"
+    ]
+  },
+  "hate": {
+    "terms": [
+      "katua",
+      "katwa",
+      "chamar",
+      "bhangi",
+      "mullah katua",
+      "pakistani dog"
+    ],
+    "words": [
+      "katua",
+      "katwa",
+      "chamar",
+      "bhangi",
+      "kangal"
+    ],
+    "exact": [
+      "chamar"
+    ]
+  },
+  "sexual": {
+    "terms": [
+      "chudai",
+      "nangi",
+      "balatkar",
+      "porn",
+      "sexy video",
+      "bhabhi sex",
+      "rape"
+    ],
+    "words": [
+      "chudai",
+      "nangi",
+      "balatkar",
+      "sex",
+      "porn",
+      "randi"
+    ],
+    "exact": [
+      "sex"
+    ]
+  },
+  "figures": {
+    "terms": [
+      "narendramodi",
+      "rahulgandhi",
+      "amitshah",
+      "yogiadityanath",
+      "hitler"
+    ],
+    "words": [
+      "bhagwan",
+      "ishwar"
+    ],
+    "exact": [
+      "bhagwan",
+      "khuda"
+    ]
+  }
+}

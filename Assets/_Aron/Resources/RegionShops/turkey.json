@@ -1,0 +1,15 @@
+{
+  "region": "turkey",
+  "shops": [
+    {
+      "stage": "turkey_1",
+      "nameAr": "سجاد البازار",
+      "kind": "fabric"
+    },
+    {
+      "stage": "turkey_2",
+      "nameAr": "سميط العبّارة",
+      "kind": "bakery"
+    }
+  ]
+}

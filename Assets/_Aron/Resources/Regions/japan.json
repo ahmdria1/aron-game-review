@@ -1,0 +1,237 @@
+{
+  "order": 444,
+  "id": "japan",
+  "nameAr": "اليابان",
+  "nameEn": "Japan",
+  "group": "world",
+  "music": "music_country_japan",
+  "ground": "#8FA870",
+  "accent": "#BC002D",
+  "sky": "#B4D4EE",
+  "country": "japan",
+  "costume": "",
+  "stages": [
+    {
+      "id": "japan_1",
+      "nameAr": "شارع الأنوار",
+      "nameEn": "Neon Street",
+      "terrain": "street",
+      "landmarks": [
+        "skyscraper",
+        "row_houses"
+      ],
+      "mount": "",
+      "difficulty": 3,
+      "boss": false,
+      "lineAr": "أنوار بكل لون والقطار فوق!",
+      "extra": "",
+      "time": "night",
+      "weather": "rain",
+      "type": "normal",
+      "costume": ""
+    },
+    {
+      "id": "japan_2",
+      "nameAr": "غابة الخيزران",
+      "nameEn": "Bamboo Grove",
+      "terrain": "forest",
+      "landmarks": [
+        "bamboo_forest",
+        "mountains"
+      ],
+      "mount": "",
+      "difficulty": 4,
+      "boss": false,
+      "lineAr": "الخيزران يطقطق مع الريح.",
+      "extra": "",
+      "time": "day",
+      "weather": "clear",
+      "type": "chase",
+      "costume": ""
+    },
+    {
+      "id": "japan_3",
+      "nameAr": "أشجار الكرز",
+      "nameEn": "Cherry Blossom Park",
+      "terrain": "river",
+      "landmarks": [
+        "cherry_trees",
+        "big_arch"
+      ],
+      "mount": "",
+      "difficulty": 5,
+      "boss": false,
+      "lineAr": "ورد وردي يطير في الهوا!",
+      "extra": "",
+      "time": "day",
+      "weather": "clear",
+      "type": "normal",
+      "costume": ""
+    },
+    {
+      "id": "japan_4",
+      "nameAr": "الجبل المثلج",
+      "nameEn": "The Snowy Peak",
+      "terrain": "mountain",
+      "landmarks": [
+        "snow_peaks",
+        "lake"
+      ],
+      "mount": "",
+      "difficulty": 6,
+      "boss": false,
+      "lineAr": "جبل أبيض فوق البحيرة.",
+      "extra": "",
+      "time": "sunset",
+      "weather": "clear",
+      "type": "action",
+      "costume": ""
+    },
+    {
+      "id": "japan_5",
+      "nameAr": "قرية الأسقف القشية",
+      "nameEn": "Thatched Village",
+      "terrain": "mountain",
+      "landmarks": [
+        "tile_houses",
+        "waterwheel"
+      ],
+      "mount": "",
+      "difficulty": 7,
+      "boss": false,
+      "lineAr": "بيوت سقوفها من قش.",
+      "extra": "",
+      "time": "day",
+      "weather": "rain",
+      "type": "normal",
+      "costume": ""
+    },
+    {
+      "id": "japan_6",
+      "nameAr": "قلعة الساموراي",
+      "nameEn": "The White Castle",
+      "terrain": "ruins",
+      "landmarks": [
+        "fairytale_castle",
+        "cherry_trees"
+      ],
+      "mount": "",
+      "difficulty": 8,
+      "boss": false,
+      "lineAr": "قلعة بيضاء مثل الطير.",
+      "extra": "",
+      "time": "sunset",
+      "weather": "clear",
+      "type": "chase",
+      "costume": ""
+    },
+    {
+      "id": "japan_race",
+      "nameAr": "سباق التزلج الجبلي",
+      "nameEn": "Mountain Ski Race",
+      "terrain": "mountain",
+      "landmarks": [
+        "snow_peaks",
+        "lake"
+      ],
+      "mount": "",
+      "difficulty": 8,
+      "boss": false,
+      "lineAr": "سباق! سباق التزلج الجبلي، يلا نشوف مين الأول!",
+      "extra": "",
+      "time": "day",
+      "weather": "clear",
+      "type": "race",
+      "costume": "",
+      "race": "japan_ski"
+    },
+    {
+      "id": "japan_7",
+      "nameAr": "سطوح القلعة",
+      "nameEn": "Castle Rooftops",
+      "terrain": "ruins",
+      "landmarks": [
+        "fairytale_castle",
+        "snow_peaks"
+      ],
+      "mount": "",
+      "difficulty": 10,
+      "boss": true,
+      "lineAr": "نينجا الضباب فوق السطوح!",
+      "extra": "",
+      "time": "night",
+      "weather": "clear",
+      "type": "boss",
+      "costume": ""
+    }
+  ],
+  "skyline": [
+    "castle_keep",
+    "snow_mountain",
+    "bamboo_grove",
+    "red_wooden_bridge"
+  ],
+  "boss": {
+    "nameAr": "نينجا الضباب",
+    "nameEn": "The Mist Ninja",
+    "model": "ninja",
+    "headgear": "hood",
+    "body": "#2A2A3A",
+    "trim": "#BC002D",
+    "projectile": "#C9E4FF",
+    "scale": 1.24,
+    "health": 18,
+    "introAr": "ما تشوفني!",
+    "stunAr": "انكشفت!",
+    "defeatAr": "تمام... اليابان لك.",
+    "phases": [
+      {
+        "threshold": 1.0,
+        "move": 4.0,
+        "charge": 14.0,
+        "interval": 2.8,
+        "attacks": [
+          "charge",
+          "summon",
+          "volley"
+        ],
+        "tauntAr": "ظل وراك!"
+      },
+      {
+        "threshold": 0.75,
+        "move": 4.6,
+        "charge": 15.5,
+        "interval": 2.4,
+        "attacks": [
+          "wave",
+          "volley"
+        ],
+        "tauntAr": "نجوم تطير!"
+      },
+      {
+        "threshold": 0.5,
+        "move": 5.2,
+        "charge": 17.0,
+        "interval": 2.0,
+        "attacks": [
+          "charge",
+          "wave",
+          "leap"
+        ],
+        "tauntAr": "سريع مثل الريح!"
+      },
+      {
+        "threshold": 0.25,
+        "move": 5.8,
+        "charge": 18.5,
+        "interval": 1.6,
+        "attacks": [
+          "summon",
+          "volley",
+          "leap"
+        ],
+        "tauntAr": "كل الظلال!"
+      }
+    ]
+  }
+}

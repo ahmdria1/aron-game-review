@@ -1,0 +1,82 @@
+{
+  "country": "egypt",
+  "costumes": [
+    {
+      "id": "egypt_galabeya",
+      "country": "egypt",
+      "hero": "aron",
+      "nameAr": "الجلابية والعمة",
+      "nameEn": "Galabeya and imma",
+      "isDefault": true,
+      "price": 0,
+      "materials": [
+        {
+          "material": "Clothes",
+          "color": "#D9CFB8"
+        },
+        {
+          "material": "Trim",
+          "color": "#B9AD92"
+        }
+      ],
+      "meshes": [
+        {
+          "slot": "body",
+          "mesh": "galabeya_wide"
+        },
+        {
+          "slot": "feet",
+          "mesh": "shoes_closed"
+        }
+      ],
+      "accessories": [
+        {
+          "kind": "turban",
+          "color": "#FFFFFF"
+        }
+      ],
+      "footwear": "leather_shoes",
+      "footwearColor": "#5A3A22",
+      "agalMount": "wrist"
+    },
+    {
+      "id": "egypt_noura",
+      "country": "egypt",
+      "hero": "noura",
+      "nameAr": "العباية المصرية",
+      "nameEn": "Egyptian abaya",
+      "isDefault": true,
+      "price": 0,
+      "materials": [
+        {
+          "material": "Clothes",
+          "color": "#18181C"
+        }
+      ],
+      "meshes": [
+        {
+          "slot": "body",
+          "mesh": "abaya_long"
+        },
+        {
+          "slot": "feet",
+          "mesh": "shoes_closed"
+        }
+      ],
+      "accessories": [
+        {
+          "kind": "abaya",
+          "color": "#18181C",
+          "pattern": "#2E6DB4"
+        },
+        {
+          "kind": "hijab",
+          "color": "#2E2E38"
+        }
+      ],
+      "footwear": "closed_flats",
+      "footwearColor": "#2A2020",
+      "agalMount": "none"
+    }
+  ]
+}

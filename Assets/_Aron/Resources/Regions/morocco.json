@@ -1,0 +1,252 @@
+{
+  "order": 388,
+  "id": "morocco",
+  "nameAr": "المغرب",
+  "nameEn": "Morocco",
+  "group": "arab",
+  "music": "music_country_morocco",
+  "ground": "#D69C6B",
+  "accent": "#C1272D",
+  "sky": "#A9CFEB",
+  "country": "morocco",
+  "costume": "",
+  "stages": [
+    {
+      "id": "morocco_1",
+      "nameAr": "ساحة جامع الفنا",
+      "nameEn": "Jemaa el-Fnaa",
+      "terrain": "souq",
+      "landmarks": [
+        "souq",
+        "fountain"
+      ],
+      "mount": "",
+      "difficulty": 8,
+      "boss": false,
+      "lineAr": "جامع الفنا! حكواتية وعصير برتقال.",
+      "extra": "",
+      "time": "night",
+      "weather": "clear",
+      "type": "chase",
+      "costume": ""
+    },
+    {
+      "id": "morocco_2",
+      "nameAr": "الكتبية وسوق السمارين",
+      "nameEn": "Koutoubia and Souq Semmarine",
+      "terrain": "street",
+      "landmarks": [
+        "monument",
+        "souq"
+      ],
+      "mount": "",
+      "difficulty": 9,
+      "boss": false,
+      "lineAr": "صومعة الكتبية تشوفها من كل مكان.",
+      "extra": "",
+      "time": "day",
+      "weather": "clear",
+      "type": "normal",
+      "costume": ""
+    },
+    {
+      "id": "morocco_3",
+      "nameAr": "فاس البالي - باب بوجلود",
+      "nameEn": "Fes el-Bali - Bab Boujloud",
+      "terrain": "souq",
+      "landmarks": [
+        "gate",
+        "souq"
+      ],
+      "mount": "",
+      "difficulty": 9,
+      "boss": false,
+      "lineAr": "باب بوجلود الأزرق، وأزقة فاس متاهة!",
+      "extra": "",
+      "time": "day",
+      "weather": "clear",
+      "type": "action",
+      "costume": ""
+    },
+    {
+      "id": "morocco_4",
+      "nameAr": "شفشاون",
+      "nameEn": "Chefchaouen",
+      "terrain": "mountain",
+      "landmarks": [
+        "blue_town",
+        "mountains"
+      ],
+      "mount": "",
+      "difficulty": 9,
+      "boss": false,
+      "lineAr": "المدينة الزرقاء، والمطر نازل على الدروج.",
+      "extra": "",
+      "time": "sunset",
+      "weather": "rain",
+      "type": "normal",
+      "costume": ""
+    },
+    {
+      "id": "morocco_5",
+      "nameAr": "آيت بن حدو",
+      "nameEn": "Ait Benhaddou",
+      "terrain": "mountain",
+      "landmarks": [
+        "mud_town",
+        "mountains"
+      ],
+      "mount": "horse",
+      "difficulty": 9,
+      "boss": false,
+      "lineAr": "قصبة من طين تحت الأطلس، يلا يا حصان!",
+      "extra": "",
+      "time": "day",
+      "weather": "clear",
+      "type": "normal",
+      "costume": ""
+    },
+    {
+      "id": "morocco_6",
+      "nameAr": "عرق الشبي - مرزوكة",
+      "nameEn": "Erg Chebbi - Merzouga",
+      "terrain": "desert",
+      "landmarks": [
+        "dunes",
+        "tents"
+      ],
+      "mount": "camel",
+      "difficulty": 10,
+      "boss": false,
+      "lineAr": "كثبان مرزوكة الحمراء، والشركي هب!",
+      "extra": "",
+      "time": "sunset",
+      "weather": "sandstorm",
+      "type": "chase",
+      "costume": ""
+    },
+    {
+      "id": "morocco_7",
+      "nameAr": "الصويرة",
+      "nameEn": "Essaouira",
+      "terrain": "coast",
+      "landmarks": [
+        "fort",
+        "dhows"
+      ],
+      "mount": "",
+      "difficulty": 10,
+      "boss": false,
+      "lineAr": "الصويرة والنوارس والريح.",
+      "extra": "",
+      "time": "day",
+      "weather": "clear",
+      "type": "normal",
+      "costume": ""
+    },
+    {
+      "id": "morocco_race",
+      "nameAr": "سباق التبوريدة",
+      "nameEn": "Tbourida Horse Race",
+      "terrain": "desert",
+      "landmarks": [
+        "fort",
+        "palms"
+      ],
+      "mount": "",
+      "difficulty": 10,
+      "boss": false,
+      "lineAr": "سباق! سباق التبوريدة، يلا نشوف مين الأول!",
+      "extra": "",
+      "time": "sunset",
+      "weather": "clear",
+      "type": "race",
+      "costume": "",
+      "race": "morocco_horse"
+    },
+    {
+      "id": "morocco_8",
+      "nameAr": "صومعة حسان",
+      "nameEn": "Hassan Tower",
+      "terrain": "ruins",
+      "landmarks": [
+        "monument",
+        "columns"
+      ],
+      "mount": "",
+      "difficulty": 10,
+      "boss": true,
+      "lineAr": "غول الأطلس عند صومعة حسان... آخر واحد!",
+      "extra": "",
+      "time": "night",
+      "weather": "clear",
+      "type": "boss",
+      "costume": ""
+    }
+  ],
+  "boss": {
+    "nameAr": "غول الأطلس",
+    "nameEn": "The Atlas Ghoul",
+    "model": "ghoul",
+    "headgear": "crown",
+    "body": "#3E2C5C",
+    "trim": "#E8B04A",
+    "projectile": "#C04BFF",
+    "scale": 1.45,
+    "health": 20,
+    "introAr": "من الأطلس للمحيط، كل شي تحت يدي!",
+    "stunAr": "واش هذا؟ كلشي كيدور!",
+    "defeatAr": "صافي... المغرب ديالك يا بطل.",
+    "phases": [
+      {
+        "threshold": 1.0,
+        "move": 4,
+        "charge": 14,
+        "interval": 2.6,
+        "attacks": [
+          "dash",
+          "wave"
+        ],
+        "tauntAr": "الريح معي!"
+      },
+      {
+        "threshold": 0.75,
+        "move": 4.5,
+        "charge": 15,
+        "interval": 2.3,
+        "attacks": [
+          "volley",
+          "leap",
+          "summon"
+        ],
+        "tauntAr": "يا غيلان الجبل!"
+      },
+      {
+        "threshold": 0.5,
+        "move": 5,
+        "charge": 17,
+        "interval": 1.9,
+        "attacks": [
+          "charge",
+          "dash",
+          "leap"
+        ],
+        "tauntAr": "ما كاين هروب!"
+      },
+      {
+        "threshold": 0.25,
+        "move": 6,
+        "charge": 19,
+        "interval": 1.5,
+        "attacks": [
+          "charge",
+          "dash",
+          "leap",
+          "volley",
+          "wave"
+        ],
+        "tauntAr": "كلشي دفعة وحدة!"
+      }
+    ]
+  }
+}

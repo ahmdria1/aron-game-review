@@ -1,0 +1,13 @@
+{
+  "idleSway": 0.02, "maxSway": 0.3, "swayCurve": 1.3, "maxTotalSway": 0.4,
+  "sandstormBoost": 1.3, "rainBoost": 1.12,
+  "freqCalm": 0.45, "freqWindy": 1.25,
+  "flutterIdle": 0.008, "flutterMax": 0.07, "flutterFreqCalm": 3.5, "flutterFreqWindy": 8.5,
+  "gustMinWind": 0.2, "gustShare": 0.6,
+  "weightCurve": 1.5,
+  "rustleMinWind": 0.06, "rustleMaxVolume": 1.0, "rustleCurve": 0.8, "fullVolumeDistance": 3.0, "audibleDistance": 24.0,
+  "pitchCalm": 0.88, "pitchWindy": 1.22,
+  "creakMinGust": 0.5, "creakRate": 0.35, "creakGapMin": 3.5, "creakGapMax": 9.0, "creakMaxDistance": 18.0, "creakVolume": 0.7,
+  "layerMidAt": 0.38, "layerStrongAt": 0.72, "layerBlend": 0.2,
+  "gustSoundMinGust": 0.55, "gustSoundRate": 0.25, "gustSoundGapMin": 6.0, "gustSoundGapMax": 16.0, "gustSoundMaxDistance": 30.0, "gustSoundVolume": 0.6
+}

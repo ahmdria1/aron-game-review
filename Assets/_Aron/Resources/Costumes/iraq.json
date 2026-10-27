@@ -1,0 +1,83 @@
+{
+  "country": "iraq",
+  "costumes": [
+    {
+      "id": "iraq_dishdasha",
+      "country": "iraq",
+      "hero": "aron",
+      "nameAr": "الدشداشة واليشماغ",
+      "nameEn": "Dishdasha and yashmagh",
+      "isDefault": true,
+      "price": 0,
+      "materials": [
+        {
+          "material": "Clothes",
+          "color": "#EFEBE0"
+        }
+      ],
+      "meshes": [
+        {
+          "slot": "body",
+          "mesh": "thobe_long"
+        },
+        {
+          "slot": "feet",
+          "mesh": "shoes_closed"
+        }
+      ],
+      "accessories": [
+        {
+          "kind": "yashmagh",
+          "color": "#FFFFFF",
+          "pattern": "#151515"
+        },
+        {
+          "kind": "agal",
+          "color": "#111111"
+        }
+      ],
+      "footwear": "leather_shoes",
+      "footwearColor": "#5A3A22",
+      "agalMount": "head"
+    },
+    {
+      "id": "iraq_noura",
+      "country": "iraq",
+      "hero": "noura",
+      "nameAr": "العباءة العراقية",
+      "nameEn": "Iraqi abaya",
+      "isDefault": true,
+      "price": 0,
+      "materials": [
+        {
+          "material": "Clothes",
+          "color": "#111114"
+        }
+      ],
+      "meshes": [
+        {
+          "slot": "body",
+          "mesh": "abaya_long"
+        },
+        {
+          "slot": "feet",
+          "mesh": "shoes_closed"
+        }
+      ],
+      "accessories": [
+        {
+          "kind": "abaya",
+          "color": "#111114",
+          "pattern": "#6A4C93"
+        },
+        {
+          "kind": "hijab",
+          "color": "#111114"
+        }
+      ],
+      "footwear": "closed_flats",
+      "footwearColor": "#2A2020",
+      "agalMount": "none"
+    }
+  ]
+}

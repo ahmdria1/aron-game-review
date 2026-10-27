@@ -1,0 +1,91 @@
+{
+  "country": "libya",
+  "costumes": [
+    {
+      "id": "libya_jard",
+      "country": "libya",
+      "hero": "aron",
+      "nameAr": "الجرد والشنة",
+      "nameEn": "Jard and chechia",
+      "isDefault": true,
+      "price": 0,
+      "materials": [
+        {
+          "material": "Clothes",
+          "color": "#F0ECE2"
+        }
+      ],
+      "meshes": [
+        {
+          "slot": "body",
+          "mesh": "thobe_long"
+        },
+        {
+          "slot": "feet",
+          "mesh": "shoes_closed"
+        }
+      ],
+      "accessories": [
+        {
+          "kind": "chechia",
+          "color": "#7A1E22"
+        },
+        {
+          "kind": "jard",
+          "color": "#F6F2E8"
+        },
+        {
+          "kind": "vest",
+          "color": "#2A2A2E",
+          "pattern": "#C9A14A"
+        }
+      ],
+      "footwear": "leather_shoes",
+      "footwearColor": "#5A3A22",
+      "agalMount": "wrist"
+    },
+    {
+      "id": "libya_noura",
+      "country": "libya",
+      "hero": "noura",
+      "nameAr": "الفراشية الليبية",
+      "nameEn": "Libyan farrashiya",
+      "isDefault": true,
+      "price": 0,
+      "materials": [
+        {
+          "material": "Clothes",
+          "color": "#F3EFE6"
+        }
+      ],
+      "meshes": [
+        {
+          "slot": "body",
+          "mesh": "abaya_long"
+        },
+        {
+          "slot": "feet",
+          "mesh": "shoes_closed"
+        }
+      ],
+      "accessories": [
+        {
+          "kind": "abaya",
+          "color": "#F3EFE6",
+          "pattern": "#C9A14A"
+        },
+        {
+          "kind": "hijab",
+          "color": "#F3EFE6"
+        },
+        {
+          "kind": "shawl",
+          "color": "#F3EFE6"
+        }
+      ],
+      "footwear": "closed_flats",
+      "footwearColor": "#2A2020",
+      "agalMount": "none"
+    }
+  ]
+}

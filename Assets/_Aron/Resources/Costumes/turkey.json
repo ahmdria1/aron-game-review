@@ -1,0 +1,98 @@
+{
+  "country": "turkey",
+  "costumes": [
+    {
+      "id": "turkey_traditional",
+      "country": "turkey",
+      "hero": "aron",
+      "nameAr": "الطربوش والصدرية",
+      "nameEn": "Fez and vest",
+      "isDefault": true,
+      "price": 0,
+      "materials": [
+        {
+          "material": "Clothes",
+          "color": "#F4F0E8"
+        },
+        {
+          "material": "Trim",
+          "color": "#C9A86A"
+        }
+      ],
+      "meshes": [
+        {
+          "slot": "feet",
+          "mesh": "shoes_closed"
+        }
+      ],
+      "accessories": [
+        {
+          "kind": "fez",
+          "color": "#B3202A"
+        },
+        {
+          "kind": "vest",
+          "color": "#1C2E5A",
+          "pattern": "#E8C14A"
+        },
+        {
+          "kind": "shalwar",
+          "color": "#2A2A3A"
+        }
+      ],
+      "footwear": "leather_shoes",
+      "footwearColor": "#5A3A22",
+      "agalMount": "wrist",
+      "boredIdle": {
+        "id": "turkey_simit_toss",
+        "trigger": 26,
+        "noteEn": "Tosses a simit and catches it on his wrist",
+        "lineAr": "سميط على الطاير!",
+        "seconds": 3
+      }
+    },
+    {
+      "id": "turkey_noura",
+      "country": "turkey",
+      "hero": "noura",
+      "nameAr": "العباية المطرزة",
+      "nameEn": "Embroidered abaya",
+      "isDefault": true,
+      "price": 0,
+      "materials": [
+        {
+          "material": "Clothes",
+          "color": "#1C2E5A"
+        }
+      ],
+      "meshes": [
+        {
+          "slot": "body",
+          "mesh": "abaya_long"
+        },
+        {
+          "slot": "feet",
+          "mesh": "shoes_closed"
+        }
+      ],
+      "accessories": [
+        {
+          "kind": "abaya",
+          "color": "#1C2E5A",
+          "pattern": "#C9A86A"
+        },
+        {
+          "kind": "hijab",
+          "color": "#E30A17"
+        },
+        {
+          "kind": "embroidery",
+          "color": "#E8C14A"
+        }
+      ],
+      "footwear": "closed_flats",
+      "footwearColor": "#2A2020",
+      "agalMount": "none"
+    }
+  ]
+}

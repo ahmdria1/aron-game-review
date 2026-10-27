@@ -1,0 +1,8 @@
+{
+  "heroes": [
+    {"id": "aron", "nameAr": "أرون", "speed": 1.0, "radius": 0.4, "jumps": 2, "glideTime": 0, "glideFall": 0,
+     "opensLocks": false, "seesSecrets": false, "weapon": "agal", "throwRange": 0, "throwTime": 0.9, "companion": "falcon", "rollsSleeves": true},
+    {"id": "noura", "nameAr": "نورة", "speed": 1.12, "radius": 0.3, "jumps": 2, "glideTime": 0.9, "glideFall": 1.6,
+     "opensLocks": true, "seesSecrets": true, "weapon": "handbag", "throwRange": 7, "throwTime": 0.9, "companion": "oryx", "rollsSleeves": false}
+  ]
+}

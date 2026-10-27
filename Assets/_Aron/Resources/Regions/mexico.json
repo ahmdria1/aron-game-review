@@ -1,0 +1,232 @@
+{
+  "order": 452,
+  "id": "mexico",
+  "nameAr": "المكسيك",
+  "nameEn": "Mexico",
+  "group": "world",
+  "music": "music_country_mexico",
+  "ground": "#C89A5A",
+  "accent": "#006847",
+  "sky": "#9CCDF0",
+  "country": "mexico",
+  "costume": "",
+  "stages": [
+    {
+      "id": "mexico_1",
+      "nameAr": "ساحة الألوان",
+      "nameEn": "The Colour Plaza",
+      "terrain": "street",
+      "landmarks": [
+        "colour_plaza",
+        "fountain"
+      ],
+      "mount": "",
+      "difficulty": 3,
+      "boss": false,
+      "lineAr": "بيوت بكل الألوان!",
+      "extra": "",
+      "time": "day",
+      "weather": "clear",
+      "type": "normal",
+      "costume": ""
+    },
+    {
+      "id": "mexico_2",
+      "nameAr": "الهرم المدرّج",
+      "nameEn": "Step Pyramid",
+      "terrain": "ruins",
+      "landmarks": [
+        "step_pyramid",
+        "columns"
+      ],
+      "mount": "",
+      "difficulty": 4,
+      "boss": false,
+      "lineAr": "هرم حجري بدرج طويل.",
+      "extra": "",
+      "time": "sunset",
+      "weather": "clear",
+      "type": "chase",
+      "costume": ""
+    },
+    {
+      "id": "mexico_3",
+      "nameAr": "صحراء الصبار",
+      "nameEn": "Cactus Desert",
+      "terrain": "desert",
+      "landmarks": [
+        "lone_tree",
+        "canyon"
+      ],
+      "mount": "horse",
+      "difficulty": 5,
+      "boss": false,
+      "lineAr": "صبار أطول منك!",
+      "extra": "",
+      "time": "day",
+      "weather": "sandstorm",
+      "type": "action",
+      "costume": ""
+    },
+    {
+      "id": "mexico_4",
+      "nameAr": "القنوات العائمة",
+      "nameEn": "Floating Gardens",
+      "terrain": "river",
+      "landmarks": [
+        "houseboat",
+        "fountain"
+      ],
+      "mount": "",
+      "difficulty": 6,
+      "boss": false,
+      "lineAr": "قوارب ملونة بين الورد.",
+      "extra": "",
+      "time": "day",
+      "weather": "clear",
+      "type": "normal",
+      "costume": ""
+    },
+    {
+      "id": "mexico_5",
+      "nameAr": "الغابة الاستوائية",
+      "nameEn": "Jungle Ruins",
+      "terrain": "forest",
+      "landmarks": [
+        "rainforest",
+        "step_pyramid"
+      ],
+      "mount": "",
+      "difficulty": 7,
+      "boss": false,
+      "lineAr": "أطلال بين الأشجار والمطر.",
+      "extra": "",
+      "time": "sunset",
+      "weather": "rain",
+      "type": "chase",
+      "costume": ""
+    },
+    {
+      "id": "mexico_6",
+      "nameAr": "شاطئ الكاريبي",
+      "nameEn": "Caribbean Beach",
+      "terrain": "coast",
+      "landmarks": [
+        "palms",
+        "sea_cliffs"
+      ],
+      "mount": "",
+      "difficulty": 8,
+      "boss": false,
+      "lineAr": "بحر فيروزي ورمل أبيض.",
+      "extra": "",
+      "time": "night",
+      "weather": "clear",
+      "type": "normal",
+      "costume": ""
+    },
+    {
+      "id": "mexico_race",
+      "nameAr": "سباق الخيل الريفي",
+      "nameEn": "Charro Horse Race",
+      "terrain": "desert",
+      "landmarks": [
+        "lone_tree",
+        "canyon"
+      ],
+      "mount": "",
+      "difficulty": 8,
+      "boss": false,
+      "lineAr": "سباق! سباق الخيل الريفي، يلا نشوف مين الأول!",
+      "extra": "",
+      "time": "sunset",
+      "weather": "clear",
+      "type": "race",
+      "costume": "",
+      "race": "mexico_horse"
+    },
+    {
+      "id": "mexico_7",
+      "nameAr": "الحلبة الكبرى",
+      "nameEn": "The Great Ring",
+      "terrain": "street",
+      "landmarks": [
+        "colour_plaza",
+        "step_pyramid"
+      ],
+      "mount": "",
+      "difficulty": 10,
+      "boss": true,
+      "lineAr": "مصارع الأقنعة ينتظرك في الحلبة!",
+      "extra": "",
+      "time": "night",
+      "weather": "clear",
+      "type": "boss",
+      "costume": ""
+    }
+  ],
+  "skyline": [],
+  "boss": {
+    "nameAr": "مصارع الأقنعة",
+    "nameEn": "The Masked Wrestler",
+    "model": "soldier",
+    "headgear": "none",
+    "body": "#2A6E4A",
+    "trim": "#CE1126",
+    "projectile": "#F2A13A",
+    "scale": 1.28,
+    "health": 18,
+    "introAr": "ما أحد يغلبني!",
+    "stunAr": "انفك قناعي!",
+    "defeatAr": "طيب... المكسيك لك.",
+    "phases": [
+      {
+        "threshold": 1.0,
+        "move": 4.0,
+        "charge": 14.0,
+        "interval": 2.8,
+        "attacks": [
+          "summon",
+          "leap",
+          "dash"
+        ],
+        "tauntAr": "قفزة من الحبال!"
+      },
+      {
+        "threshold": 0.75,
+        "move": 4.6,
+        "charge": 15.5,
+        "interval": 2.4,
+        "attacks": [
+          "leap",
+          "dash"
+        ],
+        "tauntAr": "قناعي يلمع!"
+      },
+      {
+        "threshold": 0.5,
+        "move": 5.2,
+        "charge": 17.0,
+        "interval": 2.0,
+        "attacks": [
+          "wave",
+          "summon",
+          "dash"
+        ],
+        "tauntAr": "الحلبة لي!"
+      },
+      {
+        "threshold": 0.25,
+        "move": 5.8,
+        "charge": 18.5,
+        "interval": 1.6,
+        "attacks": [
+          "charge",
+          "wave",
+          "summon"
+        ],
+        "tauntAr": "كل الجمهور معي!"
+      }
+    ]
+  }
+}

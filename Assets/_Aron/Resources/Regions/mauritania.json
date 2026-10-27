@@ -1,0 +1,220 @@
+{
+  "order": 392,
+  "id": "mauritania",
+  "nameAr": "موريتانيا",
+  "nameEn": "Mauritania",
+  "group": "arab",
+  "music": "music_country_mauritania",
+  "ground": "#E2B97A",
+  "accent": "#006233",
+  "sky": "#B9D9EE",
+  "country": "mauritania",
+  "costume": "",
+  "stages": [
+    {
+      "id": "mauritania_1",
+      "nameAr": "شنقيط",
+      "nameEn": "Chinguetti",
+      "terrain": "desert",
+      "landmarks": [
+        "mud_town",
+        "dunes"
+      ],
+      "mount": "camel",
+      "difficulty": 3,
+      "boss": false,
+      "lineAr": "المدينة الطينية القديمة، والرمل يغطي البيبان.",
+      "extra": "",
+      "time": "day",
+      "weather": "clear",
+      "type": "normal",
+      "costume": ""
+    },
+    {
+      "id": "mauritania_2",
+      "nameAr": "وادان",
+      "nameEn": "Ouadane",
+      "terrain": "ruins",
+      "landmarks": [
+        "mud_town",
+        "gate"
+      ],
+      "mount": "",
+      "difficulty": 4,
+      "boss": false,
+      "lineAr": "البيوت الحجرية القديمة على التلة.",
+      "extra": "",
+      "time": "sunset",
+      "weather": "clear",
+      "type": "chase",
+      "costume": ""
+    },
+    {
+      "id": "mauritania_3",
+      "nameAr": "عين الصحراء",
+      "nameEn": "The Eye of the Sahara",
+      "terrain": "desert",
+      "landmarks": [
+        "eye_rings",
+        "dunes"
+      ],
+      "mount": "camel",
+      "difficulty": 5,
+      "boss": false,
+      "lineAr": "دوائر عملاقة في وسط الصحراء!",
+      "extra": "",
+      "time": "day",
+      "weather": "sandstorm",
+      "type": "action",
+      "costume": ""
+    },
+    {
+      "id": "mauritania_4",
+      "nameAr": "سوق نواكشوط",
+      "nameEn": "Nouakchott Market",
+      "terrain": "souq",
+      "landmarks": [
+        "souq",
+        "tents"
+      ],
+      "mount": "",
+      "difficulty": 6,
+      "boss": false,
+      "lineAr": "الشاي والتمر والقماش الملوّن.",
+      "extra": "",
+      "time": "day",
+      "weather": "clear",
+      "type": "normal",
+      "costume": ""
+    },
+    {
+      "id": "mauritania_5",
+      "nameAr": "شاطئ الصيادين",
+      "nameEn": "Fishermen's Beach",
+      "terrain": "coast",
+      "landmarks": [
+        "dhows",
+        "palms"
+      ],
+      "mount": "",
+      "difficulty": 7,
+      "boss": false,
+      "lineAr": "قوارب الصيادين الملونة طالعة من البحر.",
+      "extra": "",
+      "time": "sunset",
+      "weather": "clear",
+      "type": "chase",
+      "costume": ""
+    },
+    {
+      "id": "mauritania_6",
+      "nameAr": "تيشيت",
+      "nameEn": "Tichitt",
+      "terrain": "oasis",
+      "landmarks": [
+        "palms",
+        "mud_town"
+      ],
+      "mount": "camel",
+      "difficulty": 8,
+      "boss": false,
+      "lineAr": "واحة بين الصخور، والليل صافي.",
+      "extra": "",
+      "time": "night",
+      "weather": "clear",
+      "type": "normal",
+      "costume": ""
+    },
+    {
+      "id": "mauritania_race",
+      "nameAr": "سباق الهجن في الصحراء",
+      "nameEn": "Desert Camel Race",
+      "terrain": "desert",
+      "landmarks": [
+        "dunes",
+        "tents"
+      ],
+      "mount": "",
+      "difficulty": 8,
+      "boss": false,
+      "lineAr": "سباق! سباق الهجن في الصحراء، يلا نشوف مين الأول!",
+      "extra": "",
+      "time": "sunset",
+      "weather": "clear",
+      "type": "race",
+      "costume": "",
+      "race": "mauritania_camel"
+    },
+    {
+      "id": "mauritania_7",
+      "nameAr": "ساحة الكثبان الكبرى",
+      "nameEn": "The Great Dune Arena",
+      "terrain": "desert",
+      "landmarks": [
+        "dunes",
+        "tents"
+      ],
+      "mount": "",
+      "difficulty": 10,
+      "boss": true,
+      "lineAr": "حارس الكثبان ينتظرك فوق أعلى رملة!",
+      "extra": "",
+      "time": "night",
+      "weather": "clear",
+      "type": "boss",
+      "costume": ""
+    }
+  ],
+  "skyline": [],
+  "boss": {
+    "nameAr": "حارس الكثبان",
+    "nameEn": "The Dune Keeper",
+    "model": "golem",
+    "headgear": "hood",
+    "body": "#B08A5A",
+    "trim": "#006233",
+    "projectile": "#E8C14A",
+    "scale": 1.2,
+    "health": 14,
+    "introAr": "الرمل كله يسمع كلامي!",
+    "stunAr": "وين راحت الكثبان؟",
+    "defeatAr": "زين... موريتانيا لك.",
+    "phases": [
+      {
+        "threshold": 1.0,
+        "move": 4.0,
+        "charge": 14.0,
+        "interval": 2.8,
+        "attacks": [
+          "summon",
+          "dash"
+        ],
+        "tauntAr": "الرمل يمشي!"
+      },
+      {
+        "threshold": 0.66,
+        "move": 4.6,
+        "charge": 15.5,
+        "interval": 2.4,
+        "attacks": [
+          "wave",
+          "summon",
+          "leap"
+        ],
+        "tauntAr": "يا ريح الشمال!"
+      },
+      {
+        "threshold": 0.33,
+        "move": 5.2,
+        "charge": 17.0,
+        "interval": 2.0,
+        "attacks": [
+          "charge",
+          "wave",
+          "leap"
+        ],
+        "tauntAr": "ما فيه ظل هنا!"
+      }
+    ]
+  }
+}

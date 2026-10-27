@@ -1,0 +1,123 @@
+{
+  "lang": "fr",
+  "profanity": {
+    "terms": [
+      "merde",
+      "putain",
+      "salope",
+      "connard",
+      "connasse",
+      "enculer",
+      "encule",
+      "niquer",
+      "niquetamere",
+      "couille",
+      "batard",
+      "branler",
+      "salaud",
+      "pouffiasse",
+      "bordel"
+    ],
+    "words": [
+      "pute",
+      "foutre",
+      "bordel",
+      "con",
+      "chier",
+      "ntm",
+      "fdp"
+    ],
+    "exact": [
+      "con",
+      "pute"
+    ]
+  },
+  "insult": {
+    "terms": [
+      "imbecile",
+      "debile",
+      "cretin",
+      "abruti",
+      "idiot",
+      "ordure",
+      "pauvrecon",
+      "crevard"
+    ],
+    "words": [
+      "tare",
+      "ordure",
+      "nul"
+    ],
+    "exact": [
+      "nul"
+    ]
+  },
+  "hate": {
+    "terms": [
+      "bougnoule",
+      "bicot",
+      "youpin",
+      "salearabe",
+      "tapette",
+      "gouine",
+      "sale noir",
+      "sale juif",
+      "negre"
+    ],
+    "words": [
+      "negre",
+      "raton",
+      "pede",
+      "bamboula",
+      "feuj"
+    ],
+    "exact": [
+      "negre"
+    ]
+  },
+  "sexual": {
+    "terms": [
+      "pornographie",
+      "violeur",
+      "pedophile",
+      "nichons",
+      "branleur",
+      "salope",
+      "chatte",
+      "bite",
+      "baiser",
+      "sodomie"
+    ],
+    "words": [
+      "sexe",
+      "porno",
+      "bite",
+      "chatte",
+      "viol",
+      "nichons",
+      "baise"
+    ],
+    "exact": [
+      "sexe"
+    ]
+  },
+  "figures": {
+    "terms": [
+      "macron",
+      "lepen",
+      "sarkozy",
+      "jesuschrist",
+      "adolfhitler"
+    ],
+    "words": [
+      "dieu",
+      "satan",
+      "diable",
+      "macron",
+      "lepen"
+    ],
+    "exact": [
+      "dieu"
+    ]
+  }
+}

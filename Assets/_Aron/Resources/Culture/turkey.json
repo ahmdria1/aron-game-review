@@ -1,0 +1,263 @@
+{
+  "country": "turkey",
+  "dialect": "tr",
+  "uiLanguage": "tr",
+  "greeting": {
+    "words": "Merhaba, hoş geldiniz!",
+    "wordsEn": "Hello, welcome!",
+    "wordsAr": "مرحبا، أهلاً وسهلاً!",
+    "gesture": "hand_to_heart_shake"
+  },
+  "hospitality": {
+    "ar": "في تركيا أول شي يُقدَّم للضيف كاسة شاي.",
+    "en": "In Türkiye, the first thing a guest gets is a glass of tea.",
+    "tr": "Türkiye misafire ilk olarak bir bardak çay ikram eder.",
+    "de": "In der Türkei bekommt ein Gast zuerst ein Glas Tee.",
+    "ur": "ترکیہ میں مہمان کو سب سے پہلے چائے پیش کی جاتی ہے۔",
+    "hi": "तुर्किये में मेहमान को सबसे पहले चाय दी जाती है।",
+    "es": "En Turquía, lo primero que recibe un invitado es un vaso de té.",
+    "pt": "Na Turquia, a primeira coisa que um convidado recebe é um copo de chá.",
+    "id": "Di Turki, tamu pertama-tama disuguhi segelas teh.",
+    "ms": "Di Turkiye, tetamu mula-mula dihidangkan segelas teh.",
+    "ja": "トルコではお客さんにまずお茶を一杯出します。",
+    "fr": "Turquie : la première chose qu'on offre à un invité, c'est un verre de thé."
+  },
+  "customs": [
+    {
+      "act": "pour_tea",
+      "en": "Tulip-shaped glasses of tea all day long.",
+      "ar": "كاسات الشاي على شكل التوليب طول اليوم."
+    },
+    {
+      "act": "offer_sweets",
+      "en": "Guests get Turkish delight with their tea.",
+      "ar": "الضيف ياخذ راحة الحلقوم مع الشاي."
+    }
+  ],
+  "architecture": "Covered bazaars, wooden waterside houses, fairy chimneys of rock.",
+  "palette": [
+    "#E30A17",
+    "#FFFFFF",
+    "#1C6EA4",
+    "#E8C14A"
+  ],
+  "music": {
+    "style": "Anatolian folk",
+    "instruments": [
+      "bağlama",
+      "ney",
+      "darbuka"
+    ]
+  },
+  "street": {
+    "vendors": [
+      "simit cart",
+      "roasted corn"
+    ],
+    "cafe": "tea garden",
+    "kidsGames": [
+      "marbles",
+      "hopscotch"
+    ],
+    "crowd": "bustling bazaar crowds"
+  },
+  "foods": [
+    {
+      "id": "turkey_simit",
+      "local": "Simit",
+      "name": {
+        "ar": "سميط",
+        "en": "Sesame bread ring",
+        "tr": "Simit",
+        "de": "Simit",
+        "ur": "سمِٹ",
+        "hi": "सिमित",
+        "es": "Simit",
+        "pt": "Simit",
+        "id": "Simit",
+        "ms": "Simit",
+        "ja": "シミット",
+        "fr": "Simit"
+      },
+      "fact": {
+        "ar": "يُباع حاراً في بسطات الشوارع في كل تركيا.",
+        "en": "Sold hot at street stalls all over Türkiye.",
+        "tr": "Türkiye genelinde sokak tezgâhlarında sıcak satılır.",
+        "de": "Überall in der Türkei heiß an Straßenständen verkauft.",
+        "ur": "پورے ترکیہ میں ٹھیلوں پر گرم گرم بکتا ہے۔",
+        "hi": "पूरे तुर्किये में ठेलों पर गरमा-गरम बिकता है।",
+        "es": "Se vende caliente en puestos callejeros por todo el territorio de Turquía.",
+        "pt": "Vende-se quente em bancas de rua em toda a Turquia.",
+        "id": "Dijual hangat di kaki lima di seluruh Turki.",
+        "ms": "Dijual panas di gerai tepi jalan di seluruh Turkiye.",
+        "ja": "トルコのあちこちの屋台で熱々で売られています。",
+        "fr": "Turquie : vendu tout chaud dans les stands de rue."
+      },
+      "shape": "ball",
+      "color": "#B5651D",
+      "color2": "#E8C14A",
+      "buff": "energy",
+      "price": 25
+    },
+    {
+      "id": "turkey_baklava",
+      "local": "Baklava",
+      "name": {
+        "ar": "بقلاوة",
+        "en": "Pistachio baklava",
+        "tr": "Baklava",
+        "de": "Baklava",
+        "ur": "بقلاوہ",
+        "hi": "बकलावा",
+        "es": "Baklava",
+        "pt": "Baklava",
+        "id": "Baklava",
+        "ms": "Baklava",
+        "ja": "バクラヴァ",
+        "fr": "Baklava"
+      },
+      "fact": {
+        "ar": "حلا محبوب في تركيا، أحلى مع الشاي أو القهوة.",
+        "en": "A sweet treat in Türkiye, best with tea or coffee.",
+        "tr": "Türkiye için tatlı bir ikram, çay ya da kahveyle en güzeli.",
+        "de": "Eine süße Leckerei in der Türkei, am besten mit Tee oder Kaffee.",
+        "ur": "ترکیہ کی میٹھی سوغات، چائے یا کافی کے ساتھ مزیدار۔",
+        "hi": "तुर्किये की मीठी सौगात, चाय या कॉफ़ी के साथ सबसे अच्छी।",
+        "es": "Un dulce de Turquía, mejor con té o café.",
+        "pt": "Um doce da Turquia, melhor com chá ou café.",
+        "id": "Camilan manis di Turki, paling enak dengan teh atau kopi.",
+        "ms": "Manisan di Turkiye, paling sedap dengan teh atau kopi.",
+        "ja": "トルコの甘いおやつ。お茶やコーヒーと一緒にどうぞ。",
+        "fr": "Turquie : une douceur, parfaite avec un thé ou un café."
+      },
+      "shape": "cake",
+      "color": "#E0B070",
+      "color2": "#6A8F3A",
+      "buff": "energy",
+      "price": 50
+    },
+    {
+      "id": "turkey_kebab",
+      "local": "Adana kebap",
+      "name": {
+        "ar": "كباب أضنة",
+        "en": "Spiced grilled kebab",
+        "tr": "Adana kebap",
+        "de": "Adana kebap",
+        "ur": "اڈانا کباب",
+        "hi": "अदाना कबाब",
+        "es": "Adana kebap",
+        "pt": "Adana kebap",
+        "id": "Adana kebap",
+        "ms": "Adana kebap",
+        "ja": "アダナ・ケバブ",
+        "fr": "Adana kebap"
+      },
+      "fact": {
+        "ar": "تُعرف غالباً بأنها الأكلة الوطنية في تركيا.",
+        "en": "Often called the national dish of Türkiye.",
+        "tr": "Genellikle Türkiye ulusal yemeği sayılır.",
+        "de": "Gilt oft als Nationalgericht von der Türkei.",
+        "ur": "اسے اکثر ترکیہ کا قومی کھانا کہا جاتا ہے۔",
+        "hi": "इसे अक्सर तुर्किये का राष्ट्रीय व्यंजन कहा जाता है।",
+        "es": "Se le suele llamar el plato nacional de Turquía.",
+        "pt": "É muitas vezes chamado o prato nacional da Turquia.",
+        "id": "Sering disebut hidangan nasional Turki.",
+        "ms": "Sering disebut hidangan kebangsaan Turkiye.",
+        "ja": "トルコの国民食とよく言われます。",
+        "fr": "Turquie : souvent appelé le plat national."
+      },
+      "shape": "skewer",
+      "color": "#8A3A22",
+      "color2": "#E0C08A",
+      "buff": "strength",
+      "price": 80
+    },
+    {
+      "id": "turkey_menemen",
+      "local": "Menemen",
+      "name": {
+        "ar": "منمن",
+        "en": "Eggs with tomato and pepper",
+        "tr": "Menemen",
+        "de": "Menemen",
+        "ur": "منیمن",
+        "hi": "मेनेमेन",
+        "es": "Menemen",
+        "pt": "Menemen",
+        "id": "Menemen",
+        "ms": "Menemen",
+        "ja": "メネメン",
+        "fr": "Menemen"
+      },
+      "fact": {
+        "ar": "فطور محبوب في تركيا.",
+        "en": "A favourite breakfast in Türkiye.",
+        "tr": "Türkiye için sevilen bir kahvaltı.",
+        "de": "Ein beliebtes Frühstück in der Türkei.",
+        "ur": "ترکیہ کا پسندیدہ ناشتہ۔",
+        "hi": "तुर्किये का पसंदीदा नाश्ता।",
+        "es": "Un desayuno favorito en Turquía.",
+        "pt": "Um pequeno-almoço favorito na Turquia.",
+        "id": "Sarapan favorit di Turki.",
+        "ms": "Sarapan kegemaran di Turkiye.",
+        "ja": "トルコで人気の朝ごはんです。",
+        "fr": "Turquie : un petit-déjeuner très apprécié."
+      },
+      "shape": "bowl",
+      "color": "#D2422E",
+      "color2": "#F2D06B",
+      "buff": "speed",
+      "price": 40
+    },
+    {
+      "id": "turkey_lokum",
+      "local": "Lokum",
+      "name": {
+        "ar": "راحة الحلقوم",
+        "en": "Turkish delight",
+        "tr": "Lokum",
+        "de": "Lokum",
+        "ur": "ترکی لوکوم",
+        "hi": "तुर्की लोकम",
+        "es": "Lokum",
+        "pt": "Lokum",
+        "id": "Lokum",
+        "ms": "Lokum",
+        "ja": "ロクム",
+        "fr": "Lokum"
+      },
+      "fact": {
+        "ar": "حلا محبوب في تركيا، أحلى مع الشاي أو القهوة.",
+        "en": "A sweet treat in Türkiye, best with tea or coffee.",
+        "tr": "Türkiye için tatlı bir ikram, çay ya da kahveyle en güzeli.",
+        "de": "Eine süße Leckerei in der Türkei, am besten mit Tee oder Kaffee.",
+        "ur": "ترکیہ کی میٹھی سوغات، چائے یا کافی کے ساتھ مزیدار۔",
+        "hi": "तुर्किये की मीठी सौगात, चाय या कॉफ़ी के साथ सबसे अच्छी।",
+        "es": "Un dulce de Turquía, mejor con té o café.",
+        "pt": "Um doce da Turquia, melhor com chá ou café.",
+        "id": "Camilan manis di Turki, paling enak dengan teh atau kopi.",
+        "ms": "Manisan di Turkiye, paling sedap dengan teh atau kopi.",
+        "ja": "トルコの甘いおやつ。お茶やコーヒーと一緒にどうぞ。",
+        "fr": "Turquie : une douceur, parfaite avec un thé ou un café."
+      },
+      "shape": "ball",
+      "color": "#F2A6C0",
+      "color2": "#FFFFFF",
+      "buff": "magnet",
+      "price": 35
+    }
+  ],
+  "animals": [
+    "turkey_cat",
+    "turkey_stork",
+    "turkey_anatolian_shepherd",
+    "turkey_brown_bear"
+  ],
+  "attackTrailVfx": "tulip_petals",
+  "eatIdle": {
+    "dishId": "turkey_simit",
+    "propModel": "food_simit",
+    "reaction": "crunchy"
+  }
+}

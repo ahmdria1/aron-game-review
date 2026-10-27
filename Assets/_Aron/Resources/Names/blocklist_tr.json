@@ -1,0 +1,100 @@
+{
+  "lang": "tr",
+  "profanity": {
+    "terms": [
+      "sikerim",
+      "siktir",
+      "orospu",
+      "yarrak",
+      "yarak",
+      "amcik",
+      "gotveren",
+      "pezevenk",
+      "kahpe",
+      "sikik"
+    ],
+    "words": [
+      "amk",
+      "aq",
+      "sik",
+      "pic",
+      "got"
+    ],
+    "exact": [
+      "am",
+      "got"
+    ]
+  },
+  "insult": {
+    "terms": [
+      "gerizekali",
+      "dangalak",
+      "aptal",
+      "salak",
+      "embesil",
+      "andaval",
+      "hıyar"
+    ],
+    "words": [
+      "mal",
+      "hiyar",
+      "geri zekali"
+    ],
+    "exact": [
+      "mal",
+      "eşek",
+      "esek"
+    ]
+  },
+  "hate": {
+    "terms": [
+      "gavur",
+      "zenci"
+    ],
+    "words": [
+      "gavur",
+      "zenci"
+    ],
+    "exact": []
+  },
+  "sexual": {
+    "terms": [
+      "sikis",
+      "tecavuz",
+      "pedofil",
+      "mastürbasyon",
+      "masturbasyon",
+      "pornosu",
+      "amcik"
+    ],
+    "words": [
+      "seks",
+      "porno",
+      "ciplak",
+      "sikis",
+      "tecavuz"
+    ],
+    "exact": [
+      "meme"
+    ]
+  },
+  "figures": {
+    "terms": [
+      "isa mesih",
+      "kilicdaroglu",
+      "bahceli",
+      "tayyiperdogan",
+      "ataturk"
+    ],
+    "words": [
+      "tanri",
+      "seytan",
+      "erdogan",
+      "tayyip"
+    ],
+    "exact": [
+      "tanri",
+      "allah"
+    ]
+  }
+}

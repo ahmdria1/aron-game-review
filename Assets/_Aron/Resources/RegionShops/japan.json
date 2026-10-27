@@ -1,0 +1,15 @@
+{
+  "region": "japan",
+  "shops": [
+    {
+      "stage": "japan_1",
+      "nameAr": "رامن الزاوية",
+      "kind": "food"
+    },
+    {
+      "stage": "japan_3",
+      "nameAr": "تاياكي الحديقة",
+      "kind": "sweets"
+    }
+  ]
+}

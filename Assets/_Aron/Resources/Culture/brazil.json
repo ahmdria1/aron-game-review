@@ -1,0 +1,264 @@
+{
+  "country": "brazil",
+  "dialect": "pt-BR",
+  "uiLanguage": "pt",
+  "greeting": {
+    "words": "Oi, tudo bem?",
+    "wordsEn": "Hi, all good?",
+    "wordsAr": "هلا، كل شي تمام؟",
+    "gesture": "cheek_kiss"
+  },
+  "hospitality": {
+    "ar": "في البرازيل يُستقبل الضيف بفنجان قهوة.",
+    "en": "In Brazil, guests are welcomed with a cup of coffee.",
+    "tr": "Brezilya misafirleri bir fincan kahveyle karşılar.",
+    "de": "In Brasilien empfängt man Gäste mit einer Tasse Kaffee.",
+    "ur": "برازیل میں مہمان کا استقبال کافی کے کپ سے ہوتا ہے۔",
+    "hi": "ब्राज़ील में मेहमान का स्वागत एक कप कॉफ़ी से होता है।",
+    "es": "En Brasil se recibe a los invitados con una taza de café.",
+    "pt": "No Brasil recebem-se os convidados com um cafezinho.",
+    "id": "Di Brasil, tamu disambut dengan secangkir kopi.",
+    "ms": "Di Brazil, tetamu disambut dengan secawan kopi.",
+    "ja": "ブラジルではお客さんをコーヒーでもてなします。",
+    "fr": "Brésil : on accueille les invités avec une tasse de café."
+  },
+  "customs": [
+    {
+      "act": "share_bread",
+      "en": "Pão de queijo with a little coffee, any time.",
+      "ar": "خبز الجبن مع قهوة صغيرة في أي وقت."
+    },
+    {
+      "act": "play_game",
+      "en": "Football on every beach and street.",
+      "ar": "كورة على كل شاطئ وفي كل شارع."
+    }
+  ],
+  "architecture": "Colourful hillside houses, beach promenades, rainforest rivers and waterfalls.",
+  "palette": [
+    "#009C3B",
+    "#FFDF00",
+    "#002776",
+    "#FFFFFF"
+  ],
+  "music": {
+    "style": "Samba drums",
+    "instruments": [
+      "surdo",
+      "pandeiro",
+      "cavaquinho"
+    ]
+  },
+  "street": {
+    "vendors": [
+      "coconut water stand",
+      "pastel fryer"
+    ],
+    "cafe": "padaria",
+    "kidsGames": [
+      "football",
+      "kite flying"
+    ],
+    "crowd": "joyful, musical"
+  },
+  "foods": [
+    {
+      "id": "brazil_pao_de_queijo",
+      "local": "Pão de queijo",
+      "name": {
+        "ar": "خبز الجبن",
+        "en": "Cheese bread balls",
+        "tr": "Pão de queijo",
+        "de": "Pão de queijo",
+        "ur": "پنیر کی روٹی",
+        "hi": "चीज़ ब्रेड",
+        "es": "Pão de queijo",
+        "pt": "Pão de queijo",
+        "id": "Pão de queijo",
+        "ms": "Pão de queijo",
+        "ja": "ポン・デ・ケージョ",
+        "fr": "Pão de queijo"
+      },
+      "fact": {
+        "ar": "سناك محبوب للطريق في البرازيل.",
+        "en": "A favourite snack for the road in Brazil.",
+        "tr": "Brezilya için yolda yenen sevilen bir atıştırmalık.",
+        "de": "Ein beliebter Snack für unterwegs in Brasilien.",
+        "ur": "برازیل میں سفر کا پسندیدہ ناشتہ۔",
+        "hi": "ब्राज़ील में सफ़र का पसंदीदा नाश्ता।",
+        "es": "Un tentempié favorito para el camino en Brasil.",
+        "pt": "Um petisco favorito para a viagem no Brasil.",
+        "id": "Camilan favorit untuk perjalanan di Brasil.",
+        "ms": "Snek kegemaran untuk perjalanan di Brazil.",
+        "ja": "ブラジルで旅のお供に人気のおやつです。",
+        "fr": "Brésil : un en-cas favori pour la route."
+      },
+      "shape": "ball",
+      "color": "#F2D06B",
+      "color2": "#E0A64A",
+      "buff": "energy",
+      "price": 30
+    },
+    {
+      "id": "brazil_feijoada",
+      "local": "Feijoada de carne",
+      "name": {
+        "ar": "فيجوادا",
+        "en": "Black bean and beef stew",
+        "tr": "Feijoada de carne",
+        "de": "Feijoada de carne",
+        "ur": "کالی دال اور گوشت",
+        "hi": "काली दाल और मांस",
+        "es": "Feijoada de carne",
+        "pt": "Feijoada de carne",
+        "id": "Feijoada de carne",
+        "ms": "Feijoada de carne",
+        "ja": "フェイジョアーダ",
+        "fr": "Feijoada de carne"
+      },
+      "fact": {
+        "ar": "تُعرف غالباً بأنها الأكلة الوطنية في البرازيل.",
+        "en": "Often called the national dish of Brazil.",
+        "tr": "Genellikle Brezilya ulusal yemeği sayılır.",
+        "de": "Gilt oft als Nationalgericht von Brasilien.",
+        "ur": "اسے اکثر برازیل کا قومی کھانا کہا جاتا ہے۔",
+        "hi": "इसे अक्सर ब्राज़ील का राष्ट्रीय व्यंजन कहा जाता है।",
+        "es": "Se le suele llamar el plato nacional de Brasil.",
+        "pt": "É muitas vezes chamado o prato nacional do Brasil.",
+        "id": "Sering disebut hidangan nasional Brasil.",
+        "ms": "Sering disebut hidangan kebangsaan Brazil.",
+        "ja": "ブラジルの国民食とよく言われます。",
+        "fr": "Brésil : souvent appelé le plat national."
+      },
+      "shape": "bowl",
+      "color": "#3A2A2A",
+      "color2": "#F5EEDC",
+      "buff": "strength",
+      "price": 80
+    },
+    {
+      "id": "brazil_acai",
+      "local": "Açaí na tigela",
+      "name": {
+        "ar": "وعاء الأساي",
+        "en": "Açaí berry bowl",
+        "tr": "Açaí na tigela",
+        "de": "Açaí na tigela",
+        "ur": "آسائی کا پیالہ",
+        "hi": "आसाई कटोरा",
+        "es": "Açaí na tigela",
+        "pt": "Açaí na tigela",
+        "id": "Açaí na tigela",
+        "ms": "Açaí na tigela",
+        "ja": "アサイーボウル",
+        "fr": "Açaí na tigela"
+      },
+      "fact": {
+        "ar": "يُباع حاراً في بسطات الشوارع في كل البرازيل.",
+        "en": "Sold hot at street stalls all over Brazil.",
+        "tr": "Brezilya genelinde sokak tezgâhlarında sıcak satılır.",
+        "de": "Überall in Brasilien heiß an Straßenständen verkauft.",
+        "ur": "پورے برازیل میں ٹھیلوں پر گرم گرم بکتا ہے۔",
+        "hi": "पूरे ब्राज़ील में ठेलों पर गरमा-गरम बिकता है।",
+        "es": "Se vende caliente en puestos callejeros por todo el territorio de Brasil.",
+        "pt": "Vende-se quente em bancas de rua em todo o Brasil.",
+        "id": "Dijual hangat di kaki lima di seluruh Brasil.",
+        "ms": "Dijual panas di gerai tepi jalan di seluruh Brazil.",
+        "ja": "ブラジルのあちこちの屋台で熱々で売られています。",
+        "fr": "Brésil : vendu tout chaud dans les stands de rue."
+      },
+      "shape": "bowl",
+      "color": "#4A1E4A",
+      "color2": "#F2C14E",
+      "buff": "speed",
+      "price": 50
+    },
+    {
+      "id": "brazil_coxinha",
+      "local": "Coxinha",
+      "name": {
+        "ar": "كوشينها",
+        "en": "Chicken croquette",
+        "tr": "Coxinha",
+        "de": "Coxinha",
+        "ur": "چکن کروکیٹ",
+        "hi": "चिकन क्रोकेट",
+        "es": "Coxinha",
+        "pt": "Coxinha",
+        "id": "Coxinha",
+        "ms": "Coxinha",
+        "ja": "コシーニャ",
+        "fr": "Coxinha"
+      },
+      "fact": {
+        "ar": "يُباع حاراً في بسطات الشوارع في كل البرازيل.",
+        "en": "Sold hot at street stalls all over Brazil.",
+        "tr": "Brezilya genelinde sokak tezgâhlarında sıcak satılır.",
+        "de": "Überall in Brasilien heiß an Straßenständen verkauft.",
+        "ur": "پورے برازیل میں ٹھیلوں پر گرم گرم بکتا ہے۔",
+        "hi": "पूरे ब्राज़ील में ठेलों पर गरमा-गरम बिकता है।",
+        "es": "Se vende caliente en puestos callejeros por todo el territorio de Brasil.",
+        "pt": "Vende-se quente em bancas de rua em todo o Brasil.",
+        "id": "Dijual hangat di kaki lima di seluruh Brasil.",
+        "ms": "Dijual panas di gerai tepi jalan di seluruh Brazil.",
+        "ja": "ブラジルのあちこちの屋台で熱々で売られています。",
+        "fr": "Brésil : vendu tout chaud dans les stands de rue."
+      },
+      "shape": "ball",
+      "color": "#D9A050",
+      "color2": "#F2D06B",
+      "buff": "strength",
+      "price": 35
+    },
+    {
+      "id": "brazil_brigadeiro",
+      "local": "Brigadeiro",
+      "name": {
+        "ar": "بريغاديرو",
+        "en": "Chocolate fudge balls",
+        "tr": "Brigadeiro",
+        "de": "Brigadeiro",
+        "ur": "چاکلیٹ گولیاں",
+        "hi": "चॉकलेट गोलियाँ",
+        "es": "Brigadeiro",
+        "pt": "Brigadeiro",
+        "id": "Brigadeiro",
+        "ms": "Brigadeiro",
+        "ja": "ブリガデイロ",
+        "fr": "Brigadeiro"
+      },
+      "fact": {
+        "ar": "حلا محبوب في البرازيل، أحلى مع الشاي أو القهوة.",
+        "en": "A sweet treat in Brazil, best with tea or coffee.",
+        "tr": "Brezilya için tatlı bir ikram, çay ya da kahveyle en güzeli.",
+        "de": "Eine süße Leckerei in Brasilien, am besten mit Tee oder Kaffee.",
+        "ur": "برازیل کی میٹھی سوغات، چائے یا کافی کے ساتھ مزیدار۔",
+        "hi": "ब्राज़ील की मीठी सौगात, चाय या कॉफ़ी के साथ सबसे अच्छी।",
+        "es": "Un dulce de Brasil, mejor con té o café.",
+        "pt": "Um doce do Brasil, melhor com chá ou café.",
+        "id": "Camilan manis di Brasil, paling enak dengan teh atau kopi.",
+        "ms": "Manisan di Brazil, paling sedap dengan teh atau kopi.",
+        "ja": "ブラジルの甘いおやつ。お茶やコーヒーと一緒にどうぞ。",
+        "fr": "Brésil : une douceur, parfaite avec un thé ou un café."
+      },
+      "shape": "ball",
+      "color": "#4A2A14",
+      "color2": "#F2A6C0",
+      "buff": "magnet",
+      "price": 30
+    }
+  ],
+  "animals": [
+    "brazil_toucan",
+    "brazil_macaw",
+    "brazil_jaguar",
+    "brazil_green_anaconda",
+    "brazil_sloth"
+  ],
+  "attackTrailVfx": "carnival_sparks",
+  "eatIdle": {
+    "dishId": "brazil_pao_de_queijo",
+    "propModel": "food_pao_de_queijo",
+    "reaction": "yum"
+  }
+}

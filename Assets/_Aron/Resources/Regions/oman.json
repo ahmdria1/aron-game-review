@@ -1,0 +1,236 @@
+{
+  "order": 240,
+  "id": "oman",
+  "nameAr": "عُمان",
+  "nameEn": "Oman",
+  "group": "gulf",
+  "music": "music_country_oman",
+  "ground": "#CFB48A",
+  "accent": "#DB161B",
+  "sky": "#9AC6E0",
+  "country": "oman",
+  "costume": "",
+  "stages": [
+    {
+      "id": "oman_1",
+      "nameAr": "سوق مطرح",
+      "nameEn": "Muttrah Souq",
+      "terrain": "souq",
+      "landmarks": [
+        "souq",
+        "gate"
+      ],
+      "mount": "",
+      "difficulty": 3,
+      "boss": false,
+      "lineAr": "سوق مطرح، ريحة اللبان في كل مكان.",
+      "extra": "",
+      "time": "day",
+      "weather": "clear",
+      "type": "normal",
+      "costume": ""
+    },
+    {
+      "id": "oman_2",
+      "nameAr": "كورنيش مطرح",
+      "nameEn": "Muttrah Corniche",
+      "terrain": "coast",
+      "landmarks": [
+        "dhows",
+        "round_fort"
+      ],
+      "mount": "",
+      "difficulty": 4,
+      "boss": false,
+      "lineAr": "الكورنيش بالليل، والحرامية لاحقيني!",
+      "extra": "",
+      "time": "night",
+      "weather": "clear",
+      "type": "chase",
+      "costume": ""
+    },
+    {
+      "id": "oman_3",
+      "nameAr": "قلعة نزوى",
+      "nameEn": "Nizwa Fort",
+      "terrain": "ruins",
+      "landmarks": [
+        "round_fort",
+        "palms"
+      ],
+      "mount": "",
+      "difficulty": 4,
+      "boss": false,
+      "lineAr": "برج قلعة نزوى الدائري، من فوق أشوف كل شي.",
+      "extra": "",
+      "time": "day",
+      "weather": "clear",
+      "type": "normal",
+      "costume": ""
+    },
+    {
+      "id": "oman_4",
+      "nameAr": "سوق نزوى",
+      "nameEn": "Nizwa Souq",
+      "terrain": "souq",
+      "landmarks": [
+        "souq",
+        "palms"
+      ],
+      "mount": "",
+      "difficulty": 5,
+      "boss": false,
+      "lineAr": "سوق الجمعة في نزوى، انتبه للغنم!",
+      "extra": "",
+      "time": "day",
+      "weather": "clear",
+      "type": "normal",
+      "costume": ""
+    },
+    {
+      "id": "oman_5",
+      "nameAr": "الجبل الأخضر",
+      "nameEn": "Jebel Akhdar",
+      "terrain": "mountain",
+      "landmarks": [
+        "terraces",
+        "mountains"
+      ],
+      "mount": "",
+      "difficulty": 5,
+      "boss": false,
+      "lineAr": "المدرجات الخضراء ورمان الجبل.",
+      "extra": "",
+      "time": "sunset",
+      "weather": "clear",
+      "type": "normal",
+      "costume": ""
+    },
+    {
+      "id": "oman_6",
+      "nameAr": "رمال الشرقية",
+      "nameEn": "Wahiba Sands",
+      "terrain": "desert",
+      "landmarks": [
+        "dunes",
+        "tents"
+      ],
+      "mount": "camel",
+      "difficulty": 6,
+      "boss": false,
+      "lineAr": "رمال الشرقية! الذلول تعرف الطريق.",
+      "extra": "",
+      "time": "day",
+      "weather": "sandstorm",
+      "type": "chase",
+      "costume": ""
+    },
+    {
+      "id": "oman_7",
+      "nameAr": "ظفار في الخريف",
+      "nameEn": "Dhofar in the Khareef",
+      "terrain": "mountain",
+      "landmarks": [
+        "mountains",
+        "palms"
+      ],
+      "mount": "horse",
+      "difficulty": 6,
+      "boss": false,
+      "lineAr": "الخريف في صلالة، مطر ورذاذ وكل شي أخضر!",
+      "extra": "",
+      "time": "day",
+      "weather": "rain",
+      "type": "normal",
+      "costume": ""
+    },
+    {
+      "id": "oman_race",
+      "nameAr": "سباق الخيل العمانية",
+      "nameEn": "Omani Horse Race",
+      "terrain": "desert",
+      "landmarks": [
+        "fort",
+        "palms"
+      ],
+      "mount": "",
+      "difficulty": 6,
+      "boss": false,
+      "lineAr": "سباق! سباق الخيل العمانية، يلا نشوف مين الأول!",
+      "extra": "",
+      "time": "sunset",
+      "weather": "clear",
+      "type": "race",
+      "costume": "",
+      "race": "oman_horse"
+    },
+    {
+      "id": "oman_8",
+      "nameAr": "قلعة الجلالي",
+      "nameEn": "Al Jalali Fort",
+      "terrain": "coast",
+      "landmarks": [
+        "fort",
+        "dhows"
+      ],
+      "mount": "",
+      "difficulty": 7,
+      "boss": true,
+      "lineAr": "كاسر الصخر عند قلعة الجلالي...",
+      "extra": "",
+      "time": "night",
+      "weather": "clear",
+      "type": "boss",
+      "costume": ""
+    }
+  ],
+  "boss": {
+    "nameAr": "كاسر الصخر",
+    "nameEn": "The Rockbreaker",
+    "model": "golem",
+    "headgear": "turban",
+    "body": "#6B4E2E",
+    "trim": "#D7C9A7",
+    "projectile": "#8C7B6B",
+    "scale": 1.4,
+    "health": 12,
+    "introAr": "الجبال كلها تخاف مني، وأنت حصاة صغيرة!",
+    "stunAr": "راسي صخر... بس يوجع!",
+    "defeatAr": "انكسرت... عُمان لك يا أرون.",
+    "phases": [
+      {
+        "threshold": 1.0,
+        "move": 3,
+        "charge": 11,
+        "interval": 3.2,
+        "attacks": [
+          "leap"
+        ],
+        "tauntAr": "الأرض بتهتز!"
+      },
+      {
+        "threshold": 0.66,
+        "move": 3.5,
+        "charge": 13,
+        "interval": 2.7,
+        "attacks": [
+          "leap",
+          "summon"
+        ],
+        "tauntAr": "يا صخور! تدحرجي!"
+      },
+      {
+        "threshold": 0.33,
+        "move": 4.5,
+        "charge": 15,
+        "interval": 2.2,
+        "attacks": [
+          "leap",
+          "charge",
+          "wave"
+        ],
+        "tauntAr": "الحين بكسرك!"
+      }
+    ]
+  }
+}

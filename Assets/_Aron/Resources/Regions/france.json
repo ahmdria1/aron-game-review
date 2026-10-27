@@ -1,0 +1,221 @@
+{
+  "order": 408,
+  "id": "france",
+  "nameAr": "فرنسا",
+  "nameEn": "France",
+  "group": "world",
+  "music": "music_country_france",
+  "ground": "#B9C48A",
+  "accent": "#2A4D9B",
+  "sky": "#A6CDEB",
+  "country": "france",
+  "costume": "",
+  "stages": [
+    {
+      "id": "france_1",
+      "nameAr": "شارع المقاهي",
+      "nameEn": "Café Boulevard",
+      "terrain": "street",
+      "landmarks": [
+        "row_houses",
+        "fountain"
+      ],
+      "mount": "",
+      "difficulty": 3,
+      "boss": false,
+      "lineAr": "المقاهي على الرصيف، وريحة الخبز!",
+      "extra": "",
+      "time": "day",
+      "weather": "clear",
+      "type": "normal",
+      "costume": ""
+    },
+    {
+      "id": "france_2",
+      "nameAr": "البرج الحديدي",
+      "nameEn": "The Iron Tower",
+      "terrain": "street",
+      "landmarks": [
+        "iron_tower",
+        "big_arch"
+      ],
+      "mount": "",
+      "difficulty": 4,
+      "boss": false,
+      "lineAr": "برج حديدي فوق النهر، بالنهار يلمع.",
+      "extra": "",
+      "time": "day",
+      "weather": "clear",
+      "type": "chase",
+      "costume": ""
+    },
+    {
+      "id": "france_3",
+      "nameAr": "حقول الخزامى",
+      "nameEn": "Lavender Fields",
+      "terrain": "oasis",
+      "landmarks": [
+        "lavender_fields",
+        "white_village"
+      ],
+      "mount": "horse",
+      "difficulty": 5,
+      "boss": false,
+      "lineAr": "بنفسجي لين آخر الدنيا!",
+      "extra": "",
+      "time": "sunset",
+      "weather": "clear",
+      "type": "normal",
+      "costume": ""
+    },
+    {
+      "id": "france_4",
+      "nameAr": "جزيرة المد",
+      "nameEn": "The Tidal Island",
+      "terrain": "coast",
+      "landmarks": [
+        "sea_cliffs",
+        "fort"
+      ],
+      "mount": "",
+      "difficulty": 6,
+      "boss": false,
+      "lineAr": "المد يطلع بسرعة، اركض!",
+      "extra": "",
+      "time": "day",
+      "weather": "rain",
+      "type": "action",
+      "costume": ""
+    },
+    {
+      "id": "france_5",
+      "nameAr": "قلاع النهر",
+      "nameEn": "River Castles",
+      "terrain": "river",
+      "landmarks": [
+        "fairytale_castle",
+        "cedars"
+      ],
+      "mount": "horse",
+      "difficulty": 7,
+      "boss": false,
+      "lineAr": "قلاع بيضاء على النهر.",
+      "extra": "",
+      "time": "sunset",
+      "weather": "clear",
+      "type": "normal",
+      "costume": ""
+    },
+    {
+      "id": "france_6",
+      "nameAr": "جبال الألب",
+      "nameEn": "The Alps",
+      "terrain": "mountain",
+      "landmarks": [
+        "snow_peaks",
+        "mountains"
+      ],
+      "mount": "",
+      "difficulty": 8,
+      "boss": false,
+      "lineAr": "الثلج والجبال والهوا بارد.",
+      "extra": "",
+      "time": "night",
+      "weather": "clear",
+      "type": "chase",
+      "costume": ""
+    },
+    {
+      "id": "france_race",
+      "nameAr": "سباق عربات الصناديق",
+      "nameEn": "Soapbox Kart Race",
+      "terrain": "street",
+      "landmarks": [
+        "lavender_fields",
+        "white_village"
+      ],
+      "mount": "",
+      "difficulty": 8,
+      "boss": false,
+      "lineAr": "سباق! سباق عربات الصناديق، يلا نشوف مين الأول!",
+      "extra": "",
+      "time": "day",
+      "weather": "clear",
+      "type": "race",
+      "costume": "",
+      "race": "france_car"
+    },
+    {
+      "id": "france_7",
+      "nameAr": "الحقل البنفسجي الكبير",
+      "nameEn": "The Great Purple Field",
+      "terrain": "oasis",
+      "landmarks": [
+        "lavender_fields",
+        "windmills"
+      ],
+      "mount": "",
+      "difficulty": 10,
+      "boss": true,
+      "lineAr": "ساحر الخزامى في وسط الحقل!",
+      "extra": "",
+      "time": "night",
+      "weather": "clear",
+      "type": "boss",
+      "costume": ""
+    }
+  ],
+  "skyline": [],
+  "boss": {
+    "nameAr": "ساحر الخزامى",
+    "nameEn": "The Lavender Wizard",
+    "model": "robe",
+    "headgear": "hood",
+    "body": "#6B4E9B",
+    "trim": "#E8C14A",
+    "projectile": "#C9A4FF",
+    "scale": 1.26,
+    "health": 15,
+    "introAr": "الخزامى تنومك!",
+    "stunAr": "عطس! كله من الورد!",
+    "defeatAr": "طيب... فرنسا لك.",
+    "phases": [
+      {
+        "threshold": 1.0,
+        "move": 4.0,
+        "charge": 14.0,
+        "interval": 2.8,
+        "attacks": [
+          "summon",
+          "volley",
+          "dash"
+        ],
+        "tauntAr": "ورود تطير!"
+      },
+      {
+        "threshold": 0.66,
+        "move": 4.6,
+        "charge": 15.5,
+        "interval": 2.4,
+        "attacks": [
+          "charge",
+          "summon",
+          "dash"
+        ],
+        "tauntAr": "نوم يا بطل!"
+      },
+      {
+        "threshold": 0.33,
+        "move": 5.2,
+        "charge": 17.0,
+        "interval": 2.0,
+        "attacks": [
+          "charge",
+          "volley",
+          "leap"
+        ],
+        "tauntAr": "سحر بنفسجي!"
+      }
+    ]
+  }
+}

@@ -1,0 +1,53 @@
+Weather and breakable sound effects (Audio/SFX/Resources/AronSfx)
+=======================================================
+
+All files were edited for the game: trimmed, layered, loop-crossfaded,
+loudness-normalized and encoded as Ogg Vorbis.
+
+CC0 1.0 (public domain) sources
+-------------------------------
+Rain + Long Thunder - WuxiaScrub
+  https://opengameart.org/content/rain-long-thunder
+  used in: rain_heavy, thunder_near_1, thunder_near_3, thunder_far_2
+
+Rain (loopable) - Ylmir
+  https://opengameart.org/content/rain-loopable
+  used in: rain_light, rain_heavy, rain_roof
+
+wind1 - Luke.RUSTLTD
+  https://opengameart.org/content/wind1
+  used in: wind_gust_*
+
+Wind whoosh loop - SketchMan3
+  https://opengameart.org/content/wind-whoosh-loop
+  used in: wind_gust_*
+
+75 CC0 breaking/falling/hit sfx - rubberduck
+  https://opengameart.org/content/75-cc0-breaking-falling-hit-sfx
+  used in: crate_break_2-4, jar_break_*, glass_break_2-4, metal_break_*, explosion_2
+
+100 CC0 SFX - rubberduck
+  https://opengameart.org/content/100-cc0-sfx
+  used in: jar_break_*, explosion_2
+
+100 CC0 SFX #2 - rubberduck
+  https://opengameart.org/content/100-cc0-sfx-2
+  used in: thunder_near_2, thunder_far_1, wind_gust_*, puddle_step_*
+
+100 CC0 metal and wood SFX - rubberduck
+  https://opengameart.org/content/100-cc0-metal-and-wood-sfx
+  used in: metal_break_*
+
+Glass Break - Till Behrend (submitted by TinyWorlds)
+  https://opengameart.org/content/glass-break
+  used in: glass_break_1
+
+Impact Sounds - Kenney (www.kenney.nl)
+  https://kenney.nl/assets/impact-sounds
+  used in: rain_roof, crate_break_2-4, jar_break_*, metal_break_*
+
+Original sounds
+---------------
+All other sounds in this folder (foliage and palm loops, gusts, creaks, wind, waves, sand, sandstorm, wall crumbles and boss hits)
+are original sounds made for this project, as are the sound layers added to crate_break_1, explosion_1, explosion_2 and thunder_near_1.
+Proof of origin is kept by the owner outside this repository.

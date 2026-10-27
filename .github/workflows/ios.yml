@@ -1,0 +1,111 @@
+name: iOS
+
+# Exports the Xcode project on Linux (cheap runner, no Apple account needed).
+# The optional "compile" job builds it on a macOS runner without signing, which proves the project
+# compiles but cannot be installed on an iPhone. macOS minutes cost 10x on private repositories,
+# so it only runs when ticked in "Run workflow".
+# Signing and TestFlight need an Apple Developer account; see the iPhone section in README.md.
+
+on:
+  workflow_dispatch:
+    inputs:
+      compile:
+        description: Also compile an unsigned build on macOS
+        type: boolean
+        default: false
+  push:
+    tags: ["v*"]
+
+concurrency:
+  group: ios-${{ github.ref }}
+  cancel-in-progress: true
+
+env:
+  UNITY_VERSION: 6000.6.5f1
+
+jobs:
+  xcode:
+    name: Export Xcode project
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - name: Free disk space
+        uses: jlumbroso/free-disk-space@v1.3.1
+        with:
+          android: true
+          dotnet: true
+          haskell: true
+          large-packages: false
+
+      - uses: actions/checkout@v4
+        with:
+          lfs: true
+
+      - name: Editor version matches the project
+        run: grep -q "m_EditorVersion. $UNITY_VERSION" ProjectSettings/ProjectVersion.txt
+
+      - uses: actions/cache@v4
+        with:
+          path: Library
+          key: Library-iOS-${{ env.UNITY_VERSION }}-${{ hashFiles('Packages/manifest.json') }}
+          restore-keys: Library-iOS-${{ env.UNITY_VERSION }}-
+
+      # Same sign-in as the Android build: the editor takes a Personal seat with UNITY_EMAIL and
+      # UNITY_PASSWORD for the run and gives it back afterwards.
+      - name: Build
+        env:
+          UNITY_EMAIL: ${{ secrets.UNITY_EMAIL }}
+          UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
+          APPLE_TEAM_ID: ${{ secrets.APPLE_TEAM_ID }}
+        run: >
+          docker run --rm --shm-size=2g
+          -e UNITY_EMAIL -e UNITY_PASSWORD -e APPLE_TEAM_ID
+          -e GITHUB_REF_TYPE -e GITHUB_REF_NAME -e GITHUB_RUN_NUMBER
+          -v "$GITHUB_WORKSPACE:/project" -w /project
+          unityci/editor:ubuntu-${UNITY_VERSION}-ios-3
+          bash .github/scripts/build-ios.sh
+
+      # tar keeps the executable bits on Xcode's build scripts; a plain artifact upload drops them.
+      - name: Pack
+        run: sudo tar -czf Aron-iOS-Xcode.tgz -C build/iOS/Aron .
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: Aron-iOS-Xcode
+          path: Aron-iOS-Xcode.tgz
+          if-no-files-found: error
+          retention-days: 14
+
+  compile:
+    name: Unsigned build (macOS)
+    needs: xcode
+    if: ${{ inputs.compile }}
+    runs-on: macos-15
+    timeout-minutes: 90
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          name: Aron-iOS-Xcode
+
+      - run: mkdir xcode && tar -xzf Aron-iOS-Xcode.tgz -C xcode
+
+      - name: xcodebuild
+        working-directory: xcode
+        run: |
+          xcodebuild build \
+            -project Unity-iPhone.xcodeproj -scheme Unity-iPhone -configuration Release \
+            -sdk iphoneos -destination "generic/platform=iOS" -derivedDataPath ../dd \
+            CODE_SIGNING_ALLOWED=NO CODE_SIGNING_REQUIRED=NO CODE_SIGN_IDENTITY=""
+
+      - name: Package unsigned .ipa
+        run: |
+          app=$(find dd/Build/Products/Release-iphoneos -maxdepth 1 -name "*.app" -type d | head -n 1)
+          mkdir Payload && cp -R "$app" Payload/
+          zip -qry Aron-unsigned.ipa Payload
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: Aron-iOS-unsigned
+          path: Aron-unsigned.ipa
+          if-no-files-found: error
+          retention-days: 7

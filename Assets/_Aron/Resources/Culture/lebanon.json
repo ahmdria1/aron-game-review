@@ -1,0 +1,261 @@
+{
+  "country": "lebanon",
+  "dialect": "levantine",
+  "uiLanguage": "ar",
+  "greeting": {
+    "words": "أهلا وسهلا، كيفك؟",
+    "wordsEn": "Welcome, how are you?",
+    "wordsAr": "أهلا وسهلا، كيفك؟",
+    "gesture": "cheek_kiss"
+  },
+  "hospitality": {
+    "ar": "في لبنان الضيف لازم يتعشى قبل لا يمشي.",
+    "en": "In Lebanon, a guest is always asked to stay and eat.",
+    "tr": "Lübnan misafiri her zaman yemeğe alıkoyar.",
+    "de": "Im Libanon wird ein Gast immer zum Essen eingeladen.",
+    "ur": "لبنان میں مہمان کو ہمیشہ کھانے پر روکا جاتا ہے۔",
+    "hi": "लेबनान में मेहमान को हमेशा खाने के लिए रोका जाता है।",
+    "es": "En el Líbano siempre se invita al huésped a quedarse a comer.",
+    "pt": "No Líbano pede-se sempre ao convidado que fique para comer.",
+    "id": "Di Lebanon, tamu selalu diajak makan dulu.",
+    "ms": "Di Lubnan, tetamu sentiasa diajak makan dahulu.",
+    "ja": "レバノンではお客さんはいつも食事に誘われます。",
+    "fr": "Liban : on invite toujours l'invité à rester manger."
+  },
+  "customs": [
+    {
+      "act": "share_bread",
+      "en": "Mezze is shared on many small plates.",
+      "ar": "المازة على صحون صغيرة للكل."
+    },
+    {
+      "act": "invite_in",
+      "en": "Guests are always asked to stay for lunch.",
+      "ar": "الضيف لازم يتغدى."
+    }
+  ],
+  "architecture": "Red-roofed stone houses, mountain villages, cedar forests.",
+  "palette": [
+    "#ED1C24",
+    "#FFFFFF",
+    "#00A651",
+    "#C8A060"
+  ],
+  "music": {
+    "style": "Dabke and mountain songs",
+    "instruments": [
+      "mijwiz",
+      "tabl",
+      "oud"
+    ]
+  },
+  "street": {
+    "vendors": [
+      "manakish oven",
+      "ka'ak cart"
+    ],
+    "cafe": "mountain café",
+    "kidsGames": [
+      "marbles",
+      "jumping rope"
+    ],
+    "crowd": "lively, chatty"
+  },
+  "foods": [
+    {
+      "id": "lebanon_manakish",
+      "local": "Manakish",
+      "name": {
+        "ar": "مناقيش",
+        "en": "Za'atar flatbread",
+        "tr": "Manakish",
+        "de": "Manakish",
+        "ur": "مناقیش",
+        "hi": "मनाकीश",
+        "es": "Manakish",
+        "pt": "Manakish",
+        "id": "Manakish",
+        "ms": "Manakish",
+        "ja": "マナキーシュ",
+        "fr": "Manakish"
+      },
+      "fact": {
+        "ar": "فطور محبوب في لبنان.",
+        "en": "A favourite breakfast in Lebanon.",
+        "tr": "Lübnan için sevilen bir kahvaltı.",
+        "de": "Ein beliebtes Frühstück im Libanon.",
+        "ur": "لبنان کا پسندیدہ ناشتہ۔",
+        "hi": "लेबनान का पसंदीदा नाश्ता।",
+        "es": "Un desayuno favorito en el Líbano.",
+        "pt": "Um pequeno-almoço favorito no Líbano.",
+        "id": "Sarapan favorit di Lebanon.",
+        "ms": "Sarapan kegemaran di Lubnan.",
+        "ja": "レバノンで人気の朝ごはんです。",
+        "fr": "Liban : un petit-déjeuner très apprécié."
+      },
+      "shape": "cake",
+      "color": "#D9A050",
+      "color2": "#6A8F3A",
+      "buff": "energy",
+      "price": 30
+    },
+    {
+      "id": "lebanon_tabbouleh",
+      "local": "Tabbouleh",
+      "name": {
+        "ar": "تبولة",
+        "en": "Parsley bulgur salad",
+        "tr": "Tabbouleh",
+        "de": "Tabbouleh",
+        "ur": "تبولہ",
+        "hi": "तबूले",
+        "es": "Tabbouleh",
+        "pt": "Tabbouleh",
+        "id": "Tabbouleh",
+        "ms": "Tabbouleh",
+        "ja": "タブーラ",
+        "fr": "Tabbouleh"
+      },
+      "fact": {
+        "ar": "يتشاركونه من صحن كبير مع الأهل والضيوف في لبنان.",
+        "en": "Shared from one big plate with family and guests in Lebanon.",
+        "tr": "Lübnan için aile ve misafirlerle büyük bir tabaktan paylaşılır.",
+        "de": "Im Libanon von einer großen Platte mit Familie und Gästen geteilt.",
+        "ur": "لبنان میں گھر والوں اور مہمانوں کے ساتھ ایک بڑی پلیٹ سے کھایا جاتا ہے۔",
+        "hi": "लेबनान में परिवार और मेहमानों के साथ एक बड़ी थाली से खाया जाता है।",
+        "es": "Se comparte de una gran fuente con familia e invitados en el Líbano.",
+        "pt": "Partilha-se de uma grande travessa com família e convidados no Líbano.",
+        "id": "Disantap bersama dari satu piring besar dengan keluarga dan tamu di Lebanon.",
+        "ms": "Dikongsi dari satu pinggan besar bersama keluarga dan tetamu di Lubnan.",
+        "ja": "レバノンでは大皿から家族やお客さんと分け合います。",
+        "fr": "Liban : partagé dans un grand plat avec la famille et les invités."
+      },
+      "shape": "bowl",
+      "color": "#6A8F3A",
+      "color2": "#C8553D",
+      "buff": "speed",
+      "price": 35
+    },
+    {
+      "id": "lebanon_hummus",
+      "local": "Hummus",
+      "name": {
+        "ar": "حمص",
+        "en": "Chickpea dip",
+        "tr": "Hummus",
+        "de": "Hummus",
+        "ur": "حمص",
+        "hi": "हम्मस",
+        "es": "Hummus",
+        "pt": "Hummus",
+        "id": "Hummus",
+        "ms": "Hummus",
+        "ja": "フムス",
+        "fr": "Hummus"
+      },
+      "fact": {
+        "ar": "تُعرف غالباً بأنها الأكلة الوطنية في لبنان.",
+        "en": "Often called the national dish of Lebanon.",
+        "tr": "Genellikle Lübnan ulusal yemeği sayılır.",
+        "de": "Gilt oft als Nationalgericht vom Libanon.",
+        "ur": "اسے اکثر لبنان کا قومی کھانا کہا جاتا ہے۔",
+        "hi": "इसे अक्सर लेबनान का राष्ट्रीय व्यंजन कहा जाता है।",
+        "es": "Se le suele llamar el plato nacional del Líbano.",
+        "pt": "É muitas vezes chamado o prato nacional do Líbano.",
+        "id": "Sering disebut hidangan nasional Lebanon.",
+        "ms": "Sering disebut hidangan kebangsaan Lubnan.",
+        "ja": "レバノンの国民食とよく言われます。",
+        "fr": "Liban : souvent appelé le plat national."
+      },
+      "shape": "bowl",
+      "color": "#E0C890",
+      "color2": "#8A5A2A",
+      "buff": "strength",
+      "price": 30
+    },
+    {
+      "id": "lebanon_kaak",
+      "local": "Ka'ak",
+      "name": {
+        "ar": "كعك",
+        "en": "Sesame bread ring",
+        "tr": "Ka'ak",
+        "de": "Ka'ak",
+        "ur": "کعک",
+        "hi": "काक",
+        "es": "Ka'ak",
+        "pt": "Ka'ak",
+        "id": "Ka'ak",
+        "ms": "Ka'ak",
+        "ja": "カアク",
+        "fr": "Ka'ak"
+      },
+      "fact": {
+        "ar": "يُباع حاراً في بسطات الشوارع في كل لبنان.",
+        "en": "Sold hot at street stalls all over Lebanon.",
+        "tr": "Lübnan genelinde sokak tezgâhlarında sıcak satılır.",
+        "de": "Überall im Libanon heiß an Straßenständen verkauft.",
+        "ur": "پورے لبنان میں ٹھیلوں پر گرم گرم بکتا ہے۔",
+        "hi": "पूरे लेबनान में ठेलों पर गरमा-गरम बिकता है।",
+        "es": "Se vende caliente en puestos callejeros por todo el territorio del Líbano.",
+        "pt": "Vende-se quente em bancas de rua em todo o Líbano.",
+        "id": "Dijual hangat di kaki lima di seluruh Lebanon.",
+        "ms": "Dijual panas di gerai tepi jalan di seluruh Lubnan.",
+        "ja": "レバノンのあちこちの屋台で熱々で売られています。",
+        "fr": "Liban : vendu tout chaud dans les stands de rue."
+      },
+      "shape": "ball",
+      "color": "#C8803A",
+      "color2": "#E8C14A",
+      "buff": "energy",
+      "price": 20
+    },
+    {
+      "id": "lebanon_maamoul",
+      "local": "Maamoul",
+      "name": {
+        "ar": "معمول",
+        "en": "Date-filled cookies",
+        "tr": "Maamoul",
+        "de": "Maamoul",
+        "ur": "معمول",
+        "hi": "मामूल",
+        "es": "Maamoul",
+        "pt": "Maamoul",
+        "id": "Maamoul",
+        "ms": "Maamoul",
+        "ja": "マアムール",
+        "fr": "Maamoul"
+      },
+      "fact": {
+        "ar": "حلا محبوب في لبنان، أحلى مع الشاي أو القهوة.",
+        "en": "A sweet treat in Lebanon, best with tea or coffee.",
+        "tr": "Lübnan için tatlı bir ikram, çay ya da kahveyle en güzeli.",
+        "de": "Eine süße Leckerei im Libanon, am besten mit Tee oder Kaffee.",
+        "ur": "لبنان کی میٹھی سوغات، چائے یا کافی کے ساتھ مزیدار۔",
+        "hi": "लेबनान की मीठी सौगात, चाय या कॉफ़ी के साथ सबसे अच्छी।",
+        "es": "Un dulce del Líbano, mejor con té o café.",
+        "pt": "Um doce do Líbano, melhor com chá ou café.",
+        "id": "Camilan manis di Lebanon, paling enak dengan teh atau kopi.",
+        "ms": "Manisan di Lubnan, paling sedap dengan teh atau kopi.",
+        "ja": "レバノンの甘いおやつ。お茶やコーヒーと一緒にどうぞ。",
+        "fr": "Liban : une douceur, parfaite avec un thé ou un café."
+      },
+      "shape": "cake",
+      "color": "#E0C08A",
+      "color2": "#6B3A1E",
+      "buff": "energy",
+      "price": 30
+    }
+  ],
+  "animals": [
+    "lebanon_goat",
+    "lebanon_eagle"
+  ],
+  "attackTrailVfx": "cedar_needles",
+  "eatIdle": {
+    "dishId": "lebanon_manakish",
+    "propModel": "food_manakish",
+    "reaction": "yum"
+  }
+}

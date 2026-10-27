@@ -1,0 +1,165 @@
+{
+  "order": 140,
+  "id": "northern",
+  "nameAr": "منطقة الحدود الشمالية",
+  "nameEn": "Northern Borders",
+  "group": "saudi",
+  "country": "saudi",
+  "costume": "",
+  "music": "music_saudi_north",
+  "ground": "#D2B48C",
+  "accent": "#3E5C2A",
+  "sky": "#AAC8E0",
+  "stages": [
+    {
+      "id": "northern_1",
+      "nameAr": "عرعر - برج الماء",
+      "nameEn": "Arar Water Tower",
+      "terrain": "street",
+      "landmarks": [
+        "water_tower",
+        "mud_town"
+      ],
+      "mount": "",
+      "difficulty": 3,
+      "boss": false,
+      "type": "normal",
+      "time": "night",
+      "weather": "clear",
+      "costume": "",
+      "lineAr": "عرعر، الشمال بارد.",
+      "extra": ""
+    },
+    {
+      "id": "northern_2",
+      "nameAr": "سوق عرعر",
+      "nameEn": "Arar Market",
+      "terrain": "souq",
+      "landmarks": [
+        "souq"
+      ],
+      "mount": "",
+      "difficulty": 3,
+      "boss": false,
+      "type": "action",
+      "time": "sunset",
+      "weather": "clear",
+      "costume": "",
+      "lineAr": "سوق عرعر، فروة وبشت.",
+      "extra": ""
+    },
+    {
+      "id": "northern_3",
+      "nameAr": "درب زبيدة",
+      "nameEn": "Darb Zubaydah",
+      "terrain": "desert",
+      "landmarks": [
+        "stone_pillars",
+        "dunes"
+      ],
+      "mount": "camel",
+      "difficulty": 4,
+      "boss": false,
+      "type": "normal",
+      "time": "day",
+      "weather": "sandstorm",
+      "costume": "",
+      "lineAr": "درب زبيدة، طريق الحجاج القديم.",
+      "extra": ""
+    },
+    {
+      "id": "northern_4",
+      "nameAr": "رفحاء - برك زبيدة",
+      "nameEn": "Rafha - Zubaydah Pools",
+      "terrain": "ruins",
+      "landmarks": [
+        "lake",
+        "stone_pillars"
+      ],
+      "mount": "",
+      "difficulty": 4,
+      "boss": false,
+      "type": "normal",
+      "time": "day",
+      "weather": "rain",
+      "costume": "",
+      "lineAr": "برك قديمة للماي.",
+      "extra": ""
+    },
+    {
+      "id": "northern_5",
+      "nameAr": "طريف",
+      "nameEn": "Turaif",
+      "terrain": "desert",
+      "landmarks": [
+        "dunes",
+        "tents"
+      ],
+      "mount": "camel",
+      "difficulty": 5,
+      "boss": false,
+      "type": "chase",
+      "time": "night",
+      "weather": "clear",
+      "costume": "",
+      "lineAr": "طريف، أبرد مدينة بالمملكة.",
+      "extra": ""
+    },
+    {
+      "id": "northern_6",
+      "nameAr": "ساحة ذيب الشمال",
+      "nameEn": "Dheeb Al Shamal",
+      "terrain": "desert",
+      "landmarks": [
+        "tents"
+      ],
+      "mount": "",
+      "difficulty": 5,
+      "boss": true,
+      "type": "boss",
+      "time": "night",
+      "weather": "clear",
+      "costume": "saudi_bisht",
+      "lineAr": "ذيب الشمال جاي!",
+      "extra": ""
+    }
+  ],
+  "boss": {
+    "nameAr": "ذيب الشمال",
+    "nameEn": "Dheeb Al Shamal",
+    "model": "wolf",
+    "headgear": "none",
+    "body": "#4A3A2A",
+    "trim": "#C8B89A",
+    "projectile": "#E6E0D4",
+    "scale": 1.1,
+    "health": 10,
+    "introAr": "برد الشمال يقص العظم!",
+    "stunAr": "آخ! راسي...",
+    "defeatAr": "دفيت... خلاص.",
+    "phases": [
+      {
+        "threshold": 1.0,
+        "move": 3.5,
+        "charge": 12,
+        "interval": 3,
+        "attacks": [
+          "charge",
+          "summon"
+        ],
+        "tauntAr": "يا ذيابة!"
+      },
+      {
+        "threshold": 0.5,
+        "move": 4.5,
+        "charge": 15,
+        "interval": 2.4,
+        "attacks": [
+          "dash",
+          "summon"
+        ],
+        "tauntAr": "عاصفة!"
+      }
+    ]
+  }
+}

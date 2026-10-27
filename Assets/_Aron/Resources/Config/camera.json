@@ -1,0 +1,84 @@
+{
+ "recenterSeconds": 1.5,
+ "recenterDuration": 0.6,
+ "degreesPerCm": 55,
+ "wallMargin": 0.3,
+ "minDistance": 1.4,
+ "wallInSpeed": 40,
+ "wallOutSpeed": 4,
+ "modes": [
+  {
+   "id": "free",
+   "distance": 7,
+   "height": 4.2,
+   "lookAhead": 3,
+   "lateralFollow": 0.6,
+   "smoothTime": 0.15,
+   "fov": 60,
+   "orbit": true,
+   "zoom": true,
+   "maxYaw": 150,
+   "pitchDown": 15,
+   "pitchUp": 35,
+   "zoomMin": 0.6,
+   "zoomMax": 1.5
+  },
+  {
+   "id": "chase",
+   "distance": 8,
+   "height": 3.4,
+   "lookAhead": 6,
+   "lateralFollow": 0.35,
+   "smoothTime": 0.2,
+   "fov": 62,
+   "orbit": false,
+   "zoom": false
+  },
+  {
+   "id": "race",
+   "distance": 9,
+   "height": 4.4,
+   "lookAhead": 7,
+   "lateralFollow": 0.5,
+   "smoothTime": 0.12,
+   "fov": 62,
+   "orbit": false,
+   "zoom": false,
+   "fovSpeedBoost": 14,
+   "distanceSpeedBoost": 2.5
+  },
+  {
+   "id": "camel_race",
+   "distance": 8,
+   "height": 3.1,
+   "lookAhead": 10,
+   "lateralFollow": 0.6,
+   "smoothTime": 0.1,
+   "fov": 64,
+   "orbit": false,
+   "zoom": false,
+   "fovSpeedBoost": 20,
+   "distanceSpeedBoost": 3
+  },
+  {
+   "id": "boss",
+   "distance": 10,
+   "height": 5.6,
+   "lookAhead": 2,
+   "lateralFollow": 0.3,
+   "smoothTime": 0.25,
+   "fov": 62,
+   "orbit": false,
+   "zoom": false,
+   "frameExtra": 6,
+   "frameGapFactor": 0.35
+  }
+ ],
+ "stageModes": [
+  "normal=free",
+  "action=free",
+  "chase=chase",
+  "race=race",
+  "boss=boss"
+ ]
+}

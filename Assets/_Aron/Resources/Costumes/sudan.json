@@ -1,0 +1,86 @@
+{
+  "country": "sudan",
+  "costumes": [
+    {
+      "id": "sudan_jalabiya",
+      "country": "sudan",
+      "hero": "aron",
+      "nameAr": "الجلابية والعمة البيضاء",
+      "nameEn": "Jalabiya and white imma",
+      "isDefault": true,
+      "price": 0,
+      "materials": [
+        {
+          "material": "Clothes",
+          "color": "#FFFFFF"
+        }
+      ],
+      "meshes": [
+        {
+          "slot": "body",
+          "mesh": "jalabiya"
+        },
+        {
+          "slot": "feet",
+          "mesh": "shoes_closed"
+        }
+      ],
+      "accessories": [
+        {
+          "kind": "imma",
+          "color": "#FFFFFF"
+        },
+        {
+          "kind": "shawl",
+          "color": "#F4F1EA"
+        }
+      ],
+      "footwear": "leather_shoes",
+      "footwearColor": "#5A3A22",
+      "agalMount": "wrist"
+    },
+    {
+      "id": "sudan_noura",
+      "country": "sudan",
+      "hero": "noura",
+      "nameAr": "التوب السوداني",
+      "nameEn": "Sudanese toub",
+      "isDefault": true,
+      "price": 0,
+      "materials": [
+        {
+          "material": "Clothes",
+          "color": "#C9553A"
+        }
+      ],
+      "meshes": [
+        {
+          "slot": "body",
+          "mesh": "abaya_long"
+        },
+        {
+          "slot": "feet",
+          "mesh": "shoes_closed"
+        }
+      ],
+      "accessories": [
+        {
+          "kind": "abaya",
+          "color": "#C9553A",
+          "pattern": "#F2C230"
+        },
+        {
+          "kind": "hijab",
+          "color": "#C9553A"
+        },
+        {
+          "kind": "shawl",
+          "color": "#F2C230"
+        }
+      ],
+      "footwear": "closed_flats",
+      "footwearColor": "#2A2020",
+      "agalMount": "none"
+    }
+  ]
+}

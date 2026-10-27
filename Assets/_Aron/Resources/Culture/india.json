@@ -1,0 +1,265 @@
+{
+  "country": "india",
+  "dialect": "hi",
+  "uiLanguage": "hi",
+  "greeting": {
+    "words": "Namaste",
+    "wordsEn": "Hello",
+    "wordsAr": "أهلاً",
+    "gesture": "namaste"
+  },
+  "hospitality": {
+    "ar": "في الهند يُستقبل الضيف بكوب شاي بالحليب.",
+    "en": "In India, guests are welcomed with a cup of milky chai.",
+    "tr": "Hindistan misafirleri sütlü çayla karşılar.",
+    "de": "In Indien empfängt man Gäste mit einer Tasse Milch-Chai.",
+    "ur": "بھارت میں مہمان کا استقبال دودھ پتی چائے سے ہوتا ہے۔",
+    "hi": "भारत में मेहमान का स्वागत दूध वाली चाय से होता है।",
+    "es": "En la India se recibe a los invitados con una taza de chai con leche.",
+    "pt": "Na Índia recebem-se os convidados com uma chávena de chai com leite.",
+    "id": "Di India, tamu disambut dengan secangkir teh susu.",
+    "ms": "Di India, tetamu disambut dengan secawan teh susu.",
+    "ja": "インドではお客さんをミルクチャイでもてなします。",
+    "fr": "Inde : on accueille les invités avec un chai au lait."
+  },
+  "customs": [
+    {
+      "act": "pour_tea",
+      "en": "Masala chai from a street-side kettle.",
+      "ar": "شاي ماسالا من إبريق على الرصيف."
+    },
+    {
+      "act": "offer_sweets",
+      "en": "Sweets are shared for every bit of good news.",
+      "ar": "الحلا يتوزع مع كل خبر حلو."
+    }
+  ],
+  "architecture": "Pink sandstone palaces, stepwells, houseboats and hill stations.",
+  "palette": [
+    "#FF9933",
+    "#FFFFFF",
+    "#138808",
+    "#E2457A"
+  ],
+  "music": {
+    "style": "Folk and film-style",
+    "instruments": [
+      "sitar",
+      "tabla",
+      "dhol"
+    ]
+  },
+  "street": {
+    "vendors": [
+      "chai wallah",
+      "samosa stall"
+    ],
+    "cafe": "chai stall",
+    "kidsGames": [
+      "cricket",
+      "kho-kho"
+    ],
+    "crowd": "crowded, colourful markets"
+  },
+  "foods": [
+    {
+      "id": "india_samosa",
+      "local": "Samosa",
+      "name": {
+        "ar": "سمبوسة",
+        "en": "Samosa",
+        "tr": "Samosa",
+        "de": "Samosa",
+        "ur": "سموسہ",
+        "hi": "समोसा",
+        "es": "Samosa",
+        "pt": "Samosa",
+        "id": "Samosa",
+        "ms": "Samosa",
+        "ja": "サモサ",
+        "fr": "Samosa"
+      },
+      "fact": {
+        "ar": "يُباع حاراً في بسطات الشوارع في كل الهند.",
+        "en": "Sold hot at street stalls all over India.",
+        "tr": "Hindistan genelinde sokak tezgâhlarında sıcak satılır.",
+        "de": "Überall in Indien heiß an Straßenständen verkauft.",
+        "ur": "پورے بھارت میں ٹھیلوں پر گرم گرم بکتا ہے۔",
+        "hi": "पूरे भारत में ठेलों पर गरमा-गरम बिकता है।",
+        "es": "Se vende caliente en puestos callejeros por todo el territorio de la India.",
+        "pt": "Vende-se quente em bancas de rua em toda a Índia.",
+        "id": "Dijual hangat di kaki lima di seluruh India.",
+        "ms": "Dijual panas di gerai tepi jalan di seluruh India.",
+        "ja": "インドのあちこちの屋台で熱々で売られています。",
+        "fr": "Inde : vendu tout chaud dans les stands de rue."
+      },
+      "shape": "bun",
+      "color": "#D9A050",
+      "color2": "#6A8F3A",
+      "buff": "energy",
+      "price": 30
+    },
+    {
+      "id": "india_dosa",
+      "local": "Masala dosa",
+      "name": {
+        "ar": "دوسا",
+        "en": "Crispy rice crêpe",
+        "tr": "Masala dosa",
+        "de": "Masala dosa",
+        "ur": "ڈوسا",
+        "hi": "मसाला डोसा",
+        "es": "Masala dosa",
+        "pt": "Masala dosa",
+        "id": "Masala dosa",
+        "ms": "Masala dosa",
+        "ja": "ドーサ",
+        "fr": "Masala dosa"
+      },
+      "fact": {
+        "ar": "فطور محبوب في الهند.",
+        "en": "A favourite breakfast in India.",
+        "tr": "Hindistan için sevilen bir kahvaltı.",
+        "de": "Ein beliebtes Frühstück in Indien.",
+        "ur": "بھارت کا پسندیدہ ناشتہ۔",
+        "hi": "भारत का पसंदीदा नाश्ता।",
+        "es": "Un desayuno favorito en la India.",
+        "pt": "Um pequeno-almoço favorito na Índia.",
+        "id": "Sarapan favorit di India.",
+        "ms": "Sarapan kegemaran di India.",
+        "ja": "インドで人気の朝ごはんです。",
+        "fr": "Inde : un petit-déjeuner très apprécié."
+      },
+      "shape": "roll",
+      "color": "#E0B070",
+      "color2": "#F2D06B",
+      "buff": "speed",
+      "price": 45
+    },
+    {
+      "id": "india_butter_chicken",
+      "local": "Butter chicken",
+      "name": {
+        "ar": "دجاج بالزبدة",
+        "en": "Butter chicken",
+        "tr": "Butter chicken",
+        "de": "Butter chicken",
+        "ur": "بٹر چکن",
+        "hi": "बटर चिकन",
+        "es": "Butter chicken",
+        "pt": "Butter chicken",
+        "id": "Butter chicken",
+        "ms": "Butter chicken",
+        "ja": "バターチキン",
+        "fr": "Butter chicken"
+      },
+      "fact": {
+        "ar": "تُعرف غالباً بأنها الأكلة الوطنية في الهند.",
+        "en": "Often called the national dish of India.",
+        "tr": "Genellikle Hindistan ulusal yemeği sayılır.",
+        "de": "Gilt oft als Nationalgericht von Indien.",
+        "ur": "اسے اکثر بھارت کا قومی کھانا کہا جاتا ہے۔",
+        "hi": "इसे अक्सर भारत का राष्ट्रीय व्यंजन कहा जाता है।",
+        "es": "Se le suele llamar el plato nacional de la India.",
+        "pt": "É muitas vezes chamado o prato nacional da Índia.",
+        "id": "Sering disebut hidangan nasional India.",
+        "ms": "Sering disebut hidangan kebangsaan India.",
+        "ja": "インドの国民食とよく言われます。",
+        "fr": "Inde : souvent appelé le plat national."
+      },
+      "shape": "bowl",
+      "color": "#E0703A",
+      "color2": "#F5EEDC",
+      "buff": "strength",
+      "price": 80
+    },
+    {
+      "id": "india_gulab_jamun",
+      "local": "Gulab jamun",
+      "name": {
+        "ar": "غلاب جامون",
+        "en": "Syrup milk balls",
+        "tr": "Gulab jamun",
+        "de": "Gulab jamun",
+        "ur": "گلاب جامن",
+        "hi": "गुलाब जामुन",
+        "es": "Gulab jamun",
+        "pt": "Gulab jamun",
+        "id": "Gulab jamun",
+        "ms": "Gulab jamun",
+        "ja": "グラブ・ジャムン",
+        "fr": "Gulab jamun"
+      },
+      "fact": {
+        "ar": "حلا محبوب في الهند، أحلى مع الشاي أو القهوة.",
+        "en": "A sweet treat in India, best with tea or coffee.",
+        "tr": "Hindistan için tatlı bir ikram, çay ya da kahveyle en güzeli.",
+        "de": "Eine süße Leckerei in Indien, am besten mit Tee oder Kaffee.",
+        "ur": "بھارت کی میٹھی سوغات، چائے یا کافی کے ساتھ مزیدار۔",
+        "hi": "भारत की मीठी सौगात, चाय या कॉफ़ी के साथ सबसे अच्छी।",
+        "es": "Un dulce de la India, mejor con té o café.",
+        "pt": "Um doce da Índia, melhor com chá ou café.",
+        "id": "Camilan manis di India, paling enak dengan teh atau kopi.",
+        "ms": "Manisan di India, paling sedap dengan teh atau kopi.",
+        "ja": "インドの甘いおやつ。お茶やコーヒーと一緒にどうぞ。",
+        "fr": "Inde : une douceur, parfaite avec un thé ou un café."
+      },
+      "shape": "ball",
+      "color": "#8A3A1E",
+      "color2": "#E8C14A",
+      "buff": "energy",
+      "price": 35
+    },
+    {
+      "id": "india_thali",
+      "local": "Thali",
+      "name": {
+        "ar": "ثالي",
+        "en": "A platter of many small dishes",
+        "tr": "Thali",
+        "de": "Thali",
+        "ur": "تھالی",
+        "hi": "थाली",
+        "es": "Thali",
+        "pt": "Thali",
+        "id": "Thali",
+        "ms": "Thali",
+        "ja": "ターリー",
+        "fr": "Thali"
+      },
+      "fact": {
+        "ar": "يتشاركونه من صحن كبير مع الأهل والضيوف في الهند.",
+        "en": "Shared from one big plate with family and guests in India.",
+        "tr": "Hindistan için aile ve misafirlerle büyük bir tabaktan paylaşılır.",
+        "de": "In Indien von einer großen Platte mit Familie und Gästen geteilt.",
+        "ur": "بھارت میں گھر والوں اور مہمانوں کے ساتھ ایک بڑی پلیٹ سے کھایا جاتا ہے۔",
+        "hi": "भारत में परिवार और मेहमानों के साथ एक बड़ी थाली से खाया जाता है।",
+        "es": "Se comparte de una gran fuente con familia e invitados en la India.",
+        "pt": "Partilha-se de uma grande travessa com família e convidados na Índia.",
+        "id": "Disantap bersama dari satu piring besar dengan keluarga dan tamu di India.",
+        "ms": "Dikongsi dari satu pinggan besar bersama keluarga dan tetamu di India.",
+        "ja": "インドでは大皿から家族やお客さんと分け合います。",
+        "fr": "Inde : partagé dans un grand plat avec la famille et les invités."
+      },
+      "shape": "plate",
+      "color": "#E8A03A",
+      "color2": "#138808",
+      "buff": "magnet",
+      "price": 90
+    }
+  ],
+  "animals": [
+    "india_elephant",
+    "india_peacock",
+    "india_cow",
+    "india_bengal_tiger",
+    "india_langur",
+    "india_indian_cobra"
+  ],
+  "attackTrailVfx": "marigold_petals",
+  "eatIdle": {
+    "dishId": "india_samosa",
+    "propModel": "food_samosa",
+    "reaction": "spicy"
+  }
+}

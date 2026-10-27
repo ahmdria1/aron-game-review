@@ -1,0 +1,115 @@
+{
+  "lang": "id",
+  "profanity": {
+    "terms": [
+      "anjing",
+      "bangsat",
+      "bajingan",
+      "kontol",
+      "memek",
+      "ngentot",
+      "jancok",
+      "jancuk",
+      "kampret",
+      "keparat",
+      "brengsek",
+      "sialan",
+      "pantek",
+      "tempik"
+    ],
+    "words": [
+      "asu",
+      "tai",
+      "babi",
+      "kntl",
+      "mmk",
+      "pntk"
+    ],
+    "exact": [
+      "asu",
+      "babi"
+    ]
+  },
+  "insult": {
+    "terms": [
+      "bodoh",
+      "goblok",
+      "tolol",
+      "dungu",
+      "idiot",
+      "bego",
+      "sinting"
+    ],
+    "words": [
+      "bego",
+      "bodo",
+      "dungu"
+    ],
+    "exact": [
+      "gila"
+    ]
+  },
+  "hate": {
+    "terms": [
+      "keling",
+      "monyet",
+      "cebong",
+      "kafir",
+      "cina babi",
+      "pribumi busuk"
+    ],
+    "words": [
+      "keling",
+      "monyet",
+      "kafir",
+      "cebong",
+      "kampret"
+    ],
+    "exact": []
+  },
+  "sexual": {
+    "terms": [
+      "bokep",
+      "ngewe",
+      "colmek",
+      "pelacur",
+      "lonte",
+      "perkosa",
+      "pedofil",
+      "telanjang",
+      "bugil",
+      "sange"
+    ],
+    "words": [
+      "seks",
+      "bokep",
+      "bugil",
+      "sange",
+      "lonte"
+    ],
+    "exact": [
+      "seks"
+    ]
+  },
+  "figures": {
+    "terms": [
+      "yesusKristus",
+      "jokowi",
+      "prabowo",
+      "megawati",
+      "soeharto",
+      "sukarno",
+      "tuhanyesus"
+    ],
+    "words": [
+      "tuhan",
+      "setan",
+      "iblis",
+      "jokowi"
+    ],
+    "exact": [
+      "tuhan",
+      "yesus"
+    ]
+  }
+}

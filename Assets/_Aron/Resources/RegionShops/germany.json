@@ -1,0 +1,15 @@
+{
+  "region": "germany",
+  "shops": [
+    {
+      "stage": "germany_5",
+      "nameAr": "بريتزل السوق",
+      "kind": "bakery"
+    },
+    {
+      "stage": "germany_1",
+      "nameAr": "ساعات الغابة",
+      "kind": "gifts"
+    }
+  ]
+}

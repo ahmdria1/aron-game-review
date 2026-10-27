@@ -1,0 +1,166 @@
+{
+  "lang": "en",
+  "profanity": {
+    "terms": [
+      "fuck",
+      "fuk",
+      "bullshit",
+      "shit",
+      "asshole",
+      "arsehole",
+      "bitch",
+      "bastard",
+      "dickhead",
+      "motherfucker",
+      "cunt",
+      "wanker",
+      "bollocks",
+      "twat"
+    ],
+    "words": [
+      "ass",
+      "arse",
+      "dick",
+      "cock",
+      "fck",
+      "wtf",
+      "crap",
+      "prick"
+    ],
+    "exact": []
+  },
+  "insult": {
+    "terms": [
+      "idiot",
+      "moron",
+      "retard",
+      "dumbass",
+      "scumbag",
+      "imbecile",
+      "stupid"
+    ],
+    "words": [
+      "loser",
+      "ugly",
+      "dumb",
+      "stfu"
+    ],
+    "exact": []
+  },
+  "hate": {
+    "terms": [
+      "nigger",
+      "nigga",
+      "faggot",
+      "tranny",
+      "chink",
+      "wetback",
+      "raghead",
+      "towelhead",
+      "sandnigger",
+      "goatfucker",
+      "camelfucker",
+      "neonazi",
+      "whitepower",
+      "rafidi",
+      "rawafid",
+      "nawasib",
+      "safawi"
+    ],
+    "words": [
+      "kike",
+      "spic",
+      "fag",
+      "coon",
+      "paki",
+      "kafir",
+      "kaffir",
+      "majusi",
+      "nasibi",
+      "infidel",
+      "terrorist"
+    ],
+    "exact": []
+  },
+  "sexual": {
+    "terms": [
+      "porn",
+      "pornhub",
+      "blowjob",
+      "handjob",
+      "pussy",
+      "boobs",
+      "horny",
+      "slut",
+      "whore",
+      "rapist",
+      "pedophile",
+      "paedophile",
+      "molest",
+      "nudes",
+      "penis",
+      "vagina",
+      "dildo",
+      "orgasm",
+      "masturbat",
+      "cumshot",
+      "hentai",
+      "lolicon"
+    ],
+    "words": [
+      "sex",
+      "xxx",
+      "cum",
+      "tits",
+      "rape",
+      "pedo",
+      "nude",
+      "anal",
+      "nsfw"
+    ],
+    "exact": []
+  },
+  "figures": {
+    "terms": [
+      "hitler",
+      "stalin",
+      "mussolini",
+      "binladen",
+      "osamabinladen",
+      "alqaeda",
+      "daesh",
+      "taliban",
+      "hezbollah",
+      "khamenei",
+      "netanyahu",
+      "erdogan",
+      "basharalassad",
+      "saddamhussein",
+      "jesuschrist",
+      "rasulallah",
+      "kimjongun",
+      "xijinping"
+    ],
+    "words": [
+      "jesus",
+      "christ",
+      "satan",
+      "iblis",
+      "buddha",
+      "prophet",
+      "putin",
+      "trump",
+      "biden",
+      "obama",
+      "isis",
+      "hamas",
+      "pope",
+      "nazi",
+      "kkk"
+    ],
+    "exact": [
+      "allah",
+      "god"
+    ]
+  }
+}

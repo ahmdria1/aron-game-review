@@ -1,0 +1,199 @@
+{
+  "order": 220,
+  "id": "bahrain",
+  "nameAr": "البحرين",
+  "nameEn": "Bahrain",
+  "group": "gulf",
+  "music": "music_country_bahrain",
+  "ground": "#DCC59B",
+  "accent": "#CE1126",
+  "sky": "#9CCBE8",
+  "country": "bahrain",
+  "costume": "",
+  "stages": [
+    {
+      "id": "bahrain_1",
+      "nameAr": "باب البحرين",
+      "nameEn": "Bab Al Bahrain",
+      "terrain": "street",
+      "landmarks": [
+        "gate",
+        "souq"
+      ],
+      "mount": "",
+      "difficulty": 3,
+      "boss": false,
+      "lineAr": "باب البحرين، من هنا يبدأ السوق.",
+      "extra": "",
+      "time": "day",
+      "weather": "clear",
+      "type": "normal",
+      "costume": ""
+    },
+    {
+      "id": "bahrain_2",
+      "nameAr": "سوق المنامة",
+      "nameEn": "Manama Souq",
+      "terrain": "souq",
+      "landmarks": [
+        "souq",
+        "gate"
+      ],
+      "mount": "",
+      "difficulty": 3,
+      "boss": false,
+      "lineAr": "سوق المنامة بالليل له طعم ثاني.",
+      "extra": "",
+      "time": "night",
+      "weather": "clear",
+      "type": "chase",
+      "costume": ""
+    },
+    {
+      "id": "bahrain_3",
+      "nameAr": "طريق اللؤلؤ - المحرق",
+      "nameEn": "Pearling Path, Muharraq",
+      "terrain": "street",
+      "landmarks": [
+        "mud_town",
+        "dhows"
+      ],
+      "mount": "",
+      "difficulty": 4,
+      "boss": false,
+      "lineAr": "بيوت الطواويش القديمة على طريق اللؤلؤ.",
+      "extra": "",
+      "time": "sunset",
+      "weather": "clear",
+      "type": "normal",
+      "costume": ""
+    },
+    {
+      "id": "bahrain_4",
+      "nameAr": "قلعة البحرين",
+      "nameEn": "Qal'at al-Bahrain",
+      "terrain": "ruins",
+      "landmarks": [
+        "fort",
+        "palms"
+      ],
+      "mount": "horse",
+      "difficulty": 4,
+      "boss": false,
+      "lineAr": "الخيل جاهز، نلف حول القلعة.",
+      "extra": "",
+      "time": "day",
+      "weather": "clear",
+      "type": "normal",
+      "costume": ""
+    },
+    {
+      "id": "bahrain_5",
+      "nameAr": "شجرة الحياة",
+      "nameEn": "Tree of Life",
+      "terrain": "desert",
+      "landmarks": [
+        "lone_tree",
+        "dunes"
+      ],
+      "mount": "camel",
+      "difficulty": 5,
+      "boss": false,
+      "lineAr": "شجرة وحدها في الصحراء، والغبار قام!",
+      "extra": "",
+      "time": "day",
+      "weather": "sandstorm",
+      "type": "chase",
+      "costume": ""
+    },
+    {
+      "id": "bahrain_race",
+      "nameAr": "سباق قوارب الغوص",
+      "nameEn": "Pearl Boat Race",
+      "terrain": "coast",
+      "landmarks": [
+        "dhows",
+        "round_fort"
+      ],
+      "mount": "",
+      "difficulty": 5,
+      "boss": false,
+      "lineAr": "سباق! سباق قوارب الغوص، يلا نشوف مين الأول!",
+      "extra": "",
+      "time": "sunset",
+      "weather": "clear",
+      "type": "race",
+      "costume": "",
+      "race": "bahrain_boat"
+    },
+    {
+      "id": "bahrain_6",
+      "nameAr": "جسر الملك فهد",
+      "nameEn": "King Fahd Causeway",
+      "terrain": "coast",
+      "landmarks": [
+        "causeway",
+        "dhows"
+      ],
+      "mount": "",
+      "difficulty": 6,
+      "boss": true,
+      "lineAr": "على الجسر... أبو محار طالع من البحر!",
+      "extra": "",
+      "time": "night",
+      "weather": "clear",
+      "type": "boss",
+      "costume": ""
+    }
+  ],
+  "boss": {
+    "nameAr": "أبو محار",
+    "nameEn": "Abu Mahar",
+    "model": "clam",
+    "headgear": "none",
+    "body": "#B7C4CF",
+    "trim": "#F2EBDD",
+    "projectile": "#FFFFFF",
+    "scale": 1.3,
+    "health": 11,
+    "introAr": "كل لؤلؤ الخليج لي، وأنت ما راح تاخذ ولا حبة!",
+    "stunAr": "صدفتي انفتحت...",
+    "defeatAr": "خذ اللؤلؤ... البحرين لك.",
+    "phases": [
+      {
+        "threshold": 1.0,
+        "move": 3,
+        "charge": 12,
+        "interval": 3.0,
+        "attacks": [
+          "charge",
+          "volley"
+        ],
+        "tauntAr": "خذ لؤلؤ في راسك!"
+      },
+      {
+        "threshold": 0.66,
+        "move": 3.5,
+        "charge": 13,
+        "interval": 2.5,
+        "attacks": [
+          "leap",
+          "wave"
+        ],
+        "tauntAr": "صدفتي تهز الأرض!"
+      },
+      {
+        "threshold": 0.33,
+        "move": 4.5,
+        "charge": 15,
+        "interval": 2.0,
+        "attacks": [
+          "leap",
+          "volley",
+          "summon"
+        ],
+        "tauntAr": "يا سرطانات البحر!"
+      }
+    ]
+  }
+}

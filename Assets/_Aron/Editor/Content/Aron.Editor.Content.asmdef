@@ -1,0 +1,30 @@
+{
+    "name": "Aron.Editor.Content",
+    "rootNamespace": "Aron.EditorTools.Content",
+    "references": [
+        "Aron.Runtime",
+        "Aron.Logic",
+        "Aron.Editor",
+        "Aron.Content.Addressables",
+        "Unity.Addressables",
+        "Unity.Addressables.Editor",
+        "Unity.ResourceManager"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "autoReferenced": false,
+    "defineConstraints": [
+        "ARON_ADDRESSABLES"
+    ],
+    "versionDefines": [
+        {
+            "name": "com.unity.addressables",
+            "expression": "2.0.0",
+            "define": "ARON_ADDRESSABLES"
+        }
+    ],
+    "noEngineReferences": false
+}

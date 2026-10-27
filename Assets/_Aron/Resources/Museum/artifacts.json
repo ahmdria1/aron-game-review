@@ -1,0 +1,914 @@
+{
+ "artifacts": [
+  {
+   "id": "artifact_sadu",
+   "country": "saudi",
+   "kind": "textile",
+   "shape": "cloth",
+   "color": "#B3262E",
+   "color2": "#2B2B2B",
+   "name": {
+    "ar": "نسيج السدو",
+    "en": "Sadu weaving",
+    "tr": "Sadu dokuma",
+    "de": "Sadu-Weberei",
+    "ur": "سدو بُنائی",
+    "hi": "सादू बुनाई",
+    "es": "Tejido sadu",
+    "pt": "Tecelagem sadu",
+    "id": "Tenun sadu",
+    "ms": "Tenunan sadu",
+    "ja": "サドゥ織り",
+    "fr": "Tissage sadu"
+   },
+   "fact": {
+    "ar": "حرفة نسج يدوية بخطوط ملونة تصنعها نساء البادية من صوف الأغنام والإبل.",
+    "en": "A hand-weaving craft with bold coloured stripes, traditionally made from sheep and camel wool."
+   }
+  },
+  {
+   "id": "artifact_talli",
+   "country": "uae",
+   "kind": "textile",
+   "shape": "cloth",
+   "color": "#C9A227",
+   "color2": "#7A1F1F",
+   "name": {
+    "ar": "تطريز التلي",
+    "en": "Talli embroidery",
+    "tr": "Talli nakışı",
+    "de": "Talli-Stickerei",
+    "ur": "تلی کڑھائی",
+    "hi": "तल्ली कढ़ाई",
+    "es": "Bordado talli",
+    "pt": "Bordado talli",
+    "id": "Sulaman talli",
+    "ms": "Sulaman talli",
+    "ja": "タッリ刺繍",
+    "fr": "Broderie talli"
+   },
+   "fact": {
+    "ar": "تطريز بخيوط ذهبية وفضية على أطراف الأقمشة، من حِرف الإمارات.",
+    "en": "Embroidery in gold and silver thread along fabric edges, a craft of the Emirates."
+   }
+  },
+  {
+   "id": "artifact_boom",
+   "country": "kuwait",
+   "kind": "craft",
+   "shape": "boat",
+   "color": "#6B4A2B",
+   "color2": "#E8DCC0",
+   "name": {
+    "ar": "نموذج سفينة البوم",
+    "en": "Boom dhow model",
+    "tr": "Boom dhow modeli",
+    "de": "Boom-Dhau-Modell",
+    "ur": "بوم دھو کا نمونہ",
+    "hi": "बूम ढाउ का मॉडल",
+    "es": "Maqueta de dhow boom",
+    "pt": "Modelo de dhow boom",
+    "id": "Miniatur kapal dhow boom",
+    "ms": "Model kapal dhow boom",
+    "ja": "ブーム型ダウ船の模型",
+    "fr": "Maquette de boutre boom"
+   },
+   "fact": {
+    "ar": "نموذج صغير للسفينة الخشبية التي كان الكويتيون يبحرون بها للصيد والتجارة.",
+    "en": "A small model of the wooden ship Kuwaitis once sailed for fishing and trade."
+   }
+  },
+  {
+   "id": "artifact_pearl",
+   "country": "bahrain",
+   "kind": "gem",
+   "shape": "pearl",
+   "color": "#F2EFE6",
+   "color2": "#9FB6C8",
+   "name": {
+    "ar": "لؤلؤة البحرين",
+    "en": "Bahraini pearl",
+    "tr": "Bahreyn incisi",
+    "de": "Bahrain-Perle",
+    "ur": "بحرینی موتی",
+    "hi": "बहरीन का मोती",
+    "es": "Perla de Baréin",
+    "pt": "Pérola do Bahrein",
+    "id": "Mutiara Bahrain",
+    "ms": "Mutiara Bahrain",
+    "ja": "バーレーンの真珠",
+    "fr": "Perle de Bahreïn"
+   },
+   "fact": {
+    "ar": "لؤلؤ طبيعي استخرجه الغواصون قديماً من مياه الخليج.",
+    "en": "A natural pearl, once gathered by divers from the waters of the Gulf."
+   }
+  },
+  {
+   "id": "artifact_hood",
+   "country": "qatar",
+   "kind": "craft",
+   "shape": "hood",
+   "color": "#8B5A2B",
+   "color2": "#C9A227",
+   "name": {
+    "ar": "قبعة الصقر",
+    "en": "Falcon hood",
+    "tr": "Şahin başlığı",
+    "de": "Falkenhaube",
+    "ur": "باز کی ٹوپی",
+    "hi": "बाज़ की टोपी",
+    "es": "Capuchón de halcón",
+    "pt": "Capuz de falcão",
+    "id": "Tudung elang",
+    "ms": "Tudung helang",
+    "ja": "タカ用フード",
+    "fr": "Chaperon de faucon"
+   },
+   "fact": {
+    "ar": "غطاء صغير من الجلد يهدّئ الصقر قبل أن ينطلق.",
+    "en": "A small leather cover that keeps a falcon calm until it takes flight."
+   }
+  },
+  {
+   "id": "artifact_mabkhara",
+   "country": "oman",
+   "kind": "craft",
+   "shape": "burner",
+   "color": "#8A5B3C",
+   "color2": "#D8C9A8",
+   "name": {
+    "ar": "مبخرة اللبان",
+    "en": "Frankincense burner",
+    "tr": "Günlük yakıcı",
+    "de": "Weihrauchbrenner",
+    "ur": "لوبان دان",
+    "hi": "लोबान दान",
+    "es": "Quemador de incienso",
+    "pt": "Queimador de incenso",
+    "id": "Pembakar kemenyan",
+    "ms": "Pembakar kemenyan",
+    "ja": "乳香の香炉",
+    "fr": "Brûle-encens"
+   },
+   "fact": {
+    "ar": "مبخرة من الفخار يُحرق فيها اللبان العُماني، المعروف برائحته الزكية.",
+    "en": "A clay burner for Omani frankincense, known for its sweet scent."
+   }
+  },
+  {
+   "id": "artifact_qamariya",
+   "country": "yemen",
+   "kind": "glass",
+   "shape": "window",
+   "color": "#2E7D4F",
+   "color2": "#B3262E",
+   "name": {
+    "ar": "قمرية صنعاء",
+    "en": "Sana'a stained-glass window",
+    "tr": "Sana kemeriyesi",
+    "de": "Sanaa-Buntglasfenster",
+    "ur": "صنعا کا رنگین شیشے کا دریچہ",
+    "hi": "सना की रंगीन काँच की खिड़की",
+    "es": "Vidriera de Saná",
+    "pt": "Vitral de Sanaa",
+    "id": "Jendela kaca patri Sanaa",
+    "ms": "Tingkap kaca berwarna Sanaa",
+    "ja": "サナアのステンドグラス窓",
+    "fr": "Vitrail de Sanaa"
+   },
+   "fact": {
+    "ar": "نافذة نصف دائرية من الزجاج الملوّن تزيّن بيوت صنعاء القديمة.",
+    "en": "A half-round window of coloured glass that decorates the old houses of Sana'a."
+   }
+  },
+  {
+   "id": "artifact_oud",
+   "country": "iraq",
+   "kind": "instrument",
+   "shape": "instrument",
+   "color": "#8B5A2B",
+   "color2": "#E8DCC0",
+   "name": {
+    "ar": "العود العراقي",
+    "en": "Iraqi oud",
+    "tr": "Irak udu",
+    "de": "Irakische Oud",
+    "ur": "عراقی عود",
+    "hi": "इराकी ऊद",
+    "es": "Laúd iraquí",
+    "pt": "Alaúde iraquiano",
+    "id": "Oud Irak",
+    "ms": "Oud Iraq",
+    "ja": "イラクのウード",
+    "fr": "Oud irakien"
+   },
+   "fact": {
+    "ar": "آلة وترية بجسم كمثري الشكل، تُعزف في بغداد منذ قرون.",
+    "en": "A stringed instrument with a pear-shaped body, played in Baghdad for centuries."
+   }
+  },
+  {
+   "id": "artifact_brocade",
+   "country": "syria",
+   "kind": "textile",
+   "shape": "cloth",
+   "color": "#6A3D9A",
+   "color2": "#C9A227",
+   "name": {
+    "ar": "بروكار دمشق",
+    "en": "Damascus brocade",
+    "tr": "Şam brokarı",
+    "de": "Damaszener Brokat",
+    "ur": "دمشقی بروکیڈ",
+    "hi": "दमिश्क ब्रोकेड",
+    "es": "Brocado de Damasco",
+    "pt": "Brocado de Damasco",
+    "id": "Brokat Damaskus",
+    "ms": "Brokad Damsyik",
+    "ja": "ダマスカス織",
+    "fr": "Brocart de Damas"
+   },
+   "fact": {
+    "ar": "قماش حريري بخيوط ذهبية اشتهرت به دمشق منذ زمن بعيد.",
+    "en": "A silk cloth woven with golden thread that Damascus has long been known for."
+   }
+  },
+  {
+   "id": "artifact_glass",
+   "country": "lebanon",
+   "kind": "glass",
+   "shape": "bottle",
+   "color": "#2B8FA6",
+   "color2": "#D8F0F5",
+   "name": {
+    "ar": "زجاج مُنفوخ",
+    "en": "Blown glass bottle",
+    "tr": "Üflenmiş cam şişe",
+    "de": "Mundgeblasene Glasflasche",
+    "ur": "پھونکی ہوئی شیشے کی بوتل",
+    "hi": "फूँका हुआ काँच का बोतल",
+    "es": "Botella de vidrio soplado",
+    "pt": "Garrafa de vidro soprado",
+    "id": "Botol kaca tiup",
+    "ms": "Botol kaca tiup",
+    "ja": "吹きガラスのびん",
+    "fr": "Bouteille en verre soufflé"
+   },
+   "fact": {
+    "ar": "زجاج ينفخه الصنّاع بأنفاسهم، وهي حرفة قديمة في صيدا وصور.",
+    "en": "Glass shaped by a craftsman's breath, an old craft of Sidon and Tyre."
+   }
+  },
+  {
+   "id": "artifact_mosaic",
+   "country": "jordan",
+   "kind": "craft",
+   "shape": "tile",
+   "color": "#C9A227",
+   "color2": "#6B3A22",
+   "name": {
+    "ar": "فسيفساء مادبا",
+    "en": "Madaba mosaic",
+    "tr": "Madaba mozaiği",
+    "de": "Madaba-Mosaik",
+    "ur": "مادبا کا موزیک",
+    "hi": "मादबा मोज़ेक",
+    "es": "Mosaico de Madaba",
+    "pt": "Mosaico de Madaba",
+    "id": "Mozaik Madaba",
+    "ms": "Mozek Madaba",
+    "ja": "マダバのモザイク",
+    "fr": "Mosaïque de Madaba"
+   },
+   "fact": {
+    "ar": "لوحة من قطع حجر صغيرة ملوّنة تشتهر بها مدينة مادبا.",
+    "en": "A picture made of tiny coloured stones, famous in the town of Madaba."
+   }
+  },
+  {
+   "id": "artifact_papyrus",
+   "country": "egypt",
+   "kind": "craft",
+   "shape": "scroll",
+   "color": "#D8C58A",
+   "color2": "#6B4A2B",
+   "name": {
+    "ar": "لفافة بردي",
+    "en": "Papyrus painting",
+    "tr": "Papirüs resmi",
+    "de": "Papyrus-Bild",
+    "ur": "پپائرس کی تصویر",
+    "hi": "पपाइरस चित्र",
+    "es": "Pintura en papiro",
+    "pt": "Pintura em papiro",
+    "id": "Lukisan papirus",
+    "ms": "Lukisan papirus",
+    "ja": "パピルス画",
+    "fr": "Peinture sur papyrus"
+   },
+   "fact": {
+    "ar": "ورق صُنع من نبات البردي النيلي، رُسمت عليه قصص قديمة.",
+    "en": "Paper made from the papyrus plant of the Nile, painted with old stories."
+   }
+  },
+  {
+   "id": "artifact_basket",
+   "country": "sudan",
+   "kind": "craft",
+   "shape": "basket",
+   "color": "#C48A3A",
+   "color2": "#6B3A22",
+   "name": {
+    "ar": "سلة سعف النخيل",
+    "en": "Palm-leaf basket",
+    "tr": "Hurma yaprağı sepeti",
+    "de": "Palmblattkorb",
+    "ur": "کھجور کے پتوں کی ٹوکری",
+    "hi": "खजूर के पत्तों की टोकरी",
+    "es": "Cesta de hoja de palma",
+    "pt": "Cesto de folha de palmeira",
+    "id": "Keranjang daun palem",
+    "ms": "Bakul daun palma",
+    "ja": "ヤシの葉のかご",
+    "fr": "Panier en feuilles de palmier"
+   },
+   "fact": {
+    "ar": "سلة تُضفَر باليد من سعف النخيل بألوان زاهية.",
+    "en": "A basket woven by hand from palm leaves in bright colours."
+   }
+  },
+  {
+   "id": "artifact_pouf",
+   "country": "libya",
+   "kind": "craft",
+   "shape": "pouf",
+   "color": "#B3262E",
+   "color2": "#2E7D4F",
+   "name": {
+    "ar": "مقعد جلد غدامس",
+    "en": "Ghadames leather pouf",
+    "tr": "Gadames deri puf",
+    "de": "Ghadames-Lederpouf",
+    "ur": "غدامس کا چمڑے کا پوف",
+    "hi": "गदामेस का चमड़े का पाउफ़",
+    "es": "Puf de cuero de Gadamés",
+    "pt": "Pufe de couro de Gadames",
+    "id": "Pouf kulit Ghadames",
+    "ms": "Pouf kulit Ghadames",
+    "ja": "ガダメスの革のプーフ",
+    "fr": "Pouf en cuir de Ghadamès"
+   },
+   "fact": {
+    "ar": "مقعد من الجلد الملوّن المزخرف يصنعه الحرفيون في غدامس.",
+    "en": "A seat of coloured, patterned leather made by craftspeople in Ghadames."
+   }
+  },
+  {
+   "id": "artifact_nabeul",
+   "country": "tunisia",
+   "kind": "craft",
+   "shape": "vase",
+   "color": "#1F4E9A",
+   "color2": "#F2EFE6",
+   "name": {
+    "ar": "فخار نابل",
+    "en": "Nabeul pottery vase",
+    "tr": "Nabeul seramik vazo",
+    "de": "Nabeul-Keramikvase",
+    "ur": "نابل کا مٹی کا گلدان",
+    "hi": "नाबेल का मिट्टी का गुलदान",
+    "es": "Jarrón de cerámica de Nabeul",
+    "pt": "Vaso de cerâmica de Nabeul",
+    "id": "Vas keramik Nabeul",
+    "ms": "Pasu seramik Nabeul",
+    "ja": "ナブールの陶器の花びん",
+    "fr": "Vase en poterie de Nabeul"
+   },
+   "fact": {
+    "ar": "فخار مزخرف بألوان الأزرق والأبيض تشتهر به مدينة نابل.",
+    "en": "Patterned pottery in blue and white, famous in the town of Nabeul."
+   }
+  },
+  {
+   "id": "artifact_mandole",
+   "country": "algeria",
+   "kind": "instrument",
+   "shape": "instrument",
+   "color": "#8B5A2B",
+   "color2": "#F2EFE6",
+   "name": {
+    "ar": "المندول",
+    "en": "Mandole",
+    "tr": "Mandol",
+    "de": "Mandole",
+    "ur": "مینڈول",
+    "hi": "मैंडोल",
+    "es": "Mandola",
+    "pt": "Bandolim argelino",
+    "id": "Mandole",
+    "ms": "Mandole",
+    "ja": "マンドール",
+    "fr": "Mandole"
+   },
+   "fact": {
+    "ar": "آلة وترية صغيرة تُعزف في الموسيقى الجزائرية الأندلسية والشعبية.",
+    "en": "A small stringed instrument played in Algerian Andalusi and folk music."
+   }
+  },
+  {
+   "id": "artifact_zellige",
+   "country": "morocco",
+   "kind": "craft",
+   "shape": "tile",
+   "color": "#1F4E9A",
+   "color2": "#2E7D4F",
+   "name": {
+    "ar": "زليج مغربي",
+    "en": "Zellige tile",
+    "tr": "Zellige çini",
+    "de": "Zellige-Fliese",
+    "ur": "زلیج ٹائل",
+    "hi": "ज़ेलिज टाइल",
+    "es": "Azulejo zellige",
+    "pt": "Azulejo zellige",
+    "id": "Ubin zellige",
+    "ms": "Jubin zellige",
+    "ja": "ゼリージュのタイル",
+    "fr": "Carreau de zellige"
+   },
+   "fact": {
+    "ar": "بلاط صغير ملوّن يُقصّ باليد ويُرصّ ليشكّل أنماطاً هندسية.",
+    "en": "Small coloured tiles cut by hand and set together in geometric patterns."
+   }
+  },
+  {
+   "id": "artifact_teapot",
+   "country": "mauritania",
+   "kind": "craft",
+   "shape": "pot",
+   "color": "#C9A227",
+   "color2": "#6B4A2B",
+   "name": {
+    "ar": "إبريق الشاي",
+    "en": "Brass teapot",
+    "tr": "Pirinç çaydanlık",
+    "de": "Messing-Teekanne",
+    "ur": "پیتل کی چائے دانی",
+    "hi": "पीतल की चायदानी",
+    "es": "Tetera de latón",
+    "pt": "Bule de latão",
+    "id": "Teko kuningan",
+    "ms": "Teko loyang",
+    "ja": "真鍮のティーポット",
+    "fr": "Théière en laiton"
+   },
+   "fact": {
+    "ar": "إبريق صغير يُصبّ منه الشاي على ثلاث جولات للضيوف.",
+    "en": "A small pot from which tea is poured in three rounds for guests."
+   }
+  },
+  {
+   "id": "artifact_iznik",
+   "country": "turkey",
+   "kind": "craft",
+   "shape": "plate",
+   "color": "#1F4E9A",
+   "color2": "#B3262E",
+   "name": {
+    "ar": "صحن إزنيق",
+    "en": "Iznik tile plate",
+    "tr": "İznik çini tabak",
+    "de": "Iznik-Fliesenteller",
+    "ur": "ازنیک کی ٹائل پلیٹ",
+    "hi": "इज़्निक टाइल प्लेट",
+    "es": "Plato de azulejos de Iznik",
+    "pt": "Prato de azulejo de Iznik",
+    "id": "Piring ubin Iznik",
+    "ms": "Pinggan jubin Iznik",
+    "ja": "イズニクタイルの皿",
+    "fr": "Assiette en faïence d'Iznik"
+   },
+   "fact": {
+    "ar": "سيراميك مزخرف بالأزرق والأحمر اشتهرت به مدينة إزنيق.",
+    "en": "Ceramics patterned in blue and red, made famous by the town of Iznik."
+   }
+  },
+  {
+   "id": "artifact_suzani",
+   "country": "uzbekistan",
+   "kind": "textile",
+   "shape": "cloth",
+   "color": "#B3262E",
+   "color2": "#F2EFE6",
+   "name": {
+    "ar": "سوزاني",
+    "en": "Suzani embroidery",
+    "tr": "Süzani nakışı",
+    "de": "Suzani-Stickerei",
+    "ur": "سوزنی کڑھائی",
+    "hi": "सुज़ानी कढ़ाई",
+    "es": "Bordado suzani",
+    "pt": "Bordado suzani",
+    "id": "Sulaman suzani",
+    "ms": "Sulaman suzani",
+    "ja": "スザニ刺繍",
+    "fr": "Broderie suzani"
+   },
+   "fact": {
+    "ar": "قطعة قماش مطرّزة بزهور كبيرة ملوّنة تُعلَّق في البيوت.",
+    "en": "A cloth embroidered with large coloured flowers, hung in homes."
+   }
+  },
+  {
+   "id": "artifact_truckart",
+   "country": "pakistan",
+   "kind": "craft",
+   "shape": "panel",
+   "color": "#2E7D4F",
+   "color2": "#C9A227",
+   "name": {
+    "ar": "لوحة الشاحنات",
+    "en": "Truck art panel",
+    "tr": "Kamyon sanatı panosu",
+    "de": "Lkw-Kunst-Tafel",
+    "ur": "ٹرک آرٹ پینل",
+    "hi": "ट्रक आर्ट पैनल",
+    "es": "Panel de arte de camiones",
+    "pt": "Painel de arte de caminhão",
+    "id": "Panel seni truk",
+    "ms": "Panel seni lori",
+    "ja": "トラックアートの板",
+    "fr": "Panneau d'art de camion"
+   },
+   "fact": {
+    "ar": "رسوم زاهية بالزهور والطيور تزيّن الشاحنات في باكستان.",
+    "en": "Bright paintings of flowers and birds that decorate trucks in Pakistan."
+   }
+  },
+  {
+   "id": "artifact_blockprint",
+   "country": "india",
+   "kind": "textile",
+   "shape": "cloth",
+   "color": "#1F4E9A",
+   "color2": "#F2EFE6",
+   "name": {
+    "ar": "قماش مطبوع بالأختام",
+    "en": "Block-printed fabric",
+    "tr": "Baskı kalıplı kumaş",
+    "de": "Blockdruck-Stoff",
+    "ur": "بلاک پرنٹ کپڑا",
+    "hi": "ब्लॉक प्रिंट कपड़ा",
+    "es": "Tela estampada con bloques",
+    "pt": "Tecido estampado com blocos",
+    "id": "Kain cetak blok",
+    "ms": "Kain cetak blok",
+    "ja": "ブロックプリントの布",
+    "fr": "Tissu imprimé au tampon"
+   },
+   "fact": {
+    "ar": "قماش تُطبع عليه الزخارف بأختام خشبية منحوتة باليد.",
+    "en": "Cloth printed with patterns using hand-carved wooden blocks."
+   }
+  },
+  {
+   "id": "artifact_songket",
+   "country": "malaysia",
+   "kind": "textile",
+   "shape": "cloth",
+   "color": "#C9A227",
+   "color2": "#6A3D9A",
+   "name": {
+    "ar": "قماش سونغكيت",
+    "en": "Songket cloth",
+    "tr": "Songket kumaş",
+    "de": "Songket-Stoff",
+    "ur": "سونگکیٹ کپڑا",
+    "hi": "सोंगकेट कपड़ा",
+    "es": "Tela songket",
+    "pt": "Tecido songket",
+    "id": "Kain songket",
+    "ms": "Kain songket",
+    "ja": "ソンケットの布",
+    "fr": "Tissu songket"
+   },
+   "fact": {
+    "ar": "قماش منسوج بخيوط ذهبية وفضية في ماليزيا.",
+    "en": "A cloth woven with gold and silver thread in Malaysia."
+   }
+  },
+  {
+   "id": "artifact_batik",
+   "country": "indonesia",
+   "kind": "textile",
+   "shape": "cloth",
+   "color": "#6B3A22",
+   "color2": "#C9A227",
+   "name": {
+    "ar": "قماش باتيك",
+    "en": "Batik cloth",
+    "tr": "Batik kumaş",
+    "de": "Batik-Stoff",
+    "ur": "بٹک کپڑا",
+    "hi": "बाटिक कपड़ा",
+    "es": "Tela de batik",
+    "pt": "Tecido de batik",
+    "id": "Kain batik",
+    "ms": "Kain batik",
+    "ja": "バティック",
+    "fr": "Tissu batik"
+   },
+   "fact": {
+    "ar": "قماش تُرسم عليه النقوش بالشمع ثم يُصبغ.",
+    "en": "Cloth decorated by drawing patterns in wax and then dyeing it."
+   }
+  },
+  {
+   "id": "artifact_crane",
+   "country": "japan",
+   "kind": "craft",
+   "shape": "paper",
+   "color": "#F2EFE6",
+   "color2": "#B3262E",
+   "name": {
+    "ar": "طائر أوريغامي",
+    "en": "Origami crane",
+    "tr": "Origami turna",
+    "de": "Origami-Kranich",
+    "ur": "اوریگامی کا سارس",
+    "hi": "ओरिगामी सारस",
+    "es": "Grulla de origami",
+    "pt": "Tsuru de origami",
+    "id": "Bangau origami",
+    "ms": "Bangau origami",
+    "ja": "折り鶴",
+    "fr": "Grue en origami"
+   },
+   "fact": {
+    "ar": "طائر يُطوى من ورقة واحدة دون قصّ ولا لصق.",
+    "en": "A bird folded from a single sheet of paper, with no cutting or glue."
+   }
+  },
+  {
+   "id": "artifact_opal",
+   "country": "australia",
+   "kind": "gem",
+   "shape": "gem",
+   "color": "#2B8FA6",
+   "color2": "#E85DA8",
+   "name": {
+    "ar": "حجر الأوبال",
+    "en": "Opal gemstone",
+    "tr": "Opal taşı",
+    "de": "Opal-Edelstein",
+    "ur": "اوپل پتھر",
+    "hi": "ओपल रत्न",
+    "es": "Gema de ópalo",
+    "pt": "Pedra opala",
+    "id": "Batu opal",
+    "ms": "Batu opal",
+    "ja": "オパール",
+    "fr": "Opale"
+   },
+   "fact": {
+    "ar": "حجر كريم يلمع بألوان قوس قزح، يُستخرج من مناجم أستراليا.",
+    "en": "A gemstone that flashes rainbow colours, dug from Australian mines."
+   }
+  },
+  {
+   "id": "artifact_beadwork",
+   "country": "south_africa",
+   "kind": "craft",
+   "shape": "beads",
+   "color": "#2E7D4F",
+   "color2": "#B3262E",
+   "name": {
+    "ar": "خرز أفريقي",
+    "en": "Beadwork necklace",
+    "tr": "Boncuk işi kolye",
+    "de": "Perlenkette",
+    "ur": "موتیوں کا ہار",
+    "hi": "मनकों का हार",
+    "es": "Collar de cuentas",
+    "pt": "Colar de miçangas",
+    "id": "Kalung manik-manik",
+    "ms": "Kalung manik",
+    "ja": "ビーズの首飾り",
+    "fr": "Collier de perles"
+   },
+   "fact": {
+    "ar": "قلادة من خرز صغير ملوّن تحمل ألواناً لها معانٍ عند أهلها.",
+    "en": "A necklace of tiny coloured beads, where each colour has a meaning for its makers."
+   }
+  },
+  {
+   "id": "artifact_berimbau",
+   "country": "brazil",
+   "kind": "instrument",
+   "shape": "instrument",
+   "color": "#8B5A2B",
+   "color2": "#C9A227",
+   "name": {
+    "ar": "برِمبَاو",
+    "en": "Berimbau",
+    "tr": "Berimbau",
+    "de": "Berimbau",
+    "ur": "بیریمباؤ",
+    "hi": "बेरिम्बाऊ",
+    "es": "Berimbau",
+    "pt": "Berimbau",
+    "id": "Berimbau",
+    "ms": "Berimbau",
+    "ja": "ベリンバウ",
+    "fr": "Berimbau"
+   },
+   "fact": {
+    "ar": "قوس موسيقي بوتر واحد يُصاحب رياضة الكابويرا.",
+    "en": "A musical bow with one string, played alongside capoeira."
+   }
+  },
+  {
+   "id": "artifact_alebrije",
+   "country": "mexico",
+   "kind": "craft",
+   "shape": "figure",
+   "color": "#E85DA8",
+   "color2": "#2B8FA6",
+   "name": {
+    "ar": "أليبريخي",
+    "en": "Alebrije figure",
+    "tr": "Alebrije figürü",
+    "de": "Alebrije-Figur",
+    "ur": "الیبریخے کا مجسمہ",
+    "hi": "अलेब्रिखे मूर्ति",
+    "es": "Figura de alebrije",
+    "pt": "Figura de alebrije",
+    "id": "Patung alebrije",
+    "ms": "Patung alebrije",
+    "ja": "アレブリヘの置物",
+    "fr": "Figurine d'alebrije"
+   },
+   "fact": {
+    "ar": "تمثال خشبي يُلوَّن بألوان مرحة على شكل حيوانات خيالية.",
+    "en": "A carved wooden figure painted in cheerful colours, shaped like imaginary animals."
+   }
+  },
+  {
+   "id": "artifact_quilt",
+   "country": "usa",
+   "kind": "textile",
+   "shape": "cloth",
+   "color": "#B3262E",
+   "color2": "#1F4E9A",
+   "name": {
+    "ar": "لحاف رقع",
+    "en": "Patchwork quilt",
+    "tr": "Yama işi yorgan",
+    "de": "Patchwork-Decke",
+    "ur": "ٹکڑوں سے بنی رضائی",
+    "hi": "पैचवर्क रज़ाई",
+    "es": "Colcha de retazos",
+    "pt": "Colcha de retalhos",
+    "id": "Selimut perca",
+    "ms": "Selimut tampalan",
+    "ja": "パッチワークキルト",
+    "fr": "Courtepointe en patchwork"
+   },
+   "fact": {
+    "ar": "لحاف يُخاط من قطع قماش صغيرة مختلفة الألوان.",
+    "en": "A quilt sewn together from small pieces of cloth in many colours."
+   }
+  },
+  {
+   "id": "artifact_teacup",
+   "country": "uk",
+   "kind": "craft",
+   "shape": "cup",
+   "color": "#F2EFE6",
+   "color2": "#1F4E9A",
+   "name": {
+    "ar": "فنجان بورسلان",
+    "en": "Porcelain teacup",
+    "tr": "Porselen çay fincanı",
+    "de": "Porzellan-Teetasse",
+    "ur": "چینی کی چائے کی پیالی",
+    "hi": "चीनी मिट्टी का चाय का कप",
+    "es": "Taza de porcelana",
+    "pt": "Xícara de porcelana",
+    "id": "Cangkir teh porselen",
+    "ms": "Cawan teh porselin",
+    "ja": "磁器のティーカップ",
+    "fr": "Tasse à thé en porcelaine"
+   },
+   "fact": {
+    "ar": "فنجان رقيق من الخزف يُقدَّم فيه الشاي مع الحليب.",
+    "en": "A thin china cup for serving tea, often with milk."
+   }
+  },
+  {
+   "id": "artifact_lace",
+   "country": "france",
+   "kind": "textile",
+   "shape": "cloth",
+   "color": "#F2EFE6",
+   "color2": "#6A3D9A",
+   "name": {
+    "ar": "دانتيل كاليه",
+    "en": "Calais lace",
+    "tr": "Calais danteli",
+    "de": "Calais-Spitze",
+    "ur": "کیلے کی لیس",
+    "hi": "कैले की लेस",
+    "es": "Encaje de Calais",
+    "pt": "Renda de Calais",
+    "id": "Renda Calais",
+    "ms": "Renda Calais",
+    "ja": "カレーレース",
+    "fr": "Dentelle de Calais"
+   },
+   "fact": {
+    "ar": "قماش رقيق بنقوش دقيقة تُنسج في مدينة كاليه.",
+    "en": "A delicate cloth with fine patterns, woven in the town of Calais."
+   }
+  },
+  {
+   "id": "artifact_cuckoo",
+   "country": "germany",
+   "kind": "craft",
+   "shape": "clock",
+   "color": "#6B3A22",
+   "color2": "#2E7D4F",
+   "name": {
+    "ar": "ساعة الوقواق",
+    "en": "Cuckoo clock",
+    "tr": "Guguklu saat",
+    "de": "Kuckucksuhr",
+    "ur": "کوکو گھڑی",
+    "hi": "कुक्कू घड़ी",
+    "es": "Reloj de cuco",
+    "pt": "Relógio de cuco",
+    "id": "Jam kukuk",
+    "ms": "Jam kuku",
+    "ja": "鳩時計",
+    "fr": "Coucou"
+   },
+   "fact": {
+    "ar": "ساعة خشبية يخرج منها طائر صغير ليعلن الساعة، من الغابة السوداء.",
+    "en": "A wooden clock from the Black Forest with a little bird that pops out to call the hour."
+   }
+  },
+  {
+   "id": "artifact_guitar",
+   "country": "spain",
+   "kind": "instrument",
+   "shape": "instrument",
+   "color": "#8B5A2B",
+   "color2": "#F2EFE6",
+   "name": {
+    "ar": "غيتار إسباني",
+    "en": "Spanish guitar",
+    "tr": "İspanyol gitarı",
+    "de": "Spanische Gitarre",
+    "ur": "ہسپانوی گٹار",
+    "hi": "स्पैनिश गिटार",
+    "es": "Guitarra española",
+    "pt": "Violão espanhol",
+    "id": "Gitar Spanyol",
+    "ms": "Gitar Sepanyol",
+    "ja": "スペインのギター",
+    "fr": "Guitare espagnole"
+   },
+   "fact": {
+    "ar": "آلة وترية بست أوتار تُعزف في الفلامنكو والموسيقى الشعبية.",
+    "en": "A six-string instrument played in flamenco and folk music."
+   }
+  },
+  {
+   "id": "artifact_azulejo",
+   "country": "portugal",
+   "kind": "craft",
+   "shape": "tile",
+   "color": "#1F4E9A",
+   "color2": "#F2EFE6",
+   "name": {
+    "ar": "بلاطة أزوليجو",
+    "en": "Azulejo tile",
+    "tr": "Azulejo çini",
+    "de": "Azulejo-Fliese",
+    "ur": "ازولیجو ٹائل",
+    "hi": "अज़ुलेजो टाइल",
+    "es": "Azulejo",
+    "pt": "Azulejo",
+    "id": "Ubin azulejo",
+    "ms": "Jubin azulejo",
+    "ja": "アズレージョのタイル",
+    "fr": "Azulejo"
+   },
+   "fact": {
+    "ar": "بلاط مزجّج أزرق وأبيض يزيّن جدران البيوت والمحطات.",
+    "en": "Glazed blue-and-white tiles that decorate the walls of houses and stations."
+   }
+  }
+ ]
+}

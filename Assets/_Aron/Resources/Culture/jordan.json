@@ -1,0 +1,261 @@
+{
+  "country": "jordan",
+  "dialect": "jordanian",
+  "uiLanguage": "ar",
+  "greeting": {
+    "words": "هلا والله، يا هلا",
+    "wordsEn": "Hello and welcome",
+    "wordsAr": "هلا والله، يا هلا",
+    "gesture": "hand_on_chest"
+  },
+  "hospitality": {
+    "ar": "في الأردن يُستقبل الضيف بالقهوة والتمر.",
+    "en": "In Jordan, guests are welcomed with coffee and dates.",
+    "tr": "Ürdün misafirleri kahve ve hurmayla karşılar.",
+    "de": "In Jordanien empfängt man Gäste mit Kaffee und Datteln.",
+    "ur": "اردن میں مہمان کا استقبال قہوے اور کھجور سے ہوتا ہے۔",
+    "hi": "जॉर्डन में मेहमान का स्वागत क़हवा और खजूर से होता है।",
+    "es": "En Jordania se recibe a los invitados con café y dátiles.",
+    "pt": "Na Jordânia recebem-se os convidados com café e tâmaras.",
+    "id": "Di Yordania, tamu disambut dengan kopi dan kurma.",
+    "ms": "Di Jordan, tetamu disambut dengan kopi dan kurma.",
+    "ja": "ヨルダンではお客さんをコーヒーとデーツでもてなします。",
+    "fr": "Jordanie : on accueille les invités avec du café et des dattes."
+  },
+  "customs": [
+    {
+      "act": "pour_coffee",
+      "en": "Bitter Bedouin coffee is poured for the guest.",
+      "ar": "القهوة السادة للضيف."
+    },
+    {
+      "act": "share_bread",
+      "en": "Mansaf is eaten from one big tray.",
+      "ar": "المنسف من سدر واحد."
+    }
+  ],
+  "architecture": "Rose-red rock tombs, desert forts, hillside stone towns.",
+  "palette": [
+    "#007A3D",
+    "#FFFFFF",
+    "#CE1126",
+    "#000000"
+  ],
+  "music": {
+    "style": "Bedouin song",
+    "instruments": [
+      "rababa",
+      "mijwiz",
+      "tabl"
+    ]
+  },
+  "street": {
+    "vendors": [
+      "falafel stall",
+      "knafeh shop"
+    ],
+    "cafe": "hillside café",
+    "kidsGames": [
+      "seven stones",
+      "marbles"
+    ],
+    "crowd": "friendly, welcoming"
+  },
+  "foods": [
+    {
+      "id": "jordan_mansaf",
+      "local": "Mansaf",
+      "name": {
+        "ar": "منسف",
+        "en": "Lamb in yogurt sauce with rice",
+        "tr": "Mansaf",
+        "de": "Mansaf",
+        "ur": "منسف",
+        "hi": "मनसफ़",
+        "es": "Mansaf",
+        "pt": "Mansaf",
+        "id": "Mansaf",
+        "ms": "Mansaf",
+        "ja": "マンサフ",
+        "fr": "Mansaf"
+      },
+      "fact": {
+        "ar": "تُعرف غالباً بأنها الأكلة الوطنية في الأردن.",
+        "en": "Often called the national dish of Jordan.",
+        "tr": "Genellikle Ürdün ulusal yemeği sayılır.",
+        "de": "Gilt oft als Nationalgericht von Jordanien.",
+        "ur": "اسے اکثر اردن کا قومی کھانا کہا جاتا ہے۔",
+        "hi": "इसे अक्सर जॉर्डन का राष्ट्रीय व्यंजन कहा जाता है।",
+        "es": "Se le suele llamar el plato nacional de Jordania.",
+        "pt": "É muitas vezes chamado o prato nacional da Jordânia.",
+        "id": "Sering disebut hidangan nasional Yordania.",
+        "ms": "Sering disebut hidangan kebangsaan Jordan.",
+        "ja": "ヨルダンの国民食とよく言われます。",
+        "fr": "Jordanie : souvent appelé le plat national."
+      },
+      "shape": "plate",
+      "color": "#F5EEDC",
+      "color2": "#8A4A2A",
+      "buff": "strength",
+      "price": 100
+    },
+    {
+      "id": "jordan_maqluba",
+      "local": "Maqluba",
+      "name": {
+        "ar": "مقلوبة",
+        "en": "Upside-down rice",
+        "tr": "Maqluba",
+        "de": "Maqluba",
+        "ur": "مقلوبہ",
+        "hi": "मक़लूबा",
+        "es": "Maqluba",
+        "pt": "Maqluba",
+        "id": "Maqluba",
+        "ms": "Maqluba",
+        "ja": "マクルーバ",
+        "fr": "Maqluba"
+      },
+      "fact": {
+        "ar": "يتشاركونه من صحن كبير مع الأهل والضيوف في الأردن.",
+        "en": "Shared from one big plate with family and guests in Jordan.",
+        "tr": "Ürdün için aile ve misafirlerle büyük bir tabaktan paylaşılır.",
+        "de": "In Jordanien von einer großen Platte mit Familie und Gästen geteilt.",
+        "ur": "اردن میں گھر والوں اور مہمانوں کے ساتھ ایک بڑی پلیٹ سے کھایا جاتا ہے۔",
+        "hi": "जॉर्डन में परिवार और मेहमानों के साथ एक बड़ी थाली से खाया जाता है।",
+        "es": "Se comparte de una gran fuente con familia e invitados en Jordania.",
+        "pt": "Partilha-se de uma grande travessa com família e convidados na Jordânia.",
+        "id": "Disantap bersama dari satu piring besar dengan keluarga dan tamu di Yordania.",
+        "ms": "Dikongsi dari satu pinggan besar bersama keluarga dan tetamu di Jordan.",
+        "ja": "ヨルダンでは大皿から家族やお客さんと分け合います。",
+        "fr": "Jordanie : partagé dans un grand plat avec la famille et les invités."
+      },
+      "shape": "cake",
+      "color": "#E8A03A",
+      "color2": "#6B3A1E",
+      "buff": "strength",
+      "price": 70
+    },
+    {
+      "id": "jordan_falafel",
+      "local": "Falafel",
+      "name": {
+        "ar": "فلافل",
+        "en": "Chickpea fritters",
+        "tr": "Falafel",
+        "de": "Falafel",
+        "ur": "فلافل",
+        "hi": "फ़लाफ़ेल",
+        "es": "Falafel",
+        "pt": "Falafel",
+        "id": "Falafel",
+        "ms": "Falafel",
+        "ja": "ファラフェル",
+        "fr": "Falafel"
+      },
+      "fact": {
+        "ar": "يُباع حاراً في بسطات الشوارع في كل الأردن.",
+        "en": "Sold hot at street stalls all over Jordan.",
+        "tr": "Ürdün genelinde sokak tezgâhlarında sıcak satılır.",
+        "de": "Überall in Jordanien heiß an Straßenständen verkauft.",
+        "ur": "پورے اردن میں ٹھیلوں پر گرم گرم بکتا ہے۔",
+        "hi": "पूरे जॉर्डन में ठेलों पर गरमा-गरम बिकता है।",
+        "es": "Se vende caliente en puestos callejeros por todo el territorio de Jordania.",
+        "pt": "Vende-se quente em bancas de rua em toda a Jordânia.",
+        "id": "Dijual hangat di kaki lima di seluruh Yordania.",
+        "ms": "Dijual panas di gerai tepi jalan di seluruh Jordan.",
+        "ja": "ヨルダンのあちこちの屋台で熱々で売られています。",
+        "fr": "Jordanie : vendu tout chaud dans les stands de rue."
+      },
+      "shape": "ball",
+      "color": "#8A5A2A",
+      "color2": "#6A8F3A",
+      "buff": "speed",
+      "price": 25
+    },
+    {
+      "id": "jordan_knafeh",
+      "local": "Knafeh",
+      "name": {
+        "ar": "كنافة",
+        "en": "Cheese pastry in syrup",
+        "tr": "Knafeh",
+        "de": "Knafeh",
+        "ur": "کنافہ",
+        "hi": "कनाफ़ा",
+        "es": "Knafeh",
+        "pt": "Knafeh",
+        "id": "Knafeh",
+        "ms": "Knafeh",
+        "ja": "クナーファ",
+        "fr": "Knafeh"
+      },
+      "fact": {
+        "ar": "حلا محبوب في الأردن، أحلى مع الشاي أو القهوة.",
+        "en": "A sweet treat in Jordan, best with tea or coffee.",
+        "tr": "Ürdün için tatlı bir ikram, çay ya da kahveyle en güzeli.",
+        "de": "Eine süße Leckerei in Jordanien, am besten mit Tee oder Kaffee.",
+        "ur": "اردن کی میٹھی سوغات، چائے یا کافی کے ساتھ مزیدار۔",
+        "hi": "जॉर्डन की मीठी सौगात, चाय या कॉफ़ी के साथ सबसे अच्छी।",
+        "es": "Un dulce de Jordania, mejor con té o café.",
+        "pt": "Um doce da Jordânia, melhor com chá ou café.",
+        "id": "Camilan manis di Yordania, paling enak dengan teh atau kopi.",
+        "ms": "Manisan di Jordan, paling sedap dengan teh atau kopi.",
+        "ja": "ヨルダンの甘いおやつ。お茶やコーヒーと一緒にどうぞ。",
+        "fr": "Jordanie : une douceur, parfaite avec un thé ou un café."
+      },
+      "shape": "cake",
+      "color": "#F2A13A",
+      "color2": "#F5EEDC",
+      "buff": "energy",
+      "price": 40
+    },
+    {
+      "id": "jordan_zarb",
+      "local": "Zarb",
+      "name": {
+        "ar": "زرب",
+        "en": "Bedouin underground barbecue",
+        "tr": "Zarb",
+        "de": "Zarb",
+        "ur": "زرب",
+        "hi": "ज़र्ब",
+        "es": "Zarb",
+        "pt": "Zarb",
+        "id": "Zarb",
+        "ms": "Zarb",
+        "ja": "ザルブ",
+        "fr": "Zarb"
+      },
+      "fact": {
+        "ar": "تُطبخ في الأعراس والأعياد ولمّات العائلة في الأردن.",
+        "en": "Cooked for weddings, Eid and big family days in Jordan.",
+        "tr": "Ürdün düğünlerinde, bayramlarda ve aile günlerinde pişirilir.",
+        "de": "In Jordanien gekocht für Hochzeiten, Eid und große Familientage.",
+        "ur": "اردن میں شادیوں، عید اور خاندانی دنوں پر پکایا جاتا ہے۔",
+        "hi": "जॉर्डन में शादियों, ईद और परिवार के ख़ास दिनों पर बनता है।",
+        "es": "Se cocina para bodas, Eid y grandes días en familia en Jordania.",
+        "pt": "Cozinhado para casamentos, Eid e grandes dias de família na Jordânia.",
+        "id": "Dimasak untuk pernikahan, Idul Fitri, dan kumpul keluarga di Yordania.",
+        "ms": "Dimasak untuk majlis kahwin, Hari Raya dan hari keluarga di Jordan.",
+        "ja": "ヨルダンでは結婚式やイード、家族の集まりで作られます。",
+        "fr": "Jordanie : préparé pour les mariages, l'Aïd et les grands jours en famille."
+      },
+      "shape": "plate",
+      "color": "#8A3A22",
+      "color2": "#E0C08A",
+      "buff": "strength",
+      "price": 90
+    }
+  ],
+  "animals": [
+    "jordan_camel",
+    "jordan_ibex"
+  ],
+  "attackTrailVfx": "sand_swirl",
+  "eatIdle": {
+    "dishId": "jordan_mansaf",
+    "propModel": "food_mansaf",
+    "reaction": "yum"
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "country": "south_africa",
+  "costumes": [
+    {
+      "id": "south_africa_traditional",
+      "country": "south_africa",
+      "hero": "aron",
+      "nameAr": "سترة السفاري",
+      "nameEn": "Safari vest",
+      "isDefault": true,
+      "price": 0,
+      "materials": [
+        {
+          "material": "Clothes",
+          "color": "#C8A060"
+        },
+        {
+          "material": "Trim",
+          "color": "#C9A86A"
+        }
+      ],
+      "meshes": [
+        {
+          "slot": "feet",
+          "mesh": "shoes_closed"
+        }
+      ],
+      "accessories": [
+        {
+          "kind": "shirt",
+          "color": "#F4F0E8"
+        },
+        {
+          "kind": "safari_vest",
+          "color": "#8A6A3A",
+          "pattern": "#007A4D"
+        },
+        {
+          "kind": "bush_hat",
+          "color": "#8A6A3A",
+          "pattern": "#FFB612"
+        }
+      ],
+      "footwear": "leather_shoes",
+      "footwearColor": "#5A3A22",
+      "agalMount": "wrist",
+      "boredIdle": {
+        "id": "south_africa_binocular_look",
+        "trigger": 36,
+        "noteEn": "Looks out through his hands like binoculars",
+        "lineAr": "وين الزرافة؟",
+        "seconds": 3
+      }
+    },
+    {
+      "id": "south_africa_noura",
+      "country": "south_africa",
+      "hero": "noura",
+      "nameAr": "العباية والدوك",
+      "nameEn": "Abaya and doek",
+      "isDefault": true,
+      "price": 0,
+      "materials": [
+        {
+          "material": "Clothes",
+          "color": "#007A4D"
+        }
+      ],
+      "meshes": [
+        {
+          "slot": "body",
+          "mesh": "abaya_long"
+        },
+        {
+          "slot": "feet",
+          "mesh": "shoes_closed"
+        }
+      ],
+      "accessories": [
+        {
+          "kind": "abaya",
+          "color": "#007A4D",
+          "pattern": "#C9A86A"
+        },
+        {
+          "kind": "hijab",
+          "color": "#FFB612"
+        },
+        {
+          "kind": "doek",
+          "color": "#DE3831",
+          "pattern": "#FFB612"
+        },
+        {
+          "kind": "shweshwe",
+          "color": "#002395",
+          "pattern": "#FFFFFF"
+        }
+      ],
+      "footwear": "closed_flats",
+      "footwearColor": "#2A2020",
+      "agalMount": "none"
+    }
+  ]
+}

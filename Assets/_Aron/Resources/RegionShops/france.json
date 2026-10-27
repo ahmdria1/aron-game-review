@@ -1,0 +1,15 @@
+{
+  "region": "france",
+  "shops": [
+    {
+      "stage": "france_1",
+      "nameAr": "مخبز الزاوية",
+      "kind": "bakery"
+    },
+    {
+      "stage": "france_3",
+      "nameAr": "عطور الخزامى",
+      "kind": "gifts"
+    }
+  ]
+}

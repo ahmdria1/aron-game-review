@@ -1,0 +1,262 @@
+{
+  "country": "morocco",
+  "dialect": "darija",
+  "uiLanguage": "ar",
+  "greeting": {
+    "words": "السلام، لاباس عليك؟",
+    "wordsEn": "Peace, are you well?",
+    "wordsAr": "السلام، لاباس عليك؟",
+    "gesture": "hand_on_chest"
+  },
+  "hospitality": {
+    "ar": "في المغرب يُستقبل الضيف بشاي النعناع.",
+    "en": "In Morocco, guests are welcomed with mint tea.",
+    "tr": "Fas misafirleri naneli çayla karşılar.",
+    "de": "In Marokko empfängt man Gäste mit Minztee.",
+    "ur": "مراکش میں مہمان کا استقبال پودینے کی چائے سے ہوتا ہے۔",
+    "hi": "मोरक्को में मेहमान का स्वागत पुदीने की चाय से होता है।",
+    "es": "En Marruecos se recibe a los invitados con té de menta.",
+    "pt": "Em Marrocos recebem-se os convidados com chá de hortelã.",
+    "id": "Di Maroko, tamu disambut dengan teh mint.",
+    "ms": "Di Maghribi, tetamu disambut dengan teh pudina.",
+    "ja": "モロッコではお客さんをミントティーでもてなします。",
+    "fr": "Maroc : on accueille les invités avec un thé à la menthe."
+  },
+  "customs": [
+    {
+      "act": "pour_tea",
+      "en": "Atay is poured three times from high up.",
+      "ar": "الأتاي ينصب ثلاث مرات من فوق."
+    },
+    {
+      "act": "bargain",
+      "en": "Bargaining is a friendly chat in the souq.",
+      "ar": "الفصال في السوق كلام حلو."
+    }
+  ],
+  "architecture": "Zellige tiles, riads with fountains, red kasbahs, blue mountain towns.",
+  "palette": [
+    "#C1272D",
+    "#006233",
+    "#1E7F78",
+    "#E8C14A"
+  ],
+  "music": {
+    "style": "Gnawa and Andalusi",
+    "instruments": [
+      "guembri",
+      "qraqeb",
+      "oud"
+    ]
+  },
+  "street": {
+    "vendors": [
+      "msemen seller",
+      "harira stall"
+    ],
+    "cafe": "terrace mint tea",
+    "kidsGames": [
+      "marbles",
+      "football"
+    ],
+    "crowd": "bustling medinas"
+  },
+  "foods": [
+    {
+      "id": "morocco_tagine",
+      "local": "Tajine",
+      "name": {
+        "ar": "طاجين",
+        "en": "Slow-cooked stew in a clay pot",
+        "tr": "Tajine",
+        "de": "Tajine",
+        "ur": "طاجین",
+        "hi": "ताजीन",
+        "es": "Tajine",
+        "pt": "Tajine",
+        "id": "Tajine",
+        "ms": "Tajine",
+        "ja": "タジン",
+        "fr": "Tajine"
+      },
+      "fact": {
+        "ar": "تُعرف غالباً بأنها الأكلة الوطنية في المغرب.",
+        "en": "Often called the national dish of Morocco.",
+        "tr": "Genellikle Fas ulusal yemeği sayılır.",
+        "de": "Gilt oft als Nationalgericht von Marokko.",
+        "ur": "اسے اکثر مراکش کا قومی کھانا کہا جاتا ہے۔",
+        "hi": "इसे अक्सर मोरक्को का राष्ट्रीय व्यंजन कहा जाता है।",
+        "es": "Se le suele llamar el plato nacional de Marruecos.",
+        "pt": "É muitas vezes chamado o prato nacional de Marrocos.",
+        "id": "Sering disebut hidangan nasional Maroko.",
+        "ms": "Sering disebut hidangan kebangsaan Maghribi.",
+        "ja": "モロッコの国民食とよく言われます。",
+        "fr": "Maroc : souvent appelé le plat national."
+      },
+      "shape": "bowl",
+      "color": "#C8803A",
+      "color2": "#6A8F3A",
+      "buff": "strength",
+      "price": 70
+    },
+    {
+      "id": "morocco_couscous",
+      "local": "Seksu",
+      "name": {
+        "ar": "كسكس",
+        "en": "Friday couscous",
+        "tr": "Seksu",
+        "de": "Seksu",
+        "ur": "کسکس",
+        "hi": "कूसकूस",
+        "es": "Seksu",
+        "pt": "Seksu",
+        "id": "Seksu",
+        "ms": "Seksu",
+        "ja": "クスクス",
+        "fr": "Seksu"
+      },
+      "fact": {
+        "ar": "يتشاركونه من صحن كبير مع الأهل والضيوف في المغرب.",
+        "en": "Shared from one big plate with family and guests in Morocco.",
+        "tr": "Fas için aile ve misafirlerle büyük bir tabaktan paylaşılır.",
+        "de": "In Marokko von einer großen Platte mit Familie und Gästen geteilt.",
+        "ur": "مراکش میں گھر والوں اور مہمانوں کے ساتھ ایک بڑی پلیٹ سے کھایا جاتا ہے۔",
+        "hi": "मोरक्को में परिवार और मेहमानों के साथ एक बड़ी थाली से खाया जाता है।",
+        "es": "Se comparte de una gran fuente con familia e invitados en Marruecos.",
+        "pt": "Partilha-se de uma grande travessa com família e convidados em Marrocos.",
+        "id": "Disantap bersama dari satu piring besar dengan keluarga dan tamu di Maroko.",
+        "ms": "Dikongsi dari satu pinggan besar bersama keluarga dan tetamu di Maghribi.",
+        "ja": "モロッコでは大皿から家族やお客さんと分け合います。",
+        "fr": "Maroc : partagé dans un grand plat avec la famille et les invités."
+      },
+      "shape": "bowl",
+      "color": "#E8C77A",
+      "color2": "#C8553D",
+      "buff": "strength",
+      "price": 60
+    },
+    {
+      "id": "morocco_harira",
+      "local": "Harira",
+      "name": {
+        "ar": "حريرة",
+        "en": "Tomato lentil soup",
+        "tr": "Harira",
+        "de": "Harira",
+        "ur": "حریرہ",
+        "hi": "हरीरा",
+        "es": "Harira",
+        "pt": "Harira",
+        "id": "Harira",
+        "ms": "Harira",
+        "ja": "ハリラ",
+        "fr": "Harira"
+      },
+      "fact": {
+        "ar": "من أحب أكلات فطور رمضان في المغرب.",
+        "en": "A Ramadan iftar favourite in Morocco.",
+        "tr": "Fas için sevilen bir Ramazan iftar yemeği.",
+        "de": "In Marokko ein Liebling beim Iftar im Ramadan.",
+        "ur": "مراکش میں رمضان کی افطاری کا پسندیدہ کھانا۔",
+        "hi": "मोरक्को में रमज़ान की इफ़्तारी का पसंदीदा व्यंजन।",
+        "es": "Un favorito del iftar de Ramadán en Marruecos.",
+        "pt": "Um favorito do iftar do Ramadão em Marrocos.",
+        "id": "Menu buka puasa Ramadan favorit di Maroko.",
+        "ms": "Hidangan berbuka puasa kegemaran di Maghribi.",
+        "ja": "モロッコのラマダンのイフタールで人気の料理です。",
+        "fr": "Maroc : un classique de l'iftar du Ramadan."
+      },
+      "shape": "bowl",
+      "color": "#C8553D",
+      "color2": "#6A8F3A",
+      "buff": "energy",
+      "price": 30
+    },
+    {
+      "id": "morocco_msemen",
+      "local": "Msemen",
+      "name": {
+        "ar": "مسمن",
+        "en": "Square flaky pancake",
+        "tr": "Msemen",
+        "de": "Msemen",
+        "ur": "مسمن",
+        "hi": "मसमन",
+        "es": "Msemen",
+        "pt": "Msemen",
+        "id": "Msemen",
+        "ms": "Msemen",
+        "ja": "ムセンメン",
+        "fr": "Msemen"
+      },
+      "fact": {
+        "ar": "فطور محبوب في المغرب.",
+        "en": "A favourite breakfast in Morocco.",
+        "tr": "Fas için sevilen bir kahvaltı.",
+        "de": "Ein beliebtes Frühstück in Marokko.",
+        "ur": "مراکش کا پسندیدہ ناشتہ۔",
+        "hi": "मोरक्को का पसंदीदा नाश्ता।",
+        "es": "Un desayuno favorito en Marruecos.",
+        "pt": "Um pequeno-almoço favorito em Marrocos.",
+        "id": "Sarapan favorit di Maroko.",
+        "ms": "Sarapan kegemaran di Maghribi.",
+        "ja": "モロッコで人気の朝ごはんです。",
+        "fr": "Maroc : un petit-déjeuner très apprécié."
+      },
+      "shape": "cake",
+      "color": "#E0B070",
+      "color2": "#E8C14A",
+      "buff": "speed",
+      "price": 20
+    },
+    {
+      "id": "morocco_chebakia",
+      "local": "Chebakia",
+      "name": {
+        "ar": "شباكية",
+        "en": "Sesame honey flower cookies",
+        "tr": "Chebakia",
+        "de": "Chebakia",
+        "ur": "شباکیہ",
+        "hi": "शबाकिया",
+        "es": "Chebakia",
+        "pt": "Chebakia",
+        "id": "Chebakia",
+        "ms": "Chebakia",
+        "ja": "シュバキア",
+        "fr": "Chebakia"
+      },
+      "fact": {
+        "ar": "حلا محبوب في المغرب، أحلى مع الشاي أو القهوة.",
+        "en": "A sweet treat in Morocco, best with tea or coffee.",
+        "tr": "Fas için tatlı bir ikram, çay ya da kahveyle en güzeli.",
+        "de": "Eine süße Leckerei in Marokko, am besten mit Tee oder Kaffee.",
+        "ur": "مراکش کی میٹھی سوغات، چائے یا کافی کے ساتھ مزیدار۔",
+        "hi": "मोरक्को की मीठी सौगात, चाय या कॉफ़ी के साथ सबसे अच्छी।",
+        "es": "Un dulce de Marruecos, mejor con té o café.",
+        "pt": "Um doce de Marrocos, melhor com chá ou café.",
+        "id": "Camilan manis di Maroko, paling enak dengan teh atau kopi.",
+        "ms": "Manisan di Maghribi, paling sedap dengan teh atau kopi.",
+        "ja": "モロッコの甘いおやつ。お茶やコーヒーと一緒にどうぞ。",
+        "fr": "Maroc : une douceur, parfaite avec un thé ou un café."
+      },
+      "shape": "ball",
+      "color": "#8A4A1E",
+      "color2": "#E8C14A",
+      "buff": "energy",
+      "price": 30
+    }
+  ],
+  "animals": [
+    "morocco_camel",
+    "morocco_barbary_macaque",
+    "morocco_stork_white"
+  ],
+  "attackTrailVfx": "zellige_shards",
+  "eatIdle": {
+    "dishId": "morocco_tagine",
+    "propModel": "food_tagine",
+    "reaction": "hot"
+  }
+}

@@ -1,0 +1,220 @@
+{
+  "order": 432,
+  "id": "india",
+  "nameAr": "الهند",
+  "nameEn": "India",
+  "group": "world",
+  "music": "music_country_india",
+  "ground": "#C89A5A",
+  "accent": "#FF9933",
+  "sky": "#A6D0EE",
+  "country": "india",
+  "costume": "",
+  "stages": [
+    {
+      "id": "india_1",
+      "nameAr": "المدينة الوردية",
+      "nameEn": "The Pink City",
+      "terrain": "street",
+      "landmarks": [
+        "palace_fort",
+        "colour_plaza"
+      ],
+      "mount": "",
+      "difficulty": 3,
+      "boss": false,
+      "lineAr": "قصور وردية وأسواق مزدحمة!",
+      "extra": "",
+      "time": "day",
+      "weather": "clear",
+      "type": "normal",
+      "costume": ""
+    },
+    {
+      "id": "india_2",
+      "nameAr": "حصن الصحراء",
+      "nameEn": "Desert Fort",
+      "terrain": "desert",
+      "landmarks": [
+        "palace_fort",
+        "dunes"
+      ],
+      "mount": "camel",
+      "difficulty": 4,
+      "boss": false,
+      "lineAr": "حصن ذهبي وسط الرمل.",
+      "extra": "",
+      "time": "sunset",
+      "weather": "sandstorm",
+      "type": "chase",
+      "costume": ""
+    },
+    {
+      "id": "india_3",
+      "nameAr": "قوارب البحيرة",
+      "nameEn": "Backwater Houseboats",
+      "terrain": "river",
+      "landmarks": [
+        "houseboat",
+        "palms"
+      ],
+      "mount": "",
+      "difficulty": 5,
+      "boss": false,
+      "lineAr": "بيوت عايمة بين النخيل.",
+      "extra": "",
+      "time": "day",
+      "weather": "rain",
+      "type": "normal",
+      "costume": ""
+    },
+    {
+      "id": "india_4",
+      "nameAr": "محطة التل",
+      "nameEn": "Hill Station",
+      "terrain": "mountain",
+      "landmarks": [
+        "hill_station",
+        "railway"
+      ],
+      "mount": "",
+      "difficulty": 6,
+      "boss": false,
+      "lineAr": "قطار صغير يطلع الجبل!",
+      "extra": "",
+      "time": "day",
+      "weather": "rain",
+      "type": "action",
+      "costume": ""
+    },
+    {
+      "id": "india_5",
+      "nameAr": "سوق البهارات",
+      "nameEn": "Spice Market",
+      "terrain": "souq",
+      "landmarks": [
+        "souq",
+        "bazaar_arches"
+      ],
+      "mount": "",
+      "difficulty": 7,
+      "boss": false,
+      "lineAr": "كركم وفلفل وهيل.",
+      "extra": "",
+      "time": "sunset",
+      "weather": "clear",
+      "type": "normal",
+      "costume": ""
+    },
+    {
+      "id": "india_6",
+      "nameAr": "غابة النمور",
+      "nameEn": "Tiger Forest",
+      "terrain": "forest",
+      "landmarks": [
+        "rainforest",
+        "lake"
+      ],
+      "mount": "",
+      "difficulty": 8,
+      "boss": false,
+      "lineAr": "غابة كثيفة وأصوات بالليل.",
+      "extra": "",
+      "time": "night",
+      "weather": "clear",
+      "type": "chase",
+      "costume": ""
+    },
+    {
+      "id": "india_race",
+      "nameAr": "سباق قوارب الأفعى",
+      "nameEn": "Snake Boat Race",
+      "terrain": "coast",
+      "landmarks": [
+        "houseboat",
+        "palms"
+      ],
+      "mount": "",
+      "difficulty": 8,
+      "boss": false,
+      "lineAr": "سباق! سباق قوارب الأفعى، يلا نشوف مين الأول!",
+      "extra": "",
+      "time": "day",
+      "weather": "clear",
+      "type": "race",
+      "costume": "",
+      "race": "india_boat"
+    },
+    {
+      "id": "india_7",
+      "nameAr": "ساحة القصر",
+      "nameEn": "Palace Courtyard",
+      "terrain": "ruins",
+      "landmarks": [
+        "palace_fort",
+        "fountain"
+      ],
+      "mount": "",
+      "difficulty": 10,
+      "boss": true,
+      "lineAr": "فيل الرعد في ساحة القصر!",
+      "extra": "",
+      "time": "night",
+      "weather": "clear",
+      "type": "boss",
+      "costume": ""
+    }
+  ],
+  "skyline": [
+    "marble_mausoleum"
+  ],
+  "boss": {
+    "nameAr": "فيل الرعد",
+    "nameEn": "The Thunder Elephant",
+    "model": "marid",
+    "headgear": "crown",
+    "body": "#6E6E7A",
+    "trim": "#FF9933",
+    "projectile": "#FFD700",
+    "scale": 1.38,
+    "health": 17,
+    "introAr": "الأرض ترجف تحت أقدامي!",
+    "stunAr": "خرطومي التوى!",
+    "defeatAr": "تمام... الهند لك.",
+    "phases": [
+      {
+        "threshold": 1.0,
+        "move": 4.0,
+        "charge": 14.0,
+        "interval": 2.8,
+        "attacks": [
+          "volley"
+        ],
+        "tauntAr": "زلزال!"
+      },
+      {
+        "threshold": 0.66,
+        "move": 4.6,
+        "charge": 15.5,
+        "interval": 2.4,
+        "attacks": [
+          "summon",
+          "dash"
+        ],
+        "tauntAr": "رعد يا سما!"
+      },
+      {
+        "threshold": 0.33,
+        "move": 5.2,
+        "charge": 17.0,
+        "interval": 2.0,
+        "attacks": [
+          "summon",
+          "volley",
+          "dash"
+        ],
+        "tauntAr": "ما فيه مهرب!"
+      }
+    ]
+  }
+}

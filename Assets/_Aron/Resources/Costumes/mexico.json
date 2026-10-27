@@ -1,0 +1,100 @@
+{
+  "country": "mexico",
+  "costumes": [
+    {
+      "id": "mexico_traditional",
+      "country": "mexico",
+      "hero": "aron",
+      "nameAr": "سترة الشارو",
+      "nameEn": "Charro jacket",
+      "isDefault": true,
+      "price": 0,
+      "materials": [
+        {
+          "material": "Clothes",
+          "color": "#1E1E1E"
+        },
+        {
+          "material": "Trim",
+          "color": "#C9A86A"
+        }
+      ],
+      "meshes": [
+        {
+          "slot": "feet",
+          "mesh": "shoes_closed"
+        }
+      ],
+      "accessories": [
+        {
+          "kind": "shirt",
+          "color": "#FFFFFF"
+        },
+        {
+          "kind": "charro_jacket",
+          "color": "#1E1E1E",
+          "pattern": "#E8C14A"
+        },
+        {
+          "kind": "sombrero",
+          "color": "#E0C08A",
+          "pattern": "#CE1126"
+        }
+      ],
+      "footwear": "leather_shoes",
+      "footwearColor": "#5A3A22",
+      "agalMount": "wrist",
+      "boredIdle": {
+        "id": "mexico_maraca_shake",
+        "trigger": 34,
+        "noteEn": "Shakes a pair of maracas",
+        "lineAr": "تشك تشك تشك!",
+        "seconds": 3
+      }
+    },
+    {
+      "id": "mexico_noura",
+      "country": "mexico",
+      "hero": "noura",
+      "nameAr": "العباية والريبوزو",
+      "nameEn": "Abaya and rebozo",
+      "isDefault": true,
+      "price": 0,
+      "materials": [
+        {
+          "material": "Clothes",
+          "color": "#006847"
+        }
+      ],
+      "meshes": [
+        {
+          "slot": "body",
+          "mesh": "abaya_long"
+        },
+        {
+          "slot": "feet",
+          "mesh": "shoes_closed"
+        }
+      ],
+      "accessories": [
+        {
+          "kind": "abaya",
+          "color": "#006847",
+          "pattern": "#C9A86A"
+        },
+        {
+          "kind": "hijab",
+          "color": "#F4F0E8"
+        },
+        {
+          "kind": "rebozo",
+          "color": "#CE1126",
+          "pattern": "#F2A13A"
+        }
+      ],
+      "footwear": "closed_flats",
+      "footwearColor": "#2A2020",
+      "agalMount": "none"
+    }
+  ]
+}

@@ -1,0 +1,219 @@
+{
+  "order": 340,
+  "id": "jordan",
+  "nameAr": "الأردن",
+  "nameEn": "Jordan",
+  "group": "arab",
+  "music": "music_country_jordan",
+  "ground": "#D4A373",
+  "accent": "#CE1126",
+  "sky": "#A2C6E6",
+  "country": "jordan",
+  "costume": "",
+  "stages": [
+    {
+      "id": "jordan_1",
+      "nameAr": "وسط البلد والمدرج الروماني",
+      "nameEn": "Downtown Amman and the Roman Theatre",
+      "terrain": "street",
+      "landmarks": [
+        "amphitheater",
+        "souq"
+      ],
+      "mount": "",
+      "difficulty": 6,
+      "boss": false,
+      "lineAr": "وسط البلد، فلافل وكنافة ومدرج!",
+      "extra": "",
+      "time": "day",
+      "weather": "clear",
+      "type": "normal",
+      "costume": ""
+    },
+    {
+      "id": "jordan_2",
+      "nameAr": "جبل القلعة",
+      "nameEn": "Amman Citadel",
+      "terrain": "ruins",
+      "landmarks": [
+        "columns",
+        "fort"
+      ],
+      "mount": "",
+      "difficulty": 6,
+      "boss": false,
+      "lineAr": "من جبل القلعة تشوف عمّان كلها.",
+      "extra": "",
+      "time": "sunset",
+      "weather": "clear",
+      "type": "normal",
+      "costume": ""
+    },
+    {
+      "id": "jordan_3",
+      "nameAr": "جرش",
+      "nameEn": "Jerash",
+      "terrain": "ruins",
+      "landmarks": [
+        "columns",
+        "gate"
+      ],
+      "mount": "",
+      "difficulty": 6,
+      "boss": false,
+      "lineAr": "شارع الأعمدة في جرش، وهم لاحقيني!",
+      "extra": "",
+      "time": "day",
+      "weather": "clear",
+      "type": "action",
+      "costume": ""
+    },
+    {
+      "id": "jordan_4",
+      "nameAr": "البحر الميت",
+      "nameEn": "The Dead Sea",
+      "terrain": "coast",
+      "landmarks": [
+        "salt_lake",
+        "mountains"
+      ],
+      "mount": "",
+      "difficulty": 7,
+      "boss": false,
+      "lineAr": "أوطى مكان في الأرض! والملح في كل مكان.",
+      "extra": "",
+      "time": "day",
+      "weather": "clear",
+      "type": "normal",
+      "costume": ""
+    },
+    {
+      "id": "jordan_5",
+      "nameAr": "وادي رم",
+      "nameEn": "Wadi Rum",
+      "terrain": "desert",
+      "landmarks": [
+        "rock_arch",
+        "dunes"
+      ],
+      "mount": "camel",
+      "difficulty": 7,
+      "boss": false,
+      "lineAr": "وادي رم، والعاصفة الرملية جاية!",
+      "extra": "",
+      "time": "sunset",
+      "weather": "sandstorm",
+      "type": "chase",
+      "costume": ""
+    },
+    {
+      "id": "jordan_6",
+      "nameAr": "البترا - السيق والخزنة",
+      "nameEn": "Petra - The Siq and the Treasury",
+      "terrain": "ruins",
+      "landmarks": [
+        "rock_tomb",
+        "rock_arch"
+      ],
+      "mount": "horse",
+      "difficulty": 7,
+      "boss": false,
+      "lineAr": "السيق ضيق، والخزنة في آخره!",
+      "extra": "",
+      "time": "night",
+      "weather": "clear",
+      "type": "normal",
+      "costume": ""
+    },
+    {
+      "id": "jordan_race",
+      "nameAr": "رالي وادي رم",
+      "nameEn": "Wadi Rum Desert Rally",
+      "terrain": "desert",
+      "landmarks": [
+        "rock_arch",
+        "dunes"
+      ],
+      "mount": "",
+      "difficulty": 7,
+      "boss": false,
+      "lineAr": "سباق! رالي وادي رم، يلا نشوف مين الأول!",
+      "extra": "",
+      "time": "sunset",
+      "weather": "clear",
+      "type": "race",
+      "costume": "",
+      "race": "jordan_car"
+    },
+    {
+      "id": "jordan_7",
+      "nameAr": "البترا - الدير",
+      "nameEn": "Petra - The Monastery",
+      "terrain": "mountain",
+      "landmarks": [
+        "rock_tomb",
+        "mountains"
+      ],
+      "mount": "",
+      "difficulty": 8,
+      "boss": true,
+      "lineAr": "الغول النبطي فوق الدير...",
+      "extra": "",
+      "time": "night",
+      "weather": "clear",
+      "type": "boss",
+      "costume": "jordan_bisht"
+    }
+  ],
+  "boss": {
+    "nameAr": "الغول النبطي",
+    "nameEn": "The Nabataean Ghoul",
+    "model": "ghoul",
+    "headgear": "ghutra",
+    "body": "#8C3B2B",
+    "trim": "#E6C79C",
+    "projectile": "#D9734E",
+    "scale": 1.35,
+    "health": 15,
+    "introAr": "الصخر الوردي هذا بيتي من ألفين سنة!",
+    "stunAr": "الصخر يدور...",
+    "defeatAr": "رجعت للصخر... الأردن لك.",
+    "phases": [
+      {
+        "threshold": 1.0,
+        "move": 3.5,
+        "charge": 13,
+        "interval": 2.8,
+        "attacks": [
+          "leap",
+          "wave"
+        ],
+        "tauntAr": "الجبل يرج!"
+      },
+      {
+        "threshold": 0.66,
+        "move": 4,
+        "charge": 15,
+        "interval": 2.4,
+        "attacks": [
+          "charge",
+          "volley",
+          "wave"
+        ],
+        "tauntAr": "حجارة وردية!"
+      },
+      {
+        "threshold": 0.33,
+        "move": 5,
+        "charge": 17,
+        "interval": 1.9,
+        "attacks": [
+          "leap",
+          "dash",
+          "summon"
+        ],
+        "tauntAr": "يا أهل الصخر!"
+      }
+    ]
+  }
+}

@@ -1,0 +1,494 @@
+{
+  "lines": [
+    {
+      "id": "vo_aron_help",
+      "character": "aron",
+      "textAr": "الحقوني! الحقوني!",
+      "clip": "",
+      "kind": "chase"
+    },
+    {
+      "id": "vo_aron_near_miss",
+      "character": "aron",
+      "textAr": "أوووه! على الطاير!",
+      "clip": "",
+      "kind": "near_miss"
+    },
+    {
+      "id": "vo_aron_falling",
+      "character": "aron",
+      "textAr": "يا ويلييي!",
+      "clip": "",
+      "kind": "falling"
+    },
+    {
+      "id": "vo_aron_bisht_cheer",
+      "character": "aron",
+      "textAr": "البشت الذهبي! يا سلااام!",
+      "clip": "",
+      "kind": "bisht"
+    },
+    {
+      "id": "vo_aron_checkpoint",
+      "character": "aron",
+      "textAr": "تمام، حفظناها!",
+      "clip": "",
+      "kind": "checkpoint"
+    },
+    {
+      "id": "vo_aron_stomp",
+      "character": "aron",
+      "textAr": "خذ هذي!",
+      "clip": "",
+      "kind": "stomp"
+    },
+    {
+      "id": "vo_noura_uff",
+      "character": "noura",
+      "textAr": "أفّ!",
+      "clip": "",
+      "kind": "uff"
+    },
+    {
+      "id": "vo_noura_call_oryx",
+      "character": "noura",
+      "textAr": "يا مها! تعال هنا!",
+      "clip": "",
+      "kind": "call_oryx"
+    },
+    {
+      "id": "vo_noura_puzzle_solved",
+      "character": "noura",
+      "textAr": "انحلّت! سهلة!",
+      "clip": "",
+      "kind": "puzzle_solved"
+    },
+    {
+      "id": "vo_noura_bag_throw",
+      "character": "noura",
+      "textAr": "خذ الشنطة!",
+      "clip": "",
+      "kind": "bag_throw"
+    },
+    {
+      "id": "vo_bisht",
+      "character": "any",
+      "textAr": "بشت ذهبي!",
+      "clip": "",
+      "kind": "bisht"
+    },
+    {
+      "id": "vo_bisht_full",
+      "character": "any",
+      "textAr": "ثلاثة بشوت! ما أحد يوقفني!",
+      "clip": "",
+      "kind": "bisht"
+    },
+    {
+      "id": "vo_mercy",
+      "character": "any",
+      "textAr": "هذا البشت هدية، لا تستسلم!",
+      "clip": "",
+      "kind": "mercy"
+    },
+    {
+      "id": "vo_puzzle_solved",
+      "character": "any",
+      "textAr": "انفتح الطريق!",
+      "clip": "",
+      "kind": "puzzle_solved"
+    },
+    {
+      "id": "vo_puzzle_wrong",
+      "character": "any",
+      "textAr": "لا، مو كذا...",
+      "clip": "",
+      "kind": "puzzle_wrong"
+    },
+    {
+      "id": "vo_lock_hint",
+      "character": "any",
+      "textAr": "هذا القفل يبي نورة.",
+      "clip": "",
+      "kind": "lock_hint"
+    },
+    {
+      "id": "vo_chase",
+      "character": "any",
+      "textAr": "اركض!",
+      "clip": "",
+      "kind": "chase"
+    },
+    {
+      "id": "vo_extra_life",
+      "character": "any",
+      "textAr": "حياة زيادة!",
+      "clip": "",
+      "kind": "extra_life"
+    },
+    {
+      "id": "vo_checkpoint",
+      "character": "any",
+      "textAr": "هنا نكمّل.",
+      "clip": "",
+      "kind": "checkpoint"
+    },
+    {
+      "id": "vo_boss_scientist_taunt",
+      "character": "boss_scientist",
+      "textAr": "روبوتاتي بتوقّفك!",
+      "clip": "",
+      "kind": "taunt"
+    },
+    {
+      "id": "vo_boss_scientist_hurt",
+      "character": "boss_scientist",
+      "textAr": "آخ! تجربتي!",
+      "clip": "",
+      "kind": "hurt"
+    },
+    {
+      "id": "vo_boss_scientist_defeat",
+      "character": "boss_scientist",
+      "textAr": "خلاص! الرياض لك يا بطل!",
+      "clip": "",
+      "kind": "defeat"
+    },
+    {
+      "id": "vo_boss_captain_taunt",
+      "character": "boss_captain",
+      "textAr": "البحر بحري، ارجع!",
+      "clip": "",
+      "kind": "taunt"
+    },
+    {
+      "id": "vo_boss_captain_hurt",
+      "character": "boss_captain",
+      "textAr": "آخ يا الموج!",
+      "clip": "",
+      "kind": "hurt"
+    },
+    {
+      "id": "vo_boss_captain_defeat",
+      "character": "boss_captain",
+      "textAr": "سلّمت... البحر لك!",
+      "clip": "",
+      "kind": "defeat"
+    },
+    {
+      "id": "vo_boss_ninja_taunt",
+      "character": "boss_ninja",
+      "textAr": "ما تشوفني، بس أشوفك!",
+      "clip": "",
+      "kind": "taunt"
+    },
+    {
+      "id": "vo_boss_ninja_hurt",
+      "character": "boss_ninja",
+      "textAr": "آخ!",
+      "clip": "",
+      "kind": "hurt"
+    },
+    {
+      "id": "vo_boss_ninja_defeat",
+      "character": "boss_ninja",
+      "textAr": "انكشفت...",
+      "clip": "",
+      "kind": "defeat"
+    },
+    {
+      "id": "vo_boss_robe_taunt",
+      "character": "boss_robe",
+      "textAr": "ما راح تعدّي من هنا!",
+      "clip": "",
+      "kind": "taunt"
+    },
+    {
+      "id": "vo_boss_robe_hurt",
+      "character": "boss_robe",
+      "textAr": "آخ يا ظهري!",
+      "clip": "",
+      "kind": "hurt"
+    },
+    {
+      "id": "vo_boss_robe_defeat",
+      "character": "boss_robe",
+      "textAr": "خلاص... غلبتني!",
+      "clip": "",
+      "kind": "defeat"
+    },
+    {
+      "id": "vo_boss_soldier_taunt",
+      "character": "boss_soldier",
+      "textAr": "الأسوار مسكّرة!",
+      "clip": "",
+      "kind": "taunt"
+    },
+    {
+      "id": "vo_boss_soldier_hurt",
+      "character": "boss_soldier",
+      "textAr": "آخ!",
+      "clip": "",
+      "kind": "hurt"
+    },
+    {
+      "id": "vo_boss_soldier_defeat",
+      "character": "boss_soldier",
+      "textAr": "افتحوا البوابة...",
+      "clip": "",
+      "kind": "defeat"
+    },
+    {
+      "id": "vo_boss_marid_taunt",
+      "character": "boss_marid",
+      "textAr": "أنا المارد! ارجع!",
+      "clip": "",
+      "kind": "taunt"
+    },
+    {
+      "id": "vo_boss_marid_hurt",
+      "character": "boss_marid",
+      "textAr": "آخ! يا ويلي!",
+      "clip": "",
+      "kind": "hurt"
+    },
+    {
+      "id": "vo_boss_marid_defeat",
+      "character": "boss_marid",
+      "textAr": "رجعت للقمقم...",
+      "clip": "",
+      "kind": "defeat"
+    },
+    {
+      "id": "vo_boss_ghoul_taunt",
+      "character": "boss_ghoul",
+      "textAr": "هههه! تعال قرّب!",
+      "clip": "",
+      "kind": "taunt"
+    },
+    {
+      "id": "vo_boss_ghoul_hurt",
+      "character": "boss_ghoul",
+      "textAr": "آآخ!",
+      "clip": "",
+      "kind": "hurt"
+    },
+    {
+      "id": "vo_boss_ghoul_defeat",
+      "character": "boss_ghoul",
+      "textAr": "راح الغول...",
+      "clip": "",
+      "kind": "defeat"
+    },
+    {
+      "id": "vo_boss_mummy_taunt",
+      "character": "boss_mummy",
+      "textAr": "ممممم... ارجع!",
+      "clip": "",
+      "kind": "taunt"
+    },
+    {
+      "id": "vo_boss_mummy_hurt",
+      "character": "boss_mummy",
+      "textAr": "ممم! آخ!",
+      "clip": "",
+      "kind": "hurt"
+    },
+    {
+      "id": "vo_boss_mummy_defeat",
+      "character": "boss_mummy",
+      "textAr": "رجعت أنام...",
+      "clip": "",
+      "kind": "defeat"
+    },
+    {
+      "id": "vo_boss_tree_taunt",
+      "character": "boss_tree",
+      "textAr": "جذوري أقوى منك!",
+      "clip": "",
+      "kind": "taunt"
+    },
+    {
+      "id": "vo_boss_tree_hurt",
+      "character": "boss_tree",
+      "textAr": "آخ يا أغصاني!",
+      "clip": "",
+      "kind": "hurt"
+    },
+    {
+      "id": "vo_boss_tree_defeat",
+      "character": "boss_tree",
+      "textAr": "طحت... مثل ورقة.",
+      "clip": "",
+      "kind": "defeat"
+    },
+    {
+      "id": "vo_boss_shark_taunt",
+      "character": "boss_shark",
+      "textAr": "(خبطة زعنفة)",
+      "clip": "",
+      "kind": "taunt"
+    },
+    {
+      "id": "vo_boss_shark_hurt",
+      "character": "boss_shark",
+      "textAr": "(رشّة ماء)",
+      "clip": "",
+      "kind": "hurt"
+    },
+    {
+      "id": "vo_boss_shark_defeat",
+      "character": "boss_shark",
+      "textAr": "(غطس للأعماق)",
+      "clip": "",
+      "kind": "defeat"
+    },
+    {
+      "id": "vo_boss_golem_taunt",
+      "character": "boss_golem",
+      "textAr": "(هدير صخر)",
+      "clip": "",
+      "kind": "taunt"
+    },
+    {
+      "id": "vo_boss_golem_hurt",
+      "character": "boss_golem",
+      "textAr": "(تكسّر حجر)",
+      "clip": "",
+      "kind": "hurt"
+    },
+    {
+      "id": "vo_boss_golem_defeat",
+      "character": "boss_golem",
+      "textAr": "(انهيار صخور)",
+      "clip": "",
+      "kind": "defeat"
+    },
+    {
+      "id": "vo_boss_wolf_taunt",
+      "character": "boss_wolf",
+      "textAr": "عووووو!",
+      "clip": "",
+      "kind": "taunt"
+    },
+    {
+      "id": "vo_boss_wolf_hurt",
+      "character": "boss_wolf",
+      "textAr": "عيييك!",
+      "clip": "",
+      "kind": "hurt"
+    },
+    {
+      "id": "vo_boss_wolf_defeat",
+      "character": "boss_wolf",
+      "textAr": "(أنين ذيب)",
+      "clip": "",
+      "kind": "defeat"
+    },
+    {
+      "id": "vo_boss_eagle_taunt",
+      "character": "boss_eagle",
+      "textAr": "(صيحة نسر)",
+      "clip": "",
+      "kind": "taunt"
+    },
+    {
+      "id": "vo_boss_eagle_hurt",
+      "character": "boss_eagle",
+      "textAr": "(ريش يطير)",
+      "clip": "",
+      "kind": "hurt"
+    },
+    {
+      "id": "vo_boss_eagle_defeat",
+      "character": "boss_eagle",
+      "textAr": "(صيحة بعيدة)",
+      "clip": "",
+      "kind": "defeat"
+    },
+    {
+      "id": "vo_boss_clam_taunt",
+      "character": "boss_clam",
+      "textAr": "(طقطقة صدفة)",
+      "clip": "",
+      "kind": "taunt"
+    },
+    {
+      "id": "vo_boss_clam_hurt",
+      "character": "boss_clam",
+      "textAr": "(صدفة تنغلق)",
+      "clip": "",
+      "kind": "hurt"
+    },
+    {
+      "id": "vo_boss_clam_defeat",
+      "character": "boss_clam",
+      "textAr": "(صدفة تنفتح)",
+      "clip": "",
+      "kind": "defeat"
+    },
+    {
+      "id": "vo_boss_barrel_taunt",
+      "character": "boss_barrel",
+      "textAr": "(قرقعة برميل)",
+      "clip": "",
+      "kind": "taunt"
+    },
+    {
+      "id": "vo_boss_barrel_hurt",
+      "character": "boss_barrel",
+      "textAr": "(دنق!)",
+      "clip": "",
+      "kind": "hurt"
+    },
+    {
+      "id": "vo_boss_barrel_defeat",
+      "character": "boss_barrel",
+      "textAr": "(برميل يتدحرج)",
+      "clip": "",
+      "kind": "defeat"
+    },
+    {
+      "id": "vo_boss_croc_taunt",
+      "character": "boss_croc",
+      "textAr": "(زمجرة)",
+      "clip": "",
+      "kind": "taunt"
+    },
+    {
+      "id": "vo_boss_croc_hurt",
+      "character": "boss_croc",
+      "textAr": "(طقّة فكّ)",
+      "clip": "",
+      "kind": "hurt"
+    },
+    {
+      "id": "vo_boss_croc_defeat",
+      "character": "boss_croc",
+      "textAr": "(غطس بالنهر)",
+      "clip": "",
+      "kind": "defeat"
+    },
+    {
+      "id": "vo_boss_crab_taunt",
+      "character": "boss_crab",
+      "textAr": "(طقطقة مقصّات)",
+      "clip": "",
+      "kind": "taunt"
+    },
+    {
+      "id": "vo_boss_crab_hurt",
+      "character": "boss_crab",
+      "textAr": "(طق!)",
+      "clip": "",
+      "kind": "hurt"
+    },
+    {
+      "id": "vo_boss_crab_defeat",
+      "character": "boss_crab",
+      "textAr": "(سلطعون يهرب)",
+      "clip": "",
+      "kind": "defeat"
+    }
+  ]
+}

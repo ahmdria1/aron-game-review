@@ -1,0 +1,262 @@
+{
+  "country": "pakistan",
+  "dialect": "ur",
+  "uiLanguage": "ur",
+  "greeting": {
+    "words": "Assalam o alaikum",
+    "wordsEn": "Peace be upon you",
+    "wordsAr": "السلام عليكم",
+    "gesture": "hand_on_chest"
+  },
+  "hospitality": {
+    "ar": "في باكستان يُستقبل الضيف بكوب شاي بالحليب.",
+    "en": "In Pakistan, guests are welcomed with a cup of milky chai.",
+    "tr": "Pakistan misafirleri sütlü çayla karşılar.",
+    "de": "In Pakistan empfängt man Gäste mit einer Tasse Milch-Chai.",
+    "ur": "پاکستان میں مہمان کا استقبال دودھ پتی چائے سے ہوتا ہے۔",
+    "hi": "पाकिस्तान में मेहमान का स्वागत दूध वाली चाय से होता है।",
+    "es": "En Pakistán se recibe a los invitados con una taza de chai con leche.",
+    "pt": "No Paquistão recebem-se os convidados com uma chávena de chai com leite.",
+    "id": "Di Pakistan, tamu disambut dengan secangkir teh susu.",
+    "ms": "Di Pakistan, tetamu disambut dengan secawan teh susu.",
+    "ja": "パキスタンではお客さんをミルクチャイでもてなします。",
+    "fr": "Pakistan : on accueille les invités avec un chai au lait."
+  },
+  "customs": [
+    {
+      "act": "pour_tea",
+      "en": "Doodh patti chai for every guest.",
+      "ar": "شاي بالحليب لكل ضيف."
+    },
+    {
+      "act": "invite_in",
+      "en": "A guest is a blessing, so stay for dinner.",
+      "ar": "الضيف بركة، لازم يتعشى."
+    }
+  ],
+  "architecture": "Red sandstone forts, painted trucks, Mughal gardens and high mountains.",
+  "palette": [
+    "#01411C",
+    "#FFFFFF",
+    "#E8C14A",
+    "#C8102E"
+  ],
+  "music": {
+    "style": "Qawwali-style folk",
+    "instruments": [
+      "harmonium",
+      "tabla",
+      "dhol"
+    ]
+  },
+  "street": {
+    "vendors": [
+      "chaat stall",
+      "jalebi fryer"
+    ],
+    "cafe": "dhaba",
+    "kidsGames": [
+      "cricket",
+      "kite flying"
+    ],
+    "crowd": "busy bazaars, colourful trucks"
+  },
+  "foods": [
+    {
+      "id": "pakistan_biryani",
+      "local": "Biryani",
+      "name": {
+        "ar": "برياني",
+        "en": "Spiced rice with chicken",
+        "tr": "Biryani",
+        "de": "Biryani",
+        "ur": "بریانی",
+        "hi": "बिरयानी",
+        "es": "Biryani",
+        "pt": "Biryani",
+        "id": "Biryani",
+        "ms": "Biryani",
+        "ja": "ビリヤニ",
+        "fr": "Biryani"
+      },
+      "fact": {
+        "ar": "تُعرف غالباً بأنها الأكلة الوطنية في باكستان.",
+        "en": "Often called the national dish of Pakistan.",
+        "tr": "Genellikle Pakistan ulusal yemeği sayılır.",
+        "de": "Gilt oft als Nationalgericht von Pakistan.",
+        "ur": "اسے اکثر پاکستان کا قومی کھانا کہا جاتا ہے۔",
+        "hi": "इसे अक्सर पाकिस्तान का राष्ट्रीय व्यंजन कहा जाता है।",
+        "es": "Se le suele llamar el plato nacional de Pakistán.",
+        "pt": "É muitas vezes chamado o prato nacional do Paquistão.",
+        "id": "Sering disebut hidangan nasional Pakistan.",
+        "ms": "Sering disebut hidangan kebangsaan Pakistan.",
+        "ja": "パキスタンの国民食とよく言われます。",
+        "fr": "Pakistan : souvent appelé le plat national."
+      },
+      "shape": "plate",
+      "color": "#E8A03A",
+      "color2": "#C8553D",
+      "buff": "strength",
+      "price": 80
+    },
+    {
+      "id": "pakistan_nihari",
+      "local": "Nihari",
+      "name": {
+        "ar": "نهاري",
+        "en": "Slow-cooked beef stew",
+        "tr": "Nihari",
+        "de": "Nihari",
+        "ur": "نہاری",
+        "hi": "निहारी",
+        "es": "Nihari",
+        "pt": "Nihari",
+        "id": "Nihari",
+        "ms": "Nihari",
+        "ja": "ニハリ",
+        "fr": "Nihari"
+      },
+      "fact": {
+        "ar": "فطور محبوب في باكستان.",
+        "en": "A favourite breakfast in Pakistan.",
+        "tr": "Pakistan için sevilen bir kahvaltı.",
+        "de": "Ein beliebtes Frühstück in Pakistan.",
+        "ur": "پاکستان کا پسندیدہ ناشتہ۔",
+        "hi": "पाकिस्तान का पसंदीदा नाश्ता।",
+        "es": "Un desayuno favorito en Pakistán.",
+        "pt": "Um pequeno-almoço favorito no Paquistão.",
+        "id": "Sarapan favorit di Pakistan.",
+        "ms": "Sarapan kegemaran di Pakistan.",
+        "ja": "パキスタンで人気の朝ごはんです。",
+        "fr": "Pakistan : un petit-déjeuner très apprécié."
+      },
+      "shape": "bowl",
+      "color": "#8A3A22",
+      "color2": "#E0C08A",
+      "buff": "strength",
+      "price": 90
+    },
+    {
+      "id": "pakistan_chapli_kebab",
+      "local": "Chapli kebab",
+      "name": {
+        "ar": "شبلي كباب",
+        "en": "Flat spiced kebab",
+        "tr": "Chapli kebab",
+        "de": "Chapli kebab",
+        "ur": "چپلی کباب",
+        "hi": "चपली कबाब",
+        "es": "Chapli kebab",
+        "pt": "Chapli kebab",
+        "id": "Chapli kebab",
+        "ms": "Chapli kebab",
+        "ja": "チャプリ・ケバブ",
+        "fr": "Chapli kebab"
+      },
+      "fact": {
+        "ar": "يُباع حاراً في بسطات الشوارع في كل باكستان.",
+        "en": "Sold hot at street stalls all over Pakistan.",
+        "tr": "Pakistan genelinde sokak tezgâhlarında sıcak satılır.",
+        "de": "Überall in Pakistan heiß an Straßenständen verkauft.",
+        "ur": "پورے پاکستان میں ٹھیلوں پر گرم گرم بکتا ہے۔",
+        "hi": "पूरे पाकिस्तान में ठेलों पर गरमा-गरम बिकता है।",
+        "es": "Se vende caliente en puestos callejeros por todo el territorio de Pakistán.",
+        "pt": "Vende-se quente em bancas de rua em todo o Paquistão.",
+        "id": "Dijual hangat di kaki lima di seluruh Pakistan.",
+        "ms": "Dijual panas di gerai tepi jalan di seluruh Pakistan.",
+        "ja": "パキスタンのあちこちの屋台で熱々で売られています。",
+        "fr": "Pakistan : vendu tout chaud dans les stands de rue."
+      },
+      "shape": "cake",
+      "color": "#8A4A1E",
+      "color2": "#6A8F3A",
+      "buff": "strength",
+      "price": 60
+    },
+    {
+      "id": "pakistan_jalebi",
+      "local": "Jalebi",
+      "name": {
+        "ar": "جلابي",
+        "en": "Syrup spirals",
+        "tr": "Jalebi",
+        "de": "Jalebi",
+        "ur": "جلیبی",
+        "hi": "जलेबी",
+        "es": "Jalebi",
+        "pt": "Jalebi",
+        "id": "Jalebi",
+        "ms": "Jalebi",
+        "ja": "ジャレビ",
+        "fr": "Jalebi"
+      },
+      "fact": {
+        "ar": "حلا محبوب في باكستان، أحلى مع الشاي أو القهوة.",
+        "en": "A sweet treat in Pakistan, best with tea or coffee.",
+        "tr": "Pakistan için tatlı bir ikram, çay ya da kahveyle en güzeli.",
+        "de": "Eine süße Leckerei in Pakistan, am besten mit Tee oder Kaffee.",
+        "ur": "پاکستان کی میٹھی سوغات، چائے یا کافی کے ساتھ مزیدار۔",
+        "hi": "पाकिस्तान की मीठी सौगात, चाय या कॉफ़ी के साथ सबसे अच्छी।",
+        "es": "Un dulce de Pakistán, mejor con té o café.",
+        "pt": "Um doce do Paquistão, melhor com chá ou café.",
+        "id": "Camilan manis di Pakistan, paling enak dengan teh atau kopi.",
+        "ms": "Manisan di Pakistan, paling sedap dengan teh atau kopi.",
+        "ja": "パキスタンの甘いおやつ。お茶やコーヒーと一緒にどうぞ。",
+        "fr": "Pakistan : une douceur, parfaite avec un thé ou un café."
+      },
+      "shape": "ball",
+      "color": "#F2A13A",
+      "color2": "#E8C14A",
+      "buff": "energy",
+      "price": 30
+    },
+    {
+      "id": "pakistan_lassi",
+      "local": "Lassi",
+      "name": {
+        "ar": "لسي",
+        "en": "Yogurt drink",
+        "tr": "Lassi",
+        "de": "Lassi",
+        "ur": "لسی",
+        "hi": "लस्सी",
+        "es": "Lassi",
+        "pt": "Lassi",
+        "id": "Lassi",
+        "ms": "Lassi",
+        "ja": "ラッシー",
+        "fr": "Lassi"
+      },
+      "fact": {
+        "ar": "مشروب يُقدَّم للضيف في باكستان.",
+        "en": "A drink offered to guests in Pakistan.",
+        "tr": "Pakistan için misafire ikram edilen bir içecek.",
+        "de": "Ein Getränk, das man in Pakistan Gästen anbietet.",
+        "ur": "پاکستان میں مہمان کو پیش کیا جانے والا مشروب۔",
+        "hi": "पाकिस्तान में मेहमान को दिया जाने वाला पेय।",
+        "es": "Una bebida que se ofrece a los invitados en Pakistán.",
+        "pt": "Uma bebida oferecida aos convidados no Paquistão.",
+        "id": "Minuman yang disuguhkan untuk tamu di Pakistan.",
+        "ms": "Minuman yang dihidangkan kepada tetamu di Pakistan.",
+        "ja": "パキスタンでお客さんに出される飲み物です。",
+        "fr": "Pakistan : une boisson offerte aux invités."
+      },
+      "shape": "cup",
+      "color": "#F5EEDC",
+      "color2": "#E8C14A",
+      "buff": "speed",
+      "price": 30
+    }
+  ],
+  "animals": [
+    "pakistan_markhor",
+    "pakistan_camel",
+    "pakistan_water_buffalo"
+  ],
+  "attackTrailVfx": "truck_art_sparkles",
+  "eatIdle": {
+    "dishId": "pakistan_biryani",
+    "propModel": "food_biryani",
+    "reaction": "spicy"
+  }
+}

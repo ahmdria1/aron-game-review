@@ -1,0 +1,100 @@
+{
+  "country": "brazil",
+  "costumes": [
+    {
+      "id": "brazil_traditional",
+      "country": "brazil",
+      "hero": "aron",
+      "nameAr": "قميص الشاطئ",
+      "nameEn": "Beach shirt",
+      "isDefault": true,
+      "price": 0,
+      "materials": [
+        {
+          "material": "Clothes",
+          "color": "#FFDF00"
+        },
+        {
+          "material": "Trim",
+          "color": "#C9A86A"
+        }
+      ],
+      "meshes": [
+        {
+          "slot": "feet",
+          "mesh": "shoes_closed"
+        }
+      ],
+      "accessories": [
+        {
+          "kind": "shirt",
+          "color": "#FFDF00",
+          "pattern": "#009C3B"
+        },
+        {
+          "kind": "straw_hat",
+          "color": "#E0C08A",
+          "pattern": "#009C3B"
+        },
+        {
+          "kind": "sash",
+          "color": "#002776"
+        }
+      ],
+      "footwear": "leather_shoes",
+      "footwearColor": "#5A3A22",
+      "agalMount": "wrist",
+      "boredIdle": {
+        "id": "brazil_keepy_uppy",
+        "trigger": 35,
+        "noteEn": "Juggles a football on his knee",
+        "lineAr": "ولا مرة طاحت!",
+        "seconds": 4
+      }
+    },
+    {
+      "id": "brazil_noura",
+      "country": "brazil",
+      "hero": "noura",
+      "nameAr": "العباية وإكليل الورد",
+      "nameEn": "Abaya and flower crown",
+      "isDefault": true,
+      "price": 0,
+      "materials": [
+        {
+          "material": "Clothes",
+          "color": "#002776"
+        }
+      ],
+      "meshes": [
+        {
+          "slot": "body",
+          "mesh": "abaya_long"
+        },
+        {
+          "slot": "feet",
+          "mesh": "shoes_closed"
+        }
+      ],
+      "accessories": [
+        {
+          "kind": "abaya",
+          "color": "#002776",
+          "pattern": "#C9A86A"
+        },
+        {
+          "kind": "hijab",
+          "color": "#FFDF00"
+        },
+        {
+          "kind": "flower_crown",
+          "color": "#009C3B",
+          "pattern": "#FFDF00"
+        }
+      ],
+      "footwear": "closed_flats",
+      "footwearColor": "#2A2020",
+      "agalMount": "none"
+    }
+  ]
+}

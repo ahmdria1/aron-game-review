@@ -1,0 +1,20 @@
+{
+  "region": "qatar",
+  "shops": [
+    {
+      "stage": "qatar_1",
+      "nameAr": "بهارات أبو خليفة",
+      "kind": "spices"
+    },
+    {
+      "stage": "qatar_2",
+      "nameAr": "مستلزمات الصقار",
+      "kind": "falconry"
+    },
+    {
+      "stage": "qatar_4",
+      "nameAr": "كرك بو ناصر",
+      "kind": "cafe"
+    }
+  ]
+}

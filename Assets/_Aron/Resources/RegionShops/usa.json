@@ -1,0 +1,15 @@
+{
+  "region": "usa",
+  "shops": [
+    {
+      "stage": "usa_1",
+      "nameAr": "مطعم الطريق",
+      "kind": "food"
+    },
+    {
+      "stage": "usa_4",
+      "nameAr": "سروج المزرعة",
+      "kind": "gifts"
+    }
+  ]
+}

@@ -1,0 +1,262 @@
+{
+  "country": "qatar",
+  "dialect": "qatari",
+  "uiLanguage": "ar",
+  "greeting": {
+    "words": "هلا والله",
+    "wordsEn": "Hello and welcome",
+    "wordsAr": "هلا والله",
+    "gesture": "hand_on_chest"
+  },
+  "hospitality": {
+    "ar": "في قطر يُستقبل الضيف بالقهوة والتمر.",
+    "en": "In Qatar, guests are welcomed with coffee and dates.",
+    "tr": "Katar misafirleri kahve ve hurmayla karşılar.",
+    "de": "In Katar empfängt man Gäste mit Kaffee und Datteln.",
+    "ur": "قطر میں مہمان کا استقبال قہوے اور کھجور سے ہوتا ہے۔",
+    "hi": "क़तर में मेहमान का स्वागत क़हवा और खजूर से होता है।",
+    "es": "En Catar se recibe a los invitados con café y dátiles.",
+    "pt": "No Catar recebem-se os convidados com café e tâmaras.",
+    "id": "Di Qatar, tamu disambut dengan kopi dan kurma.",
+    "ms": "Di Qatar, tetamu disambut dengan kopi dan kurma.",
+    "ja": "カタールではお客さんをコーヒーとデーツでもてなします。",
+    "fr": "Qatar : on accueille les invités avec du café et des dattes."
+  },
+  "customs": [
+    {
+      "act": "pour_coffee",
+      "en": "Three small cups is polite; then shake the cup.",
+      "ar": "ثلاث فناجيل وبعدين هز الفنجال."
+    },
+    {
+      "act": "play_game",
+      "en": "Kids play in the souq lanes at night.",
+      "ar": "البزارين يلعبون في السوق بالليل."
+    }
+  ],
+  "architecture": "Restored souq lanes, wind towers, desert forts, sea skyline.",
+  "palette": [
+    "#8A1538",
+    "#FFFFFF",
+    "#C8A060",
+    "#1E3A5F"
+  ],
+  "music": {
+    "style": "Ardah and sea songs",
+    "instruments": [
+      "tabl",
+      "duff",
+      "tar"
+    ]
+  },
+  "street": {
+    "vendors": [
+      "spice seller",
+      "falcon shop"
+    ],
+    "cafe": "souq coffee house",
+    "kidsGames": [
+      "kairam",
+      "stone game"
+    ],
+    "crowd": "lively souq evenings"
+  },
+  "foods": [
+    {
+      "id": "qatar_machboos",
+      "local": "Machboos",
+      "name": {
+        "ar": "مجبوس",
+        "en": "Spiced rice with lamb",
+        "tr": "Machboos",
+        "de": "Machboos",
+        "ur": "مچبوس",
+        "hi": "मचबूस",
+        "es": "Machboos",
+        "pt": "Machboos",
+        "id": "Machboos",
+        "ms": "Machboos",
+        "ja": "マチブース",
+        "fr": "Machboos"
+      },
+      "fact": {
+        "ar": "تُعرف غالباً بأنها الأكلة الوطنية في قطر.",
+        "en": "Often called the national dish of Qatar.",
+        "tr": "Genellikle Katar ulusal yemeği sayılır.",
+        "de": "Gilt oft als Nationalgericht von Katar.",
+        "ur": "اسے اکثر قطر کا قومی کھانا کہا جاتا ہے۔",
+        "hi": "इसे अक्सर क़तर का राष्ट्रीय व्यंजन कहा जाता है।",
+        "es": "Se le suele llamar el plato nacional de Catar.",
+        "pt": "É muitas vezes chamado o prato nacional do Catar.",
+        "id": "Sering disebut hidangan nasional Qatar.",
+        "ms": "Sering disebut hidangan kebangsaan Qatar.",
+        "ja": "カタールの国民食とよく言われます。",
+        "fr": "Qatar : souvent appelé le plat national."
+      },
+      "shape": "plate",
+      "color": "#E8A03A",
+      "color2": "#8A4A2A",
+      "buff": "strength",
+      "price": 80
+    },
+    {
+      "id": "qatar_thareed",
+      "local": "Thareed",
+      "name": {
+        "ar": "ثريد",
+        "en": "Bread and vegetable stew",
+        "tr": "Thareed",
+        "de": "Thareed",
+        "ur": "ثرید",
+        "hi": "सरीद",
+        "es": "Thareed",
+        "pt": "Thareed",
+        "id": "Thareed",
+        "ms": "Thareed",
+        "ja": "サリード",
+        "fr": "Thareed"
+      },
+      "fact": {
+        "ar": "من أحب أكلات فطور رمضان في قطر.",
+        "en": "A Ramadan iftar favourite in Qatar.",
+        "tr": "Katar için sevilen bir Ramazan iftar yemeği.",
+        "de": "In Katar ein Liebling beim Iftar im Ramadan.",
+        "ur": "قطر میں رمضان کی افطاری کا پسندیدہ کھانا۔",
+        "hi": "क़तर में रमज़ान की इफ़्तारी का पसंदीदा व्यंजन।",
+        "es": "Un favorito del iftar de Ramadán en Catar.",
+        "pt": "Um favorito do iftar do Ramadão no Catar.",
+        "id": "Menu buka puasa Ramadan favorit di Qatar.",
+        "ms": "Hidangan berbuka puasa kegemaran di Qatar.",
+        "ja": "カタールのラマダンのイフタールで人気の料理です。",
+        "fr": "Qatar : un classique de l'iftar du Ramadan."
+      },
+      "shape": "bowl",
+      "color": "#C8553D",
+      "color2": "#D9A050",
+      "buff": "strength",
+      "price": 55
+    },
+    {
+      "id": "qatar_balaleet",
+      "local": "Balaleet",
+      "name": {
+        "ar": "بلاليط",
+        "en": "Sweet vermicelli with egg",
+        "tr": "Balaleet",
+        "de": "Balaleet",
+        "ur": "میٹھی سویاں",
+        "hi": "मीठी सेवइयाँ",
+        "es": "Balaleet",
+        "pt": "Balaleet",
+        "id": "Balaleet",
+        "ms": "Balaleet",
+        "ja": "バラリート",
+        "fr": "Balaleet"
+      },
+      "fact": {
+        "ar": "فطور محبوب في قطر.",
+        "en": "A favourite breakfast in Qatar.",
+        "tr": "Katar için sevilen bir kahvaltı.",
+        "de": "Ein beliebtes Frühstück in Katar.",
+        "ur": "قطر کا پسندیدہ ناشتہ۔",
+        "hi": "क़तर का पसंदीदा नाश्ता।",
+        "es": "Un desayuno favorito en Catar.",
+        "pt": "Um pequeno-almoço favorito no Catar.",
+        "id": "Sarapan favorit di Qatar.",
+        "ms": "Sarapan kegemaran di Qatar.",
+        "ja": "カタールで人気の朝ごはんです。",
+        "fr": "Qatar : un petit-déjeuner très apprécié."
+      },
+      "shape": "bowl",
+      "color": "#F2D06B",
+      "color2": "#F5EEDC",
+      "buff": "speed",
+      "price": 35
+    },
+    {
+      "id": "qatar_luqaimat",
+      "local": "Luqaimat",
+      "name": {
+        "ar": "لقيمات",
+        "en": "Date-syrup dumplings",
+        "tr": "Luqaimat",
+        "de": "Luqaimat",
+        "ur": "لقیمات",
+        "hi": "लुक़ैमात",
+        "es": "Luqaimat",
+        "pt": "Luqaimat",
+        "id": "Luqaimat",
+        "ms": "Luqaimat",
+        "ja": "ルカイマート",
+        "fr": "Luqaimat"
+      },
+      "fact": {
+        "ar": "حلا محبوب في قطر، أحلى مع الشاي أو القهوة.",
+        "en": "A sweet treat in Qatar, best with tea or coffee.",
+        "tr": "Katar için tatlı bir ikram, çay ya da kahveyle en güzeli.",
+        "de": "Eine süße Leckerei in Katar, am besten mit Tee oder Kaffee.",
+        "ur": "قطر کی میٹھی سوغات، چائے یا کافی کے ساتھ مزیدار۔",
+        "hi": "क़तर की मीठी सौगात, चाय या कॉफ़ी के साथ सबसे अच्छी।",
+        "es": "Un dulce de Catar, mejor con té o café.",
+        "pt": "Um doce do Catar, melhor com chá ou café.",
+        "id": "Camilan manis di Qatar, paling enak dengan teh atau kopi.",
+        "ms": "Manisan di Qatar, paling sedap dengan teh atau kopi.",
+        "ja": "カタールの甘いおやつ。お茶やコーヒーと一緒にどうぞ。",
+        "fr": "Qatar : une douceur, parfaite avec un thé ou un café."
+      },
+      "shape": "ball",
+      "color": "#C8803A",
+      "color2": "#6B3A1E",
+      "buff": "energy",
+      "price": 30
+    },
+    {
+      "id": "qatar_madrooba",
+      "local": "Madrooba",
+      "name": {
+        "ar": "مضروبة",
+        "en": "Mashed rice with chicken",
+        "tr": "Madrooba",
+        "de": "Madrooba",
+        "ur": "مضروبہ",
+        "hi": "मदरूबा",
+        "es": "Madrooba",
+        "pt": "Madrooba",
+        "id": "Madrooba",
+        "ms": "Madrooba",
+        "ja": "マドルーバ",
+        "fr": "Madrooba"
+      },
+      "fact": {
+        "ar": "يتشاركونه من صحن كبير مع الأهل والضيوف في قطر.",
+        "en": "Shared from one big plate with family and guests in Qatar.",
+        "tr": "Katar için aile ve misafirlerle büyük bir tabaktan paylaşılır.",
+        "de": "In Katar von einer großen Platte mit Familie und Gästen geteilt.",
+        "ur": "قطر میں گھر والوں اور مہمانوں کے ساتھ ایک بڑی پلیٹ سے کھایا جاتا ہے۔",
+        "hi": "क़तर में परिवार और मेहमानों के साथ एक बड़ी थाली से खाया जाता है।",
+        "es": "Se comparte de una gran fuente con familia e invitados en Catar.",
+        "pt": "Partilha-se de uma grande travessa com família e convidados no Catar.",
+        "id": "Disantap bersama dari satu piring besar dengan keluarga dan tamu di Qatar.",
+        "ms": "Dikongsi dari satu pinggan besar bersama keluarga dan tetamu di Qatar.",
+        "ja": "カタールでは大皿から家族やお客さんと分け合います。",
+        "fr": "Qatar : partagé dans un grand plat avec la famille et les invités."
+      },
+      "shape": "bowl",
+      "color": "#F2D06B",
+      "color2": "#C8803A",
+      "buff": "strength",
+      "price": 60
+    }
+  ],
+  "animals": [
+    "qatar_falcon",
+    "qatar_oryx",
+    "qatar_camel"
+  ],
+  "attackTrailVfx": "sand_swirl",
+  "eatIdle": {
+    "dishId": "qatar_machboos",
+    "propModel": "food_machboos",
+    "reaction": "yum"
+  }
+}

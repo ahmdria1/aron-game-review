@@ -1,0 +1,97 @@
+{
+  "country": "lebanon",
+  "costumes": [
+    {
+      "id": "lebanon_sherwal",
+      "country": "lebanon",
+      "hero": "aron",
+      "nameAr": "الشروال والعباية اللبنانية",
+      "nameEn": "Lebanese sherwal and aba",
+      "isDefault": true,
+      "price": 0,
+      "materials": [
+        {
+          "material": "Clothes",
+          "color": "#25303B"
+        }
+      ],
+      "meshes": [
+        {
+          "slot": "body",
+          "mesh": "sherwal"
+        },
+        {
+          "slot": "feet",
+          "mesh": "shoes_closed"
+        }
+      ],
+      "accessories": [
+        {
+          "kind": "vest",
+          "color": "#2A2622",
+          "pattern": "#D1B07A"
+        },
+        {
+          "kind": "sash",
+          "color": "#A0302A"
+        },
+        {
+          "kind": "bisht",
+          "color": "#6A5136",
+          "pattern": "#D1B07A"
+        },
+        {
+          "kind": "fez",
+          "color": "#A3242C",
+          "pattern": "#151515"
+        }
+      ],
+      "footwear": "leather_shoes",
+      "footwearColor": "#5A3A22",
+      "agalMount": "wrist"
+    },
+    {
+      "id": "lebanon_noura",
+      "country": "lebanon",
+      "hero": "noura",
+      "nameAr": "العباية اللبنانية",
+      "nameEn": "Lebanese abaya",
+      "isDefault": true,
+      "price": 0,
+      "materials": [
+        {
+          "material": "Clothes",
+          "color": "#1A1A20"
+        }
+      ],
+      "meshes": [
+        {
+          "slot": "body",
+          "mesh": "abaya_long"
+        },
+        {
+          "slot": "feet",
+          "mesh": "shoes_closed"
+        }
+      ],
+      "accessories": [
+        {
+          "kind": "abaya",
+          "color": "#1A1A20",
+          "pattern": "#1F7A4D"
+        },
+        {
+          "kind": "hijab",
+          "color": "#3A3A44"
+        },
+        {
+          "kind": "embroidery",
+          "color": "#1F7A4D"
+        }
+      ],
+      "footwear": "closed_flats",
+      "footwearColor": "#2A2020",
+      "agalMount": "none"
+    }
+  ]
+}

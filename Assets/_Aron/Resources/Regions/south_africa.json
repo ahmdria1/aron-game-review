@@ -1,0 +1,232 @@
+{
+  "order": 460,
+  "id": "south_africa",
+  "nameAr": "جنوب أفريقيا",
+  "nameEn": "South Africa",
+  "group": "world",
+  "music": "music_country_south_africa",
+  "ground": "#C8A060",
+  "accent": "#007A4D",
+  "sky": "#9ED0F0",
+  "country": "south_africa",
+  "costume": "",
+  "stages": [
+    {
+      "id": "south_africa_1",
+      "nameAr": "الجبل المسطح",
+      "nameEn": "The Flat Mountain",
+      "terrain": "mountain",
+      "landmarks": [
+        "flat_mountain",
+        "sea_cliffs"
+      ],
+      "mount": "",
+      "difficulty": 3,
+      "boss": false,
+      "lineAr": "جبل مثل الطاولة فوق المدينة!",
+      "extra": "",
+      "time": "day",
+      "weather": "clear",
+      "type": "normal",
+      "costume": ""
+    },
+    {
+      "id": "south_africa_2",
+      "nameAr": "سوق البلدة",
+      "nameEn": "Township Market",
+      "terrain": "souq",
+      "landmarks": [
+        "township_market",
+        "colour_plaza"
+      ],
+      "mount": "",
+      "difficulty": 4,
+      "boss": false,
+      "lineAr": "موسيقى وألوان وريحة شوي.",
+      "extra": "",
+      "time": "sunset",
+      "weather": "clear",
+      "type": "chase",
+      "costume": ""
+    },
+    {
+      "id": "south_africa_3",
+      "nameAr": "السافانا",
+      "nameEn": "The Savanna",
+      "terrain": "desert",
+      "landmarks": [
+        "savanna",
+        "acacia"
+      ],
+      "mount": "horse",
+      "difficulty": 5,
+      "boss": false,
+      "lineAr": "شوف الزرافات! يلا يا خيل!",
+      "extra": "",
+      "time": "day",
+      "weather": "clear",
+      "type": "action",
+      "costume": ""
+    },
+    {
+      "id": "south_africa_4",
+      "nameAr": "جبال التنين",
+      "nameEn": "Dragon Mountains",
+      "terrain": "mountain",
+      "landmarks": [
+        "drakensberg",
+        "lake"
+      ],
+      "mount": "horse",
+      "difficulty": 6,
+      "boss": false,
+      "lineAr": "جبال عالية وشلالات.",
+      "extra": "",
+      "time": "day",
+      "weather": "rain",
+      "type": "normal",
+      "costume": ""
+    },
+    {
+      "id": "south_africa_5",
+      "nameAr": "رأس الرياح",
+      "nameEn": "Cape of Winds",
+      "terrain": "coast",
+      "landmarks": [
+        "sea_tower",
+        "sea_cliffs"
+      ],
+      "mount": "",
+      "difficulty": 7,
+      "boss": false,
+      "lineAr": "البطاريق على الشاطئ!",
+      "extra": "",
+      "time": "sunset",
+      "weather": "rain",
+      "type": "normal",
+      "costume": ""
+    },
+    {
+      "id": "south_africa_6",
+      "nameAr": "بيوت مرسومة",
+      "nameEn": "Painted Homesteads",
+      "terrain": "oasis",
+      "landmarks": [
+        "painted_houses",
+        "acacia"
+      ],
+      "mount": "",
+      "difficulty": 8,
+      "boss": false,
+      "lineAr": "بيوت مرسومة بأشكال هندسية.",
+      "extra": "",
+      "time": "night",
+      "weather": "clear",
+      "type": "chase",
+      "costume": ""
+    },
+    {
+      "id": "south_africa_race",
+      "nameAr": "سباق النعام",
+      "nameEn": "Ostrich Race",
+      "terrain": "desert",
+      "landmarks": [
+        "savanna",
+        "acacia"
+      ],
+      "mount": "",
+      "difficulty": 8,
+      "boss": false,
+      "lineAr": "سباق! سباق النعام، يلا نشوف مين الأول!",
+      "extra": "",
+      "time": "sunset",
+      "weather": "clear",
+      "type": "race",
+      "costume": "",
+      "race": "south_africa_ostrich"
+    },
+    {
+      "id": "south_africa_7",
+      "nameAr": "صخرة السافانا",
+      "nameEn": "Savanna Rock",
+      "terrain": "desert",
+      "landmarks": [
+        "savanna",
+        "flat_mountain"
+      ],
+      "mount": "",
+      "difficulty": 10,
+      "boss": true,
+      "lineAr": "ملك السافانا ينقض من الصخرة!",
+      "extra": "",
+      "time": "night",
+      "weather": "clear",
+      "type": "boss",
+      "costume": ""
+    }
+  ],
+  "skyline": [],
+  "boss": {
+    "nameAr": "ملك السافانا",
+    "nameEn": "The Savanna King",
+    "model": "eagle",
+    "headgear": "crown",
+    "body": "#8A5A2A",
+    "trim": "#007A4D",
+    "projectile": "#FFB612",
+    "scale": 1.32,
+    "health": 19,
+    "introAr": "السافانا كلها مملكتي!",
+    "stunAr": "ريشي طار!",
+    "defeatAr": "تمام... جنوب أفريقيا لك.",
+    "phases": [
+      {
+        "threshold": 1.0,
+        "move": 4.0,
+        "charge": 14.0,
+        "interval": 2.8,
+        "attacks": [
+          "summon",
+          "volley"
+        ],
+        "tauntAr": "انقضاض!"
+      },
+      {
+        "threshold": 0.75,
+        "move": 4.6,
+        "charge": 15.5,
+        "interval": 2.4,
+        "attacks": [
+          "charge",
+          "volley",
+          "leap"
+        ],
+        "tauntAr": "ريح السافانا!"
+      },
+      {
+        "threshold": 0.5,
+        "move": 5.2,
+        "charge": 17.0,
+        "interval": 2.0,
+        "attacks": [
+          "charge",
+          "wave",
+          "leap"
+        ],
+        "tauntAr": "من فوق ما تشوفني!"
+      },
+      {
+        "threshold": 0.25,
+        "move": 5.8,
+        "charge": 18.5,
+        "interval": 1.6,
+        "attacks": [
+          "summon",
+          "leap",
+          "dash"
+        ],
+        "tauntAr": "كل السما!"
+      }
+    ]
+  }
+}

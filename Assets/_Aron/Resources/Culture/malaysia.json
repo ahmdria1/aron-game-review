@@ -1,0 +1,262 @@
+{
+  "country": "malaysia",
+  "dialect": "ms",
+  "uiLanguage": "ms",
+  "greeting": {
+    "words": "Assalamualaikum, selamat datang",
+    "wordsEn": "Peace be upon you, welcome",
+    "wordsAr": "السلام عليكم، أهلاً وسهلاً",
+    "gesture": "hand_to_heart_shake"
+  },
+  "hospitality": {
+    "ar": "في ماليزيا أول شي يُقدَّم للضيف كاسة شاي.",
+    "en": "In Malaysia, the first thing a guest gets is a glass of tea.",
+    "tr": "Malezya misafire ilk olarak bir bardak çay ikram eder.",
+    "de": "In Malaysia bekommt ein Gast zuerst ein Glas Tee.",
+    "ur": "ملائیشیا میں مہمان کو سب سے پہلے چائے پیش کی جاتی ہے۔",
+    "hi": "मलेशिया में मेहमान को सबसे पहले चाय दी जाती है।",
+    "es": "En Malasia, lo primero que recibe un invitado es un vaso de té.",
+    "pt": "Na Malásia, a primeira coisa que um convidado recebe é um copo de chá.",
+    "id": "Di Malaysia, tamu pertama-tama disuguhi segelas teh.",
+    "ms": "Di Malaysia, tetamu mula-mula dihidangkan segelas teh.",
+    "ja": "マレーシアではお客さんにまずお茶を一杯出します。",
+    "fr": "Malaisie : la première chose qu'on offre à un invité, c'est un verre de thé."
+  },
+  "customs": [
+    {
+      "act": "pour_tea",
+      "en": "Teh tarik is pulled high between two cups.",
+      "ar": "الشاي المسحوب ينصب من فوق بين كاستين."
+    },
+    {
+      "act": "invite_in",
+      "en": "On Hari Raya every house is open to visitors.",
+      "ar": "في العيد كل البيوت مفتوحة للزوار."
+    }
+  ],
+  "architecture": "Wooden stilt houses, tall city towers, rainforest and island beaches.",
+  "palette": [
+    "#010066",
+    "#CC0001",
+    "#FFCC00",
+    "#2E8B57"
+  ],
+  "music": {
+    "style": "Joget and kompang",
+    "instruments": [
+      "kompang",
+      "gambus",
+      "rebab"
+    ]
+  },
+  "street": {
+    "vendors": [
+      "satay grill",
+      "teh tarik stall"
+    ],
+    "cafe": "mamak stall",
+    "kidsGames": [
+      "sepak takraw",
+      "congkak"
+    ],
+    "crowd": "night markets, many languages"
+  },
+  "foods": [
+    {
+      "id": "malaysia_nasi_lemak",
+      "local": "Nasi lemak",
+      "name": {
+        "ar": "ناسي ليماك",
+        "en": "Coconut rice with sambal",
+        "tr": "Nasi lemak",
+        "de": "Nasi lemak",
+        "ur": "ناریل والے چاول",
+        "hi": "नारियल वाले चावल",
+        "es": "Nasi lemak",
+        "pt": "Nasi lemak",
+        "id": "Nasi lemak",
+        "ms": "Nasi lemak",
+        "ja": "ナシレマ",
+        "fr": "Nasi lemak"
+      },
+      "fact": {
+        "ar": "تُعرف غالباً بأنها الأكلة الوطنية في ماليزيا.",
+        "en": "Often called the national dish of Malaysia.",
+        "tr": "Genellikle Malezya ulusal yemeği sayılır.",
+        "de": "Gilt oft als Nationalgericht von Malaysia.",
+        "ur": "اسے اکثر ملائیشیا کا قومی کھانا کہا جاتا ہے۔",
+        "hi": "इसे अक्सर मलेशिया का राष्ट्रीय व्यंजन कहा जाता है।",
+        "es": "Se le suele llamar el plato nacional de Malasia.",
+        "pt": "É muitas vezes chamado o prato nacional da Malásia.",
+        "id": "Sering disebut hidangan nasional Malaysia.",
+        "ms": "Sering disebut hidangan kebangsaan Malaysia.",
+        "ja": "マレーシアの国民食とよく言われます。",
+        "fr": "Malaisie : souvent appelé le plat national."
+      },
+      "shape": "plate",
+      "color": "#F5EEDC",
+      "color2": "#C8102E",
+      "buff": "strength",
+      "price": 60
+    },
+    {
+      "id": "malaysia_satay",
+      "local": "Satay",
+      "name": {
+        "ar": "ساتيه",
+        "en": "Grilled skewers with peanut sauce",
+        "tr": "Satay",
+        "de": "Satay",
+        "ur": "ساتے",
+        "hi": "सटे",
+        "es": "Satay",
+        "pt": "Satay",
+        "id": "Satay",
+        "ms": "Satay",
+        "ja": "サテ",
+        "fr": "Satay"
+      },
+      "fact": {
+        "ar": "يُباع حاراً في بسطات الشوارع في كل ماليزيا.",
+        "en": "Sold hot at street stalls all over Malaysia.",
+        "tr": "Malezya genelinde sokak tezgâhlarında sıcak satılır.",
+        "de": "Überall in Malaysia heiß an Straßenständen verkauft.",
+        "ur": "پورے ملائیشیا میں ٹھیلوں پر گرم گرم بکتا ہے۔",
+        "hi": "पूरे मलेशिया में ठेलों पर गरमा-गरम बिकता है।",
+        "es": "Se vende caliente en puestos callejeros por todo el territorio de Malasia.",
+        "pt": "Vende-se quente em bancas de rua em toda a Malásia.",
+        "id": "Dijual hangat di kaki lima di seluruh Malaysia.",
+        "ms": "Dijual panas di gerai tepi jalan di seluruh Malaysia.",
+        "ja": "マレーシアのあちこちの屋台で熱々で売られています。",
+        "fr": "Malaisie : vendu tout chaud dans les stands de rue."
+      },
+      "shape": "skewer",
+      "color": "#8A4A1E",
+      "color2": "#E0A64A",
+      "buff": "strength",
+      "price": 50
+    },
+    {
+      "id": "malaysia_roti_canai",
+      "local": "Roti canai",
+      "name": {
+        "ar": "روتي جاناي",
+        "en": "Flaky flatbread",
+        "tr": "Roti canai",
+        "de": "Roti canai",
+        "ur": "روٹی چنائی",
+        "hi": "रोटी चनाई",
+        "es": "Roti canai",
+        "pt": "Roti canai",
+        "id": "Roti canai",
+        "ms": "Roti canai",
+        "ja": "ロティ・チャナイ",
+        "fr": "Roti canai"
+      },
+      "fact": {
+        "ar": "فطور محبوب في ماليزيا.",
+        "en": "A favourite breakfast in Malaysia.",
+        "tr": "Malezya için sevilen bir kahvaltı.",
+        "de": "Ein beliebtes Frühstück in Malaysia.",
+        "ur": "ملائیشیا کا پسندیدہ ناشتہ۔",
+        "hi": "मलेशिया का पसंदीदा नाश्ता।",
+        "es": "Un desayuno favorito en Malasia.",
+        "pt": "Um pequeno-almoço favorito na Malásia.",
+        "id": "Sarapan favorit di Malaysia.",
+        "ms": "Sarapan kegemaran di Malaysia.",
+        "ja": "マレーシアで人気の朝ごはんです。",
+        "fr": "Malaisie : un petit-déjeuner très apprécié."
+      },
+      "shape": "plate",
+      "color": "#E0B070",
+      "color2": "#8A5A2A",
+      "buff": "energy",
+      "price": 30
+    },
+    {
+      "id": "malaysia_teh_tarik",
+      "local": "Teh tarik",
+      "name": {
+        "ar": "الشاي المسحوب",
+        "en": "Pulled milk tea",
+        "tr": "Teh tarik",
+        "de": "Teh tarik",
+        "ur": "کھینچی ہوئی چائے",
+        "hi": "खींची हुई चाय",
+        "es": "Teh tarik",
+        "pt": "Teh tarik",
+        "id": "Teh tarik",
+        "ms": "Teh tarik",
+        "ja": "テ・タリ",
+        "fr": "Teh tarik"
+      },
+      "fact": {
+        "ar": "مشروب يُقدَّم للضيف في ماليزيا.",
+        "en": "A drink offered to guests in Malaysia.",
+        "tr": "Malezya için misafire ikram edilen bir içecek.",
+        "de": "Ein Getränk, das man in Malaysia Gästen anbietet.",
+        "ur": "ملائیشیا میں مہمان کو پیش کیا جانے والا مشروب۔",
+        "hi": "मलेशिया में मेहमान को दिया जाने वाला पेय।",
+        "es": "Una bebida que se ofrece a los invitados en Malasia.",
+        "pt": "Uma bebida oferecida aos convidados na Malásia.",
+        "id": "Minuman yang disuguhkan untuk tamu di Malaysia.",
+        "ms": "Minuman yang dihidangkan kepada tetamu di Malaysia.",
+        "ja": "マレーシアでお客さんに出される飲み物です。",
+        "fr": "Malaisie : une boisson offerte aux invités."
+      },
+      "shape": "cup",
+      "color": "#C89A6A",
+      "color2": "#F5EEDC",
+      "buff": "speed",
+      "price": 25
+    },
+    {
+      "id": "malaysia_kuih",
+      "local": "Kuih lapis",
+      "name": {
+        "ar": "كعك الطبقات",
+        "en": "Layered sweet cake",
+        "tr": "Kuih lapis",
+        "de": "Kuih lapis",
+        "ur": "تہہ دار کیک",
+        "hi": "परतों वाला केक",
+        "es": "Kuih lapis",
+        "pt": "Kuih lapis",
+        "id": "Kuih lapis",
+        "ms": "Kuih lapis",
+        "ja": "クエ・ラピス",
+        "fr": "Kuih lapis"
+      },
+      "fact": {
+        "ar": "حلا محبوب في ماليزيا، أحلى مع الشاي أو القهوة.",
+        "en": "A sweet treat in Malaysia, best with tea or coffee.",
+        "tr": "Malezya için tatlı bir ikram, çay ya da kahveyle en güzeli.",
+        "de": "Eine süße Leckerei in Malaysia, am besten mit Tee oder Kaffee.",
+        "ur": "ملائیشیا کی میٹھی سوغات، چائے یا کافی کے ساتھ مزیدار۔",
+        "hi": "मलेशिया की मीठी सौगात, चाय या कॉफ़ी के साथ सबसे अच्छी।",
+        "es": "Un dulce de Malasia, mejor con té o café.",
+        "pt": "Um doce da Malásia, melhor com chá ou café.",
+        "id": "Camilan manis di Malaysia, paling enak dengan teh atau kopi.",
+        "ms": "Manisan di Malaysia, paling sedap dengan teh atau kopi.",
+        "ja": "マレーシアの甘いおやつ。お茶やコーヒーと一緒にどうぞ。",
+        "fr": "Malaisie : une douceur, parfaite avec un thé ou un café."
+      },
+      "shape": "cake",
+      "color": "#F2A6C0",
+      "color2": "#2E8B57",
+      "buff": "energy",
+      "price": 30
+    }
+  ],
+  "animals": [
+    "malaysia_hornbill",
+    "malaysia_orangutan",
+    "malaysia_tapir"
+  ],
+  "attackTrailVfx": "bougainvillea",
+  "eatIdle": {
+    "dishId": "malaysia_nasi_lemak",
+    "propModel": "food_nasi_lemak",
+    "reaction": "spicy"
+  }
+}

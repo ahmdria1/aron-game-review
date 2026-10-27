@@ -1,0 +1,24 @@
+{
+    "name": "Aron.Store.Iap",
+    "rootNamespace": "Aron.Store",
+    "references": [
+        "Aron.Runtime",
+        "Aron.Logic",
+        "Unity.Purchasing"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "autoReferenced": false,
+    "defineConstraints": [
+        "ARON_IAP"
+    ],
+    "versionDefines": [
+        {
+            "name": "com.unity.purchasing",
+            "expression": "5.0.0",
+            "define": "ARON_IAP"
+        }
+    ],
+    "noEngineReferences": false
+}

@@ -1,0 +1,15 @@
+{
+  "region": "uzbekistan",
+  "shops": [
+    {
+      "stage": "uzbekistan_3",
+      "nameAr": "حرير طريق الحرير",
+      "kind": "fabric"
+    },
+    {
+      "stage": "uzbekistan_1",
+      "nameAr": "خبز النون",
+      "kind": "bakery"
+    }
+  ]
+}

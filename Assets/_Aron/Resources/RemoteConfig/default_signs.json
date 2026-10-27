@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "signs": [
+    { "id": "shop_1", "textAr": "شاورما الديرة", "imageUrl": "", "colorHex": "#B71C1C" },
+    { "id": "shop_2", "textAr": "بقالة أبو فهد", "imageUrl": "", "colorHex": "#2E7D32" },
+    { "id": "shop_3", "textAr": "دهن العود والبخور", "imageUrl": "", "colorHex": "#4A148C" },
+    { "id": "shop_4", "textAr": "قهوة المجلس", "imageUrl": "", "colorHex": "#6D4C41" },
+    { "id": "shop_5", "textAr": "تمور القصيم", "imageUrl": "", "colorHex": "#8D5524" },
+    { "id": "shop_6", "textAr": "عطارة الديرة", "imageUrl": "", "colorHex": "#E65100" }
+  ]
+}

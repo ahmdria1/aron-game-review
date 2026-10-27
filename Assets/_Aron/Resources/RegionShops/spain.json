@@ -1,0 +1,15 @@
+{
+  "region": "spain",
+  "shops": [
+    {
+      "stage": "spain_4",
+      "nameAr": "تشوروس الساحة",
+      "kind": "bakery"
+    },
+    {
+      "stage": "spain_2",
+      "nameAr": "مراوح الأندلس",
+      "kind": "gifts"
+    }
+  ]
+}

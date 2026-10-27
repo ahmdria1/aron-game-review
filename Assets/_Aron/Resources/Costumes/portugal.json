@@ -1,0 +1,99 @@
+{
+  "country": "portugal",
+  "costumes": [
+    {
+      "id": "portugal_traditional",
+      "country": "portugal",
+      "hero": "aron",
+      "nameAr": "قميص الصياد",
+      "nameEn": "Fisherman's shirt",
+      "isDefault": true,
+      "price": 0,
+      "materials": [
+        {
+          "material": "Clothes",
+          "color": "#F4F0E8"
+        },
+        {
+          "material": "Trim",
+          "color": "#C9A86A"
+        }
+      ],
+      "meshes": [
+        {
+          "slot": "feet",
+          "mesh": "shoes_closed"
+        }
+      ],
+      "accessories": [
+        {
+          "kind": "shirt",
+          "color": "#2C5FA8",
+          "pattern": "#FFFFFF"
+        },
+        {
+          "kind": "fisherman_cap",
+          "color": "#2A2A3A"
+        },
+        {
+          "kind": "belt",
+          "color": "#5A3A22"
+        }
+      ],
+      "footwear": "leather_shoes",
+      "footwearColor": "#5A3A22",
+      "agalMount": "wrist",
+      "boredIdle": {
+        "id": "portugal_tile_spotting",
+        "trigger": 21,
+        "noteEn": "Traces a blue tile pattern on a wall",
+        "lineAr": "كل بلاطة لها رسمة!",
+        "seconds": 3.5
+      }
+    },
+    {
+      "id": "portugal_noura",
+      "country": "portugal",
+      "hero": "noura",
+      "nameAr": "العباية والشال المطرز",
+      "nameEn": "Abaya and embroidered shawl",
+      "isDefault": true,
+      "price": 0,
+      "materials": [
+        {
+          "material": "Clothes",
+          "color": "#1F4E9A"
+        }
+      ],
+      "meshes": [
+        {
+          "slot": "body",
+          "mesh": "abaya_long"
+        },
+        {
+          "slot": "feet",
+          "mesh": "shoes_closed"
+        }
+      ],
+      "accessories": [
+        {
+          "kind": "abaya",
+          "color": "#1F4E9A",
+          "pattern": "#C9A86A"
+        },
+        {
+          "kind": "hijab",
+          "color": "#F4F0E8"
+        },
+        {
+          "kind": "shawl",
+          "color": "#F2C14E",
+          "pattern": "#1F4E9A"
+        }
+      ],
+      "footwear": "closed_flats",
+      "footwearColor": "#2A2020",
+      "agalMount": "none"
+    }
+  ]
+}

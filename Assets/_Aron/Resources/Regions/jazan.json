@@ -1,0 +1,167 @@
+{
+  "order": 145,
+  "id": "jazan",
+  "nameAr": "منطقة جازان",
+  "nameEn": "Jazan Region",
+  "group": "saudi",
+  "country": "saudi",
+  "costume": "saudi_south",
+  "music": "music_saudi_south",
+  "ground": "#CDB78E",
+  "accent": "#0E7A6E",
+  "sky": "#8CC6E4",
+  "stages": [
+    {
+      "id": "jazan_1",
+      "nameAr": "قلعة الدوسرية",
+      "nameEn": "Al Dawsariyah Fort",
+      "terrain": "ruins",
+      "landmarks": [
+        "fort",
+        "palms"
+      ],
+      "mount": "",
+      "difficulty": 3,
+      "boss": false,
+      "type": "normal",
+      "time": "sunset",
+      "weather": "clear",
+      "costume": "",
+      "lineAr": "الدوسرية فوق التل.",
+      "extra": ""
+    },
+    {
+      "id": "jazan_2",
+      "nameAr": "كورنيش جازان",
+      "nameEn": "Jazan Corniche",
+      "terrain": "coast",
+      "landmarks": [
+        "dhows",
+        "palms"
+      ],
+      "mount": "",
+      "difficulty": 3,
+      "boss": false,
+      "type": "action",
+      "time": "night",
+      "weather": "clear",
+      "costume": "",
+      "lineAr": "كورنيش جازان، مانجو وفل!",
+      "extra": ""
+    },
+    {
+      "id": "jazan_3",
+      "nameAr": "جزر فرسان",
+      "nameEn": "Farasan Islands",
+      "terrain": "coast",
+      "landmarks": [
+        "palms",
+        "dhows"
+      ],
+      "mount": "",
+      "difficulty": 4,
+      "boss": false,
+      "type": "normal",
+      "time": "day",
+      "weather": "rain",
+      "costume": "",
+      "lineAr": "فرسان، غزلان وبحر.",
+      "extra": ""
+    },
+    {
+      "id": "jazan_4",
+      "nameAr": "جبال فيفاء",
+      "nameEn": "Faifa Mountains",
+      "terrain": "mountain",
+      "landmarks": [
+        "terraces",
+        "tower_houses"
+      ],
+      "mount": "",
+      "difficulty": 4,
+      "boss": false,
+      "type": "chase",
+      "time": "sunset",
+      "weather": "rain",
+      "costume": "",
+      "lineAr": "فيفاء، مدرجات خضرا.",
+      "extra": ""
+    },
+    {
+      "id": "jazan_5",
+      "nameAr": "سوق الداير",
+      "nameEn": "Ad Dayer Market",
+      "terrain": "souq",
+      "landmarks": [
+        "souq",
+        "terraces"
+      ],
+      "mount": "",
+      "difficulty": 5,
+      "boss": false,
+      "type": "normal",
+      "time": "night",
+      "weather": "clear",
+      "costume": "",
+      "lineAr": "سوق الداير، بن جبلي.",
+      "extra": ""
+    },
+    {
+      "id": "jazan_6",
+      "nameAr": "ساحة ملك المرجان",
+      "nameEn": "King of Coral",
+      "terrain": "coast",
+      "landmarks": [
+        "dhows"
+      ],
+      "mount": "",
+      "difficulty": 5,
+      "boss": true,
+      "type": "boss",
+      "time": "night",
+      "weather": "rain",
+      "costume": "",
+      "lineAr": "ملك المرجان طلع من البحر!",
+      "extra": ""
+    }
+  ],
+  "boss": {
+    "nameAr": "ملك المرجان",
+    "nameEn": "King of Coral",
+    "model": "crab",
+    "headgear": "crown",
+    "body": "#E06A4A",
+    "trim": "#F2E6D0",
+    "projectile": "#FF7A5A",
+    "scale": 1.2,
+    "health": 11,
+    "introAr": "المرجان أقوى من الحجر!",
+    "stunAr": "آخ! راسي...",
+    "defeatAr": "رجعت للبحر...",
+    "phases": [
+      {
+        "threshold": 1.0,
+        "move": 3,
+        "charge": 10,
+        "interval": 2.8,
+        "attacks": [
+          "volley",
+          "wave"
+        ],
+        "tauntAr": "شظايا مرجان!"
+      },
+      {
+        "threshold": 0.5,
+        "move": 3.5,
+        "charge": 12,
+        "interval": 2.3,
+        "attacks": [
+          "volley",
+          "wave",
+          "summon"
+        ],
+        "tauntAr": "يا سرطانات!"
+      }
+    ]
+  }
+}

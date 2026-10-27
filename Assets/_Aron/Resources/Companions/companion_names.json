@@ -1,0 +1,8 @@
+{
+  "companions": [
+    { "id": "aron_falcon", "species": "falcon", "owner": "aron", "namePending": true },
+    { "id": "noura_oryx", "species": "oryx", "owner": "noura", "namePending": false },
+    { "id": "aron_camel", "species": "camel", "owner": "aron", "namePending": true },
+    { "id": "aron_horse", "species": "horse", "owner": "aron", "namePending": true }
+  ]
+}

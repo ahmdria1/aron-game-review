@@ -1,0 +1,221 @@
+{
+  "order": 404,
+  "id": "spain",
+  "nameAr": "إسبانيا",
+  "nameEn": "Spain",
+  "group": "world",
+  "music": "music_country_spain",
+  "ground": "#D8A86A",
+  "accent": "#C60B1E",
+  "sky": "#9DCBF0",
+  "country": "spain",
+  "costume": "",
+  "stages": [
+    {
+      "id": "spain_1",
+      "nameAr": "القرى البيضاء",
+      "nameEn": "White Villages",
+      "terrain": "mountain",
+      "landmarks": [
+        "white_village",
+        "mountains"
+      ],
+      "mount": "",
+      "difficulty": 3,
+      "boss": false,
+      "lineAr": "البيوت بيضاء والشوارع طالعة نازلة.",
+      "extra": "",
+      "time": "day",
+      "weather": "clear",
+      "type": "normal",
+      "costume": ""
+    },
+    {
+      "id": "spain_2",
+      "nameAr": "أقواس القصر",
+      "nameEn": "Palace Arches",
+      "terrain": "ruins",
+      "landmarks": [
+        "palace_arches",
+        "fountain"
+      ],
+      "mount": "",
+      "difficulty": 4,
+      "boss": false,
+      "lineAr": "أقواس ونوافير وريحة زهر البرتقال.",
+      "extra": "",
+      "time": "sunset",
+      "weather": "clear",
+      "type": "normal",
+      "costume": ""
+    },
+    {
+      "id": "spain_3",
+      "nameAr": "طواحين لا مانشا",
+      "nameEn": "La Mancha Windmills",
+      "terrain": "desert",
+      "landmarks": [
+        "windmills",
+        "lone_tree"
+      ],
+      "mount": "horse",
+      "difficulty": 5,
+      "boss": false,
+      "lineAr": "الطواحين تلف والريح قوية!",
+      "extra": "",
+      "time": "day",
+      "weather": "sandstorm",
+      "type": "action",
+      "costume": ""
+    },
+    {
+      "id": "spain_4",
+      "nameAr": "ساحة المدينة",
+      "nameEn": "The Big Plaza",
+      "terrain": "street",
+      "landmarks": [
+        "colour_plaza",
+        "fountain"
+      ],
+      "mount": "",
+      "difficulty": 6,
+      "boss": false,
+      "lineAr": "الساحة مليانة ناس وموسيقى.",
+      "extra": "",
+      "time": "night",
+      "weather": "clear",
+      "type": "normal",
+      "costume": ""
+    },
+    {
+      "id": "spain_5",
+      "nameAr": "حقول الزيتون",
+      "nameEn": "Olive Groves",
+      "terrain": "oasis",
+      "landmarks": [
+        "lone_tree",
+        "white_village"
+      ],
+      "mount": "horse",
+      "difficulty": 7,
+      "boss": false,
+      "lineAr": "صفوف الزيتون لين آخر النظر.",
+      "extra": "",
+      "time": "sunset",
+      "weather": "clear",
+      "type": "chase",
+      "costume": ""
+    },
+    {
+      "id": "spain_6",
+      "nameAr": "ميناء الجنوب",
+      "nameEn": "Southern Harbour",
+      "terrain": "coast",
+      "landmarks": [
+        "dhows",
+        "big_arch"
+      ],
+      "mount": "",
+      "difficulty": 8,
+      "boss": false,
+      "lineAr": "القوارب والمطر على الميناء.",
+      "extra": "",
+      "time": "day",
+      "weather": "rain",
+      "type": "chase",
+      "costume": ""
+    },
+    {
+      "id": "spain_race",
+      "nameAr": "سباق الخيل الأندلسي",
+      "nameEn": "Andalusian Horse Race",
+      "terrain": "desert",
+      "landmarks": [
+        "white_village",
+        "lone_tree"
+      ],
+      "mount": "",
+      "difficulty": 8,
+      "boss": false,
+      "lineAr": "سباق! سباق الخيل الأندلسي، يلا نشوف مين الأول!",
+      "extra": "",
+      "time": "sunset",
+      "weather": "clear",
+      "type": "race",
+      "costume": "",
+      "race": "spain_horse"
+    },
+    {
+      "id": "spain_7",
+      "nameAr": "تلة الطواحين",
+      "nameEn": "Windmill Ridge",
+      "terrain": "mountain",
+      "landmarks": [
+        "windmills",
+        "fort"
+      ],
+      "mount": "",
+      "difficulty": 10,
+      "boss": true,
+      "lineAr": "فارس الطواحين ينتظرك فوق التلة!",
+      "extra": "",
+      "time": "night",
+      "weather": "clear",
+      "type": "boss",
+      "costume": ""
+    }
+  ],
+  "skyline": [],
+  "boss": {
+    "nameAr": "فارس الطواحين",
+    "nameEn": "The Windmill Knight",
+    "model": "soldier",
+    "headgear": "helmet",
+    "body": "#7A7F87",
+    "trim": "#C60B1E",
+    "projectile": "#F1BF00",
+    "scale": 1.24,
+    "health": 14,
+    "introAr": "الطواحين جيشي!",
+    "stunAr": "الدنيا تلف فيني!",
+    "defeatAr": "تمام... إسبانيا لك.",
+    "phases": [
+      {
+        "threshold": 1.0,
+        "move": 4.0,
+        "charge": 14.0,
+        "interval": 2.8,
+        "attacks": [
+          "wave",
+          "summon",
+          "volley"
+        ],
+        "tauntAr": "لف يا طاحون!"
+      },
+      {
+        "threshold": 0.66,
+        "move": 4.6,
+        "charge": 15.5,
+        "interval": 2.4,
+        "attacks": [
+          "volley",
+          "leap",
+          "dash"
+        ],
+        "tauntAr": "سيفي جاهز!"
+      },
+      {
+        "threshold": 0.33,
+        "move": 5.2,
+        "charge": 17.0,
+        "interval": 2.0,
+        "attacks": [
+          "wave",
+          "summon",
+          "dash"
+        ],
+        "tauntAr": "ما فيه هروب!"
+      }
+    ]
+  }
+}

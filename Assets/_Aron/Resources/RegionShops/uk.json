@@ -1,0 +1,15 @@
+{
+  "region": "uk",
+  "shops": [
+    {
+      "stage": "uk_1",
+      "nameAr": "شاي الساعة الخامسة",
+      "kind": "tea"
+    },
+    {
+      "stage": "uk_6",
+      "nameAr": "سمك وبطاطس الرصيف",
+      "kind": "food"
+    }
+  ]
+}

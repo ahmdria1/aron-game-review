@@ -1,0 +1,262 @@
+{
+  "country": "bahrain",
+  "dialect": "bahraini",
+  "uiLanguage": "ar",
+  "greeting": {
+    "words": "هلا ومرحبا",
+    "wordsEn": "Hello and welcome",
+    "wordsAr": "هلا ومرحبا",
+    "gesture": "hand_on_chest"
+  },
+  "hospitality": {
+    "ar": "في البحرين يُستقبل الضيف بالقهوة والتمر.",
+    "en": "In Bahrain, guests are welcomed with coffee and dates.",
+    "tr": "Bahreyn misafirleri kahve ve hurmayla karşılar.",
+    "de": "In Bahrain empfängt man Gäste mit Kaffee und Datteln.",
+    "ur": "بحرین میں مہمان کا استقبال قہوے اور کھجور سے ہوتا ہے۔",
+    "hi": "बहरीन में मेहमान का स्वागत क़हवा और खजूर से होता है।",
+    "es": "En Baréin se recibe a los invitados con café y dátiles.",
+    "pt": "No Barém recebem-se os convidados com café e tâmaras.",
+    "id": "Di Bahrain, tamu disambut dengan kopi dan kurma.",
+    "ms": "Di Bahrain, tetamu disambut dengan kopi dan kurma.",
+    "ja": "バーレーンではお客さんをコーヒーとデーツでもてなします。",
+    "fr": "Bahreïn : on accueille les invités avec du café et des dattes."
+  },
+  "customs": [
+    {
+      "act": "offer_sweets",
+      "en": "Bahraini halwa comes with the coffee.",
+      "ar": "الحلوى البحرينية مع القهوة."
+    },
+    {
+      "act": "invite_in",
+      "en": "Old houses open around a courtyard.",
+      "ar": "البيوت القديمة على حوش."
+    }
+  ],
+  "architecture": "Coral-stone houses, wind towers, forts by the sea.",
+  "palette": [
+    "#CE1126",
+    "#FFFFFF",
+    "#B7C4CF",
+    "#E8C14A"
+  ],
+  "music": {
+    "style": "Pearl-diver songs (fjiri)",
+    "instruments": [
+      "mirwas",
+      "jahlah pot",
+      "handclaps"
+    ]
+  },
+  "street": {
+    "vendors": [
+      "halwa shop",
+      "bread oven"
+    ],
+    "cafe": "seaside coffee house",
+    "kidsGames": [
+      "dama",
+      "kairam"
+    ],
+    "crowd": "friendly, island calm"
+  },
+  "foods": [
+    {
+      "id": "bahrain_machboos",
+      "local": "Machboos",
+      "name": {
+        "ar": "مجبوس",
+        "en": "Spiced rice with chicken",
+        "tr": "Machboos",
+        "de": "Machboos",
+        "ur": "مچبوس",
+        "hi": "मचबूस",
+        "es": "Machboos",
+        "pt": "Machboos",
+        "id": "Machboos",
+        "ms": "Machboos",
+        "ja": "マチブース",
+        "fr": "Machboos"
+      },
+      "fact": {
+        "ar": "تُعرف غالباً بأنها الأكلة الوطنية في البحرين.",
+        "en": "Often called the national dish of Bahrain.",
+        "tr": "Genellikle Bahreyn ulusal yemeği sayılır.",
+        "de": "Gilt oft als Nationalgericht von Bahrain.",
+        "ur": "اسے اکثر بحرین کا قومی کھانا کہا جاتا ہے۔",
+        "hi": "इसे अक्सर बहरीन का राष्ट्रीय व्यंजन कहा जाता है।",
+        "es": "Se le suele llamar el plato nacional de Baréin.",
+        "pt": "É muitas vezes chamado o prato nacional do Barém.",
+        "id": "Sering disebut hidangan nasional Bahrain.",
+        "ms": "Sering disebut hidangan kebangsaan Bahrain.",
+        "ja": "バーレーンの国民食とよく言われます。",
+        "fr": "Bahreïn : souvent appelé le plat national."
+      },
+      "shape": "plate",
+      "color": "#E8A03A",
+      "color2": "#8A4A2A",
+      "buff": "strength",
+      "price": 75
+    },
+    {
+      "id": "bahrain_halwa",
+      "local": "Halwa bahraini",
+      "name": {
+        "ar": "حلوى بحرينية",
+        "en": "Saffron rosewater halwa",
+        "tr": "Halwa bahraini",
+        "de": "Halwa bahraini",
+        "ur": "بحرینی حلوہ",
+        "hi": "बहरीनी हलवा",
+        "es": "Halwa bahraini",
+        "pt": "Halwa bahraini",
+        "id": "Halwa bahraini",
+        "ms": "Halwa bahraini",
+        "ja": "バーレーンのハルワ",
+        "fr": "Halwa bahraini"
+      },
+      "fact": {
+        "ar": "حلا محبوب في البحرين، أحلى مع الشاي أو القهوة.",
+        "en": "A sweet treat in Bahrain, best with tea or coffee.",
+        "tr": "Bahreyn için tatlı bir ikram, çay ya da kahveyle en güzeli.",
+        "de": "Eine süße Leckerei in Bahrain, am besten mit Tee oder Kaffee.",
+        "ur": "بحرین کی میٹھی سوغات، چائے یا کافی کے ساتھ مزیدار۔",
+        "hi": "बहरीन की मीठी सौगात, चाय या कॉफ़ी के साथ सबसे अच्छी।",
+        "es": "Un dulce de Baréin, mejor con té o café.",
+        "pt": "Um doce do Barém, melhor com chá ou café.",
+        "id": "Camilan manis di Bahrain, paling enak dengan teh atau kopi.",
+        "ms": "Manisan di Bahrain, paling sedap dengan teh atau kopi.",
+        "ja": "バーレーンの甘いおやつ。お茶やコーヒーと一緒にどうぞ。",
+        "fr": "Bahreïn : une douceur, parfaite avec un thé ou un café."
+      },
+      "shape": "bowl",
+      "color": "#8A3A1E",
+      "color2": "#E8C14A",
+      "buff": "energy",
+      "price": 40
+    },
+    {
+      "id": "bahrain_muhammar",
+      "local": "Muhammar",
+      "name": {
+        "ar": "محمر",
+        "en": "Sweet date rice",
+        "tr": "Muhammar",
+        "de": "Muhammar",
+        "ur": "میٹھے چاول",
+        "hi": "मीठे चावल",
+        "es": "Muhammar",
+        "pt": "Muhammar",
+        "id": "Muhammar",
+        "ms": "Muhammar",
+        "ja": "ムハンマル",
+        "fr": "Muhammar"
+      },
+      "fact": {
+        "ar": "يتشاركونه من صحن كبير مع الأهل والضيوف في البحرين.",
+        "en": "Shared from one big plate with family and guests in Bahrain.",
+        "tr": "Bahreyn için aile ve misafirlerle büyük bir tabaktan paylaşılır.",
+        "de": "In Bahrain von einer großen Platte mit Familie und Gästen geteilt.",
+        "ur": "بحرین میں گھر والوں اور مہمانوں کے ساتھ ایک بڑی پلیٹ سے کھایا جاتا ہے۔",
+        "hi": "बहरीन में परिवार और मेहमानों के साथ एक बड़ी थाली से खाया जाता है।",
+        "es": "Se comparte de una gran fuente con familia e invitados en Baréin.",
+        "pt": "Partilha-se de uma grande travessa com família e convidados no Barém.",
+        "id": "Disantap bersama dari satu piring besar dengan keluarga dan tamu di Bahrain.",
+        "ms": "Dikongsi dari satu pinggan besar bersama keluarga dan tetamu di Bahrain.",
+        "ja": "バーレーンでは大皿から家族やお客さんと分け合います。",
+        "fr": "Bahreïn : partagé dans un grand plat avec la famille et les invités."
+      },
+      "shape": "plate",
+      "color": "#B5651D",
+      "color2": "#F2D06B",
+      "buff": "energy",
+      "price": 45
+    },
+    {
+      "id": "bahrain_samboosa",
+      "local": "Samboosa",
+      "name": {
+        "ar": "سمبوسة",
+        "en": "Fried pastry triangles",
+        "tr": "Samboosa",
+        "de": "Samboosa",
+        "ur": "سموسہ",
+        "hi": "समोसा",
+        "es": "Samboosa",
+        "pt": "Samboosa",
+        "id": "Samboosa",
+        "ms": "Samboosa",
+        "ja": "サンブーサ",
+        "fr": "Samboosa"
+      },
+      "fact": {
+        "ar": "من أحب أكلات فطور رمضان في البحرين.",
+        "en": "A Ramadan iftar favourite in Bahrain.",
+        "tr": "Bahreyn için sevilen bir Ramazan iftar yemeği.",
+        "de": "In Bahrain ein Liebling beim Iftar im Ramadan.",
+        "ur": "بحرین میں رمضان کی افطاری کا پسندیدہ کھانا۔",
+        "hi": "बहरीन में रमज़ान की इफ़्तारी का पसंदीदा व्यंजन।",
+        "es": "Un favorito del iftar de Ramadán en Baréin.",
+        "pt": "Um favorito do iftar do Ramadão no Barém.",
+        "id": "Menu buka puasa Ramadan favorit di Bahrain.",
+        "ms": "Hidangan berbuka puasa kegemaran di Bahrain.",
+        "ja": "バーレーンのラマダンのイフタールで人気の料理です。",
+        "fr": "Bahreïn : un classique de l'iftar du Ramadan."
+      },
+      "shape": "bun",
+      "color": "#D9A050",
+      "color2": "#6A8F3A",
+      "buff": "speed",
+      "price": 25
+    },
+    {
+      "id": "bahrain_khubz",
+      "local": "Khubz tannour",
+      "name": {
+        "ar": "خبز تنور",
+        "en": "Clay-oven bread",
+        "tr": "Khubz tannour",
+        "de": "Khubz tannour",
+        "ur": "تنوری روٹی",
+        "hi": "तंदूरी रोटी",
+        "es": "Khubz tannour",
+        "pt": "Khubz tannour",
+        "id": "Khubz tannour",
+        "ms": "Khubz tannour",
+        "ja": "タンヌールパン",
+        "fr": "Khubz tannour"
+      },
+      "fact": {
+        "ar": "خبز يومي على السفرة في كل البحرين.",
+        "en": "Daily bread on tables across Bahrain.",
+        "tr": "Bahreyn genelinde sofraların günlük ekmeği.",
+        "de": "Tägliches Brot auf den Tischen in ganz Bahrain.",
+        "ur": "پورے بحرین میں دسترخوان کی روزانہ کی روٹی۔",
+        "hi": "पूरे बहरीन में रोज़ की रोटी।",
+        "es": "Pan de cada día en las mesas de Baréin.",
+        "pt": "Pão de todos os dias nas mesas do Barém.",
+        "id": "Roti sehari-hari di meja seluruh Bahrain.",
+        "ms": "Roti harian di meja seluruh Bahrain.",
+        "ja": "バーレーンの食卓に毎日並ぶパンです。",
+        "fr": "Bahreïn : le pain de tous les jours sur la table."
+      },
+      "shape": "cake",
+      "color": "#D9A050",
+      "color2": "#6B3A1E",
+      "buff": "strength",
+      "price": 20
+    }
+  ],
+  "animals": [
+    "bahrain_camel",
+    "bahrain_flamingo",
+    "bahrain_dolphin"
+  ],
+  "attackTrailVfx": "pearl_glints",
+  "eatIdle": {
+    "dishId": "bahrain_halwa",
+    "propModel": "food_halwa",
+    "reaction": "sticky"
+  }
+}

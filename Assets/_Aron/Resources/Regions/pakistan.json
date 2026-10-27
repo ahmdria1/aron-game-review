@@ -1,0 +1,221 @@
+{
+  "order": 428,
+  "id": "pakistan",
+  "nameAr": "باكستان",
+  "nameEn": "Pakistan",
+  "group": "world",
+  "music": "music_country_pakistan",
+  "ground": "#B8A070",
+  "accent": "#01411C",
+  "sky": "#A2CDEB",
+  "country": "pakistan",
+  "costume": "",
+  "stages": [
+    {
+      "id": "pakistan_1",
+      "nameAr": "سوق الشاحنات الملونة",
+      "nameEn": "Truck Art Bazaar",
+      "terrain": "souq",
+      "landmarks": [
+        "souq",
+        "bazaar_arches"
+      ],
+      "mount": "",
+      "difficulty": 3,
+      "boss": false,
+      "lineAr": "شاحنات مرسومة بكل الألوان!",
+      "extra": "",
+      "time": "day",
+      "weather": "clear",
+      "type": "normal",
+      "costume": ""
+    },
+    {
+      "id": "pakistan_2",
+      "nameAr": "حصن الحجر الأحمر",
+      "nameEn": "Red Stone Fort",
+      "terrain": "ruins",
+      "landmarks": [
+        "palace_fort",
+        "gate"
+      ],
+      "mount": "",
+      "difficulty": 4,
+      "boss": false,
+      "lineAr": "حصن أحمر كبير من أيام المغول.",
+      "extra": "",
+      "time": "sunset",
+      "weather": "clear",
+      "type": "chase",
+      "costume": ""
+    },
+    {
+      "id": "pakistan_3",
+      "nameAr": "حدائق المغول",
+      "nameEn": "Mughal Gardens",
+      "terrain": "oasis",
+      "landmarks": [
+        "fountain",
+        "palace_arches"
+      ],
+      "mount": "",
+      "difficulty": 5,
+      "boss": false,
+      "lineAr": "نوافير وممرات خضراء.",
+      "extra": "",
+      "time": "day",
+      "weather": "clear",
+      "type": "normal",
+      "costume": ""
+    },
+    {
+      "id": "pakistan_4",
+      "nameAr": "وادي الجبال الشاهقة",
+      "nameEn": "High Mountain Valley",
+      "terrain": "mountain",
+      "landmarks": [
+        "snow_peaks",
+        "terraces"
+      ],
+      "mount": "horse",
+      "difficulty": 6,
+      "boss": false,
+      "lineAr": "أعلى جبال الدنيا قدامك!",
+      "extra": "",
+      "time": "day",
+      "weather": "rain",
+      "type": "action",
+      "costume": ""
+    },
+    {
+      "id": "pakistan_5",
+      "nameAr": "صحراء ثار",
+      "nameEn": "Thar Desert",
+      "terrain": "desert",
+      "landmarks": [
+        "dunes",
+        "tents"
+      ],
+      "mount": "camel",
+      "difficulty": 7,
+      "boss": false,
+      "lineAr": "جمال ورمل ونجوم.",
+      "extra": "",
+      "time": "sunset",
+      "weather": "sandstorm",
+      "type": "normal",
+      "costume": ""
+    },
+    {
+      "id": "pakistan_6",
+      "nameAr": "أسواق الليل",
+      "nameEn": "Night Food Street",
+      "terrain": "street",
+      "landmarks": [
+        "colour_plaza",
+        "souq"
+      ],
+      "mount": "",
+      "difficulty": 8,
+      "boss": false,
+      "lineAr": "ريحة الكباب والجلابي.",
+      "extra": "",
+      "time": "night",
+      "weather": "clear",
+      "type": "chase",
+      "costume": ""
+    },
+    {
+      "id": "pakistan_race",
+      "nameAr": "سباق الثيران والطين",
+      "nameEn": "Bull Race",
+      "terrain": "river",
+      "landmarks": [
+        "terraces",
+        "lone_tree"
+      ],
+      "mount": "",
+      "difficulty": 8,
+      "boss": false,
+      "lineAr": "سباق! سباق الثيران والطين، يلا نشوف مين الأول!",
+      "extra": "",
+      "time": "day",
+      "weather": "clear",
+      "type": "race",
+      "costume": "",
+      "race": "pakistan_bull"
+    },
+    {
+      "id": "pakistan_7",
+      "nameAr": "قمة الوادي",
+      "nameEn": "Valley Summit",
+      "terrain": "mountain",
+      "landmarks": [
+        "snow_peaks",
+        "fort"
+      ],
+      "mount": "",
+      "difficulty": 10,
+      "boss": true,
+      "lineAr": "ثعلب الجبل فوق القمة!",
+      "extra": "",
+      "time": "night",
+      "weather": "clear",
+      "type": "boss",
+      "costume": ""
+    }
+  ],
+  "skyline": [],
+  "boss": {
+    "nameAr": "ثعلب الجبل",
+    "nameEn": "The Mountain Fox",
+    "model": "wolf",
+    "headgear": "hood",
+    "body": "#9A5A2A",
+    "trim": "#01411C",
+    "projectile": "#FFD166",
+    "scale": 1.36,
+    "health": 16,
+    "introAr": "الجبال بيتي!",
+    "stunAr": "طاحت فروتي!",
+    "defeatAr": "زين... باكستان لك.",
+    "phases": [
+      {
+        "threshold": 1.0,
+        "move": 4.0,
+        "charge": 14.0,
+        "interval": 2.8,
+        "attacks": [
+          "wave",
+          "volley",
+          "dash"
+        ],
+        "tauntAr": "ثلج يطيح!"
+      },
+      {
+        "threshold": 0.66,
+        "move": 4.6,
+        "charge": 15.5,
+        "interval": 2.4,
+        "attacks": [
+          "charge",
+          "leap",
+          "dash"
+        ],
+        "tauntAr": "أسرع من الريح!"
+      },
+      {
+        "threshold": 0.33,
+        "move": 5.2,
+        "charge": 17.0,
+        "interval": 2.0,
+        "attacks": [
+          "charge",
+          "wave",
+          "leap"
+        ],
+        "tauntAr": "ما توصل للقمة!"
+      }
+    ]
+  }
+}

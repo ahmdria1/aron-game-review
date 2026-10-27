@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "maxOffline": 7,
+  "sandPenalty": 0.3,
+  "mountVariety": 0.25,
+  "profiles": [
+    { "difficulty": "easy",   "skill": 0.84, "mistakesPerMinute": 6.0, "mistakeSpeed": 0.6,  "mistakeSeconds": 1.4, "avoidChance": 0.72, "lineWander": 1.6, "shortcutChance": 0.1, "abilityUse": 0.3, "catchUp": 0.06, "holdBack": 0.05, "fullGap": 70, "reaction": 0.7 },
+    { "difficulty": "normal", "skill": 0.94, "mistakesPerMinute": 3.0, "mistakeSpeed": 0.7,  "mistakeSeconds": 1.2, "avoidChance": 0.88, "lineWander": 0.8, "shortcutChance": 0.5, "abilityUse": 0.7, "catchUp": 0.04, "holdBack": 0.03, "fullGap": 60, "reaction": 0.4 },
+    { "difficulty": "hard",   "skill": 0.96, "mistakesPerMinute": 1.0, "mistakeSpeed": 0.8,  "mistakeSeconds": 0.9, "avoidChance": 0.97, "lineWander": 0.3, "shortcutChance": 0.9, "abilityUse": 1.0, "catchUp": 0.04, "holdBack": 0.02, "fullGap": 50, "reaction": 0.25 }
+  ]
+}

@@ -1,0 +1,216 @@
+{
+  "order": 115,
+  "id": "qassim",
+  "nameAr": "منطقة القصيم",
+  "nameEn": "Qassim Region",
+  "group": "saudi",
+  "country": "saudi",
+  "costume": "",
+  "music": "music_saudi_najd",
+  "ground": "#DDBE8C",
+  "accent": "#7A3B1C",
+  "sky": "#A8CCE6",
+  "stages": [
+    {
+      "id": "qassim_1",
+      "nameAr": "بريدة - سوق التمور",
+      "nameEn": "Buraydah Dates Market",
+      "terrain": "souq",
+      "landmarks": [
+        "souq",
+        "palms"
+      ],
+      "mount": "",
+      "difficulty": 2,
+      "boss": false,
+      "type": "normal",
+      "time": "day",
+      "weather": "clear",
+      "costume": "",
+      "lineAr": "مهرجان التمور! سكري وخلاص.",
+      "extra": ""
+    },
+    {
+      "id": "qassim_2",
+      "nameAr": "عنيزة - سوق المسوكف",
+      "nameEn": "Unaizah - Al Musawkaf",
+      "terrain": "souq",
+      "landmarks": [
+        "mud_town",
+        "souq"
+      ],
+      "mount": "",
+      "difficulty": 2,
+      "boss": false,
+      "type": "normal",
+      "time": "sunset",
+      "weather": "clear",
+      "costume": "",
+      "lineAr": "المسوكف، سوق الطين القديم.",
+      "extra": ""
+    },
+    {
+      "id": "qassim_3",
+      "nameAr": "بيت البسام",
+      "nameEn": "Al Bassam Heritage House",
+      "terrain": "ruins",
+      "landmarks": [
+        "mud_town",
+        "fort"
+      ],
+      "mount": "",
+      "difficulty": 2,
+      "boss": false,
+      "type": "action",
+      "time": "night",
+      "weather": "clear",
+      "costume": "",
+      "lineAr": "بيت البسام، طين ونقوش.",
+      "extra": ""
+    },
+    {
+      "id": "qassim_4",
+      "nameAr": "مزارع الرس",
+      "nameEn": "Ar Rass Farms",
+      "terrain": "oasis",
+      "landmarks": [
+        "palms",
+        "water_tower"
+      ],
+      "mount": "",
+      "difficulty": 3,
+      "boss": false,
+      "type": "normal",
+      "time": "day",
+      "weather": "rain",
+      "costume": "",
+      "lineAr": "مزارع الرس خضرا.",
+      "extra": ""
+    },
+    {
+      "id": "qassim_5",
+      "nameAr": "نفود القصيم",
+      "nameEn": "Qassim Dunes",
+      "terrain": "desert",
+      "landmarks": [
+        "dunes",
+        "tents"
+      ],
+      "mount": "camel",
+      "difficulty": 3,
+      "boss": false,
+      "type": "normal",
+      "time": "day",
+      "weather": "sandstorm",
+      "costume": "",
+      "lineAr": "رمل أحمر، الذلول جاهزة.",
+      "extra": ""
+    },
+    {
+      "id": "qassim_6",
+      "nameAr": "ميدان الفروسية",
+      "nameEn": "Qassim Equestrian Track",
+      "terrain": "desert",
+      "landmarks": [
+        "tents",
+        "palms"
+      ],
+      "mount": "horse",
+      "difficulty": 4,
+      "boss": false,
+      "type": "chase",
+      "time": "sunset",
+      "weather": "clear",
+      "costume": "",
+      "lineAr": "ميدان الخيل! يلا يا أصيل.",
+      "extra": ""
+    },
+    {
+      "id": "qassim_race",
+      "nameAr": "سباق الهجن في القصيم",
+      "nameEn": "Qassim Camel Race",
+      "terrain": "desert",
+      "landmarks": [
+        "dunes",
+        "palms"
+      ],
+      "mount": "",
+      "difficulty": 4,
+      "boss": false,
+      "lineAr": "سباق! سباق الهجن في القصيم، يلا نشوف مين الأول!",
+      "extra": "",
+      "time": "sunset",
+      "weather": "clear",
+      "type": "race",
+      "costume": "",
+      "race": "saudi_camel"
+    },
+    {
+      "id": "qassim_7",
+      "nameAr": "ساحة شيخ النخل",
+      "nameEn": "Sheikh of the Palms",
+      "terrain": "oasis",
+      "landmarks": [
+        "palms"
+      ],
+      "mount": "",
+      "difficulty": 4,
+      "boss": true,
+      "type": "boss",
+      "time": "sunset",
+      "weather": "clear",
+      "costume": "",
+      "lineAr": "شيخ النخل يرمي تمر!",
+      "extra": ""
+    }
+  ],
+  "boss": {
+    "nameAr": "شيخ النخل",
+    "nameEn": "Sheikh of the Palms",
+    "model": "robe",
+    "headgear": "ghutra",
+    "body": "#6B4A2A",
+    "trim": "#F2EFE6",
+    "projectile": "#5A2A14",
+    "scale": 1.15,
+    "health": 10,
+    "introAr": "تمر القصيم ما ينعطى بلاش!",
+    "stunAr": "آخ! راسي...",
+    "defeatAr": "خذ التمر... أنت تستاهله.",
+    "phases": [
+      {
+        "threshold": 1.0,
+        "move": 3,
+        "charge": 10,
+        "interval": 2.6,
+        "attacks": [
+          "volley"
+        ],
+        "tauntAr": "تمرة بعين!"
+      },
+      {
+        "threshold": 0.6,
+        "move": 3.5,
+        "charge": 12,
+        "interval": 2.4,
+        "attacks": [
+          "volley",
+          "summon"
+        ],
+        "tauntAr": "يا عيالي! تعالوا!"
+      },
+      {
+        "threshold": 0.3,
+        "move": 4.5,
+        "charge": 14,
+        "interval": 2.0,
+        "attacks": [
+          "volley",
+          "charge",
+          "summon"
+        ],
+        "tauntAr": "آخر صندوق تمر!"
+      }
+    ]
+  }
+}

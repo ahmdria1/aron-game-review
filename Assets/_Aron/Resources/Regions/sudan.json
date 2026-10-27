@@ -1,0 +1,219 @@
+{
+  "order": 356,
+  "id": "sudan",
+  "nameAr": "السودان",
+  "nameEn": "Sudan",
+  "group": "arab",
+  "music": "music_country_sudan",
+  "ground": "#C89F6E",
+  "accent": "#007229",
+  "sky": "#B0CFE6",
+  "country": "sudan",
+  "costume": "",
+  "stages": [
+    {
+      "id": "sudan_1",
+      "nameAr": "سوق أم درمان",
+      "nameEn": "Omdurman Souq",
+      "terrain": "souq",
+      "landmarks": [
+        "souq",
+        "gate"
+      ],
+      "mount": "",
+      "difficulty": 7,
+      "boss": false,
+      "lineAr": "سوق أم درمان، الصندل والكركدي.",
+      "extra": "",
+      "time": "day",
+      "weather": "clear",
+      "type": "normal",
+      "costume": ""
+    },
+    {
+      "id": "sudan_2",
+      "nameAr": "المقرن - ملتقى النيلين",
+      "nameEn": "Al-Mogran - Where the Two Niles Meet",
+      "terrain": "river",
+      "landmarks": [
+        "palms",
+        "lake"
+      ],
+      "mount": "",
+      "difficulty": 7,
+      "boss": false,
+      "lineAr": "النيل الأزرق والأبيض يتلاقوا هنا!",
+      "extra": "",
+      "time": "sunset",
+      "weather": "clear",
+      "type": "normal",
+      "costume": ""
+    },
+    {
+      "id": "sudan_3",
+      "nameAr": "جزيرة توتي",
+      "nameEn": "Tuti Island",
+      "terrain": "river",
+      "landmarks": [
+        "palms",
+        "reeds"
+      ],
+      "mount": "horse",
+      "difficulty": 7,
+      "boss": false,
+      "lineAr": "على الحصان بين المزارع في توتي.",
+      "extra": "",
+      "time": "day",
+      "weather": "rain",
+      "type": "normal",
+      "costume": ""
+    },
+    {
+      "id": "sudan_4",
+      "nameAr": "أهرامات مروي",
+      "nameEn": "Pyramids of Meroë",
+      "terrain": "desert",
+      "landmarks": [
+        "pyramids",
+        "dunes"
+      ],
+      "mount": "camel",
+      "difficulty": 8,
+      "boss": false,
+      "lineAr": "أهرامات مروي، والهبوب جاي!",
+      "extra": "",
+      "time": "day",
+      "weather": "sandstorm",
+      "type": "chase",
+      "costume": ""
+    },
+    {
+      "id": "sudan_5",
+      "nameAr": "جبل البركل",
+      "nameEn": "Jebel Barkal",
+      "terrain": "mountain",
+      "landmarks": [
+        "mountains",
+        "pyramids"
+      ],
+      "mount": "",
+      "difficulty": 8,
+      "boss": false,
+      "lineAr": "جبل البركل، وهم لاحقيني!",
+      "extra": "",
+      "time": "night",
+      "weather": "clear",
+      "type": "chase",
+      "costume": ""
+    },
+    {
+      "id": "sudan_6",
+      "nameAr": "سواكن",
+      "nameEn": "Suakin",
+      "terrain": "coast",
+      "landmarks": [
+        "mud_town",
+        "dhows"
+      ],
+      "mount": "",
+      "difficulty": 8,
+      "boss": false,
+      "lineAr": "سواكن القديمة على البحر الأحمر.",
+      "extra": "",
+      "time": "sunset",
+      "weather": "clear",
+      "type": "normal",
+      "costume": ""
+    },
+    {
+      "id": "sudan_race",
+      "nameAr": "سباق الهجن في البطانة",
+      "nameEn": "Butana Camel Race",
+      "terrain": "desert",
+      "landmarks": [
+        "pyramids",
+        "dunes"
+      ],
+      "mount": "",
+      "difficulty": 8,
+      "boss": false,
+      "lineAr": "سباق! سباق الهجن في البطانة، يلا نشوف مين الأول!",
+      "extra": "",
+      "time": "sunset",
+      "weather": "clear",
+      "type": "race",
+      "costume": "",
+      "race": "sudan_camel"
+    },
+    {
+      "id": "sudan_7",
+      "nameAr": "جبل مرة",
+      "nameEn": "Jebel Marra",
+      "terrain": "mountain",
+      "landmarks": [
+        "volcano",
+        "lake"
+      ],
+      "mount": "",
+      "difficulty": 9,
+      "boss": true,
+      "lineAr": "عملاق البركل طلع لي في جبل مرة...",
+      "extra": "",
+      "time": "night",
+      "weather": "clear",
+      "type": "boss",
+      "costume": ""
+    }
+  ],
+  "boss": {
+    "nameAr": "عملاق البركل",
+    "nameEn": "The Barkal Giant",
+    "model": "golem",
+    "headgear": "crown",
+    "body": "#E8E4D8",
+    "trim": "#7A4B2A",
+    "projectile": "#C2702E",
+    "scale": 1.5,
+    "health": 16,
+    "introAr": "الجبل جبلي، وما في زول يعدي!",
+    "stunAr": "يا زول... الدنيا لفت!",
+    "defeatAr": "خلاص... السودان ليك.",
+    "phases": [
+      {
+        "threshold": 1.0,
+        "move": 3,
+        "charge": 13,
+        "interval": 3.0,
+        "attacks": [
+          "charge",
+          "wave"
+        ],
+        "tauntAr": "خطوتي تهز الأرض!"
+      },
+      {
+        "threshold": 0.66,
+        "move": 4,
+        "charge": 15,
+        "interval": 2.5,
+        "attacks": [
+          "leap",
+          "volley"
+        ],
+        "tauntAr": "صخور من فوق!"
+      },
+      {
+        "threshold": 0.33,
+        "move": 5,
+        "charge": 17,
+        "interval": 2.0,
+        "attacks": [
+          "charge",
+          "leap",
+          "wave",
+          "summon"
+        ],
+        "tauntAr": "يا جماعة! تعالوا!"
+      }
+    ]
+  }
+}

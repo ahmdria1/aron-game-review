@@ -1,0 +1,15 @@
+{
+  "region": "india",
+  "shops": [
+    {
+      "stage": "india_5",
+      "nameAr": "بهارات المدينة الوردية",
+      "kind": "spices"
+    },
+    {
+      "stage": "india_1",
+      "nameAr": "شاي الرصيف",
+      "kind": "tea"
+    }
+  ]
+}

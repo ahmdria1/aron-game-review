@@ -1,0 +1,262 @@
+{
+  "country": "iraq",
+  "dialect": "iraqi",
+  "uiLanguage": "ar",
+  "greeting": {
+    "words": "هلا بيك",
+    "wordsEn": "Hello to you",
+    "wordsAr": "هلا بيك",
+    "gesture": "hand_on_chest"
+  },
+  "hospitality": {
+    "ar": "في العراق أول شي يُقدَّم للضيف كاسة شاي.",
+    "en": "In Iraq, the first thing a guest gets is a glass of tea.",
+    "tr": "Irak misafire ilk olarak bir bardak çay ikram eder.",
+    "de": "Im Irak bekommt ein Gast zuerst ein Glas Tee.",
+    "ur": "عراق میں مہمان کو سب سے پہلے چائے پیش کی جاتی ہے۔",
+    "hi": "इराक़ में मेहमान को सबसे पहले चाय दी जाती है।",
+    "es": "En Irak, lo primero que recibe un invitado es un vaso de té.",
+    "pt": "No Iraque, a primeira coisa que um convidado recebe é um copo de chá.",
+    "id": "Di Irak, tamu pertama-tama disuguhi segelas teh.",
+    "ms": "Di Iraq, tetamu mula-mula dihidangkan segelas teh.",
+    "ja": "イラクではお客さんにまずお茶を一杯出します。",
+    "fr": "Irak : la première chose qu'on offre à un invité, c'est un verre de thé."
+  },
+  "customs": [
+    {
+      "act": "pour_tea",
+      "en": "Strong tea in small glasses (istikan).",
+      "ar": "شاي ثقيل بالاستكان."
+    },
+    {
+      "act": "share_bread",
+      "en": "Bread straight from the clay oven.",
+      "ar": "الخبز من التنور على طول."
+    }
+  ],
+  "architecture": "Brick arches, reed houses in the marshes, river cafés.",
+  "palette": [
+    "#CE1126",
+    "#FFFFFF",
+    "#000000",
+    "#007A3D"
+  ],
+  "music": {
+    "style": "Maqam iraqi",
+    "instruments": [
+      "santur",
+      "joza",
+      "tabla"
+    ]
+  },
+  "street": {
+    "vendors": [
+      "tea seller",
+      "masgouf grill"
+    ],
+    "cafe": "riverside tea house",
+    "kidsGames": [
+      "mheibes ring game",
+      "kairam"
+    ],
+    "crowd": "chatty river evenings"
+  },
+  "foods": [
+    {
+      "id": "iraq_masgouf",
+      "local": "Masgouf",
+      "name": {
+        "ar": "مسگوف",
+        "en": "Grilled river fish",
+        "tr": "Masgouf",
+        "de": "Masgouf",
+        "ur": "مسگوف",
+        "hi": "मसगूफ़",
+        "es": "Masgouf",
+        "pt": "Masgouf",
+        "id": "Masgouf",
+        "ms": "Masgouf",
+        "ja": "マスグーフ",
+        "fr": "Masgouf"
+      },
+      "fact": {
+        "ar": "تُعرف غالباً بأنها الأكلة الوطنية في العراق.",
+        "en": "Often called the national dish of Iraq.",
+        "tr": "Genellikle Irak ulusal yemeği sayılır.",
+        "de": "Gilt oft als Nationalgericht vom Irak.",
+        "ur": "اسے اکثر عراق کا قومی کھانا کہا جاتا ہے۔",
+        "hi": "इसे अक्सर इराक़ का राष्ट्रीय व्यंजन कहा जाता है।",
+        "es": "Se le suele llamar el plato nacional de Irak.",
+        "pt": "É muitas vezes chamado o prato nacional do Iraque.",
+        "id": "Sering disebut hidangan nasional Irak.",
+        "ms": "Sering disebut hidangan kebangsaan Iraq.",
+        "ja": "イラクの国民食とよく言われます。",
+        "fr": "Irak : souvent appelé le plat national."
+      },
+      "shape": "plate",
+      "color": "#C8803A",
+      "color2": "#8A9BA8",
+      "buff": "strength",
+      "price": 80
+    },
+    {
+      "id": "iraq_dolma",
+      "local": "Dolma",
+      "name": {
+        "ar": "دولمة",
+        "en": "Stuffed vine leaves",
+        "tr": "Dolma",
+        "de": "Dolma",
+        "ur": "دولمہ",
+        "hi": "डोल्मा",
+        "es": "Dolma",
+        "pt": "Dolma",
+        "id": "Dolma",
+        "ms": "Dolma",
+        "ja": "ドルマ",
+        "fr": "Dolma"
+      },
+      "fact": {
+        "ar": "يتشاركونه من صحن كبير مع الأهل والضيوف في العراق.",
+        "en": "Shared from one big plate with family and guests in Iraq.",
+        "tr": "Irak için aile ve misafirlerle büyük bir tabaktan paylaşılır.",
+        "de": "Im Irak von einer großen Platte mit Familie und Gästen geteilt.",
+        "ur": "عراق میں گھر والوں اور مہمانوں کے ساتھ ایک بڑی پلیٹ سے کھایا جاتا ہے۔",
+        "hi": "इराक़ में परिवार और मेहमानों के साथ एक बड़ी थाली से खाया जाता है।",
+        "es": "Se comparte de una gran fuente con familia e invitados en Irak.",
+        "pt": "Partilha-se de uma grande travessa com família e convidados no Iraque.",
+        "id": "Disantap bersama dari satu piring besar dengan keluarga dan tamu di Irak.",
+        "ms": "Dikongsi dari satu pinggan besar bersama keluarga dan tetamu di Iraq.",
+        "ja": "イラクでは大皿から家族やお客さんと分け合います。",
+        "fr": "Irak : partagé dans un grand plat avec la famille et les invités."
+      },
+      "shape": "plate",
+      "color": "#6A8F3A",
+      "color2": "#C8553D",
+      "buff": "energy",
+      "price": 55
+    },
+    {
+      "id": "iraq_kleicha",
+      "local": "Kleicha",
+      "name": {
+        "ar": "كليجة",
+        "en": "Date-filled cookies",
+        "tr": "Kleicha",
+        "de": "Kleicha",
+        "ur": "کلیچہ",
+        "hi": "क्लेचा",
+        "es": "Kleicha",
+        "pt": "Kleicha",
+        "id": "Kleicha",
+        "ms": "Kleicha",
+        "ja": "クレイチャ",
+        "fr": "Kleicha"
+      },
+      "fact": {
+        "ar": "حلا محبوب في العراق، أحلى مع الشاي أو القهوة.",
+        "en": "A sweet treat in Iraq, best with tea or coffee.",
+        "tr": "Irak için tatlı bir ikram, çay ya da kahveyle en güzeli.",
+        "de": "Eine süße Leckerei im Irak, am besten mit Tee oder Kaffee.",
+        "ur": "عراق کی میٹھی سوغات، چائے یا کافی کے ساتھ مزیدار۔",
+        "hi": "इराक़ की मीठी सौगात, चाय या कॉफ़ी के साथ सबसे अच्छी।",
+        "es": "Un dulce de Irak, mejor con té o café.",
+        "pt": "Um doce do Iraque, melhor com chá ou café.",
+        "id": "Camilan manis di Irak, paling enak dengan teh atau kopi.",
+        "ms": "Manisan di Iraq, paling sedap dengan teh atau kopi.",
+        "ja": "イラクの甘いおやつ。お茶やコーヒーと一緒にどうぞ。",
+        "fr": "Irak : une douceur, parfaite avec un thé ou un café."
+      },
+      "shape": "ball",
+      "color": "#B5651D",
+      "color2": "#E8C14A",
+      "buff": "energy",
+      "price": 30
+    },
+    {
+      "id": "iraq_tashreeb",
+      "local": "Tashreeb",
+      "name": {
+        "ar": "تشريب",
+        "en": "Bread soaked in stew",
+        "tr": "Tashreeb",
+        "de": "Tashreeb",
+        "ur": "تشریب",
+        "hi": "तशरीब",
+        "es": "Tashreeb",
+        "pt": "Tashreeb",
+        "id": "Tashreeb",
+        "ms": "Tashreeb",
+        "ja": "タシュリーブ",
+        "fr": "Tashreeb"
+      },
+      "fact": {
+        "ar": "تُطبخ في الأعراس والأعياد ولمّات العائلة في العراق.",
+        "en": "Cooked for weddings, Eid and big family days in Iraq.",
+        "tr": "Irak düğünlerinde, bayramlarda ve aile günlerinde pişirilir.",
+        "de": "Im Irak gekocht für Hochzeiten, Eid und große Familientage.",
+        "ur": "عراق میں شادیوں، عید اور خاندانی دنوں پر پکایا جاتا ہے۔",
+        "hi": "इराक़ में शादियों, ईद और परिवार के ख़ास दिनों पर बनता है।",
+        "es": "Se cocina para bodas, Eid y grandes días en familia en Irak.",
+        "pt": "Cozinhado para casamentos, Eid e grandes dias de família no Iraque.",
+        "id": "Dimasak untuk pernikahan, Idul Fitri, dan kumpul keluarga di Irak.",
+        "ms": "Dimasak untuk majlis kahwin, Hari Raya dan hari keluarga di Iraq.",
+        "ja": "イラクでは結婚式やイード、家族の集まりで作られます。",
+        "fr": "Irak : préparé pour les mariages, l'Aïd et les grands jours en famille."
+      },
+      "shape": "bowl",
+      "color": "#C8553D",
+      "color2": "#D9A050",
+      "buff": "strength",
+      "price": 60
+    },
+    {
+      "id": "iraq_samoon",
+      "local": "Samoon",
+      "name": {
+        "ar": "صمون",
+        "en": "Diamond-shaped bread",
+        "tr": "Samoon",
+        "de": "Samoon",
+        "ur": "صمون",
+        "hi": "समून",
+        "es": "Samoon",
+        "pt": "Samoon",
+        "id": "Samoon",
+        "ms": "Samoon",
+        "ja": "サムーン",
+        "fr": "Samoon"
+      },
+      "fact": {
+        "ar": "خبز يومي على السفرة في كل العراق.",
+        "en": "Daily bread on tables across Iraq.",
+        "tr": "Irak genelinde sofraların günlük ekmeği.",
+        "de": "Tägliches Brot auf den Tischen im ganzen Irak.",
+        "ur": "پورے عراق میں دسترخوان کی روزانہ کی روٹی۔",
+        "hi": "पूरे इराक़ में रोज़ की रोटी।",
+        "es": "Pan de cada día en las mesas de Irak.",
+        "pt": "Pão de todos os dias nas mesas do Iraque.",
+        "id": "Roti sehari-hari di meja seluruh Irak.",
+        "ms": "Roti harian di meja seluruh Iraq.",
+        "ja": "イラクの食卓に毎日並ぶパンです。",
+        "fr": "Irak : le pain de tous les jours sur la table."
+      },
+      "shape": "bun",
+      "color": "#D9A050",
+      "color2": "#8A5A2A",
+      "buff": "speed",
+      "price": 20
+    }
+  ],
+  "animals": [
+    "iraq_buffalo",
+    "iraq_ibis",
+    "iraq_falcon"
+  ],
+  "attackTrailVfx": "reed_fluff",
+  "eatIdle": {
+    "dishId": "iraq_masgouf",
+    "propModel": "food_masgouf",
+    "reaction": "yum"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "region": "libya",
+  "shops": [
+    {
+      "stage": "libya_3",
+      "nameAr": "شاي أبو بكر بالكاكاوية",
+      "kind": "cafe"
+    },
+    {
+      "stage": "libya_3",
+      "nameAr": "فضيات الحاج مفتاح",
+      "kind": "silver"
+    },
+    {
+      "stage": "libya_1",
+      "nameAr": "بقالة الميدان",
+      "kind": "grocery"
+    }
+  ]
+}

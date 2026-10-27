@@ -1,0 +1,220 @@
+{
+  "order": 400,
+  "id": "portugal",
+  "nameAr": "البرتغال",
+  "nameEn": "Portugal",
+  "group": "world",
+  "music": "music_country_portugal",
+  "ground": "#C9B48A",
+  "accent": "#0B6E4F",
+  "sky": "#9CC9EF",
+  "country": "portugal",
+  "costume": "",
+  "stages": [
+    {
+      "id": "portugal_1",
+      "nameAr": "أزقة لشبونة",
+      "nameEn": "Lisbon Lanes",
+      "terrain": "street",
+      "landmarks": [
+        "tile_houses",
+        "tram"
+      ],
+      "mount": "",
+      "difficulty": 3,
+      "boss": false,
+      "lineAr": "الترام الأصفر طالع الطلعة!",
+      "extra": "",
+      "time": "day",
+      "weather": "clear",
+      "type": "normal",
+      "costume": ""
+    },
+    {
+      "id": "portugal_2",
+      "nameAr": "رصيف بورتو",
+      "nameEn": "Porto Riverside",
+      "terrain": "river",
+      "landmarks": [
+        "row_houses",
+        "big_arch"
+      ],
+      "mount": "",
+      "difficulty": 4,
+      "boss": false,
+      "lineAr": "البيوت الملونة على النهر.",
+      "extra": "",
+      "time": "sunset",
+      "weather": "clear",
+      "type": "chase",
+      "costume": ""
+    },
+    {
+      "id": "portugal_3",
+      "nameAr": "قرية سينترا",
+      "nameEn": "Sintra Hills",
+      "terrain": "forest",
+      "landmarks": [
+        "fairytale_castle",
+        "cedars"
+      ],
+      "mount": "horse",
+      "difficulty": 5,
+      "boss": false,
+      "lineAr": "قصر فوق الغيم، والطريق ضباب.",
+      "extra": "",
+      "time": "day",
+      "weather": "rain",
+      "type": "normal",
+      "costume": ""
+    },
+    {
+      "id": "portugal_4",
+      "nameAr": "منحدرات الغرب",
+      "nameEn": "Algarve Cliffs",
+      "terrain": "coast",
+      "landmarks": [
+        "sea_cliffs",
+        "rock_arch"
+      ],
+      "mount": "",
+      "difficulty": 6,
+      "boss": false,
+      "lineAr": "صخور ذهبية فوق البحر الأزرق.",
+      "extra": "",
+      "time": "day",
+      "weather": "clear",
+      "type": "action",
+      "costume": ""
+    },
+    {
+      "id": "portugal_5",
+      "nameAr": "سهول ألينتيجو",
+      "nameEn": "Alentejo Plains",
+      "terrain": "desert",
+      "landmarks": [
+        "lone_tree",
+        "white_village"
+      ],
+      "mount": "horse",
+      "difficulty": 7,
+      "boss": false,
+      "lineAr": "أشجار الفلين والقرى البيضاء.",
+      "extra": "",
+      "time": "sunset",
+      "weather": "clear",
+      "type": "normal",
+      "costume": ""
+    },
+    {
+      "id": "portugal_6",
+      "nameAr": "سوق السمك",
+      "nameEn": "The Fish Market",
+      "terrain": "souq",
+      "landmarks": [
+        "souq",
+        "dhows"
+      ],
+      "mount": "",
+      "difficulty": 8,
+      "boss": false,
+      "lineAr": "السردين المشوي ريحته تفتح النفس.",
+      "extra": "",
+      "time": "night",
+      "weather": "clear",
+      "type": "chase",
+      "costume": ""
+    },
+    {
+      "id": "portugal_race",
+      "nameAr": "سباق قوارب النهر",
+      "nameEn": "River Rabelo Race",
+      "terrain": "coast",
+      "landmarks": [
+        "row_houses",
+        "big_arch"
+      ],
+      "mount": "",
+      "difficulty": 8,
+      "boss": false,
+      "lineAr": "سباق! سباق قوارب النهر، يلا نشوف مين الأول!",
+      "extra": "",
+      "time": "day",
+      "weather": "clear",
+      "type": "race",
+      "costume": "",
+      "race": "portugal_boat"
+    },
+    {
+      "id": "portugal_7",
+      "nameAr": "رأس الأطلسي",
+      "nameEn": "Atlantic Cape",
+      "terrain": "coast",
+      "landmarks": [
+        "sea_cliffs",
+        "sea_tower"
+      ],
+      "mount": "",
+      "difficulty": 10,
+      "boss": true,
+      "lineAr": "ملّاح العاصفة على حافة الصخرة!",
+      "extra": "",
+      "time": "night",
+      "weather": "rain",
+      "type": "boss",
+      "costume": ""
+    }
+  ],
+  "skyline": [],
+  "boss": {
+    "nameAr": "ملّاح العاصفة",
+    "nameEn": "The Storm Navigator",
+    "model": "captain",
+    "headgear": "hood",
+    "body": "#24476B",
+    "trim": "#E8C14A",
+    "projectile": "#7FD1FF",
+    "scale": 1.22,
+    "health": 14,
+    "introAr": "البحر الأطلسي ملكي!",
+    "stunAr": "الموجة قلبتني!",
+    "defeatAr": "طيب... البرتغال لك.",
+    "phases": [
+      {
+        "threshold": 1.0,
+        "move": 4.0,
+        "charge": 14.0,
+        "interval": 2.8,
+        "attacks": [
+          "charge",
+          "wave",
+          "dash"
+        ],
+        "tauntAr": "الريح في أشرعتي!"
+      },
+      {
+        "threshold": 0.66,
+        "move": 4.6,
+        "charge": 15.5,
+        "interval": 2.4,
+        "attacks": [
+          "volley",
+          "dash"
+        ],
+        "tauntAr": "موجة ورا موجة!"
+      },
+      {
+        "threshold": 0.33,
+        "move": 5.2,
+        "charge": 17.0,
+        "interval": 2.0,
+        "attacks": [
+          "summon",
+          "volley",
+          "dash"
+        ],
+        "tauntAr": "ما توصل للبر!"
+      }
+    ]
+  }
+}

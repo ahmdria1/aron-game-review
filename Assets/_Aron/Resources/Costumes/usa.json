@@ -1,0 +1,99 @@
+{
+  "country": "usa",
+  "costumes": [
+    {
+      "id": "usa_traditional",
+      "country": "usa",
+      "hero": "aron",
+      "nameAr": "قبعة الكاوبوي",
+      "nameEn": "Cowboy hat",
+      "isDefault": true,
+      "price": 0,
+      "materials": [
+        {
+          "material": "Clothes",
+          "color": "#3C6EA5"
+        },
+        {
+          "material": "Trim",
+          "color": "#C9A86A"
+        }
+      ],
+      "meshes": [
+        {
+          "slot": "feet",
+          "mesh": "shoes_closed"
+        }
+      ],
+      "accessories": [
+        {
+          "kind": "shirt",
+          "color": "#3C6EA5",
+          "pattern": "#FFFFFF"
+        },
+        {
+          "kind": "jeans",
+          "color": "#2A3A5A"
+        },
+        {
+          "kind": "cowboy_hat",
+          "color": "#8A5A2A",
+          "pattern": "#3A2A1A"
+        }
+      ],
+      "footwear": "leather_shoes",
+      "footwearColor": "#5A3A22",
+      "agalMount": "wrist",
+      "boredIdle": {
+        "id": "usa_lasso_spin",
+        "trigger": 33,
+        "noteEn": "Spins a rope lasso over his head",
+        "lineAr": "يي-ها!",
+        "seconds": 4
+      }
+    },
+    {
+      "id": "usa_noura",
+      "country": "usa",
+      "hero": "noura",
+      "nameAr": "العباية والشال",
+      "nameEn": "Abaya and shawl",
+      "isDefault": true,
+      "price": 0,
+      "materials": [
+        {
+          "material": "Clothes",
+          "color": "#3C3B6E"
+        }
+      ],
+      "meshes": [
+        {
+          "slot": "body",
+          "mesh": "abaya_long"
+        },
+        {
+          "slot": "feet",
+          "mesh": "shoes_closed"
+        }
+      ],
+      "accessories": [
+        {
+          "kind": "abaya",
+          "color": "#3C3B6E",
+          "pattern": "#C9A86A"
+        },
+        {
+          "kind": "hijab",
+          "color": "#F4F0E8"
+        },
+        {
+          "kind": "shawl",
+          "color": "#B22234"
+        }
+      ],
+      "footwear": "closed_flats",
+      "footwearColor": "#2A2020",
+      "agalMount": "none"
+    }
+  ]
+}

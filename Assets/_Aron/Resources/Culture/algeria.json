@@ -1,0 +1,262 @@
+{
+  "country": "algeria",
+  "dialect": "algerian",
+  "uiLanguage": "ar",
+  "greeting": {
+    "words": "صحيت، واش راك؟",
+    "wordsEn": "Hello, how are you?",
+    "wordsAr": "صحيت، واش راك؟",
+    "gesture": "handshake"
+  },
+  "hospitality": {
+    "ar": "في الجزائر يُستقبل الضيف بشاي النعناع.",
+    "en": "In Algeria, guests are welcomed with mint tea.",
+    "tr": "Cezayir misafirleri naneli çayla karşılar.",
+    "de": "In Algerien empfängt man Gäste mit Minztee.",
+    "ur": "الجزائر میں مہمان کا استقبال پودینے کی چائے سے ہوتا ہے۔",
+    "hi": "अल्जीरिया में मेहमान का स्वागत पुदीने की चाय से होता है।",
+    "es": "En Argelia se recibe a los invitados con té de menta.",
+    "pt": "Na Argélia recebem-se os convidados com chá de hortelã.",
+    "id": "Di Aljazair, tamu disambut dengan teh mint.",
+    "ms": "Di Algeria, tetamu disambut dengan teh pudina.",
+    "ja": "アルジェリアではお客さんをミントティーでもてなします。",
+    "fr": "Algérie : on accueille les invités avec un thé à la menthe."
+  },
+  "customs": [
+    {
+      "act": "pour_tea",
+      "en": "Mint tea poured from high up.",
+      "ar": "الأتاي ينصب من فوق."
+    },
+    {
+      "act": "share_bread",
+      "en": "Kesra bread at every meal.",
+      "ar": "الكسرة مع كل وجبة."
+    }
+  ],
+  "architecture": "The white Casbah on the hill, desert ksour, Roman ruins.",
+  "palette": [
+    "#006233",
+    "#FFFFFF",
+    "#D21034",
+    "#C8A060"
+  ],
+  "music": {
+    "style": "Chaabi and Andalusi",
+    "instruments": [
+      "mandole",
+      "derbouka",
+      "qanun"
+    ]
+  },
+  "street": {
+    "vendors": [
+      "kesra baker",
+      "makroud seller"
+    ],
+    "cafe": "Casbah café",
+    "kidsGames": [
+      "marbles",
+      "hopscotch"
+    ],
+    "crowd": "chatty, close neighbours"
+  },
+  "foods": [
+    {
+      "id": "algeria_couscous",
+      "local": "Kesksou",
+      "name": {
+        "ar": "كسكسي",
+        "en": "Couscous with vegetables",
+        "tr": "Kesksou",
+        "de": "Kesksou",
+        "ur": "کسکس",
+        "hi": "कूसकूस",
+        "es": "Kesksou",
+        "pt": "Kesksou",
+        "id": "Kesksou",
+        "ms": "Kesksou",
+        "ja": "クスクス",
+        "fr": "Kesksou"
+      },
+      "fact": {
+        "ar": "تُعرف غالباً بأنها الأكلة الوطنية في الجزائر.",
+        "en": "Often called the national dish of Algeria.",
+        "tr": "Genellikle Cezayir ulusal yemeği sayılır.",
+        "de": "Gilt oft als Nationalgericht von Algerien.",
+        "ur": "اسے اکثر الجزائر کا قومی کھانا کہا جاتا ہے۔",
+        "hi": "इसे अक्सर अल्जीरिया का राष्ट्रीय व्यंजन कहा जाता है।",
+        "es": "Se le suele llamar el plato nacional de Argelia.",
+        "pt": "É muitas vezes chamado o prato nacional da Argélia.",
+        "id": "Sering disebut hidangan nasional Aljazair.",
+        "ms": "Sering disebut hidangan kebangsaan Algeria.",
+        "ja": "アルジェリアの国民食とよく言われます。",
+        "fr": "Algérie : souvent appelé le plat national."
+      },
+      "shape": "bowl",
+      "color": "#E8C77A",
+      "color2": "#6A8F3A",
+      "buff": "strength",
+      "price": 60
+    },
+    {
+      "id": "algeria_chakhchoukha",
+      "local": "Chakhchoukha",
+      "name": {
+        "ar": "شخشوخة",
+        "en": "Torn bread in stew",
+        "tr": "Chakhchoukha",
+        "de": "Chakhchoukha",
+        "ur": "شخشوخہ",
+        "hi": "शख़शूख़ा",
+        "es": "Chakhchoukha",
+        "pt": "Chakhchoukha",
+        "id": "Chakhchoukha",
+        "ms": "Chakhchoukha",
+        "ja": "シャフシューハ",
+        "fr": "Chakhchoukha"
+      },
+      "fact": {
+        "ar": "تُطبخ في الأعراس والأعياد ولمّات العائلة في الجزائر.",
+        "en": "Cooked for weddings, Eid and big family days in Algeria.",
+        "tr": "Cezayir düğünlerinde, bayramlarda ve aile günlerinde pişirilir.",
+        "de": "In Algerien gekocht für Hochzeiten, Eid und große Familientage.",
+        "ur": "الجزائر میں شادیوں، عید اور خاندانی دنوں پر پکایا جاتا ہے۔",
+        "hi": "अल्जीरिया में शादियों, ईद और परिवार के ख़ास दिनों पर बनता है।",
+        "es": "Se cocina para bodas, Eid y grandes días en familia en Argelia.",
+        "pt": "Cozinhado para casamentos, Eid e grandes dias de família na Argélia.",
+        "id": "Dimasak untuk pernikahan, Idul Fitri, dan kumpul keluarga di Aljazair.",
+        "ms": "Dimasak untuk majlis kahwin, Hari Raya dan hari keluarga di Algeria.",
+        "ja": "アルジェリアでは結婚式やイード、家族の集まりで作られます。",
+        "fr": "Algérie : préparé pour les mariages, l'Aïd et les grands jours en famille."
+      },
+      "shape": "bowl",
+      "color": "#C8553D",
+      "color2": "#D9A050",
+      "buff": "strength",
+      "price": 65
+    },
+    {
+      "id": "algeria_kesra",
+      "local": "Kesra",
+      "name": {
+        "ar": "كسرة",
+        "en": "Semolina flatbread",
+        "tr": "Kesra",
+        "de": "Kesra",
+        "ur": "کسرہ",
+        "hi": "केसरा",
+        "es": "Kesra",
+        "pt": "Kesra",
+        "id": "Kesra",
+        "ms": "Kesra",
+        "ja": "ケスラ",
+        "fr": "Kesra"
+      },
+      "fact": {
+        "ar": "خبز يومي على السفرة في كل الجزائر.",
+        "en": "Daily bread on tables across Algeria.",
+        "tr": "Cezayir genelinde sofraların günlük ekmeği.",
+        "de": "Tägliches Brot auf den Tischen in ganz Algerien.",
+        "ur": "پورے الجزائر میں دسترخوان کی روزانہ کی روٹی۔",
+        "hi": "पूरे अल्जीरिया में रोज़ की रोटी।",
+        "es": "Pan de cada día en las mesas de Argelia.",
+        "pt": "Pão de todos os dias nas mesas da Argélia.",
+        "id": "Roti sehari-hari di meja seluruh Aljazair.",
+        "ms": "Roti harian di meja seluruh Algeria.",
+        "ja": "アルジェリアの食卓に毎日並ぶパンです。",
+        "fr": "Algérie : le pain de tous les jours sur la table."
+      },
+      "shape": "cake",
+      "color": "#E0C08A",
+      "color2": "#8A5A2A",
+      "buff": "energy",
+      "price": 20
+    },
+    {
+      "id": "algeria_chorba",
+      "local": "Chorba frik",
+      "name": {
+        "ar": "شوربة فريك",
+        "en": "Green wheat soup",
+        "tr": "Chorba frik",
+        "de": "Chorba frik",
+        "ur": "فریک شوربہ",
+        "hi": "फ़्रीक शोरबा",
+        "es": "Chorba frik",
+        "pt": "Chorba frik",
+        "id": "Chorba frik",
+        "ms": "Chorba frik",
+        "ja": "チョルバ・フリーク",
+        "fr": "Chorba frik"
+      },
+      "fact": {
+        "ar": "من أحب أكلات فطور رمضان في الجزائر.",
+        "en": "A Ramadan iftar favourite in Algeria.",
+        "tr": "Cezayir için sevilen bir Ramazan iftar yemeği.",
+        "de": "In Algerien ein Liebling beim Iftar im Ramadan.",
+        "ur": "الجزائر میں رمضان کی افطاری کا پسندیدہ کھانا۔",
+        "hi": "अल्जीरिया में रमज़ान की इफ़्तारी का पसंदीदा व्यंजन।",
+        "es": "Un favorito del iftar de Ramadán en Argelia.",
+        "pt": "Um favorito do iftar do Ramadão na Argélia.",
+        "id": "Menu buka puasa Ramadan favorit di Aljazair.",
+        "ms": "Hidangan berbuka puasa kegemaran di Algeria.",
+        "ja": "アルジェリアのラマダンのイフタールで人気の料理です。",
+        "fr": "Algérie : un classique de l'iftar du Ramadan."
+      },
+      "shape": "bowl",
+      "color": "#C8553D",
+      "color2": "#6A8F3A",
+      "buff": "energy",
+      "price": 30
+    },
+    {
+      "id": "algeria_makroud",
+      "local": "Makroud",
+      "name": {
+        "ar": "مقروط",
+        "en": "Date semolina cookies",
+        "tr": "Makroud",
+        "de": "Makroud",
+        "ur": "مقروط",
+        "hi": "मक़रूत",
+        "es": "Makroud",
+        "pt": "Makroud",
+        "id": "Makroud",
+        "ms": "Makroud",
+        "ja": "マクルート",
+        "fr": "Makroud"
+      },
+      "fact": {
+        "ar": "حلا محبوب في الجزائر، أحلى مع الشاي أو القهوة.",
+        "en": "A sweet treat in Algeria, best with tea or coffee.",
+        "tr": "Cezayir için tatlı bir ikram, çay ya da kahveyle en güzeli.",
+        "de": "Eine süße Leckerei in Algerien, am besten mit Tee oder Kaffee.",
+        "ur": "الجزائر کی میٹھی سوغات، چائے یا کافی کے ساتھ مزیدار۔",
+        "hi": "अल्जीरिया की मीठी सौगात, चाय या कॉफ़ी के साथ सबसे अच्छी।",
+        "es": "Un dulce de Argelia, mejor con té o café.",
+        "pt": "Um doce da Argélia, melhor com chá ou café.",
+        "id": "Camilan manis di Aljazair, paling enak dengan teh atau kopi.",
+        "ms": "Manisan di Algeria, paling sedap dengan teh atau kopi.",
+        "ja": "アルジェリアの甘いおやつ。お茶やコーヒーと一緒にどうぞ。",
+        "fr": "Algérie : une douceur, parfaite avec un thé ou un café."
+      },
+      "shape": "cake",
+      "color": "#C8803A",
+      "color2": "#6B3A1E",
+      "buff": "energy",
+      "price": 25
+    }
+  ],
+  "animals": [
+    "algeria_camel",
+    "algeria_barbary_macaque",
+    "algeria_fennec_fox"
+  ],
+  "attackTrailVfx": "olive_leaves",
+  "eatIdle": {
+    "dishId": "algeria_couscous",
+    "propModel": "food_couscous",
+    "reaction": "yum"
+  }
+}

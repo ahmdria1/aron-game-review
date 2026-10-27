@@ -1,0 +1,15 @@
+{
+  "region": "portugal",
+  "shops": [
+    {
+      "stage": "portugal_1",
+      "nameAr": "حلويات الترام",
+      "kind": "bakery"
+    },
+    {
+      "stage": "portugal_6",
+      "nameAr": "سردين العم جواو",
+      "kind": "fish"
+    }
+  ]
+}

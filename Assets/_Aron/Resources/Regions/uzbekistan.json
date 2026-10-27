@@ -1,0 +1,222 @@
+{
+  "order": 424,
+  "id": "uzbekistan",
+  "nameAr": "أوزبكستان",
+  "nameEn": "Uzbekistan",
+  "group": "world",
+  "music": "music_country_uzbekistan",
+  "ground": "#D2B07A",
+  "accent": "#1EB53A",
+  "sky": "#9CCBF0",
+  "country": "uzbekistan",
+  "costume": "",
+  "stages": [
+    {
+      "id": "uzbekistan_1",
+      "nameAr": "بوابة المدرسة الزرقاء",
+      "nameEn": "The Blue Portal Square",
+      "terrain": "street",
+      "landmarks": [
+        "madrasa_portal",
+        "bazaar_arches"
+      ],
+      "mount": "",
+      "difficulty": 3,
+      "boss": false,
+      "lineAr": "بلاط فيروزي يلمع في الشمس!",
+      "extra": "",
+      "time": "day",
+      "weather": "clear",
+      "type": "normal",
+      "costume": ""
+    },
+    {
+      "id": "uzbekistan_2",
+      "nameAr": "مدينة الطين القديمة",
+      "nameEn": "Old Mud City",
+      "terrain": "ruins",
+      "landmarks": [
+        "mud_town",
+        "gate"
+      ],
+      "mount": "",
+      "difficulty": 4,
+      "boss": false,
+      "lineAr": "أسوار من طين على طريق الحرير.",
+      "extra": "",
+      "time": "sunset",
+      "weather": "clear",
+      "type": "chase",
+      "costume": ""
+    },
+    {
+      "id": "uzbekistan_3",
+      "nameAr": "سوق الحرير",
+      "nameEn": "Silk Road Bazaar",
+      "terrain": "souq",
+      "landmarks": [
+        "covered_bazaar",
+        "souq"
+      ],
+      "mount": "",
+      "difficulty": 5,
+      "boss": false,
+      "lineAr": "حرير وتوابل وبطيخ أصفر.",
+      "extra": "",
+      "time": "day",
+      "weather": "clear",
+      "type": "normal",
+      "costume": ""
+    },
+    {
+      "id": "uzbekistan_4",
+      "nameAr": "صحراء كيزيلكوم",
+      "nameEn": "Kyzylkum Desert",
+      "terrain": "desert",
+      "landmarks": [
+        "dunes",
+        "tents"
+      ],
+      "mount": "camel",
+      "difficulty": 6,
+      "boss": false,
+      "lineAr": "قافلة الجمال في الرمل الأحمر.",
+      "extra": "",
+      "time": "day",
+      "weather": "sandstorm",
+      "type": "action",
+      "costume": ""
+    },
+    {
+      "id": "uzbekistan_5",
+      "nameAr": "وادي فرغانة",
+      "nameEn": "Fergana Valley",
+      "terrain": "oasis",
+      "landmarks": [
+        "terraces",
+        "palms"
+      ],
+      "mount": "horse",
+      "difficulty": 7,
+      "boss": false,
+      "lineAr": "بساتين المشمش والعنب.",
+      "extra": "",
+      "time": "sunset",
+      "weather": "clear",
+      "type": "normal",
+      "costume": ""
+    },
+    {
+      "id": "uzbekistan_6",
+      "nameAr": "خان القوافل",
+      "nameEn": "Caravanserai",
+      "terrain": "ruins",
+      "landmarks": [
+        "gate",
+        "columns"
+      ],
+      "mount": "camel",
+      "difficulty": 8,
+      "boss": false,
+      "lineAr": "خان قديم للقوافل في الليل.",
+      "extra": "",
+      "time": "night",
+      "weather": "clear",
+      "type": "chase",
+      "costume": ""
+    },
+    {
+      "id": "uzbekistan_race",
+      "nameAr": "سباق الخيل في السهوب",
+      "nameEn": "Steppe Horse Race",
+      "terrain": "oasis",
+      "landmarks": [
+        "dunes",
+        "tents"
+      ],
+      "mount": "",
+      "difficulty": 8,
+      "boss": false,
+      "lineAr": "سباق! سباق الخيل في السهوب، يلا نشوف مين الأول!",
+      "extra": "",
+      "time": "sunset",
+      "weather": "clear",
+      "type": "race",
+      "costume": "",
+      "race": "uzbekistan_horse"
+    },
+    {
+      "id": "uzbekistan_7",
+      "nameAr": "ساحة البوابات",
+      "nameEn": "The Portal Arena",
+      "terrain": "street",
+      "landmarks": [
+        "madrasa_portal",
+        "gate"
+      ],
+      "mount": "",
+      "difficulty": 10,
+      "boss": true,
+      "lineAr": "أمير القوافل في ساحة البوابات!",
+      "extra": "",
+      "time": "night",
+      "weather": "clear",
+      "type": "boss",
+      "costume": ""
+    }
+  ],
+  "skyline": [
+    "spiral_minaret"
+  ],
+  "boss": {
+    "nameAr": "أمير القوافل",
+    "nameEn": "The Caravan Emir",
+    "model": "robe",
+    "headgear": "crown",
+    "body": "#1E5A8A",
+    "trim": "#E8C14A",
+    "projectile": "#3FD0C9",
+    "scale": 1.34,
+    "health": 16,
+    "introAr": "طريق الحرير كله لي!",
+    "stunAr": "ضاع الحرير!",
+    "defeatAr": "طيب... أوزبكستان لك.",
+    "phases": [
+      {
+        "threshold": 1.0,
+        "move": 4.0,
+        "charge": 14.0,
+        "interval": 2.8,
+        "attacks": [
+          "charge",
+          "volley",
+          "dash"
+        ],
+        "tauntAr": "القافلة تهجم!"
+      },
+      {
+        "threshold": 0.66,
+        "move": 4.6,
+        "charge": 15.5,
+        "interval": 2.4,
+        "attacks": [
+          "wave",
+          "volley"
+        ],
+        "tauntAr": "رمل أحمر!"
+      },
+      {
+        "threshold": 0.33,
+        "move": 5.2,
+        "charge": 17.0,
+        "interval": 2.0,
+        "attacks": [
+          "wave",
+          "summon",
+          "dash"
+        ],
+        "tauntAr": "سيوف الحرير!"
+      }
+    ]
+  }
+}

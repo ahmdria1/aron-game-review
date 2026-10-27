@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "finish": [
+    5,
+    3,
+    1
+  ],
+  "hardMultiplier": 1.5,
+  "onlineMultiplier": 2.0,
+  "minRealRacersOnline": 2,
+  "dailyPerTrack": 3,
+  "dailyOnline": 10,
+  "dailyPoints": 100,
+  "rentPoints": 100,
+  "rentHours": 48
+}

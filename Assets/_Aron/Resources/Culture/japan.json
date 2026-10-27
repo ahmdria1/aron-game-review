@@ -1,0 +1,263 @@
+{
+  "country": "japan",
+  "dialect": "ja",
+  "uiLanguage": "ja",
+  "greeting": {
+    "words": "Konnichiwa",
+    "wordsEn": "Hello",
+    "wordsAr": "أهلاً",
+    "gesture": "bow_nod"
+  },
+  "hospitality": {
+    "ar": "في اليابان أول شي يُقدَّم للضيف كاسة شاي.",
+    "en": "In Japan, the first thing a guest gets is a glass of tea.",
+    "tr": "Japonya misafire ilk olarak bir bardak çay ikram eder.",
+    "de": "In Japan bekommt ein Gast zuerst ein Glas Tee.",
+    "ur": "جاپان میں مہمان کو سب سے پہلے چائے پیش کی جاتی ہے۔",
+    "hi": "जापान में मेहमान को सबसे पहले चाय दी जाती है।",
+    "es": "En Japón, lo primero que recibe un invitado es un vaso de té.",
+    "pt": "No Japão, a primeira coisa que um convidado recebe é um copo de chá.",
+    "id": "Di Jepang, tamu pertama-tama disuguhi segelas teh.",
+    "ms": "Di Jepun, tetamu mula-mula dihidangkan segelas teh.",
+    "ja": "日本ではお客さんにまずお茶を一杯出します。",
+    "fr": "Japon : la première chose qu'on offre à un invité, c'est un verre de thé."
+  },
+  "customs": [
+    {
+      "act": "pour_tea",
+      "en": "Green tea is served with both hands.",
+      "ar": "الشاي الأخضر ينقدم باليدين."
+    },
+    {
+      "act": "invite_in",
+      "en": "Shoes come off at the door when you go in.",
+      "ar": "الحذاء ينخلع عند الباب أول ما تدخل."
+    }
+  ],
+  "architecture": "Wooden houses with tiled roofs, bamboo groves, neon streets and snowy peaks.",
+  "palette": [
+    "#BC002D",
+    "#FFFFFF",
+    "#F2A6C0",
+    "#2E4A2A"
+  ],
+  "music": {
+    "style": "Festival taiko",
+    "instruments": [
+      "taiko",
+      "shamisen",
+      "shakuhachi"
+    ]
+  },
+  "street": {
+    "vendors": [
+      "taiyaki stall",
+      "dango stall"
+    ],
+    "cafe": "tea house",
+    "kidsGames": [
+      "kendama",
+      "daruma-san ga koronda"
+    ],
+    "crowd": "quiet, polite, tidy"
+  },
+  "foods": [
+    {
+      "id": "japan_onigiri",
+      "local": "Onigiri",
+      "name": {
+        "ar": "أونيغيري",
+        "en": "Rice ball",
+        "tr": "Onigiri",
+        "de": "Onigiri",
+        "ur": "چاول کا گولا",
+        "hi": "चावल का गोला",
+        "es": "Onigiri",
+        "pt": "Onigiri",
+        "id": "Onigiri",
+        "ms": "Onigiri",
+        "ja": "おにぎり",
+        "fr": "Onigiri"
+      },
+      "fact": {
+        "ar": "سناك محبوب للطريق في اليابان.",
+        "en": "A favourite snack for the road in Japan.",
+        "tr": "Japonya için yolda yenen sevilen bir atıştırmalık.",
+        "de": "Ein beliebter Snack für unterwegs in Japan.",
+        "ur": "جاپان میں سفر کا پسندیدہ ناشتہ۔",
+        "hi": "जापान में सफ़र का पसंदीदा नाश्ता।",
+        "es": "Un tentempié favorito para el camino en Japón.",
+        "pt": "Um petisco favorito para a viagem no Japão.",
+        "id": "Camilan favorit untuk perjalanan di Jepang.",
+        "ms": "Snek kegemaran untuk perjalanan di Jepun.",
+        "ja": "日本で旅のお供に人気のおやつです。",
+        "fr": "Japon : un en-cas favori pour la route."
+      },
+      "shape": "ball",
+      "color": "#F5F5F0",
+      "color2": "#2E4A2A",
+      "buff": "energy",
+      "price": 25
+    },
+    {
+      "id": "japan_ramen",
+      "local": "Chicken shio ramen",
+      "name": {
+        "ar": "رامن بالدجاج",
+        "en": "Chicken noodle soup",
+        "tr": "Chicken shio ramen",
+        "de": "Chicken shio ramen",
+        "ur": "چکن رامن",
+        "hi": "चिकन रामेन",
+        "es": "Chicken shio ramen",
+        "pt": "Chicken shio ramen",
+        "id": "Chicken shio ramen",
+        "ms": "Chicken shio ramen",
+        "ja": "鶏塩ラーメン",
+        "fr": "Chicken shio ramen"
+      },
+      "fact": {
+        "ar": "يُباع حاراً في بسطات الشوارع في كل اليابان.",
+        "en": "Sold hot at street stalls all over Japan.",
+        "tr": "Japonya genelinde sokak tezgâhlarında sıcak satılır.",
+        "de": "Überall in Japan heiß an Straßenständen verkauft.",
+        "ur": "پورے جاپان میں ٹھیلوں پر گرم گرم بکتا ہے۔",
+        "hi": "पूरे जापान में ठेलों पर गरमा-गरम बिकता है।",
+        "es": "Se vende caliente en puestos callejeros por todo el territorio de Japón.",
+        "pt": "Vende-se quente em bancas de rua em todo o Japão.",
+        "id": "Dijual hangat di kaki lima di seluruh Jepang.",
+        "ms": "Dijual panas di gerai tepi jalan di seluruh Jepun.",
+        "ja": "日本のあちこちの屋台で熱々で売られています。",
+        "fr": "Japon : vendu tout chaud dans les stands de rue."
+      },
+      "shape": "bowl",
+      "color": "#F2D06B",
+      "color2": "#C8553D",
+      "buff": "strength",
+      "price": 70
+    },
+    {
+      "id": "japan_sushi",
+      "local": "Salmon nigiri",
+      "name": {
+        "ar": "سوشي سلمون",
+        "en": "Salmon nigiri",
+        "tr": "Salmon nigiri",
+        "de": "Salmon nigiri",
+        "ur": "سالمن سوشی",
+        "hi": "सैल्मन सुशी",
+        "es": "Salmon nigiri",
+        "pt": "Salmon nigiri",
+        "id": "Salmon nigiri",
+        "ms": "Salmon nigiri",
+        "ja": "サーモンにぎり",
+        "fr": "Salmon nigiri"
+      },
+      "fact": {
+        "ar": "من خير بحر اليابان وسواحلها.",
+        "en": "From the sea and coast of Japan.",
+        "tr": "Japonya denizinden ve kıyılarından.",
+        "de": "Aus dem Meer und von der Küste von Japan.",
+        "ur": "جاپان کے سمندر اور ساحل کی سوغات۔",
+        "hi": "जापान के समुद्र और तट की सौगात।",
+        "es": "Del mar y la costa de Japón.",
+        "pt": "Do mar e da costa do Japão.",
+        "id": "Dari laut dan pesisir Jepang.",
+        "ms": "Dari laut dan pantai Jepun.",
+        "ja": "日本の海と海岸の恵みです。",
+        "fr": "Japon : un trésor de la mer et de la côte."
+      },
+      "shape": "plate",
+      "color": "#F28C5A",
+      "color2": "#F5F5F0",
+      "buff": "speed",
+      "price": 90
+    },
+    {
+      "id": "japan_taiyaki",
+      "local": "Taiyaki",
+      "name": {
+        "ar": "تاياكي",
+        "en": "Fish-shaped bean cake",
+        "tr": "Taiyaki",
+        "de": "Taiyaki",
+        "ur": "مچھلی نما کیک",
+        "hi": "मछली के आकार का केक",
+        "es": "Taiyaki",
+        "pt": "Taiyaki",
+        "id": "Taiyaki",
+        "ms": "Taiyaki",
+        "ja": "たい焼き",
+        "fr": "Taiyaki"
+      },
+      "fact": {
+        "ar": "حلا محبوب في اليابان، أحلى مع الشاي أو القهوة.",
+        "en": "A sweet treat in Japan, best with tea or coffee.",
+        "tr": "Japonya için tatlı bir ikram, çay ya da kahveyle en güzeli.",
+        "de": "Eine süße Leckerei in Japan, am besten mit Tee oder Kaffee.",
+        "ur": "جاپان کی میٹھی سوغات، چائے یا کافی کے ساتھ مزیدار۔",
+        "hi": "जापान की मीठी सौगात, चाय या कॉफ़ी के साथ सबसे अच्छी।",
+        "es": "Un dulce de Japón, mejor con té o café.",
+        "pt": "Um doce do Japão, melhor com chá ou café.",
+        "id": "Camilan manis di Jepang, paling enak dengan teh atau kopi.",
+        "ms": "Manisan di Jepun, paling sedap dengan teh atau kopi.",
+        "ja": "日本の甘いおやつ。お茶やコーヒーと一緒にどうぞ。",
+        "fr": "Japon : une douceur, parfaite avec un thé ou un café."
+      },
+      "shape": "cake",
+      "color": "#D9A050",
+      "color2": "#6B3A1E",
+      "buff": "energy",
+      "price": 35
+    },
+    {
+      "id": "japan_mochi",
+      "local": "Mochi",
+      "name": {
+        "ar": "موتشي",
+        "en": "Rice cake",
+        "tr": "Mochi",
+        "de": "Mochi",
+        "ur": "موچی",
+        "hi": "मोची",
+        "es": "Mochi",
+        "pt": "Mochi",
+        "id": "Mochi",
+        "ms": "Mochi",
+        "ja": "もち",
+        "fr": "Mochi"
+      },
+      "fact": {
+        "ar": "حلا محبوب في اليابان، أحلى مع الشاي أو القهوة.",
+        "en": "A sweet treat in Japan, best with tea or coffee.",
+        "tr": "Japonya için tatlı bir ikram, çay ya da kahveyle en güzeli.",
+        "de": "Eine süße Leckerei in Japan, am besten mit Tee oder Kaffee.",
+        "ur": "جاپان کی میٹھی سوغات، چائے یا کافی کے ساتھ مزیدار۔",
+        "hi": "जापान की मीठी सौगात, चाय या कॉफ़ी के साथ सबसे अच्छी।",
+        "es": "Un dulce de Japón, mejor con té o café.",
+        "pt": "Um doce do Japão, melhor com chá ou café.",
+        "id": "Camilan manis di Jepang, paling enak dengan teh atau kopi.",
+        "ms": "Manisan di Jepun, paling sedap dengan teh atau kopi.",
+        "ja": "日本の甘いおやつ。お茶やコーヒーと一緒にどうぞ。",
+        "fr": "Japon : une douceur, parfaite avec un thé ou un café."
+      },
+      "shape": "ball",
+      "color": "#F2A6C0",
+      "color2": "#FFFFFF",
+      "buff": "magnet",
+      "price": 30
+    }
+  ],
+  "animals": [
+    "japan_deer",
+    "japan_snow_monkey",
+    "japan_koi",
+    "japan_black_bear"
+  ],
+  "attackTrailVfx": "cherry_petals",
+  "eatIdle": {
+    "dishId": "japan_onigiri",
+    "propModel": "food_onigiri",
+    "reaction": "yum"
+  }
+}

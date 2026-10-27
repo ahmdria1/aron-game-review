@@ -1,0 +1,93 @@
+{
+  "country": "mauritania",
+  "costumes": [
+    {
+      "id": "mauritania_traditional",
+      "country": "mauritania",
+      "hero": "aron",
+      "nameAr": "الدراعة الزرقاء",
+      "nameEn": "Blue daraa",
+      "isDefault": true,
+      "price": 0,
+      "materials": [
+        {
+          "material": "Clothes",
+          "color": "#2B5DA8"
+        },
+        {
+          "material": "Trim",
+          "color": "#C9A86A"
+        }
+      ],
+      "meshes": [
+        {
+          "slot": "feet",
+          "mesh": "shoes_closed"
+        }
+      ],
+      "accessories": [
+        {
+          "kind": "turban",
+          "color": "#1C2E5A"
+        },
+        {
+          "kind": "sash",
+          "color": "#E8C14A"
+        }
+      ],
+      "footwear": "leather_shoes",
+      "footwearColor": "#5A3A22",
+      "agalMount": "wrist",
+      "boredIdle": {
+        "id": "mauritania_tea_pour_high",
+        "trigger": 20,
+        "noteEn": "Pours tea from high up and makes foam",
+        "lineAr": "الرغوة هي أحلى شي في الشاي!",
+        "seconds": 4
+      }
+    },
+    {
+      "id": "mauritania_noura",
+      "country": "mauritania",
+      "hero": "noura",
+      "nameAr": "الملحفة",
+      "nameEn": "Melhfa",
+      "isDefault": true,
+      "price": 0,
+      "materials": [
+        {
+          "material": "Clothes",
+          "color": "#2B5DA8"
+        }
+      ],
+      "meshes": [
+        {
+          "slot": "body",
+          "mesh": "abaya_long"
+        },
+        {
+          "slot": "feet",
+          "mesh": "shoes_closed"
+        }
+      ],
+      "accessories": [
+        {
+          "kind": "abaya",
+          "color": "#2B5DA8",
+          "pattern": "#C9A86A"
+        },
+        {
+          "kind": "hijab",
+          "color": "#2B5DA8"
+        },
+        {
+          "kind": "shawl",
+          "color": "#5A8AD0"
+        }
+      ],
+      "footwear": "closed_flats",
+      "footwearColor": "#2A2020",
+      "agalMount": "none"
+    }
+  ]
+}

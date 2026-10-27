@@ -1,0 +1,10 @@
+{
+  "levels": [
+    { "id": "easy", "extraLives": 2, "checkpointSeconds": 60, "enemySpeed": 0.8, "bossHealth": 0.75, "mercyDeaths": 3, "bossExtraAttack": false, "assist": true },
+    { "id": "normal", "extraLives": 0, "checkpointSeconds": 90, "enemySpeed": 1.0, "bossHealth": 1.0, "mercyDeaths": 3, "bossExtraAttack": false, "assist": true },
+    { "id": "hard", "extraLives": 0, "checkpointSeconds": 110, "enemySpeed": 1.15, "bossHealth": 1.25, "mercyDeaths": 0, "bossExtraAttack": true, "assist": false }
+  ],
+  "assist": { "deathsBeforeAssist": 2, "chaseSlowPerDeath": 0.05, "minChaseSpeed": 0.8, "jumpGracePerDeath": 0.03, "maxJumpGrace": 0.12 },
+  "hardRewardAron": "saudi_golden_bisht",
+  "hardRewardNoura": "saudi_noura_golden_abaya"
+}

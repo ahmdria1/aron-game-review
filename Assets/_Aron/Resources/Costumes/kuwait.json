@@ -1,0 +1,172 @@
+{
+  "country": "kuwait",
+  "costumes": [
+    {
+      "id": "kuwait_dishdasha",
+      "country": "kuwait",
+      "hero": "aron",
+      "nameAr": "الدشداشة والغترة",
+      "nameEn": "Dishdasha and ghutra",
+      "isDefault": true,
+      "price": 0,
+      "materials": [
+        {
+          "material": "Clothes",
+          "color": "#F7F6F0"
+        }
+      ],
+      "meshes": [
+        {
+          "slot": "body",
+          "mesh": "thobe_long"
+        },
+        {
+          "slot": "feet",
+          "mesh": "shoes_closed"
+        }
+      ],
+      "accessories": [
+        {
+          "kind": "ghutra",
+          "color": "#FFFFFF"
+        },
+        {
+          "kind": "agal",
+          "color": "#111111"
+        }
+      ],
+      "footwear": "leather_shoes",
+      "footwearColor": "#5A3A22",
+      "agalMount": "head"
+    },
+    {
+      "id": "kuwait_bisht",
+      "country": "kuwait",
+      "hero": "aron",
+      "nameAr": "الدشداشة والبشت",
+      "nameEn": "Dishdasha and bisht",
+      "isDefault": false,
+      "price": 0,
+      "materials": [
+        {
+          "material": "Clothes",
+          "color": "#F7F6F0"
+        }
+      ],
+      "meshes": [
+        {
+          "slot": "body",
+          "mesh": "thobe_long"
+        },
+        {
+          "slot": "feet",
+          "mesh": "shoes_closed"
+        }
+      ],
+      "accessories": [
+        {
+          "kind": "ghutra",
+          "color": "#FFFFFF"
+        },
+        {
+          "kind": "agal",
+          "color": "#111111"
+        },
+        {
+          "kind": "bisht",
+          "color": "#2B2118",
+          "pattern": "#D4AF37"
+        }
+      ],
+      "footwear": "leather_shoes",
+      "footwearColor": "#5A3A22",
+      "agalMount": "head"
+    },
+    {
+      "id": "kuwait_noura",
+      "country": "kuwait",
+      "hero": "noura",
+      "nameAr": "العباية الكويتية",
+      "nameEn": "Kuwaiti abaya",
+      "isDefault": true,
+      "price": 0,
+      "materials": [
+        {
+          "material": "Clothes",
+          "color": "#121216"
+        }
+      ],
+      "meshes": [
+        {
+          "slot": "body",
+          "mesh": "abaya_long"
+        },
+        {
+          "slot": "feet",
+          "mesh": "shoes_closed"
+        }
+      ],
+      "accessories": [
+        {
+          "kind": "abaya",
+          "color": "#121216",
+          "pattern": "#2F6FA8"
+        },
+        {
+          "kind": "hijab",
+          "color": "#121216"
+        }
+      ],
+      "footwear": "closed_flats",
+      "footwearColor": "#2A2020",
+      "agalMount": "none"
+    },
+    {
+      "id": "kuwait_noura_bisht",
+      "country": "kuwait",
+      "hero": "noura",
+      "nameAr": "العباية المطرزة",
+      "nameEn": "Embroidered abaya",
+      "isDefault": false,
+      "price": 0,
+      "materials": [
+        {
+          "material": "Clothes",
+          "color": "#121216"
+        },
+        {
+          "material": "Trim",
+          "color": "#C9A227"
+        }
+      ],
+      "meshes": [
+        {
+          "slot": "body",
+          "mesh": "abaya_embroidered"
+        },
+        {
+          "slot": "feet",
+          "mesh": "shoes_closed"
+        }
+      ],
+      "accessories": [
+        {
+          "kind": "abaya",
+          "color": "#121216",
+          "pattern": "#C9A227"
+        },
+        {
+          "kind": "hijab",
+          "color": "#121216"
+        },
+        {
+          "kind": "embroidery",
+          "color": "#C9A227"
+        }
+      ],
+      "footwear": "closed_flats",
+      "footwearColor": "#2A2020",
+      "agalMount": "none"
+    }
+  ]
+}

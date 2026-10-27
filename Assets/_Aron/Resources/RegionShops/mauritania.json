@@ -1,0 +1,20 @@
+{
+  "region": "mauritania",
+  "shops": [
+    {
+      "stage": "mauritania_4",
+      "nameAr": "شاي أم الخير",
+      "kind": "tea"
+    },
+    {
+      "stage": "mauritania_2",
+      "nameAr": "خيام ودان",
+      "kind": "fabric"
+    },
+    {
+      "stage": "mauritania_6",
+      "nameAr": "تمور تيشيت",
+      "kind": "dates"
+    }
+  ]
+}

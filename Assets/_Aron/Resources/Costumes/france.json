@@ -1,0 +1,99 @@
+{
+  "country": "france",
+  "costumes": [
+    {
+      "id": "france_traditional",
+      "country": "france",
+      "hero": "aron",
+      "nameAr": "المعطف والقبعة",
+      "nameEn": "Coat and beret",
+      "isDefault": true,
+      "price": 0,
+      "materials": [
+        {
+          "material": "Clothes",
+          "color": "#2A4D9B"
+        },
+        {
+          "material": "Trim",
+          "color": "#C9A86A"
+        }
+      ],
+      "meshes": [
+        {
+          "slot": "feet",
+          "mesh": "shoes_closed"
+        }
+      ],
+      "accessories": [
+        {
+          "kind": "shirt",
+          "color": "#FFFFFF",
+          "pattern": "#2A4D9B"
+        },
+        {
+          "kind": "long_coat",
+          "color": "#3A3A4A",
+          "pattern": "#9A7FC2"
+        },
+        {
+          "kind": "fisherman_cap",
+          "color": "#1E1E2A"
+        }
+      ],
+      "footwear": "leather_shoes",
+      "footwearColor": "#5A3A22",
+      "agalMount": "wrist",
+      "boredIdle": {
+        "id": "france_baguette_balance",
+        "trigger": 23,
+        "noteEn": "Balances a baguette on one finger",
+        "lineAr": "لا تطيح... لا تطيح!",
+        "seconds": 4
+      }
+    },
+    {
+      "id": "france_noura",
+      "country": "france",
+      "hero": "noura",
+      "nameAr": "العباية الخزامية",
+      "nameEn": "Lavender abaya",
+      "isDefault": true,
+      "price": 0,
+      "materials": [
+        {
+          "material": "Clothes",
+          "color": "#6B4E9B"
+        }
+      ],
+      "meshes": [
+        {
+          "slot": "body",
+          "mesh": "abaya_long"
+        },
+        {
+          "slot": "feet",
+          "mesh": "shoes_closed"
+        }
+      ],
+      "accessories": [
+        {
+          "kind": "abaya",
+          "color": "#6B4E9B",
+          "pattern": "#C9A86A"
+        },
+        {
+          "kind": "hijab",
+          "color": "#E8DCF4"
+        },
+        {
+          "kind": "shawl",
+          "color": "#9A7FC2"
+        }
+      ],
+      "footwear": "closed_flats",
+      "footwearColor": "#2A2020",
+      "agalMount": "none"
+    }
+  ]
+}

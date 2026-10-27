@@ -1,0 +1,20 @@
+{
+  "region": "kuwait",
+  "shops": [
+    {
+      "stage": "kuwait_2",
+      "nameAr": "بقالة أبو فهد",
+      "kind": "grocery"
+    },
+    {
+      "stage": "kuwait_3",
+      "nameAr": "سمك بو صالح الطازج",
+      "kind": "fish"
+    },
+    {
+      "stage": "kuwait_5",
+      "nameAr": "قهوة الفريج",
+      "kind": "cafe"
+    }
+  ]
+}

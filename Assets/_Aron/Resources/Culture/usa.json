@@ -1,0 +1,263 @@
+{
+  "country": "usa",
+  "dialect": "en-US",
+  "uiLanguage": "en",
+  "greeting": {
+    "words": "Hi there, howdy!",
+    "wordsEn": "Hi there!",
+    "wordsAr": "هلا والله!",
+    "gesture": "wave"
+  },
+  "hospitality": {
+    "ar": "في أمريكا الضيف لازم يتعشى قبل لا يمشي.",
+    "en": "In the USA, a guest is always asked to stay and eat.",
+    "tr": "ABD misafiri her zaman yemeğe alıkoyar.",
+    "de": "In den USA wird ein Gast immer zum Essen eingeladen.",
+    "ur": "امریکہ میں مہمان کو ہمیشہ کھانے پر روکا جاتا ہے۔",
+    "hi": "अमेरिका में मेहमान को हमेशा खाने के लिए रोका जाता है।",
+    "es": "En Estados Unidos siempre se invita al huésped a quedarse a comer.",
+    "pt": "Nos Estados Unidos pede-se sempre ao convidado que fique para comer.",
+    "id": "Di Amerika Serikat, tamu selalu diajak makan dulu.",
+    "ms": "Di Amerika Syarikat, tetamu sentiasa diajak makan dahulu.",
+    "ja": "アメリカではお客さんはいつも食事に誘われます。",
+    "fr": "États-Unis : on invite toujours l'invité à rester manger."
+  },
+  "customs": [
+    {
+      "act": "share_bread",
+      "en": "Big family dinners where everyone brings a dish.",
+      "ar": "عزايم كبيرة وكل واحد يجيب طبق."
+    },
+    {
+      "act": "wave_hello",
+      "en": "Neighbours wave from their porches.",
+      "ar": "الجيران يأشرون من قدام بيوتهم."
+    }
+  ],
+  "architecture": "Glass skylines, red rock canyons, wooden ranch houses and big bridges.",
+  "palette": [
+    "#3C3B6E",
+    "#B22234",
+    "#FFFFFF",
+    "#C8803A"
+  ],
+  "music": {
+    "style": "Country and brass",
+    "instruments": [
+      "banjo",
+      "fiddle",
+      "harmonica"
+    ]
+  },
+  "street": {
+    "vendors": [
+      "pretzel cart",
+      "lemonade stand"
+    ],
+    "cafe": "diner",
+    "kidsGames": [
+      "baseball",
+      "basketball"
+    ],
+    "crowd": "busy, friendly, big streets"
+  },
+  "foods": [
+    {
+      "id": "usa_burger",
+      "local": "Halal beef burger",
+      "name": {
+        "ar": "برجر لحم",
+        "en": "Beef burger",
+        "tr": "Halal beef burger",
+        "de": "Halal beef burger",
+        "ur": "بیف برگر",
+        "hi": "बीफ़ बर्गर",
+        "es": "Halal beef burger",
+        "pt": "Halal beef burger",
+        "id": "Halal beef burger",
+        "ms": "Halal beef burger",
+        "ja": "ビーフバーガー",
+        "fr": "Halal beef burger"
+      },
+      "fact": {
+        "ar": "تُعرف غالباً بأنها الأكلة الوطنية في أمريكا.",
+        "en": "Often called the national dish of the USA.",
+        "tr": "Genellikle ABD ulusal yemeği sayılır.",
+        "de": "Gilt oft als Nationalgericht von den USA.",
+        "ur": "اسے اکثر امریکہ کا قومی کھانا کہا جاتا ہے۔",
+        "hi": "इसे अक्सर अमेरिका का राष्ट्रीय व्यंजन कहा जाता है।",
+        "es": "Se le suele llamar el plato nacional de Estados Unidos.",
+        "pt": "É muitas vezes chamado o prato nacional dos Estados Unidos.",
+        "id": "Sering disebut hidangan nasional Amerika Serikat.",
+        "ms": "Sering disebut hidangan kebangsaan Amerika Syarikat.",
+        "ja": "アメリカの国民食とよく言われます。",
+        "fr": "États-Unis : souvent appelé le plat national."
+      },
+      "shape": "bun",
+      "color": "#8A4A1E",
+      "color2": "#F2C14E",
+      "buff": "strength",
+      "price": 70
+    },
+    {
+      "id": "usa_pancakes",
+      "local": "Pancakes with maple syrup",
+      "name": {
+        "ar": "بانكيك بالقيقب",
+        "en": "Pancakes with maple syrup",
+        "tr": "Pancakes with maple syrup",
+        "de": "Pancakes with maple syrup",
+        "ur": "پین کیک",
+        "hi": "पैनकेक",
+        "es": "Pancakes with maple syrup",
+        "pt": "Pancakes with maple syrup",
+        "id": "Pancakes with maple syrup",
+        "ms": "Pancakes with maple syrup",
+        "ja": "パンケーキ",
+        "fr": "Pancakes with maple syrup"
+      },
+      "fact": {
+        "ar": "فطور محبوب في أمريكا.",
+        "en": "A favourite breakfast in the USA.",
+        "tr": "ABD için sevilen bir kahvaltı.",
+        "de": "Ein beliebtes Frühstück in den USA.",
+        "ur": "امریکہ کا پسندیدہ ناشتہ۔",
+        "hi": "अमेरिका का पसंदीदा नाश्ता।",
+        "es": "Un desayuno favorito en Estados Unidos.",
+        "pt": "Um pequeno-almoço favorito nos Estados Unidos.",
+        "id": "Sarapan favorit di Amerika Serikat.",
+        "ms": "Sarapan kegemaran di Amerika Syarikat.",
+        "ja": "アメリカで人気の朝ごはんです。",
+        "fr": "États-Unis : un petit-déjeuner très apprécié."
+      },
+      "shape": "cake",
+      "color": "#E0B070",
+      "color2": "#8A4A1E",
+      "buff": "energy",
+      "price": 45
+    },
+    {
+      "id": "usa_mac_cheese",
+      "local": "Mac and cheese",
+      "name": {
+        "ar": "معكرونة بالجبن",
+        "en": "Mac and cheese",
+        "tr": "Mac and cheese",
+        "de": "Mac and cheese",
+        "ur": "پنیر والی پاستا",
+        "hi": "चीज़ पास्ता",
+        "es": "Mac and cheese",
+        "pt": "Mac and cheese",
+        "id": "Mac and cheese",
+        "ms": "Mac and cheese",
+        "ja": "マカロニチーズ",
+        "fr": "Mac and cheese"
+      },
+      "fact": {
+        "ar": "يتشاركونه من صحن كبير مع الأهل والضيوف في أمريكا.",
+        "en": "Shared from one big plate with family and guests in the USA.",
+        "tr": "ABD için aile ve misafirlerle büyük bir tabaktan paylaşılır.",
+        "de": "In den USA von einer großen Platte mit Familie und Gästen geteilt.",
+        "ur": "امریکہ میں گھر والوں اور مہمانوں کے ساتھ ایک بڑی پلیٹ سے کھایا جاتا ہے۔",
+        "hi": "अमेरिका में परिवार और मेहमानों के साथ एक बड़ी थाली से खाया जाता है।",
+        "es": "Se comparte de una gran fuente con familia e invitados en Estados Unidos.",
+        "pt": "Partilha-se de uma grande travessa com família e convidados nos Estados Unidos.",
+        "id": "Disantap bersama dari satu piring besar dengan keluarga dan tamu di Amerika Serikat.",
+        "ms": "Dikongsi dari satu pinggan besar bersama keluarga dan tetamu di Amerika Syarikat.",
+        "ja": "アメリカでは大皿から家族やお客さんと分け合います。",
+        "fr": "États-Unis : partagé dans un grand plat avec la famille et les invités."
+      },
+      "shape": "bowl",
+      "color": "#F2C14E",
+      "color2": "#E0A64A",
+      "buff": "strength",
+      "price": 50
+    },
+    {
+      "id": "usa_corn_bread",
+      "local": "Cornbread",
+      "name": {
+        "ar": "خبز الذرة",
+        "en": "Cornbread",
+        "tr": "Cornbread",
+        "de": "Cornbread",
+        "ur": "مکئی کی روٹی",
+        "hi": "मक्के की ब्रेड",
+        "es": "Cornbread",
+        "pt": "Cornbread",
+        "id": "Cornbread",
+        "ms": "Cornbread",
+        "ja": "コーンブレッド",
+        "fr": "Cornbread"
+      },
+      "fact": {
+        "ar": "خبز يومي على السفرة في كل أمريكا.",
+        "en": "Daily bread on tables across USA.",
+        "tr": "ABD genelinde sofraların günlük ekmeği.",
+        "de": "Tägliches Brot auf den Tischen in den gesamten USA.",
+        "ur": "پورے امریکہ میں دسترخوان کی روزانہ کی روٹی۔",
+        "hi": "पूरे अमेरिका में रोज़ की रोटी।",
+        "es": "Pan de cada día en las mesas de Estados Unidos.",
+        "pt": "Pão de todos os dias nas mesas dos Estados Unidos.",
+        "id": "Roti sehari-hari di meja seluruh Amerika Serikat.",
+        "ms": "Roti harian di meja seluruh Amerika Syarikat.",
+        "ja": "アメリカの食卓に毎日並ぶパンです。",
+        "fr": "États-Unis : le pain de tous les jours sur la table."
+      },
+      "shape": "cake",
+      "color": "#F2D06B",
+      "color2": "#C8803A",
+      "buff": "speed",
+      "price": 30
+    },
+    {
+      "id": "usa_apple_pie",
+      "local": "Apple pie",
+      "name": {
+        "ar": "فطيرة التفاح",
+        "en": "Apple pie",
+        "tr": "Apple pie",
+        "de": "Apple pie",
+        "ur": "سیب کی پائی",
+        "hi": "सेब की पाई",
+        "es": "Apple pie",
+        "pt": "Apple pie",
+        "id": "Apple pie",
+        "ms": "Apple pie",
+        "ja": "アップルパイ",
+        "fr": "Apple pie"
+      },
+      "fact": {
+        "ar": "حلا محبوب في أمريكا، أحلى مع الشاي أو القهوة.",
+        "en": "A sweet treat in the USA, best with tea or coffee.",
+        "tr": "ABD için tatlı bir ikram, çay ya da kahveyle en güzeli.",
+        "de": "Eine süße Leckerei in den USA, am besten mit Tee oder Kaffee.",
+        "ur": "امریکہ کی میٹھی سوغات، چائے یا کافی کے ساتھ مزیدار۔",
+        "hi": "अमेरिका की मीठी सौगात, चाय या कॉफ़ी के साथ सबसे अच्छी।",
+        "es": "Un dulce de Estados Unidos, mejor con té o café.",
+        "pt": "Um doce dos Estados Unidos, melhor com chá ou café.",
+        "id": "Camilan manis di Amerika Serikat, paling enak dengan teh atau kopi.",
+        "ms": "Manisan di Amerika Syarikat, paling sedap dengan teh atau kopi.",
+        "ja": "アメリカの甘いおやつ。お茶やコーヒーと一緒にどうぞ。",
+        "fr": "États-Unis : une douceur, parfaite avec un thé ou un café."
+      },
+      "shape": "cake",
+      "color": "#D9A050",
+      "color2": "#A0522D",
+      "buff": "energy",
+      "price": 45
+    }
+  ],
+  "animals": [
+    "usa_bald_eagle",
+    "usa_bison",
+    "usa_horse",
+    "usa_brown_bear"
+  ],
+  "attackTrailVfx": "stars",
+  "eatIdle": {
+    "dishId": "usa_burger",
+    "propModel": "food_burger",
+    "reaction": "yum"
+  }
+}

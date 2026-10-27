@@ -1,0 +1,219 @@
+{
+  "order": 364,
+  "id": "libya",
+  "nameAr": "ليبيا",
+  "nameEn": "Libya",
+  "group": "arab",
+  "music": "music_country_libya",
+  "ground": "#D9B27C",
+  "accent": "#239E46",
+  "sky": "#A8CBE8",
+  "country": "libya",
+  "costume": "",
+  "stages": [
+    {
+      "id": "libya_1",
+      "nameAr": "ميدان الشهداء",
+      "nameEn": "Martyrs' Square",
+      "terrain": "street",
+      "landmarks": [
+        "monument",
+        "fountain"
+      ],
+      "mount": "",
+      "difficulty": 7,
+      "boss": false,
+      "lineAr": "ميدان الشهداء في طرابلس.",
+      "extra": "",
+      "time": "day",
+      "weather": "clear",
+      "type": "normal",
+      "costume": ""
+    },
+    {
+      "id": "libya_2",
+      "nameAr": "السرايا الحمراء",
+      "nameEn": "The Red Castle",
+      "terrain": "ruins",
+      "landmarks": [
+        "fort",
+        "palms"
+      ],
+      "mount": "",
+      "difficulty": 7,
+      "boss": false,
+      "lineAr": "السرايا الحمراء على البحر.",
+      "extra": "",
+      "time": "sunset",
+      "weather": "clear",
+      "type": "normal",
+      "costume": ""
+    },
+    {
+      "id": "libya_3",
+      "nameAr": "سوق المشير",
+      "nameEn": "Souq al-Mushir",
+      "terrain": "souq",
+      "landmarks": [
+        "souq",
+        "gate"
+      ],
+      "mount": "",
+      "difficulty": 8,
+      "boss": false,
+      "lineAr": "سوق المشير بالليل، وهم ورايا!",
+      "extra": "",
+      "time": "night",
+      "weather": "clear",
+      "type": "chase",
+      "costume": ""
+    },
+    {
+      "id": "libya_4",
+      "nameAr": "لبدة الكبرى",
+      "nameEn": "Leptis Magna",
+      "terrain": "ruins",
+      "landmarks": [
+        "columns",
+        "amphitheater"
+      ],
+      "mount": "",
+      "difficulty": 8,
+      "boss": false,
+      "lineAr": "لبدة الكبرى، مدينة كاملة من حجر.",
+      "extra": "",
+      "time": "day",
+      "weather": "clear",
+      "type": "normal",
+      "costume": ""
+    },
+    {
+      "id": "libya_5",
+      "nameAr": "غدامس",
+      "nameEn": "Ghadames",
+      "terrain": "oasis",
+      "landmarks": [
+        "mud_town",
+        "palms"
+      ],
+      "mount": "horse",
+      "difficulty": 8,
+      "boss": false,
+      "lineAr": "غدامس جوهرة الصحراء، يلا يا حصان.",
+      "extra": "",
+      "time": "sunset",
+      "weather": "clear",
+      "type": "normal",
+      "costume": ""
+    },
+    {
+      "id": "libya_6",
+      "nameAr": "بحيرات أوباري",
+      "nameEn": "Ubari Lakes",
+      "terrain": "desert",
+      "landmarks": [
+        "dunes",
+        "lake"
+      ],
+      "mount": "camel",
+      "difficulty": 9,
+      "boss": false,
+      "lineAr": "بحيرات وسط الرمل! والقبلي هب!",
+      "extra": "",
+      "time": "day",
+      "weather": "sandstorm",
+      "type": "chase",
+      "costume": ""
+    },
+    {
+      "id": "libya_race",
+      "nameAr": "رالي الصحراء الكبرى",
+      "nameEn": "Great Desert Rally",
+      "terrain": "desert",
+      "landmarks": [
+        "dunes",
+        "mud_town"
+      ],
+      "mount": "",
+      "difficulty": 9,
+      "boss": false,
+      "lineAr": "سباق! رالي الصحراء الكبرى، يلا نشوف مين الأول!",
+      "extra": "",
+      "time": "day",
+      "weather": "clear",
+      "type": "race",
+      "costume": "",
+      "race": "libya_car"
+    },
+    {
+      "id": "libya_7",
+      "nameAr": "قوس ماركوس أوريليوس",
+      "nameEn": "Arch of Marcus Aurelius",
+      "terrain": "street",
+      "landmarks": [
+        "big_arch",
+        "columns"
+      ],
+      "mount": "",
+      "difficulty": 9,
+      "boss": true,
+      "lineAr": "الفارس المقنع ينتظرني عند القوس...",
+      "extra": "",
+      "time": "night",
+      "weather": "clear",
+      "type": "boss",
+      "costume": ""
+    }
+  ],
+  "boss": {
+    "nameAr": "الفارس المقنّع",
+    "nameEn": "The Masked Rider",
+    "model": "ninja",
+    "headgear": "helmet",
+    "body": "#1C3D7A",
+    "trim": "#D4AF37",
+    "projectile": "#7FB2FF",
+    "scale": 1.25,
+    "health": 17,
+    "introAr": "ما حد يعرف وجهي، وما حد عدى من هني!",
+    "stunAr": "اللثام طاح على عيوني!",
+    "defeatAr": "خلاص... ليبيا ليك.",
+    "phases": [
+      {
+        "threshold": 1.0,
+        "move": 4,
+        "charge": 14,
+        "interval": 2.7,
+        "attacks": [
+          "dash",
+          "volley"
+        ],
+        "tauntAr": "أسرع من القبلي!"
+      },
+      {
+        "threshold": 0.66,
+        "move": 4.5,
+        "charge": 15,
+        "interval": 2.3,
+        "attacks": [
+          "dash",
+          "leap",
+          "wave"
+        ],
+        "tauntAr": "من كل جهة!"
+      },
+      {
+        "threshold": 0.33,
+        "move": 5.5,
+        "charge": 17,
+        "interval": 1.8,
+        "attacks": [
+          "volley",
+          "leap",
+          "summon"
+        ],
+        "tauntAr": "يا فرسان!"
+      }
+    ]
+  }
+}

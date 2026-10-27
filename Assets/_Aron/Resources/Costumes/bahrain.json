@@ -1,0 +1,86 @@
+{
+  "country": "bahrain",
+  "costumes": [
+    {
+      "id": "bahrain_thobe",
+      "country": "bahrain",
+      "hero": "aron",
+      "nameAr": "الثوب والغترة",
+      "nameEn": "Thobe and ghutra",
+      "isDefault": true,
+      "price": 0,
+      "materials": [
+        {
+          "material": "Clothes",
+          "color": "#F5F3EC"
+        }
+      ],
+      "meshes": [
+        {
+          "slot": "body",
+          "mesh": "thobe_long"
+        },
+        {
+          "slot": "feet",
+          "mesh": "shoes_closed"
+        }
+      ],
+      "accessories": [
+        {
+          "kind": "ghutra",
+          "color": "#FFFFFF"
+        },
+        {
+          "kind": "agal",
+          "color": "#111111"
+        }
+      ],
+      "footwear": "leather_shoes",
+      "footwearColor": "#5A3A22",
+      "agalMount": "head"
+    },
+    {
+      "id": "bahrain_noura",
+      "country": "bahrain",
+      "hero": "noura",
+      "nameAr": "العباية والبخنق",
+      "nameEn": "Abaya and bukhnug",
+      "isDefault": true,
+      "price": 0,
+      "materials": [
+        {
+          "material": "Clothes",
+          "color": "#131318"
+        }
+      ],
+      "meshes": [
+        {
+          "slot": "body",
+          "mesh": "abaya_long"
+        },
+        {
+          "slot": "feet",
+          "mesh": "shoes_closed"
+        }
+      ],
+      "accessories": [
+        {
+          "kind": "abaya",
+          "color": "#131318",
+          "pattern": "#3FA796"
+        },
+        {
+          "kind": "hijab",
+          "color": "#131318"
+        },
+        {
+          "kind": "shawl",
+          "color": "#3FA796"
+        }
+      ],
+      "footwear": "closed_flats",
+      "footwearColor": "#2A2020",
+      "agalMount": "none"
+    }
+  ]
+}

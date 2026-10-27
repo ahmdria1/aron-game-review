@@ -1,0 +1,20 @@
+{
+  "region": "tunisia",
+  "shops": [
+    {
+      "stage": "tunisia_2",
+      "nameAr": "شواشي الحاج الهادي",
+      "kind": "hats"
+    },
+    {
+      "stage": "tunisia_1",
+      "nameAr": "بمبالوني عم صالح",
+      "kind": "bakery"
+    },
+    {
+      "stage": "tunisia_6",
+      "nameAr": "تمور دقلة توزر",
+      "kind": "dates"
+    }
+  ]
+}

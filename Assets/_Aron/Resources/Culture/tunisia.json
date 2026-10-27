@@ -1,0 +1,261 @@
+{
+  "country": "tunisia",
+  "dialect": "tunisian",
+  "uiLanguage": "ar",
+  "greeting": {
+    "words": "عسلامة، لاباس؟",
+    "wordsEn": "Hello, all good?",
+    "wordsAr": "عسلامة، لاباس؟",
+    "gesture": "handshake"
+  },
+  "hospitality": {
+    "ar": "في تونس أول شي يُقدَّم للضيف كاسة شاي.",
+    "en": "In Tunisia, the first thing a guest gets is a glass of tea.",
+    "tr": "Tunus misafire ilk olarak bir bardak çay ikram eder.",
+    "de": "In Tunesien bekommt ein Gast zuerst ein Glas Tee.",
+    "ur": "تیونس میں مہمان کو سب سے پہلے چائے پیش کی جاتی ہے۔",
+    "hi": "ट्यूनीशिया में मेहमान को सबसे पहले चाय दी जाती है।",
+    "es": "En Túnez, lo primero que recibe un invitado es un vaso de té.",
+    "pt": "Na Tunísia, a primeira coisa que um convidado recebe é um copo de chá.",
+    "id": "Di Tunisia, tamu pertama-tama disuguhi segelas teh.",
+    "ms": "Di Tunisia, tetamu mula-mula dihidangkan segelas teh.",
+    "ja": "チュニジアではお客さんにまずお茶を一杯出します。",
+    "fr": "Tunisie : la première chose qu'on offre à un invité, c'est un verre de thé."
+  },
+  "customs": [
+    {
+      "act": "pour_tea",
+      "en": "Mint tea with pine nuts on top.",
+      "ar": "تاي بالنعناع والزقوقو."
+    },
+    {
+      "act": "bargain",
+      "en": "Bargain gently in the medina souqs.",
+      "ar": "الفصال بلطف في أسواق المدينة."
+    }
+  ],
+  "architecture": "White and blue villages, Roman amphitheatres, desert ksour.",
+  "palette": [
+    "#E70013",
+    "#FFFFFF",
+    "#1E6EB4",
+    "#C8A060"
+  ],
+  "music": {
+    "style": "Malouf and mezoued",
+    "instruments": [
+      "mezoued",
+      "darbuka",
+      "oud"
+    ]
+  },
+  "street": {
+    "vendors": [
+      "bambalouni fryer",
+      "brik stall"
+    ],
+    "cafe": "café with mint tea",
+    "kidsGames": [
+      "marbles",
+      "football"
+    ],
+    "crowd": "seaside strolls, warm"
+  },
+  "foods": [
+    {
+      "id": "tunisia_couscous",
+      "local": "Kosksi",
+      "name": {
+        "ar": "كسكسي",
+        "en": "Couscous with fish",
+        "tr": "Kosksi",
+        "de": "Kosksi",
+        "ur": "کسکس",
+        "hi": "कूसकूस",
+        "es": "Kosksi",
+        "pt": "Kosksi",
+        "id": "Kosksi",
+        "ms": "Kosksi",
+        "ja": "クスクス",
+        "fr": "Kosksi"
+      },
+      "fact": {
+        "ar": "تُعرف غالباً بأنها الأكلة الوطنية في تونس.",
+        "en": "Often called the national dish of Tunisia.",
+        "tr": "Genellikle Tunus ulusal yemeği sayılır.",
+        "de": "Gilt oft als Nationalgericht von Tunesien.",
+        "ur": "اسے اکثر تیونس کا قومی کھانا کہا جاتا ہے۔",
+        "hi": "इसे अक्सर ट्यूनीशिया का राष्ट्रीय व्यंजन कहा जाता है।",
+        "es": "Se le suele llamar el plato nacional de Túnez.",
+        "pt": "É muitas vezes chamado o prato nacional da Tunísia.",
+        "id": "Sering disebut hidangan nasional Tunisia.",
+        "ms": "Sering disebut hidangan kebangsaan Tunisia.",
+        "ja": "チュニジアの国民食とよく言われます。",
+        "fr": "Tunisie : souvent appelé le plat national."
+      },
+      "shape": "bowl",
+      "color": "#E8C77A",
+      "color2": "#C8553D",
+      "buff": "strength",
+      "price": 60
+    },
+    {
+      "id": "tunisia_brik",
+      "local": "Brik",
+      "name": {
+        "ar": "بريك",
+        "en": "Crispy egg pastry",
+        "tr": "Brik",
+        "de": "Brik",
+        "ur": "بریک",
+        "hi": "ब्रिक",
+        "es": "Brik",
+        "pt": "Brik",
+        "id": "Brik",
+        "ms": "Brik",
+        "ja": "ブリック",
+        "fr": "Brik"
+      },
+      "fact": {
+        "ar": "يُباع حاراً في بسطات الشوارع في كل تونس.",
+        "en": "Sold hot at street stalls all over Tunisia.",
+        "tr": "Tunus genelinde sokak tezgâhlarında sıcak satılır.",
+        "de": "Überall in Tunesien heiß an Straßenständen verkauft.",
+        "ur": "پورے تیونس میں ٹھیلوں پر گرم گرم بکتا ہے۔",
+        "hi": "पूरे ट्यूनीशिया में ठेलों पर गरमा-गरम बिकता है।",
+        "es": "Se vende caliente en puestos callejeros por todo el territorio de Túnez.",
+        "pt": "Vende-se quente em bancas de rua em toda a Tunísia.",
+        "id": "Dijual hangat di kaki lima di seluruh Tunisia.",
+        "ms": "Dijual panas di gerai tepi jalan di seluruh Tunisia.",
+        "ja": "チュニジアのあちこちの屋台で熱々で売られています。",
+        "fr": "Tunisie : vendu tout chaud dans les stands de rue."
+      },
+      "shape": "wrap",
+      "color": "#E0A64A",
+      "color2": "#F5EEDC",
+      "buff": "speed",
+      "price": 25
+    },
+    {
+      "id": "tunisia_lablabi",
+      "local": "Lablabi",
+      "name": {
+        "ar": "لبلابي",
+        "en": "Chickpea soup",
+        "tr": "Lablabi",
+        "de": "Lablabi",
+        "ur": "چنے کا شوربہ",
+        "hi": "छोले का शोरबा",
+        "es": "Lablabi",
+        "pt": "Lablabi",
+        "id": "Lablabi",
+        "ms": "Lablabi",
+        "ja": "ラブラビ",
+        "fr": "Lablabi"
+      },
+      "fact": {
+        "ar": "فطور محبوب في تونس.",
+        "en": "A favourite breakfast in Tunisia.",
+        "tr": "Tunus için sevilen bir kahvaltı.",
+        "de": "Ein beliebtes Frühstück in Tunesien.",
+        "ur": "تیونس کا پسندیدہ ناشتہ۔",
+        "hi": "ट्यूनीशिया का पसंदीदा नाश्ता।",
+        "es": "Un desayuno favorito en Túnez.",
+        "pt": "Um pequeno-almoço favorito na Tunísia.",
+        "id": "Sarapan favorit di Tunisia.",
+        "ms": "Sarapan kegemaran di Tunisia.",
+        "ja": "チュニジアで人気の朝ごはんです。",
+        "fr": "Tunisie : un petit-déjeuner très apprécié."
+      },
+      "shape": "bowl",
+      "color": "#E0C890",
+      "color2": "#C8553D",
+      "buff": "energy",
+      "price": 25
+    },
+    {
+      "id": "tunisia_bambalouni",
+      "local": "Bambalouni",
+      "name": {
+        "ar": "بمبالوني",
+        "en": "Sugared doughnut",
+        "tr": "Bambalouni",
+        "de": "Bambalouni",
+        "ur": "بمبالونی",
+        "hi": "बम्बालूनी",
+        "es": "Bambalouni",
+        "pt": "Bambalouni",
+        "id": "Bambalouni",
+        "ms": "Bambalouni",
+        "ja": "バンバルーニ",
+        "fr": "Bambalouni"
+      },
+      "fact": {
+        "ar": "حلا محبوب في تونس، أحلى مع الشاي أو القهوة.",
+        "en": "A sweet treat in Tunisia, best with tea or coffee.",
+        "tr": "Tunus için tatlı bir ikram, çay ya da kahveyle en güzeli.",
+        "de": "Eine süße Leckerei in Tunesien, am besten mit Tee oder Kaffee.",
+        "ur": "تیونس کی میٹھی سوغات، چائے یا کافی کے ساتھ مزیدار۔",
+        "hi": "ट्यूनीशिया की मीठी सौगात, चाय या कॉफ़ी के साथ सबसे अच्छी।",
+        "es": "Un dulce de Túnez, mejor con té o café.",
+        "pt": "Um doce da Tunísia, melhor com chá ou café.",
+        "id": "Camilan manis di Tunisia, paling enak dengan teh atau kopi.",
+        "ms": "Manisan di Tunisia, paling sedap dengan teh atau kopi.",
+        "ja": "チュニジアの甘いおやつ。お茶やコーヒーと一緒にどうぞ。",
+        "fr": "Tunisie : une douceur, parfaite avec un thé ou un café."
+      },
+      "shape": "ball",
+      "color": "#E0B070",
+      "color2": "#FFFFFF",
+      "buff": "energy",
+      "price": 20
+    },
+    {
+      "id": "tunisia_makroudh",
+      "local": "Makroudh",
+      "name": {
+        "ar": "مقروض",
+        "en": "Date semolina diamonds",
+        "tr": "Makroudh",
+        "de": "Makroudh",
+        "ur": "مقروض",
+        "hi": "मक़रूद",
+        "es": "Makroudh",
+        "pt": "Makroudh",
+        "id": "Makroudh",
+        "ms": "Makroudh",
+        "ja": "マクルード",
+        "fr": "Makroudh"
+      },
+      "fact": {
+        "ar": "سناك محبوب للطريق في تونس.",
+        "en": "A favourite snack for the road in Tunisia.",
+        "tr": "Tunus için yolda yenen sevilen bir atıştırmalık.",
+        "de": "Ein beliebter Snack für unterwegs in Tunesien.",
+        "ur": "تیونس میں سفر کا پسندیدہ ناشتہ۔",
+        "hi": "ट्यूनीशिया में सफ़र का पसंदीदा नाश्ता।",
+        "es": "Un tentempié favorito para el camino en Túnez.",
+        "pt": "Um petisco favorito para a viagem na Tunísia.",
+        "id": "Camilan favorit untuk perjalanan di Tunisia.",
+        "ms": "Snek kegemaran untuk perjalanan di Tunisia.",
+        "ja": "チュニジアで旅のお供に人気のおやつです。",
+        "fr": "Tunisie : un en-cas favori pour la route."
+      },
+      "shape": "cake",
+      "color": "#C8803A",
+      "color2": "#6B3A1E",
+      "buff": "magnet",
+      "price": 25
+    }
+  ],
+  "animals": [
+    "tunisia_camel",
+    "tunisia_horse"
+  ],
+  "attackTrailVfx": "jasmine_petals",
+  "eatIdle": {
+    "dishId": "tunisia_brik",
+    "propModel": "food_brik",
+    "reaction": "crunchy"
+  }
+}

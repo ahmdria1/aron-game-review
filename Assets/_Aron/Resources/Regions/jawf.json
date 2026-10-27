@@ -1,0 +1,178 @@
+{
+  "order": 160,
+  "id": "jawf",
+  "nameAr": "منطقة الجوف",
+  "nameEn": "Al Jawf Region",
+  "group": "saudi",
+  "country": "saudi",
+  "costume": "",
+  "music": "music_saudi_north",
+  "ground": "#C8A272",
+  "accent": "#4A6A2A",
+  "sky": "#A8C8E2",
+  "stages": [
+    {
+      "id": "jawf_1",
+      "nameAr": "قلعة زعبل",
+      "nameEn": "Za'abal Castle",
+      "terrain": "ruins",
+      "landmarks": [
+        "fort",
+        "mountains"
+      ],
+      "mount": "",
+      "difficulty": 4,
+      "boss": false,
+      "type": "normal",
+      "time": "sunset",
+      "weather": "clear",
+      "costume": "",
+      "lineAr": "قلعة زعبل فوق الصخر.",
+      "extra": ""
+    },
+    {
+      "id": "jawf_2",
+      "nameAr": "أعمدة الرجاجيل",
+      "nameEn": "Rajajil Pillars",
+      "terrain": "desert",
+      "landmarks": [
+        "stone_pillars",
+        "dunes"
+      ],
+      "mount": "camel",
+      "difficulty": 4,
+      "boss": false,
+      "type": "normal",
+      "time": "day",
+      "weather": "sandstorm",
+      "costume": "",
+      "lineAr": "الرجاجيل! أعمدة واقفة من زمان.",
+      "extra": ""
+    },
+    {
+      "id": "jawf_3",
+      "nameAr": "بحيرة دومة الجندل",
+      "nameEn": "Dumat Al Jandal Lake",
+      "terrain": "oasis",
+      "landmarks": [
+        "lake",
+        "palms"
+      ],
+      "mount": "",
+      "difficulty": 5,
+      "boss": false,
+      "type": "normal",
+      "time": "night",
+      "weather": "clear",
+      "costume": "",
+      "lineAr": "بحيرة بالصحراء!",
+      "extra": ""
+    },
+    {
+      "id": "jawf_4",
+      "nameAr": "حي الدرع",
+      "nameEn": "Al Dir'i Quarter",
+      "terrain": "ruins",
+      "landmarks": [
+        "mud_town",
+        "fort"
+      ],
+      "mount": "",
+      "difficulty": 5,
+      "boss": false,
+      "type": "action",
+      "time": "night",
+      "weather": "clear",
+      "costume": "",
+      "lineAr": "حي الدرع، بيوت حجر.",
+      "extra": ""
+    },
+    {
+      "id": "jawf_5",
+      "nameAr": "مزارع الزيتون",
+      "nameEn": "Al Jawf Olive Farms",
+      "terrain": "oasis",
+      "landmarks": [
+        "palms",
+        "water_tower"
+      ],
+      "mount": "",
+      "difficulty": 6,
+      "boss": false,
+      "type": "normal",
+      "time": "day",
+      "weather": "rain",
+      "costume": "",
+      "lineAr": "زيت زيتون الجوف.",
+      "extra": ""
+    },
+    {
+      "id": "jawf_6",
+      "nameAr": "ساحة حارس الدومة",
+      "nameEn": "Keeper of Dumah",
+      "terrain": "ruins",
+      "landmarks": [
+        "fort"
+      ],
+      "mount": "",
+      "difficulty": 6,
+      "boss": true,
+      "type": "boss",
+      "time": "night",
+      "weather": "clear",
+      "costume": "saudi_bisht",
+      "lineAr": "حارس الدومة ينتظر.",
+      "extra": ""
+    }
+  ],
+  "boss": {
+    "nameAr": "حارس الدومة",
+    "nameEn": "Keeper of Dumah",
+    "model": "golem",
+    "headgear": "turban",
+    "body": "#6A5A3A",
+    "trim": "#2E6B4F",
+    "projectile": "#556B2F",
+    "scale": 1.2,
+    "health": 12,
+    "introAr": "الدومة ما تنفتح لك!",
+    "stunAr": "آخ! راسي...",
+    "defeatAr": "افتحت لك... روح.",
+    "phases": [
+      {
+        "threshold": 1.0,
+        "move": 3,
+        "charge": 12,
+        "interval": 3,
+        "attacks": [
+          "charge",
+          "volley"
+        ],
+        "tauntAr": "زيتون طاير!"
+      },
+      {
+        "threshold": 0.6,
+        "move": 3.5,
+        "charge": 14,
+        "interval": 2.5,
+        "attacks": [
+          "charge",
+          "summon"
+        ],
+        "tauntAr": "يا حرس!"
+      },
+      {
+        "threshold": 0.3,
+        "move": 4,
+        "charge": 15,
+        "interval": 2.0,
+        "attacks": [
+          "volley",
+          "leap",
+          "summon"
+        ],
+        "tauntAr": "آخر محاولة!"
+      }
+    ]
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "defaultOffline": "ghost",
+  "defaultOnline": "ranked",
+  "minRealRacersForRanked": 2,
+  "paceFactor": {
+    "easy": 0.7,
+    "normal": 0.85,
+    "hard": 1.0
+  },
+  "referenceSpeed": [
+    {
+      "kind": "camel",
+      "speed": 14
+    },
+    {
+      "kind": "horse",
+      "speed": 20
+    },
+    {
+      "kind": "car",
+      "speed": 34
+    },
+    {
+      "kind": "ostrich",
+      "speed": 18
+    },
+    {
+      "kind": "bull",
+      "speed": 10
+    },
+    {
+      "kind": "boat",
+      "speed": 8
+    },
+    {
+      "kind": "sail",
+      "speed": 9
+    },
+    {
+      "kind": "ski",
+      "speed": 22
+    },
+    {
+      "kind": "surf",
+      "speed": 10
+    },
+    {
+      "kind": "sky",
+      "speed": 18
+    },
+    {
+      "kind": "bicycle",
+      "speed": 11
+    },
+    {
+      "kind": "motorcycle",
+      "speed": 30
+    }
+  ]
+}

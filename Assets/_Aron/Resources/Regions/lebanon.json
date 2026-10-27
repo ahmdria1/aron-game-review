@@ -1,0 +1,217 @@
+{
+  "order": 324,
+  "id": "lebanon",
+  "nameAr": "لبنان",
+  "nameEn": "Lebanon",
+  "group": "arab",
+  "music": "music_country_lebanon",
+  "ground": "#CDBB98",
+  "accent": "#00A651",
+  "sky": "#A0C4E4",
+  "country": "lebanon",
+  "costume": "",
+  "stages": [
+    {
+      "id": "lebanon_1",
+      "nameAr": "صخرة الروشة",
+      "nameEn": "Raouché Rocks",
+      "terrain": "coast",
+      "landmarks": [
+        "rock_arch",
+        "skyscraper"
+      ],
+      "mount": "",
+      "difficulty": 5,
+      "boss": false,
+      "lineAr": "صخرة الروشة! والبحر أزرق.",
+      "extra": "",
+      "time": "day",
+      "weather": "clear",
+      "type": "normal",
+      "costume": ""
+    },
+    {
+      "id": "lebanon_2",
+      "nameAr": "شارع الحمرا",
+      "nameEn": "Hamra Street",
+      "terrain": "street",
+      "landmarks": [
+        "skyscraper",
+        "souq"
+      ],
+      "mount": "",
+      "difficulty": 5,
+      "boss": false,
+      "lineAr": "الحمرا بالليل زحمة، وهم ورايا!",
+      "extra": "",
+      "time": "night",
+      "weather": "clear",
+      "type": "chase",
+      "costume": ""
+    },
+    {
+      "id": "lebanon_3",
+      "nameAr": "سوق جبيل القديم",
+      "nameEn": "Old Souq of Byblos",
+      "terrain": "souq",
+      "landmarks": [
+        "souq",
+        "fort"
+      ],
+      "mount": "",
+      "difficulty": 5,
+      "boss": false,
+      "lineAr": "جبيل، من أقدم المدن في الدنيا.",
+      "extra": "",
+      "time": "sunset",
+      "weather": "clear",
+      "type": "normal",
+      "costume": ""
+    },
+    {
+      "id": "lebanon_4",
+      "nameAr": "أرز الرب",
+      "nameEn": "Cedars of God",
+      "terrain": "forest",
+      "landmarks": [
+        "cedars",
+        "mountains"
+      ],
+      "mount": "",
+      "difficulty": 6,
+      "boss": false,
+      "lineAr": "الأرز والمطر... الأرض زلقة!",
+      "extra": "",
+      "time": "day",
+      "weather": "rain",
+      "type": "normal",
+      "costume": ""
+    },
+    {
+      "id": "lebanon_5",
+      "nameAr": "آثار بعلبك القديمة",
+      "nameEn": "Ancient Ruins of Baalbek",
+      "terrain": "ruins",
+      "landmarks": [
+        "columns",
+        "amphitheater"
+      ],
+      "mount": "horse",
+      "difficulty": 6,
+      "boss": false,
+      "lineAr": "أعمدة آثار بعلبك العملاقة، يلا يا حصان!",
+      "extra": "",
+      "time": "day",
+      "weather": "clear",
+      "type": "normal",
+      "costume": ""
+    },
+    {
+      "id": "lebanon_6",
+      "nameAr": "وادي قاديشا",
+      "nameEn": "Qadisha Valley",
+      "terrain": "mountain",
+      "landmarks": [
+        "mountains",
+        "cedars"
+      ],
+      "mount": "",
+      "difficulty": 7,
+      "boss": false,
+      "lineAr": "الوادي المقدس عميق، انتبه للحافة.",
+      "extra": "",
+      "time": "sunset",
+      "weather": "clear",
+      "type": "normal",
+      "costume": ""
+    },
+    {
+      "id": "lebanon_race",
+      "nameAr": "سباق التزلج في الأرز",
+      "nameEn": "Cedars Ski Race",
+      "terrain": "mountain",
+      "landmarks": [
+        "cedars",
+        "mountains"
+      ],
+      "mount": "",
+      "difficulty": 7,
+      "boss": false,
+      "lineAr": "سباق! سباق التزلج في الأرز، يلا نشوف مين الأول!",
+      "extra": "",
+      "time": "day",
+      "weather": "clear",
+      "type": "race",
+      "costume": "",
+      "race": "lebanon_ski"
+    },
+    {
+      "id": "lebanon_7",
+      "nameAr": "قلعة صيدا البحرية",
+      "nameEn": "Sidon Sea Castle",
+      "terrain": "coast",
+      "landmarks": [
+        "fort",
+        "dhows"
+      ],
+      "mount": "",
+      "difficulty": 7,
+      "boss": true,
+      "lineAr": "ساحر الأرز ينتظرني على القلعة...",
+      "extra": "",
+      "time": "night",
+      "weather": "rain",
+      "type": "boss",
+      "costume": ""
+    }
+  ],
+  "boss": {
+    "nameAr": "ساحر الأرز",
+    "nameEn": "The Cedar Sorcerer",
+    "model": "tree",
+    "headgear": "none",
+    "body": "#1F5E3A",
+    "trim": "#D9C27A",
+    "projectile": "#9BE36B",
+    "scale": 1.2,
+    "health": 14,
+    "introAr": "أنا عمري من عمر الأرز، وإنت بعدك شب صغير!",
+    "stunAr": "أغصاني تلخبطت...",
+    "defeatAr": "الأرز رجع يتنفس... لبنان لك.",
+    "phases": [
+      {
+        "threshold": 1.0,
+        "move": 3.5,
+        "charge": 13,
+        "interval": 2.8,
+        "attacks": [
+          "volley"
+        ],
+        "tauntAr": "كواز الأرز!"
+      },
+      {
+        "threshold": 0.66,
+        "move": 4,
+        "charge": 14,
+        "interval": 2.4,
+        "attacks": [
+          "volley",
+          "leap"
+        ],
+        "tauntAr": "من فوق الشجر!"
+      },
+      {
+        "threshold": 0.33,
+        "move": 5,
+        "charge": 16,
+        "interval": 1.9,
+        "attacks": [
+          "volley",
+          "leap",
+          "summon"
+        ],
+        "tauntAr": "يا غابة! قومي!"
+      }
+    ]
+  }
+}

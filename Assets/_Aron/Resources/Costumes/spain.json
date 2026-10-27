@@ -1,0 +1,99 @@
+{
+  "country": "spain",
+  "costumes": [
+    {
+      "id": "spain_traditional",
+      "country": "spain",
+      "hero": "aron",
+      "nameAr": "السترة الأندلسية",
+      "nameEn": "Andalusian vest",
+      "isDefault": true,
+      "price": 0,
+      "materials": [
+        {
+          "material": "Clothes",
+          "color": "#F4F0E8"
+        },
+        {
+          "material": "Trim",
+          "color": "#C9A86A"
+        }
+      ],
+      "meshes": [
+        {
+          "slot": "feet",
+          "mesh": "shoes_closed"
+        }
+      ],
+      "accessories": [
+        {
+          "kind": "shirt",
+          "color": "#FFFFFF"
+        },
+        {
+          "kind": "vest",
+          "color": "#2A2A2A",
+          "pattern": "#C60B1E"
+        },
+        {
+          "kind": "sash",
+          "color": "#C60B1E"
+        }
+      ],
+      "footwear": "leather_shoes",
+      "footwearColor": "#5A3A22",
+      "agalMount": "wrist",
+      "boredIdle": {
+        "id": "spain_castanet_clap",
+        "trigger": 22,
+        "noteEn": "Clicks his fingers to a flamenco beat",
+        "lineAr": "تاك تاك تاك!",
+        "seconds": 3
+      }
+    },
+    {
+      "id": "spain_noura",
+      "country": "spain",
+      "hero": "noura",
+      "nameAr": "العباية والشال الأندلسي",
+      "nameEn": "Abaya and Andalusian shawl",
+      "isDefault": true,
+      "price": 0,
+      "materials": [
+        {
+          "material": "Clothes",
+          "color": "#2A2A2A"
+        }
+      ],
+      "meshes": [
+        {
+          "slot": "body",
+          "mesh": "abaya_long"
+        },
+        {
+          "slot": "feet",
+          "mesh": "shoes_closed"
+        }
+      ],
+      "accessories": [
+        {
+          "kind": "abaya",
+          "color": "#2A2A2A",
+          "pattern": "#C9A86A"
+        },
+        {
+          "kind": "hijab",
+          "color": "#C60B1E"
+        },
+        {
+          "kind": "shawl",
+          "color": "#C60B1E",
+          "pattern": "#F1BF00"
+        }
+      ],
+      "footwear": "closed_flats",
+      "footwearColor": "#2A2020",
+      "agalMount": "none"
+    }
+  ]
+}

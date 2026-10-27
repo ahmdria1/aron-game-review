@@ -1,0 +1,146 @@
+{
+  "order": 155,
+  "id": "bahah",
+  "nameAr": "منطقة الباحة",
+  "nameEn": "Al Bahah Region",
+  "group": "saudi",
+  "country": "saudi",
+  "costume": "saudi_south",
+  "music": "music_saudi_south",
+  "ground": "#8DA06A",
+  "accent": "#5A7A2A",
+  "sky": "#AECBE4",
+  "stages": [
+    {
+      "id": "bahah_1",
+      "nameAr": "قرية ذي عين",
+      "nameEn": "Dhi Ain Village",
+      "terrain": "mountain",
+      "landmarks": [
+        "tower_houses",
+        "palms"
+      ],
+      "mount": "",
+      "difficulty": 3,
+      "boss": false,
+      "type": "normal",
+      "time": "sunset",
+      "weather": "clear",
+      "costume": "",
+      "lineAr": "ذي عين، قرية الرخام.",
+      "extra": ""
+    },
+    {
+      "id": "bahah_2",
+      "nameAr": "غابة رغدان",
+      "nameEn": "Raghadan Forest",
+      "terrain": "forest",
+      "landmarks": [
+        "cedars",
+        "terraces"
+      ],
+      "mount": "",
+      "difficulty": 4,
+      "boss": false,
+      "type": "normal",
+      "time": "day",
+      "weather": "rain",
+      "costume": "",
+      "lineAr": "غابة رغدان، عرعر وبرد.",
+      "extra": ""
+    },
+    {
+      "id": "bahah_3",
+      "nameAr": "عقبة الباحة",
+      "nameEn": "Al Bahah Pass",
+      "terrain": "mountain",
+      "landmarks": [
+        "mountains"
+      ],
+      "mount": "",
+      "difficulty": 5,
+      "boss": false,
+      "type": "chase",
+      "time": "night",
+      "weather": "clear",
+      "costume": "",
+      "lineAr": "العقبة، لفات ولفات.",
+      "extra": ""
+    },
+    {
+      "id": "bahah_4",
+      "nameAr": "سوق الباحة",
+      "nameEn": "Al Bahah Market",
+      "terrain": "souq",
+      "landmarks": [
+        "souq",
+        "tower_houses"
+      ],
+      "mount": "",
+      "difficulty": 5,
+      "boss": false,
+      "type": "action",
+      "time": "night",
+      "weather": "clear",
+      "costume": "",
+      "lineAr": "سوق الباحة، رمان وعسل.",
+      "extra": ""
+    },
+    {
+      "id": "bahah_5",
+      "nameAr": "ساحة نسر السراة",
+      "nameEn": "Eagle of Sarat",
+      "terrain": "mountain",
+      "landmarks": [
+        "mountains"
+      ],
+      "mount": "",
+      "difficulty": 6,
+      "boss": true,
+      "type": "boss",
+      "time": "sunset",
+      "weather": "rain",
+      "costume": "",
+      "lineAr": "نسر السراة ينقض!",
+      "extra": ""
+    }
+  ],
+  "boss": {
+    "nameAr": "نسر السراة",
+    "nameEn": "Eagle of Sarat",
+    "model": "eagle",
+    "headgear": "none",
+    "body": "#5A4030",
+    "trim": "#E8D8B0",
+    "projectile": "#8A6040",
+    "scale": 1.0,
+    "health": 10,
+    "introAr": "من فوق الغيم أشوفك!",
+    "stunAr": "آخ! راسي...",
+    "defeatAr": "طرت... بعيد.",
+    "phases": [
+      {
+        "threshold": 1.0,
+        "move": 4,
+        "charge": 14,
+        "interval": 2.7,
+        "attacks": [
+          "leap",
+          "dash"
+        ],
+        "tauntAr": "انقضاض!"
+      },
+      {
+        "threshold": 0.5,
+        "move": 4.5,
+        "charge": 15,
+        "interval": 2.2,
+        "attacks": [
+          "leap",
+          "volley"
+        ],
+        "tauntAr": "ريش حاد!"
+      }
+    ]
+  }
+}
